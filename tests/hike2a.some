@@ -1,0 +1,7 @@
+c* cover: 'Lecture: Yes', 'ArtExpo: Yes' => Hike: No
+c* cover: 'Lecture: No', 'SeasonSales: Yes' => Hike: No
+c* cover: 'Concert: No' => Hike: Yes
+c* cover: true => Hike: No
+c* cover size: 4
+c* cover wght: 4
+c* accur: 100.00%

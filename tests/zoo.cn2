@@ -1,0 +1,18 @@
+c* cover: not 'feathers: 0' => class_type: bird 
+c* cover: not 'milk: 0' => class_type: mammal 
+c* cover: not 'hair: 0' => class_type: bug 
+c* cover: not 'airborne: 0' => class_type: bug 
+c* cover: not 'fins: 0' => class_type: fish 
+c* cover: 'legs: 5' => class_type: invertebrate 
+c* cover: 'legs: 8' => class_type: invertebrate 
+c* cover: 'eggs: 0' => class_type: reptile 
+c* cover: 'breathes: 0' => class_type: invertebrate 
+c* cover: not 'aquatic: 0' => class_type: amphibian 
+c* cover: not 'predator: 0' => class_type: reptile 
+c* cover: not 'backbone: 0' => class_type: reptile 
+c* cover: 'legs: 0' => class_type: invertebrate 
+c* cover: 'hair: 0' => class_type: bug 
+c* cover: true => class_type: mammal 
+c* cover size: 15
+c* cover wght: 15
+c* accur: 100.00%

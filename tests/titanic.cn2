@@ -1,0 +1,17 @@
+c* cover: 'Sex: female', 'Category: 1st_class', not 'Age: adult' => Survived: 1 
+c* cover: 'Sex: female', not 'Category: 3rd_class', not 'Age: adult' => Survived: 1 
+c* cover: not 'Sex: female', 'Category: 2nd_class', not 'Age: adult' => Survived: 1 
+c* cover: 'Sex: female', not 'Category: 3rd_class', not 'Category: 2nd_class', not 'Category: crew' => Survived: 1 
+c* cover: not 'Category: 3rd_class', not 'Age: adult' => Survived: 1 
+c* cover: not 'Sex: female', 'Category: 2nd_class' => Survived: 0 
+c* cover: 'Category: 2nd_class' => Survived: 1 
+c* cover: 'Category: crew', not 'Sex: male' => Survived: 1 
+c* cover: not 'Sex: female', 'Category: 3rd_class', not 'Age: child' => Survived: 0 
+c* cover: 'Category: crew' => Survived: 0 
+c* cover: 'Category: 1st_class' => Survived: 0 
+c* cover: not 'Sex: female' => Survived: 0 
+c* cover: 'Category: 3rd_class' => Survived: 0 
+c* cover: true => Survived: 0 
+c* cover size: 14
+c* cover wght: 28
+c* accur: 78.25%

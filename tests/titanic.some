@@ -1,0 +1,3 @@
+c* cover: not 'Sex: female', 'Age: adult' => Survived: 0
+c* cover: not 'Category: 3rd_class' => Survived: 1
+c* cover: true => Survived: 0

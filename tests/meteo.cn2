@@ -1,0 +1,10 @@
+c* cover: 'outlook: overcast' => classes: + 
+c* cover: 'temperature: hot' => classes: - 
+c* cover: not 'humidity: high', not 'outlook: rain' => classes: + 
+c* cover: not 'outlook: rain' => classes: - 
+c* cover: 'windy: false' => classes: + 
+c* cover: 'outlook: rain' => classes: - 
+c* cover: true => classes: + 
+c* cover size: 7
+c* cover wght: 8
+c* accur: 100.00%
