@@ -56,6 +56,9 @@ class DLExplainer(object):
         # number of oracle calls involved
         self.calls = 0
 
+        # default explanation whose redundancy needs to be checked
+        self.redcheck = None
+
     def __del__(self):
         """
             Destructor.
@@ -104,6 +107,16 @@ class DLExplainer(object):
         if self.options.verb:
             preamble = [str(self.vars.obj(i)) for i in self.hypos]
             print('  inst: "IF {0} THEN {1}"'.format(' AND '.join(preamble), self.label))
+
+        if self.redcheck:
+            # using the given default explanation only
+            # and checking its redundancy
+            xtype, xnum, smallest = 'abd', 1, False
+            self.prepare_oracle(self.redcheck)
+
+            if self.options.verb:
+                preamble = [str(self.vars.obj(i)) for i in self.hypos]
+                print('  dexp: "IF {0} THEN {1}"'.format(' AND '.join(preamble), self.label))
 
         # calling the explanation procedure
         self._explain(instance, smallest=smallest, xtype=xtype, xnum=xnum,

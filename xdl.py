@@ -56,6 +56,10 @@ if __name__ == '__main__':
     explainer = DLExplainer(model, encoder, options)
 
     if options.inst:
+        if options.redcheck:
+            # getting default explanation
+            explainer.redcheck = model.explain(options.inst)
+
         explainer.explain(options.inst, smallest=options.smallest,
                 xtype=options.xtype, xnum=options.xnum, unit_mcs=options.unit_mcs,
                 use_cld=options.use_cld, use_mhs=options.use_mhs,
@@ -64,12 +68,19 @@ if __name__ == '__main__':
         # no instance is provided, hence
         # explaining all instances of the dataset
         # here are some stats
-        nofex, minex, maxex, avgex, times = [], [], [], [], []
+        nofex, minex, maxex, avgex, times, dxprd = [], [], [], [], [], []
         for inst in data:
+            if options.redcheck:
+                # getting default explanation
+                explainer.redcheck = model.explain(inst)
+
             expls = explainer.explain(inst, smallest=options.smallest,
                     xtype=options.xtype, xnum=options.xnum,
                     unit_mcs=options.unit_mcs, use_cld=options.use_cld,
                     use_mhs=options.use_mhs, reduce_=options.reduce)
+
+            if options.redcheck:
+                dxprd.append((len(explainer.redcheck) - len(expls[0])) / len(explainer.redcheck))
 
             nofex.append(len(expls))
             minex.append(min([len(e) for e in expls]))
@@ -94,3 +105,9 @@ if __name__ == '__main__':
             print('min time: {0:.2f}'.format(min(times)))
             print('avg time: {0:.2f}'.format(statistics.mean(times)))
             print('max time: {0:.2f}'.format(max(times)))
+
+            if options.redcheck:
+                print('')
+                print('min dxrd: {0:.2f}'.format(min(dxprd)))
+                print('avg dxrd: {0:.2f}'.format(statistics.mean(dxprd)))
+                print('max dxrd: {0:.2f}'.format(max(dxprd)))

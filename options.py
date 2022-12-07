@@ -46,6 +46,7 @@ class Options(object):
         self.inst = None
         self.model = None
         self.reduce = 'none'
+        self.redcheck = False
         self.smallest = False
         self.solver = 'g3'
         self.unit_mcs = False
@@ -66,8 +67,8 @@ class Options(object):
         self.command = command
 
         try:
-            opts, args = getopt.getopt(command[1:], 'dD:e:hHm:Mn:r:s:uvx:',
-                    ['dataset=', 'enc=', 'help', 'model', 'reduce=',
+            opts, args = getopt.getopt(command[1:], 'dD:e:hHm:Mn:r:Rs:uvx:',
+                    ['dataset=', 'enc=', 'help', 'model', 'reduce=', 'redcheck',
                         'smallest', 'solver=', 'trim=', 'verbose', 'unit-mcs',
                         'use-cld', 'use-mhs', 'xnum=', 'xtype='])
         except getopt.GetoptError as err:
@@ -96,6 +97,8 @@ class Options(object):
                 self.xnum = -1 if self.xnum == 'all' else int(self.xnum)
             elif opt in ('-r', '--reduce'):
                 self.reduce = str(arg)
+            elif opt in ('-R', '--redcheck'):
+                self.redcheck = True
             elif opt in ('-s', '--solver'):
                 self.solver = str(arg)
             elif opt in ('-u', '--unit-mcs'):
@@ -133,6 +136,7 @@ class Options(object):
         print('                                  Available values: [1, INT_MAX], all (default = 1)')
         print('        -r, --reduce=<string>     Extract an MUS from each unsatisfiable core')
         print('                                  Available values: lin, none, qxp (default = none)')
+        print('        -R, --red-check           Apply an explanation redundancy check for a default explanation')
         print('        -s, --solver=<string>     SAT solver to use')
         print('                                  Available values: g3, g4, lgl, mcb, mcm, mpl, m22, mc, mgh (default = g3)')
         print('        -u, --unit-mcs            Detect and block unit-size MCSes')

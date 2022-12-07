@@ -148,7 +148,7 @@ class Rule(object):
         return 'IF {0} THEN {1}'.format(', '.join([str(fv) for fv in self.fvals]),
                 str(self.label))
 
-    def applies_to(self, instance):
+    def applies_to(self, instance, return_failing=False):
         """
             Check if the rule applies to an instance.
             The instance must be a list of FeatureValue objects.
@@ -163,7 +163,10 @@ class Rule(object):
                     # the literal in the rule is opposite,
                     # or if the value is different in the rule
                     if (rval[0] == fv.val and rval[1] == False) or (rval[0] != fv.val and rval[1] == True):
-                        return False
+                        if return_failing:
+                            return fv
+                        else:
+                            return False
 
         # no failure indicates that the rule applies to this instance
         return True
@@ -275,11 +278,14 @@ class DecisionList(object):
 
         return ret
 
-    def execute(self, instance):
+    def execute(self, instance, input_format=False):
         """
             Make prediction for a given instance.
             The instance must be a list of FeatureValue objects.
         """
+
+        if input_format:
+            instance = [FeatureValue(*fv.split('=')) for fv in instance]
 
         for rule in self.rules:
             # print(rule)
@@ -290,3 +296,26 @@ class DecisionList(object):
 
         # no rule applies => using the default class
         return self.default
+
+    def explain(self, instance):
+        """
+            Compute a "default" explanation for a given instance. Here,
+            instance should be given as a tuple of equality strings. The
+            procedure follows the flow of self.execute() but instead of
+            checking whether a rule applies, it extracts incompatible
+            features.
+        """
+
+        inst = [FeatureValue(*fv.split('=')) for fv in instance]
+        expl, eset = [], set()
+
+        for rule in self.rules:
+            applies = rule.applies_to(inst, return_failing=True)
+            if applies == True:
+                expl += list(filter(lambda fv: fv.feat in rule.by_name and fv not in eset, inst))
+                break
+            elif applies not in eset:
+                expl += [applies]
+                eset.add(applies)
+
+        return tuple(['{0}={1}'.format(fv.feat, fv.val) for fv in expl])
