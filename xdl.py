@@ -108,6 +108,6 @@ if __name__ == '__main__':
 
             if options.redcheck:
                 print('')
-                print('min dxrd: {0:.2f}'.format(min(dxprd)))
-                print('avg dxrd: {0:.2f}'.format(statistics.mean(dxprd)))
-                print('max dxrd: {0:.2f}'.format(max(dxprd)))
+                print('min dxrd: {0:.4f}%'.format(min(dxprd)))
+                print('avg dxrd: {0:.4f}%'.format(statistics.mean(dxprd)))
+                print('max dxrd: {0:.4f}%'.format(max(dxprd)))
