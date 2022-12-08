@@ -1,0 +1,10 @@
+{
+    "prog_args": "-R -x abd -u -d -n all -e pw -r lin -vv",
+    "prog_alias": "xdl-tool",
+    "benchmark": "all",
+    "program": "xdl.py",
+    "runsolver_args": "-d 2 -C 1800 -W 1820 -M 10000",
+    "file_ext": [
+        ".cn2"
+    ]
+}

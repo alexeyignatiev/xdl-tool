@@ -1,0 +1,996 @@
+MODEL:
+IF "sepal.length" == 4.3 THEN "variety" == Setosa
+IF "sepal.length" == 4.4 THEN "variety" == Setosa
+IF "sepal.length" == 4.5 THEN "variety" == Setosa
+IF "sepal.length" == 4.6 THEN "variety" == Setosa
+IF "sepal.length" == 4.7 THEN "variety" == Setosa
+IF "sepal.length" == 4.8 THEN "variety" == Setosa
+IF "sepal.length" == 5 THEN "variety" == Setosa
+IF "sepal.length" == 5.3 THEN "variety" == Setosa
+IF "sepal.length" == 6.6 THEN "variety" == Versicolor
+IF "sepal.length" == 7 THEN "variety" == Versicolor
+IF "sepal.length" == 7.2 THEN "variety" == Virginica
+IF "sepal.length" == 7.3 THEN "variety" == Virginica
+IF "sepal.length" == 7.4 THEN "variety" == Virginica
+IF "sepal.length" == 7.6 THEN "variety" == Virginica
+IF "sepal.length" == 7.7 THEN "variety" == Virginica
+IF "sepal.length" == 7.9 THEN "variety" == Virginica
+IF "sepal.width" == 2.3 THEN "variety" == Versicolor
+IF "sepal.width" == 2.4 THEN "variety" == Versicolor
+IF "sepal.width" == 3.5 THEN "variety" == Setosa
+IF "sepal.width" == 3.6 THEN "variety" == Setosa
+IF "sepal.width" == 3.7 THEN "variety" == Setosa
+IF "sepal.width" == 3.8 THEN "variety" == Setosa
+IF "sepal.width" == 3.9 THEN "variety" == Setosa
+IF "sepal.width" == 4 THEN "variety" == Setosa
+IF "sepal.width" == 4.2 THEN "variety" == Setosa
+IF "sepal.length" == 5.5 THEN "variety" == Versicolor
+IF "sepal.width" == 4.4 THEN "variety" == Setosa
+IF "petal.length" == 1.4 THEN "variety" == Setosa
+IF "sepal.length" == 5.2 THEN "variety" == Versicolor
+IF "petal.length" == 1.5 THEN "variety" == Setosa
+IF "sepal.length" == 4.9 THEN "variety" == Virginica
+IF "petal.length" == 1.7 THEN "variety" == Setosa
+IF "sepal.length" == 5.1 THEN "variety" == Versicolor
+IF "sepal.length" == 5.4 THEN "variety" == Versicolor
+IF "sepal.width" == 3.4 THEN "variety" == Virginica
+IF "petal.length" == 3.6 THEN "variety" == Versicolor
+IF "petal.length" == 3.9 THEN "variety" == Versicolor
+IF "petal.length" == 4 THEN "variety" == Versicolor
+IF "sepal.width" == 2.6 THEN "variety" == Virginica
+IF "petal.length" == 4.1 THEN "variety" == Versicolor
+IF "sepal.length" == 5.8 THEN "variety" == Virginica
+IF "petal.length" == 4.2 THEN "variety" == Versicolor
+IF "sepal.length" == 5.9 THEN "variety" == Virginica
+IF "petal.length" == 4.3 THEN "variety" == Versicolor
+IF "petal.length" == 4.5 THEN "variety" == Versicolor
+IF "sepal.length" == 5.6 THEN "variety" == Virginica
+IF "sepal.length" == 5.7 THEN "variety" == Virginica
+IF "sepal.length" == 6.2 THEN "variety" == Virginica
+IF "sepal.length" == 6.4 THEN "variety" == Virginica
+IF "sepal.width" == 2.2 THEN "variety" == Virginica
+IF "sepal.width" == 3.2 THEN "variety" == Virginica
+IF "sepal.length" == 6.8 THEN "variety" == Versicolor
+IF "petal.length" == 4.6 THEN "variety" == Versicolor
+IF "sepal.length" == 6.5 THEN "variety" == Virginica
+IF "petal.length" == 4.7 THEN "variety" == Versicolor
+IF "sepal.length" == 6.1 THEN "variety" == Virginica
+IF "sepal.width" == 2.8 THEN "variety" == Virginica
+IF "sepal.width" == 2.9 THEN "variety" == Virginica
+IF "sepal.width" == 3.3 THEN "variety" == Virginica
+IF "petal.length" == 4.8 THEN "variety" == Virginica
+IF "sepal.length" == 6 THEN "variety" == Versicolor
+IF "sepal.width" == 2.7 THEN "variety" == Virginica
+IF "sepal.length" == 6.3 THEN "variety" == Versicolor
+IF "sepal.width" == 2.5 THEN "variety" == Virginica
+IF "petal.length" == 4.9 THEN "variety" == Versicolor
+IF "sepal.length" != 6.7 THEN "variety" == Virginica
+IF "sepal.width" != 3 THEN "variety" == Virginica
+IF "petal.length" == 5 THEN "variety" == Versicolor
+IF "sepal.length" == 6.7 THEN "variety" == Virginica
+IF TRUE THEN "variety" == Setosa
+
+ENCODINDS:
+# of classes: 3
+min # of vars: 123
+avg # of vars: 123.00
+max # of vars: 123
+min # of clauses: 2006
+avg # of clauses: 2009.33
+max # of clauses: 2014
+
+EXPLANATIONS:
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.5 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.5 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.5 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.9 AND "sepal.width" == 3 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.9 AND "sepal.width" == 3 AND "petal.length" == 1.4 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.4 AND "sepal.width" == 3 AND "sepal.length" == 4.9 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.7 AND "sepal.width" == 3.2 AND "petal.length" == 1.3 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.7 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.7 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.6 AND "sepal.width" == 3.1 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.6 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.9 AND "petal.length" == 1.7 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.9 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.9 AND "sepal.length" == 5.4 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.6 AND "sepal.width" == 3.4 AND "petal.length" == 1.4 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.4 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.4 AND "sepal.width" == 2.9 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.4 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.4 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.9 AND "sepal.width" == 3.1 AND "petal.length" == 1.5 AND "petal.width" == .1 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.9 AND "sepal.width" == 3.1 AND "petal.length" == 1.5 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.5 AND "sepal.width" == 3.1 AND "sepal.length" == 4.9 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.7 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.7 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.7 AND "sepal.length" == 5.4 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.8 AND "sepal.width" == 3.4 AND "petal.length" == 1.6 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.8 AND "sepal.width" == 3 AND "petal.length" == 1.4 AND "petal.width" == .1 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.3 AND "sepal.width" == 3 AND "petal.length" == 1.1 AND "petal.width" == .1 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.3 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.3 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.8 AND "sepal.width" == 4 AND "petal.length" == 1.2 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.8 AND "sepal.width" == 4 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 4 AND "sepal.length" == 5.8 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 4.4 AND "petal.length" == 1.5 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 4.4 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 4.4 AND "sepal.length" == 5.7 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.9 AND "petal.length" == 1.3 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.9 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.9 AND "sepal.length" == 5.4 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.5 AND "petal.length" == 1.4 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.5 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.5 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 3.8 AND "petal.length" == 1.7 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 3.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.8 AND "sepal.length" == 5.7 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.8 AND "petal.length" == 1.5 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.8 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.4 AND "petal.length" == 1.7 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.4 AND "petal.length" == 1.7 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.7 AND "sepal.width" == 3.4 AND "sepal.length" == 5.4 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.7 AND "petal.length" == 1.5 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.7 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.7 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.6 AND "sepal.width" == 3.6 AND "petal.length" == 1 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.3 AND "petal.length" == 1.7 AND "petal.width" == .5 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.3 AND "petal.length" == 1.7 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.7 AND "sepal.width" == 3.3 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.8 AND "sepal.width" == 3.4 AND "petal.length" == 1.9 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3 AND "petal.length" == 1.6 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.4 AND "petal.length" == 1.6 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.2 AND "sepal.width" == 3.5 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.2 AND "sepal.width" == 3.5 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.5 AND "sepal.length" == 5.2 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.2 AND "sepal.width" == 3.4 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.2 AND "sepal.width" == 3.4 AND "petal.length" == 1.4 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.4 AND "sepal.width" == 3.4 AND "sepal.length" == 5.2 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.7 AND "sepal.width" == 3.2 AND "petal.length" == 1.6 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.7 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.7 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.8 AND "sepal.width" == 3.1 AND "petal.length" == 1.6 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.4 AND "petal.length" == 1.5 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.4 AND "sepal.width" == 3.4 AND "petal.length" == 1.5 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.5 AND "sepal.width" == 3.4 AND "sepal.length" == 5.4 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.2 AND "sepal.width" == 4.1 AND "petal.length" == 1.5 AND "petal.width" == .1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.2 AND "sepal.width" == 4.1 AND "petal.length" == 1.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 1.5 AND "sepal.width" == 4.1 AND "sepal.length" == 5.2 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 4.2 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 4.2 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 4.2 AND "sepal.length" == 5.5 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.9 AND "sepal.width" == 3.1 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.9 AND "sepal.width" == 3.1 AND "petal.length" == 1.5 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.5 AND "sepal.width" == 3.1 AND "sepal.length" == 4.9 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.2 AND "petal.length" == 1.2 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 3.5 AND "petal.length" == 1.3 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 3.5 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.5 AND "sepal.length" == 5.5 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.9 AND "sepal.width" == 3.6 AND "petal.length" == 1.4 AND "petal.width" == .1 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.9 AND "sepal.width" == 3.6 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.6 AND "sepal.length" == 4.9 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.4 AND "sepal.width" == 3 AND "petal.length" == 1.3 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.4 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.4 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.4 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.4 AND "petal.length" == 1.5 THEN "variety" == Setosa"
+  expl: "IF "petal.length" == 1.5 AND "sepal.width" == 3.4 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.5 AND "petal.length" == 1.3 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.5 AND "sepal.width" == 2.3 AND "petal.length" == 1.3 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.4 AND "sepal.width" == 3.2 AND "petal.length" == 1.3 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.4 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.4 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.5 AND "petal.length" == 1.6 AND "petal.width" == .6 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.8 AND "petal.length" == 1.9 AND "petal.width" == .4 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.8 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.8 AND "sepal.width" == 3 AND "petal.length" == 1.4 AND "petal.width" == .3 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.8 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.8 AND "petal.length" == 1.6 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 3.8 THEN "variety" == Setosa"
+  expl: "IF "sepal.width" == 3.8 AND "sepal.length" == 5.1 THEN "variety" == Setosa"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.6 AND "sepal.width" == 3.2 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 4.6 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.3 AND "sepal.width" == 3.7 AND "petal.length" == 1.5 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5.3 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5.3 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 3.3 AND "petal.length" == 1.4 AND "petal.width" == .2 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7 AND "sepal.width" == 3.2 AND "petal.length" == 4.7 AND "petal.width" == 1.4 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 7 THEN "variety" == Versicolor"
+  expl: "IF "sepal.length" == 7 THEN "variety" == Versicolor"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 3.2 AND "petal.length" == 4.5 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 3.2 AND "petal.length" == 4.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 3.2 AND "sepal.length" == 6.4 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.1 AND "petal.length" == 4.9 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.1 AND "petal.length" == 4.9 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.9 AND "sepal.width" == 3.1 AND "sepal.length" == 6.9 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.3 AND "petal.length" == 4 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.3 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.3 AND "sepal.length" == 5.5 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.5 AND "sepal.width" == 2.8 AND "petal.length" == 4.6 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.5 AND "sepal.width" == 2.8 AND "petal.length" == 4.6 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.6 AND "sepal.width" == 2.8 AND "sepal.length" == 6.5 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.8 AND "petal.length" == 4.5 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.8 AND "petal.length" == 4.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 2.8 AND "sepal.length" == 5.7 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 3.3 AND "petal.length" == 4.7 AND "petal.width" == 1.6 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 3.3 AND "petal.length" == 4.7 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.7 AND "sepal.width" == 3.3 AND "sepal.length" == 6.3 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.9 AND "sepal.width" == 2.4 AND "petal.length" == 3.3 AND "petal.width" == 1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 4.9 AND "sepal.width" == 2.4 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.4 AND "sepal.length" == 4.9 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.6 AND "sepal.width" == 2.9 AND "petal.length" == 4.6 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.6 THEN "variety" == Versicolor"
+  expl: "IF "sepal.length" == 6.6 THEN "variety" == Versicolor"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.2 AND "sepal.width" == 2.7 AND "petal.length" == 3.9 AND "petal.width" == 1.4 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.2 AND "sepal.width" == 2.7 AND "petal.length" == 3.9 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 3.9 AND "sepal.width" == 2.7 AND "sepal.length" == 5.2 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 2 AND "petal.length" == 3.5 AND "petal.width" == 1 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.9 AND "sepal.width" == 3 AND "petal.length" == 4.2 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.9 AND "sepal.width" == 3 AND "petal.length" == 4.2 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.2 AND "sepal.width" == 3 AND "sepal.length" == 5.9 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6 AND "sepal.width" == 2.2 AND "petal.length" == 4 AND "petal.width" == 1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6 AND "sepal.width" == 2.2 AND "petal.length" == 4 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4 AND "sepal.width" == 2.2 AND "sepal.length" == 6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.9 AND "petal.length" == 4.7 AND "petal.width" == 1.4 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.9 AND "petal.length" == 4.7 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.7 AND "sepal.width" == 2.9 AND "sepal.length" == 6.1 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.9 AND "petal.length" == 3.6 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.9 AND "petal.length" == 3.6 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 3.6 AND "sepal.width" == 2.9 AND "sepal.length" == 5.6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.1 AND "petal.length" == 4.4 AND "petal.width" == 1.4 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.1 AND "petal.length" == 4.4 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.4 AND "sepal.width" == 3.1 AND "sepal.length" == 6.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.6 AND "sepal.width" == 3 AND "petal.length" == 4.5 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.6 AND "sepal.width" == 3 AND "petal.length" == 4.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 3 AND "sepal.length" == 5.6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.7 AND "petal.length" == 4.1 AND "petal.width" == 1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.7 AND "petal.length" == 4.1 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.1 AND "sepal.width" == 2.7 AND "sepal.length" == 5.8 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.2 AND "sepal.width" == 2.2 AND "petal.length" == 4.5 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.2 AND "sepal.width" == 2.2 AND "petal.length" == 4.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 2.2 AND "sepal.length" == 6.2 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.5 AND "petal.length" == 3.9 AND "petal.width" == 1.1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.5 AND "petal.length" == 3.9 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 3.9 AND "sepal.width" == 2.5 AND "sepal.length" == 5.6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.9 AND "sepal.width" == 3.2 AND "petal.length" == 4.8 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.9 AND "sepal.width" == 3.2 AND "petal.length" == 4.8 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.8 AND "sepal.width" == 3.2 AND "sepal.length" == 5.9 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.8 AND "petal.length" == 4 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.8 AND "petal.length" == 4 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4 AND "sepal.width" == 2.8 AND "sepal.length" == 6.1 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.5 AND "petal.length" == 4.9 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.5 AND "petal.length" == 4.9 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.9 AND "sepal.width" == 2.5 AND "sepal.length" == 6.3 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.8 AND "petal.length" == 4.7 AND "petal.width" == 1.2 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.8 AND "petal.length" == 4.7 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.7 AND "sepal.width" == 2.8 AND "sepal.length" == 6.1 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.9 AND "petal.length" == 4.3 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.9 AND "petal.length" == 4.3 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.3 AND "sepal.width" == 2.9 AND "sepal.length" == 6.4 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.6 AND "sepal.width" == 3 AND "petal.length" == 4.4 AND "petal.width" == 1.4 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.6 THEN "variety" == Versicolor"
+  expl: "IF "sepal.length" == 6.6 THEN "variety" == Versicolor"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.8 AND "sepal.width" == 2.8 AND "petal.length" == 4.8 AND "petal.width" == 1.4 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.8 AND "sepal.width" == 2.8 AND "petal.length" == 4.8 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.8 AND "sepal.width" == 2.8 AND "sepal.length" == 6.8 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3 AND "petal.length" == 5 AND "petal.width" == 1.7 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3 AND "petal.length" == 5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 5 AND "sepal.width" == 3 AND "sepal.length" == 6.7 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6 AND "sepal.width" == 2.9 AND "petal.length" == 4.5 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6 AND "sepal.width" == 2.9 AND "petal.length" == 4.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 2.9 AND "sepal.length" == 6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.6 AND "petal.length" == 3.5 AND "petal.width" == 1 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.6 AND "petal.length" == 3.5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 3.5 AND "sepal.width" == 2.6 AND "sepal.length" == 5.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.4 AND "petal.length" == 3.8 AND "petal.width" == 1.1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.4 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.4 AND "sepal.length" == 5.5 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.4 AND "petal.length" == 3.7 AND "petal.width" == 1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.4 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.4 AND "sepal.length" == 5.5 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.7 AND "petal.length" == 3.9 AND "petal.width" == 1.2 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.7 AND "petal.length" == 3.9 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 3.9 AND "sepal.width" == 2.7 AND "sepal.length" == 5.8 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6 AND "sepal.width" == 2.7 AND "petal.length" == 5.1 AND "petal.width" == 1.6 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6 AND "sepal.width" == 2.7 AND "petal.length" == 5.1 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 2.7 AND "sepal.length" == 6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.4 AND "sepal.width" == 3 AND "petal.length" == 4.5 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.4 AND "sepal.width" == 3 AND "petal.length" == 4.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 3 AND "sepal.length" == 5.4 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6 AND "sepal.width" == 3.4 AND "petal.length" == 4.5 AND "petal.width" == 1.6 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6 AND "sepal.width" == 3.4 AND "petal.length" == 4.5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 3.4 AND "sepal.length" == 6 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.1 AND "petal.length" == 4.7 AND "petal.width" == 1.5 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.1 AND "petal.length" == 4.7 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.7 AND "sepal.width" == 3.1 AND "sepal.length" == 6.7 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.3 AND "petal.length" == 4.4 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.3 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.3 AND "sepal.length" == 6.3 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.6 AND "sepal.width" == 3 AND "petal.length" == 4.1 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.6 AND "sepal.width" == 3 AND "petal.length" == 4.1 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.1 AND "sepal.width" == 3 AND "sepal.length" == 5.6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.5 AND "petal.length" == 4 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.5 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.5 AND "sepal.length" == 5.5 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.6 AND "petal.length" == 4.4 AND "petal.width" == 1.2 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.5 AND "sepal.width" == 2.6 THEN "variety" == Versicolor"
+  expl: "IF "sepal.width" == 2.6 AND "sepal.length" == 5.5 THEN "variety" == Versicolor"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.1 AND "sepal.width" == 3 AND "petal.length" == 4.6 AND "petal.width" == 1.4 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.1 AND "sepal.width" == 3 AND "petal.length" == 4.6 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.6 AND "sepal.width" == 3 AND "sepal.length" == 6.1 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.6 AND "petal.length" == 4 AND "petal.width" == 1.2 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.6 AND "petal.length" == 4 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4 AND "sepal.width" == 2.6 AND "sepal.length" == 5.8 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5 AND "sepal.width" == 2.3 AND "petal.length" == 3.3 AND "petal.width" == 1 THEN "variety" == Setosa"
+  dexp: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  expl: "IF "sepal.length" == 5 THEN "variety" == Setosa"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.7 AND "petal.length" == 4.2 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.7 AND "petal.length" == 4.2 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.2 AND "sepal.width" == 2.7 AND "sepal.length" == 5.6 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 3 AND "petal.length" == 4.2 AND "petal.width" == 1.2 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 3 AND "petal.length" == 4.2 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.2 AND "sepal.width" == 3 AND "sepal.length" == 5.7 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.9 AND "petal.length" == 4.2 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.9 AND "petal.length" == 4.2 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.2 AND "sepal.width" == 2.9 AND "sepal.length" == 5.7 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.2 AND "sepal.width" == 2.9 AND "petal.length" == 4.3 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.2 AND "sepal.width" == 2.9 AND "petal.length" == 4.3 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.3 AND "sepal.width" == 2.9 AND "sepal.length" == 6.2 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.1 AND "sepal.width" == 2.5 AND "petal.length" == 3 AND "petal.width" == 1.1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.1 AND "sepal.width" == 2.5 AND "petal.length" == 3 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 3 AND "sepal.width" == 2.5 AND "sepal.length" == 5.1 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.8 AND "petal.length" == 4.1 AND "petal.width" == 1.3 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.8 AND "petal.length" == 4.1 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 4.1 AND "sepal.width" == 2.8 AND "sepal.length" == 5.7 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 3.3 AND "petal.length" == 6 AND "petal.width" == 2.5 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 3.3 AND "petal.length" == 6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 6 AND "sepal.width" == 3.3 AND "sepal.length" == 6.3 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.7 AND "petal.length" == 5.1 AND "petal.width" == 1.9 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.7 AND "petal.length" == 5.1 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 2.7 AND "sepal.length" == 5.8 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.1 AND "sepal.width" == 3 AND "petal.length" == 5.9 AND "petal.width" == 2.1 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.1 AND "sepal.width" == 3 AND "petal.length" == 5.9 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.9 AND "sepal.width" == 3 AND "sepal.length" == 7.1 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.9 AND "petal.length" == 5.6 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.9 AND "petal.length" == 5.6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.6 AND "sepal.width" == 2.9 AND "sepal.length" == 6.3 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.5 AND "sepal.width" == 3 AND "petal.length" == 5.8 AND "petal.width" == 2.2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.5 AND "sepal.width" == 3 AND "petal.length" == 5.8 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.8 AND "sepal.width" == 3 AND "sepal.length" == 6.5 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.6 AND "sepal.width" == 3 AND "petal.length" == 6.6 AND "petal.width" == 2.1 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.6 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.6 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 4.9 AND "sepal.width" == 2.5 AND "petal.length" == 4.5 AND "petal.width" == 1.7 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 4.9 AND "sepal.width" == 2.5 AND "petal.length" == 4.5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.5 AND "sepal.width" == 2.5 AND "sepal.length" == 4.9 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.3 AND "sepal.width" == 2.9 AND "petal.length" == 6.3 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.3 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.3 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 2.5 AND "petal.length" == 5.8 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 2.5 AND "petal.length" == 5.8 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.8 AND "sepal.width" == 2.5 AND "sepal.length" == 6.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.2 AND "sepal.width" == 3.6 AND "petal.length" == 6.1 AND "petal.width" == 2.5 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.2 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.2 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.5 AND "sepal.width" == 3.2 AND "petal.length" == 5.1 AND "petal.width" == 2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.5 AND "sepal.width" == 3.2 AND "petal.length" == 5.1 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 3.2 AND "sepal.length" == 6.5 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.7 AND "petal.length" == 5.3 AND "petal.width" == 1.9 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.7 AND "petal.length" == 5.3 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.3 AND "sepal.width" == 2.7 AND "sepal.length" == 6.4 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.8 AND "sepal.width" == 3 AND "petal.length" == 5.5 AND "petal.width" == 2.1 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.8 AND "sepal.width" == 3 AND "petal.length" == 5.5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 5.5 AND "sepal.width" == 3 AND "sepal.length" == 6.8 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.5 AND "petal.length" == 5 AND "petal.width" == 2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.7 AND "sepal.width" == 2.5 AND "petal.length" == 5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5 AND "sepal.width" == 2.5 AND "sepal.length" == 5.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.8 AND "petal.length" == 5.1 AND "petal.width" == 2.4 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.8 AND "sepal.width" == 2.8 AND "petal.length" == 5.1 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 2.8 AND "sepal.length" == 5.8 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 3.2 AND "petal.length" == 5.3 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 3.2 AND "petal.length" == 5.3 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.3 AND "sepal.width" == 3.2 AND "sepal.length" == 6.4 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.5 AND "sepal.width" == 3 AND "petal.length" == 5.5 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.5 AND "sepal.width" == 3 AND "petal.length" == 5.5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.5 AND "sepal.width" == 3 AND "sepal.length" == 6.5 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.7 AND "sepal.width" == 3.8 AND "petal.length" == 6.7 AND "petal.width" == 2.2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.7 AND "sepal.width" == 2.6 AND "petal.length" == 6.9 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6 AND "sepal.width" == 2.2 AND "petal.length" == 5 AND "petal.width" == 1.5 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6 AND "sepal.width" == 2.2 AND "petal.length" == 5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5 AND "sepal.width" == 2.2 AND "sepal.length" == 6 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.2 AND "petal.length" == 5.7 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.2 AND "petal.length" == 5.7 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.7 AND "sepal.width" == 3.2 AND "sepal.length" == 6.9 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.8 AND "petal.length" == 4.9 AND "petal.width" == 2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.6 AND "sepal.width" == 2.8 AND "petal.length" == 4.9 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.9 AND "sepal.width" == 2.8 AND "sepal.length" == 5.6 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.7 AND "sepal.width" == 2.8 AND "petal.length" == 6.7 AND "petal.width" == 2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.7 AND "petal.length" == 4.9 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.7 AND "petal.length" == 4.9 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.9 AND "sepal.width" == 2.7 AND "sepal.length" == 6.3 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.3 AND "petal.length" == 5.7 AND "petal.width" == 2.1 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.3 AND "petal.length" == 5.7 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.7 AND "sepal.width" == 3.3 AND "sepal.length" == 6.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.2 AND "sepal.width" == 3.2 AND "petal.length" == 6 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.2 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.2 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.2 AND "sepal.width" == 2.8 AND "petal.length" == 4.8 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.2 AND "sepal.width" == 2.8 AND "petal.length" == 4.8 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.8 AND "sepal.width" == 2.8 AND "sepal.length" == 6.2 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.1 AND "sepal.width" == 3 AND "petal.length" == 4.9 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.1 AND "sepal.width" == 3 AND "petal.length" == 4.9 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.9 AND "sepal.width" == 3 AND "sepal.length" == 6.1 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.8 AND "petal.length" == 5.6 AND "petal.width" == 2.1 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.8 AND "petal.length" == 5.6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.6 AND "sepal.width" == 2.8 AND "sepal.length" == 6.4 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.2 AND "sepal.width" == 3 AND "petal.length" == 5.8 AND "petal.width" == 1.6 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.2 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.2 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.4 AND "sepal.width" == 2.8 AND "petal.length" == 6.1 AND "petal.width" == 1.9 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.4 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.4 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.9 AND "sepal.width" == 3.8 AND "petal.length" == 6.4 AND "petal.width" == 2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.9 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.9 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.8 AND "petal.length" == 5.6 AND "petal.width" == 2.2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 2.8 AND "petal.length" == 5.6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.6 AND "sepal.width" == 2.8 AND "sepal.length" == 6.4 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.8 AND "petal.length" == 5.1 AND "petal.width" == 1.5 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.8 AND "petal.length" == 5.1 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 2.8 AND "sepal.length" == 6.3 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.6 AND "petal.length" == 5.6 AND "petal.width" == 1.4 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.1 AND "sepal.width" == 2.6 AND "petal.length" == 5.6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.6 AND "sepal.width" == 2.6 AND "sepal.length" == 6.1 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 7.7 AND "sepal.width" == 3 AND "petal.length" == 6.1 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  expl: "IF "sepal.length" == 7.7 THEN "variety" == Virginica"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 3.4 AND "petal.length" == 5.6 AND "petal.width" == 2.4 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 3.4 AND "petal.length" == 5.6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.6 AND "sepal.width" == 3.4 AND "sepal.length" == 6.3 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.4 AND "sepal.width" == 3.1 AND "petal.length" == 5.5 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.4 AND "sepal.width" == 3.1 AND "petal.length" == 5.5 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.5 AND "sepal.width" == 3.1 AND "sepal.length" == 6.4 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6 AND "sepal.width" == 3 AND "petal.length" == 4.8 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6 AND "sepal.width" == 3 AND "petal.length" == 4.8 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 4.8 AND "sepal.width" == 3 AND "sepal.length" == 6 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.1 AND "petal.length" == 5.4 AND "petal.width" == 2.1 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.1 AND "petal.length" == 5.4 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.4 AND "sepal.width" == 3.1 AND "sepal.length" == 6.9 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.1 AND "petal.length" == 5.6 AND "petal.width" == 2.4 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.1 AND "petal.length" == 5.6 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.6 AND "sepal.width" == 3.1 AND "sepal.length" == 6.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.1 AND "petal.length" == 5.1 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.9 AND "sepal.width" == 3.1 AND "petal.length" == 5.1 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 3.1 AND "sepal.length" == 6.9 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.8 AND "sepal.width" == 3.2 AND "petal.length" == 5.9 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.8 AND "sepal.width" == 3.2 AND "petal.length" == 5.9 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.9 AND "sepal.width" == 3.2 AND "sepal.length" == 6.8 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.3 AND "petal.length" == 5.7 AND "petal.width" == 2.5 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3.3 AND "petal.length" == 5.7 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.7 AND "sepal.width" == 3.3 AND "sepal.length" == 6.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.7 AND "sepal.width" == 3 AND "petal.length" == 5.2 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.7 AND "sepal.width" == 3 AND "petal.length" == 5.2 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.2 AND "sepal.width" == 3 AND "sepal.length" == 6.7 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.5 AND "petal.length" == 5 AND "petal.width" == 1.9 THEN "variety" == Versicolor"
+  dexp: "IF "sepal.length" == 6.3 AND "sepal.width" == 2.5 AND "petal.length" == 5 THEN "variety" == Versicolor"
+  expl: "IF "petal.length" == 5 AND "sepal.width" == 2.5 AND "sepal.length" == 6.3 THEN "variety" == Versicolor"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.5 AND "sepal.width" == 3 AND "petal.length" == 5.2 AND "petal.width" == 2 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.5 AND "sepal.width" == 3 AND "petal.length" == 5.2 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.2 AND "sepal.width" == 3 AND "sepal.length" == 6.5 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 6.2 AND "sepal.width" == 3.4 AND "petal.length" == 5.4 AND "petal.width" == 2.3 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 6.2 AND "sepal.width" == 3.4 AND "petal.length" == 5.4 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.4 AND "sepal.width" == 3.4 AND "sepal.length" == 6.2 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF "sepal.length" == 5.9 AND "sepal.width" == 3 AND "petal.length" == 5.1 AND "petal.width" == 1.8 THEN "variety" == Virginica"
+  dexp: "IF "sepal.length" == 5.9 AND "sepal.width" == 3 AND "petal.length" == 5.1 THEN "variety" == Virginica"
+  expl: "IF "petal.length" == 5.1 AND "sepal.width" == 3 AND "sepal.length" == 5.9 THEN "variety" == Virginica"
+  # hypos left: 3
+  time: 0.00
+
+# of insts: 149
+tot # of expls: 149
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.30
+avg expl sz: 2.30
+max expl sz: 2.30
+Max expl sz: 3
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

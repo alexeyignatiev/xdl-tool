@@ -1,0 +1,423 @@
+MODEL:
+IF A0 == 0, B0 == 0 THEN target == 0
+IF A1 != 0, A0 != 0 THEN target == 1
+IF B0 == 0 THEN target == 0
+IF B1 == 0 THEN target == 0
+IF A0 == 0 THEN target == 1
+IF A0 == 1 THEN target == 1
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 8
+avg # of vars: 8.00
+max # of vars: 8
+min # of clauses: 9
+avg # of clauses: 9.50
+max # of clauses: 10
+
+EXPLANATIONS:
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A0 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 0 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF B0 == 1 AND A0 == 0 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 0 THEN target == 0"
+  expl: "IF B0 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 1 THEN target == 0"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 0 THEN target == 0"
+  expl: "IF B1 == 0 AND A1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 0 AND B0 == 1 AND B1 == 1 THEN target == 1"
+  expl: "IF B1 == 1 AND B0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 0 AND B1 == 1 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 0 AND Irrelevant == 1 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF A0 == 1 AND A1 == 1 AND B0 == 1 AND B1 == 1 AND Irrelevant == 0 AND Correlated == 0 THEN target == 1"
+  dexp: "IF A0 == 1 AND A1 == 1 THEN target == 1"
+  expl: "IF A1 == 1 AND A0 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 64
+tot # of expls: 64
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 2
+min expl sz: 2.00
+avg expl sz: 2.00
+max expl sz: 2.00
+Max expl sz: 2
+
+tot time: 0.00
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  18.75%
+max dxrd:  50.00%

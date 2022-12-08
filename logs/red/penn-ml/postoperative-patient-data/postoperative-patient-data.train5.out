@@ -1,0 +1,504 @@
+MODEL:
+IF L-BP == 1 THEN target == 0
+IF CORE-STBL == 0 THEN target == 0
+IF COMFORT == 1 THEN target == 2
+IF COMFORT == 4 THEN target == 0
+IF L-SURF == 0, L-CORE == 1 THEN target == 0
+IF L-CORE == 0, L-SURF == 1 THEN target == 0
+IF L-SURF == 0, L-BP != 0 THEN target == 0
+IF L-BP == 0, CORE-STBL != 1 THEN target == 0
+IF L-BP == 0, COMFORT == 0 THEN target == 2
+IF COMFORT == 0 THEN target == 0
+IF L-SURF == 1, L-BP == 0 THEN target == 0
+IF L-BP == 0, BP-STBL == 0 THEN target == 0
+IF BP-STBL == 2, L-SURF == 0 THEN target == 0
+IF L-SURF == 0 THEN target == 2
+IF L-BP == 0, L-CORE == 1 THEN target == 2
+IF L-BP == 0, L-CORE != 2 THEN target == 0
+IF L-BP == 0, L-O2 != 1 THEN target == 0
+IF L-SURF == 1, BP-STBL == 1 THEN target == 0
+IF L-SURF == 1 THEN target == 2
+IF BP-STBL == 2, L-CORE == 1 THEN target == 0
+IF BP-STBL == 2, L-CORE != 2 THEN target == 0
+IF L-CORE == 0 THEN target == 2
+IF CORE-STBL != 1 THEN target == 2
+IF BP-STBL == 2, L-O2 != 1 THEN target == 0
+IF L-CORE == 1, L-O2 != 1 THEN target == 2
+IF L-CORE == 1, SURF-STBL != 1 THEN target == 2
+IF L-BP == 0, SURF-STBL != 0 THEN target == 0
+IF BP-STBL == 0, L-O2 != 0 THEN target == 2
+IF BP-STBL == 2, SURF-STBL != 1 THEN target == 0
+IF COMFORT != 2, SURF-STBL == 0 THEN target == 0
+IF COMFORT == 2, BP-STBL == 2 THEN target == 2
+IF BP-STBL == 2 THEN target == 0
+IF COMFORT != 2, L-O2 != 1 THEN target == 2
+IF SURF-STBL != 0, L-O2 == 0 THEN target == 0
+IF L-O2 == 0, BP-STBL != 0 THEN target == 2
+IF L-CORE != 1, SURF-STBL != 0, COMFORT != 3 THEN target == 0
+IF SURF-STBL == 0, L-O2 != 0, L-BP != 0 THEN target == 0
+IF L-CORE == 1 THEN target == 0
+IF L-CORE == 2 THEN target == 2
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 49
+avg # of vars: 49.00
+max # of vars: 49
+min # of clauses: 128
+avg # of clauses: 134.00
+max # of clauses: 140
+
+EXPLANATIONS:
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 1 AND BP-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-SURF == 1 AND COMFORT == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 0 AND BP-STBL == 1 THEN target == 2"
+  expl: "IF BP-STBL == 1 AND L-SURF == 0 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 0 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 2 AND BP-STBL == 0 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 2 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF COMFORT == 3 AND CORE-STBL == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 0 THEN target == 0"
+  expl: "IF L-O2 == 0 AND L-SURF == 2 AND L-CORE == 2 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 0 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND L-CORE == 0 AND COMFORT == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 0 THEN target == 2"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 0 AND L-CORE == 2 AND L-SURF == 1 THEN target == 2"
+  expl: "IF L-CORE == 2 AND COMFORT == 0 AND CORE-STBL == 1 AND L-BP == 0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 2 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 2 AND COMFORT == 2 AND L-CORE == 0 AND L-SURF == 2 AND BP-STBL == 1 THEN target == 2"
+  expl: "IF BP-STBL == 1 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 2 AND L-BP == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 AND BP-STBL == 0 THEN target == 2"
+  expl: "IF BP-STBL == 0 AND L-SURF == 1 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 1 AND SURF-STBL == 0 THEN target == 0"
+  expl: "IF SURF-STBL == 0 AND BP-STBL == 1 AND L-CORE == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 0 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 0 AND L-SURF == 0 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-CORE == 0 AND COMFORT == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 2 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 2 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF COMFORT == 3 AND CORE-STBL == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 0 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 0 AND L-SURF == 0 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-CORE == 0 AND COMFORT == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 1 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND L-CORE == 1 AND COMFORT == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 3 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 1 AND SURF-STBL == 0 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-O2 == 1 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 1 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 3 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 2 AND L-CORE == 1 AND BP-STBL == 2 THEN target == 2"
+  expl: "IF BP-STBL == 2 AND L-CORE == 1 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 2 AND SURF-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-SURF == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 1 AND SURF-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-O2 == 1 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 0 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 2 AND L-CORE == 1 AND L-O2 == 1 AND BP-STBL == 1 AND SURF-STBL == 1 THEN target == 0"
+  expl: "IF SURF-STBL == 1 AND BP-STBL == 1 AND L-O2 == 1 AND L-CORE == 1 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 1 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 1 THEN target == 0"
+  expl: "IF L-BP == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 2 AND L-CORE == 1 AND BP-STBL == 0 THEN target == 0"
+  expl: "IF BP-STBL == 0 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-SURF == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 2 AND SURF-STBL == 1 THEN target == 2"
+  expl: "IF SURF-STBL == 1 AND BP-STBL == 2 AND L-O2 == 1 AND L-SURF == 2 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 1 AND SURF-STBL == 1 THEN target == 0"
+  expl: "IF SURF-STBL == 1 AND L-SURF == 2 AND L-CORE == 2 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 1 AND L-CORE == 1 AND L-O2 == 1 AND BP-STBL == 2 THEN target == 2"
+  expl: "IF BP-STBL == 2 AND L-CORE == 1 AND L-SURF == 1 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 0 THEN target == 0"
+  expl: "IF BP-STBL == 0 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND BP-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-SURF == 1 AND COMFORT == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 2 AND L-CORE == 1 AND BP-STBL == 1 AND L-O2 == 0 THEN target == 2"
+  expl: "IF L-O2 == 0 AND BP-STBL == 1 AND L-CORE == 1 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 1 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 1 THEN target == 2"
+  expl: "IF COMFORT == 1 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 0 THEN target == 0"
+  expl: "IF BP-STBL == 0 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 1 AND L-CORE == 1 AND L-O2 == 1 AND BP-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-SURF == 1 AND COMFORT == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-SURF == 2 AND L-CORE == 1 AND L-O2 == 1 AND BP-STBL == 1 AND SURF-STBL == 0 THEN target == 2"
+  expl: "IF SURF-STBL == 0 AND BP-STBL == 1 AND L-CORE == 1 AND L-SURF == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 2"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 0 AND L-SURF == 0 AND BP-STBL == 1 THEN target == 2"
+  expl: "IF BP-STBL == 1 AND L-SURF == 0 AND L-CORE == 0 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 1 AND L-CORE == 1 AND BP-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-SURF == 1 AND COMFORT == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 0 AND SURF-STBL == 1 THEN target == 0"
+  expl: "IF SURF-STBL == 1 AND BP-STBL == 1 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 0 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 4 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 4 THEN target == 0"
+  expl: "IF COMFORT == 4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 1 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 1 THEN target == 0"
+  expl: "IF L-BP == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 0 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 0 THEN target == 0"
+  expl: "IF CORE-STBL == 0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 0 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 1 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 0 THEN target == 2"
+  expl: "IF BP-STBL == 0 AND L-O2 == 1 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 0 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 0 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 1 AND SURF-STBL == 1 THEN target == 2"
+  expl: "IF SURF-STBL == 1 AND BP-STBL == 1 AND L-SURF == 2 AND L-CORE == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 0 AND L-SURF == 2 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF L-SURF == 2 AND L-CORE == 0 AND COMFORT == 3 AND L-BP == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 1 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 1 AND L-CORE == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 0 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 0 THEN target == 0"
+  expl: "IF L-SURF == 0 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND BP-STBL == 2 AND SURF-STBL == 0 THEN target == 0"
+  expl: "IF SURF-STBL == 0 AND BP-STBL == 2 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 AND BP-STBL == 2 THEN target == 2"
+  expl: "IF BP-STBL == 2 AND L-SURF == 1 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 2 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 2 AND COMFORT == 2 AND L-CORE == 0 AND L-SURF == 2 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-CORE == 0 AND COMFORT == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 1 AND SURF-STBL == 0 THEN target == 2"
+  expl: "IF SURF-STBL == 0 AND L-O2 == 1 AND BP-STBL == 1 AND L-SURF == 2 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 0 THEN target == 2"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 AND BP-STBL == 1 THEN target == 0"
+  expl: "IF BP-STBL == 1 AND L-SURF == 1 AND COMFORT == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 1 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 1 THEN target == 0"
+  expl: "IF L-BP == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 2 AND BP-STBL == 2 AND COMFORT == 4 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 2 AND COMFORT == 4 THEN target == 0"
+  expl: "IF COMFORT == 4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 0 AND L-O2 == 0 AND SURF-STBL == 0 THEN target == 2"
+  expl: "IF SURF-STBL == 0 AND BP-STBL == 0 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 1 AND L-O2 == 0 AND L-BP == 0 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 0 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 0 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 1 THEN target == 0"
+  expl: "IF L-SURF == 1 AND COMFORT == 2 AND L-BP == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF L-CORE == 1 AND L-SURF == 2 AND L-O2 == 1 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-SURF == 2 AND L-CORE == 1 AND L-O2 == 1 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-CORE == 1 AND L-SURF == 2 AND COMFORT == 2 AND L-BP == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 2 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND BP-STBL == 2 THEN target == 0"
+  expl: "IF BP-STBL == 2 AND L-O2 == 0 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 2 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 2 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 THEN target == 2"
+  expl: "IF L-SURF == 2 AND L-CORE == 2 AND COMFORT == 2 AND CORE-STBL == 2 AND L-BP == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 0 AND SURF-STBL == 0 THEN target == 0"
+  expl: "IF SURF-STBL == 0 AND BP-STBL == 1 AND L-CORE == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 0 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 2 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 2 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 0 AND SURF-STBL == 0 THEN target == 2"
+  expl: "IF SURF-STBL == 0 AND L-O2 == 0 AND BP-STBL == 1 AND L-SURF == 2 AND COMFORT == 2 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF L-CORE == 0 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 2 AND COMFORT == 0 THEN target == 0"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 0 AND L-CORE == 0 AND L-SURF == 2 THEN target == 0"
+  expl: "IF COMFORT == 0 AND L-BP == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF L-CORE == 2 AND L-SURF == 2 AND L-O2 == 0 AND L-BP == 2 AND SURF-STBL == 1 AND CORE-STBL == 1 AND BP-STBL == 1 AND COMFORT == 3 THEN target == 2"
+  dexp: "IF L-BP == 2 AND CORE-STBL == 1 AND COMFORT == 3 AND L-CORE == 2 AND L-SURF == 2 AND BP-STBL == 1 AND L-O2 == 0 AND SURF-STBL == 1 THEN target == 2"
+  expl: "IF SURF-STBL == 1 AND BP-STBL == 1 AND L-SURF == 2 AND L-CORE == 2 AND COMFORT == 3 AND CORE-STBL == 1 AND L-BP == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+# of insts: 72
+tot # of expls: 72
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 4.14
+avg expl sz: 4.14
+max expl sz: 4.14
+Max expl sz: 8
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  29.98%
+max dxrd:  66.67%

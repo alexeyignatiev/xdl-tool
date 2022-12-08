@@ -1,0 +1,1359 @@
+MODEL:
+IF x1 == 88.333 THEN target == 1
+IF x1 == 95.056 THEN target == 1
+IF x1 == 95.73 THEN target == 1
+IF x1 == 95.385 THEN target == 1
+IF x1 == 95.605 THEN target == 1
+IF x1 == 96.106 THEN target == 1
+IF x1 == 98.804 THEN target == 1
+IF x1 == 100.77 THEN target == 1
+IF x1 == 100.96 THEN target == 1
+IF x1 == 102.273 THEN target == 1
+IF x1 == 106.516 THEN target == 1
+IF x1 == 108.807 THEN target == 1
+IF x1 == 109.86 THEN target == 1
+IF x1 == 110.417 THEN target == 1
+IF x1 == 110.453 THEN target == 1
+IF x1 == 110.568 THEN target == 1
+IF x1 == 110.707 THEN target == 1
+IF x1 == 110.739 THEN target == 0
+IF x1 == 110.793 THEN target == 1
+IF x1 == 112.014 THEN target == 1
+IF x1 == 112.15 THEN target == 1
+IF x1 == 112.547 THEN target == 0
+IF x1 == 112.876 THEN target == 1
+IF x1 == 113.4 THEN target == 1
+IF x1 == 114.554 THEN target == 1
+IF x1 == 114.563 THEN target == 0
+IF x1 == 114.847 THEN target == 1
+IF x1 == 115.38 THEN target == 0
+IF x1 == 115.322 THEN target == 1
+IF x1 == 116.014 THEN target == 1
+IF x1 == 116.15 THEN target == 1
+IF x1 == 116.286 THEN target == 0
+IF x1 == 116.342 THEN target == 0
+IF x1 == 116.388 THEN target == 0
+IF x1 == 116.676 THEN target == 1
+IF x1 == 116.682 THEN target == 1
+IF x1 == 116.848 THEN target == 0
+IF x1 == 116.879 THEN target == 1
+IF x1 == 117.004 THEN target == 0
+IF x1 == 117.226 THEN target == 0
+IF x1 == 118.747 THEN target == 1
+IF x1 == 119.992 THEN target == 1
+IF x1 == 120.08 THEN target == 1
+IF x1 == 120.256 THEN target == 1
+IF x1 == 120.267 THEN target == 1
+IF x1 == 120.552 THEN target == 1
+IF x1 == 121.345 THEN target == 1
+IF x1 == 122.4 THEN target == 1
+IF x1 == 122.188 THEN target == 0
+IF x1 == 122.336 THEN target == 1
+IF x1 == 122.964 THEN target == 0
+IF x1 == 124.445 THEN target == 0
+IF x1 == 125.036 THEN target == 1
+IF x1 == 126.144 THEN target == 1
+IF x1 == 126.344 THEN target == 0
+IF x1 == 126.512 THEN target == 1
+IF x1 == 127.93 THEN target == 1
+IF x1 == 128.001 THEN target == 0
+IF x1 == 128.94 THEN target == 1
+IF x1 == 128.451 THEN target == 1
+IF x1 == 136.926 THEN target == 1
+IF x1 == 136.969 THEN target == 1
+IF x1 == 139.224 THEN target == 1
+IF x1 == 140.341 THEN target == 1
+IF x1 == 142.167 THEN target == 1
+IF x1 == 143.533 THEN target == 1
+IF x1 == 144.188 THEN target == 1
+IF x1 == 146.845 THEN target == 1
+IF x1 == 148.79 THEN target == 1
+IF x1 == 148.143 THEN target == 1
+IF x1 == 148.462 THEN target == 1
+IF x1 == 149.689 THEN target == 1
+IF x1 == 149.818 THEN target == 1
+IF x1 == 150.44 THEN target == 1
+IF x1 == 150.258 THEN target == 1
+IF x1 == 151.737 THEN target == 1
+IF x1 == 151.872 THEN target == 1
+IF x1 == 151.884 THEN target == 1
+IF x1 == 151.955 THEN target == 1
+IF x1 == 151.989 THEN target == 1
+IF x1 == 152.125 THEN target == 1
+IF x1 == 152.845 THEN target == 1
+IF x1 == 153.046 THEN target == 1
+IF x1 == 153.88 THEN target == 1
+IF x1 == 153.848 THEN target == 1
+IF x1 == 154.003 THEN target == 1
+IF x1 == 155.078 THEN target == 1
+IF x1 == 155.358 THEN target == 1
+IF x1 == 156.405 THEN target == 1
+IF x1 == 157.447 THEN target == 1
+IF x1 == 158.219 THEN target == 1
+IF x1 == 159.116 THEN target == 1
+IF x1 == 162.568 THEN target == 1
+IF x1 == 166.605 THEN target == 1
+IF x1 == 166.888 THEN target == 1
+IF x1 == 167.93 THEN target == 1
+IF x1 == 168.778 THEN target == 1
+IF x1 == 169.774 THEN target == 1
+IF x1 == 170.368 THEN target == 1
+IF x1 == 170.756 THEN target == 1
+IF x1 == 173.898 THEN target == 1
+IF x1 == 173.917 THEN target == 1
+IF x1 == 174.188 THEN target == 0
+IF x1 == 174.688 THEN target == 0
+IF x1 == 176.17 THEN target == 1
+IF x1 == 176.281 THEN target == 1
+IF x1 == 177.876 THEN target == 1
+IF x1 == 178.222 THEN target == 1
+IF x1 == 178.285 THEN target == 1
+IF x1 == 179.711 THEN target == 1
+IF x1 == 180.198 THEN target == 1
+IF x1 == 180.978 THEN target == 1
+IF x1 == 182.018 THEN target == 1
+IF x1 == 183.52 THEN target == 1
+IF x1 == 184.055 THEN target == 1
+IF x1 == 186.163 THEN target == 1
+IF x1 == 186.695 THEN target == 1
+IF x1 == 187.733 THEN target == 1
+IF x1 == 188.62 THEN target == 1
+IF x1 == 192.818 THEN target == 1
+IF x1 == 193.03 THEN target == 1
+IF x1 == 197.076 THEN target == 0
+IF x1 == 197.569 THEN target == 0
+IF x1 == 198.116 THEN target == 1
+IF x1 == 198.383 THEN target == 0
+IF x1 == 198.458 THEN target == 1
+IF x1 == 199.228 THEN target == 0
+IF x1 == 200.714 THEN target == 1
+IF x1 == 201.464 THEN target == 0
+IF x1 == 201.774 THEN target == 0
+IF x1 == 202.266 THEN target == 0
+IF x1 == 202.544 THEN target == 1
+IF x1 == 202.632 THEN target == 1
+IF x1 == 202.805 THEN target == 1
+IF x1 == 203.184 THEN target == 0
+IF x1 == 204.664 THEN target == 1
+IF x1 == 208.083 THEN target == 1
+IF x1 == 208.519 THEN target == 1
+IF x1 == 209.516 THEN target == 0
+IF x1 == 210.141 THEN target == 1
+IF x1 == 214.289 THEN target == 0
+IF x1 == 217.116 THEN target == 1
+IF x1 == 222.236 THEN target == 0
+IF x1 == 223.361 THEN target == 1
+IF x1 == 228.832 THEN target == 0
+IF x1 == 229.401 THEN target == 0
+IF x1 == 236.2 THEN target == 0
+IF x1 == 237.226 THEN target == 0
+IF x1 == 237.323 THEN target == 0
+IF x1 == 240.301 THEN target == 0
+IF x1 == 241.404 THEN target == 0
+IF x1 == 242.852 THEN target == 0
+IF x1 == 243.439 THEN target == 0
+IF x1 == 245.51 THEN target == 0
+IF x1 == 252.455 THEN target == 0
+IF x1 == 260.105 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 3914
+avg # of vars: 3914.00
+max # of vars: 3914
+min # of clauses: 361400
+avg # of clauses: 361438.50
+max # of clauses: 361477
+
+EXPLANATIONS:
+  inst: "IF x1 == 119.992 AND x2 == 157.302 AND x3 == 74.997 AND x4 == 0.00784 AND x5 == 0.00007 AND x6 == 0.0037 AND x7 == 0.00554 AND x8 == 0.01109 AND x9 == 0.04374 AND x10 == 0.426 AND x11 == 0.02182 AND x12 == 0.0313 AND x13 == 0.02971 AND x14 == 0.06545 AND x15 == 0.02211 AND x16 == 21.033 AND x17 == 0.414783 AND x18 == 0.815285 AND x19 == -4.813031 AND x20 == 0.266482 AND x21 == 2.301442 AND x22 == 0.284654 THEN target == 1"
+  dexp: "IF x1 == 119.992 THEN target == 1"
+  expl: "IF x1 == 119.992 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 122.4 AND x2 == 148.65 AND x3 == 113.819 AND x4 == 0.00968 AND x5 == 0.00008 AND x6 == 0.00465 AND x7 == 0.00696 AND x8 == 0.01394 AND x9 == 0.06134 AND x10 == 0.626 AND x11 == 0.03134 AND x12 == 0.04518 AND x13 == 0.04368 AND x14 == 0.09403 AND x15 == 0.01929 AND x16 == 19.085 AND x17 == 0.458359 AND x18 == 0.819521 AND x19 == -4.075192 AND x20 == 0.33559 AND x21 == 2.486855 AND x22 == 0.368674 THEN target == 1"
+  dexp: "IF x1 == 122.4 THEN target == 1"
+  expl: "IF x1 == 122.4 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.682 AND x2 == 131.111 AND x3 == 111.555 AND x4 == 0.0105 AND x5 == 0.00009 AND x6 == 0.00544 AND x7 == 0.00781 AND x8 == 0.01633 AND x9 == 0.05233 AND x10 == 0.482 AND x11 == 0.02757 AND x12 == 0.03858 AND x13 == 0.0359 AND x14 == 0.0827 AND x15 == 0.01309 AND x16 == 20.651 AND x17 == 0.429895 AND x18 == 0.825288 AND x19 == -4.443179 AND x20 == 0.311173 AND x21 == 2.342259 AND x22 == 0.332634 THEN target == 1"
+  dexp: "IF x1 == 116.682 THEN target == 1"
+  expl: "IF x1 == 116.682 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.676 AND x2 == 137.871 AND x3 == 111.366 AND x4 == 0.00997 AND x5 == 0.00009 AND x6 == 0.00502 AND x7 == 0.00698 AND x8 == 0.01505 AND x9 == 0.05492 AND x10 == 0.517 AND x11 == 0.02924 AND x12 == 0.04005 AND x13 == 0.03772 AND x14 == 0.08771 AND x15 == 0.01353 AND x16 == 20.644 AND x17 == 0.434969 AND x18 == 0.819235 AND x19 == -4.117501 AND x20 == 0.334147 AND x21 == 2.405554 AND x22 == 0.368975 THEN target == 1"
+  dexp: "IF x1 == 116.676 THEN target == 1"
+  expl: "IF x1 == 116.676 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.014 AND x2 == 141.781 AND x3 == 110.655 AND x4 == 0.01284 AND x5 == 0.00011 AND x6 == 0.00655 AND x7 == 0.00908 AND x8 == 0.01966 AND x9 == 0.06425 AND x10 == 0.584 AND x11 == 0.0349 AND x12 == 0.04825 AND x13 == 0.04465 AND x14 == 0.1047 AND x15 == 0.01767 AND x16 == 19.649 AND x17 == 0.417356 AND x18 == 0.823484 AND x19 == -3.747787 AND x20 == 0.234513 AND x21 == 2.33218 AND x22 == 0.410335 THEN target == 1"
+  dexp: "IF x1 == 116.014 THEN target == 1"
+  expl: "IF x1 == 116.014 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 120.552 AND x2 == 131.162 AND x3 == 113.787 AND x4 == 0.00968 AND x5 == 0.00008 AND x6 == 0.00463 AND x7 == 0.0075 AND x8 == 0.01388 AND x9 == 0.04701 AND x10 == 0.456 AND x11 == 0.02328 AND x12 == 0.03526 AND x13 == 0.03243 AND x14 == 0.06985 AND x15 == 0.01222 AND x16 == 21.378 AND x17 == 0.415564 AND x18 == 0.825069 AND x19 == -4.242867 AND x20 == 0.299111 AND x21 == 2.18756 AND x22 == 0.357775 THEN target == 1"
+  dexp: "IF x1 == 120.552 THEN target == 1"
+  expl: "IF x1 == 120.552 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 120.267 AND x2 == 137.244 AND x3 == 114.82 AND x4 == 0.00333 AND x5 == 0.00003 AND x6 == 0.00155 AND x7 == 0.00202 AND x8 == 0.00466 AND x9 == 0.01608 AND x10 == 0.14 AND x11 == 0.00779 AND x12 == 0.00937 AND x13 == 0.01351 AND x14 == 0.02337 AND x15 == 0.00607 AND x16 == 24.886 AND x17 == 0.59604 AND x18 == 0.764112 AND x19 == -5.634322 AND x20 == 0.257682 AND x21 == 1.854785 AND x22 == 0.211756 THEN target == 1"
+  dexp: "IF x1 == 120.267 THEN target == 1"
+  expl: "IF x1 == 120.267 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 107.332 AND x2 == 113.84 AND x3 == 104.315 AND x4 == 0.0029 AND x5 == 0.00003 AND x6 == 0.00144 AND x7 == 0.00182 AND x8 == 0.00431 AND x9 == 0.01567 AND x10 == 0.134 AND x11 == 0.00829 AND x12 == 0.00946 AND x13 == 0.01256 AND x14 == 0.02487 AND x15 == 0.00344 AND x16 == 26.892 AND x17 == 0.63742 AND x18 == 0.763262 AND x19 == -6.167603 AND x20 == 0.183721 AND x21 == 2.064693 AND x22 == 0.163755 THEN target == 1"
+  dexp: "IF x1 == 107.332 THEN target == 1"
+  expl: "IF x1 == 107.332 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 95.73 AND x2 == 132.068 AND x3 == 91.754 AND x4 == 0.00551 AND x5 == 0.00006 AND x6 == 0.00293 AND x7 == 0.00332 AND x8 == 0.0088 AND x9 == 0.02093 AND x10 == 0.191 AND x11 == 0.01073 AND x12 == 0.01277 AND x13 == 0.01717 AND x14 == 0.03218 AND x15 == 0.0107 AND x16 == 21.812 AND x17 == 0.615551 AND x18 == 0.773587 AND x19 == -5.498678 AND x20 == 0.327769 AND x21 == 2.322511 AND x22 == 0.231571 THEN target == 1"
+  dexp: "IF x1 == 95.73 THEN target == 1"
+  expl: "IF x1 == 95.73 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 95.056 AND x2 == 120.103 AND x3 == 91.226 AND x4 == 0.00532 AND x5 == 0.00006 AND x6 == 0.00268 AND x7 == 0.00332 AND x8 == 0.00803 AND x9 == 0.02838 AND x10 == 0.255 AND x11 == 0.01441 AND x12 == 0.01725 AND x13 == 0.02444 AND x14 == 0.04324 AND x15 == 0.01022 AND x16 == 21.862 AND x17 == 0.547037 AND x18 == 0.798463 AND x19 == -5.011879 AND x20 == 0.325996 AND x21 == 2.432792 AND x22 == 0.271362 THEN target == 1"
+  dexp: "IF x1 == 95.056 THEN target == 1"
+  expl: "IF x1 == 95.056 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 88.333 AND x2 == 112.24 AND x3 == 84.072 AND x4 == 0.00505 AND x5 == 0.00006 AND x6 == 0.00254 AND x7 == 0.0033 AND x8 == 0.00763 AND x9 == 0.02143 AND x10 == 0.197 AND x11 == 0.01079 AND x12 == 0.01342 AND x13 == 0.01892 AND x14 == 0.03237 AND x15 == 0.01166 AND x16 == 21.118 AND x17 == 0.611137 AND x18 == 0.776156 AND x19 == -5.24977 AND x20 == 0.391002 AND x21 == 2.407313 AND x22 == 0.24974 THEN target == 1"
+  dexp: "IF x1 == 88.333 THEN target == 1"
+  expl: "IF x1 == 88.333 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 91.904 AND x2 == 115.871 AND x3 == 86.292 AND x4 == 0.0054 AND x5 == 0.00006 AND x6 == 0.00281 AND x7 == 0.00336 AND x8 == 0.00844 AND x9 == 0.02752 AND x10 == 0.249 AND x11 == 0.01424 AND x12 == 0.01641 AND x13 == 0.02214 AND x14 == 0.04272 AND x15 == 0.01141 AND x16 == 21.414 AND x17 == 0.58339 AND x18 == 0.79252 AND x19 == -4.960234 AND x20 == 0.363566 AND x21 == 2.642476 AND x22 == 0.275931 THEN target == 1"
+  dexp: "IF x1 == 91.904 THEN target == 1"
+  expl: "IF x1 == 91.904 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 136.926 AND x2 == 159.866 AND x3 == 131.276 AND x4 == 0.00293 AND x5 == 0.00002 AND x6 == 0.00118 AND x7 == 0.00153 AND x8 == 0.00355 AND x9 == 0.01259 AND x10 == 0.112 AND x11 == 0.00656 AND x12 == 0.00717 AND x13 == 0.0114 AND x14 == 0.01968 AND x15 == 0.00581 AND x16 == 25.703 AND x17 == 0.4606 AND x18 == 0.646846 AND x19 == -6.547148 AND x20 == 0.152813 AND x21 == 2.041277 AND x22 == 0.138512 THEN target == 1"
+  dexp: "IF x1 == 136.926 THEN target == 1"
+  expl: "IF x1 == 136.926 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 139.173 AND x2 == 179.139 AND x3 == 76.556 AND x4 == 0.0039 AND x5 == 0.00003 AND x6 == 0.00165 AND x7 == 0.00208 AND x8 == 0.00496 AND x9 == 0.01642 AND x10 == 0.154 AND x11 == 0.00728 AND x12 == 0.00932 AND x13 == 0.01797 AND x14 == 0.02184 AND x15 == 0.01041 AND x16 == 24.889 AND x17 == 0.430166 AND x18 == 0.665833 AND x19 == -5.660217 AND x20 == 0.254989 AND x21 == 2.519422 AND x22 == 0.199889 THEN target == 1"
+  dexp: "IF x1 == 139.173 THEN target == 1"
+  expl: "IF x1 == 139.173 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 152.845 AND x2 == 163.305 AND x3 == 75.836 AND x4 == 0.00294 AND x5 == 0.00002 AND x6 == 0.00121 AND x7 == 0.00149 AND x8 == 0.00364 AND x9 == 0.01828 AND x10 == 0.158 AND x11 == 0.01064 AND x12 == 0.00972 AND x13 == 0.01246 AND x14 == 0.03191 AND x15 == 0.00609 AND x16 == 24.922 AND x17 == 0.474791 AND x18 == 0.654027 AND x19 == -6.105098 AND x20 == 0.203653 AND x21 == 2.125618 AND x22 == 0.1701 THEN target == 1"
+  dexp: "IF x1 == 152.845 THEN target == 1"
+  expl: "IF x1 == 152.845 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 142.167 AND x2 == 217.455 AND x3 == 83.159 AND x4 == 0.00369 AND x5 == 0.00003 AND x6 == 0.00157 AND x7 == 0.00203 AND x8 == 0.00471 AND x9 == 0.01503 AND x10 == 0.126 AND x11 == 0.00772 AND x12 == 0.00888 AND x13 == 0.01359 AND x14 == 0.02316 AND x15 == 0.00839 AND x16 == 25.175 AND x17 == 0.565924 AND x18 == 0.658245 AND x19 == -5.340115 AND x20 == 0.210185 AND x21 == 2.205546 AND x22 == 0.234589 THEN target == 1"
+  dexp: "IF x1 == 142.167 THEN target == 1"
+  expl: "IF x1 == 142.167 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 144.188 AND x2 == 349.259 AND x3 == 82.764 AND x4 == 0.00544 AND x5 == 0.00004 AND x6 == 0.00211 AND x7 == 0.00292 AND x8 == 0.00632 AND x9 == 0.02047 AND x10 == 0.192 AND x11 == 0.00969 AND x12 == 0.012 AND x13 == 0.02074 AND x14 == 0.02908 AND x15 == 0.01859 AND x16 == 22.333 AND x17 == 0.56738 AND x18 == 0.644692 AND x19 == -5.44004 AND x20 == 0.239764 AND x21 == 2.264501 AND x22 == 0.218164 THEN target == 1"
+  dexp: "IF x1 == 144.188 THEN target == 1"
+  expl: "IF x1 == 144.188 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 168.778 AND x2 == 232.181 AND x3 == 75.603 AND x4 == 0.00718 AND x5 == 0.00004 AND x6 == 0.00284 AND x7 == 0.00387 AND x8 == 0.00853 AND x9 == 0.03327 AND x10 == 0.348 AND x11 == 0.01441 AND x12 == 0.01893 AND x13 == 0.0343 AND x14 == 0.04322 AND x15 == 0.02919 AND x16 == 20.376 AND x17 == 0.631099 AND x18 == 0.605417 AND x19 == -2.93107 AND x20 == 0.434326 AND x21 == 3.007463 AND x22 == 0.430788 THEN target == 1"
+  dexp: "IF x1 == 168.778 THEN target == 1"
+  expl: "IF x1 == 168.778 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 153.046 AND x2 == 175.829 AND x3 == 68.623 AND x4 == 0.00742 AND x5 == 0.00005 AND x6 == 0.00364 AND x7 == 0.00432 AND x8 == 0.01092 AND x9 == 0.05517 AND x10 == 0.542 AND x11 == 0.02471 AND x12 == 0.03572 AND x13 == 0.05767 AND x14 == 0.07413 AND x15 == 0.0316 AND x16 == 17.28 AND x17 == 0.665318 AND x18 == 0.719467 AND x19 == -3.949079 AND x20 == 0.35787 AND x21 == 3.10901 AND x22 == 0.377429 THEN target == 1"
+  dexp: "IF x1 == 153.046 THEN target == 1"
+  expl: "IF x1 == 153.046 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 156.405 AND x2 == 189.398 AND x3 == 142.822 AND x4 == 0.00768 AND x5 == 0.00005 AND x6 == 0.00372 AND x7 == 0.00399 AND x8 == 0.01116 AND x9 == 0.03995 AND x10 == 0.348 AND x11 == 0.01721 AND x12 == 0.02374 AND x13 == 0.0431 AND x14 == 0.05164 AND x15 == 0.03365 AND x16 == 17.153 AND x17 == 0.649554 AND x18 == 0.68608 AND x19 == -4.554466 AND x20 == 0.340176 AND x21 == 2.856676 AND x22 == 0.322111 THEN target == 1"
+  dexp: "IF x1 == 156.405 THEN target == 1"
+  expl: "IF x1 == 156.405 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 153.848 AND x2 == 165.738 AND x3 == 65.782 AND x4 == 0.0084 AND x5 == 0.00005 AND x6 == 0.00428 AND x7 == 0.0045 AND x8 == 0.01285 AND x9 == 0.0381 AND x10 == 0.328 AND x11 == 0.01667 AND x12 == 0.02383 AND x13 == 0.04055 AND x14 == 0.05 AND x15 == 0.03871 AND x16 == 17.536 AND x17 == 0.660125 AND x18 == 0.704087 AND x19 == -4.095442 AND x20 == 0.262564 AND x21 == 2.73971 AND x22 == 0.365391 THEN target == 1"
+  dexp: "IF x1 == 153.848 THEN target == 1"
+  expl: "IF x1 == 153.848 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 153.88 AND x2 == 172.86 AND x3 == 78.128 AND x4 == 0.0048 AND x5 == 0.00003 AND x6 == 0.00232 AND x7 == 0.00267 AND x8 == 0.00696 AND x9 == 0.04137 AND x10 == 0.37 AND x11 == 0.02021 AND x12 == 0.02591 AND x13 == 0.04525 AND x14 == 0.06062 AND x15 == 0.01849 AND x16 == 19.493 AND x17 == 0.629017 AND x18 == 0.698951 AND x19 == -5.18696 AND x20 == 0.237622 AND x21 == 2.557536 AND x22 == 0.259765 THEN target == 1"
+  dexp: "IF x1 == 153.88 THEN target == 1"
+  expl: "IF x1 == 153.88 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 167.93 AND x2 == 193.221 AND x3 == 79.068 AND x4 == 0.00442 AND x5 == 0.00003 AND x6 == 0.0022 AND x7 == 0.00247 AND x8 == 0.00661 AND x9 == 0.04351 AND x10 == 0.377 AND x11 == 0.02228 AND x12 == 0.0254 AND x13 == 0.04246 AND x14 == 0.06685 AND x15 == 0.0128 AND x16 == 22.468 AND x17 == 0.61906 AND x18 == 0.679834 AND x19 == -4.330956 AND x20 == 0.262384 AND x21 == 2.916777 AND x22 == 0.285695 THEN target == 1"
+  dexp: "IF x1 == 167.93 THEN target == 1"
+  expl: "IF x1 == 167.93 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 173.917 AND x2 == 192.735 AND x3 == 86.18 AND x4 == 0.00476 AND x5 == 0.00003 AND x6 == 0.00221 AND x7 == 0.00258 AND x8 == 0.00663 AND x9 == 0.04192 AND x10 == 0.364 AND x11 == 0.02187 AND x12 == 0.0247 AND x13 == 0.03772 AND x14 == 0.06562 AND x15 == 0.0184 AND x16 == 20.422 AND x17 == 0.537264 AND x18 == 0.686894 AND x19 == -5.248776 AND x20 == 0.210279 AND x21 == 2.547508 AND x22 == 0.253556 THEN target == 1"
+  dexp: "IF x1 == 173.917 THEN target == 1"
+  expl: "IF x1 == 173.917 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 163.656 AND x2 == 200.841 AND x3 == 76.779 AND x4 == 0.00742 AND x5 == 0.00005 AND x6 == 0.0038 AND x7 == 0.0039 AND x8 == 0.0114 AND x9 == 0.01659 AND x10 == 0.164 AND x11 == 0.00738 AND x12 == 0.00948 AND x13 == 0.01497 AND x14 == 0.02214 AND x15 == 0.01778 AND x16 == 23.831 AND x17 == 0.397937 AND x18 == 0.732479 AND x19 == -5.557447 AND x20 == 0.22089 AND x21 == 2.692176 AND x22 == 0.215961 THEN target == 1"
+  dexp: "IF x1 == 163.656 THEN target == 1"
+  expl: "IF x1 == 163.656 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 104.4 AND x2 == 206.002 AND x3 == 77.968 AND x4 == 0.00633 AND x5 == 0.00006 AND x6 == 0.00316 AND x7 == 0.00375 AND x8 == 0.00948 AND x9 == 0.03767 AND x10 == 0.381 AND x11 == 0.01732 AND x12 == 0.02245 AND x13 == 0.0378 AND x14 == 0.05197 AND x15 == 0.02887 AND x16 == 22.066 AND x17 == 0.522746 AND x18 == 0.737948 AND x19 == -5.571843 AND x20 == 0.236853 AND x21 == 2.846369 AND x22 == 0.219514 THEN target == 1"
+  dexp: "IF x1 == 104.4 THEN target == 1"
+  expl: "IF x1 == 104.4 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 171.041 AND x2 == 208.313 AND x3 == 75.501 AND x4 == 0.00455 AND x5 == 0.00003 AND x6 == 0.0025 AND x7 == 0.00234 AND x8 == 0.0075 AND x9 == 0.01966 AND x10 == 0.186 AND x11 == 0.00889 AND x12 == 0.01169 AND x13 == 0.01872 AND x14 == 0.02666 AND x15 == 0.01095 AND x16 == 25.908 AND x17 == 0.418622 AND x18 == 0.720916 AND x19 == -6.18359 AND x20 == 0.226278 AND x21 == 2.589702 AND x22 == 0.147403 THEN target == 1"
+  dexp: "IF x1 == 171.041 THEN target == 1"
+  expl: "IF x1 == 171.041 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 146.845 AND x2 == 208.701 AND x3 == 81.737 AND x4 == 0.00496 AND x5 == 0.00003 AND x6 == 0.0025 AND x7 == 0.00275 AND x8 == 0.00749 AND x9 == 0.01919 AND x10 == 0.198 AND x11 == 0.00883 AND x12 == 0.01144 AND x13 == 0.01826 AND x14 == 0.0265 AND x15 == 0.01328 AND x16 == 25.119 AND x17 == 0.358773 AND x18 == 0.726652 AND x19 == -6.27169 AND x20 == 0.196102 AND x21 == 2.314209 AND x22 == 0.162999 THEN target == 1"
+  dexp: "IF x1 == 146.845 THEN target == 1"
+  expl: "IF x1 == 146.845 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 155.358 AND x2 == 227.383 AND x3 == 80.055 AND x4 == 0.0031 AND x5 == 0.00002 AND x6 == 0.00159 AND x7 == 0.00176 AND x8 == 0.00476 AND x9 == 0.01718 AND x10 == 0.161 AND x11 == 0.00769 AND x12 == 0.01012 AND x13 == 0.01661 AND x14 == 0.02307 AND x15 == 0.00677 AND x16 == 25.97 AND x17 == 0.470478 AND x18 == 0.676258 AND x19 == -7.120925 AND x20 == 0.279789 AND x21 == 2.241742 AND x22 == 0.108514 THEN target == 1"
+  dexp: "IF x1 == 155.358 THEN target == 1"
+  expl: "IF x1 == 155.358 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 162.568 AND x2 == 198.346 AND x3 == 77.63 AND x4 == 0.00502 AND x5 == 0.00003 AND x6 == 0.0028 AND x7 == 0.00253 AND x8 == 0.00841 AND x9 == 0.01791 AND x10 == 0.168 AND x11 == 0.00793 AND x12 == 0.01057 AND x13 == 0.01799 AND x14 == 0.0238 AND x15 == 0.0117 AND x16 == 25.678 AND x17 == 0.427785 AND x18 == 0.723797 AND x19 == -6.635729 AND x20 == 0.209866 AND x21 == 1.957961 AND x22 == 0.135242 THEN target == 1"
+  dexp: "IF x1 == 162.568 THEN target == 1"
+  expl: "IF x1 == 162.568 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 197.076 AND x2 == 206.896 AND x3 == 192.055 AND x4 == 0.00289 AND x5 == 0.00001 AND x6 == 0.00166 AND x7 == 0.00168 AND x8 == 0.00498 AND x9 == 0.01098 AND x10 == 0.097 AND x11 == 0.00563 AND x12 == 0.0068 AND x13 == 0.00802 AND x14 == 0.01689 AND x15 == 0.00339 AND x16 == 26.775 AND x17 == 0.422229 AND x18 == 0.741367 AND x19 == -7.3483 AND x20 == 0.177551 AND x21 == 1.743867 AND x22 == 0.085569 THEN target == 0"
+  dexp: "IF x1 == 197.076 THEN target == 0"
+  expl: "IF x1 == 197.076 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 199.228 AND x2 == 209.512 AND x3 == 192.091 AND x4 == 0.00241 AND x5 == 0.00001 AND x6 == 0.00134 AND x7 == 0.00138 AND x8 == 0.00402 AND x9 == 0.01015 AND x10 == 0.089 AND x11 == 0.00504 AND x12 == 0.00641 AND x13 == 0.00762 AND x14 == 0.01513 AND x15 == 0.00167 AND x16 == 30.94 AND x17 == 0.432439 AND x18 == 0.742055 AND x19 == -7.682587 AND x20 == 0.173319 AND x21 == 2.103106 AND x22 == 0.068501 THEN target == 0"
+  dexp: "IF x1 == 199.228 THEN target == 0"
+  expl: "IF x1 == 199.228 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 198.383 AND x2 == 215.203 AND x3 == 193.104 AND x4 == 0.00212 AND x5 == 0.00001 AND x6 == 0.00113 AND x7 == 0.00135 AND x8 == 0.00339 AND x9 == 0.01263 AND x10 == 0.111 AND x11 == 0.0064 AND x12 == 0.00825 AND x13 == 0.00951 AND x14 == 0.01919 AND x15 == 0.00119 AND x16 == 30.775 AND x17 == 0.465946 AND x18 == 0.738703 AND x19 == -7.067931 AND x20 == 0.175181 AND x21 == 1.512275 AND x22 == 0.09632 THEN target == 0"
+  dexp: "IF x1 == 198.383 THEN target == 0"
+  expl: "IF x1 == 198.383 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 202.266 AND x2 == 211.604 AND x3 == 197.079 AND x4 == 0.0018 AND x5 == 0.000009 AND x6 == 0.00093 AND x7 == 0.00107 AND x8 == 0.00278 AND x9 == 0.00954 AND x10 == 0.085 AND x11 == 0.00469 AND x12 == 0.00606 AND x13 == 0.00719 AND x14 == 0.01407 AND x15 == 0.00072 AND x16 == 32.684 AND x17 == 0.368535 AND x18 == 0.742133 AND x19 == -7.695734 AND x20 == 0.17854 AND x21 == 1.544609 AND x22 == 0.056141 THEN target == 0"
+  dexp: "IF x1 == 202.266 THEN target == 0"
+  expl: "IF x1 == 202.266 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 203.184 AND x2 == 211.526 AND x3 == 196.16 AND x4 == 0.00178 AND x5 == 0.000009 AND x6 == 0.00094 AND x7 == 0.00106 AND x8 == 0.00283 AND x9 == 0.00958 AND x10 == 0.085 AND x11 == 0.00468 AND x12 == 0.0061 AND x13 == 0.00726 AND x14 == 0.01403 AND x15 == 0.00065 AND x16 == 33.047 AND x17 == 0.340068 AND x18 == 0.741899 AND x19 == -7.964984 AND x20 == 0.163519 AND x21 == 1.423287 AND x22 == 0.044539 THEN target == 0"
+  dexp: "IF x1 == 203.184 THEN target == 0"
+  expl: "IF x1 == 203.184 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 201.464 AND x2 == 210.565 AND x3 == 195.708 AND x4 == 0.00198 AND x5 == 0.00001 AND x6 == 0.00105 AND x7 == 0.00115 AND x8 == 0.00314 AND x9 == 0.01194 AND x10 == 0.107 AND x11 == 0.00586 AND x12 == 0.0076 AND x13 == 0.00957 AND x14 == 0.01758 AND x15 == 0.00135 AND x16 == 31.732 AND x17 == 0.344252 AND x18 == 0.742737 AND x19 == -7.777685 AND x20 == 0.170183 AND x21 == 2.447064 AND x22 == 0.05761 THEN target == 0"
+  dexp: "IF x1 == 201.464 THEN target == 0"
+  expl: "IF x1 == 201.464 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 177.876 AND x2 == 192.921 AND x3 == 168.013 AND x4 == 0.00411 AND x5 == 0.00002 AND x6 == 0.00233 AND x7 == 0.00241 AND x8 == 0.007 AND x9 == 0.02126 AND x10 == 0.189 AND x11 == 0.01154 AND x12 == 0.01347 AND x13 == 0.01612 AND x14 == 0.03463 AND x15 == 0.00586 AND x16 == 23.216 AND x17 == 0.360148 AND x18 == 0.778834 AND x19 == -6.149653 AND x20 == 0.218037 AND x21 == 2.477082 AND x22 == 0.165827 THEN target == 1"
+  dexp: "IF x1 == 177.876 THEN target == 1"
+  expl: "IF x1 == 177.876 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 176.17 AND x2 == 185.604 AND x3 == 163.564 AND x4 == 0.00369 AND x5 == 0.00002 AND x6 == 0.00205 AND x7 == 0.00218 AND x8 == 0.00616 AND x9 == 0.01851 AND x10 == 0.168 AND x11 == 0.00938 AND x12 == 0.0116 AND x13 == 0.01491 AND x14 == 0.02814 AND x15 == 0.0034 AND x16 == 24.951 AND x17 == 0.341435 AND x18 == 0.783626 AND x19 == -6.006414 AND x20 == 0.196371 AND x21 == 2.536527 AND x22 == 0.173218 THEN target == 1"
+  dexp: "IF x1 == 176.17 THEN target == 1"
+  expl: "IF x1 == 176.17 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 180.198 AND x2 == 201.249 AND x3 == 175.456 AND x4 == 0.00284 AND x5 == 0.00002 AND x6 == 0.00153 AND x7 == 0.00166 AND x8 == 0.00459 AND x9 == 0.01444 AND x10 == 0.131 AND x11 == 0.00726 AND x12 == 0.00885 AND x13 == 0.0119 AND x14 == 0.02177 AND x15 == 0.00231 AND x16 == 26.738 AND x17 == 0.403884 AND x18 == 0.766209 AND x19 == -6.452058 AND x20 == 0.212294 AND x21 == 2.269398 AND x22 == 0.141929 THEN target == 1"
+  dexp: "IF x1 == 180.198 THEN target == 1"
+  expl: "IF x1 == 180.198 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 187.733 AND x2 == 202.324 AND x3 == 173.015 AND x4 == 0.00316 AND x5 == 0.00002 AND x6 == 0.00168 AND x7 == 0.00182 AND x8 == 0.00504 AND x9 == 0.01663 AND x10 == 0.151 AND x11 == 0.00829 AND x12 == 0.01003 AND x13 == 0.01366 AND x14 == 0.02488 AND x15 == 0.00265 AND x16 == 26.31 AND x17 == 0.396793 AND x18 == 0.758324 AND x19 == -6.006647 AND x20 == 0.266892 AND x21 == 2.382544 AND x22 == 0.160691 THEN target == 1"
+  dexp: "IF x1 == 187.733 THEN target == 1"
+  expl: "IF x1 == 187.733 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 186.163 AND x2 == 197.724 AND x3 == 177.584 AND x4 == 0.00298 AND x5 == 0.00002 AND x6 == 0.00165 AND x7 == 0.00175 AND x8 == 0.00496 AND x9 == 0.01495 AND x10 == 0.135 AND x11 == 0.00774 AND x12 == 0.00941 AND x13 == 0.01233 AND x14 == 0.02321 AND x15 == 0.00231 AND x16 == 26.822 AND x17 == 0.32648 AND x18 == 0.765623 AND x19 == -6.647379 AND x20 == 0.201095 AND x21 == 2.374073 AND x22 == 0.130554 THEN target == 1"
+  dexp: "IF x1 == 186.163 THEN target == 1"
+  expl: "IF x1 == 186.163 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 184.055 AND x2 == 196.537 AND x3 == 166.977 AND x4 == 0.00258 AND x5 == 0.00001 AND x6 == 0.00134 AND x7 == 0.00147 AND x8 == 0.00403 AND x9 == 0.01463 AND x10 == 0.132 AND x11 == 0.00742 AND x12 == 0.00901 AND x13 == 0.01234 AND x14 == 0.02226 AND x15 == 0.00257 AND x16 == 26.453 AND x17 == 0.306443 AND x18 == 0.759203 AND x19 == -7.044105 AND x20 == 0.063412 AND x21 == 2.361532 AND x22 == 0.11573 THEN target == 1"
+  dexp: "IF x1 == 184.055 THEN target == 1"
+  expl: "IF x1 == 184.055 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 237.226 AND x2 == 247.326 AND x3 == 225.227 AND x4 == 0.00298 AND x5 == 0.00001 AND x6 == 0.00169 AND x7 == 0.00182 AND x8 == 0.00507 AND x9 == 0.01752 AND x10 == 0.164 AND x11 == 0.01035 AND x12 == 0.01024 AND x13 == 0.01133 AND x14 == 0.03104 AND x15 == 0.0074 AND x16 == 22.736 AND x17 == 0.305062 AND x18 == 0.654172 AND x19 == -7.31055 AND x20 == 0.098648 AND x21 == 2.416838 AND x22 == 0.095032 THEN target == 0"
+  dexp: "IF x1 == 237.226 THEN target == 0"
+  expl: "IF x1 == 237.226 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 241.404 AND x2 == 248.834 AND x3 == 232.483 AND x4 == 0.00281 AND x5 == 0.00001 AND x6 == 0.00157 AND x7 == 0.00173 AND x8 == 0.0047 AND x9 == 0.0176 AND x10 == 0.154 AND x11 == 0.01006 AND x12 == 0.01038 AND x13 == 0.01251 AND x14 == 0.03017 AND x15 == 0.00675 AND x16 == 23.145 AND x17 == 0.457702 AND x18 == 0.634267 AND x19 == -6.793547 AND x20 == 0.158266 AND x21 == 2.256699 AND x22 == 0.117399 THEN target == 0"
+  dexp: "IF x1 == 241.404 THEN target == 0"
+  expl: "IF x1 == 241.404 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 243.439 AND x2 == 250.912 AND x3 == 232.435 AND x4 == 0.0021 AND x5 == 0.000009 AND x6 == 0.00109 AND x7 == 0.00137 AND x8 == 0.00327 AND x9 == 0.01419 AND x10 == 0.126 AND x11 == 0.00777 AND x12 == 0.00898 AND x13 == 0.01033 AND x14 == 0.0233 AND x15 == 0.00454 AND x16 == 25.368 AND x17 == 0.438296 AND x18 == 0.635285 AND x19 == -7.057869 AND x20 == 0.091608 AND x21 == 2.330716 AND x22 == 0.09147 THEN target == 0"
+  dexp: "IF x1 == 243.439 THEN target == 0"
+  expl: "IF x1 == 243.439 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 242.852 AND x2 == 255.034 AND x3 == 227.911 AND x4 == 0.00225 AND x5 == 0.000009 AND x6 == 0.00117 AND x7 == 0.00139 AND x8 == 0.0035 AND x9 == 0.01494 AND x10 == 0.134 AND x11 == 0.00847 AND x12 == 0.00879 AND x13 == 0.01014 AND x14 == 0.02542 AND x15 == 0.00476 AND x16 == 25.032 AND x17 == 0.431285 AND x18 == 0.638928 AND x19 == -6.99582 AND x20 == 0.102083 AND x21 == 2.3658 AND x22 == 0.102706 THEN target == 0"
+  dexp: "IF x1 == 242.852 THEN target == 0"
+  expl: "IF x1 == 242.852 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 245.51 AND x2 == 262.09 AND x3 == 231.848 AND x4 == 0.00235 AND x5 == 0.00001 AND x6 == 0.00127 AND x7 == 0.00148 AND x8 == 0.0038 AND x9 == 0.01608 AND x10 == 0.141 AND x11 == 0.00906 AND x12 == 0.00977 AND x13 == 0.01149 AND x14 == 0.02719 AND x15 == 0.00476 AND x16 == 24.602 AND x17 == 0.467489 AND x18 == 0.631653 AND x19 == -7.156076 AND x20 == 0.127642 AND x21 == 2.392122 AND x22 == 0.097336 THEN target == 0"
+  dexp: "IF x1 == 245.51 THEN target == 0"
+  expl: "IF x1 == 245.51 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 252.455 AND x2 == 261.487 AND x3 == 182.786 AND x4 == 0.00185 AND x5 == 0.000007 AND x6 == 0.00092 AND x7 == 0.00113 AND x8 == 0.00276 AND x9 == 0.01152 AND x10 == 0.103 AND x11 == 0.00614 AND x12 == 0.0073 AND x13 == 0.0086 AND x14 == 0.01841 AND x15 == 0.00432 AND x16 == 26.805 AND x17 == 0.610367 AND x18 == 0.635204 AND x19 == -7.31951 AND x20 == 0.200873 AND x21 == 2.028612 AND x22 == 0.086398 THEN target == 0"
+  dexp: "IF x1 == 252.455 THEN target == 0"
+  expl: "IF x1 == 252.455 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 122.188 AND x2 == 128.611 AND x3 == 115.765 AND x4 == 0.00524 AND x5 == 0.00004 AND x6 == 0.00169 AND x7 == 0.00203 AND x8 == 0.00507 AND x9 == 0.01613 AND x10 == 0.143 AND x11 == 0.00855 AND x12 == 0.00776 AND x13 == 0.01433 AND x14 == 0.02566 AND x15 == 0.00839 AND x16 == 23.162 AND x17 == 0.579597 AND x18 == 0.733659 AND x19 == -6.439398 AND x20 == 0.266392 AND x21 == 2.079922 AND x22 == 0.133867 THEN target == 0"
+  dexp: "IF x1 == 122.188 THEN target == 0"
+  expl: "IF x1 == 122.188 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 122.964 AND x2 == 130.049 AND x3 == 114.676 AND x4 == 0.00428 AND x5 == 0.00003 AND x6 == 0.00124 AND x7 == 0.00155 AND x8 == 0.00373 AND x9 == 0.01681 AND x10 == 0.154 AND x11 == 0.0093 AND x12 == 0.00802 AND x13 == 0.014 AND x14 == 0.02789 AND x15 == 0.00462 AND x16 == 24.971 AND x17 == 0.538688 AND x18 == 0.754073 AND x19 == -6.482096 AND x20 == 0.264967 AND x21 == 2.054419 AND x22 == 0.128872 THEN target == 0"
+  dexp: "IF x1 == 122.964 THEN target == 0"
+  expl: "IF x1 == 122.964 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 124.445 AND x2 == 135.069 AND x3 == 117.495 AND x4 == 0.00431 AND x5 == 0.00003 AND x6 == 0.00141 AND x7 == 0.00167 AND x8 == 0.00422 AND x9 == 0.02184 AND x10 == 0.197 AND x11 == 0.01241 AND x12 == 0.01024 AND x13 == 0.01685 AND x14 == 0.03724 AND x15 == 0.00479 AND x16 == 25.135 AND x17 == 0.553134 AND x18 == 0.775933 AND x19 == -6.650471 AND x20 == 0.254498 AND x21 == 1.840198 AND x22 == 0.103561 THEN target == 0"
+  dexp: "IF x1 == 124.445 THEN target == 0"
+  expl: "IF x1 == 124.445 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 126.344 AND x2 == 134.231 AND x3 == 112.773 AND x4 == 0.00448 AND x5 == 0.00004 AND x6 == 0.00131 AND x7 == 0.00169 AND x8 == 0.00393 AND x9 == 0.02033 AND x10 == 0.185 AND x11 == 0.01143 AND x12 == 0.00959 AND x13 == 0.01614 AND x14 == 0.03429 AND x15 == 0.00474 AND x16 == 25.03 AND x17 == 0.507504 AND x18 == 0.760361 AND x19 == -6.689151 AND x20 == 0.291954 AND x21 == 2.431854 AND x22 == 0.105993 THEN target == 0"
+  dexp: "IF x1 == 126.344 THEN target == 0"
+  expl: "IF x1 == 126.344 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 128.001 AND x2 == 138.052 AND x3 == 122.08 AND x4 == 0.00436 AND x5 == 0.00003 AND x6 == 0.00137 AND x7 == 0.00166 AND x8 == 0.00411 AND x9 == 0.02297 AND x10 == 0.21 AND x11 == 0.01323 AND x12 == 0.01072 AND x13 == 0.01677 AND x14 == 0.03969 AND x15 == 0.00481 AND x16 == 24.692 AND x17 == 0.459766 AND x18 == 0.766204 AND x19 == -7.072419 AND x20 == 0.220434 AND x21 == 1.972297 AND x22 == 0.119308 THEN target == 0"
+  dexp: "IF x1 == 128.001 THEN target == 0"
+  expl: "IF x1 == 128.001 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 129.336 AND x2 == 139.867 AND x3 == 118.604 AND x4 == 0.0049 AND x5 == 0.00004 AND x6 == 0.00165 AND x7 == 0.00183 AND x8 == 0.00495 AND x9 == 0.02498 AND x10 == 0.228 AND x11 == 0.01396 AND x12 == 0.01219 AND x13 == 0.01947 AND x14 == 0.04188 AND x15 == 0.00484 AND x16 == 25.429 AND x17 == 0.420383 AND x18 == 0.785714 AND x19 == -6.836811 AND x20 == 0.269866 AND x21 == 2.223719 AND x22 == 0.147491 THEN target == 1"
+  dexp: "IF x1 == 129.336 THEN target == 1"
+  expl: "IF x1 == 129.336 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 108.807 AND x2 == 134.656 AND x3 == 102.874 AND x4 == 0.00761 AND x5 == 0.00007 AND x6 == 0.00349 AND x7 == 0.00486 AND x8 == 0.01046 AND x9 == 0.02719 AND x10 == 0.255 AND x11 == 0.01483 AND x12 == 0.01609 AND x13 == 0.02067 AND x14 == 0.0445 AND x15 == 0.01036 AND x16 == 21.028 AND x17 == 0.536009 AND x18 == 0.819032 AND x19 == -4.649573 AND x20 == 0.205558 AND x21 == 1.986899 AND x22 == 0.3167 THEN target == 1"
+  dexp: "IF x1 == 108.807 THEN target == 1"
+  expl: "IF x1 == 108.807 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 109.86 AND x2 == 126.358 AND x3 == 104.437 AND x4 == 0.00874 AND x5 == 0.00008 AND x6 == 0.00398 AND x7 == 0.00539 AND x8 == 0.01193 AND x9 == 0.03209 AND x10 == 0.307 AND x11 == 0.01789 AND x12 == 0.01992 AND x13 == 0.02454 AND x14 == 0.05368 AND x15 == 0.0118 AND x16 == 20.767 AND x17 == 0.558586 AND x18 == 0.811843 AND x19 == -4.333543 AND x20 == 0.221727 AND x21 == 2.014606 AND x22 == 0.344834 THEN target == 1"
+  dexp: "IF x1 == 109.86 THEN target == 1"
+  expl: "IF x1 == 109.86 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 110.417 AND x2 == 131.067 AND x3 == 103.37 AND x4 == 0.00784 AND x5 == 0.00007 AND x6 == 0.00352 AND x7 == 0.00514 AND x8 == 0.01056 AND x9 == 0.03715 AND x10 == 0.334 AND x11 == 0.02032 AND x12 == 0.02302 AND x13 == 0.02802 AND x14 == 0.06097 AND x15 == 0.00969 AND x16 == 21.422 AND x17 == 0.541781 AND x18 == 0.821364 AND x19 == -4.438453 AND x20 == 0.238298 AND x21 == 1.92294 AND x22 == 0.335041 THEN target == 1"
+  dexp: "IF x1 == 110.417 THEN target == 1"
+  expl: "IF x1 == 110.417 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 117.274 AND x2 == 129.916 AND x3 == 110.402 AND x4 == 0.00752 AND x5 == 0.00006 AND x6 == 0.00299 AND x7 == 0.00469 AND x8 == 0.00898 AND x9 == 0.02293 AND x10 == 0.221 AND x11 == 0.01189 AND x12 == 0.01459 AND x13 == 0.01948 AND x14 == 0.03568 AND x15 == 0.00681 AND x16 == 22.817 AND x17 == 0.530529 AND x18 == 0.817756 AND x19 == -4.60826 AND x20 == 0.290024 AND x21 == 2.021591 AND x22 == 0.314464 THEN target == 1"
+  dexp: "IF x1 == 117.274 THEN target == 1"
+  expl: "IF x1 == 117.274 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.879 AND x2 == 131.897 AND x3 == 108.153 AND x4 == 0.00788 AND x5 == 0.00007 AND x6 == 0.00334 AND x7 == 0.00493 AND x8 == 0.01003 AND x9 == 0.02645 AND x10 == 0.265 AND x11 == 0.01394 AND x12 == 0.01625 AND x13 == 0.02137 AND x14 == 0.04183 AND x15 == 0.00786 AND x16 == 22.603 AND x17 == 0.540049 AND x18 == 0.813432 AND x19 == -4.476755 AND x20 == 0.262633 AND x21 == 1.827012 AND x22 == 0.326197 THEN target == 1"
+  dexp: "IF x1 == 116.879 THEN target == 1"
+  expl: "IF x1 == 116.879 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 114.847 AND x2 == 271.314 AND x3 == 104.68 AND x4 == 0.00867 AND x5 == 0.00008 AND x6 == 0.00373 AND x7 == 0.0052 AND x8 == 0.0112 AND x9 == 0.03225 AND x10 == 0.35 AND x11 == 0.01805 AND x12 == 0.01974 AND x13 == 0.02519 AND x14 == 0.05414 AND x15 == 0.01143 AND x16 == 21.66 AND x17 == 0.547975 AND x18 == 0.817396 AND x19 == -4.609161 AND x20 == 0.221711 AND x21 == 1.831691 AND x22 == 0.316395 THEN target == 1"
+  dexp: "IF x1 == 114.847 THEN target == 1"
+  expl: "IF x1 == 114.847 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 209.144 AND x2 == 237.494 AND x3 == 109.379 AND x4 == 0.00282 AND x5 == 0.00001 AND x6 == 0.00147 AND x7 == 0.00152 AND x8 == 0.00442 AND x9 == 0.01861 AND x10 == 0.17 AND x11 == 0.00975 AND x12 == 0.01258 AND x13 == 0.01382 AND x14 == 0.02925 AND x15 == 0.00871 AND x16 == 25.554 AND x17 == 0.341788 AND x18 == 0.678874 AND x19 == -7.040508 AND x20 == 0.066994 AND x21 == 2.460791 AND x22 == 0.101516 THEN target == 1"
+  dexp: "IF x1 == 209.144 THEN target == 1"
+  expl: "IF x1 == 209.144 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 223.365 AND x2 == 238.987 AND x3 == 98.664 AND x4 == 0.00264 AND x5 == 0.00001 AND x6 == 0.00154 AND x7 == 0.00151 AND x8 == 0.00461 AND x9 == 0.01906 AND x10 == 0.165 AND x11 == 0.01013 AND x12 == 0.01296 AND x13 == 0.0134 AND x14 == 0.03039 AND x15 == 0.00301 AND x16 == 26.138 AND x17 == 0.447979 AND x18 == 0.686264 AND x19 == -7.293801 AND x20 == 0.086372 AND x21 == 2.32156 AND x22 == 0.098555 THEN target == 1"
+  dexp: "IF x1 == 223.365 THEN target == 1"
+  expl: "IF x1 == 223.365 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 222.236 AND x2 == 231.345 AND x3 == 205.495 AND x4 == 0.00266 AND x5 == 0.00001 AND x6 == 0.00152 AND x7 == 0.00144 AND x8 == 0.00457 AND x9 == 0.01643 AND x10 == 0.145 AND x11 == 0.00867 AND x12 == 0.01108 AND x13 == 0.012 AND x14 == 0.02602 AND x15 == 0.0034 AND x16 == 25.856 AND x17 == 0.364867 AND x18 == 0.694399 AND x19 == -6.966321 AND x20 == 0.095882 AND x21 == 2.278687 AND x22 == 0.103224 THEN target == 0"
+  dexp: "IF x1 == 222.236 THEN target == 0"
+  expl: "IF x1 == 222.236 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 228.832 AND x2 == 234.619 AND x3 == 223.634 AND x4 == 0.00296 AND x5 == 0.00001 AND x6 == 0.00175 AND x7 == 0.00155 AND x8 == 0.00526 AND x9 == 0.01644 AND x10 == 0.145 AND x11 == 0.00882 AND x12 == 0.01075 AND x13 == 0.01179 AND x14 == 0.02647 AND x15 == 0.00351 AND x16 == 25.964 AND x17 == 0.25657 AND x18 == 0.683296 AND x19 == -7.24562 AND x20 == 0.018689 AND x21 == 2.498224 AND x22 == 0.093534 THEN target == 0"
+  dexp: "IF x1 == 228.832 THEN target == 0"
+  expl: "IF x1 == 228.832 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 229.401 AND x2 == 252.221 AND x3 == 221.156 AND x4 == 0.00205 AND x5 == 0.000009 AND x6 == 0.00114 AND x7 == 0.00113 AND x8 == 0.00342 AND x9 == 0.01457 AND x10 == 0.129 AND x11 == 0.00769 AND x12 == 0.00957 AND x13 == 0.01016 AND x14 == 0.02308 AND x15 == 0.003 AND x16 == 26.415 AND x17 == 0.27685 AND x18 == 0.673636 AND x19 == -7.496264 AND x20 == 0.056844 AND x21 == 2.003032 AND x22 == 0.073581 THEN target == 0"
+  dexp: "IF x1 == 229.401 THEN target == 0"
+  expl: "IF x1 == 229.401 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 228.969 AND x2 == 239.541 AND x3 == 113.201 AND x4 == 0.00238 AND x5 == 0.00001 AND x6 == 0.00136 AND x7 == 0.0014 AND x8 == 0.00408 AND x9 == 0.01745 AND x10 == 0.154 AND x11 == 0.00942 AND x12 == 0.0116 AND x13 == 0.01234 AND x14 == 0.02827 AND x15 == 0.0042 AND x16 == 24.547 AND x17 == 0.305429 AND x18 == 0.681811 AND x19 == -7.314237 AND x20 == 0.006274 AND x21 == 2.118596 AND x22 == 0.091546 THEN target == 1"
+  dexp: "IF x1 == 228.969 THEN target == 1"
+  expl: "IF x1 == 228.969 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 140.341 AND x2 == 159.774 AND x3 == 67.021 AND x4 == 0.00817 AND x5 == 0.00006 AND x6 == 0.0043 AND x7 == 0.0044 AND x8 == 0.01289 AND x9 == 0.03198 AND x10 == 0.313 AND x11 == 0.0183 AND x12 == 0.0181 AND x13 == 0.02428 AND x14 == 0.0549 AND x15 == 0.02183 AND x16 == 19.56 AND x17 == 0.460139 AND x18 == 0.720908 AND x19 == -5.409423 AND x20 == 0.22685 AND x21 == 2.359973 AND x22 == 0.226156 THEN target == 1"
+  dexp: "IF x1 == 140.341 THEN target == 1"
+  expl: "IF x1 == 140.341 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 136.969 AND x2 == 166.607 AND x3 == 66.004 AND x4 == 0.00923 AND x5 == 0.00007 AND x6 == 0.00507 AND x7 == 0.00463 AND x8 == 0.0152 AND x9 == 0.03111 AND x10 == 0.308 AND x11 == 0.01638 AND x12 == 0.01759 AND x13 == 0.02603 AND x14 == 0.04914 AND x15 == 0.02659 AND x16 == 19.979 AND x17 == 0.498133 AND x18 == 0.729067 AND x19 == -5.324574 AND x20 == 0.20566 AND x21 == 2.291558 AND x22 == 0.226247 THEN target == 1"
+  dexp: "IF x1 == 136.969 THEN target == 1"
+  expl: "IF x1 == 136.969 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 143.533 AND x2 == 162.215 AND x3 == 65.809 AND x4 == 0.01101 AND x5 == 0.00008 AND x6 == 0.00647 AND x7 == 0.00467 AND x8 == 0.01941 AND x9 == 0.05384 AND x10 == 0.478 AND x11 == 0.03152 AND x12 == 0.02422 AND x13 == 0.03392 AND x14 == 0.09455 AND x15 == 0.04882 AND x16 == 20.338 AND x17 == 0.513237 AND x18 == 0.731444 AND x19 == -5.86975 AND x20 == 0.151814 AND x21 == 2.118496 AND x22 == 0.18558 THEN target == 1"
+  dexp: "IF x1 == 143.533 THEN target == 1"
+  expl: "IF x1 == 143.533 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 148.09 AND x2 == 162.824 AND x3 == 67.343 AND x4 == 0.00762 AND x5 == 0.00005 AND x6 == 0.00467 AND x7 == 0.00354 AND x8 == 0.014 AND x9 == 0.05428 AND x10 == 0.497 AND x11 == 0.03357 AND x12 == 0.02494 AND x13 == 0.03635 AND x14 == 0.1007 AND x15 == 0.02431 AND x16 == 21.718 AND x17 == 0.487407 AND x18 == 0.727313 AND x19 == -6.261141 AND x20 == 0.120956 AND x21 == 2.137075 AND x22 == 0.141958 THEN target == 1"
+  dexp: "IF x1 == 148.09 THEN target == 1"
+  expl: "IF x1 == 148.09 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 142.729 AND x2 == 162.408 AND x3 == 65.476 AND x4 == 0.00831 AND x5 == 0.00006 AND x6 == 0.00469 AND x7 == 0.00419 AND x8 == 0.01407 AND x9 == 0.03485 AND x10 == 0.365 AND x11 == 0.01868 AND x12 == 0.01906 AND x13 == 0.02949 AND x14 == 0.05605 AND x15 == 0.02599 AND x16 == 20.264 AND x17 == 0.489345 AND x18 == 0.730387 AND x19 == -5.720868 AND x20 == 0.15883 AND x21 == 2.277927 AND x22 == 0.180828 THEN target == 1"
+  dexp: "IF x1 == 142.729 THEN target == 1"
+  expl: "IF x1 == 142.729 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 136.358 AND x2 == 176.595 AND x3 == 65.75 AND x4 == 0.00971 AND x5 == 0.00007 AND x6 == 0.00534 AND x7 == 0.00478 AND x8 == 0.01601 AND x9 == 0.04978 AND x10 == 0.483 AND x11 == 0.02749 AND x12 == 0.02466 AND x13 == 0.03736 AND x14 == 0.08247 AND x15 == 0.03361 AND x16 == 18.57 AND x17 == 0.543299 AND x18 == 0.733232 AND x19 == -5.207985 AND x20 == 0.224852 AND x21 == 2.642276 AND x22 == 0.242981 THEN target == 1"
+  dexp: "IF x1 == 136.358 THEN target == 1"
+  expl: "IF x1 == 136.358 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 120.08 AND x2 == 139.71 AND x3 == 111.208 AND x4 == 0.00405 AND x5 == 0.00003 AND x6 == 0.0018 AND x7 == 0.0022 AND x8 == 0.0054 AND x9 == 0.01706 AND x10 == 0.152 AND x11 == 0.00974 AND x12 == 0.00925 AND x13 == 0.01345 AND x14 == 0.02921 AND x15 == 0.00442 AND x16 == 25.742 AND x17 == 0.495954 AND x18 == 0.762959 AND x19 == -5.79182 AND x20 == 0.329066 AND x21 == 2.205024 AND x22 == 0.18818 THEN target == 1"
+  dexp: "IF x1 == 120.08 THEN target == 1"
+  expl: "IF x1 == 120.08 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 112.014 AND x2 == 588.518 AND x3 == 107.024 AND x4 == 0.00533 AND x5 == 0.00005 AND x6 == 0.00268 AND x7 == 0.00329 AND x8 == 0.00805 AND x9 == 0.02448 AND x10 == 0.226 AND x11 == 0.01373 AND x12 == 0.01375 AND x13 == 0.01956 AND x14 == 0.0412 AND x15 == 0.00623 AND x16 == 24.178 AND x17 == 0.509127 AND x18 == 0.789532 AND x19 == -5.389129 AND x20 == 0.306636 AND x21 == 1.928708 AND x22 == 0.225461 THEN target == 1"
+  dexp: "IF x1 == 112.014 THEN target == 1"
+  expl: "IF x1 == 112.014 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 110.793 AND x2 == 128.101 AND x3 == 107.316 AND x4 == 0.00494 AND x5 == 0.00004 AND x6 == 0.0026 AND x7 == 0.00283 AND x8 == 0.0078 AND x9 == 0.02442 AND x10 == 0.216 AND x11 == 0.01432 AND x12 == 0.01325 AND x13 == 0.01831 AND x14 == 0.04295 AND x15 == 0.00479 AND x16 == 25.438 AND x17 == 0.437031 AND x18 == 0.815908 AND x19 == -5.31336 AND x20 == 0.201861 AND x21 == 2.225815 AND x22 == 0.244512 THEN target == 1"
+  dexp: "IF x1 == 110.793 THEN target == 1"
+  expl: "IF x1 == 110.793 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 110.707 AND x2 == 122.611 AND x3 == 105.007 AND x4 == 0.00516 AND x5 == 0.00005 AND x6 == 0.00277 AND x7 == 0.00289 AND x8 == 0.00831 AND x9 == 0.02215 AND x10 == 0.206 AND x11 == 0.01284 AND x12 == 0.01219 AND x13 == 0.01715 AND x14 == 0.03851 AND x15 == 0.00472 AND x16 == 25.197 AND x17 == 0.463514 AND x18 == 0.807217 AND x19 == -5.477592 AND x20 == 0.315074 AND x21 == 1.862092 AND x22 == 0.228624 THEN target == 1"
+  dexp: "IF x1 == 110.707 THEN target == 1"
+  expl: "IF x1 == 110.707 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 112.876 AND x2 == 148.826 AND x3 == 106.981 AND x4 == 0.005 AND x5 == 0.00004 AND x6 == 0.0027 AND x7 == 0.00289 AND x8 == 0.0081 AND x9 == 0.03999 AND x10 == 0.35 AND x11 == 0.02413 AND x12 == 0.02231 AND x13 == 0.02704 AND x14 == 0.07238 AND x15 == 0.00905 AND x16 == 23.37 AND x17 == 0.489538 AND x18 == 0.789977 AND x19 == -5.775966 AND x20 == 0.341169 AND x21 == 2.007923 AND x22 == 0.193918 THEN target == 1"
+  dexp: "IF x1 == 112.876 THEN target == 1"
+  expl: "IF x1 == 112.876 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 110.568 AND x2 == 125.394 AND x3 == 106.821 AND x4 == 0.00462 AND x5 == 0.00004 AND x6 == 0.00226 AND x7 == 0.0028 AND x8 == 0.00677 AND x9 == 0.02199 AND x10 == 0.197 AND x11 == 0.01284 AND x12 == 0.01199 AND x13 == 0.01636 AND x14 == 0.03852 AND x15 == 0.0042 AND x16 == 25.82 AND x17 == 0.429484 AND x18 == 0.81634 AND x19 == -5.391029 AND x20 == 0.250572 AND x21 == 1.777901 AND x22 == 0.232744 THEN target == 1"
+  dexp: "IF x1 == 110.568 THEN target == 1"
+  expl: "IF x1 == 110.568 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 95.385 AND x2 == 102.145 AND x3 == 90.264 AND x4 == 0.00608 AND x5 == 0.00006 AND x6 == 0.00331 AND x7 == 0.00332 AND x8 == 0.00994 AND x9 == 0.03202 AND x10 == 0.263 AND x11 == 0.01803 AND x12 == 0.01886 AND x13 == 0.02455 AND x14 == 0.05408 AND x15 == 0.01062 AND x16 == 21.875 AND x17 == 0.644954 AND x18 == 0.779612 AND x19 == -5.115212 AND x20 == 0.249494 AND x21 == 2.017753 AND x22 == 0.260015 THEN target == 1"
+  dexp: "IF x1 == 95.385 THEN target == 1"
+  expl: "IF x1 == 95.385 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 100.77 AND x2 == 115.697 AND x3 == 85.545 AND x4 == 0.01038 AND x5 == 0.0001 AND x6 == 0.00622 AND x7 == 0.00576 AND x8 == 0.01865 AND x9 == 0.03121 AND x10 == 0.361 AND x11 == 0.01773 AND x12 == 0.01783 AND x13 == 0.02139 AND x14 == 0.0532 AND x15 == 0.0222 AND x16 == 19.2 AND x17 == 0.594387 AND x18 == 0.790117 AND x19 == -4.913885 AND x20 == 0.265699 AND x21 == 2.398422 AND x22 == 0.277948 THEN target == 1"
+  dexp: "IF x1 == 100.77 THEN target == 1"
+  expl: "IF x1 == 100.77 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 96.106 AND x2 == 108.664 AND x3 == 84.51 AND x4 == 0.00694 AND x5 == 0.00007 AND x6 == 0.00389 AND x7 == 0.00415 AND x8 == 0.01168 AND x9 == 0.04024 AND x10 == 0.364 AND x11 == 0.02266 AND x12 == 0.02451 AND x13 == 0.02876 AND x14 == 0.06799 AND x15 == 0.01823 AND x16 == 19.055 AND x17 == 0.544805 AND x18 == 0.770466 AND x19 == -4.441519 AND x20 == 0.155097 AND x21 == 2.645959 AND x22 == 0.327978 THEN target == 1"
+  dexp: "IF x1 == 96.106 THEN target == 1"
+  expl: "IF x1 == 96.106 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 95.605 AND x2 == 107.715 AND x3 == 87.549 AND x4 == 0.00702 AND x5 == 0.00007 AND x6 == 0.00428 AND x7 == 0.00371 AND x8 == 0.01283 AND x9 == 0.03156 AND x10 == 0.296 AND x11 == 0.01792 AND x12 == 0.01841 AND x13 == 0.0219 AND x14 == 0.05377 AND x15 == 0.01825 AND x16 == 19.659 AND x17 == 0.576084 AND x18 == 0.778747 AND x19 == -5.132032 AND x20 == 0.210458 AND x21 == 2.232576 AND x22 == 0.260633 THEN target == 1"
+  dexp: "IF x1 == 95.605 THEN target == 1"
+  expl: "IF x1 == 95.605 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 100.96 AND x2 == 110.019 AND x3 == 95.628 AND x4 == 0.00606 AND x5 == 0.00006 AND x6 == 0.00351 AND x7 == 0.00348 AND x8 == 0.01053 AND x9 == 0.02427 AND x10 == 0.216 AND x11 == 0.01371 AND x12 == 0.01421 AND x13 == 0.01751 AND x14 == 0.04114 AND x15 == 0.01237 AND x16 == 20.536 AND x17 == 0.55461 AND x18 == 0.787896 AND x19 == -5.022288 AND x20 == 0.146948 AND x21 == 2.428306 AND x22 == 0.264666 THEN target == 1"
+  dexp: "IF x1 == 100.96 THEN target == 1"
+  expl: "IF x1 == 100.96 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 98.804 AND x2 == 102.305 AND x3 == 87.804 AND x4 == 0.00432 AND x5 == 0.00004 AND x6 == 0.00247 AND x7 == 0.00258 AND x8 == 0.00742 AND x9 == 0.02223 AND x10 == 0.202 AND x11 == 0.01277 AND x12 == 0.01343 AND x13 == 0.01552 AND x14 == 0.03831 AND x15 == 0.00882 AND x16 == 22.244 AND x17 == 0.576644 AND x18 == 0.772416 AND x19 == -6.025367 AND x20 == 0.078202 AND x21 == 2.053601 AND x22 == 0.177275 THEN target == 1"
+  dexp: "IF x1 == 98.804 THEN target == 1"
+  expl: "IF x1 == 98.804 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 176.858 AND x2 == 205.56 AND x3 == 75.344 AND x4 == 0.00747 AND x5 == 0.00004 AND x6 == 0.00418 AND x7 == 0.0042 AND x8 == 0.01254 AND x9 == 0.04795 AND x10 == 0.435 AND x11 == 0.02679 AND x12 == 0.03022 AND x13 == 0.0351 AND x14 == 0.08037 AND x15 == 0.0547 AND x16 == 13.893 AND x17 == 0.556494 AND x18 == 0.729586 AND x19 == -5.288912 AND x20 == 0.343073 AND x21 == 3.099301 AND x22 == 0.242119 THEN target == 1"
+  dexp: "IF x1 == 176.858 THEN target == 1"
+  expl: "IF x1 == 176.858 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 180.978 AND x2 == 200.125 AND x3 == 155.495 AND x4 == 0.00406 AND x5 == 0.00002 AND x6 == 0.0022 AND x7 == 0.00244 AND x8 == 0.00659 AND x9 == 0.03852 AND x10 == 0.331 AND x11 == 0.02107 AND x12 == 0.02493 AND x13 == 0.02877 AND x14 == 0.06321 AND x15 == 0.02782 AND x16 == 16.176 AND x17 == 0.583574 AND x18 == 0.727747 AND x19 == -5.657899 AND x20 == 0.315903 AND x21 == 3.098256 AND x22 == 0.200423 THEN target == 1"
+  dexp: "IF x1 == 180.978 THEN target == 1"
+  expl: "IF x1 == 180.978 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 178.222 AND x2 == 202.45 AND x3 == 141.047 AND x4 == 0.00321 AND x5 == 0.00002 AND x6 == 0.00163 AND x7 == 0.00194 AND x8 == 0.00488 AND x9 == 0.03759 AND x10 == 0.327 AND x11 == 0.02073 AND x12 == 0.02415 AND x13 == 0.02784 AND x14 == 0.06219 AND x15 == 0.03151 AND x16 == 15.924 AND x17 == 0.598714 AND x18 == 0.712199 AND x19 == -6.366916 AND x20 == 0.335753 AND x21 == 2.654271 AND x22 == 0.144614 THEN target == 1"
+  dexp: "IF x1 == 178.222 THEN target == 1"
+  expl: "IF x1 == 178.222 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 176.281 AND x2 == 227.381 AND x3 == 125.61 AND x4 == 0.0052 AND x5 == 0.00003 AND x6 == 0.00287 AND x7 == 0.00312 AND x8 == 0.00862 AND x9 == 0.06511 AND x10 == 0.58 AND x11 == 0.03671 AND x12 == 0.04159 AND x13 == 0.04683 AND x14 == 0.11012 AND x15 == 0.04824 AND x16 == 13.922 AND x17 == 0.602874 AND x18 == 0.740837 AND x19 == -5.515071 AND x20 == 0.299549 AND x21 == 3.13655 AND x22 == 0.220968 THEN target == 1"
+  dexp: "IF x1 == 176.281 THEN target == 1"
+  expl: "IF x1 == 176.281 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 173.898 AND x2 == 211.35 AND x3 == 74.677 AND x4 == 0.00448 AND x5 == 0.00003 AND x6 == 0.00237 AND x7 == 0.00254 AND x8 == 0.0071 AND x9 == 0.06727 AND x10 == 0.65 AND x11 == 0.03788 AND x12 == 0.04254 AND x13 == 0.04802 AND x14 == 0.11363 AND x15 == 0.04214 AND x16 == 14.739 AND x17 == 0.599371 AND x18 == 0.743937 AND x19 == -5.783272 AND x20 == 0.299793 AND x21 == 3.007096 AND x22 == 0.194052 THEN target == 1"
+  dexp: "IF x1 == 173.898 THEN target == 1"
+  expl: "IF x1 == 173.898 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 179.711 AND x2 == 225.93 AND x3 == 144.878 AND x4 == 0.00709 AND x5 == 0.00004 AND x6 == 0.00391 AND x7 == 0.00419 AND x8 == 0.01172 AND x9 == 0.04313 AND x10 == 0.442 AND x11 == 0.02297 AND x12 == 0.02768 AND x13 == 0.03455 AND x14 == 0.06892 AND x15 == 0.07223 AND x16 == 11.866 AND x17 == 0.590951 AND x18 == 0.745526 AND x19 == -4.379411 AND x20 == 0.375531 AND x21 == 3.671155 AND x22 == 0.332086 THEN target == 1"
+  dexp: "IF x1 == 179.711 THEN target == 1"
+  expl: "IF x1 == 179.711 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 166.605 AND x2 == 206.008 AND x3 == 78.032 AND x4 == 0.00742 AND x5 == 0.00004 AND x6 == 0.00387 AND x7 == 0.00453 AND x8 == 0.01161 AND x9 == 0.0664 AND x10 == 0.634 AND x11 == 0.0365 AND x12 == 0.04282 AND x13 == 0.05114 AND x14 == 0.10949 AND x15 == 0.08725 AND x16 == 11.744 AND x17 == 0.65341 AND x18 == 0.733165 AND x19 == -4.508984 AND x20 == 0.389232 AND x21 == 3.317586 AND x22 == 0.301952 THEN target == 1"
+  dexp: "IF x1 == 166.605 THEN target == 1"
+  expl: "IF x1 == 166.605 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 151.955 AND x2 == 163.335 AND x3 == 147.226 AND x4 == 0.00419 AND x5 == 0.00003 AND x6 == 0.00224 AND x7 == 0.00227 AND x8 == 0.00672 AND x9 == 0.07959 AND x10 == 0.772 AND x11 == 0.04421 AND x12 == 0.04962 AND x13 == 0.0569 AND x14 == 0.13262 AND x15 == 0.01658 AND x16 == 19.664 AND x17 == 0.501037 AND x18 == 0.71436 AND x19 == -6.411497 AND x20 == 0.207156 AND x21 == 2.344876 AND x22 == 0.13412 THEN target == 1"
+  dexp: "IF x1 == 151.955 THEN target == 1"
+  expl: "IF x1 == 151.955 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 148.272 AND x2 == 164.989 AND x3 == 142.299 AND x4 == 0.00459 AND x5 == 0.00003 AND x6 == 0.0025 AND x7 == 0.00256 AND x8 == 0.0075 AND x9 == 0.0419 AND x10 == 0.383 AND x11 == 0.02383 AND x12 == 0.02521 AND x13 == 0.03051 AND x14 == 0.0715 AND x15 == 0.01914 AND x16 == 18.78 AND x17 == 0.454444 AND x18 == 0.734504 AND x19 == -5.952058 AND x20 == 0.08784 AND x21 == 2.344336 AND x22 == 0.186489 THEN target == 1"
+  dexp: "IF x1 == 148.272 THEN target == 1"
+  expl: "IF x1 == 148.272 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 152.125 AND x2 == 161.469 AND x3 == 76.596 AND x4 == 0.00382 AND x5 == 0.00003 AND x6 == 0.00191 AND x7 == 0.00226 AND x8 == 0.00574 AND x9 == 0.05925 AND x10 == 0.637 AND x11 == 0.03341 AND x12 == 0.03794 AND x13 == 0.04398 AND x14 == 0.10024 AND x15 == 0.01211 AND x16 == 20.969 AND x17 == 0.447456 AND x18 == 0.69779 AND x19 == -6.152551 AND x20 == 0.17352 AND x21 == 2.080121 AND x22 == 0.160809 THEN target == 1"
+  dexp: "IF x1 == 152.125 THEN target == 1"
+  expl: "IF x1 == 152.125 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 157.821 AND x2 == 172.975 AND x3 == 68.401 AND x4 == 0.00358 AND x5 == 0.00002 AND x6 == 0.00196 AND x7 == 0.00196 AND x8 == 0.00587 AND x9 == 0.03716 AND x10 == 0.307 AND x11 == 0.02062 AND x12 == 0.02321 AND x13 == 0.02764 AND x14 == 0.06185 AND x15 == 0.0085 AND x16 == 22.219 AND x17 == 0.50238 AND x18 == 0.71217 AND x19 == -6.251425 AND x20 == 0.188056 AND x21 == 2.143851 AND x22 == 0.160812 THEN target == 1"
+  dexp: "IF x1 == 157.821 THEN target == 1"
+  expl: "IF x1 == 157.821 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 157.447 AND x2 == 163.267 AND x3 == 149.605 AND x4 == 0.00369 AND x5 == 0.00002 AND x6 == 0.00201 AND x7 == 0.00197 AND x8 == 0.00602 AND x9 == 0.03272 AND x10 == 0.283 AND x11 == 0.01813 AND x12 == 0.01909 AND x13 == 0.02571 AND x14 == 0.05439 AND x15 == 0.01018 AND x16 == 21.693 AND x17 == 0.447285 AND x18 == 0.705658 AND x19 == -6.247076 AND x20 == 0.180528 AND x21 == 2.344348 AND x22 == 0.164916 THEN target == 1"
+  dexp: "IF x1 == 157.447 THEN target == 1"
+  expl: "IF x1 == 157.447 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 159.116 AND x2 == 168.913 AND x3 == 144.811 AND x4 == 0.00342 AND x5 == 0.00002 AND x6 == 0.00178 AND x7 == 0.00184 AND x8 == 0.00535 AND x9 == 0.03381 AND x10 == 0.307 AND x11 == 0.01806 AND x12 == 0.02024 AND x13 == 0.02809 AND x14 == 0.05417 AND x15 == 0.00852 AND x16 == 22.663 AND x17 == 0.366329 AND x18 == 0.693429 AND x19 == -6.41744 AND x20 == 0.194627 AND x21 == 2.473239 AND x22 == 0.151709 THEN target == 1"
+  dexp: "IF x1 == 159.116 THEN target == 1"
+  expl: "IF x1 == 159.116 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 125.036 AND x2 == 143.946 AND x3 == 116.187 AND x4 == 0.0128 AND x5 == 0.0001 AND x6 == 0.00743 AND x7 == 0.00623 AND x8 == 0.02228 AND x9 == 0.03886 AND x10 == 0.342 AND x11 == 0.02135 AND x12 == 0.02174 AND x13 == 0.03088 AND x14 == 0.06406 AND x15 == 0.08151 AND x16 == 15.338 AND x17 == 0.629574 AND x18 == 0.714485 AND x19 == -4.020042 AND x20 == 0.265315 AND x21 == 2.671825 AND x22 == 0.340623 THEN target == 1"
+  dexp: "IF x1 == 125.036 THEN target == 1"
+  expl: "IF x1 == 125.036 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 125.791 AND x2 == 140.557 AND x3 == 96.206 AND x4 == 0.01378 AND x5 == 0.00011 AND x6 == 0.00826 AND x7 == 0.00655 AND x8 == 0.02478 AND x9 == 0.04689 AND x10 == 0.422 AND x11 == 0.02542 AND x12 == 0.0263 AND x13 == 0.03908 AND x14 == 0.07625 AND x15 == 0.10323 AND x16 == 15.433 AND x17 == 0.57101 AND x18 == 0.690892 AND x19 == -5.159169 AND x20 == 0.202146 AND x21 == 2.441612 AND x22 == 0.260375 THEN target == 1"
+  dexp: "IF x1 == 125.791 THEN target == 1"
+  expl: "IF x1 == 125.791 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 126.512 AND x2 == 141.756 AND x3 == 99.77 AND x4 == 0.01936 AND x5 == 0.00015 AND x6 == 0.01159 AND x7 == 0.0099 AND x8 == 0.03476 AND x9 == 0.06734 AND x10 == 0.659 AND x11 == 0.03611 AND x12 == 0.03963 AND x13 == 0.05783 AND x14 == 0.10833 AND x15 == 0.16744 AND x16 == 12.435 AND x17 == 0.638545 AND x18 == 0.674953 AND x19 == -3.760348 AND x20 == 0.242861 AND x21 == 2.634633 AND x22 == 0.378483 THEN target == 1"
+  dexp: "IF x1 == 126.512 THEN target == 1"
+  expl: "IF x1 == 126.512 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 125.641 AND x2 == 141.068 AND x3 == 116.346 AND x4 == 0.03316 AND x5 == 0.00026 AND x6 == 0.02144 AND x7 == 0.01522 AND x8 == 0.06433 AND x9 == 0.09178 AND x10 == 0.891 AND x11 == 0.05358 AND x12 == 0.04791 AND x13 == 0.06196 AND x14 == 0.16074 AND x15 == 0.31482 AND x16 == 8.867 AND x17 == 0.671299 AND x18 == 0.656846 AND x19 == -3.700544 AND x20 == 0.260481 AND x21 == 2.991063 AND x22 == 0.370961 THEN target == 1"
+  dexp: "IF x1 == 125.641 THEN target == 1"
+  expl: "IF x1 == 125.641 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 128.451 AND x2 == 150.449 AND x3 == 75.632 AND x4 == 0.01551 AND x5 == 0.00012 AND x6 == 0.00905 AND x7 == 0.00909 AND x8 == 0.02716 AND x9 == 0.0617 AND x10 == 0.584 AND x11 == 0.03223 AND x12 == 0.03672 AND x13 == 0.05174 AND x14 == 0.09669 AND x15 == 0.11843 AND x16 == 15.06 AND x17 == 0.639808 AND x18 == 0.643327 AND x19 == -4.20273 AND x20 == 0.310163 AND x21 == 2.638279 AND x22 == 0.356881 THEN target == 1"
+  dexp: "IF x1 == 128.451 THEN target == 1"
+  expl: "IF x1 == 128.451 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 139.224 AND x2 == 586.567 AND x3 == 66.157 AND x4 == 0.03011 AND x5 == 0.00022 AND x6 == 0.01854 AND x7 == 0.01628 AND x8 == 0.05563 AND x9 == 0.09419 AND x10 == 0.93 AND x11 == 0.05551 AND x12 == 0.05005 AND x13 == 0.06023 AND x14 == 0.16654 AND x15 == 0.2593 AND x16 == 10.489 AND x17 == 0.596362 AND x18 == 0.641418 AND x19 == -3.269487 AND x20 == 0.270641 AND x21 == 2.690917 AND x22 == 0.444774 THEN target == 1"
+  dexp: "IF x1 == 139.224 THEN target == 1"
+  expl: "IF x1 == 139.224 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 150.258 AND x2 == 154.609 AND x3 == 75.349 AND x4 == 0.00248 AND x5 == 0.00002 AND x6 == 0.00105 AND x7 == 0.00136 AND x8 == 0.00315 AND x9 == 0.01131 AND x10 == 0.107 AND x11 == 0.00522 AND x12 == 0.00659 AND x13 == 0.01009 AND x14 == 0.01567 AND x15 == 0.00495 AND x16 == 26.759 AND x17 == 0.296888 AND x18 == 0.722356 AND x19 == -6.878393 AND x20 == 0.089267 AND x21 == 2.004055 AND x22 == 0.113942 THEN target == 1"
+  dexp: "IF x1 == 150.258 THEN target == 1"
+  expl: "IF x1 == 150.258 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 154.003 AND x2 == 160.267 AND x3 == 128.621 AND x4 == 0.00183 AND x5 == 0.00001 AND x6 == 0.00076 AND x7 == 0.001 AND x8 == 0.00229 AND x9 == 0.0103 AND x10 == 0.094 AND x11 == 0.00469 AND x12 == 0.00582 AND x13 == 0.00871 AND x14 == 0.01406 AND x15 == 0.00243 AND x16 == 28.409 AND x17 == 0.263654 AND x18 == 0.691483 AND x19 == -7.111576 AND x20 == 0.14478 AND x21 == 2.065477 AND x22 == 0.093193 THEN target == 1"
+  dexp: "IF x1 == 154.003 THEN target == 1"
+  expl: "IF x1 == 154.003 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 149.689 AND x2 == 160.368 AND x3 == 133.608 AND x4 == 0.00257 AND x5 == 0.00002 AND x6 == 0.00116 AND x7 == 0.00134 AND x8 == 0.00349 AND x9 == 0.01346 AND x10 == 0.126 AND x11 == 0.0066 AND x12 == 0.00818 AND x13 == 0.01059 AND x14 == 0.01979 AND x15 == 0.00578 AND x16 == 27.421 AND x17 == 0.365488 AND x18 == 0.719974 AND x19 == -6.997403 AND x20 == 0.210279 AND x21 == 1.994387 AND x22 == 0.112878 THEN target == 1"
+  dexp: "IF x1 == 149.689 THEN target == 1"
+  expl: "IF x1 == 149.689 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 155.078 AND x2 == 163.736 AND x3 == 144.148 AND x4 == 0.00168 AND x5 == 0.00001 AND x6 == 0.00068 AND x7 == 0.00092 AND x8 == 0.00204 AND x9 == 0.01064 AND x10 == 0.097 AND x11 == 0.00522 AND x12 == 0.00632 AND x13 == 0.00928 AND x14 == 0.01567 AND x15 == 0.00233 AND x16 == 29.746 AND x17 == 0.334171 AND x18 == 0.67793 AND x19 == -6.981201 AND x20 == 0.18455 AND x21 == 2.129924 AND x22 == 0.106802 THEN target == 1"
+  dexp: "IF x1 == 155.078 THEN target == 1"
+  expl: "IF x1 == 155.078 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 151.884 AND x2 == 157.765 AND x3 == 133.751 AND x4 == 0.00258 AND x5 == 0.00002 AND x6 == 0.00115 AND x7 == 0.00122 AND x8 == 0.00346 AND x9 == 0.0145 AND x10 == 0.137 AND x11 == 0.00633 AND x12 == 0.00788 AND x13 == 0.01267 AND x14 == 0.01898 AND x15 == 0.00659 AND x16 == 26.833 AND x17 == 0.393563 AND x18 == 0.700246 AND x19 == -6.600023 AND x20 == 0.249172 AND x21 == 2.499148 AND x22 == 0.105306 THEN target == 1"
+  dexp: "IF x1 == 151.884 THEN target == 1"
+  expl: "IF x1 == 151.884 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 151.989 AND x2 == 157.339 AND x3 == 132.857 AND x4 == 0.00174 AND x5 == 0.00001 AND x6 == 0.00075 AND x7 == 0.00096 AND x8 == 0.00225 AND x9 == 0.01024 AND x10 == 0.093 AND x11 == 0.00455 AND x12 == 0.00576 AND x13 == 0.00993 AND x14 == 0.01364 AND x15 == 0.00238 AND x16 == 29.928 AND x17 == 0.311369 AND x18 == 0.676066 AND x19 == -6.739151 AND x20 == 0.160686 AND x21 == 2.296873 AND x22 == 0.11513 THEN target == 1"
+  dexp: "IF x1 == 151.989 THEN target == 1"
+  expl: "IF x1 == 151.989 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 193.03 AND x2 == 208.9 AND x3 == 80.297 AND x4 == 0.00766 AND x5 == 0.00004 AND x6 == 0.0045 AND x7 == 0.00389 AND x8 == 0.01351 AND x9 == 0.03044 AND x10 == 0.275 AND x11 == 0.01771 AND x12 == 0.01815 AND x13 == 0.02084 AND x14 == 0.05312 AND x15 == 0.00947 AND x16 == 21.934 AND x17 == 0.497554 AND x18 == 0.740539 AND x19 == -5.845099 AND x20 == 0.278679 AND x21 == 2.608749 AND x22 == 0.185668 THEN target == 1"
+  dexp: "IF x1 == 193.03 THEN target == 1"
+  expl: "IF x1 == 193.03 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 200.714 AND x2 == 223.982 AND x3 == 89.686 AND x4 == 0.00621 AND x5 == 0.00003 AND x6 == 0.00371 AND x7 == 0.00337 AND x8 == 0.01112 AND x9 == 0.02286 AND x10 == 0.207 AND x11 == 0.01192 AND x12 == 0.01439 AND x13 == 0.01852 AND x14 == 0.03576 AND x15 == 0.00704 AND x16 == 23.239 AND x17 == 0.436084 AND x18 == 0.727863 AND x19 == -5.25832 AND x20 == 0.256454 AND x21 == 2.550961 AND x22 == 0.23252 THEN target == 1"
+  dexp: "IF x1 == 200.714 THEN target == 1"
+  expl: "IF x1 == 200.714 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 208.519 AND x2 == 220.315 AND x3 == 199.02 AND x4 == 0.00609 AND x5 == 0.00003 AND x6 == 0.00368 AND x7 == 0.00339 AND x8 == 0.01105 AND x9 == 0.01761 AND x10 == 0.155 AND x11 == 0.00952 AND x12 == 0.01058 AND x13 == 0.01307 AND x14 == 0.02855 AND x15 == 0.0083 AND x16 == 22.407 AND x17 == 0.338097 AND x18 == 0.712466 AND x19 == -6.471427 AND x20 == 0.184378 AND x21 == 2.502336 AND x22 == 0.13639 THEN target == 1"
+  dexp: "IF x1 == 208.519 THEN target == 1"
+  expl: "IF x1 == 208.519 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 204.664 AND x2 == 221.3 AND x3 == 189.621 AND x4 == 0.00841 AND x5 == 0.00004 AND x6 == 0.00502 AND x7 == 0.00485 AND x8 == 0.01506 AND x9 == 0.02378 AND x10 == 0.21 AND x11 == 0.01277 AND x12 == 0.01483 AND x13 == 0.01767 AND x14 == 0.03831 AND x15 == 0.01316 AND x16 == 21.305 AND x17 == 0.498877 AND x18 == 0.722085 AND x19 == -4.876336 AND x20 == 0.212054 AND x21 == 2.376749 AND x22 == 0.268144 THEN target == 1"
+  dexp: "IF x1 == 204.664 THEN target == 1"
+  expl: "IF x1 == 204.664 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 210.141 AND x2 == 232.706 AND x3 == 185.258 AND x4 == 0.00534 AND x5 == 0.00003 AND x6 == 0.00321 AND x7 == 0.0028 AND x8 == 0.00964 AND x9 == 0.0168 AND x10 == 0.149 AND x11 == 0.00861 AND x12 == 0.01017 AND x13 == 0.01301 AND x14 == 0.02583 AND x15 == 0.0062 AND x16 == 23.671 AND x17 == 0.441097 AND x18 == 0.722254 AND x19 == -5.96304 AND x20 == 0.250283 AND x21 == 2.489191 AND x22 == 0.177807 THEN target == 1"
+  dexp: "IF x1 == 210.141 THEN target == 1"
+  expl: "IF x1 == 210.141 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 206.327 AND x2 == 226.355 AND x3 == 92.02 AND x4 == 0.00495 AND x5 == 0.00002 AND x6 == 0.00302 AND x7 == 0.00246 AND x8 == 0.00905 AND x9 == 0.02105 AND x10 == 0.209 AND x11 == 0.01107 AND x12 == 0.01284 AND x13 == 0.01604 AND x14 == 0.0332 AND x15 == 0.01048 AND x16 == 21.864 AND x17 == 0.331508 AND x18 == 0.715121 AND x19 == -6.729713 AND x20 == 0.181701 AND x21 == 2.938114 AND x22 == 0.115515 THEN target == 1"
+  dexp: "IF x1 == 206.327 THEN target == 1"
+  expl: "IF x1 == 206.327 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 151.872 AND x2 == 492.892 AND x3 == 69.085 AND x4 == 0.00856 AND x5 == 0.00006 AND x6 == 0.00404 AND x7 == 0.00385 AND x8 == 0.01211 AND x9 == 0.01843 AND x10 == 0.235 AND x11 == 0.00796 AND x12 == 0.00832 AND x13 == 0.01271 AND x14 == 0.02389 AND x15 == 0.06051 AND x16 == 23.693 AND x17 == 0.407701 AND x18 == 0.662668 AND x19 == -4.673241 AND x20 == 0.261549 AND x21 == 2.702355 AND x22 == 0.274407 THEN target == 1"
+  dexp: "IF x1 == 151.872 THEN target == 1"
+  expl: "IF x1 == 151.872 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 158.219 AND x2 == 442.557 AND x3 == 71.948 AND x4 == 0.00476 AND x5 == 0.00003 AND x6 == 0.00214 AND x7 == 0.00207 AND x8 == 0.00642 AND x9 == 0.01458 AND x10 == 0.148 AND x11 == 0.00606 AND x12 == 0.00747 AND x13 == 0.01312 AND x14 == 0.01818 AND x15 == 0.01554 AND x16 == 26.356 AND x17 == 0.450798 AND x18 == 0.653823 AND x19 == -6.051233 AND x20 == 0.27328 AND x21 == 2.640798 AND x22 == 0.170106 THEN target == 1"
+  dexp: "IF x1 == 158.219 THEN target == 1"
+  expl: "IF x1 == 158.219 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 170.756 AND x2 == 450.247 AND x3 == 79.032 AND x4 == 0.00555 AND x5 == 0.00003 AND x6 == 0.00244 AND x7 == 0.00261 AND x8 == 0.00731 AND x9 == 0.01725 AND x10 == 0.175 AND x11 == 0.00757 AND x12 == 0.00971 AND x13 == 0.01652 AND x14 == 0.0227 AND x15 == 0.01802 AND x16 == 25.69 AND x17 == 0.486738 AND x18 == 0.676023 AND x19 == -4.597834 AND x20 == 0.372114 AND x21 == 2.975889 AND x22 == 0.28278 THEN target == 1"
+  dexp: "IF x1 == 170.756 THEN target == 1"
+  expl: "IF x1 == 170.756 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 178.285 AND x2 == 442.824 AND x3 == 82.063 AND x4 == 0.00462 AND x5 == 0.00003 AND x6 == 0.00157 AND x7 == 0.00194 AND x8 == 0.00472 AND x9 == 0.01279 AND x10 == 0.129 AND x11 == 0.00617 AND x12 == 0.00744 AND x13 == 0.01151 AND x14 == 0.01851 AND x15 == 0.00856 AND x16 == 25.02 AND x17 == 0.470422 AND x18 == 0.655239 AND x19 == -4.913137 AND x20 == 0.393056 AND x21 == 2.816781 AND x22 == 0.251972 THEN target == 1"
+  dexp: "IF x1 == 178.285 THEN target == 1"
+  expl: "IF x1 == 178.285 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 217.116 AND x2 == 233.481 AND x3 == 93.978 AND x4 == 0.00404 AND x5 == 0.00002 AND x6 == 0.00127 AND x7 == 0.00128 AND x8 == 0.00381 AND x9 == 0.01299 AND x10 == 0.124 AND x11 == 0.00679 AND x12 == 0.00631 AND x13 == 0.01075 AND x14 == 0.02038 AND x15 == 0.00681 AND x16 == 24.581 AND x17 == 0.462516 AND x18 == 0.58271 AND x19 == -5.517173 AND x20 == 0.389295 AND x21 == 2.925862 AND x22 == 0.220657 THEN target == 1"
+  dexp: "IF x1 == 217.116 THEN target == 1"
+  expl: "IF x1 == 217.116 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 128.94 AND x2 == 479.697 AND x3 == 88.251 AND x4 == 0.00581 AND x5 == 0.00005 AND x6 == 0.00241 AND x7 == 0.00314 AND x8 == 0.00723 AND x9 == 0.02008 AND x10 == 0.221 AND x11 == 0.00849 AND x12 == 0.01117 AND x13 == 0.01734 AND x14 == 0.02548 AND x15 == 0.0235 AND x16 == 24.743 AND x17 == 0.487756 AND x18 == 0.68413 AND x19 == -6.186128 AND x20 == 0.279933 AND x21 == 2.68624 AND x22 == 0.152428 THEN target == 1"
+  dexp: "IF x1 == 128.94 THEN target == 1"
+  expl: "IF x1 == 128.94 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 176.824 AND x2 == 215.293 AND x3 == 83.961 AND x4 == 0.0046 AND x5 == 0.00003 AND x6 == 0.00209 AND x7 == 0.00221 AND x8 == 0.00628 AND x9 == 0.01169 AND x10 == 0.117 AND x11 == 0.00534 AND x12 == 0.0063 AND x13 == 0.01104 AND x14 == 0.01603 AND x15 == 0.01161 AND x16 == 27.166 AND x17 == 0.400088 AND x18 == 0.656182 AND x19 == -4.711007 AND x20 == 0.281618 AND x21 == 2.655744 AND x22 == 0.234809 THEN target == 1"
+  dexp: "IF x1 == 176.824 THEN target == 1"
+  expl: "IF x1 == 176.824 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 138.19 AND x2 == 203.522 AND x3 == 83.34 AND x4 == 0.00704 AND x5 == 0.00005 AND x6 == 0.00406 AND x7 == 0.00398 AND x8 == 0.01218 AND x9 == 0.04479 AND x10 == 0.441 AND x11 == 0.02587 AND x12 == 0.02567 AND x13 == 0.0322 AND x14 == 0.07761 AND x15 == 0.01968 AND x16 == 18.305 AND x17 == 0.538016 AND x18 == 0.74148 AND x19 == -5.418787 AND x20 == 0.160267 AND x21 == 2.090438 AND x22 == 0.229892 THEN target == 1"
+  dexp: "IF x1 == 138.19 THEN target == 1"
+  expl: "IF x1 == 138.19 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 182.018 AND x2 == 197.173 AND x3 == 79.187 AND x4 == 0.00842 AND x5 == 0.00005 AND x6 == 0.00506 AND x7 == 0.00449 AND x8 == 0.01517 AND x9 == 0.02503 AND x10 == 0.231 AND x11 == 0.01372 AND x12 == 0.0158 AND x13 == 0.01931 AND x14 == 0.04115 AND x15 == 0.01813 AND x16 == 18.784 AND x17 == 0.589956 AND x18 == 0.732903 AND x19 == -5.44514 AND x20 == 0.142466 AND x21 == 2.174306 AND x22 == 0.215558 THEN target == 1"
+  dexp: "IF x1 == 182.018 THEN target == 1"
+  expl: "IF x1 == 182.018 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 156.239 AND x2 == 195.107 AND x3 == 79.82 AND x4 == 0.00694 AND x5 == 0.00004 AND x6 == 0.00403 AND x7 == 0.00395 AND x8 == 0.01209 AND x9 == 0.02343 AND x10 == 0.224 AND x11 == 0.01289 AND x12 == 0.0142 AND x13 == 0.0172 AND x14 == 0.03867 AND x15 == 0.0202 AND x16 == 19.196 AND x17 == 0.618663 AND x18 == 0.728421 AND x19 == -5.944191 AND x20 == 0.143359 AND x21 == 1.929715 AND x22 == 0.181988 THEN target == 1"
+  dexp: "IF x1 == 156.239 THEN target == 1"
+  expl: "IF x1 == 156.239 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 145.174 AND x2 == 198.109 AND x3 == 80.637 AND x4 == 0.00733 AND x5 == 0.00005 AND x6 == 0.00414 AND x7 == 0.00422 AND x8 == 0.01242 AND x9 == 0.02362 AND x10 == 0.233 AND x11 == 0.01235 AND x12 == 0.01495 AND x13 == 0.01944 AND x14 == 0.03706 AND x15 == 0.01874 AND x16 == 18.857 AND x17 == 0.637518 AND x18 == 0.735546 AND x19 == -5.594275 AND x20 == 0.12795 AND x21 == 1.765957 AND x22 == 0.222716 THEN target == 1"
+  dexp: "IF x1 == 145.174 THEN target == 1"
+  expl: "IF x1 == 145.174 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 138.145 AND x2 == 197.238 AND x3 == 81.114 AND x4 == 0.00544 AND x5 == 0.00004 AND x6 == 0.00294 AND x7 == 0.00327 AND x8 == 0.00883 AND x9 == 0.02791 AND x10 == 0.246 AND x11 == 0.01484 AND x12 == 0.01805 AND x13 == 0.02259 AND x14 == 0.04451 AND x15 == 0.01794 AND x16 == 18.178 AND x17 == 0.623209 AND x18 == 0.738245 AND x19 == -5.540351 AND x20 == 0.087165 AND x21 == 1.821297 AND x22 == 0.214075 THEN target == 1"
+  dexp: "IF x1 == 138.145 THEN target == 1"
+  expl: "IF x1 == 138.145 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 166.888 AND x2 == 198.966 AND x3 == 79.512 AND x4 == 0.00638 AND x5 == 0.00004 AND x6 == 0.00368 AND x7 == 0.00351 AND x8 == 0.01104 AND x9 == 0.02857 AND x10 == 0.257 AND x11 == 0.01547 AND x12 == 0.01859 AND x13 == 0.02301 AND x14 == 0.04641 AND x15 == 0.01796 AND x16 == 18.33 AND x17 == 0.585169 AND x18 == 0.736964 AND x19 == -5.825257 AND x20 == 0.115697 AND x21 == 1.996146 AND x22 == 0.196535 THEN target == 1"
+  dexp: "IF x1 == 166.888 THEN target == 1"
+  expl: "IF x1 == 166.888 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 119.031 AND x2 == 127.533 AND x3 == 109.216 AND x4 == 0.0044 AND x5 == 0.00004 AND x6 == 0.00214 AND x7 == 0.00192 AND x8 == 0.00641 AND x9 == 0.01033 AND x10 == 0.098 AND x11 == 0.00538 AND x12 == 0.0057 AND x13 == 0.00811 AND x14 == 0.01614 AND x15 == 0.01724 AND x16 == 26.842 AND x17 == 0.457541 AND x18 == 0.699787 AND x19 == -6.890021 AND x20 == 0.152941 AND x21 == 2.328513 AND x22 == 0.112856 THEN target == 1"
+  dexp: "IF x1 == 119.031 THEN target == 1"
+  expl: "IF x1 == 119.031 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 120.078 AND x2 == 126.632 AND x3 == 105.667 AND x4 == 0.0027 AND x5 == 0.00002 AND x6 == 0.00116 AND x7 == 0.00135 AND x8 == 0.00349 AND x9 == 0.01022 AND x10 == 0.09 AND x11 == 0.00476 AND x12 == 0.00588 AND x13 == 0.00903 AND x14 == 0.01428 AND x15 == 0.00487 AND x16 == 26.369 AND x17 == 0.491345 AND x18 == 0.718839 AND x19 == -5.892061 AND x20 == 0.195976 AND x21 == 2.108873 AND x22 == 0.183572 THEN target == 1"
+  dexp: "IF x1 == 120.078 THEN target == 1"
+  expl: "IF x1 == 120.078 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 120.289 AND x2 == 128.143 AND x3 == 100.209 AND x4 == 0.00492 AND x5 == 0.00004 AND x6 == 0.00269 AND x7 == 0.00238 AND x8 == 0.00808 AND x9 == 0.01412 AND x10 == 0.125 AND x11 == 0.00703 AND x12 == 0.0082 AND x13 == 0.01194 AND x14 == 0.0211 AND x15 == 0.0161 AND x16 == 23.949 AND x17 == 0.46716 AND x18 == 0.724045 AND x19 == -6.135296 AND x20 == 0.20363 AND x21 == 2.539724 AND x22 == 0.169923 THEN target == 1"
+  dexp: "IF x1 == 120.289 THEN target == 1"
+  expl: "IF x1 == 120.289 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 120.256 AND x2 == 125.306 AND x3 == 104.773 AND x4 == 0.00407 AND x5 == 0.00003 AND x6 == 0.00224 AND x7 == 0.00205 AND x8 == 0.00671 AND x9 == 0.01516 AND x10 == 0.138 AND x11 == 0.00721 AND x12 == 0.00815 AND x13 == 0.0131 AND x14 == 0.02164 AND x15 == 0.01015 AND x16 == 26.017 AND x17 == 0.468621 AND x18 == 0.735136 AND x19 == -6.112667 AND x20 == 0.217013 AND x21 == 2.527742 AND x22 == 0.170633 THEN target == 1"
+  dexp: "IF x1 == 120.256 THEN target == 1"
+  expl: "IF x1 == 120.256 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 119.056 AND x2 == 125.213 AND x3 == 86.795 AND x4 == 0.00346 AND x5 == 0.00003 AND x6 == 0.00169 AND x7 == 0.0017 AND x8 == 0.00508 AND x9 == 0.01201 AND x10 == 0.106 AND x11 == 0.00633 AND x12 == 0.00701 AND x13 == 0.00915 AND x14 == 0.01898 AND x15 == 0.00903 AND x16 == 23.389 AND x17 == 0.470972 AND x18 == 0.721308 AND x19 == -5.436135 AND x20 == 0.254909 AND x21 == 2.51632 AND x22 == 0.232209 THEN target == 1"
+  dexp: "IF x1 == 119.056 THEN target == 1"
+  expl: "IF x1 == 119.056 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 118.747 AND x2 == 123.723 AND x3 == 109.836 AND x4 == 0.00331 AND x5 == 0.00003 AND x6 == 0.00168 AND x7 == 0.00171 AND x8 == 0.00504 AND x9 == 0.01043 AND x10 == 0.099 AND x11 == 0.0049 AND x12 == 0.00621 AND x13 == 0.00903 AND x14 == 0.01471 AND x15 == 0.00504 AND x16 == 25.619 AND x17 == 0.482296 AND x18 == 0.723096 AND x19 == -6.448134 AND x20 == 0.178713 AND x21 == 2.034827 AND x22 == 0.141422 THEN target == 1"
+  dexp: "IF x1 == 118.747 THEN target == 1"
+  expl: "IF x1 == 118.747 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 106.516 AND x2 == 112.777 AND x3 == 93.105 AND x4 == 0.00589 AND x5 == 0.00006 AND x6 == 0.00291 AND x7 == 0.00319 AND x8 == 0.00873 AND x9 == 0.04932 AND x10 == 0.441 AND x11 == 0.02683 AND x12 == 0.03112 AND x13 == 0.03651 AND x14 == 0.0805 AND x15 == 0.03031 AND x16 == 17.06 AND x17 == 0.637814 AND x18 == 0.744064 AND x19 == -5.301321 AND x20 == 0.320385 AND x21 == 2.375138 AND x22 == 0.24308 THEN target == 1"
+  dexp: "IF x1 == 106.516 THEN target == 1"
+  expl: "IF x1 == 106.516 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 110.453 AND x2 == 127.611 AND x3 == 105.554 AND x4 == 0.00494 AND x5 == 0.00004 AND x6 == 0.00244 AND x7 == 0.00315 AND x8 == 0.00731 AND x9 == 0.04128 AND x10 == 0.379 AND x11 == 0.02229 AND x12 == 0.02592 AND x13 == 0.03316 AND x14 == 0.06688 AND x15 == 0.02529 AND x16 == 17.707 AND x17 == 0.653427 AND x18 == 0.706687 AND x19 == -5.333619 AND x20 == 0.322044 AND x21 == 2.631793 AND x22 == 0.228319 THEN target == 1"
+  dexp: "IF x1 == 110.453 THEN target == 1"
+  expl: "IF x1 == 110.453 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 113.4 AND x2 == 133.344 AND x3 == 107.816 AND x4 == 0.00451 AND x5 == 0.00004 AND x6 == 0.00219 AND x7 == 0.00283 AND x8 == 0.00658 AND x9 == 0.04879 AND x10 == 0.431 AND x11 == 0.02385 AND x12 == 0.02973 AND x13 == 0.0437 AND x14 == 0.07154 AND x15 == 0.02278 AND x16 == 19.013 AND x17 == 0.6479 AND x18 == 0.708144 AND x19 == -4.378916 AND x20 == 0.300067 AND x21 == 2.445502 AND x22 == 0.259451 THEN target == 1"
+  dexp: "IF x1 == 113.4 THEN target == 1"
+  expl: "IF x1 == 113.4 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 113.166 AND x2 == 130.27 AND x3 == 100.673 AND x4 == 0.00502 AND x5 == 0.00004 AND x6 == 0.00257 AND x7 == 0.00312 AND x8 == 0.00772 AND x9 == 0.05279 AND x10 == 0.476 AND x11 == 0.02896 AND x12 == 0.03347 AND x13 == 0.04134 AND x14 == 0.08689 AND x15 == 0.0369 AND x16 == 16.747 AND x17 == 0.625362 AND x18 == 0.708617 AND x19 == -4.654894 AND x20 == 0.304107 AND x21 == 2.672362 AND x22 == 0.274387 THEN target == 1"
+  dexp: "IF x1 == 113.166 THEN target == 1"
+  expl: "IF x1 == 113.166 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 112.239 AND x2 == 126.609 AND x3 == 104.095 AND x4 == 0.00472 AND x5 == 0.00004 AND x6 == 0.00238 AND x7 == 0.0029 AND x8 == 0.00715 AND x9 == 0.05643 AND x10 == 0.517 AND x11 == 0.0307 AND x12 == 0.0353 AND x13 == 0.04451 AND x14 == 0.09211 AND x15 == 0.02629 AND x16 == 17.366 AND x17 == 0.640945 AND x18 == 0.701404 AND x19 == -5.634576 AND x20 == 0.306014 AND x21 == 2.419253 AND x22 == 0.209191 THEN target == 1"
+  dexp: "IF x1 == 112.239 THEN target == 1"
+  expl: "IF x1 == 112.239 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.15 AND x2 == 131.731 AND x3 == 109.815 AND x4 == 0.00381 AND x5 == 0.00003 AND x6 == 0.00181 AND x7 == 0.00232 AND x8 == 0.00542 AND x9 == 0.03026 AND x10 == 0.267 AND x11 == 0.01514 AND x12 == 0.01812 AND x13 == 0.0277 AND x14 == 0.04543 AND x15 == 0.01827 AND x16 == 18.801 AND x17 == 0.624811 AND x18 == 0.696049 AND x19 == -5.866357 AND x20 == 0.23307 AND x21 == 2.445646 AND x22 == 0.184985 THEN target == 1"
+  dexp: "IF x1 == 116.15 THEN target == 1"
+  expl: "IF x1 == 116.15 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 170.368 AND x2 == 268.796 AND x3 == 79.543 AND x4 == 0.00571 AND x5 == 0.00003 AND x6 == 0.00232 AND x7 == 0.00269 AND x8 == 0.00696 AND x9 == 0.03273 AND x10 == 0.281 AND x11 == 0.01713 AND x12 == 0.01964 AND x13 == 0.02824 AND x14 == 0.05139 AND x15 == 0.02485 AND x16 == 18.54 AND x17 == 0.677131 AND x18 == 0.685057 AND x19 == -4.796845 AND x20 == 0.397749 AND x21 == 2.963799 AND x22 == 0.277227 THEN target == 1"
+  dexp: "IF x1 == 170.368 THEN target == 1"
+  expl: "IF x1 == 170.368 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 208.083 AND x2 == 253.792 AND x3 == 91.802 AND x4 == 0.00757 AND x5 == 0.00004 AND x6 == 0.00428 AND x7 == 0.00428 AND x8 == 0.01285 AND x9 == 0.06725 AND x10 == 0.571 AND x11 == 0.04016 AND x12 == 0.04003 AND x13 == 0.04464 AND x14 == 0.12047 AND x15 == 0.04238 AND x16 == 15.648 AND x17 == 0.606344 AND x18 == 0.665945 AND x19 == -5.410336 AND x20 == 0.288917 AND x21 == 2.665133 AND x22 == 0.231723 THEN target == 1"
+  dexp: "IF x1 == 208.083 THEN target == 1"
+  expl: "IF x1 == 208.083 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 198.458 AND x2 == 219.29 AND x3 == 148.691 AND x4 == 0.00376 AND x5 == 0.00002 AND x6 == 0.00182 AND x7 == 0.00215 AND x8 == 0.00546 AND x9 == 0.03527 AND x10 == 0.297 AND x11 == 0.02055 AND x12 == 0.02076 AND x13 == 0.0253 AND x14 == 0.06165 AND x15 == 0.01728 AND x16 == 18.702 AND x17 == 0.606273 AND x18 == 0.661735 AND x19 == -5.585259 AND x20 == 0.310746 AND x21 == 2.465528 AND x22 == 0.209863 THEN target == 1"
+  dexp: "IF x1 == 198.458 THEN target == 1"
+  expl: "IF x1 == 198.458 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 202.805 AND x2 == 231.508 AND x3 == 86.232 AND x4 == 0.0037 AND x5 == 0.00002 AND x6 == 0.00189 AND x7 == 0.00211 AND x8 == 0.00568 AND x9 == 0.01997 AND x10 == 0.18 AND x11 == 0.01117 AND x12 == 0.01177 AND x13 == 0.01506 AND x14 == 0.0335 AND x15 == 0.0201 AND x16 == 18.687 AND x17 == 0.536102 AND x18 == 0.632631 AND x19 == -5.898673 AND x20 == 0.213353 AND x21 == 2.470746 AND x22 == 0.189032 THEN target == 1"
+  dexp: "IF x1 == 202.805 THEN target == 1"
+  expl: "IF x1 == 202.805 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 202.544 AND x2 == 241.35 AND x3 == 164.168 AND x4 == 0.00254 AND x5 == 0.00001 AND x6 == 0.001 AND x7 == 0.00133 AND x8 == 0.00301 AND x9 == 0.02662 AND x10 == 0.228 AND x11 == 0.01475 AND x12 == 0.01558 AND x13 == 0.02006 AND x14 == 0.04426 AND x15 == 0.01049 AND x16 == 20.68 AND x17 == 0.49748 AND x18 == 0.630409 AND x19 == -6.132663 AND x20 == 0.220617 AND x21 == 2.576563 AND x22 == 0.159777 THEN target == 1"
+  dexp: "IF x1 == 202.544 THEN target == 1"
+  expl: "IF x1 == 202.544 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 223.361 AND x2 == 263.872 AND x3 == 87.638 AND x4 == 0.00352 AND x5 == 0.00002 AND x6 == 0.00169 AND x7 == 0.00188 AND x8 == 0.00506 AND x9 == 0.02536 AND x10 == 0.225 AND x11 == 0.01379 AND x12 == 0.01478 AND x13 == 0.01909 AND x14 == 0.04137 AND x15 == 0.01493 AND x16 == 20.366 AND x17 == 0.566849 AND x18 == 0.574282 AND x19 == -5.456811 AND x20 == 0.345238 AND x21 == 2.840556 AND x22 == 0.232861 THEN target == 1"
+  dexp: "IF x1 == 223.361 THEN target == 1"
+  expl: "IF x1 == 223.361 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 169.774 AND x2 == 191.759 AND x3 == 151.451 AND x4 == 0.01568 AND x5 == 0.00009 AND x6 == 0.00863 AND x7 == 0.00946 AND x8 == 0.02589 AND x9 == 0.08143 AND x10 == 0.821 AND x11 == 0.03804 AND x12 == 0.05426 AND x13 == 0.08808 AND x14 == 0.11411 AND x15 == 0.0753 AND x16 == 12.359 AND x17 == 0.56161 AND x18 == 0.793509 AND x19 == -3.297668 AND x20 == 0.414758 AND x21 == 3.413649 AND x22 == 0.457533 THEN target == 1"
+  dexp: "IF x1 == 169.774 THEN target == 1"
+  expl: "IF x1 == 169.774 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 183.52 AND x2 == 216.814 AND x3 == 161.34 AND x4 == 0.01466 AND x5 == 0.00008 AND x6 == 0.00849 AND x7 == 0.00819 AND x8 == 0.02546 AND x9 == 0.0605 AND x10 == 0.618 AND x11 == 0.02865 AND x12 == 0.04101 AND x13 == 0.06359 AND x14 == 0.08595 AND x15 == 0.06057 AND x16 == 14.367 AND x17 == 0.478024 AND x18 == 0.768974 AND x19 == -4.276605 AND x20 == 0.355736 AND x21 == 3.142364 AND x22 == 0.336085 THEN target == 1"
+  dexp: "IF x1 == 183.52 THEN target == 1"
+  expl: "IF x1 == 183.52 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 188.62 AND x2 == 216.302 AND x3 == 165.982 AND x4 == 0.01719 AND x5 == 0.00009 AND x6 == 0.00996 AND x7 == 0.01027 AND x8 == 0.02987 AND x9 == 0.07118 AND x10 == 0.722 AND x11 == 0.03474 AND x12 == 0.0458 AND x13 == 0.06824 AND x14 == 0.10422 AND x15 == 0.08069 AND x16 == 12.298 AND x17 == 0.55287 AND x18 == 0.764036 AND x19 == -3.377325 AND x20 == 0.335357 AND x21 == 3.274865 AND x22 == 0.418646 THEN target == 1"
+  dexp: "IF x1 == 188.62 THEN target == 1"
+  expl: "IF x1 == 188.62 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 202.632 AND x2 == 565.74 AND x3 == 177.258 AND x4 == 0.01627 AND x5 == 0.00008 AND x6 == 0.00919 AND x7 == 0.00963 AND x8 == 0.02756 AND x9 == 0.0717 AND x10 == 0.833 AND x11 == 0.03515 AND x12 == 0.04265 AND x13 == 0.0646 AND x14 == 0.10546 AND x15 == 0.07889 AND x16 == 14.989 AND x17 == 0.427627 AND x18 == 0.775708 AND x19 == -4.892495 AND x20 == 0.262281 AND x21 == 2.910213 AND x22 == 0.270173 THEN target == 1"
+  dexp: "IF x1 == 202.632 THEN target == 1"
+  expl: "IF x1 == 202.632 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 186.695 AND x2 == 211.961 AND x3 == 149.442 AND x4 == 0.01872 AND x5 == 0.0001 AND x6 == 0.01075 AND x7 == 0.01154 AND x8 == 0.03225 AND x9 == 0.0583 AND x10 == 0.784 AND x11 == 0.02699 AND x12 == 0.03714 AND x13 == 0.06259 AND x14 == 0.08096 AND x15 == 0.10952 AND x16 == 12.529 AND x17 == 0.507826 AND x18 == 0.762726 AND x19 == -4.484303 AND x20 == 0.340256 AND x21 == 2.958815 AND x22 == 0.301487 THEN target == 1"
+  dexp: "IF x1 == 186.695 THEN target == 1"
+  expl: "IF x1 == 186.695 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 192.818 AND x2 == 224.429 AND x3 == 168.793 AND x4 == 0.03107 AND x5 == 0.00016 AND x6 == 0.018 AND x7 == 0.01958 AND x8 == 0.05401 AND x9 == 0.11908 AND x10 == 1.302 AND x11 == 0.05647 AND x12 == 0.0794 AND x13 == 0.13778 AND x14 == 0.16942 AND x15 == 0.21713 AND x16 == 8.441 AND x17 == 0.625866 AND x18 == 0.76832 AND x19 == -2.434031 AND x20 == 0.450493 AND x21 == 3.079221 AND x22 == 0.527367 THEN target == 1"
+  dexp: "IF x1 == 192.818 THEN target == 1"
+  expl: "IF x1 == 192.818 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 198.116 AND x2 == 233.099 AND x3 == 174.478 AND x4 == 0.02714 AND x5 == 0.00014 AND x6 == 0.01568 AND x7 == 0.01699 AND x8 == 0.04705 AND x9 == 0.08684 AND x10 == 1.018 AND x11 == 0.04284 AND x12 == 0.05556 AND x13 == 0.08318 AND x14 == 0.12851 AND x15 == 0.16265 AND x16 == 9.449 AND x17 == 0.584164 AND x18 == 0.754449 AND x19 == -2.839756 AND x20 == 0.356224 AND x21 == 3.184027 AND x22 == 0.454721 THEN target == 1"
+  dexp: "IF x1 == 198.116 THEN target == 1"
+  expl: "IF x1 == 198.116 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 121.345 AND x2 == 139.644 AND x3 == 98.25 AND x4 == 0.00684 AND x5 == 0.00006 AND x6 == 0.00388 AND x7 == 0.00332 AND x8 == 0.01164 AND x9 == 0.02534 AND x10 == 0.241 AND x11 == 0.0134 AND x12 == 0.01399 AND x13 == 0.02056 AND x14 == 0.04019 AND x15 == 0.04179 AND x16 == 21.52 AND x17 == 0.566867 AND x18 == 0.670475 AND x19 == -4.865194 AND x20 == 0.246404 AND x21 == 2.01353 AND x22 == 0.168581 THEN target == 1"
+  dexp: "IF x1 == 121.345 THEN target == 1"
+  expl: "IF x1 == 121.345 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 119.1 AND x2 == 128.442 AND x3 == 88.833 AND x4 == 0.00692 AND x5 == 0.00006 AND x6 == 0.00393 AND x7 == 0.003 AND x8 == 0.01179 AND x9 == 0.02682 AND x10 == 0.236 AND x11 == 0.01484 AND x12 == 0.01405 AND x13 == 0.02018 AND x14 == 0.04451 AND x15 == 0.04611 AND x16 == 21.824 AND x17 == 0.65168 AND x18 == 0.659333 AND x19 == -4.239028 AND x20 == 0.175691 AND x21 == 2.45113 AND x22 == 0.247455 THEN target == 1"
+  dexp: "IF x1 == 119.1 THEN target == 1"
+  expl: "IF x1 == 119.1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 117.87 AND x2 == 127.349 AND x3 == 95.654 AND x4 == 0.00647 AND x5 == 0.00005 AND x6 == 0.00356 AND x7 == 0.003 AND x8 == 0.01067 AND x9 == 0.03087 AND x10 == 0.276 AND x11 == 0.01659 AND x12 == 0.01804 AND x13 == 0.02402 AND x14 == 0.04977 AND x15 == 0.02631 AND x16 == 22.431 AND x17 == 0.6283 AND x18 == 0.652025 AND x19 == -3.583722 AND x20 == 0.207914 AND x21 == 2.439597 AND x22 == 0.206256 THEN target == 1"
+  dexp: "IF x1 == 117.87 THEN target == 1"
+  expl: "IF x1 == 117.87 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 122.336 AND x2 == 142.369 AND x3 == 94.794 AND x4 == 0.00727 AND x5 == 0.00006 AND x6 == 0.00415 AND x7 == 0.00339 AND x8 == 0.01246 AND x9 == 0.02293 AND x10 == 0.223 AND x11 == 0.01205 AND x12 == 0.01289 AND x13 == 0.01771 AND x14 == 0.03615 AND x15 == 0.03191 AND x16 == 22.953 AND x17 == 0.611679 AND x18 == 0.623731 AND x19 == -5.4351 AND x20 == 0.230532 AND x21 == 2.699645 AND x22 == 0.220546 THEN target == 1"
+  dexp: "IF x1 == 122.336 THEN target == 1"
+  expl: "IF x1 == 122.336 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 117.963 AND x2 == 134.209 AND x3 == 100.757 AND x4 == 0.01813 AND x5 == 0.00015 AND x6 == 0.01117 AND x7 == 0.00718 AND x8 == 0.03351 AND x9 == 0.04912 AND x10 == 0.438 AND x11 == 0.0261 AND x12 == 0.02161 AND x13 == 0.02916 AND x14 == 0.0783 AND x15 == 0.10748 AND x16 == 19.075 AND x17 == 0.630547 AND x18 == 0.646786 AND x19 == -3.444478 AND x20 == 0.303214 AND x21 == 2.964568 AND x22 == 0.261305 THEN target == 1"
+  dexp: "IF x1 == 117.963 THEN target == 1"
+  expl: "IF x1 == 117.963 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 126.144 AND x2 == 154.284 AND x3 == 97.543 AND x4 == 0.00975 AND x5 == 0.00008 AND x6 == 0.00593 AND x7 == 0.00454 AND x8 == 0.01778 AND x9 == 0.02852 AND x10 == 0.266 AND x11 == 0.015 AND x12 == 0.01581 AND x13 == 0.02157 AND x14 == 0.04499 AND x15 == 0.03828 AND x16 == 21.534 AND x17 == 0.635015 AND x18 == 0.627337 AND x19 == -5.070096 AND x20 == 0.280091 AND x21 == 2.8923 AND x22 == 0.249703 THEN target == 1"
+  dexp: "IF x1 == 126.144 THEN target == 1"
+  expl: "IF x1 == 126.144 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 127.93 AND x2 == 138.752 AND x3 == 112.173 AND x4 == 0.00605 AND x5 == 0.00005 AND x6 == 0.00321 AND x7 == 0.00318 AND x8 == 0.00962 AND x9 == 0.03235 AND x10 == 0.339 AND x11 == 0.0136 AND x12 == 0.0165 AND x13 == 0.03105 AND x14 == 0.04079 AND x15 == 0.02663 AND x16 == 19.651 AND x17 == 0.654945 AND x18 == 0.675865 AND x19 == -5.498456 AND x20 == 0.234196 AND x21 == 2.103014 AND x22 == 0.216638 THEN target == 1"
+  dexp: "IF x1 == 127.93 THEN target == 1"
+  expl: "IF x1 == 127.93 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 114.238 AND x2 == 124.393 AND x3 == 77.022 AND x4 == 0.00581 AND x5 == 0.00005 AND x6 == 0.00299 AND x7 == 0.00316 AND x8 == 0.00896 AND x9 == 0.04009 AND x10 == 0.406 AND x11 == 0.01579 AND x12 == 0.01994 AND x13 == 0.04114 AND x14 == 0.04736 AND x15 == 0.02073 AND x16 == 20.437 AND x17 == 0.653139 AND x18 == 0.694571 AND x19 == -5.185987 AND x20 == 0.259229 AND x21 == 2.151121 AND x22 == 0.244948 THEN target == 1"
+  dexp: "IF x1 == 114.238 THEN target == 1"
+  expl: "IF x1 == 114.238 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 115.322 AND x2 == 135.738 AND x3 == 107.802 AND x4 == 0.00619 AND x5 == 0.00005 AND x6 == 0.00352 AND x7 == 0.00329 AND x8 == 0.01057 AND x9 == 0.03273 AND x10 == 0.325 AND x11 == 0.01644 AND x12 == 0.01722 AND x13 == 0.02931 AND x14 == 0.04933 AND x15 == 0.0281 AND x16 == 19.388 AND x17 == 0.577802 AND x18 == 0.684373 AND x19 == -5.283009 AND x20 == 0.226528 AND x21 == 2.442906 AND x22 == 0.238281 THEN target == 1"
+  dexp: "IF x1 == 115.322 THEN target == 1"
+  expl: "IF x1 == 115.322 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 114.554 AND x2 == 126.778 AND x3 == 91.121 AND x4 == 0.00651 AND x5 == 0.00006 AND x6 == 0.00366 AND x7 == 0.0034 AND x8 == 0.01097 AND x9 == 0.03658 AND x10 == 0.369 AND x11 == 0.01864 AND x12 == 0.0194 AND x13 == 0.03091 AND x14 == 0.05592 AND x15 == 0.02707 AND x16 == 18.954 AND x17 == 0.685151 AND x18 == 0.719576 AND x19 == -5.529833 AND x20 == 0.24275 AND x21 == 2.408689 AND x22 == 0.22052 THEN target == 1"
+  dexp: "IF x1 == 114.554 THEN target == 1"
+  expl: "IF x1 == 114.554 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 112.15 AND x2 == 131.669 AND x3 == 97.527 AND x4 == 0.00519 AND x5 == 0.00005 AND x6 == 0.00291 AND x7 == 0.00284 AND x8 == 0.00873 AND x9 == 0.01756 AND x10 == 0.155 AND x11 == 0.00967 AND x12 == 0.01033 AND x13 == 0.01363 AND x14 == 0.02902 AND x15 == 0.01435 AND x16 == 21.219 AND x17 == 0.557045 AND x18 == 0.673086 AND x19 == -5.617124 AND x20 == 0.184896 AND x21 == 1.871871 AND x22 == 0.212386 THEN target == 1"
+  dexp: "IF x1 == 112.15 THEN target == 1"
+  expl: "IF x1 == 112.15 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 102.273 AND x2 == 142.83 AND x3 == 85.902 AND x4 == 0.00907 AND x5 == 0.00009 AND x6 == 0.00493 AND x7 == 0.00461 AND x8 == 0.0148 AND x9 == 0.02814 AND x10 == 0.272 AND x11 == 0.01579 AND x12 == 0.01553 AND x13 == 0.02073 AND x14 == 0.04736 AND x15 == 0.03882 AND x16 == 18.447 AND x17 == 0.671378 AND x18 == 0.674562 AND x19 == -2.929379 AND x20 == 0.396746 AND x21 == 2.560422 AND x22 == 0.367233 THEN target == 1"
+  dexp: "IF x1 == 102.273 THEN target == 1"
+  expl: "IF x1 == 102.273 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 236.2 AND x2 == 244.663 AND x3 == 102.137 AND x4 == 0.00277 AND x5 == 0.00001 AND x6 == 0.00154 AND x7 == 0.00153 AND x8 == 0.00462 AND x9 == 0.02448 AND x10 == 0.217 AND x11 == 0.0141 AND x12 == 0.01426 AND x13 == 0.01621 AND x14 == 0.04231 AND x15 == 0.0062 AND x16 == 24.078 AND x17 == 0.469928 AND x18 == 0.628232 AND x19 == -6.816086 AND x20 == 0.17227 AND x21 == 2.235197 AND x22 == 0.119652 THEN target == 0"
+  dexp: "IF x1 == 236.2 THEN target == 0"
+  expl: "IF x1 == 236.2 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 237.323 AND x2 == 243.709 AND x3 == 229.256 AND x4 == 0.00303 AND x5 == 0.00001 AND x6 == 0.00173 AND x7 == 0.00159 AND x8 == 0.00519 AND x9 == 0.01242 AND x10 == 0.116 AND x11 == 0.00696 AND x12 == 0.00747 AND x13 == 0.00882 AND x14 == 0.02089 AND x15 == 0.00533 AND x16 == 24.679 AND x17 == 0.384868 AND x18 == 0.62671 AND x19 == -7.018057 AND x20 == 0.176316 AND x21 == 1.852402 AND x22 == 0.091604 THEN target == 0"
+  dexp: "IF x1 == 237.323 THEN target == 0"
+  expl: "IF x1 == 237.323 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 260.105 AND x2 == 264.919 AND x3 == 237.303 AND x4 == 0.00339 AND x5 == 0.00001 AND x6 == 0.00205 AND x7 == 0.00186 AND x8 == 0.00616 AND x9 == 0.0203 AND x10 == 0.197 AND x11 == 0.01186 AND x12 == 0.0123 AND x13 == 0.01367 AND x14 == 0.03557 AND x15 == 0.0091 AND x16 == 21.083 AND x17 == 0.440988 AND x18 == 0.628058 AND x19 == -7.517934 AND x20 == 0.160414 AND x21 == 1.881767 AND x22 == 0.075587 THEN target == 0"
+  dexp: "IF x1 == 260.105 THEN target == 0"
+  expl: "IF x1 == 260.105 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 197.569 AND x2 == 217.627 AND x3 == 90.794 AND x4 == 0.00803 AND x5 == 0.00004 AND x6 == 0.0049 AND x7 == 0.00448 AND x8 == 0.0147 AND x9 == 0.02177 AND x10 == 0.189 AND x11 == 0.01279 AND x12 == 0.01272 AND x13 == 0.01439 AND x14 == 0.03836 AND x15 == 0.01337 AND x16 == 19.269 AND x17 == 0.372222 AND x18 == 0.725216 AND x19 == -5.736781 AND x20 == 0.164529 AND x21 == 2.88245 AND x22 == 0.202879 THEN target == 0"
+  dexp: "IF x1 == 197.569 THEN target == 0"
+  expl: "IF x1 == 197.569 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 240.301 AND x2 == 245.135 AND x3 == 219.783 AND x4 == 0.00517 AND x5 == 0.00002 AND x6 == 0.00316 AND x7 == 0.00283 AND x8 == 0.00949 AND x9 == 0.02018 AND x10 == 0.212 AND x11 == 0.01176 AND x12 == 0.01191 AND x13 == 0.01344 AND x14 == 0.03529 AND x15 == 0.00965 AND x16 == 21.02 AND x17 == 0.371837 AND x18 == 0.646167 AND x19 == -7.169701 AND x20 == 0.073298 AND x21 == 2.266432 AND x22 == 0.100881 THEN target == 0"
+  dexp: "IF x1 == 240.301 THEN target == 0"
+  expl: "IF x1 == 240.301 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 244.99 AND x2 == 272.21 AND x3 == 239.17 AND x4 == 0.00451 AND x5 == 0.00002 AND x6 == 0.00279 AND x7 == 0.00237 AND x8 == 0.00837 AND x9 == 0.01897 AND x10 == 0.181 AND x11 == 0.01084 AND x12 == 0.01121 AND x13 == 0.01255 AND x14 == 0.03253 AND x15 == 0.01049 AND x16 == 21.528 AND x17 == 0.522812 AND x18 == 0.646818 AND x19 == -7.3045 AND x20 == 0.171088 AND x21 == 2.095237 AND x22 == 0.09622 THEN target == 1"
+  dexp: "IF x1 == 244.99 THEN target == 1"
+  expl: "IF x1 == 244.99 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 112.547 AND x2 == 133.374 AND x3 == 105.715 AND x4 == 0.00355 AND x5 == 0.00003 AND x6 == 0.00166 AND x7 == 0.0019 AND x8 == 0.00499 AND x9 == 0.01358 AND x10 == 0.129 AND x11 == 0.00664 AND x12 == 0.00786 AND x13 == 0.0114 AND x14 == 0.01992 AND x15 == 0.00435 AND x16 == 26.436 AND x17 == 0.413295 AND x18 == 0.7567 AND x19 == -6.323531 AND x20 == 0.218885 AND x21 == 2.193412 AND x22 == 0.160376 THEN target == 0"
+  dexp: "IF x1 == 112.547 THEN target == 0"
+  expl: "IF x1 == 112.547 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 110.739 AND x2 == 113.597 AND x3 == 100.139 AND x4 == 0.00356 AND x5 == 0.00003 AND x6 == 0.0017 AND x7 == 0.002 AND x8 == 0.0051 AND x9 == 0.01484 AND x10 == 0.133 AND x11 == 0.00754 AND x12 == 0.0095 AND x13 == 0.01285 AND x14 == 0.02261 AND x15 == 0.0043 AND x16 == 26.55 AND x17 == 0.36909 AND x18 == 0.776158 AND x19 == -6.085567 AND x20 == 0.192375 AND x21 == 1.889002 AND x22 == 0.174152 THEN target == 0"
+  dexp: "IF x1 == 110.739 THEN target == 0"
+  expl: "IF x1 == 110.739 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 113.715 AND x2 == 116.443 AND x3 == 96.913 AND x4 == 0.00349 AND x5 == 0.00003 AND x6 == 0.00171 AND x7 == 0.00203 AND x8 == 0.00514 AND x9 == 0.01472 AND x10 == 0.133 AND x11 == 0.00748 AND x12 == 0.00905 AND x13 == 0.01148 AND x14 == 0.02245 AND x15 == 0.00478 AND x16 == 26.547 AND x17 == 0.380253 AND x18 == 0.7667 AND x19 == -5.943501 AND x20 == 0.19215 AND x21 == 1.852542 AND x22 == 0.179677 THEN target == 1"
+  dexp: "IF x1 == 113.715 THEN target == 1"
+  expl: "IF x1 == 113.715 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 117.004 AND x2 == 144.466 AND x3 == 99.923 AND x4 == 0.00353 AND x5 == 0.00003 AND x6 == 0.00176 AND x7 == 0.00218 AND x8 == 0.00528 AND x9 == 0.01657 AND x10 == 0.145 AND x11 == 0.00881 AND x12 == 0.01062 AND x13 == 0.01318 AND x14 == 0.02643 AND x15 == 0.0059 AND x16 == 25.445 AND x17 == 0.387482 AND x18 == 0.756482 AND x19 == -6.012559 AND x20 == 0.229298 AND x21 == 1.872946 AND x22 == 0.163118 THEN target == 0"
+  dexp: "IF x1 == 117.004 THEN target == 0"
+  expl: "IF x1 == 117.004 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 115.38 AND x2 == 123.109 AND x3 == 108.634 AND x4 == 0.00332 AND x5 == 0.00003 AND x6 == 0.0016 AND x7 == 0.00199 AND x8 == 0.0048 AND x9 == 0.01503 AND x10 == 0.137 AND x11 == 0.00812 AND x12 == 0.00933 AND x13 == 0.01133 AND x14 == 0.02436 AND x15 == 0.00401 AND x16 == 26.005 AND x17 == 0.405991 AND x18 == 0.761255 AND x19 == -5.966779 AND x20 == 0.197938 AND x21 == 1.974857 AND x22 == 0.184067 THEN target == 0"
+  dexp: "IF x1 == 115.38 THEN target == 0"
+  expl: "IF x1 == 115.38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.388 AND x2 == 129.038 AND x3 == 108.97 AND x4 == 0.00346 AND x5 == 0.00003 AND x6 == 0.00169 AND x7 == 0.00213 AND x8 == 0.00507 AND x9 == 0.01725 AND x10 == 0.155 AND x11 == 0.00874 AND x12 == 0.01021 AND x13 == 0.01331 AND x14 == 0.02623 AND x15 == 0.00415 AND x16 == 26.143 AND x17 == 0.361232 AND x18 == 0.763242 AND x19 == -6.016891 AND x20 == 0.109256 AND x21 == 2.004719 AND x22 == 0.174429 THEN target == 0"
+  dexp: "IF x1 == 116.388 THEN target == 0"
+  expl: "IF x1 == 116.388 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 151.737 AND x2 == 190.204 AND x3 == 129.859 AND x4 == 0.00314 AND x5 == 0.00002 AND x6 == 0.00135 AND x7 == 0.00162 AND x8 == 0.00406 AND x9 == 0.01469 AND x10 == 0.132 AND x11 == 0.00728 AND x12 == 0.00886 AND x13 == 0.0123 AND x14 == 0.02184 AND x15 == 0.0057 AND x16 == 24.151 AND x17 == 0.39661 AND x18 == 0.745957 AND x19 == -6.486822 AND x20 == 0.197919 AND x21 == 2.449763 AND x22 == 0.132703 THEN target == 1"
+  dexp: "IF x1 == 151.737 THEN target == 1"
+  expl: "IF x1 == 151.737 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 148.79 AND x2 == 158.359 AND x3 == 138.99 AND x4 == 0.00309 AND x5 == 0.00002 AND x6 == 0.00152 AND x7 == 0.00186 AND x8 == 0.00456 AND x9 == 0.01574 AND x10 == 0.142 AND x11 == 0.00839 AND x12 == 0.00956 AND x13 == 0.01309 AND x14 == 0.02518 AND x15 == 0.00488 AND x16 == 24.412 AND x17 == 0.402591 AND x18 == 0.762508 AND x19 == -6.311987 AND x20 == 0.182459 AND x21 == 2.251553 AND x22 == 0.160306 THEN target == 1"
+  dexp: "IF x1 == 148.79 THEN target == 1"
+  expl: "IF x1 == 148.79 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 148.143 AND x2 == 155.982 AND x3 == 135.041 AND x4 == 0.00392 AND x5 == 0.00003 AND x6 == 0.00204 AND x7 == 0.00231 AND x8 == 0.00612 AND x9 == 0.0145 AND x10 == 0.131 AND x11 == 0.00725 AND x12 == 0.00876 AND x13 == 0.01263 AND x14 == 0.02175 AND x15 == 0.0054 AND x16 == 23.683 AND x17 == 0.398499 AND x18 == 0.778349 AND x19 == -5.711205 AND x20 == 0.240875 AND x21 == 2.845109 AND x22 == 0.19273 THEN target == 1"
+  dexp: "IF x1 == 148.143 THEN target == 1"
+  expl: "IF x1 == 148.143 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 150.44 AND x2 == 163.441 AND x3 == 144.736 AND x4 == 0.00396 AND x5 == 0.00003 AND x6 == 0.00206 AND x7 == 0.00233 AND x8 == 0.00619 AND x9 == 0.02551 AND x10 == 0.237 AND x11 == 0.01321 AND x12 == 0.01574 AND x13 == 0.02148 AND x14 == 0.03964 AND x15 == 0.00611 AND x16 == 23.133 AND x17 == 0.352396 AND x18 == 0.75932 AND x19 == -6.261446 AND x20 == 0.183218 AND x21 == 2.264226 AND x22 == 0.144105 THEN target == 1"
+  dexp: "IF x1 == 150.44 THEN target == 1"
+  expl: "IF x1 == 150.44 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 148.462 AND x2 == 161.078 AND x3 == 141.998 AND x4 == 0.00397 AND x5 == 0.00003 AND x6 == 0.00202 AND x7 == 0.00235 AND x8 == 0.00605 AND x9 == 0.01831 AND x10 == 0.163 AND x11 == 0.0095 AND x12 == 0.01103 AND x13 == 0.01559 AND x14 == 0.02849 AND x15 == 0.00639 AND x16 == 22.866 AND x17 == 0.408598 AND x18 == 0.768845 AND x19 == -5.704053 AND x20 == 0.216204 AND x21 == 2.679185 AND x22 == 0.19771 THEN target == 1"
+  dexp: "IF x1 == 148.462 THEN target == 1"
+  expl: "IF x1 == 148.462 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 149.818 AND x2 == 163.417 AND x3 == 144.786 AND x4 == 0.00336 AND x5 == 0.00002 AND x6 == 0.00174 AND x7 == 0.00198 AND x8 == 0.00521 AND x9 == 0.02145 AND x10 == 0.198 AND x11 == 0.01155 AND x12 == 0.01341 AND x13 == 0.01666 AND x14 == 0.03464 AND x15 == 0.00595 AND x16 == 23.008 AND x17 == 0.329577 AND x18 == 0.75718 AND x19 == -6.27717 AND x20 == 0.109397 AND x21 == 2.209021 AND x22 == 0.156368 THEN target == 1"
+  dexp: "IF x1 == 149.818 THEN target == 1"
+  expl: "IF x1 == 149.818 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 117.226 AND x2 == 123.925 AND x3 == 106.656 AND x4 == 0.00417 AND x5 == 0.00004 AND x6 == 0.00186 AND x7 == 0.0027 AND x8 == 0.00558 AND x9 == 0.01909 AND x10 == 0.171 AND x11 == 0.00864 AND x12 == 0.01223 AND x13 == 0.01949 AND x14 == 0.02592 AND x15 == 0.00955 AND x16 == 23.079 AND x17 == 0.603515 AND x18 == 0.669565 AND x19 == -5.61907 AND x20 == 0.191576 AND x21 == 2.027228 AND x22 == 0.215724 THEN target == 0"
+  dexp: "IF x1 == 117.226 THEN target == 0"
+  expl: "IF x1 == 117.226 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.848 AND x2 == 217.552 AND x3 == 99.503 AND x4 == 0.00531 AND x5 == 0.00005 AND x6 == 0.0026 AND x7 == 0.00346 AND x8 == 0.0078 AND x9 == 0.01795 AND x10 == 0.163 AND x11 == 0.0081 AND x12 == 0.01144 AND x13 == 0.01756 AND x14 == 0.02429 AND x15 == 0.01179 AND x16 == 22.085 AND x17 == 0.663842 AND x18 == 0.656516 AND x19 == -5.198864 AND x20 == 0.206768 AND x21 == 2.120412 AND x22 == 0.252404 THEN target == 0"
+  dexp: "IF x1 == 116.848 THEN target == 0"
+  expl: "IF x1 == 116.848 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.286 AND x2 == 177.291 AND x3 == 96.983 AND x4 == 0.00314 AND x5 == 0.00003 AND x6 == 0.00134 AND x7 == 0.00192 AND x8 == 0.00403 AND x9 == 0.01564 AND x10 == 0.136 AND x11 == 0.00667 AND x12 == 0.0099 AND x13 == 0.01691 AND x14 == 0.02001 AND x15 == 0.00737 AND x16 == 24.199 AND x17 == 0.598515 AND x18 == 0.654331 AND x19 == -5.592584 AND x20 == 0.133917 AND x21 == 2.058658 AND x22 == 0.214346 THEN target == 0"
+  dexp: "IF x1 == 116.286 THEN target == 0"
+  expl: "IF x1 == 116.286 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.556 AND x2 == 592.03 AND x3 == 86.228 AND x4 == 0.00496 AND x5 == 0.00004 AND x6 == 0.00254 AND x7 == 0.00263 AND x8 == 0.00762 AND x9 == 0.0166 AND x10 == 0.154 AND x11 == 0.0082 AND x12 == 0.00972 AND x13 == 0.01491 AND x14 == 0.0246 AND x15 == 0.01397 AND x16 == 23.958 AND x17 == 0.566424 AND x18 == 0.667654 AND x19 == -6.431119 AND x20 == 0.15331 AND x21 == 2.161936 AND x22 == 0.120605 THEN target == 1"
+  dexp: "IF x1 == 116.556 THEN target == 1"
+  expl: "IF x1 == 116.556 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 116.342 AND x2 == 581.289 AND x3 == 94.246 AND x4 == 0.00267 AND x5 == 0.00002 AND x6 == 0.00115 AND x7 == 0.00148 AND x8 == 0.00345 AND x9 == 0.013 AND x10 == 0.117 AND x11 == 0.00631 AND x12 == 0.00789 AND x13 == 0.01144 AND x14 == 0.01892 AND x15 == 0.0068 AND x16 == 25.023 AND x17 == 0.528485 AND x18 == 0.663884 AND x19 == -6.359018 AND x20 == 0.116636 AND x21 == 2.152083 AND x22 == 0.138868 THEN target == 0"
+  dexp: "IF x1 == 116.342 THEN target == 0"
+  expl: "IF x1 == 116.342 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 114.563 AND x2 == 119.167 AND x3 == 86.647 AND x4 == 0.00327 AND x5 == 0.00003 AND x6 == 0.00146 AND x7 == 0.00184 AND x8 == 0.00439 AND x9 == 0.01185 AND x10 == 0.106 AND x11 == 0.00557 AND x12 == 0.00721 AND x13 == 0.01095 AND x14 == 0.01672 AND x15 == 0.00703 AND x16 == 24.775 AND x17 == 0.555303 AND x18 == 0.659132 AND x19 == -6.710219 AND x20 == 0.149694 AND x21 == 1.91399 AND x22 == 0.121777 THEN target == 0"
+  dexp: "IF x1 == 114.563 THEN target == 0"
+  expl: "IF x1 == 114.563 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 201.774 AND x2 == 262.707 AND x3 == 78.228 AND x4 == 0.00694 AND x5 == 0.00003 AND x6 == 0.00412 AND x7 == 0.00396 AND x8 == 0.01235 AND x9 == 0.02574 AND x10 == 0.255 AND x11 == 0.01454 AND x12 == 0.01582 AND x13 == 0.01758 AND x14 == 0.04363 AND x15 == 0.04441 AND x16 == 19.368 AND x17 == 0.508479 AND x18 == 0.683761 AND x19 == -6.934474 AND x20 == 0.15989 AND x21 == 2.316346 AND x22 == 0.112838 THEN target == 0"
+  dexp: "IF x1 == 201.774 THEN target == 0"
+  expl: "IF x1 == 201.774 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 174.188 AND x2 == 230.978 AND x3 == 94.261 AND x4 == 0.00459 AND x5 == 0.00003 AND x6 == 0.00263 AND x7 == 0.00259 AND x8 == 0.0079 AND x9 == 0.04087 AND x10 == 0.405 AND x11 == 0.02336 AND x12 == 0.02498 AND x13 == 0.02745 AND x14 == 0.07008 AND x15 == 0.02764 AND x16 == 19.517 AND x17 == 0.448439 AND x18 == 0.657899 AND x19 == -6.538586 AND x20 == 0.121952 AND x21 == 2.657476 AND x22 == 0.13305 THEN target == 0"
+  dexp: "IF x1 == 174.188 THEN target == 0"
+  expl: "IF x1 == 174.188 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 209.516 AND x2 == 253.017 AND x3 == 89.488 AND x4 == 0.00564 AND x5 == 0.00003 AND x6 == 0.00331 AND x7 == 0.00292 AND x8 == 0.00994 AND x9 == 0.02751 AND x10 == 0.263 AND x11 == 0.01604 AND x12 == 0.01657 AND x13 == 0.01879 AND x14 == 0.04812 AND x15 == 0.0181 AND x16 == 19.147 AND x17 == 0.431674 AND x18 == 0.683244 AND x19 == -6.195325 AND x20 == 0.129303 AND x21 == 2.784312 AND x22 == 0.168895 THEN target == 0"
+  dexp: "IF x1 == 209.516 THEN target == 0"
+  expl: "IF x1 == 209.516 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 174.688 AND x2 == 240.005 AND x3 == 74.287 AND x4 == 0.0136 AND x5 == 0.00008 AND x6 == 0.00624 AND x7 == 0.00564 AND x8 == 0.01873 AND x9 == 0.02308 AND x10 == 0.256 AND x11 == 0.01268 AND x12 == 0.01365 AND x13 == 0.01667 AND x14 == 0.03804 AND x15 == 0.10715 AND x16 == 17.883 AND x17 == 0.407567 AND x18 == 0.655683 AND x19 == -6.787197 AND x20 == 0.158453 AND x21 == 2.679772 AND x22 == 0.131728 THEN target == 0"
+  dexp: "IF x1 == 174.688 THEN target == 0"
+  expl: "IF x1 == 174.688 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 198.764 AND x2 == 396.961 AND x3 == 74.904 AND x4 == 0.0074 AND x5 == 0.00004 AND x6 == 0.0037 AND x7 == 0.0039 AND x8 == 0.01109 AND x9 == 0.02296 AND x10 == 0.241 AND x11 == 0.01265 AND x12 == 0.01321 AND x13 == 0.01588 AND x14 == 0.03794 AND x15 == 0.07223 AND x16 == 19.02 AND x17 == 0.451221 AND x18 == 0.643956 AND x19 == -6.744577 AND x20 == 0.207454 AND x21 == 2.138608 AND x22 == 0.123306 THEN target == 1"
+  dexp: "IF x1 == 198.764 THEN target == 1"
+  expl: "IF x1 == 198.764 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 214.289 AND x2 == 260.277 AND x3 == 77.973 AND x4 == 0.00567 AND x5 == 0.00003 AND x6 == 0.00295 AND x7 == 0.00317 AND x8 == 0.00885 AND x9 == 0.01884 AND x10 == 0.19 AND x11 == 0.01026 AND x12 == 0.01161 AND x13 == 0.01373 AND x14 == 0.03078 AND x15 == 0.04398 AND x16 == 21.209 AND x17 == 0.462803 AND x18 == 0.664357 AND x19 == -5.724056 AND x20 == 0.190667 AND x21 == 2.555477 AND x22 == 0.148569 THEN target == 0"
+  dexp: "IF x1 == 214.289 THEN target == 0"
+  expl: "IF x1 == 214.289 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 195
+tot # of expls: 195
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.00
+avg expl sz: 1.00
+max expl sz: 1.00
+Max expl sz: 1
+
+tot time: 0.04
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

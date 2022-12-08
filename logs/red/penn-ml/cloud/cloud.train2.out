@@ -1,0 +1,767 @@
+MODEL:
+IF PERIOD == 1.0 THEN target == 0
+IF PERIOD == 2.0 THEN target == 0
+IF PERIOD == 3.0 THEN target == 3
+IF PERIOD == 4.0 THEN target == 3
+IF PERIOD == 5.0 THEN target == 3
+IF PERIOD == 6.0 THEN target == 3
+IF PERIOD == 7.0 THEN target == 3
+IF PERIOD == 8.0 THEN target == 3
+IF PERIOD == 9.0 THEN target == 1
+IF PERIOD == 10.0 THEN target == 1
+IF PERIOD == 11.0 THEN target == 1
+IF PERIOD == 13.0 THEN target == 1
+IF PERIOD == 14.0 THEN target == 1
+IF PERIOD == 15.0 THEN target == 2
+IF PERIOD == 16.0 THEN target == 2
+IF PERIOD == 45.0 THEN target == 2
+IF PERIOD == 46.0 THEN target == 2
+IF PERIOD == 48.0 THEN target == 2
+IF PERIOD == 49.0 THEN target == 0
+IF PERIOD == 51.0 THEN target == 0
+IF PERIOD == 52.0 THEN target == 0
+IF PERIOD == 53.0 THEN target == 0
+IF PERIOD == 54.0 THEN target == 0
+IF PERIOD == 55.0 THEN target == 3
+IF PERIOD == 56.0 THEN target == 3
+IF PERIOD == 57.0 THEN target == 3
+IF PERIOD == 58.0 THEN target == 3
+IF PERIOD == 59.0 THEN target == 3
+IF PERIOD == 60.0 THEN target == 3
+IF PERIOD == 61.0 THEN target == 3
+IF PERIOD == 62.0 THEN target == 3
+IF PERIOD == 64.0 THEN target == 1
+IF PERIOD == 66.0 THEN target == 1
+IF PERIOD == 67.0 THEN target == 1
+IF PERIOD == 68.0 THEN target == 1
+IF PERIOD == 69.0 THEN target == 2
+IF PERIOD == 95.0 THEN target == 1
+IF PERIOD == 96.0 THEN target == 1
+IF PERIOD == 97.0 THEN target == 1
+IF PERIOD == 99.0 THEN target == 1
+IF PERIOD == 100.0 THEN target == 1
+IF PERIOD == 102.0 THEN target == 2
+IF PERIOD == 103.0 THEN target == 2
+IF PERIOD == 104.0 THEN target == 2
+IF PERIOD == 105.0 THEN target == 2
+IF PERIOD == 106.0 THEN target == 2
+IF PERIOD == 107.0 THEN target == 2
+IF PERIOD == 109.0 THEN target == 0
+IF PERIOD == 110.0 THEN target == 0
+IF PERIOD == 111.0 THEN target == 0
+IF PERIOD == 112.0 THEN target == 0
+IF PERIOD == 113.0 THEN target == 0
+IF PERIOD == 114.0 THEN target == 0
+IF PERIOD == 115.0 THEN target == 0
+IF PERIOD == 116.0 THEN target == 0
+IF PERIOD == 117.0 THEN target == 3
+IF PERIOD == 118.0 THEN target == 3
+IF PERIOD == 119.0 THEN target == 3
+IF PERIOD == 120.0 THEN target == 3
+IF PERIOD == 121.0 THEN target == 3
+IF PERIOD == 122.0 THEN target == 3
+IF PERIOD == 124.0 THEN target == 1
+IF PERIOD == 125.0 THEN target == 1
+IF PERIOD == 126.0 THEN target == 1
+IF PERIOD == 127.0 THEN target == 1
+IF PERIOD == 131.0 THEN target == 2
+IF PERIOD == 133.0 THEN target == 2
+IF PERIOD == 134.0 THEN target == 2
+IF PERIOD == 135.0 THEN target == 2
+IF PERIOD == 172.0 THEN target == 0
+IF PERIOD == 173.0 THEN target == 0
+IF PERIOD == 175.0 THEN target == 0
+IF PERIOD == 176.0 THEN target == 0
+IF PERIOD == 177.0 THEN target == 0
+IF PERIOD == 180.0 THEN target == 3
+IF PERIOD == 181.0 THEN target == 3
+IF PERIOD == 182.0 THEN target == 3
+IF PERIOD == 184.0 THEN target == 3
+IF PERIOD == 185.0 THEN target == 3
+IF PERIOD == 186.0 THEN target == 3
+IF PERIOD == 188.0 THEN target == 1
+IF PERIOD == 189.0 THEN target == 1
+IF PERIOD == 190.0 THEN target == 1
+IF PERIOD == 191.0 THEN target == 1
+IF PERIOD == 193.0 THEN target == 1
+IF PERIOD == 194.0 THEN target == 1
+IF TRUE THEN target == 3
+
+ENCODINDS:
+# of classes: 4
+min # of vars: 591
+avg # of vars: 591.00
+max # of vars: 591
+min # of clauses: 28843
+avg # of clauses: 28848.75
+max # of clauses: 28854
+
+EXPLANATIONS:
+  inst: "IF PERIOD == 1.0 AND SEEDED == 0 AND TE == 1.69 AND TW == 3.73 AND NC == 1.65 AND SC == 1.8 AND NWC == 3.33 THEN target == 0"
+  dexp: "IF PERIOD == 1.0 THEN target == 0"
+  expl: "IF PERIOD == 1.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 2.0 AND SEEDED == 1 AND TE == 0.74 AND TW == 0.78 AND NC == 1.09 AND SC == 0.79 AND NWC == 1.59 THEN target == 0"
+  dexp: "IF PERIOD == 2.0 THEN target == 0"
+  expl: "IF PERIOD == 2.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 3.0 AND SEEDED == 0 AND TE == 0.81 AND TW == 0.86 AND NC == 2.39 AND SC == 0.36 AND NWC == 2.06 THEN target == 3"
+  dexp: "IF PERIOD == 3.0 THEN target == 3"
+  expl: "IF PERIOD == 3.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 4.0 AND SEEDED == 1 AND TE == 1.44 AND TW == 2.01 AND NC == 2.96 AND SC == 1.27 AND NWC == 4.05 THEN target == 3"
+  dexp: "IF PERIOD == 4.0 THEN target == 3"
+  expl: "IF PERIOD == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 5.0 AND SEEDED == 0 AND TE == 2.48 AND TW == 4.61 AND NC == 4.16 AND SC == 2.16 AND NWC == 6.0 THEN target == 3"
+  dexp: "IF PERIOD == 5.0 THEN target == 3"
+  expl: "IF PERIOD == 5.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 6.0 AND SEEDED == 1 AND TE == 0.84 AND TW == 2.39 AND NC == 2.76 AND SC == 0.87 AND NWC == 4.17 THEN target == 3"
+  dexp: "IF PERIOD == 6.0 THEN target == 3"
+  expl: "IF PERIOD == 6.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 7.0 AND SEEDED == 1 AND TE == 0.37 AND TW == 1.37 AND NC == 1.08 AND SC == 0.85 AND NWC == 3.45 THEN target == 3"
+  dexp: "IF PERIOD == 7.0 THEN target == 3"
+  expl: "IF PERIOD == 7.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 8.0 AND SEEDED == 0 AND TE == 0.37 AND TW == 0.84 AND NC == 0.26 AND SC == 0.47 AND NWC == 0.9 THEN target == 3"
+  dexp: "IF PERIOD == 8.0 THEN target == 3"
+  expl: "IF PERIOD == 8.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 9.0 AND SEEDED == 1 AND TE == 1.33 AND TW == 2.31 AND NC == 2.53 AND SC == 1.08 AND NWC == 3.65 THEN target == 1"
+  dexp: "IF PERIOD == 9.0 THEN target == 1"
+  expl: "IF PERIOD == 9.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 10.0 AND SEEDED == 0 AND TE == 3.38 AND TW == 5.56 AND NC == 2.76 AND SC == 3.1 AND NWC == 5.06 THEN target == 1"
+  dexp: "IF PERIOD == 10.0 THEN target == 1"
+  expl: "IF PERIOD == 10.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 11.0 AND SEEDED == 0 AND TE == 0.69 AND TW == 1.46 AND NC == 1.07 AND SC == 0.64 AND NWC == 1.95 THEN target == 1"
+  dexp: "IF PERIOD == 11.0 THEN target == 1"
+  expl: "IF PERIOD == 11.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 12.0 AND SEEDED == 1 AND TE == 1.42 AND TW == 2.79 AND NC == 1.42 AND SC == 1.08 AND NWC == 1.22 THEN target == 3"
+  dexp: "IF PERIOD == 12.0 THEN target == 3"
+  expl: "IF PERIOD == 12.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 13.0 AND SEEDED == 0 AND TE == 0.44 AND TW == 1.05 AND NC == 0.24 AND SC == 0.44 AND NWC == 0.94 THEN target == 1"
+  dexp: "IF PERIOD == 13.0 THEN target == 1"
+  expl: "IF PERIOD == 13.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 14.0 AND SEEDED == 1 AND TE == 0.76 AND TW == 1.24 AND NC == 0.7 AND SC == 0.67 AND NWC == 0.94 THEN target == 1"
+  dexp: "IF PERIOD == 14.0 THEN target == 1"
+  expl: "IF PERIOD == 14.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 15.0 AND SEEDED == 0 AND TE == 1.13 AND TW == 2.28 AND NC == 0.97 AND SC == 1.66 AND NWC == 2.21 THEN target == 2"
+  dexp: "IF PERIOD == 15.0 THEN target == 2"
+  expl: "IF PERIOD == 15.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 16.0 AND SEEDED == 1 AND TE == 0.88 AND TW == 1.58 AND NC == 1.06 AND SC == 1.13 AND NWC == 1.46 THEN target == 2"
+  dexp: "IF PERIOD == 16.0 THEN target == 2"
+  expl: "IF PERIOD == 16.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 45.0 AND SEEDED == 0 AND TE == 0.17 AND TW == 0.55 AND NC == 0.13 AND SC == 0.27 AND NWC == 0.35 THEN target == 2"
+  dexp: "IF PERIOD == 45.0 THEN target == 2"
+  expl: "IF PERIOD == 45.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 46.0 AND SEEDED == 1 AND TE == 0.25 AND TW == 0.77 AND NC == 0.1 AND SC == 0.3 AND NWC == 0.34 THEN target == 2"
+  dexp: "IF PERIOD == 46.0 THEN target == 2"
+  expl: "IF PERIOD == 46.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 47.0 AND SEEDED == 1 AND TE == 0.78 AND TW == 1.45 AND NC == 0.38 AND SC == 0.58 AND NWC == 0.67 THEN target == 3"
+  dexp: "IF PERIOD == 47.0 THEN target == 3"
+  expl: "IF PERIOD == 47.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 48.0 AND SEEDED == 0 AND TE == 0.4 AND TW == 0.34 AND NC == 0.45 AND SC == 0.43 AND NWC == 0.44 THEN target == 2"
+  dexp: "IF PERIOD == 48.0 THEN target == 2"
+  expl: "IF PERIOD == 48.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 49.0 AND SEEDED == 0 AND TE == 0.52 AND TW == 0.79 AND NC == 0.42 AND SC == 0.47 AND NWC == 0.53 THEN target == 0"
+  dexp: "IF PERIOD == 49.0 THEN target == 0"
+  expl: "IF PERIOD == 49.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 50.0 AND SEEDED == 1 AND TE == 2.73 AND TW == 2.09 AND NC == 2.24 AND SC == 4.02 AND NWC == 2.52 THEN target == 3"
+  dexp: "IF PERIOD == 50.0 THEN target == 3"
+  expl: "IF PERIOD == 50.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 51.0 AND SEEDED == 1 AND TE == 0.9 AND TW == 2.45 AND NC == 0.52 AND SC == 1.32 AND NWC == 2.18 THEN target == 0"
+  dexp: "IF PERIOD == 51.0 THEN target == 0"
+  expl: "IF PERIOD == 51.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 52.0 AND SEEDED == 0 AND TE == 1.62 AND TW == 2.54 AND NC == 0.94 AND SC == 1.59 AND NWC == 1.73 THEN target == 0"
+  dexp: "IF PERIOD == 52.0 THEN target == 0"
+  expl: "IF PERIOD == 52.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 53.0 AND SEEDED == 1 AND TE == 0.93 AND TW == 2.11 AND NC == 1.19 AND SC == 0.85 AND NWC == 2.31 THEN target == 0"
+  dexp: "IF PERIOD == 53.0 THEN target == 0"
+  expl: "IF PERIOD == 53.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 54.0 AND SEEDED == 0 AND TE == 0.63 AND TW == 1.31 AND NC == 0.76 AND SC == 0.71 AND NWC == 1.28 THEN target == 0"
+  dexp: "IF PERIOD == 54.0 THEN target == 0"
+  expl: "IF PERIOD == 54.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 55.0 AND SEEDED == 0 AND TE == 0.42 AND TW == 1.23 AND NC == 0.13 AND SC == 0.59 AND NWC == 0.91 THEN target == 3"
+  dexp: "IF PERIOD == 55.0 THEN target == 3"
+  expl: "IF PERIOD == 55.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 56.0 AND SEEDED == 1 AND TE == 0.64 AND TW == 0.43 AND NC == 1.5 AND SC == 0.24 AND NWC == 1.15 THEN target == 3"
+  dexp: "IF PERIOD == 56.0 THEN target == 3"
+  expl: "IF PERIOD == 56.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 57.0 AND SEEDED == 1 AND TE == 0.3 AND TW == 0.69 AND NC == 1.03 AND SC == 0.22 AND NWC == 1.88 THEN target == 3"
+  dexp: "IF PERIOD == 57.0 THEN target == 3"
+  expl: "IF PERIOD == 57.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 58.0 AND SEEDED == 0 AND TE == 0.88 AND TW == 1.32 AND NC == 1.87 AND SC == 0.58 AND NWC == 2.97 THEN target == 3"
+  dexp: "IF PERIOD == 58.0 THEN target == 3"
+  expl: "IF PERIOD == 58.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 59.0 AND SEEDED == 1 AND TE == 0.76 AND TW == 1.25 AND NC == 1.85 AND SC == 1.36 AND NWC == 2.17 THEN target == 3"
+  dexp: "IF PERIOD == 59.0 THEN target == 3"
+  expl: "IF PERIOD == 59.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 60.0 AND SEEDED == 0 AND TE == 1.25 AND TW == 1.0 AND NC == 2.04 AND SC == 0.71 AND NWC == 2.22 THEN target == 3"
+  dexp: "IF PERIOD == 60.0 THEN target == 3"
+  expl: "IF PERIOD == 60.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 61.0 AND SEEDED == 1 AND TE == 1.08 AND TW == 0.99 AND NC == 1.44 AND SC == 1.0 AND NWC == 1.64 THEN target == 3"
+  dexp: "IF PERIOD == 61.0 THEN target == 3"
+  expl: "IF PERIOD == 61.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 62.0 AND SEEDED == 0 AND TE == 1.11 AND TW == 0.8 AND NC == 1.46 AND SC == 1.48 AND NWC == 0.4 THEN target == 3"
+  dexp: "IF PERIOD == 62.0 THEN target == 3"
+  expl: "IF PERIOD == 62.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 63.0 AND SEEDED == 0 AND TE == 3.43 AND TW == 2.55 AND NC == 5.08 AND SC == 1.77 AND NWC == 4.2 THEN target == 3"
+  dexp: "IF PERIOD == 63.0 THEN target == 3"
+  expl: "IF PERIOD == 63.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 64.0 AND SEEDED == 1 AND TE == 0.54 AND TW == 0.43 AND NC == 0.66 AND SC == 0.73 AND NWC == 0.91 THEN target == 1"
+  dexp: "IF PERIOD == 64.0 THEN target == 1"
+  expl: "IF PERIOD == 64.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 65.0 AND SEEDED == 0 AND TE == 0.39 AND TW == 0.44 AND NC == 0.49 AND SC == 0.55 AND NWC == 0.51 THEN target == 3"
+  dexp: "IF PERIOD == 65.0 THEN target == 3"
+  expl: "IF PERIOD == 65.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 66.0 AND SEEDED == 1 AND TE == 2.53 AND TW == 3.18 AND NC == 3.27 AND SC == 2.68 AND NWC == 3.6 THEN target == 1"
+  dexp: "IF PERIOD == 66.0 THEN target == 1"
+  expl: "IF PERIOD == 66.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 67.0 AND SEEDED == 1 AND TE == 0.81 AND TW == 0.89 AND NC == 1.33 AND SC == 0.43 AND NWC == 2.18 THEN target == 1"
+  dexp: "IF PERIOD == 67.0 THEN target == 1"
+  expl: "IF PERIOD == 67.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 68.0 AND SEEDED == 0 AND TE == 0.39 AND TW == 1.22 AND NC == 0.25 AND SC == 0.46 AND NWC == 0.89 THEN target == 1"
+  dexp: "IF PERIOD == 68.0 THEN target == 1"
+  expl: "IF PERIOD == 68.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 69.0 AND SEEDED == 0 AND TE == 0.86 AND TW == 1.24 AND NC == 0.69 AND SC == 0.49 AND NWC == 0.69 THEN target == 2"
+  dexp: "IF PERIOD == 69.0 THEN target == 2"
+  expl: "IF PERIOD == 69.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 70.0 AND SEEDED == 1 AND TE == 2.16 AND TW == 2.29 AND NC == 2.12 AND SC == 0.95 AND NWC == 1.82 THEN target == 3"
+  dexp: "IF PERIOD == 70.0 THEN target == 3"
+  expl: "IF PERIOD == 70.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 95.0 AND SEEDED == 1 AND TE == 1.7 AND TW == 2.18 AND NC == 1.45 AND SC == 1.47 AND NWC == 2.2 THEN target == 1"
+  dexp: "IF PERIOD == 95.0 THEN target == 1"
+  expl: "IF PERIOD == 95.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 96.0 AND SEEDED == 0 AND TE == 1.22 AND TW == 2.0 AND NC == 2.13 AND SC == 1.13 AND NWC == 2.33 THEN target == 1"
+  dexp: "IF PERIOD == 96.0 THEN target == 1"
+  expl: "IF PERIOD == 96.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 97.0 AND SEEDED == 0 AND TE == 0.07 AND TW == 0.22 AND NC == 0.02 AND SC == 0.08 AND NWC == 0.24 THEN target == 1"
+  dexp: "IF PERIOD == 97.0 THEN target == 1"
+  expl: "IF PERIOD == 97.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 98.0 AND SEEDED == 1 AND TE == 0.49 AND TW == 1.07 AND NC == 0.36 AND SC == 0.87 AND NWC == 0.57 THEN target == 3"
+  dexp: "IF PERIOD == 98.0 THEN target == 3"
+  expl: "IF PERIOD == 98.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 99.0 AND SEEDED == 1 AND TE == 0.71 AND TW == 1.73 AND NC == 0.72 AND SC == 0.99 AND NWC == 0.98 THEN target == 1"
+  dexp: "IF PERIOD == 99.0 THEN target == 1"
+  expl: "IF PERIOD == 99.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 100.0 AND SEEDED == 0 AND TE == 1.67 AND TW == 3.46 AND NC == 1.02 AND SC == 1.89 AND NWC == 2.47 THEN target == 1"
+  dexp: "IF PERIOD == 100.0 THEN target == 1"
+  expl: "IF PERIOD == 100.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 101.0 AND SEEDED == 1 AND TE == 0.73 AND TW == 1.51 AND NC == 0.18 AND SC == 1.42 AND NWC == 0.71 THEN target == 3"
+  dexp: "IF PERIOD == 101.0 THEN target == 3"
+  expl: "IF PERIOD == 101.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 102.0 AND SEEDED == 0 AND TE == 1.79 AND TW == 3.13 AND NC == 1.83 AND SC == 1.82 AND NWC == 3.11 THEN target == 2"
+  dexp: "IF PERIOD == 102.0 THEN target == 2"
+  expl: "IF PERIOD == 102.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 103.0 AND SEEDED == 1 AND TE == 0.19 AND TW == 1.05 AND NC == 0.08 AND SC == 0.4 AND NWC == 0.57 THEN target == 2"
+  dexp: "IF PERIOD == 103.0 THEN target == 2"
+  expl: "IF PERIOD == 103.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 104.0 AND SEEDED == 0 AND TE == 0.0 AND TW == 0.15 AND NC == 0.0 AND SC == 0.04 AND NWC == 0.04 THEN target == 2"
+  dexp: "IF PERIOD == 104.0 THEN target == 2"
+  expl: "IF PERIOD == 104.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 105.0 AND SEEDED == 0 AND TE == 0.44 AND TW == 0.89 AND NC == 0.83 AND SC == 0.38 AND NWC == 0.7 THEN target == 2"
+  dexp: "IF PERIOD == 105.0 THEN target == 2"
+  expl: "IF PERIOD == 105.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 106.0 AND SEEDED == 1 AND TE == 0.31 AND TW == 1.15 AND NC == 0.01 AND SC == 0.44 AND NWC == 0.66 THEN target == 2"
+  dexp: "IF PERIOD == 106.0 THEN target == 2"
+  expl: "IF PERIOD == 106.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 107.0 AND SEEDED == 0 AND TE == 0.96 AND TW == 0.88 AND NC == 2.65 AND SC == 0.85 AND NWC == 1.48 THEN target == 2"
+  dexp: "IF PERIOD == 107.0 THEN target == 2"
+  expl: "IF PERIOD == 107.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 108.0 AND SEEDED == 1 AND TE == 1.04 AND TW == 1.2 AND NC == 1.27 AND SC == 1.39 AND NWC == 1.2 THEN target == 3"
+  dexp: "IF PERIOD == 108.0 THEN target == 3"
+  expl: "IF PERIOD == 108.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 109.0 AND SEEDED == 0 AND TE == 0.05 AND TW == 0.06 AND NC == 0.01 AND SC == 0.23 AND NWC == 0.1 THEN target == 0"
+  dexp: "IF PERIOD == 109.0 THEN target == 0"
+  expl: "IF PERIOD == 109.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 110.0 AND SEEDED == 1 AND TE == 0.04 AND TW == 0.2 AND NC == 0.35 AND SC == 0.75 AND NWC == 0.2 THEN target == 0"
+  dexp: "IF PERIOD == 110.0 THEN target == 0"
+  expl: "IF PERIOD == 110.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 111.0 AND SEEDED == 0 AND TE == 1.83 AND TW == 2.93 AND NC == 1.8 AND SC == 1.62 AND NWC == 3.02 THEN target == 0"
+  dexp: "IF PERIOD == 111.0 THEN target == 0"
+  expl: "IF PERIOD == 111.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 112.0 AND SEEDED == 1 AND TE == 2.24 AND TW == 2.17 AND NC == 4.44 AND SC == 1.05 AND NWC == 3.59 THEN target == 0"
+  dexp: "IF PERIOD == 112.0 THEN target == 0"
+  expl: "IF PERIOD == 112.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 113.0 AND SEEDED == 0 AND TE == 2.5 AND TW == 3.99 AND NC == 2.84 AND SC == 2.44 AND NWC == 4.48 THEN target == 0"
+  dexp: "IF PERIOD == 113.0 THEN target == 0"
+  expl: "IF PERIOD == 113.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 114.0 AND SEEDED == 1 AND TE == 1.1 AND TW == 1.71 AND NC == 2.05 AND SC == 1.3 AND NWC == 4.04 THEN target == 0"
+  dexp: "IF PERIOD == 114.0 THEN target == 0"
+  expl: "IF PERIOD == 114.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 115.0 AND SEEDED == 0 AND TE == 1.83 AND TW == 3.87 AND NC == 3.01 AND SC == 1.66 AND NWC == 4.56 THEN target == 0"
+  dexp: "IF PERIOD == 115.0 THEN target == 0"
+  expl: "IF PERIOD == 115.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 116.0 AND SEEDED == 1 AND TE == 1.41 AND TW == 2.99 AND NC == 2.58 AND SC == 1.21 AND NWC == 3.95 THEN target == 0"
+  dexp: "IF PERIOD == 116.0 THEN target == 0"
+  expl: "IF PERIOD == 116.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 117.0 AND SEEDED == 1 AND TE == 0.74 AND TW == 1.36 AND NC == 2.22 AND SC == 0.61 AND NWC == 2.68 THEN target == 3"
+  dexp: "IF PERIOD == 117.0 THEN target == 3"
+  expl: "IF PERIOD == 117.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 118.0 AND SEEDED == 0 AND TE == 1.09 AND TW == 3.56 AND NC == 0.07 AND SC == 2.26 AND NWC == 2.08 THEN target == 3"
+  dexp: "IF PERIOD == 118.0 THEN target == 3"
+  expl: "IF PERIOD == 118.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 119.0 AND SEEDED == 0 AND TE == 0.79 AND TW == 1.43 AND NC == 1.62 AND SC == 1.16 AND NWC == 2.87 THEN target == 3"
+  dexp: "IF PERIOD == 119.0 THEN target == 3"
+  expl: "IF PERIOD == 119.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 120.0 AND SEEDED == 1 AND TE == 4.06 AND TW == 6.71 AND NC == 4.34 AND SC == 3.29 AND NWC == 6.4 THEN target == 3"
+  dexp: "IF PERIOD == 120.0 THEN target == 3"
+  expl: "IF PERIOD == 120.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 121.0 AND SEEDED == 1 AND TE == 0.4 AND TW == 0.64 AND NC == 1.03 AND SC == 0.58 AND NWC == 1.77 THEN target == 3"
+  dexp: "IF PERIOD == 121.0 THEN target == 3"
+  expl: "IF PERIOD == 121.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 122.0 AND SEEDED == 0 AND TE == 0.76 AND TW == 1.83 AND NC == 1.5 AND SC == 0.41 AND NWC == 2.56 THEN target == 3"
+  dexp: "IF PERIOD == 122.0 THEN target == 3"
+  expl: "IF PERIOD == 122.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 123.0 AND SEEDED == 0 AND TE == 1.53 AND TW == 3.62 AND NC == 1.52 AND SC == 1.62 AND NWC == 2.86 THEN target == 3"
+  dexp: "IF PERIOD == 123.0 THEN target == 3"
+  expl: "IF PERIOD == 123.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 124.0 AND SEEDED == 1 AND TE == 0.56 AND TW == 2.88 AND NC == 0.37 AND SC == 1.25 AND NWC == 1.74 THEN target == 1"
+  dexp: "IF PERIOD == 124.0 THEN target == 1"
+  expl: "IF PERIOD == 124.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 125.0 AND SEEDED == 1 AND TE == 1.74 AND TW == 3.45 AND NC == 2.14 AND SC == 1.0 AND NWC == 4.39 THEN target == 1"
+  dexp: "IF PERIOD == 125.0 THEN target == 1"
+  expl: "IF PERIOD == 125.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 126.0 AND SEEDED == 0 AND TE == 1.59 AND TW == 3.19 AND NC == 2.36 AND SC == 1.53 AND NWC == 3.03 THEN target == 1"
+  dexp: "IF PERIOD == 126.0 THEN target == 1"
+  expl: "IF PERIOD == 126.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 127.0 AND SEEDED == 1 AND TE == 1.91 AND TW == 4.74 AND NC == 1.71 AND SC == 2.03 AND NWC == 3.24 THEN target == 1"
+  dexp: "IF PERIOD == 127.0 THEN target == 1"
+  expl: "IF PERIOD == 127.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 128.0 AND SEEDED == 0 AND TE == 2.09 AND TW == 5.23 AND NC == 2.12 AND SC == 2.77 AND NWC == 4.44 THEN target == 3"
+  dexp: "IF PERIOD == 128.0 THEN target == 3"
+  expl: "IF PERIOD == 128.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 129.0 AND SEEDED == 1 AND TE == 1.59 AND TW == 3.92 AND NC == 1.38 AND SC == 2.11 AND NWC == 3.01 THEN target == 3"
+  dexp: "IF PERIOD == 129.0 THEN target == 3"
+  expl: "IF PERIOD == 129.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 130.0 AND SEEDED == 0 AND TE == 0.66 AND TW == 2.22 AND NC == 0.21 AND SC == 1.41 AND NWC == 0.8 THEN target == 3"
+  dexp: "IF PERIOD == 130.0 THEN target == 3"
+  expl: "IF PERIOD == 130.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 131.0 AND SEEDED == 1 AND TE == 0.68 AND TW == 0.42 AND NC == 0.48 AND SC == 0.59 AND NWC == 0.68 THEN target == 2"
+  dexp: "IF PERIOD == 131.0 THEN target == 2"
+  expl: "IF PERIOD == 131.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 132.0 AND SEEDED == 0 AND TE == 0.46 AND TW == 1.08 AND NC == 0.01 AND SC == 0.65 AND NWC == 0.48 THEN target == 3"
+  dexp: "IF PERIOD == 132.0 THEN target == 3"
+  expl: "IF PERIOD == 132.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 133.0 AND SEEDED == 0 AND TE == 0.22 AND TW == 0.62 AND NC == 0.15 AND SC == 0.13 AND NWC == 0.42 THEN target == 2"
+  dexp: "IF PERIOD == 133.0 THEN target == 2"
+  expl: "IF PERIOD == 133.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 134.0 AND SEEDED == 1 AND TE == 1.11 AND TW == 1.7 AND NC == 1.32 AND SC == 0.57 AND NWC == 1.54 THEN target == 2"
+  dexp: "IF PERIOD == 134.0 THEN target == 2"
+  expl: "IF PERIOD == 134.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 135.0 AND SEEDED == 0 AND TE == 1.76 AND TW == 1.19 AND NC == 2.26 AND SC == 1.04 AND NWC == 1.27 THEN target == 2"
+  dexp: "IF PERIOD == 135.0 THEN target == 2"
+  expl: "IF PERIOD == 135.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 136.0 AND SEEDED == 1 AND TE == 5.12 AND TW == 5.25 AND NC == 5.95 AND SC == 3.97 AND NWC == 5.37 THEN target == 3"
+  dexp: "IF PERIOD == 136.0 THEN target == 3"
+  expl: "IF PERIOD == 136.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 171.0 AND SEEDED == 1 AND TE == 0.12 AND TW == 0.6 AND NC == 0.19 AND SC == 0.28 AND NWC == 0.7 THEN target == 3"
+  dexp: "IF PERIOD == 171.0 THEN target == 3"
+  expl: "IF PERIOD == 171.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 172.0 AND SEEDED == 0 AND TE == 0.37 AND TW == 0.65 AND NC == 0.31 AND SC == 0.23 AND NWC == 0.83 THEN target == 0"
+  dexp: "IF PERIOD == 172.0 THEN target == 0"
+  expl: "IF PERIOD == 172.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 173.0 AND SEEDED == 0 AND TE == 4.97 AND TW == 3.03 AND NC == 1.44 AND SC == 3.14 AND NWC == 0.86 THEN target == 0"
+  dexp: "IF PERIOD == 173.0 THEN target == 0"
+  expl: "IF PERIOD == 173.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 174.0 AND SEEDED == 1 AND TE == 0.57 AND TW == 1.53 AND NC == 0.3 AND SC == 0.72 AND NWC == 1.38 THEN target == 3"
+  dexp: "IF PERIOD == 174.0 THEN target == 3"
+  expl: "IF PERIOD == 174.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 175.0 AND SEEDED == 0 AND TE == 0.13 AND TW == 0.54 AND NC == 0.11 AND SC == 0.14 AND NWC == 0.58 THEN target == 0"
+  dexp: "IF PERIOD == 175.0 THEN target == 0"
+  expl: "IF PERIOD == 175.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 176.0 AND SEEDED == 1 AND TE == 2.47 AND TW == 4.7 AND NC == 3.66 AND SC == 1.84 AND NWC == 5.36 THEN target == 0"
+  dexp: "IF PERIOD == 176.0 THEN target == 0"
+  expl: "IF PERIOD == 176.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 177.0 AND SEEDED == 1 AND TE == 1.01 AND TW == 2.32 AND NC == 1.14 AND SC == 0.81 AND NWC == 2.09 THEN target == 0"
+  dexp: "IF PERIOD == 177.0 THEN target == 0"
+  expl: "IF PERIOD == 177.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 178.0 AND SEEDED == 0 AND TE == 0.55 AND TW == 1.13 AND NC == 1.3 AND SC == 0.34 AND NWC == 2.45 THEN target == 3"
+  dexp: "IF PERIOD == 178.0 THEN target == 3"
+  expl: "IF PERIOD == 178.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 179.0 AND SEEDED == 0 AND TE == 0.24 AND TW == 0.61 AND NC == 0.05 AND SC == 0.38 AND NWC == 0.9 THEN target == 3"
+  dexp: "IF PERIOD == 179.0 THEN target == 3"
+  expl: "IF PERIOD == 179.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 180.0 AND SEEDED == 1 AND TE == 2.36 AND TW == 1.15 AND NC == 1.84 AND SC == 1.73 AND NWC == 2.33 THEN target == 3"
+  dexp: "IF PERIOD == 180.0 THEN target == 3"
+  expl: "IF PERIOD == 180.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 181.0 AND SEEDED == 0 AND TE == 2.35 AND TW == 4.29 AND NC == 4.24 AND SC == 1.67 AND NWC == 5.48 THEN target == 3"
+  dexp: "IF PERIOD == 181.0 THEN target == 3"
+  expl: "IF PERIOD == 181.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 182.0 AND SEEDED == 1 AND TE == 2.23 AND TW == 4.3 AND NC == 1.99 AND SC == 1.9 AND NWC == 3.67 THEN target == 3"
+  dexp: "IF PERIOD == 182.0 THEN target == 3"
+  expl: "IF PERIOD == 182.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 183.0 AND SEEDED == 1 AND TE == 1.16 AND TW == 3.06 AND NC == 2.44 AND SC == 1.52 AND NWC == 4.01 THEN target == 3"
+  dexp: "IF PERIOD == 183.0 THEN target == 3"
+  expl: "IF PERIOD == 183.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 184.0 AND SEEDED == 0 AND TE == 1.63 AND TW == 3.31 AND NC == 2.21 AND SC == 2.36 AND NWC == 3.25 THEN target == 3"
+  dexp: "IF PERIOD == 184.0 THEN target == 3"
+  expl: "IF PERIOD == 184.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 185.0 AND SEEDED == 0 AND TE == 1.08 AND TW == 3.17 AND NC == 0.8 AND SC == 2.25 AND NWC == 2.79 THEN target == 3"
+  dexp: "IF PERIOD == 185.0 THEN target == 3"
+  expl: "IF PERIOD == 185.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 186.0 AND SEEDED == 1 AND TE == 6.0 AND TW == 6.15 AND NC == 9.42 AND SC == 3.6 AND NWC == 7.84 THEN target == 3"
+  dexp: "IF PERIOD == 186.0 THEN target == 3"
+  expl: "IF PERIOD == 186.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 187.0 AND SEEDED == 0 AND TE == 2.67 AND TW == 6.93 AND NC == 2.74 AND SC == 3.03 AND NWC == 6.39 THEN target == 3"
+  dexp: "IF PERIOD == 187.0 THEN target == 3"
+  expl: "IF PERIOD == 187.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 188.0 AND SEEDED == 1 AND TE == 0.36 AND TW == 0.15 AND NC == 0.0 AND SC == 0.19 AND NWC == 0.06 THEN target == 1"
+  dexp: "IF PERIOD == 188.0 THEN target == 1"
+  expl: "IF PERIOD == 188.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 189.0 AND SEEDED == 0 AND TE == 0.58 AND TW == 1.41 AND NC == 0.96 AND SC == 0.64 AND NWC == 1.24 THEN target == 1"
+  dexp: "IF PERIOD == 189.0 THEN target == 1"
+  expl: "IF PERIOD == 189.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 190.0 AND SEEDED == 1 AND TE == 1.36 AND TW == 3.43 AND NC == 1.38 AND SC == 1.86 AND NWC == 2.91 THEN target == 1"
+  dexp: "IF PERIOD == 190.0 THEN target == 1"
+  expl: "IF PERIOD == 190.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 191.0 AND SEEDED == 0 AND TE == 1.17 AND TW == 1.65 AND NC == 1.22 AND SC == 2.28 AND NWC == 1.58 THEN target == 1"
+  dexp: "IF PERIOD == 191.0 THEN target == 1"
+  expl: "IF PERIOD == 191.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 192.0 AND SEEDED == 1 AND TE == 2.37 AND TW == 1.94 AND NC == 2.46 AND SC == 2.47 AND NWC == 2.39 THEN target == 3"
+  dexp: "IF PERIOD == 192.0 THEN target == 3"
+  expl: "IF PERIOD == 192.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 193.0 AND SEEDED == 0 AND TE == 0.02 AND TW == 0.08 AND NC == 0.05 AND SC == 0.02 AND NWC == 0.09 THEN target == 1"
+  dexp: "IF PERIOD == 193.0 THEN target == 1"
+  expl: "IF PERIOD == 193.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF PERIOD == 194.0 AND SEEDED == 1 AND TE == 0.92 AND TW == 2.09 AND NC == 0.61 AND SC == 0.87 AND NWC == 1.35 THEN target == 1"
+  dexp: "IF PERIOD == 194.0 THEN target == 1"
+  expl: "IF PERIOD == 194.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 108
+tot # of expls: 108
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.00
+avg expl sz: 1.00
+max expl sz: 1.00
+Max expl sz: 1
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

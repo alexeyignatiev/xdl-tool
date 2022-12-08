@@ -1,0 +1,754 @@
+MODEL:
+IF name == 1 THEN target == 1
+IF name == 2 THEN target == 1
+IF name == 3 THEN target == 1
+IF name == 4 THEN target == 1
+IF name == 5 THEN target == 1
+IF name == 6 THEN target == 1
+IF name == 7 THEN target == 1
+IF name == 8 THEN target == 1
+IF name == 9 THEN target == 1
+IF name == 10 THEN target == 1
+IF name == 11 THEN target == 1
+IF name == 14 THEN target == 1
+IF name == 15 THEN target == 1
+IF name == 16 THEN target == 1
+IF name == 17 THEN target == 1
+IF name == 18 THEN target == 1
+IF name == 19 THEN target == 1
+IF name == 20 THEN target == 1
+IF name == 21 THEN target == 1
+IF name == 22 THEN target == 1
+IF name == 23 THEN target == 1
+IF name == 24 THEN target == 1
+IF name == 25 THEN target == 1
+IF name == 26 THEN target == 1
+IF name == 27 THEN target == 1
+IF name == 29 THEN target == 1
+IF name == 30 THEN target == 1
+IF name == 31 THEN target == 1
+IF name == 32 THEN target == 1
+IF name == 33 THEN target == 1
+IF name == 34 THEN target == 1
+IF name == 36 THEN target == 1
+IF name == 37 THEN target == 1
+IF name == 38 THEN target == 1
+IF name == 39 THEN target == 1
+IF name == 43 THEN target == 1
+IF name == 45 THEN target == 1
+IF name == 46 THEN target == 1
+IF name == 47 THEN target == 1
+IF name == 48 THEN target == 1
+IF name == 49 THEN target == 1
+IF name == 50 THEN target == 1
+IF name == 51 THEN target == 1
+IF name == 53 THEN target == 0
+IF name == 54 THEN target == 0
+IF name == 57 THEN target == 0
+IF name == 59 THEN target == 0
+IF name == 60 THEN target == 0
+IF name == 61 THEN target == 0
+IF name == 62 THEN target == 0
+IF name == 63 THEN target == 0
+IF name == 65 THEN target == 0
+IF name == 66 THEN target == 0
+IF name == 67 THEN target == 0
+IF name == 68 THEN target == 0
+IF name == 69 THEN target == 0
+IF name == 70 THEN target == 0
+IF name == 71 THEN target == 0
+IF name == 73 THEN target == 0
+IF name == 74 THEN target == 0
+IF name == 75 THEN target == 0
+IF name == 76 THEN target == 0
+IF name == 77 THEN target == 0
+IF name == 79 THEN target == 0
+IF name == 80 THEN target == 0
+IF name == 81 THEN target == 0
+IF name == 82 THEN target == 0
+IF name == 83 THEN target == 0
+IF name == 84 THEN target == 0
+IF name == 87 THEN target == 0
+IF name == 88 THEN target == 0
+IF name == 89 THEN target == 0
+IF name == 90 THEN target == 0
+IF name == 91 THEN target == 0
+IF name == 92 THEN target == 0
+IF name == 94 THEN target == 0
+IF name == 95 THEN target == 0
+IF name == 96 THEN target == 0
+IF name == 97 THEN target == 0
+IF name == 98 THEN target == 0
+IF name == 99 THEN target == 0
+IF name == 100 THEN target == 0
+IF name == 101 THEN target == 0
+IF name == 102 THEN target == 0
+IF name == 103 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 334
+avg # of vars: 334.00
+max # of vars: 334
+min # of clauses: 6007
+avg # of clauses: 6008.00
+max # of clauses: 6009
+
+EXPLANATIONS:
+  inst: "IF name == 91 AND A3 == 3 AND A4 == 0 AND A5 == 1 AND A6 == 3 AND A7 == 0 AND A8 == 2 AND A9 == 1 AND A10 == 0 AND A11 == 0 AND A12 == 3 AND A13 == 0 AND A14 == 1 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 2 AND A22 == 3 AND A23 == 3 AND A24 == 1 AND A25 == 2 AND A26 == 2 AND A27 == 3 AND A28 == 2 AND A29 == 2 AND A30 == 3 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 2 AND A35 == 3 AND A36 == 0 AND A37 == 3 AND A38 == 2 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 2 AND A50 == 2 AND A51 == 2 AND A52 == 1 AND A53 == 3 AND A54 == 3 AND A55 == 2 AND A56 == 3 AND A57 == 1 AND A58 == 2 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 91 THEN target == 0"
+  expl: "IF name == 91 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 54 AND A3 == 3 AND A4 == 2 AND A5 == 1 AND A6 == 3 AND A7 == 0 AND A8 == 3 AND A9 == 1 AND A10 == 1 AND A11 == 3 AND A12 == 2 AND A13 == 0 AND A14 == 1 AND A15 == 0 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 1 AND A22 == 0 AND A23 == 1 AND A24 == 2 AND A25 == 1 AND A26 == 3 AND A27 == 2 AND A28 == 0 AND A29 == 3 AND A30 == 3 AND A31 == 2 AND A32 == 2 AND A33 == 3 AND A34 == 2 AND A35 == 3 AND A36 == 1 AND A37 == 2 AND A38 == 3 AND A39 == 3 AND A40 == 0 AND A41 == 1 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 1 AND A46 == 3 AND A47 == 0 AND A48 == 0 AND A49 == 1 AND A50 == 2 AND A51 == 1 AND A52 == 0 AND A53 == 3 AND A54 == 1 AND A55 == 2 AND A56 == 1 AND A57 == 1 AND A58 == 0 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 54 THEN target == 0"
+  expl: "IF name == 54 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 57 AND A3 == 2 AND A4 == 3 AND A5 == 0 AND A6 == 1 AND A7 == 3 AND A8 == 0 AND A9 == 2 AND A10 == 0 AND A11 == 2 AND A12 == 0 AND A13 == 0 AND A14 == 1 AND A15 == 3 AND A16 == 0 AND A17 == 2 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 0 AND A22 == 3 AND A23 == 3 AND A24 == 0 AND A25 == 2 AND A26 == 1 AND A27 == 3 AND A28 == 3 AND A29 == 0 AND A30 == 3 AND A31 == 3 AND A32 == 3 AND A33 == 3 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 2 AND A38 == 3 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 1 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 3 AND A48 == 0 AND A49 == 0 AND A50 == 1 AND A51 == 1 AND A52 == 0 AND A53 == 1 AND A54 == 1 AND A55 == 1 AND A56 == 2 AND A57 == 2 AND A58 == 1 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 57 THEN target == 0"
+  expl: "IF name == 57 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 61 AND A3 == 0 AND A4 == 0 AND A5 == 3 AND A6 == 3 AND A7 == 2 AND A8 == 3 AND A9 == 2 AND A10 == 0 AND A11 == 3 AND A12 == 2 AND A13 == 3 AND A14 == 2 AND A15 == 3 AND A16 == 0 AND A17 == 3 AND A18 == 1 AND A19 == 2 AND A20 == 0 AND A21 == 0 AND A22 == 2 AND A23 == 3 AND A24 == 2 AND A25 == 3 AND A26 == 2 AND A27 == 3 AND A28 == 3 AND A29 == 2 AND A30 == 1 AND A31 == 2 AND A32 == 2 AND A33 == 0 AND A34 == 2 AND A35 == 3 AND A36 == 0 AND A37 == 2 AND A38 == 0 AND A39 == 3 AND A40 == 2 AND A41 == 3 AND A42 == 3 AND A43 == 0 AND A44 == 2 AND A45 == 0 AND A46 == 0 AND A47 == 3 AND A48 == 0 AND A49 == 1 AND A50 == 3 AND A51 == 0 AND A52 == 0 AND A53 == 1 AND A54 == 0 AND A55 == 0 AND A56 == 0 AND A57 == 1 AND A58 == 3 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 61 THEN target == 0"
+  expl: "IF name == 61 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 70 AND A3 == 3 AND A4 == 1 AND A5 == 2 AND A6 == 0 AND A7 == 3 AND A8 == 0 AND A9 == 0 AND A10 == 3 AND A11 == 3 AND A12 == 0 AND A13 == 0 AND A14 == 1 AND A15 == 3 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 2 AND A23 == 0 AND A24 == 0 AND A25 == 0 AND A26 == 0 AND A27 == 2 AND A28 == 1 AND A29 == 3 AND A30 == 2 AND A31 == 0 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 1 AND A36 == 1 AND A37 == 0 AND A38 == 1 AND A39 == 3 AND A40 == 0 AND A41 == 2 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 3 AND A51 == 1 AND A52 == 1 AND A53 == 2 AND A54 == 3 AND A55 == 2 AND A56 == 2 AND A57 == 3 AND A58 == 0 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 70 THEN target == 0"
+  expl: "IF name == 70 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 74 AND A3 == 0 AND A4 == 2 AND A5 == 2 AND A6 == 2 AND A7 == 2 AND A8 == 1 AND A9 == 0 AND A10 == 0 AND A11 == 2 AND A12 == 2 AND A13 == 0 AND A14 == 2 AND A15 == 2 AND A16 == 0 AND A17 == 3 AND A18 == 2 AND A19 == 2 AND A20 == 0 AND A21 == 0 AND A22 == 0 AND A23 == 2 AND A24 == 0 AND A25 == 2 AND A26 == 2 AND A27 == 3 AND A28 == 3 AND A29 == 2 AND A30 == 1 AND A31 == 1 AND A32 == 2 AND A33 == 3 AND A34 == 0 AND A35 == 3 AND A36 == 0 AND A37 == 0 AND A38 == 0 AND A39 == 2 AND A40 == 0 AND A41 == 0 AND A42 == 0 AND A43 == 1 AND A44 == 3 AND A45 == 0 AND A46 == 2 AND A47 == 0 AND A48 == 2 AND A49 == 3 AND A50 == 1 AND A51 == 1 AND A52 == 2 AND A53 == 3 AND A54 == 3 AND A55 == 3 AND A56 == 0 AND A57 == 2 AND A58 == 2 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 74 THEN target == 0"
+  expl: "IF name == 74 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 75 AND A3 == 1 AND A4 == 0 AND A5 == 2 AND A6 == 2 AND A7 == 2 AND A8 == 2 AND A9 == 2 AND A10 == 3 AND A11 == 2 AND A12 == 2 AND A13 == 0 AND A14 == 2 AND A15 == 2 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 3 AND A20 == 0 AND A21 == 0 AND A22 == 2 AND A23 == 1 AND A24 == 1 AND A25 == 0 AND A26 == 3 AND A27 == 1 AND A28 == 3 AND A29 == 1 AND A30 == 1 AND A31 == 3 AND A32 == 2 AND A33 == 0 AND A34 == 3 AND A35 == 2 AND A36 == 0 AND A37 == 1 AND A38 == 2 AND A39 == 1 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 2 AND A44 == 3 AND A45 == 1 AND A46 == 0 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 1 AND A51 == 0 AND A52 == 3 AND A53 == 1 AND A54 == 0 AND A55 == 3 AND A56 == 2 AND A57 == 0 AND A58 == 0 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 75 THEN target == 0"
+  expl: "IF name == 75 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 79 AND A3 == 3 AND A4 == 3 AND A5 == 3 AND A6 == 1 AND A7 == 3 AND A8 == 0 AND A9 == 1 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 1 AND A15 == 0 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 3 AND A22 == 0 AND A23 == 1 AND A24 == 3 AND A25 == 2 AND A26 == 3 AND A27 == 0 AND A28 == 3 AND A29 == 2 AND A30 == 0 AND A31 == 2 AND A32 == 1 AND A33 == 0 AND A34 == 3 AND A35 == 0 AND A36 == 1 AND A37 == 0 AND A38 == 2 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 3 AND A46 == 2 AND A47 == 1 AND A48 == 3 AND A49 == 3 AND A50 == 1 AND A51 == 0 AND A52 == 0 AND A53 == 1 AND A54 == 0 AND A55 == 2 AND A56 == 0 AND A57 == 0 AND A58 == 1 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 79 THEN target == 0"
+  expl: "IF name == 79 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 82 AND A3 == 1 AND A4 == 2 AND A5 == 0 AND A6 == 1 AND A7 == 3 AND A8 == 3 AND A9 == 0 AND A10 == 0 AND A11 == 3 AND A12 == 0 AND A13 == 3 AND A14 == 0 AND A15 == 1 AND A16 == 3 AND A17 == 2 AND A18 == 1 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 2 AND A24 == 2 AND A25 == 0 AND A26 == 1 AND A27 == 2 AND A28 == 3 AND A29 == 1 AND A30 == 1 AND A31 == 2 AND A32 == 3 AND A33 == 3 AND A34 == 1 AND A35 == 3 AND A36 == 2 AND A37 == 3 AND A38 == 2 AND A39 == 3 AND A40 == 0 AND A41 == 0 AND A42 == 0 AND A43 == 3 AND A44 == 1 AND A45 == 2 AND A46 == 1 AND A47 == 0 AND A48 == 0 AND A49 == 3 AND A50 == 2 AND A51 == 0 AND A52 == 0 AND A53 == 0 AND A54 == 3 AND A55 == 2 AND A56 == 2 AND A57 == 3 AND A58 == 3 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 82 THEN target == 0"
+  expl: "IF name == 82 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 83 AND A3 == 3 AND A4 == 3 AND A5 == 3 AND A6 == 3 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 1 AND A14 == 1 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 1 AND A22 == 0 AND A23 == 2 AND A24 == 2 AND A25 == 1 AND A26 == 1 AND A27 == 2 AND A28 == 2 AND A29 == 0 AND A30 == 0 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 1 AND A35 == 3 AND A36 == 1 AND A37 == 1 AND A38 == 1 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 0 AND A51 == 1 AND A52 == 1 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 2 AND A57 == 0 AND A58 == 1 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 83 THEN target == 0"
+  expl: "IF name == 83 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 84 AND A3 == 2 AND A4 == 1 AND A5 == 0 AND A6 == 0 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 3 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 3 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 3 AND A23 == 1 AND A24 == 3 AND A25 == 2 AND A26 == 3 AND A27 == 0 AND A28 == 2 AND A29 == 1 AND A30 == 2 AND A31 == 2 AND A32 == 2 AND A33 == 0 AND A34 == 0 AND A35 == 2 AND A36 == 2 AND A37 == 1 AND A38 == 2 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 3 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 0 AND A48 == 1 AND A49 == 0 AND A50 == 1 AND A51 == 1 AND A52 == 1 AND A53 == 1 AND A54 == 2 AND A55 == 1 AND A56 == 2 AND A57 == 1 AND A58 == 1 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 84 THEN target == 0"
+  expl: "IF name == 84 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 85 AND A3 == 1 AND A4 == 1 AND A5 == 3 AND A6 == 2 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 3 AND A11 == 3 AND A12 == 1 AND A13 == 0 AND A14 == 2 AND A15 == 2 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 3 AND A23 == 1 AND A24 == 3 AND A25 == 2 AND A26 == 0 AND A27 == 0 AND A28 == 0 AND A29 == 2 AND A30 == 0 AND A31 == 2 AND A32 == 2 AND A33 == 0 AND A34 == 0 AND A35 == 0 AND A36 == 2 AND A37 == 1 AND A38 == 2 AND A39 == 3 AND A40 == 0 AND A41 == 0 AND A42 == 3 AND A43 == 0 AND A44 == 3 AND A45 == 0 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 0 AND A51 == 1 AND A52 == 1 AND A53 == 3 AND A54 == 1 AND A55 == 2 AND A56 == 1 AND A57 == 2 AND A58 == 0 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 85 THEN target == 1"
+  expl: "IF name == 85 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 86 AND A3 == 2 AND A4 == 0 AND A5 == 3 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 3 AND A15 == 0 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 2 AND A22 == 1 AND A23 == 0 AND A24 == 0 AND A25 == 0 AND A26 == 0 AND A27 == 0 AND A28 == 0 AND A29 == 3 AND A30 == 3 AND A31 == 2 AND A32 == 2 AND A33 == 2 AND A34 == 0 AND A35 == 3 AND A36 == 1 AND A37 == 1 AND A38 == 1 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 3 AND A51 == 1 AND A52 == 1 AND A53 == 2 AND A54 == 3 AND A55 == 3 AND A56 == 2 AND A57 == 0 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 86 THEN target == 1"
+  expl: "IF name == 86 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 87 AND A3 == 1 AND A4 == 3 AND A5 == 2 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 3 AND A14 == 1 AND A15 == 3 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 2 AND A22 == 2 AND A23 == 1 AND A24 == 1 AND A25 == 3 AND A26 == 2 AND A27 == 1 AND A28 == 2 AND A29 == 2 AND A30 == 0 AND A31 == 2 AND A32 == 0 AND A33 == 0 AND A34 == 1 AND A35 == 3 AND A36 == 1 AND A37 == 1 AND A38 == 1 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 3 AND A51 == 1 AND A52 == 1 AND A53 == 0 AND A54 == 3 AND A55 == 1 AND A56 == 2 AND A57 == 0 AND A58 == 1 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 87 THEN target == 0"
+  expl: "IF name == 87 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 88 AND A3 == 3 AND A4 == 3 AND A5 == 3 AND A6 == 0 AND A7 == 3 AND A8 == 0 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 3 AND A14 == 1 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 1 AND A22 == 0 AND A23 == 2 AND A24 == 2 AND A25 == 1 AND A26 == 1 AND A27 == 2 AND A28 == 2 AND A29 == 0 AND A30 == 0 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 1 AND A35 == 3 AND A36 == 1 AND A37 == 1 AND A38 == 1 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 0 AND A51 == 1 AND A52 == 1 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 2 AND A57 == 0 AND A58 == 1 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 88 THEN target == 0"
+  expl: "IF name == 88 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 89 AND A3 == 0 AND A4 == 0 AND A5 == 2 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 2 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 3 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 3 AND A23 == 1 AND A24 == 3 AND A25 == 2 AND A26 == 3 AND A27 == 0 AND A28 == 2 AND A29 == 1 AND A30 == 2 AND A31 == 2 AND A32 == 2 AND A33 == 0 AND A34 == 0 AND A35 == 2 AND A36 == 2 AND A37 == 1 AND A38 == 2 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 3 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 0 AND A48 == 1 AND A49 == 0 AND A50 == 1 AND A51 == 1 AND A52 == 2 AND A53 == 1 AND A54 == 1 AND A55 == 2 AND A56 == 1 AND A57 == 2 AND A58 == 1 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 89 THEN target == 0"
+  expl: "IF name == 89 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 90 AND A3 == 0 AND A4 == 3 AND A5 == 2 AND A6 == 1 AND A7 == 0 AND A8 == 3 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 1 AND A14 == 1 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 1 AND A22 == 3 AND A23 == 3 AND A24 == 1 AND A25 == 1 AND A26 == 3 AND A27 == 2 AND A28 == 0 AND A29 == 2 AND A30 == 1 AND A31 == 1 AND A32 == 2 AND A33 == 0 AND A34 == 1 AND A35 == 3 AND A36 == 1 AND A37 == 1 AND A38 == 1 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 3 AND A51 == 1 AND A52 == 1 AND A53 == 0 AND A54 == 3 AND A55 == 1 AND A56 == 2 AND A57 == 0 AND A58 == 1 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 90 THEN target == 0"
+  expl: "IF name == 90 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 97 AND A3 == 0 AND A4 == 0 AND A5 == 0 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 1 AND A13 == 0 AND A14 == 2 AND A15 == 0 AND A16 == 0 AND A17 == 3 AND A18 == 0 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 0 AND A24 == 0 AND A25 == 0 AND A26 == 0 AND A27 == 1 AND A28 == 3 AND A29 == 1 AND A30 == 3 AND A31 == 2 AND A32 == 0 AND A33 == 2 AND A34 == 3 AND A35 == 2 AND A36 == 3 AND A37 == 0 AND A38 == 0 AND A39 == 3 AND A40 == 0 AND A41 == 0 AND A42 == 3 AND A43 == 2 AND A44 == 3 AND A45 == 0 AND A46 == 2 AND A47 == 1 AND A48 == 1 AND A49 == 3 AND A50 == 1 AND A51 == 2 AND A52 == 3 AND A53 == 2 AND A54 == 3 AND A55 == 1 AND A56 == 3 AND A57 == 3 AND A58 == 2 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 97 THEN target == 0"
+  expl: "IF name == 97 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 102 AND A3 == 3 AND A4 == 1 AND A5 == 3 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 1 AND A10 == 2 AND A11 == 3 AND A12 == 0 AND A13 == 0 AND A14 == 1 AND A15 == 0 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 3 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 2 AND A24 == 1 AND A25 == 2 AND A26 == 2 AND A27 == 1 AND A28 == 2 AND A29 == 1 AND A30 == 2 AND A31 == 3 AND A32 == 1 AND A33 == 0 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 2 AND A38 == 0 AND A39 == 3 AND A40 == 0 AND A41 == 3 AND A42 == 2 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 1 AND A51 == 1 AND A52 == 2 AND A53 == 1 AND A54 == 3 AND A55 == 3 AND A56 == 1 AND A57 == 1 AND A58 == 1 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 102 THEN target == 0"
+  expl: "IF name == 102 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 56 AND A3 == 2 AND A4 == 1 AND A5 == 0 AND A6 == 0 AND A7 == 0 AND A8 == 3 AND A9 == 0 AND A10 == 0 AND A11 == 3 AND A12 == 1 AND A13 == 0 AND A14 == 0 AND A15 == 3 AND A16 == 2 AND A17 == 3 AND A18 == 2 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 3 AND A23 == 3 AND A24 == 3 AND A25 == 3 AND A26 == 1 AND A27 == 3 AND A28 == 2 AND A29 == 1 AND A30 == 1 AND A31 == 2 AND A32 == 3 AND A33 == 2 AND A34 == 0 AND A35 == 3 AND A36 == 3 AND A37 == 0 AND A38 == 3 AND A39 == 0 AND A40 == 2 AND A41 == 0 AND A42 == 1 AND A43 == 0 AND A44 == 1 AND A45 == 3 AND A46 == 3 AND A47 == 3 AND A48 == 3 AND A49 == 2 AND A50 == 3 AND A51 == 3 AND A52 == 0 AND A53 == 1 AND A54 == 2 AND A55 == 1 AND A56 == 2 AND A57 == 3 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 56 THEN target == 1"
+  expl: "IF name == 56 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 68 AND A3 == 2 AND A4 == 0 AND A5 == 1 AND A6 == 0 AND A7 == 1 AND A8 == 1 AND A9 == 0 AND A10 == 3 AND A11 == 1 AND A12 == 2 AND A13 == 0 AND A14 == 0 AND A15 == 3 AND A16 == 2 AND A17 == 2 AND A18 == 1 AND A19 == 2 AND A20 == 1 AND A21 == 0 AND A22 == 0 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 1 AND A27 == 3 AND A28 == 3 AND A29 == 3 AND A30 == 1 AND A31 == 2 AND A32 == 1 AND A33 == 2 AND A34 == 2 AND A35 == 3 AND A36 == 0 AND A37 == 3 AND A38 == 2 AND A39 == 2 AND A40 == 1 AND A41 == 0 AND A42 == 3 AND A43 == 2 AND A44 == 0 AND A45 == 3 AND A46 == 0 AND A47 == 2 AND A48 == 1 AND A49 == 2 AND A50 == 1 AND A51 == 1 AND A52 == 1 AND A53 == 2 AND A54 == 2 AND A55 == 0 AND A56 == 0 AND A57 == 2 AND A58 == 0 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 68 THEN target == 0"
+  expl: "IF name == 68 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 76 AND A3 == 0 AND A4 == 0 AND A5 == 0 AND A6 == 0 AND A7 == 0 AND A8 == 1 AND A9 == 2 AND A10 == 3 AND A11 == 1 AND A12 == 0 AND A13 == 3 AND A14 == 1 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 0 AND A22 == 3 AND A23 == 3 AND A24 == 0 AND A25 == 2 AND A26 == 0 AND A27 == 0 AND A28 == 0 AND A29 == 2 AND A30 == 2 AND A31 == 3 AND A32 == 3 AND A33 == 3 AND A34 == 1 AND A35 == 3 AND A36 == 2 AND A37 == 2 AND A38 == 1 AND A39 == 1 AND A40 == 2 AND A41 == 0 AND A42 == 1 AND A43 == 1 AND A44 == 3 AND A45 == 3 AND A46 == 0 AND A47 == 3 AND A48 == 0 AND A49 == 0 AND A50 == 1 AND A51 == 1 AND A52 == 0 AND A53 == 3 AND A54 == 3 AND A55 == 0 AND A56 == 0 AND A57 == 3 AND A58 == 3 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 76 THEN target == 0"
+  expl: "IF name == 76 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 98 AND A3 == 3 AND A4 == 1 AND A5 == 3 AND A6 == 2 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 3 AND A11 == 2 AND A12 == 0 AND A13 == 2 AND A14 == 1 AND A15 == 3 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 0 AND A24 == 3 AND A25 == 3 AND A26 == 0 AND A27 == 0 AND A28 == 3 AND A29 == 1 AND A30 == 0 AND A31 == 3 AND A32 == 1 AND A33 == 2 AND A34 == 0 AND A35 == 0 AND A36 == 1 AND A37 == 3 AND A38 == 0 AND A39 == 2 AND A40 == 3 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 1 AND A45 == 3 AND A46 == 0 AND A47 == 2 AND A48 == 3 AND A49 == 0 AND A50 == 1 AND A51 == 2 AND A52 == 1 AND A53 == 0 AND A54 == 0 AND A55 == 2 AND A56 == 3 AND A57 == 3 AND A58 == 1 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 98 THEN target == 0"
+  expl: "IF name == 98 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 99 AND A3 == 0 AND A4 == 1 AND A5 == 1 AND A6 == 2 AND A7 == 2 AND A8 == 0 AND A9 == 0 AND A10 == 2 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 0 AND A15 == 1 AND A16 == 1 AND A17 == 2 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 3 AND A24 == 3 AND A25 == 3 AND A26 == 3 AND A27 == 0 AND A28 == 0 AND A29 == 1 AND A30 == 0 AND A31 == 1 AND A32 == 2 AND A33 == 3 AND A34 == 3 AND A35 == 3 AND A36 == 2 AND A37 == 3 AND A38 == 3 AND A39 == 0 AND A40 == 1 AND A41 == 0 AND A42 == 0 AND A43 == 2 AND A44 == 2 AND A45 == 3 AND A46 == 0 AND A47 == 0 AND A48 == 0 AND A49 == 2 AND A50 == 2 AND A51 == 1 AND A52 == 2 AND A53 == 0 AND A54 == 1 AND A55 == 2 AND A56 == 1 AND A57 == 1 AND A58 == 2 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 99 THEN target == 0"
+  expl: "IF name == 99 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 96 AND A3 == 0 AND A4 == 0 AND A5 == 0 AND A6 == 3 AND A7 == 3 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 3 AND A13 == 3 AND A14 == 3 AND A15 == 3 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 3 AND A23 == 3 AND A24 == 0 AND A25 == 2 AND A26 == 2 AND A27 == 3 AND A28 == 1 AND A29 == 0 AND A30 == 1 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 3 AND A36 == 0 AND A37 == 1 AND A38 == 3 AND A39 == 3 AND A40 == 3 AND A41 == 0 AND A42 == 0 AND A43 == 1 AND A44 == 1 AND A45 == 0 AND A46 == 0 AND A47 == 3 AND A48 == 0 AND A49 == 3 AND A50 == 0 AND A51 == 2 AND A52 == 2 AND A53 == 1 AND A54 == 0 AND A55 == 3 AND A56 == 0 AND A57 == 2 AND A58 == 1 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 96 THEN target == 0"
+  expl: "IF name == 96 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 59 AND A3 == 3 AND A4 == 3 AND A5 == 2 AND A6 == 3 AND A7 == 1 AND A8 == 0 AND A9 == 3 AND A10 == 0 AND A11 == 0 AND A12 == 3 AND A13 == 1 AND A14 == 2 AND A15 == 0 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 0 AND A22 == 0 AND A23 == 0 AND A24 == 1 AND A25 == 1 AND A26 == 0 AND A27 == 0 AND A28 == 0 AND A29 == 3 AND A30 == 3 AND A31 == 2 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 0 AND A36 == 2 AND A37 == 0 AND A38 == 3 AND A39 == 3 AND A40 == 3 AND A41 == 0 AND A42 == 2 AND A43 == 2 AND A44 == 3 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 1 AND A49 == 0 AND A50 == 0 AND A51 == 2 AND A52 == 3 AND A53 == 1 AND A54 == 3 AND A55 == 0 AND A56 == 1 AND A57 == 0 AND A58 == 1 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 59 THEN target == 0"
+  expl: "IF name == 59 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 62 AND A3 == 1 AND A4 == 0 AND A5 == 3 AND A6 == 1 AND A7 == 1 AND A8 == 3 AND A9 == 1 AND A10 == 2 AND A11 == 1 AND A12 == 0 AND A13 == 1 AND A14 == 1 AND A15 == 0 AND A16 == 2 AND A17 == 3 AND A18 == 1 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 2 AND A23 == 0 AND A24 == 1 AND A25 == 2 AND A26 == 2 AND A27 == 3 AND A28 == 3 AND A29 == 3 AND A30 == 0 AND A31 == 1 AND A32 == 2 AND A33 == 1 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 0 AND A38 == 1 AND A39 == 2 AND A40 == 3 AND A41 == 0 AND A42 == 3 AND A43 == 0 AND A44 == 2 AND A45 == 3 AND A46 == 2 AND A47 == 2 AND A48 == 1 AND A49 == 2 AND A50 == 0 AND A51 == 1 AND A52 == 0 AND A53 == 0 AND A54 == 3 AND A55 == 3 AND A56 == 3 AND A57 == 3 AND A58 == 3 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 62 THEN target == 0"
+  expl: "IF name == 62 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 103 AND A3 == 3 AND A4 == 1 AND A5 == 1 AND A6 == 0 AND A7 == 2 AND A8 == 3 AND A9 == 0 AND A10 == 3 AND A11 == 0 AND A12 == 0 AND A13 == 3 AND A14 == 3 AND A15 == 3 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 2 AND A21 == 1 AND A22 == 0 AND A23 == 3 AND A24 == 0 AND A25 == 0 AND A26 == 3 AND A27 == 3 AND A28 == 0 AND A29 == 0 AND A30 == 2 AND A31 == 3 AND A32 == 0 AND A33 == 1 AND A34 == 2 AND A35 == 0 AND A36 == 1 AND A37 == 2 AND A38 == 0 AND A39 == 2 AND A40 == 3 AND A41 == 0 AND A42 == 0 AND A43 == 0 AND A44 == 0 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 1 AND A49 == 0 AND A50 == 3 AND A51 == 0 AND A52 == 1 AND A53 == 1 AND A54 == 3 AND A55 == 2 AND A56 == 1 AND A57 == 1 AND A58 == 1 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 103 THEN target == 0"
+  expl: "IF name == 103 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 104 AND A3 == 0 AND A4 == 1 AND A5 == 0 AND A6 == 2 AND A7 == 3 AND A8 == 3 AND A9 == 0 AND A10 == 3 AND A11 == 1 AND A12 == 1 AND A13 == 0 AND A14 == 1 AND A15 == 3 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 1 AND A20 == 1 AND A21 == 3 AND A22 == 2 AND A23 == 3 AND A24 == 2 AND A25 == 2 AND A26 == 0 AND A27 == 3 AND A28 == 0 AND A29 == 0 AND A30 == 1 AND A31 == 1 AND A32 == 0 AND A33 == 3 AND A34 == 2 AND A35 == 3 AND A36 == 2 AND A37 == 3 AND A38 == 0 AND A39 == 3 AND A40 == 3 AND A41 == 0 AND A42 == 2 AND A43 == 0 AND A44 == 2 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 2 AND A49 == 0 AND A50 == 0 AND A51 == 0 AND A52 == 0 AND A53 == 1 AND A54 == 0 AND A55 == 1 AND A56 == 2 AND A57 == 0 AND A58 == 2 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 104 THEN target == 1"
+  expl: "IF name == 104 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 71 AND A3 == 3 AND A4 == 2 AND A5 == 3 AND A6 == 2 AND A7 == 1 AND A8 == 0 AND A9 == 2 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 0 AND A14 == 3 AND A15 == 2 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 1 AND A20 == 1 AND A21 == 0 AND A22 == 0 AND A23 == 0 AND A24 == 0 AND A25 == 3 AND A26 == 1 AND A27 == 2 AND A28 == 1 AND A29 == 1 AND A30 == 3 AND A31 == 3 AND A32 == 3 AND A33 == 3 AND A34 == 2 AND A35 == 1 AND A36 == 3 AND A37 == 2 AND A38 == 3 AND A39 == 0 AND A40 == 3 AND A41 == 0 AND A42 == 3 AND A43 == 0 AND A44 == 1 AND A45 == 3 AND A46 == 1 AND A47 == 0 AND A48 == 1 AND A49 == 0 AND A50 == 2 AND A51 == 1 AND A52 == 0 AND A53 == 3 AND A54 == 0 AND A55 == 0 AND A56 == 1 AND A57 == 3 AND A58 == 2 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 71 THEN target == 0"
+  expl: "IF name == 71 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 77 AND A3 == 1 AND A4 == 3 AND A5 == 2 AND A6 == 3 AND A7 == 3 AND A8 == 2 AND A9 == 3 AND A10 == 3 AND A11 == 1 AND A12 == 0 AND A13 == 2 AND A14 == 3 AND A15 == 3 AND A16 == 3 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 2 AND A22 == 3 AND A23 == 3 AND A24 == 2 AND A25 == 3 AND A26 == 2 AND A27 == 3 AND A28 == 0 AND A29 == 3 AND A30 == 0 AND A31 == 0 AND A32 == 1 AND A33 == 1 AND A34 == 1 AND A35 == 1 AND A36 == 3 AND A37 == 1 AND A38 == 0 AND A39 == 3 AND A40 == 3 AND A41 == 1 AND A42 == 3 AND A43 == 2 AND A44 == 0 AND A45 == 3 AND A46 == 1 AND A47 == 1 AND A48 == 1 AND A49 == 0 AND A50 == 2 AND A51 == 1 AND A52 == 3 AND A53 == 3 AND A54 == 0 AND A55 == 3 AND A56 == 0 AND A57 == 1 AND A58 == 2 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 77 THEN target == 0"
+  expl: "IF name == 77 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 93 AND A3 == 0 AND A4 == 3 AND A5 == 3 AND A6 == 0 AND A7 == 1 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 2 AND A14 == 3 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 3 AND A20 == 1 AND A21 == 3 AND A22 == 2 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 3 AND A27 == 2 AND A28 == 0 AND A29 == 0 AND A30 == 1 AND A31 == 0 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 0 AND A36 == 0 AND A37 == 2 AND A38 == 0 AND A39 == 2 AND A40 == 3 AND A41 == 0 AND A42 == 0 AND A43 == 0 AND A44 == 2 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 2 AND A49 == 3 AND A50 == 1 AND A51 == 2 AND A52 == 1 AND A53 == 2 AND A54 == 3 AND A55 == 0 AND A56 == 2 AND A57 == 2 AND A58 == 2 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 93 THEN target == 1"
+  expl: "IF name == 93 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 73 AND A3 == 0 AND A4 == 3 AND A5 == 2 AND A6 == 1 AND A7 == 2 AND A8 == 1 AND A9 == 0 AND A10 == 0 AND A11 == 1 AND A12 == 2 AND A13 == 1 AND A14 == 2 AND A15 == 2 AND A16 == 2 AND A17 == 2 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 0 AND A24 == 2 AND A25 == 2 AND A26 == 2 AND A27 == 1 AND A28 == 2 AND A29 == 1 AND A30 == 2 AND A31 == 1 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 1 AND A36 == 1 AND A37 == 1 AND A38 == 3 AND A39 == 1 AND A40 == 3 AND A41 == 0 AND A42 == 3 AND A43 == 0 AND A44 == 1 AND A45 == 3 AND A46 == 2 AND A47 == 1 AND A48 == 2 AND A49 == 1 AND A50 == 2 AND A51 == 1 AND A52 == 1 AND A53 == 2 AND A54 == 0 AND A55 == 0 AND A56 == 2 AND A57 == 1 AND A58 == 3 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 73 THEN target == 0"
+  expl: "IF name == 73 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 64 AND A3 == 3 AND A4 == 0 AND A5 == 0 AND A6 == 0 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 1 AND A11 == 3 AND A12 == 0 AND A13 == 0 AND A14 == 1 AND A15 == 0 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 1 AND A22 == 0 AND A23 == 2 AND A24 == 1 AND A25 == 1 AND A26 == 3 AND A27 == 2 AND A28 == 3 AND A29 == 1 AND A30 == 1 AND A31 == 1 AND A32 == 2 AND A33 == 1 AND A34 == 3 AND A35 == 3 AND A36 == 0 AND A37 == 3 AND A38 == 0 AND A39 == 0 AND A40 == 2 AND A41 == 0 AND A42 == 3 AND A43 == 1 AND A44 == 0 AND A45 == 3 AND A46 == 0 AND A47 == 1 AND A48 == 2 AND A49 == 1 AND A50 == 1 AND A51 == 2 AND A52 == 3 AND A53 == 3 AND A54 == 0 AND A55 == 3 AND A56 == 0 AND A57 == 1 AND A58 == 2 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 64 THEN target == 1"
+  expl: "IF name == 64 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 101 AND A3 == 0 AND A4 == 3 AND A5 == 2 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 3 AND A14 == 3 AND A15 == 0 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 0 AND A22 == 3 AND A23 == 2 AND A24 == 0 AND A25 == 0 AND A26 == 1 AND A27 == 3 AND A28 == 1 AND A29 == 2 AND A30 == 1 AND A31 == 0 AND A32 == 3 AND A33 == 2 AND A34 == 3 AND A35 == 1 AND A36 == 3 AND A37 == 1 AND A38 == 1 AND A39 == 0 AND A40 == 3 AND A41 == 0 AND A42 == 2 AND A43 == 0 AND A44 == 0 AND A45 == 3 AND A46 == 2 AND A47 == 1 AND A48 == 2 AND A49 == 1 AND A50 == 2 AND A51 == 1 AND A52 == 3 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 3 AND A57 == 2 AND A58 == 0 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 101 THEN target == 0"
+  expl: "IF name == 101 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 95 AND A3 == 1 AND A4 == 1 AND A5 == 3 AND A6 == 3 AND A7 == 2 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 2 AND A14 == 0 AND A15 == 2 AND A16 == 2 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 2 AND A23 == 1 AND A24 == 3 AND A25 == 2 AND A26 == 1 AND A27 == 0 AND A28 == 0 AND A29 == 2 AND A30 == 2 AND A31 == 1 AND A32 == 3 AND A33 == 1 AND A34 == 3 AND A35 == 0 AND A36 == 3 AND A37 == 0 AND A38 == 1 AND A39 == 2 AND A40 == 1 AND A41 == 0 AND A42 == 3 AND A43 == 0 AND A44 == 0 AND A45 == 3 AND A46 == 2 AND A47 == 1 AND A48 == 2 AND A49 == 1 AND A50 == 1 AND A51 == 1 AND A52 == 1 AND A53 == 2 AND A54 == 1 AND A55 == 0 AND A56 == 0 AND A57 == 1 AND A58 == 2 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 95 THEN target == 0"
+  expl: "IF name == 95 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 94 AND A3 == 3 AND A4 == 1 AND A5 == 2 AND A6 == 3 AND A7 == 3 AND A8 == 2 AND A9 == 3 AND A10 == 0 AND A11 == 3 AND A12 == 0 AND A13 == 3 AND A14 == 3 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 1 AND A24 == 1 AND A25 == 3 AND A26 == 3 AND A27 == 3 AND A28 == 3 AND A29 == 1 AND A30 == 2 AND A31 == 2 AND A32 == 1 AND A33 == 0 AND A34 == 3 AND A35 == 1 AND A36 == 2 AND A37 == 1 AND A38 == 1 AND A39 == 1 AND A40 == 3 AND A41 == 0 AND A42 == 0 AND A43 == 0 AND A44 == 0 AND A45 == 3 AND A46 == 3 AND A47 == 1 AND A48 == 2 AND A49 == 2 AND A50 == 1 AND A51 == 2 AND A52 == 3 AND A53 == 1 AND A54 == 1 AND A55 == 3 AND A56 == 1 AND A57 == 0 AND A58 == 3 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 94 THEN target == 0"
+  expl: "IF name == 94 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 92 AND A3 == 1 AND A4 == 1 AND A5 == 2 AND A6 == 3 AND A7 == 3 AND A8 == 3 AND A9 == 0 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 3 AND A14 == 3 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 0 AND A19 == 1 AND A20 == 1 AND A21 == 1 AND A22 == 0 AND A23 == 3 AND A24 == 0 AND A25 == 3 AND A26 == 1 AND A27 == 1 AND A28 == 3 AND A29 == 3 AND A30 == 2 AND A31 == 0 AND A32 == 0 AND A33 == 2 AND A34 == 1 AND A35 == 2 AND A36 == 2 AND A37 == 3 AND A38 == 2 AND A39 == 3 AND A40 == 3 AND A41 == 0 AND A42 == 3 AND A43 == 0 AND A44 == 0 AND A45 == 3 AND A46 == 2 AND A47 == 1 AND A48 == 1 AND A49 == 2 AND A50 == 1 AND A51 == 2 AND A52 == 1 AND A53 == 1 AND A54 == 1 AND A55 == 3 AND A56 == 1 AND A57 == 2 AND A58 == 0 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 92 THEN target == 0"
+  expl: "IF name == 92 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 81 AND A3 == 3 AND A4 == 3 AND A5 == 1 AND A6 == 2 AND A7 == 1 AND A8 == 0 AND A9 == 3 AND A10 == 0 AND A11 == 3 AND A12 == 3 AND A13 == 3 AND A14 == 3 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 0 AND A22 == 0 AND A23 == 0 AND A24 == 2 AND A25 == 3 AND A26 == 3 AND A27 == 2 AND A28 == 2 AND A29 == 2 AND A30 == 3 AND A31 == 3 AND A32 == 2 AND A33 == 0 AND A34 == 2 AND A35 == 1 AND A36 == 3 AND A37 == 2 AND A38 == 2 AND A39 == 1 AND A40 == 3 AND A41 == 0 AND A42 == 2 AND A43 == 0 AND A44 == 3 AND A45 == 3 AND A46 == 0 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 0 AND A51 == 2 AND A52 == 1 AND A53 == 1 AND A54 == 0 AND A55 == 0 AND A56 == 3 AND A57 == 1 AND A58 == 3 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 81 THEN target == 0"
+  expl: "IF name == 81 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 80 AND A3 == 3 AND A4 == 2 AND A5 == 3 AND A6 == 0 AND A7 == 0 AND A8 == 0 AND A9 == 1 AND A10 == 3 AND A11 == 0 AND A12 == 0 AND A13 == 3 AND A14 == 2 AND A15 == 1 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 3 AND A20 == 0 AND A21 == 1 AND A22 == 2 AND A23 == 3 AND A24 == 2 AND A25 == 2 AND A26 == 2 AND A27 == 1 AND A28 == 2 AND A29 == 2 AND A30 == 3 AND A31 == 2 AND A32 == 0 AND A33 == 3 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 2 AND A38 == 3 AND A39 == 1 AND A40 == 3 AND A41 == 0 AND A42 == 1 AND A43 == 0 AND A44 == 0 AND A45 == 3 AND A46 == 1 AND A47 == 3 AND A48 == 3 AND A49 == 0 AND A50 == 1 AND A51 == 1 AND A52 == 1 AND A53 == 1 AND A54 == 1 AND A55 == 0 AND A56 == 1 AND A57 == 2 AND A58 == 3 AND A59 == 0 THEN target == 0"
+  dexp: "IF name == 80 THEN target == 0"
+  expl: "IF name == 80 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 78 AND A3 == 2 AND A4 == 0 AND A5 == 3 AND A6 == 1 AND A7 == 2 AND A8 == 1 AND A9 == 0 AND A10 == 1 AND A11 == 2 AND A12 == 0 AND A13 == 3 AND A14 == 1 AND A15 == 3 AND A16 == 2 AND A17 == 3 AND A18 == 0 AND A19 == 3 AND A20 == 0 AND A21 == 1 AND A22 == 3 AND A23 == 3 AND A24 == 0 AND A25 == 3 AND A26 == 3 AND A27 == 3 AND A28 == 2 AND A29 == 0 AND A30 == 2 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 3 AND A36 == 3 AND A37 == 0 AND A38 == 0 AND A39 == 1 AND A40 == 1 AND A41 == 1 AND A42 == 0 AND A43 == 1 AND A44 == 2 AND A45 == 0 AND A46 == 3 AND A47 == 1 AND A48 == 1 AND A49 == 1 AND A50 == 0 AND A51 == 2 AND A52 == 1 AND A53 == 1 AND A54 == 0 AND A55 == 3 AND A56 == 3 AND A57 == 1 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 78 THEN target == 1"
+  expl: "IF name == 78 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 53 AND A3 == 0 AND A4 == 0 AND A5 == 1 AND A6 == 2 AND A7 == 1 AND A8 == 0 AND A9 == 3 AND A10 == 0 AND A11 == 1 AND A12 == 2 AND A13 == 2 AND A14 == 3 AND A15 == 0 AND A16 == 3 AND A17 == 3 AND A18 == 3 AND A19 == 3 AND A20 == 0 AND A21 == 1 AND A22 == 1 AND A23 == 3 AND A24 == 3 AND A25 == 1 AND A26 == 1 AND A27 == 1 AND A28 == 0 AND A29 == 2 AND A30 == 3 AND A31 == 1 AND A32 == 0 AND A33 == 0 AND A34 == 2 AND A35 == 0 AND A36 == 0 AND A37 == 0 AND A38 == 0 AND A39 == 1 AND A40 == 3 AND A41 == 3 AND A42 == 0 AND A43 == 3 AND A44 == 1 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 3 AND A49 == 3 AND A50 == 1 AND A51 == 1 AND A52 == 1 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 3 AND A57 == 3 AND A58 == 3 AND A59 == 1 THEN target == 0"
+  dexp: "IF name == 53 THEN target == 0"
+  expl: "IF name == 53 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 55 AND A3 == 3 AND A4 == 3 AND A5 == 0 AND A6 == 2 AND A7 == 1 AND A8 == 2 AND A9 == 2 AND A10 == 0 AND A11 == 3 AND A12 == 1 AND A13 == 1 AND A14 == 3 AND A15 == 0 AND A16 == 1 AND A17 == 1 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 2 AND A23 == 1 AND A24 == 3 AND A25 == 3 AND A26 == 3 AND A27 == 3 AND A28 == 3 AND A29 == 0 AND A30 == 3 AND A31 == 1 AND A32 == 2 AND A33 == 1 AND A34 == 0 AND A35 == 0 AND A36 == 1 AND A37 == 3 AND A38 == 1 AND A39 == 3 AND A40 == 1 AND A41 == 3 AND A42 == 0 AND A43 == 1 AND A44 == 3 AND A45 == 2 AND A46 == 3 AND A47 == 3 AND A48 == 3 AND A49 == 1 AND A50 == 3 AND A51 == 1 AND A52 == 1 AND A53 == 0 AND A54 == 3 AND A55 == 0 AND A56 == 1 AND A57 == 1 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 55 THEN target == 1"
+  expl: "IF name == 55 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 58 AND A3 == 2 AND A4 == 1 AND A5 == 1 AND A6 == 3 AND A7 == 3 AND A8 == 1 AND A9 == 3 AND A10 == 1 AND A11 == 1 AND A12 == 0 AND A13 == 0 AND A14 == 0 AND A15 == 0 AND A16 == 1 AND A17 == 2 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 3 AND A22 == 3 AND A23 == 3 AND A24 == 3 AND A25 == 3 AND A26 == 2 AND A27 == 3 AND A28 == 3 AND A29 == 2 AND A30 == 3 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 3 AND A35 == 3 AND A36 == 1 AND A37 == 2 AND A38 == 2 AND A39 == 3 AND A40 == 2 AND A41 == 3 AND A42 == 0 AND A43 == 2 AND A44 == 0 AND A45 == 1 AND A46 == 3 AND A47 == 3 AND A48 == 2 AND A49 == 3 AND A50 == 0 AND A51 == 0 AND A52 == 0 AND A53 == 1 AND A54 == 1 AND A55 == 3 AND A56 == 0 AND A57 == 0 AND A58 == 0 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 58 THEN target == 1"
+  expl: "IF name == 58 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 60 AND A3 == 1 AND A4 == 0 AND A5 == 2 AND A6 == 0 AND A7 == 0 AND A8 == 0 AND A9 == 1 AND A10 == 2 AND A11 == 3 AND A12 == 3 AND A13 == 3 AND A14 == 3 AND A15 == 0 AND A16 == 3 AND A17 == 3 AND A18 == 1 AND A19 == 2 AND A20 == 0 AND A21 == 0 AND A22 == 1 AND A23 == 0 AND A24 == 3 AND A25 == 1 AND A26 == 2 AND A27 == 0 AND A28 == 3 AND A29 == 1 AND A30 == 3 AND A31 == 1 AND A32 == 2 AND A33 == 3 AND A34 == 1 AND A35 == 3 AND A36 == 3 AND A37 == 2 AND A38 == 3 AND A39 == 2 AND A40 == 3 AND A41 == 3 AND A42 == 0 AND A43 == 2 AND A44 == 0 AND A45 == 0 AND A46 == 3 AND A47 == 3 AND A48 == 1 AND A49 == 3 AND A50 == 0 AND A51 == 0 AND A52 == 1 AND A53 == 0 AND A54 == 3 AND A55 == 0 AND A56 == 1 AND A57 == 2 AND A58 == 2 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 60 THEN target == 0"
+  expl: "IF name == 60 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 63 AND A3 == 1 AND A4 == 0 AND A5 == 1 AND A6 == 3 AND A7 == 0 AND A8 == 0 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 0 AND A13 == 3 AND A14 == 3 AND A15 == 1 AND A16 == 1 AND A17 == 0 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 1 AND A22 == 0 AND A23 == 1 AND A24 == 0 AND A25 == 1 AND A26 == 3 AND A27 == 3 AND A28 == 3 AND A29 == 3 AND A30 == 1 AND A31 == 2 AND A32 == 1 AND A33 == 0 AND A34 == 3 AND A35 == 1 AND A36 == 3 AND A37 == 3 AND A38 == 3 AND A39 == 2 AND A40 == 3 AND A41 == 3 AND A42 == 0 AND A43 == 3 AND A44 == 2 AND A45 == 1 AND A46 == 3 AND A47 == 0 AND A48 == 3 AND A49 == 2 AND A50 == 2 AND A51 == 3 AND A52 == 3 AND A53 == 0 AND A54 == 3 AND A55 == 3 AND A56 == 3 AND A57 == 1 AND A58 == 0 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 63 THEN target == 0"
+  expl: "IF name == 63 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 65 AND A3 == 0 AND A4 == 3 AND A5 == 0 AND A6 == 3 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 2 AND A14 == 3 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 3 AND A22 == 3 AND A23 == 3 AND A24 == 1 AND A25 == 3 AND A26 == 0 AND A27 == 0 AND A28 == 1 AND A29 == 2 AND A30 == 3 AND A31 == 2 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 2 AND A36 == 3 AND A37 == 2 AND A38 == 2 AND A39 == 3 AND A40 == 3 AND A41 == 3 AND A42 == 0 AND A43 == 2 AND A44 == 2 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 0 AND A49 == 0 AND A50 == 0 AND A51 == 2 AND A52 == 0 AND A53 == 1 AND A54 == 0 AND A55 == 3 AND A56 == 1 AND A57 == 0 AND A58 == 2 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 65 THEN target == 0"
+  expl: "IF name == 65 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 66 AND A3 == 1 AND A4 == 0 AND A5 == 0 AND A6 == 2 AND A7 == 2 AND A8 == 3 AND A9 == 0 AND A10 == 2 AND A11 == 0 AND A12 == 0 AND A13 == 3 AND A14 == 2 AND A15 == 1 AND A16 == 3 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 1 AND A21 == 1 AND A22 == 3 AND A23 == 3 AND A24 == 2 AND A25 == 3 AND A26 == 1 AND A27 == 2 AND A28 == 2 AND A29 == 1 AND A30 == 1 AND A31 == 3 AND A32 == 2 AND A33 == 0 AND A34 == 3 AND A35 == 3 AND A36 == 0 AND A37 == 0 AND A38 == 3 AND A39 == 2 AND A40 == 2 AND A41 == 1 AND A42 == 0 AND A43 == 1 AND A44 == 2 AND A45 == 0 AND A46 == 3 AND A47 == 0 AND A48 == 2 AND A49 == 3 AND A50 == 1 AND A51 == 2 AND A52 == 1 AND A53 == 0 AND A54 == 3 AND A55 == 1 AND A56 == 2 AND A57 == 2 AND A58 == 0 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 66 THEN target == 0"
+  expl: "IF name == 66 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 67 AND A3 == 2 AND A4 == 2 AND A5 == 1 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 3 AND A14 == 0 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 3 AND A21 == 0 AND A22 == 1 AND A23 == 3 AND A24 == 0 AND A25 == 3 AND A26 == 3 AND A27 == 3 AND A28 == 0 AND A29 == 1 AND A30 == 0 AND A31 == 0 AND A32 == 0 AND A33 == 0 AND A34 == 1 AND A35 == 1 AND A36 == 3 AND A37 == 0 AND A38 == 3 AND A39 == 2 AND A40 == 2 AND A41 == 3 AND A42 == 0 AND A43 == 0 AND A44 == 1 AND A45 == 3 AND A46 == 1 AND A47 == 3 AND A48 == 3 AND A49 == 3 AND A50 == 0 AND A51 == 2 AND A52 == 2 AND A53 == 1 AND A54 == 0 AND A55 == 3 AND A56 == 3 AND A57 == 1 AND A58 == 1 AND A59 == 3 THEN target == 0"
+  dexp: "IF name == 67 THEN target == 0"
+  expl: "IF name == 67 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 69 AND A3 == 3 AND A4 == 0 AND A5 == 2 AND A6 == 2 AND A7 == 1 AND A8 == 0 AND A9 == 1 AND A10 == 1 AND A11 == 1 AND A12 == 1 AND A13 == 0 AND A14 == 2 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 3 AND A20 == 0 AND A21 == 1 AND A22 == 0 AND A23 == 1 AND A24 == 3 AND A25 == 3 AND A26 == 3 AND A27 == 0 AND A28 == 3 AND A29 == 2 AND A30 == 1 AND A31 == 3 AND A32 == 3 AND A33 == 1 AND A34 == 1 AND A35 == 2 AND A36 == 2 AND A37 == 1 AND A38 == 3 AND A39 == 1 AND A40 == 2 AND A41 == 3 AND A42 == 0 AND A43 == 3 AND A44 == 2 AND A45 == 3 AND A46 == 3 AND A47 == 2 AND A48 == 3 AND A49 == 2 AND A50 == 3 AND A51 == 2 AND A52 == 2 AND A53 == 0 AND A54 == 0 AND A55 == 3 AND A56 == 3 AND A57 == 2 AND A58 == 3 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 69 THEN target == 0"
+  expl: "IF name == 69 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 72 AND A3 == 1 AND A4 == 1 AND A5 == 0 AND A6 == 3 AND A7 == 1 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 0 AND A15 == 3 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 1 AND A20 == 3 AND A21 == 1 AND A22 == 0 AND A23 == 0 AND A24 == 1 AND A25 == 0 AND A26 == 3 AND A27 == 0 AND A28 == 0 AND A29 == 0 AND A30 == 0 AND A31 == 0 AND A32 == 0 AND A33 == 1 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 2 AND A38 == 3 AND A39 == 2 AND A40 == 3 AND A41 == 0 AND A42 == 0 AND A43 == 3 AND A44 == 0 AND A45 == 1 AND A46 == 3 AND A47 == 3 AND A48 == 2 AND A49 == 3 AND A50 == 0 AND A51 == 0 AND A52 == 1 AND A53 == 2 AND A54 == 1 AND A55 == 3 AND A56 == 0 AND A57 == 1 AND A58 == 0 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 72 THEN target == 1"
+  expl: "IF name == 72 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 100 AND A3 == 3 AND A4 == 2 AND A5 == 2 AND A6 == 2 AND A7 == 2 AND A8 == 0 AND A9 == 1 AND A10 == 2 AND A11 == 3 AND A12 == 1 AND A13 == 2 AND A14 == 3 AND A15 == 3 AND A16 == 0 AND A17 == 1 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 3 AND A22 == 1 AND A23 == 1 AND A24 == 2 AND A25 == 1 AND A26 == 0 AND A27 == 1 AND A28 == 2 AND A29 == 3 AND A30 == 3 AND A31 == 3 AND A32 == 0 AND A33 == 3 AND A34 == 2 AND A35 == 0 AND A36 == 3 AND A37 == 0 AND A38 == 3 AND A39 == 2 AND A40 == 1 AND A41 == 3 AND A42 == 0 AND A43 == 3 AND A44 == 1 AND A45 == 2 AND A46 == 3 AND A47 == 0 AND A48 == 1 AND A49 == 3 AND A50 == 1 AND A51 == 3 AND A52 == 3 AND A53 == 3 AND A54 == 0 AND A55 == 2 AND A56 == 1 AND A57 == 2 AND A58 == 0 AND A59 == 2 THEN target == 0"
+  dexp: "IF name == 100 THEN target == 0"
+  expl: "IF name == 100 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 105 AND A3 == 3 AND A4 == 1 AND A5 == 0 AND A6 == 2 AND A7 == 0 AND A8 == 0 AND A9 == 0 AND A10 == 3 AND A11 == 0 AND A12 == 3 AND A13 == 3 AND A14 == 0 AND A15 == 3 AND A16 == 2 AND A17 == 2 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 3 AND A22 == 2 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 3 AND A27 == 2 AND A28 == 3 AND A29 == 3 AND A30 == 3 AND A31 == 3 AND A32 == 3 AND A33 == 3 AND A34 == 3 AND A35 == 0 AND A36 == 3 AND A37 == 1 AND A38 == 1 AND A39 == 0 AND A40 == 2 AND A41 == 3 AND A42 == 0 AND A43 == 3 AND A44 == 0 AND A45 == 0 AND A46 == 3 AND A47 == 3 AND A48 == 3 AND A49 == 2 AND A50 == 3 AND A51 == 3 AND A52 == 2 AND A53 == 2 AND A54 == 1 AND A55 == 0 AND A56 == 3 AND A57 == 0 AND A58 == 0 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 105 THEN target == 1"
+  expl: "IF name == 105 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 44 AND A3 == 0 AND A4 == 3 AND A5 == 0 AND A6 == 3 AND A7 == 2 AND A8 == 0 AND A9 == 0 AND A10 == 1 AND A11 == 2 AND A12 == 3 AND A13 == 3 AND A14 == 2 AND A15 == 0 AND A16 == 2 AND A17 == 0 AND A18 == 1 AND A19 == 3 AND A20 == 2 AND A21 == 1 AND A22 == 1 AND A23 == 2 AND A24 == 1 AND A25 == 3 AND A26 == 2 AND A27 == 0 AND A28 == 2 AND A29 == 3 AND A30 == 3 AND A31 == 0 AND A32 == 3 AND A33 == 1 AND A34 == 0 AND A35 == 2 AND A36 == 1 AND A37 == 3 AND A38 == 2 AND A39 == 3 AND A40 == 2 AND A41 == 0 AND A42 == 0 AND A43 == 1 AND A44 == 2 AND A45 == 0 AND A46 == 1 AND A47 == 0 AND A48 == 3 AND A49 == 3 AND A50 == 1 AND A51 == 3 AND A52 == 2 AND A53 == 2 AND A54 == 1 AND A55 == 2 AND A56 == 3 AND A57 == 1 AND A58 == 3 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 44 THEN target == 1"
+  expl: "IF name == 44 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 5 AND A3 == 1 AND A4 == 2 AND A5 == 0 AND A6 == 0 AND A7 == 1 AND A8 == 2 AND A9 == 0 AND A10 == 2 AND A11 == 3 AND A12 == 1 AND A13 == 0 AND A14 == 0 AND A15 == 3 AND A16 == 1 AND A17 == 0 AND A18 == 2 AND A19 == 0 AND A20 == 1 AND A21 == 1 AND A22 == 2 AND A23 == 1 AND A24 == 3 AND A25 == 3 AND A26 == 3 AND A27 == 2 AND A28 == 0 AND A29 == 1 AND A30 == 3 AND A31 == 1 AND A32 == 3 AND A33 == 2 AND A34 == 2 AND A35 == 3 AND A36 == 0 AND A37 == 3 AND A38 == 3 AND A39 == 0 AND A40 == 1 AND A41 == 3 AND A42 == 2 AND A43 == 3 AND A44 == 2 AND A45 == 0 AND A46 == 0 AND A47 == 1 AND A48 == 0 AND A49 == 3 AND A50 == 3 AND A51 == 0 AND A52 == 3 AND A53 == 3 AND A54 == 1 AND A55 == 2 AND A56 == 3 AND A57 == 1 AND A58 == 3 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 5 THEN target == 1"
+  expl: "IF name == 5 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 41 AND A3 == 1 AND A4 == 0 AND A5 == 0 AND A6 == 3 AND A7 == 2 AND A8 == 2 AND A9 == 1 AND A10 == 1 AND A11 == 3 AND A12 == 1 AND A13 == 3 AND A14 == 0 AND A15 == 0 AND A16 == 0 AND A17 == 1 AND A18 == 2 AND A19 == 2 AND A20 == 2 AND A21 == 3 AND A22 == 1 AND A23 == 3 AND A24 == 3 AND A25 == 2 AND A26 == 0 AND A27 == 2 AND A28 == 2 AND A29 == 2 AND A30 == 2 AND A31 == 3 AND A32 == 3 AND A33 == 3 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 2 AND A38 == 1 AND A39 == 3 AND A40 == 2 AND A41 == 0 AND A42 == 0 AND A43 == 0 AND A44 == 2 AND A45 == 2 AND A46 == 0 AND A47 == 2 AND A48 == 2 AND A49 == 0 AND A50 == 0 AND A51 == 1 AND A52 == 3 AND A53 == 0 AND A54 == 3 AND A55 == 0 AND A56 == 3 AND A57 == 2 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 41 THEN target == 1"
+  expl: "IF name == 41 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 29 AND A3 == 3 AND A4 == 3 AND A5 == 2 AND A6 == 0 AND A7 == 1 AND A8 == 1 AND A9 == 3 AND A10 == 0 AND A11 == 1 AND A12 == 3 AND A13 == 0 AND A14 == 1 AND A15 == 2 AND A16 == 1 AND A17 == 1 AND A18 == 0 AND A19 == 2 AND A20 == 1 AND A21 == 0 AND A22 == 3 AND A23 == 3 AND A24 == 3 AND A25 == 3 AND A26 == 2 AND A27 == 2 AND A28 == 1 AND A29 == 2 AND A30 == 2 AND A31 == 3 AND A32 == 2 AND A33 == 3 AND A34 == 0 AND A35 == 0 AND A36 == 2 AND A37 == 1 AND A38 == 3 AND A39 == 0 AND A40 == 0 AND A41 == 1 AND A42 == 1 AND A43 == 0 AND A44 == 3 AND A45 == 3 AND A46 == 1 AND A47 == 1 AND A48 == 2 AND A49 == 2 AND A50 == 3 AND A51 == 3 AND A52 == 2 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 1 AND A57 == 0 AND A58 == 0 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 29 THEN target == 1"
+  expl: "IF name == 29 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 47 AND A3 == 1 AND A4 == 2 AND A5 == 3 AND A6 == 1 AND A7 == 3 AND A8 == 0 AND A9 == 3 AND A10 == 1 AND A11 == 2 AND A12 == 2 AND A13 == 3 AND A14 == 2 AND A15 == 0 AND A16 == 0 AND A17 == 1 AND A18 == 1 AND A19 == 3 AND A20 == 1 AND A21 == 1 AND A22 == 2 AND A23 == 2 AND A24 == 3 AND A25 == 0 AND A26 == 3 AND A27 == 1 AND A28 == 0 AND A29 == 0 AND A30 == 1 AND A31 == 2 AND A32 == 1 AND A33 == 3 AND A34 == 2 AND A35 == 2 AND A36 == 0 AND A37 == 0 AND A38 == 2 AND A39 == 2 AND A40 == 3 AND A41 == 2 AND A42 == 0 AND A43 == 1 AND A44 == 2 AND A45 == 1 AND A46 == 3 AND A47 == 0 AND A48 == 0 AND A49 == 1 AND A50 == 2 AND A51 == 1 AND A52 == 0 AND A53 == 2 AND A54 == 0 AND A55 == 3 AND A56 == 2 AND A57 == 1 AND A58 == 0 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 47 THEN target == 1"
+  expl: "IF name == 47 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 16 AND A3 == 2 AND A4 == 1 AND A5 == 1 AND A6 == 0 AND A7 == 0 AND A8 == 3 AND A9 == 1 AND A10 == 0 AND A11 == 0 AND A12 == 3 AND A13 == 1 AND A14 == 0 AND A15 == 0 AND A16 == 2 AND A17 == 0 AND A18 == 0 AND A19 == 1 AND A20 == 3 AND A21 == 3 AND A22 == 2 AND A23 == 0 AND A24 == 0 AND A25 == 2 AND A26 == 2 AND A27 == 2 AND A28 == 3 AND A29 == 2 AND A30 == 2 AND A31 == 3 AND A32 == 0 AND A33 == 3 AND A34 == 1 AND A35 == 0 AND A36 == 2 AND A37 == 1 AND A38 == 1 AND A39 == 0 AND A40 == 0 AND A41 == 1 AND A42 == 0 AND A43 == 2 AND A44 == 1 AND A45 == 1 AND A46 == 3 AND A47 == 2 AND A48 == 0 AND A49 == 1 AND A50 == 0 AND A51 == 3 AND A52 == 1 AND A53 == 1 AND A54 == 3 AND A55 == 3 AND A56 == 1 AND A57 == 2 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 16 THEN target == 1"
+  expl: "IF name == 16 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 1 AND A3 == 3 AND A4 == 2 AND A5 == 2 AND A6 == 0 AND A7 == 3 AND A8 == 2 AND A9 == 2 AND A10 == 0 AND A11 == 1 AND A12 == 2 AND A13 == 3 AND A14 == 3 AND A15 == 1 AND A16 == 0 AND A17 == 0 AND A18 == 1 AND A19 == 0 AND A20 == 3 AND A21 == 3 AND A22 == 2 AND A23 == 0 AND A24 == 2 AND A25 == 2 AND A26 == 0 AND A27 == 0 AND A28 == 2 AND A29 == 2 AND A30 == 1 AND A31 == 0 AND A32 == 3 AND A33 == 0 AND A34 == 0 AND A35 == 1 AND A36 == 2 AND A37 == 1 AND A38 == 3 AND A39 == 0 AND A40 == 1 AND A41 == 3 AND A42 == 0 AND A43 == 1 AND A44 == 1 AND A45 == 3 AND A46 == 2 AND A47 == 0 AND A48 == 3 AND A49 == 2 AND A50 == 3 AND A51 == 3 AND A52 == 3 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 1 AND A57 == 1 AND A58 == 0 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 1 THEN target == 1"
+  expl: "IF name == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 3 AND A3 == 2 AND A4 == 0 AND A5 == 2 AND A6 == 2 AND A7 == 3 AND A8 == 2 AND A9 == 2 AND A10 == 1 AND A11 == 3 AND A12 == 0 AND A13 == 3 AND A14 == 2 AND A15 == 3 AND A16 == 2 AND A17 == 3 AND A18 == 0 AND A19 == 3 AND A20 == 2 AND A21 == 0 AND A22 == 1 AND A23 == 1 AND A24 == 2 AND A25 == 0 AND A26 == 0 AND A27 == 1 AND A28 == 2 AND A29 == 0 AND A30 == 2 AND A31 == 3 AND A32 == 1 AND A33 == 0 AND A34 == 0 AND A35 == 3 AND A36 == 1 AND A37 == 0 AND A38 == 2 AND A39 == 0 AND A40 == 1 AND A41 == 1 AND A42 == 2 AND A43 == 1 AND A44 == 3 AND A45 == 3 AND A46 == 3 AND A47 == 2 AND A48 == 0 AND A49 == 1 AND A50 == 3 AND A51 == 1 AND A52 == 3 AND A53 == 2 AND A54 == 2 AND A55 == 3 AND A56 == 0 AND A57 == 3 AND A58 == 3 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 3 THEN target == 1"
+  expl: "IF name == 3 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 23 AND A3 == 1 AND A4 == 2 AND A5 == 3 AND A6 == 0 AND A7 == 2 AND A8 == 1 AND A9 == 2 AND A10 == 1 AND A11 == 0 AND A12 == 3 AND A13 == 1 AND A14 == 0 AND A15 == 2 AND A16 == 3 AND A17 == 2 AND A18 == 1 AND A19 == 3 AND A20 == 3 AND A21 == 3 AND A22 == 1 AND A23 == 3 AND A24 == 3 AND A25 == 0 AND A26 == 1 AND A27 == 3 AND A28 == 2 AND A29 == 3 AND A30 == 2 AND A31 == 0 AND A32 == 2 AND A33 == 3 AND A34 == 0 AND A35 == 1 AND A36 == 2 AND A37 == 1 AND A38 == 0 AND A39 == 1 AND A40 == 1 AND A41 == 0 AND A42 == 2 AND A43 == 1 AND A44 == 2 AND A45 == 1 AND A46 == 1 AND A47 == 0 AND A48 == 2 AND A49 == 0 AND A50 == 2 AND A51 == 2 AND A52 == 0 AND A53 == 1 AND A54 == 2 AND A55 == 0 AND A56 == 1 AND A57 == 2 AND A58 == 0 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 23 THEN target == 1"
+  expl: "IF name == 23 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 38 AND A3 == 1 AND A4 == 2 AND A5 == 0 AND A6 == 1 AND A7 == 1 AND A8 == 2 AND A9 == 0 AND A10 == 0 AND A11 == 2 AND A12 == 1 AND A13 == 2 AND A14 == 0 AND A15 == 2 AND A16 == 1 AND A17 == 1 AND A18 == 3 AND A19 == 1 AND A20 == 2 AND A21 == 3 AND A22 == 1 AND A23 == 1 AND A24 == 3 AND A25 == 1 AND A26 == 0 AND A27 == 0 AND A28 == 3 AND A29 == 2 AND A30 == 2 AND A31 == 1 AND A32 == 1 AND A33 == 3 AND A34 == 1 AND A35 == 3 AND A36 == 0 AND A37 == 0 AND A38 == 0 AND A39 == 1 AND A40 == 2 AND A41 == 2 AND A42 == 2 AND A43 == 3 AND A44 == 1 AND A45 == 3 AND A46 == 3 AND A47 == 2 AND A48 == 0 AND A49 == 2 AND A50 == 2 AND A51 == 2 AND A52 == 2 AND A53 == 3 AND A54 == 3 AND A55 == 3 AND A56 == 3 AND A57 == 3 AND A58 == 3 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 38 THEN target == 1"
+  expl: "IF name == 38 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 14 AND A3 == 1 AND A4 == 3 AND A5 == 0 AND A6 == 1 AND A7 == 2 AND A8 == 2 AND A9 == 3 AND A10 == 2 AND A11 == 2 AND A12 == 2 AND A13 == 3 AND A14 == 0 AND A15 == 1 AND A16 == 0 AND A17 == 0 AND A18 == 3 AND A19 == 0 AND A20 == 3 AND A21 == 2 AND A22 == 1 AND A23 == 3 AND A24 == 2 AND A25 == 2 AND A26 == 0 AND A27 == 3 AND A28 == 2 AND A29 == 2 AND A30 == 0 AND A31 == 2 AND A32 == 0 AND A33 == 3 AND A34 == 2 AND A35 == 1 AND A36 == 2 AND A37 == 3 AND A38 == 3 AND A39 == 1 AND A40 == 0 AND A41 == 1 AND A42 == 3 AND A43 == 3 AND A44 == 1 AND A45 == 3 AND A46 == 2 AND A47 == 2 AND A48 == 3 AND A49 == 1 AND A50 == 3 AND A51 == 0 AND A52 == 1 AND A53 == 3 AND A54 == 2 AND A55 == 0 AND A56 == 1 AND A57 == 3 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 14 THEN target == 1"
+  expl: "IF name == 14 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 28 AND A3 == 0 AND A4 == 3 AND A5 == 0 AND A6 == 2 AND A7 == 3 AND A8 == 1 AND A9 == 3 AND A10 == 1 AND A11 == 0 AND A12 == 2 AND A13 == 0 AND A14 == 2 AND A15 == 3 AND A16 == 1 AND A17 == 3 AND A18 == 3 AND A19 == 2 AND A20 == 0 AND A21 == 1 AND A22 == 1 AND A23 == 3 AND A24 == 0 AND A25 == 1 AND A26 == 3 AND A27 == 0 AND A28 == 1 AND A29 == 2 AND A30 == 1 AND A31 == 1 AND A32 == 0 AND A33 == 2 AND A34 == 1 AND A35 == 0 AND A36 == 3 AND A37 == 3 AND A38 == 3 AND A39 == 3 AND A40 == 2 AND A41 == 2 AND A42 == 1 AND A43 == 2 AND A44 == 2 AND A45 == 3 AND A46 == 2 AND A47 == 3 AND A48 == 0 AND A49 == 0 AND A50 == 2 AND A51 == 1 AND A52 == 3 AND A53 == 0 AND A54 == 0 AND A55 == 1 AND A56 == 1 AND A57 == 0 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 28 THEN target == 1"
+  expl: "IF name == 28 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 25 AND A3 == 0 AND A4 == 0 AND A5 == 1 AND A6 == 3 AND A7 == 1 AND A8 == 0 AND A9 == 0 AND A10 == 2 AND A11 == 2 AND A12 == 1 AND A13 == 3 AND A14 == 2 AND A15 == 0 AND A16 == 3 AND A17 == 0 AND A18 == 1 AND A19 == 2 AND A20 == 2 AND A21 == 1 AND A22 == 2 AND A23 == 0 AND A24 == 2 AND A25 == 0 AND A26 == 1 AND A27 == 3 AND A28 == 3 AND A29 == 2 AND A30 == 1 AND A31 == 2 AND A32 == 0 AND A33 == 2 AND A34 == 1 AND A35 == 1 AND A36 == 3 AND A37 == 3 AND A38 == 2 AND A39 == 3 AND A40 == 1 AND A41 == 1 AND A42 == 3 AND A43 == 3 AND A44 == 2 AND A45 == 1 AND A46 == 2 AND A47 == 2 AND A48 == 3 AND A49 == 0 AND A50 == 1 AND A51 == 0 AND A52 == 1 AND A53 == 0 AND A54 == 2 AND A55 == 1 AND A56 == 0 AND A57 == 2 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 25 THEN target == 1"
+  expl: "IF name == 25 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 7 AND A3 == 3 AND A4 == 3 AND A5 == 0 AND A6 == 1 AND A7 == 3 AND A8 == 2 AND A9 == 3 AND A10 == 2 AND A11 == 0 AND A12 == 0 AND A13 == 1 AND A14 == 0 AND A15 == 3 AND A16 == 3 AND A17 == 0 AND A18 == 3 AND A19 == 3 AND A20 == 1 AND A21 == 2 AND A22 == 3 AND A23 == 1 AND A24 == 3 AND A25 == 1 AND A26 == 1 AND A27 == 2 AND A28 == 1 AND A29 == 2 AND A30 == 0 AND A31 == 1 AND A32 == 3 AND A33 == 0 AND A34 == 1 AND A35 == 2 AND A36 == 0 AND A37 == 3 AND A38 == 2 AND A39 == 0 AND A40 == 2 AND A41 == 0 AND A42 == 3 AND A43 == 2 AND A44 == 1 AND A45 == 1 AND A46 == 3 AND A47 == 2 AND A48 == 0 AND A49 == 2 AND A50 == 3 AND A51 == 2 AND A52 == 1 AND A53 == 3 AND A54 == 3 AND A55 == 1 AND A56 == 1 AND A57 == 2 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 7 THEN target == 1"
+  expl: "IF name == 7 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 51 AND A3 == 3 AND A4 == 0 AND A5 == 3 AND A6 == 3 AND A7 == 1 AND A8 == 3 AND A9 == 1 AND A10 == 0 AND A11 == 0 AND A12 == 1 AND A13 == 0 AND A14 == 0 AND A15 == 2 AND A16 == 0 AND A17 == 3 AND A18 == 3 AND A19 == 0 AND A20 == 0 AND A21 == 1 AND A22 == 1 AND A23 == 2 AND A24 == 0 AND A25 == 1 AND A26 == 0 AND A27 == 2 AND A28 == 0 AND A29 == 3 AND A30 == 3 AND A31 == 1 AND A32 == 0 AND A33 == 0 AND A34 == 3 AND A35 == 1 AND A36 == 3 AND A37 == 1 AND A38 == 2 AND A39 == 3 AND A40 == 2 AND A41 == 2 AND A42 == 0 AND A43 == 3 AND A44 == 2 AND A45 == 2 AND A46 == 0 AND A47 == 1 AND A48 == 2 AND A49 == 3 AND A50 == 3 AND A51 == 1 AND A52 == 0 AND A53 == 0 AND A54 == 1 AND A55 == 0 AND A56 == 3 AND A57 == 3 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 51 THEN target == 1"
+  expl: "IF name == 51 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 6 AND A3 == 0 AND A4 == 0 AND A5 == 1 AND A6 == 2 AND A7 == 0 AND A8 == 2 AND A9 == 3 AND A10 == 1 AND A11 == 0 AND A12 == 0 AND A13 == 3 AND A14 == 1 AND A15 == 0 AND A16 == 2 AND A17 == 0 AND A18 == 1 AND A19 == 1 AND A20 == 2 AND A21 == 1 AND A22 == 3 AND A23 == 3 AND A24 == 3 AND A25 == 2 AND A26 == 0 AND A27 == 1 AND A28 == 3 AND A29 == 1 AND A30 == 3 AND A31 == 2 AND A32 == 2 AND A33 == 3 AND A34 == 0 AND A35 == 3 AND A36 == 3 AND A37 == 0 AND A38 == 1 AND A39 == 3 AND A40 == 2 AND A41 == 3 AND A42 == 2 AND A43 == 0 AND A44 == 0 AND A45 == 1 AND A46 == 0 AND A47 == 3 AND A48 == 3 AND A49 == 0 AND A50 == 3 AND A51 == 3 AND A52 == 1 AND A53 == 2 AND A54 == 3 AND A55 == 1 AND A56 == 3 AND A57 == 1 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 6 THEN target == 1"
+  expl: "IF name == 6 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 37 AND A3 == 0 AND A4 == 0 AND A5 == 2 AND A6 == 3 AND A7 == 2 AND A8 == 1 AND A9 == 3 AND A10 == 3 AND A11 == 0 AND A12 == 2 AND A13 == 1 AND A14 == 3 AND A15 == 3 AND A16 == 1 AND A17 == 0 AND A18 == 0 AND A19 == 2 AND A20 == 2 AND A21 == 3 AND A22 == 1 AND A23 == 0 AND A24 == 1 AND A25 == 2 AND A26 == 2 AND A27 == 0 AND A28 == 3 AND A29 == 0 AND A30 == 1 AND A31 == 2 AND A32 == 0 AND A33 == 1 AND A34 == 1 AND A35 == 2 AND A36 == 0 AND A37 == 0 AND A38 == 2 AND A39 == 1 AND A40 == 2 AND A41 == 0 AND A42 == 2 AND A43 == 1 AND A44 == 1 AND A45 == 3 AND A46 == 1 AND A47 == 2 AND A48 == 3 AND A49 == 1 AND A50 == 1 AND A51 == 3 AND A52 == 1 AND A53 == 0 AND A54 == 0 AND A55 == 3 AND A56 == 2 AND A57 == 2 AND A58 == 1 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 37 THEN target == 1"
+  expl: "IF name == 37 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 31 AND A3 == 2 AND A4 == 0 AND A5 == 0 AND A6 == 2 AND A7 == 0 AND A8 == 1 AND A9 == 1 AND A10 == 0 AND A11 == 1 AND A12 == 2 AND A13 == 1 AND A14 == 1 AND A15 == 3 AND A16 == 1 AND A17 == 2 AND A18 == 1 AND A19 == 1 AND A20 == 0 AND A21 == 1 AND A22 == 1 AND A23 == 2 AND A24 == 0 AND A25 == 2 AND A26 == 3 AND A27 == 0 AND A28 == 2 AND A29 == 0 AND A30 == 1 AND A31 == 1 AND A32 == 1 AND A33 == 3 AND A34 == 3 AND A35 == 0 AND A36 == 2 AND A37 == 0 AND A38 == 2 AND A39 == 0 AND A40 == 2 AND A41 == 1 AND A42 == 0 AND A43 == 3 AND A44 == 2 AND A45 == 3 AND A46 == 1 AND A47 == 0 AND A48 == 2 AND A49 == 1 AND A50 == 1 AND A51 == 3 AND A52 == 1 AND A53 == 2 AND A54 == 0 AND A55 == 1 AND A56 == 0 AND A57 == 0 AND A58 == 1 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 31 THEN target == 1"
+  expl: "IF name == 31 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 33 AND A3 == 3 AND A4 == 3 AND A5 == 0 AND A6 == 2 AND A7 == 0 AND A8 == 2 AND A9 == 0 AND A10 == 2 AND A11 == 1 AND A12 == 0 AND A13 == 3 AND A14 == 2 AND A15 == 3 AND A16 == 1 AND A17 == 0 AND A18 == 2 AND A19 == 1 AND A20 == 1 AND A21 == 3 AND A22 == 1 AND A23 == 2 AND A24 == 0 AND A25 == 1 AND A26 == 0 AND A27 == 0 AND A28 == 1 AND A29 == 3 AND A30 == 3 AND A31 == 2 AND A32 == 1 AND A33 == 0 AND A34 == 3 AND A35 == 0 AND A36 == 0 AND A37 == 0 AND A38 == 3 AND A39 == 2 AND A40 == 1 AND A41 == 3 AND A42 == 3 AND A43 == 3 AND A44 == 1 AND A45 == 3 AND A46 == 3 AND A47 == 2 AND A48 == 3 AND A49 == 0 AND A50 == 2 AND A51 == 0 AND A52 == 1 AND A53 == 2 AND A54 == 3 AND A55 == 2 AND A56 == 1 AND A57 == 1 AND A58 == 1 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 33 THEN target == 1"
+  expl: "IF name == 33 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 8 AND A3 == 3 AND A4 == 0 AND A5 == 3 AND A6 == 3 AND A7 == 1 AND A8 == 2 AND A9 == 3 AND A10 == 1 AND A11 == 3 AND A12 == 1 AND A13 == 1 AND A14 == 2 AND A15 == 1 AND A16 == 2 AND A17 == 0 AND A18 == 1 AND A19 == 3 AND A20 == 0 AND A21 == 1 AND A22 == 2 AND A23 == 0 AND A24 == 3 AND A25 == 2 AND A26 == 0 AND A27 == 2 AND A28 == 0 AND A29 == 3 AND A30 == 2 AND A31 == 1 AND A32 == 1 AND A33 == 3 AND A34 == 2 AND A35 == 0 AND A36 == 2 AND A37 == 3 AND A38 == 2 AND A39 == 1 AND A40 == 3 AND A41 == 3 AND A42 == 1 AND A43 == 1 AND A44 == 2 AND A45 == 3 AND A46 == 3 AND A47 == 0 AND A48 == 1 AND A49 == 3 AND A50 == 2 AND A51 == 2 AND A52 == 0 AND A53 == 3 AND A54 == 3 AND A55 == 2 AND A56 == 3 AND A57 == 1 AND A58 == 0 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 8 THEN target == 1"
+  expl: "IF name == 8 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 42 AND A3 == 3 AND A4 == 2 AND A5 == 1 AND A6 == 3 AND A7 == 2 AND A8 == 0 AND A9 == 0 AND A10 == 0 AND A11 == 2 AND A12 == 2 AND A13 == 0 AND A14 == 2 AND A15 == 2 AND A16 == 0 AND A17 == 0 AND A18 == 1 AND A19 == 3 AND A20 == 0 AND A21 == 3 AND A22 == 0 AND A23 == 3 AND A24 == 2 AND A25 == 1 AND A26 == 2 AND A27 == 1 AND A28 == 3 AND A29 == 1 AND A30 == 0 AND A31 == 3 AND A32 == 0 AND A33 == 1 AND A34 == 2 AND A35 == 0 AND A36 == 3 AND A37 == 0 AND A38 == 3 AND A39 == 2 AND A40 == 0 AND A41 == 0 AND A42 == 1 AND A43 == 2 AND A44 == 3 AND A45 == 3 AND A46 == 2 AND A47 == 0 AND A48 == 2 AND A49 == 0 AND A50 == 1 AND A51 == 3 AND A52 == 2 AND A53 == 1 AND A54 == 1 AND A55 == 2 AND A56 == 1 AND A57 == 3 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 42 THEN target == 1"
+  expl: "IF name == 42 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 24 AND A3 == 1 AND A4 == 0 AND A5 == 3 AND A6 == 2 AND A7 == 0 AND A8 == 0 AND A9 == 1 AND A10 == 3 AND A11 == 1 AND A12 == 0 AND A13 == 0 AND A14 == 2 AND A15 == 2 AND A16 == 1 AND A17 == 3 AND A18 == 2 AND A19 == 0 AND A20 == 3 AND A21 == 0 AND A22 == 1 AND A23 == 2 AND A24 == 2 AND A25 == 1 AND A26 == 2 AND A27 == 0 AND A28 == 2 AND A29 == 0 AND A30 == 1 AND A31 == 3 AND A32 == 3 AND A33 == 2 AND A34 == 1 AND A35 == 2 AND A36 == 0 AND A37 == 2 AND A38 == 1 AND A39 == 1 AND A40 == 3 AND A41 == 3 AND A42 == 2 AND A43 == 3 AND A44 == 1 AND A45 == 1 AND A46 == 3 AND A47 == 3 AND A48 == 2 AND A49 == 1 AND A50 == 2 AND A51 == 2 AND A52 == 3 AND A53 == 0 AND A54 == 1 AND A55 == 0 AND A56 == 1 AND A57 == 0 AND A58 == 2 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 24 THEN target == 1"
+  expl: "IF name == 24 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 9 AND A3 == 3 AND A4 == 3 AND A5 == 1 AND A6 == 2 AND A7 == 3 AND A8 == 1 AND A9 == 3 AND A10 == 1 AND A11 == 1 AND A12 == 2 AND A13 == 1 AND A14 == 2 AND A15 == 0 AND A16 == 1 AND A17 == 3 AND A18 == 0 AND A19 == 1 AND A20 == 2 AND A21 == 0 AND A22 == 3 AND A23 == 2 AND A24 == 0 AND A25 == 2 AND A26 == 0 AND A27 == 3 AND A28 == 2 AND A29 == 1 AND A30 == 1 AND A31 == 3 AND A32 == 2 AND A33 == 0 AND A34 == 2 AND A35 == 3 AND A36 == 2 AND A37 == 1 AND A38 == 3 AND A39 == 3 AND A40 == 1 AND A41 == 1 AND A42 == 2 AND A43 == 3 AND A44 == 3 AND A45 == 0 AND A46 == 1 AND A47 == 3 AND A48 == 2 AND A49 == 2 AND A50 == 0 AND A51 == 3 AND A52 == 3 AND A53 == 2 AND A54 == 3 AND A55 == 1 AND A56 == 0 AND A57 == 1 AND A58 == 1 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 9 THEN target == 1"
+  expl: "IF name == 9 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 35 AND A3 == 1 AND A4 == 0 AND A5 == 3 AND A6 == 2 AND A7 == 3 AND A8 == 1 AND A9 == 0 AND A10 == 2 AND A11 == 1 AND A12 == 1 AND A13 == 3 AND A14 == 1 AND A15 == 2 AND A16 == 0 AND A17 == 1 AND A18 == 0 AND A19 == 0 AND A20 == 1 AND A21 == 3 AND A22 == 3 AND A23 == 2 AND A24 == 1 AND A25 == 0 AND A26 == 3 AND A27 == 0 AND A28 == 0 AND A29 == 0 AND A30 == 3 AND A31 == 2 AND A32 == 1 AND A33 == 3 AND A34 == 3 AND A35 == 3 AND A36 == 1 AND A37 == 3 AND A38 == 3 AND A39 == 2 AND A40 == 3 AND A41 == 0 AND A42 == 2 AND A43 == 0 AND A44 == 1 AND A45 == 2 AND A46 == 3 AND A47 == 2 AND A48 == 1 AND A49 == 1 AND A50 == 1 AND A51 == 3 AND A52 == 0 AND A53 == 1 AND A54 == 2 AND A55 == 1 AND A56 == 2 AND A57 == 1 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 35 THEN target == 1"
+  expl: "IF name == 35 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 26 AND A3 == 0 AND A4 == 2 AND A5 == 2 AND A6 == 0 AND A7 == 2 AND A8 == 2 AND A9 == 0 AND A10 == 0 AND A11 == 1 AND A12 == 3 AND A13 == 0 AND A14 == 1 AND A15 == 2 AND A16 == 1 AND A17 == 0 AND A18 == 0 AND A19 == 2 AND A20 == 2 AND A21 == 3 AND A22 == 3 AND A23 == 2 AND A24 == 2 AND A25 == 0 AND A26 == 0 AND A27 == 1 AND A28 == 0 AND A29 == 3 AND A30 == 1 AND A31 == 2 AND A32 == 2 AND A33 == 0 AND A34 == 2 AND A35 == 0 AND A36 == 2 AND A37 == 0 AND A38 == 3 AND A39 == 2 AND A40 == 1 AND A41 == 1 AND A42 == 0 AND A43 == 2 AND A44 == 1 AND A45 == 1 AND A46 == 0 AND A47 == 2 AND A48 == 1 AND A49 == 2 AND A50 == 1 AND A51 == 0 AND A52 == 1 AND A53 == 1 AND A54 == 3 AND A55 == 2 AND A56 == 1 AND A57 == 0 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 26 THEN target == 1"
+  expl: "IF name == 26 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 52 AND A3 == 3 AND A4 == 1 AND A5 == 3 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 1 AND A10 == 0 AND A11 == 0 AND A12 == 2 AND A13 == 0 AND A14 == 3 AND A15 == 3 AND A16 == 0 AND A17 == 0 AND A18 == 1 AND A19 == 1 AND A20 == 2 AND A21 == 0 AND A22 == 1 AND A23 == 0 AND A24 == 2 AND A25 == 0 AND A26 == 3 AND A27 == 3 AND A28 == 1 AND A29 == 0 AND A30 == 0 AND A31 == 3 AND A32 == 1 AND A33 == 3 AND A34 == 1 AND A35 == 2 AND A36 == 3 AND A37 == 2 AND A38 == 2 AND A39 == 0 AND A40 == 3 AND A41 == 2 AND A42 == 2 AND A43 == 0 AND A44 == 1 AND A45 == 2 AND A46 == 3 AND A47 == 3 AND A48 == 1 AND A49 == 0 AND A50 == 0 AND A51 == 1 AND A52 == 0 AND A53 == 3 AND A54 == 3 AND A55 == 2 AND A56 == 0 AND A57 == 2 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 52 THEN target == 1"
+  expl: "IF name == 52 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 36 AND A3 == 3 AND A4 == 2 AND A5 == 0 AND A6 == 0 AND A7 == 2 AND A8 == 3 AND A9 == 2 AND A10 == 1 AND A11 == 3 AND A12 == 3 AND A13 == 0 AND A14 == 2 AND A15 == 1 AND A16 == 3 AND A17 == 3 AND A18 == 1 AND A19 == 0 AND A20 == 0 AND A21 == 2 AND A22 == 2 AND A23 == 3 AND A24 == 1 AND A25 == 0 AND A26 == 1 AND A27 == 2 AND A28 == 2 AND A29 == 0 AND A30 == 3 AND A31 == 0 AND A32 == 1 AND A33 == 2 AND A34 == 0 AND A35 == 1 AND A36 == 1 AND A37 == 2 AND A38 == 0 AND A39 == 0 AND A40 == 2 AND A41 == 1 AND A42 == 2 AND A43 == 0 AND A44 == 2 AND A45 == 1 AND A46 == 1 AND A47 == 3 AND A48 == 1 AND A49 == 2 AND A50 == 3 AND A51 == 1 AND A52 == 1 AND A53 == 3 AND A54 == 1 AND A55 == 0 AND A56 == 0 AND A57 == 3 AND A58 == 2 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 36 THEN target == 1"
+  expl: "IF name == 36 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 43 AND A3 == 1 AND A4 == 3 AND A5 == 0 AND A6 == 3 AND A7 == 0 AND A8 == 3 AND A9 == 2 AND A10 == 1 AND A11 == 2 AND A12 == 1 AND A13 == 3 AND A14 == 1 AND A15 == 0 AND A16 == 3 AND A17 == 0 AND A18 == 1 AND A19 == 2 AND A20 == 0 AND A21 == 3 AND A22 == 0 AND A23 == 3 AND A24 == 2 AND A25 == 0 AND A26 == 0 AND A27 == 1 AND A28 == 2 AND A29 == 3 AND A30 == 3 AND A31 == 2 AND A32 == 0 AND A33 == 2 AND A34 == 0 AND A35 == 1 AND A36 == 3 AND A37 == 2 AND A38 == 1 AND A39 == 1 AND A40 == 2 AND A41 == 1 AND A42 == 3 AND A43 == 2 AND A44 == 0 AND A45 == 2 AND A46 == 3 AND A47 == 3 AND A48 == 0 AND A49 == 3 AND A50 == 1 AND A51 == 0 AND A52 == 2 AND A53 == 1 AND A54 == 3 AND A55 == 2 AND A56 == 3 AND A57 == 2 AND A58 == 0 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 43 THEN target == 1"
+  expl: "IF name == 43 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 48 AND A3 == 2 AND A4 == 1 AND A5 == 2 AND A6 == 2 AND A7 == 1 AND A8 == 0 AND A9 == 2 AND A10 == 1 AND A11 == 0 AND A12 == 1 AND A13 == 2 AND A14 == 3 AND A15 == 3 AND A16 == 3 AND A17 == 1 AND A18 == 1 AND A19 == 0 AND A20 == 1 AND A21 == 2 AND A22 == 1 AND A23 == 2 AND A24 == 2 AND A25 == 3 AND A26 == 2 AND A27 == 0 AND A28 == 2 AND A29 == 0 AND A30 == 2 AND A31 == 1 AND A32 == 1 AND A33 == 3 AND A34 == 1 AND A35 == 0 AND A36 == 2 AND A37 == 2 AND A38 == 0 AND A39 == 3 AND A40 == 3 AND A41 == 1 AND A42 == 0 AND A43 == 3 AND A44 == 2 AND A45 == 3 AND A46 == 1 AND A47 == 2 AND A48 == 0 AND A49 == 3 AND A50 == 2 AND A51 == 3 AND A52 == 1 AND A53 == 3 AND A54 == 3 AND A55 == 1 AND A56 == 1 AND A57 == 2 AND A58 == 2 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 48 THEN target == 1"
+  expl: "IF name == 48 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 2 AND A3 == 0 AND A4 == 3 AND A5 == 1 AND A6 == 1 AND A7 == 1 AND A8 == 3 AND A9 == 0 AND A10 == 0 AND A11 == 3 AND A12 == 2 AND A13 == 3 AND A14 == 1 AND A15 == 3 AND A16 == 0 AND A17 == 1 AND A18 == 3 AND A19 == 3 AND A20 == 1 AND A21 == 1 AND A22 == 2 AND A23 == 2 AND A24 == 3 AND A25 == 1 AND A26 == 0 AND A27 == 0 AND A28 == 3 AND A29 == 1 AND A30 == 1 AND A31 == 0 AND A32 == 3 AND A33 == 1 AND A34 == 3 AND A35 == 0 AND A36 == 1 AND A37 == 2 AND A38 == 3 AND A39 == 3 AND A40 == 0 AND A41 == 0 AND A42 == 1 AND A43 == 1 AND A44 == 2 AND A45 == 0 AND A46 == 2 AND A47 == 2 AND A48 == 3 AND A49 == 2 AND A50 == 2 AND A51 == 1 AND A52 == 3 AND A53 == 0 AND A54 == 3 AND A55 == 2 AND A56 == 3 AND A57 == 2 AND A58 == 3 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 2 THEN target == 1"
+  expl: "IF name == 2 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 46 AND A3 == 3 AND A4 == 2 AND A5 == 2 AND A6 == 1 AND A7 == 2 AND A8 == 3 AND A9 == 1 AND A10 == 3 AND A11 == 0 AND A12 == 3 AND A13 == 1 AND A14 == 2 AND A15 == 2 AND A16 == 3 AND A17 == 2 AND A18 == 0 AND A19 == 0 AND A20 == 1 AND A21 == 1 AND A22 == 3 AND A23 == 1 AND A24 == 1 AND A25 == 2 AND A26 == 2 AND A27 == 3 AND A28 == 0 AND A29 == 3 AND A30 == 1 AND A31 == 0 AND A32 == 0 AND A33 == 1 AND A34 == 2 AND A35 == 1 AND A36 == 3 AND A37 == 2 AND A38 == 2 AND A39 == 0 AND A40 == 0 AND A41 == 2 AND A42 == 2 AND A43 == 3 AND A44 == 2 AND A45 == 0 AND A46 == 1 AND A47 == 2 AND A48 == 1 AND A49 == 3 AND A50 == 0 AND A51 == 0 AND A52 == 1 AND A53 == 2 AND A54 == 1 AND A55 == 0 AND A56 == 2 AND A57 == 0 AND A58 == 3 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 46 THEN target == 1"
+  expl: "IF name == 46 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 0 AND A3 == 3 AND A4 == 1 AND A5 == 3 AND A6 == 1 AND A7 == 2 AND A8 == 3 AND A9 == 2 AND A10 == 2 AND A11 == 0 AND A12 == 3 AND A13 == 2 AND A14 == 2 AND A15 == 0 AND A16 == 1 AND A17 == 2 AND A18 == 3 AND A19 == 3 AND A20 == 1 AND A21 == 0 AND A22 == 0 AND A23 == 1 AND A24 == 0 AND A25 == 3 AND A26 == 3 AND A27 == 2 AND A28 == 0 AND A29 == 2 AND A30 == 2 AND A31 == 0 AND A32 == 0 AND A33 == 2 AND A34 == 2 AND A35 == 1 AND A36 == 0 AND A37 == 3 AND A38 == 0 AND A39 == 0 AND A40 == 1 AND A41 == 2 AND A42 == 1 AND A43 == 3 AND A44 == 0 AND A45 == 1 AND A46 == 3 AND A47 == 0 AND A48 == 1 AND A49 == 1 AND A50 == 3 AND A51 == 2 AND A52 == 0 AND A53 == 3 AND A54 == 2 AND A55 == 3 AND A56 == 3 AND A57 == 3 AND A58 == 0 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 0 THEN target == 1"
+  expl: "IF name == 0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 17 AND A3 == 3 AND A4 == 0 AND A5 == 3 AND A6 == 3 AND A7 == 2 AND A8 == 2 AND A9 == 1 AND A10 == 3 AND A11 == 3 AND A12 == 2 AND A13 == 1 AND A14 == 3 AND A15 == 1 AND A16 == 0 AND A17 == 0 AND A18 == 2 AND A19 == 1 AND A20 == 0 AND A21 == 3 AND A22 == 2 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 3 AND A27 == 1 AND A28 == 0 AND A29 == 0 AND A30 == 2 AND A31 == 2 AND A32 == 1 AND A33 == 3 AND A34 == 2 AND A35 == 0 AND A36 == 3 AND A37 == 0 AND A38 == 1 AND A39 == 2 AND A40 == 2 AND A41 == 1 AND A42 == 2 AND A43 == 0 AND A44 == 2 AND A45 == 0 AND A46 == 1 AND A47 == 3 AND A48 == 3 AND A49 == 2 AND A50 == 1 AND A51 == 2 AND A52 == 0 AND A53 == 2 AND A54 == 1 AND A55 == 1 AND A56 == 3 AND A57 == 3 AND A58 == 2 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 17 THEN target == 1"
+  expl: "IF name == 17 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 11 AND A3 == 3 AND A4 == 0 AND A5 == 2 AND A6 == 0 AND A7 == 2 AND A8 == 2 AND A9 == 2 AND A10 == 3 AND A11 == 2 AND A12 == 3 AND A13 == 0 AND A14 == 1 AND A15 == 3 AND A16 == 1 AND A17 == 1 AND A18 == 0 AND A19 == 0 AND A20 == 2 AND A21 == 0 AND A22 == 0 AND A23 == 2 AND A24 == 0 AND A25 == 2 AND A26 == 2 AND A27 == 0 AND A28 == 0 AND A29 == 2 AND A30 == 0 AND A31 == 3 AND A32 == 2 AND A33 == 0 AND A34 == 2 AND A35 == 2 AND A36 == 1 AND A37 == 3 AND A38 == 0 AND A39 == 2 AND A40 == 0 AND A41 == 1 AND A42 == 2 AND A43 == 3 AND A44 == 1 AND A45 == 3 AND A46 == 1 AND A47 == 3 AND A48 == 2 AND A49 == 1 AND A50 == 0 AND A51 == 3 AND A52 == 2 AND A53 == 2 AND A54 == 0 AND A55 == 2 AND A56 == 3 AND A57 == 0 AND A58 == 3 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 11 THEN target == 1"
+  expl: "IF name == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 45 AND A3 == 1 AND A4 == 0 AND A5 == 2 AND A6 == 1 AND A7 == 2 AND A8 == 2 AND A9 == 1 AND A10 == 0 AND A11 == 2 AND A12 == 1 AND A13 == 0 AND A14 == 1 AND A15 == 2 AND A16 == 3 AND A17 == 3 AND A18 == 3 AND A19 == 1 AND A20 == 1 AND A21 == 0 AND A22 == 1 AND A23 == 2 AND A24 == 1 AND A25 == 2 AND A26 == 2 AND A27 == 3 AND A28 == 2 AND A29 == 0 AND A30 == 2 AND A31 == 0 AND A32 == 2 AND A33 == 1 AND A34 == 1 AND A35 == 3 AND A36 == 1 AND A37 == 0 AND A38 == 2 AND A39 == 2 AND A40 == 0 AND A41 == 3 AND A42 == 3 AND A43 == 1 AND A44 == 0 AND A45 == 3 AND A46 == 2 AND A47 == 3 AND A48 == 1 AND A49 == 2 AND A50 == 0 AND A51 == 3 AND A52 == 2 AND A53 == 3 AND A54 == 1 AND A55 == 3 AND A56 == 3 AND A57 == 1 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 45 THEN target == 1"
+  expl: "IF name == 45 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 18 AND A3 == 3 AND A4 == 3 AND A5 == 0 AND A6 == 1 AND A7 == 2 AND A8 == 3 AND A9 == 3 AND A10 == 2 AND A11 == 2 AND A12 == 1 AND A13 == 2 AND A14 == 0 AND A15 == 1 AND A16 == 1 AND A17 == 2 AND A18 == 1 AND A19 == 3 AND A20 == 0 AND A21 == 2 AND A22 == 2 AND A23 == 0 AND A24 == 1 AND A25 == 3 AND A26 == 3 AND A27 == 3 AND A28 == 1 AND A29 == 3 AND A30 == 3 AND A31 == 2 AND A32 == 3 AND A33 == 3 AND A34 == 2 AND A35 == 0 AND A36 == 3 AND A37 == 3 AND A38 == 3 AND A39 == 3 AND A40 == 1 AND A41 == 1 AND A42 == 0 AND A43 == 3 AND A44 == 2 AND A45 == 1 AND A46 == 2 AND A47 == 2 AND A48 == 3 AND A49 == 2 AND A50 == 3 AND A51 == 3 AND A52 == 3 AND A53 == 3 AND A54 == 2 AND A55 == 1 AND A56 == 2 AND A57 == 1 AND A58 == 0 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 18 THEN target == 1"
+  expl: "IF name == 18 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 49 AND A3 == 0 AND A4 == 1 AND A5 == 2 AND A6 == 1 AND A7 == 3 AND A8 == 0 AND A9 == 0 AND A10 == 1 AND A11 == 2 AND A12 == 1 AND A13 == 0 AND A14 == 2 AND A15 == 0 AND A16 == 3 AND A17 == 2 AND A18 == 1 AND A19 == 0 AND A20 == 2 AND A21 == 1 AND A22 == 2 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 2 AND A27 == 1 AND A28 == 3 AND A29 == 1 AND A30 == 2 AND A31 == 2 AND A32 == 1 AND A33 == 2 AND A34 == 3 AND A35 == 0 AND A36 == 3 AND A37 == 3 AND A38 == 1 AND A39 == 3 AND A40 == 1 AND A41 == 0 AND A42 == 0 AND A43 == 1 AND A44 == 0 AND A45 == 0 AND A46 == 2 AND A47 == 0 AND A48 == 3 AND A49 == 3 AND A50 == 0 AND A51 == 0 AND A52 == 1 AND A53 == 1 AND A54 == 2 AND A55 == 0 AND A56 == 1 AND A57 == 0 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 49 THEN target == 1"
+  expl: "IF name == 49 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 21 AND A3 == 2 AND A4 == 2 AND A5 == 3 AND A6 == 2 AND A7 == 3 AND A8 == 3 AND A9 == 3 AND A10 == 3 AND A11 == 2 AND A12 == 1 AND A13 == 2 AND A14 == 1 AND A15 == 0 AND A16 == 0 AND A17 == 3 AND A18 == 2 AND A19 == 3 AND A20 == 3 AND A21 == 0 AND A22 == 0 AND A23 == 3 AND A24 == 1 AND A25 == 2 AND A26 == 1 AND A27 == 3 AND A28 == 3 AND A29 == 3 AND A30 == 2 AND A31 == 3 AND A32 == 0 AND A33 == 1 AND A34 == 0 AND A35 == 1 AND A36 == 1 AND A37 == 3 AND A38 == 1 AND A39 == 0 AND A40 == 2 AND A41 == 2 AND A42 == 1 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 3 AND A47 == 0 AND A48 == 0 AND A49 == 0 AND A50 == 1 AND A51 == 2 AND A52 == 3 AND A53 == 1 AND A54 == 3 AND A55 == 3 AND A56 == 1 AND A57 == 2 AND A58 == 3 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 21 THEN target == 1"
+  expl: "IF name == 21 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 30 AND A3 == 0 AND A4 == 0 AND A5 == 1 AND A6 == 1 AND A7 == 0 AND A8 == 3 AND A9 == 3 AND A10 == 1 AND A11 == 1 AND A12 == 2 AND A13 == 2 AND A14 == 3 AND A15 == 3 AND A16 == 2 AND A17 == 0 AND A18 == 1 AND A19 == 3 AND A20 == 1 AND A21 == 0 AND A22 == 0 AND A23 == 3 AND A24 == 2 AND A25 == 0 AND A26 == 2 AND A27 == 1 AND A28 == 0 AND A29 == 3 AND A30 == 1 AND A31 == 3 AND A32 == 1 AND A33 == 2 AND A34 == 0 AND A35 == 3 AND A36 == 2 AND A37 == 1 AND A38 == 0 AND A39 == 2 AND A40 == 1 AND A41 == 2 AND A42 == 3 AND A43 == 0 AND A44 == 1 AND A45 == 3 AND A46 == 1 AND A47 == 1 AND A48 == 3 AND A49 == 0 AND A50 == 1 AND A51 == 0 AND A52 == 3 AND A53 == 2 AND A54 == 0 AND A55 == 0 AND A56 == 3 AND A57 == 0 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 30 THEN target == 1"
+  expl: "IF name == 30 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 13 AND A3 == 0 AND A4 == 2 AND A5 == 0 AND A6 == 1 AND A7 == 2 AND A8 == 3 AND A9 == 1 AND A10 == 3 AND A11 == 1 AND A12 == 3 AND A13 == 2 AND A14 == 1 AND A15 == 0 AND A16 == 3 AND A17 == 2 AND A18 == 2 AND A19 == 0 AND A20 == 2 AND A21 == 3 AND A22 == 0 AND A23 == 3 AND A24 == 2 AND A25 == 0 AND A26 == 2 AND A27 == 0 AND A28 == 3 AND A29 == 2 AND A30 == 2 AND A31 == 0 AND A32 == 1 AND A33 == 3 AND A34 == 0 AND A35 == 1 AND A36 == 2 AND A37 == 2 AND A38 == 3 AND A39 == 2 AND A40 == 2 AND A41 == 2 AND A42 == 3 AND A43 == 0 AND A44 == 1 AND A45 == 0 AND A46 == 0 AND A47 == 3 AND A48 == 0 AND A49 == 3 AND A50 == 2 AND A51 == 1 AND A52 == 3 AND A53 == 2 AND A54 == 2 AND A55 == 0 AND A56 == 3 AND A57 == 2 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 13 THEN target == 1"
+  expl: "IF name == 13 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 20 AND A3 == 3 AND A4 == 2 AND A5 == 3 AND A6 == 3 AND A7 == 2 AND A8 == 0 AND A9 == 3 AND A10 == 3 AND A11 == 3 AND A12 == 3 AND A13 == 1 AND A14 == 1 AND A15 == 0 AND A16 == 3 AND A17 == 2 AND A18 == 1 AND A19 == 2 AND A20 == 2 AND A21 == 3 AND A22 == 2 AND A23 == 3 AND A24 == 3 AND A25 == 3 AND A26 == 3 AND A27 == 2 AND A28 == 1 AND A29 == 2 AND A30 == 1 AND A31 == 0 AND A32 == 0 AND A33 == 3 AND A34 == 2 AND A35 == 3 AND A36 == 3 AND A37 == 0 AND A38 == 0 AND A39 == 3 AND A40 == 1 AND A41 == 2 AND A42 == 1 AND A43 == 3 AND A44 == 3 AND A45 == 3 AND A46 == 2 AND A47 == 3 AND A48 == 0 AND A49 == 1 AND A50 == 0 AND A51 == 1 AND A52 == 1 AND A53 == 3 AND A54 == 1 AND A55 == 0 AND A56 == 2 AND A57 == 2 AND A58 == 1 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 20 THEN target == 1"
+  expl: "IF name == 20 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 27 AND A3 == 3 AND A4 == 2 AND A5 == 1 AND A6 == 0 AND A7 == 1 AND A8 == 2 AND A9 == 2 AND A10 == 2 AND A11 == 3 AND A12 == 3 AND A13 == 2 AND A14 == 1 AND A15 == 2 AND A16 == 0 AND A17 == 3 AND A18 == 0 AND A19 == 2 AND A20 == 1 AND A21 == 1 AND A22 == 3 AND A23 == 1 AND A24 == 0 AND A25 == 2 AND A26 == 1 AND A27 == 2 AND A28 == 3 AND A29 == 0 AND A30 == 3 AND A31 == 3 AND A32 == 1 AND A33 == 0 AND A34 == 2 AND A35 == 2 AND A36 == 3 AND A37 == 2 AND A38 == 1 AND A39 == 2 AND A40 == 0 AND A41 == 2 AND A42 == 3 AND A43 == 3 AND A44 == 1 AND A45 == 2 AND A46 == 0 AND A47 == 3 AND A48 == 0 AND A49 == 2 AND A50 == 3 AND A51 == 1 AND A52 == 3 AND A53 == 1 AND A54 == 0 AND A55 == 2 AND A56 == 0 AND A57 == 2 AND A58 == 3 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 27 THEN target == 1"
+  expl: "IF name == 27 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 22 AND A3 == 0 AND A4 == 2 AND A5 == 2 AND A6 == 1 AND A7 == 0 AND A8 == 3 AND A9 == 2 AND A10 == 3 AND A11 == 0 AND A12 == 0 AND A13 == 0 AND A14 == 1 AND A15 == 2 AND A16 == 3 AND A17 == 1 AND A18 == 3 AND A19 == 3 AND A20 == 1 AND A21 == 2 AND A22 == 3 AND A23 == 0 AND A24 == 2 AND A25 == 1 AND A26 == 2 AND A27 == 1 AND A28 == 0 AND A29 == 3 AND A30 == 1 AND A31 == 0 AND A32 == 2 AND A33 == 3 AND A34 == 2 AND A35 == 1 AND A36 == 3 AND A37 == 3 AND A38 == 3 AND A39 == 1 AND A40 == 3 AND A41 == 3 AND A42 == 0 AND A43 == 1 AND A44 == 3 AND A45 == 2 AND A46 == 3 AND A47 == 2 AND A48 == 0 AND A49 == 2 AND A50 == 3 AND A51 == 0 AND A52 == 1 AND A53 == 2 AND A54 == 1 AND A55 == 0 AND A56 == 1 AND A57 == 1 AND A58 == 0 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 22 THEN target == 1"
+  expl: "IF name == 22 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 32 AND A3 == 1 AND A4 == 1 AND A5 == 2 AND A6 == 0 AND A7 == 2 AND A8 == 3 AND A9 == 0 AND A10 == 2 AND A11 == 0 AND A12 == 1 AND A13 == 1 AND A14 == 1 AND A15 == 3 AND A16 == 3 AND A17 == 0 AND A18 == 2 AND A19 == 0 AND A20 == 2 AND A21 == 0 AND A22 == 2 AND A23 == 1 AND A24 == 0 AND A25 == 3 AND A26 == 2 AND A27 == 3 AND A28 == 1 AND A29 == 0 AND A30 == 2 AND A31 == 1 AND A32 == 1 AND A33 == 3 AND A34 == 1 AND A35 == 2 AND A36 == 0 AND A37 == 1 AND A38 == 0 AND A39 == 0 AND A40 == 1 AND A41 == 3 AND A42 == 3 AND A43 == 2 AND A44 == 1 AND A45 == 0 AND A46 == 3 AND A47 == 0 AND A48 == 0 AND A49 == 0 AND A50 == 3 AND A51 == 2 AND A52 == 1 AND A53 == 3 AND A54 == 3 AND A55 == 3 AND A56 == 1 AND A57 == 3 AND A58 == 3 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 32 THEN target == 1"
+  expl: "IF name == 32 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 19 AND A3 == 1 AND A4 == 2 AND A5 == 1 AND A6 == 3 AND A7 == 0 AND A8 == 2 AND A9 == 2 AND A10 == 0 AND A11 == 1 AND A12 == 3 AND A13 == 3 AND A14 == 3 AND A15 == 1 AND A16 == 3 AND A17 == 3 AND A18 == 2 AND A19 == 3 AND A20 == 3 AND A21 == 2 AND A22 == 0 AND A23 == 3 AND A24 == 3 AND A25 == 3 AND A26 == 3 AND A27 == 1 AND A28 == 1 AND A29 == 0 AND A30 == 3 AND A31 == 2 AND A32 == 1 AND A33 == 2 AND A34 == 2 AND A35 == 3 AND A36 == 2 AND A37 == 3 AND A38 == 3 AND A39 == 3 AND A40 == 3 AND A41 == 2 AND A42 == 1 AND A43 == 2 AND A44 == 1 AND A45 == 0 AND A46 == 0 AND A47 == 3 AND A48 == 2 AND A49 == 3 AND A50 == 3 AND A51 == 0 AND A52 == 0 AND A53 == 3 AND A54 == 1 AND A55 == 2 AND A56 == 1 AND A57 == 3 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 19 THEN target == 1"
+  expl: "IF name == 19 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 4 AND A3 == 3 AND A4 == 0 AND A5 == 3 AND A6 == 2 AND A7 == 0 AND A8 == 1 AND A9 == 1 AND A10 == 2 AND A11 == 0 AND A12 == 0 AND A13 == 1 AND A14 == 2 AND A15 == 0 AND A16 == 2 AND A17 == 3 AND A18 == 1 AND A19 == 0 AND A20 == 0 AND A21 == 3 AND A22 == 1 AND A23 == 0 AND A24 == 2 AND A25 == 0 AND A26 == 1 AND A27 == 1 AND A28 == 2 AND A29 == 1 AND A30 == 3 AND A31 == 3 AND A32 == 3 AND A33 == 2 AND A34 == 0 AND A35 == 1 AND A36 == 3 AND A37 == 1 AND A38 == 3 AND A39 == 2 AND A40 == 2 AND A41 == 3 AND A42 == 0 AND A43 == 3 AND A44 == 3 AND A45 == 0 AND A46 == 1 AND A47 == 3 AND A48 == 2 AND A49 == 3 AND A50 == 2 AND A51 == 0 AND A52 == 0 AND A53 == 1 AND A54 == 0 AND A55 == 3 AND A56 == 3 AND A57 == 0 AND A58 == 3 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 4 THEN target == 1"
+  expl: "IF name == 4 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 12 AND A3 == 0 AND A4 == 2 AND A5 == 0 AND A6 == 2 AND A7 == 2 AND A8 == 2 AND A9 == 3 AND A10 == 2 AND A11 == 3 AND A12 == 0 AND A13 == 1 AND A14 == 3 AND A15 == 1 AND A16 == 1 AND A17 == 0 AND A18 == 0 AND A19 == 2 AND A20 == 0 AND A21 == 0 AND A22 == 2 AND A23 == 0 AND A24 == 2 AND A25 == 2 AND A26 == 0 AND A27 == 0 AND A28 == 2 AND A29 == 0 AND A30 == 3 AND A31 == 2 AND A32 == 0 AND A33 == 2 AND A34 == 2 AND A35 == 1 AND A36 == 3 AND A37 == 0 AND A38 == 2 AND A39 == 0 AND A40 == 1 AND A41 == 2 AND A42 == 3 AND A43 == 1 AND A44 == 3 AND A45 == 1 AND A46 == 3 AND A47 == 2 AND A48 == 1 AND A49 == 0 AND A50 == 3 AND A51 == 2 AND A52 == 2 AND A53 == 0 AND A54 == 2 AND A55 == 3 AND A56 == 0 AND A57 == 3 AND A58 == 2 AND A59 == 0 THEN target == 1"
+  dexp: "IF name == 12 THEN target == 1"
+  expl: "IF name == 12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 34 AND A3 == 2 AND A4 == 0 AND A5 == 2 AND A6 == 0 AND A7 == 2 AND A8 == 1 AND A9 == 0 AND A10 == 3 AND A11 == 2 AND A12 == 3 AND A13 == 1 AND A14 == 0 AND A15 == 2 AND A16 == 1 AND A17 == 1 AND A18 == 3 AND A19 == 1 AND A20 == 2 AND A21 == 0 AND A22 == 1 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 3 AND A27 == 3 AND A28 == 2 AND A29 == 1 AND A30 == 0 AND A31 == 3 AND A32 == 0 AND A33 == 0 AND A34 == 0 AND A35 == 3 AND A36 == 2 AND A37 == 1 AND A38 == 3 AND A39 == 3 AND A40 == 3 AND A41 == 1 AND A42 == 3 AND A43 == 3 AND A44 == 2 AND A45 == 3 AND A46 == 0 AND A47 == 2 AND A48 == 0 AND A49 == 1 AND A50 == 2 AND A51 == 3 AND A52 == 2 AND A53 == 1 AND A54 == 1 AND A55 == 1 AND A56 == 3 AND A57 == 0 AND A58 == 1 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 34 THEN target == 1"
+  expl: "IF name == 34 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 40 AND A3 == 1 AND A4 == 1 AND A5 == 3 AND A6 == 1 AND A7 == 0 AND A8 == 0 AND A9 == 3 AND A10 == 2 AND A11 == 2 AND A12 == 1 AND A13 == 1 AND A14 == 3 AND A15 == 1 AND A16 == 3 AND A17 == 0 AND A18 == 0 AND A19 == 0 AND A20 == 1 AND A21 == 2 AND A22 == 2 AND A23 == 2 AND A24 == 3 AND A25 == 1 AND A26 == 3 AND A27 == 3 AND A28 == 2 AND A29 == 0 AND A30 == 2 AND A31 == 2 AND A32 == 2 AND A33 == 2 AND A34 == 3 AND A35 == 3 AND A36 == 3 AND A37 == 3 AND A38 == 3 AND A39 == 3 AND A40 == 2 AND A41 == 1 AND A42 == 3 AND A43 == 2 AND A44 == 0 AND A45 == 0 AND A46 == 0 AND A47 == 2 AND A48 == 2 AND A49 == 0 AND A50 == 2 AND A51 == 2 AND A52 == 0 AND A53 == 0 AND A54 == 1 AND A55 == 3 AND A56 == 0 AND A57 == 3 AND A58 == 0 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 40 THEN target == 1"
+  expl: "IF name == 40 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 50 AND A3 == 2 AND A4 == 3 AND A5 == 0 AND A6 == 3 AND A7 == 3 AND A8 == 1 AND A9 == 3 AND A10 == 1 AND A11 == 0 AND A12 == 0 AND A13 == 1 AND A14 == 0 AND A15 == 0 AND A16 == 2 AND A17 == 0 AND A18 == 3 AND A19 == 3 AND A20 == 0 AND A21 == 0 AND A22 == 1 AND A23 == 1 AND A24 == 2 AND A25 == 0 AND A26 == 1 AND A27 == 0 AND A28 == 2 AND A29 == 0 AND A30 == 3 AND A31 == 3 AND A32 == 1 AND A33 == 0 AND A34 == 0 AND A35 == 3 AND A36 == 1 AND A37 == 3 AND A38 == 1 AND A39 == 2 AND A40 == 3 AND A41 == 2 AND A42 == 2 AND A43 == 0 AND A44 == 3 AND A45 == 2 AND A46 == 2 AND A47 == 0 AND A48 == 1 AND A49 == 2 AND A50 == 3 AND A51 == 3 AND A52 == 1 AND A53 == 0 AND A54 == 0 AND A55 == 1 AND A56 == 0 AND A57 == 3 AND A58 == 3 AND A59 == 2 THEN target == 1"
+  dexp: "IF name == 50 THEN target == 1"
+  expl: "IF name == 50 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 10 AND A3 == 1 AND A4 == 2 AND A5 == 1 AND A6 == 2 AND A7 == 0 AND A8 == 1 AND A9 == 3 AND A10 == 0 AND A11 == 1 AND A12 == 2 AND A13 == 0 AND A14 == 3 AND A15 == 2 AND A16 == 0 AND A17 == 2 AND A18 == 0 AND A19 == 3 AND A20 == 2 AND A21 == 1 AND A22 == 1 AND A23 == 3 AND A24 == 2 AND A25 == 0 AND A26 == 2 AND A27 == 3 AND A28 == 2 AND A29 == 1 AND A30 == 3 AND A31 == 3 AND A32 == 1 AND A33 == 1 AND A34 == 2 AND A35 == 3 AND A36 == 3 AND A37 == 0 AND A38 == 1 AND A39 == 3 AND A40 == 2 AND A41 == 2 AND A42 == 0 AND A43 == 3 AND A44 == 3 AND A45 == 2 AND A46 == 3 AND A47 == 1 AND A48 == 0 AND A49 == 1 AND A50 == 1 AND A51 == 0 AND A52 == 0 AND A53 == 2 AND A54 == 2 AND A55 == 1 AND A56 == 3 AND A57 == 3 AND A58 == 1 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 10 THEN target == 1"
+  expl: "IF name == 10 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 39 AND A3 == 1 AND A4 == 3 AND A5 == 1 AND A6 == 2 AND A7 == 3 AND A8 == 1 AND A9 == 1 AND A10 == 3 AND A11 == 1 AND A12 == 0 AND A13 == 0 AND A14 == 3 AND A15 == 2 AND A16 == 2 AND A17 == 1 AND A18 == 1 AND A19 == 3 AND A20 == 1 AND A21 == 3 AND A22 == 0 AND A23 == 0 AND A24 == 0 AND A25 == 1 AND A26 == 2 AND A27 == 2 AND A28 == 2 AND A29 == 3 AND A30 == 1 AND A31 == 3 AND A32 == 3 AND A33 == 2 AND A34 == 0 AND A35 == 2 AND A36 == 2 AND A37 == 2 AND A38 == 2 AND A39 == 3 AND A40 == 3 AND A41 == 3 AND A42 == 3 AND A43 == 3 AND A44 == 3 AND A45 == 2 AND A46 == 1 AND A47 == 3 AND A48 == 2 AND A49 == 0 AND A50 == 0 AND A51 == 0 AND A52 == 2 AND A53 == 2 AND A54 == 0 AND A55 == 2 AND A56 == 2 AND A57 == 0 AND A58 == 0 AND A59 == 1 THEN target == 1"
+  dexp: "IF name == 39 THEN target == 1"
+  expl: "IF name == 39 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF name == 15 AND A3 == 3 AND A4 == 0 AND A5 == 0 AND A6 == 1 AND A7 == 0 AND A8 == 3 AND A9 == 3 AND A10 == 0 AND A11 == 0 AND A12 == 3 AND A13 == 0 AND A14 == 0 AND A15 == 0 AND A16 == 3 AND A17 == 0 AND A18 == 0 AND A19 == 2 AND A20 == 2 AND A21 == 0 AND A22 == 2 AND A23 == 2 AND A24 == 1 AND A25 == 3 AND A26 == 1 AND A27 == 3 AND A28 == 0 AND A29 == 0 AND A30 == 3 AND A31 == 2 AND A32 == 2 AND A33 == 1 AND A34 == 0 AND A35 == 1 AND A36 == 3 AND A37 == 1 AND A38 == 0 AND A39 == 3 AND A40 == 3 AND A41 == 0 AND A42 == 2 AND A43 == 1 AND A44 == 1 AND A45 == 0 AND A46 == 0 AND A47 == 3 AND A48 == 1 AND A49 == 0 AND A50 == 0 AND A51 == 3 AND A52 == 1 AND A53 == 0 AND A54 == 0 AND A55 == 2 AND A56 == 0 AND A57 == 0 AND A58 == 1 AND A59 == 3 THEN target == 1"
+  dexp: "IF name == 15 THEN target == 1"
+  expl: "IF name == 15 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 106
+tot # of expls: 106
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.00
+avg expl sz: 1.00
+max expl sz: 1.00
+Max expl sz: 1
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

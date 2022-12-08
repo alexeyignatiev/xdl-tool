@@ -1,0 +1,1411 @@
+MODEL:
+IF 2 == 65.0 THEN target == 2
+IF 2 == 67.0 THEN target == 2
+IF 2 == 68.0 THEN target == 2
+IF 2 == 76.0 THEN target == 2
+IF 2 == 79.0 THEN target == 2
+IF 2 == 84.0 THEN target == 2
+IF 2 == 88.0 THEN target == 2
+IF 2 == 89.0 THEN target == 2
+IF 2 == 91.0 THEN target == 1
+IF 2 == 92.0 THEN target == 2
+IF 2 == 94.0 THEN target == 1
+IF 2 == 95.0 THEN target == 2
+IF 2 == 96.0 THEN target == 1
+IF 2 == 98.0 THEN target == 1
+IF 2 == 99.0 THEN target == 2
+IF 2 == 100.0 THEN target == 1
+IF 2 == 101.0 THEN target == 1
+IF 2 == 102.0 THEN target == 1
+IF 2 == 104.0 THEN target == 1
+IF 2 == 107.0 THEN target == 1
+IF 2 == 109.0 THEN target == 1
+IF 2 == 114.0 THEN target == 1
+IF 2 == 116.0 THEN target == 1
+IF 2 == 117.0 THEN target == 1
+IF 2 == 121.0 THEN target == 1
+IF 2 == 122.0 THEN target == 1
+IF 2 == 123.0 THEN target == 3
+IF 2 == 125.0 THEN target == 3
+IF 2 == 126.0 THEN target == 1
+IF 2 == 127.0 THEN target == 1
+IF 2 == 129.0 THEN target == 3
+IF 2 == 130.0 THEN target == 1
+IF 2 == 131.0 THEN target == 3
+IF 2 == 136.0 THEN target == 3
+IF 2 == 141.0 THEN target == 3
+IF 2 == 144.0 THEN target == 2
+IF 3 == 0.8 THEN target == 3
+IF 3 == 1.9 THEN target == 3
+IF 3 == 2.0 THEN target == 3
+IF 2 == 134.0 THEN target == 2
+IF 3 == 2.6 THEN target == 3
+IF 2 == 112.0 THEN target == 1
+IF 3 == 3.4 THEN target == 3
+IF 3 == 3.5 THEN target == 3
+IF 2 == 108.0 THEN target == 1
+IF 3 == 4.2 THEN target == 3
+IF 2 == 139.0 THEN target == 2
+IF 3 == 4.7 THEN target == 3
+IF 3 == 5.1 THEN target == 3
+IF 2 == 103.0 THEN target == 1
+IF 2 == 119.0 THEN target == 1
+IF 3 == 5.7 THEN target == 1
+IF 3 == 6.1 THEN target == 1
+IF 3 == 6.5 THEN target == 3
+IF 2 == 118.0 THEN target == 1
+IF 3 == 6.7 THEN target == 1
+IF 3 == 7.0 THEN target == 1
+IF 3 == 7.1 THEN target == 1
+IF 3 == 7.3 THEN target == 1
+IF 3 == 7.8 THEN target == 1
+IF 2 == 97.0 THEN target == 2
+IF 3 == 8.1 THEN target == 1
+IF 3 == 8.4 THEN target == 1
+IF 3 == 8.7 THEN target == 1
+IF 3 == 8.9 THEN target == 1
+IF 3 == 9.0 THEN target == 1
+IF 3 == 9.1 THEN target == 1
+IF 3 == 9.2 THEN target == 1
+IF 3 == 9.4 THEN target == 1
+IF 3 == 9.6 THEN target == 1
+IF 3 == 9.9 THEN target == 1
+IF 3 == 10.4 THEN target == 1
+IF 3 == 10.6 THEN target == 1
+IF 3 == 11.1 THEN target == 1
+IF 2 == 105.0 THEN target == 2
+IF 2 == 113.0 THEN target == 2
+IF 3 == 11.3 THEN target == 1
+IF 2 == 106.0 THEN target == 2
+IF 3 == 11.9 THEN target == 1
+IF 2 == 111.0 THEN target == 2
+IF 3 == 12.4 THEN target == 1
+IF 3 == 15.2 THEN target == 2
+IF 3 == 15.3 THEN target == 1
+IF 2 == 115.0 THEN target == 3
+IF 3 == 6.3 THEN target == 1
+IF 2 == 110.0 THEN target == 2
+IF 4 == 1.9 THEN target == 1
+IF 2 == 120.0 THEN target == 3
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 3
+min # of vars: 334
+avg # of vars: 334.00
+max # of vars: 334
+min # of clauses: 12190
+avg # of clauses: 12201.67
+max # of clauses: 12222
+
+EXPLANATIONS:
+  inst: "IF 2 == 107.0 AND 3 == 10.1 AND 4 == 2.2 AND 5 == 0.9 AND 6 == 2.7 THEN target == 1"
+  dexp: "IF 2 == 107.0 THEN target == 1"
+  expl: "IF 2 == 107.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 9.9 AND 4 == 3.1 AND 5 == 2.0 AND 6 == 5.9 THEN target == 1"
+  dexp: "IF 2 == 113.0 AND 3 == 9.9 THEN target == 1"
+  expl: "IF 3 == 9.9 AND 2 == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 127.0 AND 3 == 12.9 AND 4 == 2.4 AND 5 == 1.4 AND 6 == 0.6 THEN target == 1"
+  dexp: "IF 2 == 127.0 THEN target == 1"
+  expl: "IF 2 == 127.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 5.3 AND 4 == 1.6 AND 5 == 1.4 AND 6 == 1.5 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 7.3 AND 4 == 1.5 AND 5 == 1.5 AND 6 == -0.1 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 7.3 THEN target == 1"
+  expl: "IF 3 == 7.3 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 6.1 AND 4 == 2.1 AND 5 == 1.4 AND 6 == 7.0 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 6.1 THEN target == 1"
+  expl: "IF 3 == 6.1 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 10.4 AND 4 == 1.6 AND 5 == 1.6 AND 6 == 2.7 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 10.4 THEN target == 1"
+  expl: "IF 3 == 10.4 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 9.9 AND 4 == 2.4 AND 5 == 1.5 AND 6 == 5.7 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 9.4 AND 4 == 2.2 AND 5 == 1.5 AND 6 == 0.0 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 9.4 THEN target == 1"
+  expl: "IF 3 == 9.4 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 107.0 AND 3 == 13.0 AND 4 == 1.1 AND 5 == 0.9 AND 6 == 3.1 THEN target == 1"
+  dexp: "IF 2 == 107.0 THEN target == 1"
+  expl: "IF 2 == 107.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 4.2 AND 4 == 1.2 AND 5 == 1.6 AND 6 == 1.4 THEN target == 3"
+  dexp: "IF 2 == 106.0 AND 3 == 4.2 THEN target == 3"
+  expl: "IF 3 == 4.2 AND 2 == 106.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 11.3 AND 4 == 2.3 AND 5 == 0.9 AND 6 == 3.3 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 11.3 THEN target == 1"
+  expl: "IF 3 == 11.3 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 9.2 AND 4 == 2.7 AND 5 == 1.0 AND 6 == 4.2 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 8.1 AND 4 == 1.9 AND 5 == 3.7 AND 6 == 2.0 THEN target == 1"
+  dexp: "IF 2 == 112.0 AND 3 == 8.1 THEN target == 1"
+  expl: "IF 3 == 8.1 AND 2 == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 122.0 AND 3 == 9.7 AND 4 == 1.6 AND 5 == 0.9 AND 6 == 2.2 THEN target == 1"
+  dexp: "IF 2 == 122.0 THEN target == 1"
+  expl: "IF 2 == 122.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 8.4 AND 4 == 2.1 AND 5 == 1.1 AND 6 == 3.6 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 8.4 AND 4 == 1.5 AND 5 == 0.8 AND 6 == 1.2 THEN target == 1"
+  dexp: "IF 2 == 111.0 AND 3 == 8.4 THEN target == 1"
+  expl: "IF 3 == 8.4 AND 2 == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 6.7 AND 4 == 1.5 AND 5 == 1.0 AND 6 == 3.5 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 10.6 AND 4 == 2.1 AND 5 == 1.3 AND 6 == 1.1 THEN target == 1"
+  dexp: "IF 2 == 119.0 AND 3 == 10.6 THEN target == 1"
+  expl: "IF 3 == 10.6 AND 2 == 119.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 115.0 AND 3 == 7.1 AND 4 == 1.3 AND 5 == 1.3 AND 6 == 2.0 THEN target == 1"
+  dexp: "IF 2 == 115.0 AND 3 == 7.1 THEN target == 1"
+  expl: "IF 3 == 7.1 AND 2 == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 101.0 AND 3 == 7.8 AND 4 == 1.2 AND 5 == 1.0 AND 6 == 1.7 THEN target == 1"
+  dexp: "IF 2 == 101.0 THEN target == 1"
+  expl: "IF 2 == 101.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 10.1 AND 4 == 1.3 AND 5 == 0.7 AND 6 == 0.1 THEN target == 1"
+  dexp: "IF 2 == 103.0 AND 3 == 10.1 THEN target == 1"
+  expl: "IF 3 == 10.1 AND 2 == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 10.4 AND 4 == 1.9 AND 5 == 0.4 AND 6 == -0.1 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 102.0 AND 3 == 7.6 AND 4 == 1.8 AND 5 == 2.0 AND 6 == 2.5 THEN target == 1"
+  dexp: "IF 2 == 102.0 THEN target == 1"
+  expl: "IF 2 == 102.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 121.0 AND 3 == 10.1 AND 4 == 1.7 AND 5 == 1.3 AND 6 == 0.1 THEN target == 1"
+  dexp: "IF 2 == 121.0 THEN target == 1"
+  expl: "IF 2 == 121.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 100.0 AND 3 == 6.1 AND 4 == 2.4 AND 5 == 1.8 AND 6 == 3.8 THEN target == 1"
+  dexp: "IF 2 == 100.0 THEN target == 1"
+  expl: "IF 2 == 100.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 9.6 AND 4 == 2.4 AND 5 == 1.0 AND 6 == 1.3 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 9.6 THEN target == 1"
+  expl: "IF 3 == 9.6 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 10.1 AND 4 == 2.2 AND 5 == 1.6 AND 6 == 0.8 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 11.1 AND 4 == 2.0 AND 5 == 1.0 AND 6 == 1.0 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 11.1 THEN target == 1"
+  expl: "IF 3 == 11.1 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 10.4 AND 4 == 1.8 AND 5 == 1.0 AND 6 == 2.3 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 10.4 THEN target == 1"
+  expl: "IF 3 == 10.4 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 8.4 AND 4 == 1.1 AND 5 == 1.4 AND 6 == 1.4 THEN target == 1"
+  dexp: "IF 2 == 120.0 AND 3 == 8.4 THEN target == 1"
+  expl: "IF 3 == 8.4 AND 2 == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 11.1 AND 4 == 2.0 AND 5 == 1.2 AND 6 == 2.3 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 7.8 AND 4 == 1.9 AND 5 == 2.1 AND 6 == 6.4 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 7.8 THEN target == 1"
+  expl: "IF 3 == 7.8 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 90.0 AND 3 == 8.1 AND 4 == 1.6 AND 5 == 1.4 AND 6 == 1.1 THEN target == 1"
+  dexp: "IF 2 == 90.0 AND 3 == 8.1 THEN target == 1"
+  expl: "IF 3 == 8.1 AND 2 == 90.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 117.0 AND 3 == 12.2 AND 4 == 1.9 AND 5 == 1.2 AND 6 == 3.9 THEN target == 1"
+  dexp: "IF 2 == 117.0 THEN target == 1"
+  expl: "IF 2 == 117.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 117.0 AND 3 == 11.0 AND 4 == 1.4 AND 5 == 1.5 AND 6 == 2.1 THEN target == 1"
+  dexp: "IF 2 == 117.0 THEN target == 1"
+  expl: "IF 2 == 117.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 9.0 AND 4 == 2.0 AND 5 == 1.8 AND 6 == 1.6 THEN target == 1"
+  dexp: "IF 2 == 113.0 AND 3 == 9.0 THEN target == 1"
+  expl: "IF 3 == 9.0 AND 2 == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 9.4 AND 4 == 1.5 AND 5 == 0.8 AND 6 == 0.5 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 9.4 THEN target == 1"
+  expl: "IF 3 == 9.4 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 130.0 AND 3 == 9.5 AND 4 == 1.7 AND 5 == 0.4 AND 6 == 3.2 THEN target == 1"
+  dexp: "IF 2 == 130.0 THEN target == 1"
+  expl: "IF 2 == 130.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 100.0 AND 3 == 10.5 AND 4 == 2.4 AND 5 == 0.9 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 100.0 THEN target == 1"
+  expl: "IF 2 == 100.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 121.0 AND 3 == 10.1 AND 4 == 2.4 AND 5 == 0.8 AND 6 == 3.0 THEN target == 1"
+  dexp: "IF 2 == 121.0 THEN target == 1"
+  expl: "IF 2 == 121.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 9.2 AND 4 == 1.6 AND 5 == 1.5 AND 6 == 0.3 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 9.2 THEN target == 1"
+  expl: "IF 3 == 9.2 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 129.0 AND 3 == 11.9 AND 4 == 2.7 AND 5 == 1.2 AND 6 == 3.5 THEN target == 3"
+  dexp: "IF 2 == 129.0 THEN target == 3"
+  expl: "IF 2 == 129.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 121.0 AND 3 == 13.5 AND 4 == 1.5 AND 5 == 1.6 AND 6 == 0.5 THEN target == 1"
+  dexp: "IF 2 == 121.0 THEN target == 1"
+  expl: "IF 2 == 121.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 123.0 AND 3 == 8.1 AND 4 == 2.3 AND 5 == 1.0 AND 6 == 5.1 THEN target == 3"
+  dexp: "IF 2 == 123.0 THEN target == 3"
+  expl: "IF 2 == 123.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 107.0 AND 3 == 8.4 AND 4 == 1.8 AND 5 == 1.5 AND 6 == 0.8 THEN target == 1"
+  dexp: "IF 2 == 107.0 THEN target == 1"
+  expl: "IF 2 == 107.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 10.0 AND 4 == 1.3 AND 5 == 1.8 AND 6 == 4.3 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 6.8 AND 4 == 1.9 AND 5 == 1.3 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 120.0 AND 3 == 6.8 AND 4 == 1.9 THEN target == 1"
+  expl: "IF 4 == 1.9 AND 3 == 6.8 AND 2 == 120.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF 2 == 100.0 AND 3 == 9.5 AND 4 == 2.5 AND 5 == 1.3 AND 6 == -0.2 THEN target == 1"
+  dexp: "IF 2 == 100.0 THEN target == 1"
+  expl: "IF 2 == 100.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 8.1 AND 4 == 1.9 AND 5 == 1.5 AND 6 == 13.7 THEN target == 1"
+  dexp: "IF 2 == 118.0 AND 3 == 8.1 THEN target == 1"
+  expl: "IF 3 == 8.1 AND 2 == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 100.0 AND 3 == 11.3 AND 4 == 2.5 AND 5 == 0.7 AND 6 == -0.3 THEN target == 1"
+  dexp: "IF 2 == 100.0 THEN target == 1"
+  expl: "IF 2 == 100.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 12.2 AND 4 == 1.2 AND 5 == 1.3 AND 6 == 2.7 THEN target == 1"
+  dexp: "IF 2 == 103.0 AND 3 == 12.2 THEN target == 1"
+  expl: "IF 3 == 12.2 AND 2 == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 115.0 AND 3 == 8.1 AND 4 == 1.7 AND 5 == 0.6 AND 6 == 2.2 THEN target == 1"
+  dexp: "IF 2 == 115.0 AND 3 == 8.1 THEN target == 1"
+  expl: "IF 3 == 8.1 AND 2 == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 8.0 AND 4 == 2.0 AND 5 == 0.6 AND 6 == 3.2 THEN target == 1"
+  dexp: "IF 2 == 119.0 AND 3 == 8.0 THEN target == 1"
+  expl: "IF 3 == 8.0 AND 2 == 119.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 9.4 AND 4 == 1.7 AND 5 == 0.9 AND 6 == 3.1 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 9.4 THEN target == 1"
+  expl: "IF 3 == 9.4 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 10.9 AND 4 == 2.1 AND 5 == 0.3 AND 6 == 1.4 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 93.0 AND 3 == 8.9 AND 4 == 1.5 AND 5 == 0.8 AND 6 == 2.7 THEN target == 1"
+  dexp: "IF 2 == 93.0 AND 3 == 8.9 THEN target == 1"
+  expl: "IF 3 == 8.9 AND 2 == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 10.4 AND 4 == 2.1 AND 5 == 1.1 AND 6 == 1.8 THEN target == 1"
+  dexp: "IF 2 == 120.0 AND 3 == 10.4 THEN target == 1"
+  expl: "IF 3 == 10.4 AND 2 == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 11.3 AND 4 == 1.8 AND 5 == 0.9 AND 6 == 1.0 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 11.3 THEN target == 1"
+  expl: "IF 3 == 11.3 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 8.7 AND 4 == 1.9 AND 5 == 1.6 AND 6 == 4.4 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 8.7 THEN target == 1"
+  expl: "IF 3 == 8.7 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 8.1 AND 4 == 1.4 AND 5 == 0.5 AND 6 == 3.8 THEN target == 1"
+  dexp: "IF 2 == 103.0 AND 3 == 8.1 THEN target == 1"
+  expl: "IF 3 == 8.1 AND 2 == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 101.0 AND 3 == 7.1 AND 4 == 2.2 AND 5 == 0.8 AND 6 == 2.2 THEN target == 1"
+  dexp: "IF 2 == 101.0 THEN target == 1"
+  expl: "IF 2 == 101.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 115.0 AND 3 == 10.4 AND 4 == 1.8 AND 5 == 1.6 AND 6 == 2.0 THEN target == 1"
+  dexp: "IF 2 == 115.0 AND 3 == 10.4 THEN target == 1"
+  expl: "IF 3 == 10.4 AND 2 == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 10.0 AND 4 == 1.7 AND 5 == 1.5 AND 6 == 4.3 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 117.0 AND 3 == 9.2 AND 4 == 1.9 AND 5 == 1.5 AND 6 == 6.8 THEN target == 1"
+  dexp: "IF 2 == 117.0 THEN target == 1"
+  expl: "IF 2 == 117.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 6.7 AND 4 == 1.5 AND 5 == 1.2 AND 6 == 3.9 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 6.7 THEN target == 1"
+  expl: "IF 3 == 6.7 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 10.5 AND 4 == 2.1 AND 5 == 0.7 AND 6 == 3.5 THEN target == 1"
+  dexp: "IF 2 == 118.0 AND 3 == 10.5 THEN target == 1"
+  expl: "IF 3 == 10.5 AND 2 == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 97.0 AND 3 == 7.8 AND 4 == 1.3 AND 5 == 1.2 AND 6 == 0.9 THEN target == 1"
+  dexp: "IF 2 == 97.0 AND 3 == 7.8 THEN target == 1"
+  expl: "IF 3 == 7.8 AND 2 == 97.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 11.1 AND 4 == 1.7 AND 5 == 0.8 AND 6 == 2.3 THEN target == 1"
+  dexp: "IF 2 == 113.0 AND 3 == 11.1 THEN target == 1"
+  expl: "IF 3 == 11.1 AND 2 == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 104.0 AND 3 == 6.3 AND 4 == 2.0 AND 5 == 1.2 AND 6 == 4.0 THEN target == 1"
+  dexp: "IF 2 == 104.0 THEN target == 1"
+  expl: "IF 2 == 104.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 96.0 AND 3 == 9.4 AND 4 == 1.5 AND 5 == 1.0 AND 6 == 3.1 THEN target == 1"
+  dexp: "IF 2 == 96.0 THEN target == 1"
+  expl: "IF 2 == 96.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 12.4 AND 4 == 2.4 AND 5 == 0.8 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 120.0 AND 3 == 12.4 THEN target == 1"
+  expl: "IF 3 == 12.4 AND 2 == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 133.0 AND 3 == 9.7 AND 4 == 2.9 AND 5 == 0.8 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 133.0 AND 3 == 9.7 AND 4 == 2.9 THEN target == 1"
+  expl: "IF 3 == 9.7 AND 2 == 133.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 126.0 AND 3 == 9.4 AND 4 == 2.3 AND 5 == 1.0 AND 6 == 4.0 THEN target == 1"
+  dexp: "IF 2 == 126.0 THEN target == 1"
+  expl: "IF 2 == 126.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 8.5 AND 4 == 1.8 AND 5 == 0.8 AND 6 == 0.5 THEN target == 2"
+  dexp: "IF 2 == 113.0 AND 3 == 8.5 THEN target == 2"
+  expl: "IF 3 == 8.5 AND 2 == 113.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 9.7 AND 4 == 1.4 AND 5 == 1.1 AND 6 == 2.1 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 12.9 AND 4 == 1.5 AND 5 == 1.3 AND 6 == 3.6 THEN target == 1"
+  dexp: "IF 2 == 119.0 AND 3 == 12.9 THEN target == 1"
+  expl: "IF 3 == 12.9 AND 2 == 119.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 101.0 AND 3 == 7.1 AND 4 == 1.6 AND 5 == 1.5 AND 6 == 1.6 THEN target == 1"
+  dexp: "IF 2 == 101.0 THEN target == 1"
+  expl: "IF 2 == 101.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 108.0 AND 3 == 10.4 AND 4 == 2.1 AND 5 == 1.3 AND 6 == 2.4 THEN target == 1"
+  dexp: "IF 2 == 108.0 AND 3 == 10.4 THEN target == 1"
+  expl: "IF 3 == 10.4 AND 2 == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 117.0 AND 3 == 6.7 AND 4 == 2.2 AND 5 == 1.8 AND 6 == 6.7 THEN target == 1"
+  dexp: "IF 2 == 117.0 THEN target == 1"
+  expl: "IF 2 == 117.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 115.0 AND 3 == 15.3 AND 4 == 2.3 AND 5 == 2.0 AND 6 == 2.0 THEN target == 1"
+  dexp: "IF 2 == 115.0 AND 3 == 15.3 THEN target == 1"
+  expl: "IF 3 == 15.3 AND 2 == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 91.0 AND 3 == 8.0 AND 4 == 1.7 AND 5 == 2.1 AND 6 == 4.6 THEN target == 1"
+  dexp: "IF 2 == 91.0 THEN target == 1"
+  expl: "IF 2 == 91.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 8.5 AND 4 == 1.8 AND 5 == 1.9 AND 6 == 1.1 THEN target == 1"
+  dexp: "IF 2 == 103.0 AND 3 == 8.5 THEN target == 1"
+  expl: "IF 3 == 8.5 AND 2 == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 98.0 AND 3 == 9.1 AND 4 == 1.4 AND 5 == 1.9 AND 6 == -0.3 THEN target == 1"
+  dexp: "IF 2 == 98.0 THEN target == 1"
+  expl: "IF 2 == 98.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 7.8 AND 4 == 2.0 AND 5 == 1.8 AND 6 == 4.1 THEN target == 1"
+  dexp: "IF 2 == 111.0 AND 3 == 7.8 THEN target == 1"
+  expl: "IF 3 == 7.8 AND 2 == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 107.0 AND 3 == 13.0 AND 4 == 1.5 AND 5 == 2.8 AND 6 == 1.7 THEN target == 1"
+  dexp: "IF 2 == 107.0 THEN target == 1"
+  expl: "IF 2 == 107.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 11.4 AND 4 == 2.3 AND 5 == 2.2 AND 6 == 1.6 THEN target == 1"
+  dexp: "IF 2 == 119.0 AND 3 == 11.4 THEN target == 1"
+  expl: "IF 3 == 11.4 AND 2 == 119.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 122.0 AND 3 == 11.8 AND 4 == 2.7 AND 5 == 1.7 AND 6 == 2.3 THEN target == 1"
+  dexp: "IF 2 == 122.0 THEN target == 1"
+  expl: "IF 2 == 122.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 8.1 AND 4 == 2.0 AND 5 == 1.9 AND 6 == -0.5 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 8.1 THEN target == 1"
+  expl: "IF 3 == 8.1 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 7.6 AND 4 == 1.3 AND 5 == 2.2 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 9.5 AND 4 == 1.8 AND 5 == 1.6 AND 6 == 3.6 THEN target == 2"
+  dexp: "IF 2 == 105.0 AND 3 == 9.5 THEN target == 2"
+  expl: "IF 3 == 9.5 AND 2 == 105.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 5.9 AND 4 == 1.7 AND 5 == 2.0 AND 6 == 1.3 THEN target == 1"
+  dexp: "IF 2 == 112.0 AND 3 == 5.9 THEN target == 1"
+  expl: "IF 3 == 5.9 AND 2 == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 9.5 AND 4 == 2.0 AND 5 == 1.2 AND 6 == 0.7 THEN target == 1"
+  dexp: "IF 2 == 112.0 AND 3 == 9.5 THEN target == 1"
+  expl: "IF 3 == 9.5 AND 2 == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 98.0 AND 3 == 8.6 AND 4 == 1.6 AND 5 == 1.6 AND 6 == 6.0 THEN target == 1"
+  dexp: "IF 2 == 98.0 THEN target == 1"
+  expl: "IF 2 == 98.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 12.4 AND 4 == 2.3 AND 5 == 1.7 AND 6 == 0.8 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 9.1 AND 4 == 2.6 AND 5 == 1.5 AND 6 == 1.5 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 11.1 AND 4 == 2.4 AND 5 == 2.0 AND 6 == -0.3 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 8.4 AND 4 == 1.4 AND 5 == 1.0 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 8.4 THEN target == 1"
+  expl: "IF 3 == 8.4 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 7.1 AND 4 == 1.2 AND 5 == 1.5 AND 6 == 4.3 THEN target == 1"
+  dexp: "IF 2 == 120.0 AND 3 == 7.1 THEN target == 1"
+  expl: "IF 3 == 7.1 AND 2 == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 108.0 AND 3 == 10.9 AND 4 == 1.2 AND 5 == 1.9 AND 6 == 1.0 THEN target == 1"
+  dexp: "IF 2 == 108.0 AND 3 == 10.9 THEN target == 1"
+  expl: "IF 3 == 10.9 AND 2 == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 108.0 AND 3 == 8.7 AND 4 == 1.2 AND 5 == 2.2 AND 6 == 2.5 THEN target == 1"
+  dexp: "IF 2 == 108.0 AND 3 == 8.7 THEN target == 1"
+  expl: "IF 3 == 8.7 AND 2 == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 11.9 AND 4 == 1.8 AND 5 == 1.9 AND 6 == 1.5 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 11.5 AND 4 == 1.5 AND 5 == 1.9 AND 6 == 2.9 THEN target == 2"
+  dexp: "IF 2 == 113.0 AND 3 == 11.5 THEN target == 2"
+  expl: "IF 3 == 11.5 AND 2 == 113.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 7.0 AND 4 == 1.5 AND 5 == 2.7 AND 6 == 4.3 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 7.0 THEN target == 1"
+  expl: "IF 3 == 7.0 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 8.4 AND 4 == 1.6 AND 5 == 1.6 AND 6 == -0.2 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 8.1 AND 4 == 1.6 AND 5 == 1.6 AND 6 == 0.5 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 11.1 AND 4 == 1.1 AND 5 == 0.8 AND 6 == 1.2 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 11.1 THEN target == 1"
+  expl: "IF 3 == 11.1 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 107.0 AND 3 == 13.8 AND 4 == 1.5 AND 5 == 1.0 AND 6 == 1.9 THEN target == 1"
+  dexp: "IF 2 == 107.0 THEN target == 1"
+  expl: "IF 2 == 107.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 11.5 AND 4 == 1.8 AND 5 == 1.4 AND 6 == 5.4 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 102.0 AND 3 == 9.5 AND 4 == 1.4 AND 5 == 1.1 AND 6 == 1.6 THEN target == 1"
+  dexp: "IF 2 == 102.0 THEN target == 1"
+  expl: "IF 2 == 102.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 16.1 AND 4 == 0.9 AND 5 == 1.3 AND 6 == 1.5 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 10.6 AND 4 == 1.8 AND 5 == 1.4 AND 6 == 3.0 THEN target == 1"
+  dexp: "IF 2 == 118.0 AND 3 == 10.6 THEN target == 1"
+  expl: "IF 3 == 10.6 AND 2 == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 8.9 AND 4 == 1.7 AND 5 == 1.0 AND 6 == 0.9 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 7.0 AND 4 == 1.0 AND 5 == 1.6 AND 6 == 4.3 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 7.0 THEN target == 1"
+  expl: "IF 3 == 7.0 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 104.0 AND 3 == 9.6 AND 4 == 1.1 AND 5 == 1.3 AND 6 == 0.8 THEN target == 1"
+  dexp: "IF 2 == 104.0 THEN target == 1"
+  expl: "IF 2 == 104.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 8.7 AND 4 == 1.5 AND 5 == 1.1 AND 6 == 1.5 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 8.7 THEN target == 1"
+  expl: "IF 3 == 8.7 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 102.0 AND 3 == 8.5 AND 4 == 1.2 AND 5 == 1.3 AND 6 == 1.4 THEN target == 1"
+  dexp: "IF 2 == 102.0 THEN target == 1"
+  expl: "IF 2 == 102.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 6.8 AND 4 == 1.7 AND 5 == 1.4 AND 6 == 3.3 THEN target == 1"
+  dexp: "IF 2 == 112.0 AND 3 == 6.8 THEN target == 1"
+  expl: "IF 3 == 6.8 AND 2 == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 8.5 AND 4 == 1.6 AND 5 == 1.1 AND 6 == 3.9 THEN target == 2"
+  dexp: "IF 2 == 111.0 AND 3 == 8.5 THEN target == 2"
+  expl: "IF 3 == 8.5 AND 2 == 111.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 8.5 AND 4 == 1.6 AND 5 == 1.2 AND 6 == 7.7 THEN target == 2"
+  dexp: "IF 2 == 111.0 AND 3 == 8.5 THEN target == 2"
+  expl: "IF 3 == 8.5 AND 2 == 111.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 7.3 AND 4 == 1.0 AND 5 == 0.7 AND 6 == 0.5 THEN target == 1"
+  dexp: "IF 2 == 103.0 AND 3 == 7.3 THEN target == 1"
+  expl: "IF 3 == 7.3 AND 2 == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 98.0 AND 3 == 10.4 AND 4 == 1.6 AND 5 == 2.3 AND 6 == -0.7 THEN target == 1"
+  dexp: "IF 2 == 98.0 THEN target == 1"
+  expl: "IF 2 == 98.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 117.0 AND 3 == 7.8 AND 4 == 2.0 AND 5 == 1.0 AND 6 == 3.9 THEN target == 1"
+  dexp: "IF 2 == 117.0 THEN target == 1"
+  expl: "IF 2 == 117.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 9.1 AND 4 == 1.7 AND 5 == 1.2 AND 6 == 4.1 THEN target == 1"
+  dexp: "IF 2 == 111.0 AND 3 == 9.1 THEN target == 1"
+  expl: "IF 3 == 9.1 AND 2 == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 101.0 AND 3 == 6.3 AND 4 == 1.5 AND 5 == 0.9 AND 6 == 2.9 THEN target == 1"
+  dexp: "IF 2 == 101.0 THEN target == 1"
+  expl: "IF 2 == 101.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 8.9 AND 4 == 0.7 AND 5 == 1.0 AND 6 == 2.3 THEN target == 1"
+  dexp: "IF 2 == 106.0 AND 3 == 8.9 THEN target == 1"
+  expl: "IF 3 == 8.9 AND 2 == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 102.0 AND 3 == 8.4 AND 4 == 1.5 AND 5 == 0.8 AND 6 == 2.4 THEN target == 1"
+  dexp: "IF 2 == 102.0 THEN target == 1"
+  expl: "IF 2 == 102.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 115.0 AND 3 == 10.6 AND 4 == 0.8 AND 5 == 2.1 AND 6 == 4.6 THEN target == 1"
+  dexp: "IF 2 == 115.0 AND 3 == 10.6 THEN target == 1"
+  expl: "IF 3 == 10.6 AND 2 == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 130.0 AND 3 == 10.0 AND 4 == 1.6 AND 5 == 0.9 AND 6 == 4.6 THEN target == 1"
+  dexp: "IF 2 == 130.0 THEN target == 1"
+  expl: "IF 2 == 130.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 101.0 AND 3 == 6.7 AND 4 == 1.3 AND 5 == 1.0 AND 6 == 5.7 THEN target == 1"
+  dexp: "IF 2 == 101.0 THEN target == 1"
+  expl: "IF 2 == 101.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 6.3 AND 4 == 1.0 AND 5 == 0.8 AND 6 == 1.0 THEN target == 1"
+  dexp: "IF 2 == 110.0 AND 3 == 6.3 THEN target == 1"
+  expl: "IF 3 == 6.3 AND 2 == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 9.5 AND 4 == 2.9 AND 5 == 1.4 AND 6 == -0.1 THEN target == 1"
+  dexp: "IF 2 == 103.0 AND 3 == 9.5 THEN target == 1"
+  expl: "IF 3 == 9.5 AND 2 == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 7.8 AND 4 == 2.0 AND 5 == 1.1 AND 6 == 3.0 THEN target == 1"
+  dexp: "IF 2 == 113.0 AND 3 == 7.8 THEN target == 1"
+  expl: "IF 3 == 7.8 AND 2 == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 10.6 AND 4 == 1.6 AND 5 == 0.9 AND 6 == -0.1 THEN target == 1"
+  dexp: "IF 2 == 112.0 AND 3 == 10.6 THEN target == 1"
+  expl: "IF 3 == 10.6 AND 2 == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 6.5 AND 4 == 1.2 AND 5 == 1.2 AND 6 == 1.7 THEN target == 3"
+  dexp: "IF 2 == 118.0 AND 3 == 6.5 THEN target == 3"
+  expl: "IF 3 == 6.5 AND 2 == 118.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 109.0 AND 3 == 9.2 AND 4 == 1.8 AND 5 == 1.1 AND 6 == 4.4 THEN target == 1"
+  dexp: "IF 2 == 109.0 THEN target == 1"
+  expl: "IF 2 == 109.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 116.0 AND 3 == 7.8 AND 4 == 1.4 AND 5 == 1.1 AND 6 == 3.7 THEN target == 1"
+  dexp: "IF 2 == 116.0 THEN target == 1"
+  expl: "IF 2 == 116.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 127.0 AND 3 == 7.7 AND 4 == 1.8 AND 5 == 1.9 AND 6 == 6.4 THEN target == 1"
+  dexp: "IF 2 == 127.0 THEN target == 1"
+  expl: "IF 2 == 127.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 108.0 AND 3 == 6.5 AND 4 == 1.0 AND 5 == 0.9 AND 6 == 1.5 THEN target == 1"
+  dexp: "IF 2 == 108.0 AND 3 == 6.5 THEN target == 1"
+  expl: "IF 3 == 6.5 AND 2 == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 108.0 AND 3 == 7.1 AND 4 == 1.3 AND 5 == 1.6 AND 6 == 2.2 THEN target == 1"
+  dexp: "IF 2 == 108.0 AND 3 == 7.1 THEN target == 1"
+  expl: "IF 3 == 7.1 AND 2 == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 5.7 AND 4 == 1.0 AND 5 == 0.9 AND 6 == 0.9 THEN target == 1"
+  dexp: "IF 2 == 105.0 AND 3 == 5.7 THEN target == 1"
+  expl: "IF 3 == 5.7 AND 2 == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 98.0 AND 3 == 5.7 AND 4 == 0.4 AND 5 == 1.3 AND 6 == 2.8 THEN target == 1"
+  dexp: "IF 2 == 98.0 THEN target == 1"
+  expl: "IF 2 == 98.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 6.5 AND 4 == 1.2 AND 5 == 1.2 AND 6 == 2.0 THEN target == 1"
+  dexp: "IF 2 == 112.0 AND 3 == 6.5 THEN target == 1"
+  expl: "IF 3 == 6.5 AND 2 == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 12.2 AND 4 == 1.5 AND 5 == 1.0 AND 6 == 2.3 THEN target == 1"
+  dexp: "IF 2 == 118.0 AND 3 == 12.2 THEN target == 1"
+  expl: "IF 3 == 12.2 AND 2 == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 94.0 AND 3 == 7.5 AND 4 == 1.2 AND 5 == 1.3 AND 6 == 4.4 THEN target == 1"
+  dexp: "IF 2 == 94.0 THEN target == 1"
+  expl: "IF 2 == 94.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 126.0 AND 3 == 10.4 AND 4 == 1.7 AND 5 == 1.2 AND 6 == 3.5 THEN target == 1"
+  dexp: "IF 2 == 126.0 THEN target == 1"
+  expl: "IF 2 == 126.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 114.0 AND 3 == 7.5 AND 4 == 1.1 AND 5 == 1.6 AND 6 == 4.4 THEN target == 1"
+  dexp: "IF 2 == 114.0 THEN target == 1"
+  expl: "IF 2 == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 11.9 AND 4 == 2.3 AND 5 == 0.9 AND 6 == 3.8 THEN target == 1"
+  dexp: "IF 2 == 111.0 AND 3 == 11.9 THEN target == 1"
+  expl: "IF 3 == 11.9 AND 2 == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 104.0 AND 3 == 6.1 AND 4 == 1.8 AND 5 == 0.5 AND 6 == 0.8 THEN target == 1"
+  dexp: "IF 2 == 104.0 THEN target == 1"
+  expl: "IF 2 == 104.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 102.0 AND 3 == 6.6 AND 4 == 1.2 AND 5 == 1.4 AND 6 == 1.3 THEN target == 1"
+  dexp: "IF 2 == 102.0 THEN target == 1"
+  expl: "IF 2 == 102.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 139.0 AND 3 == 16.4 AND 4 == 3.8 AND 5 == 1.1 AND 6 == -0.2 THEN target == 2"
+  dexp: "IF 2 == 139.0 AND 3 == 16.4 THEN target == 2"
+  expl: "IF 3 == 16.4 AND 2 == 139.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 111.0 AND 3 == 16.0 AND 4 == 2.1 AND 5 == 0.9 AND 6 == -0.1 THEN target == 2"
+  dexp: "IF 2 == 111.0 AND 3 == 16.0 THEN target == 2"
+  expl: "IF 3 == 16.0 AND 2 == 111.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 17.2 AND 4 == 1.8 AND 5 == 1.0 AND 6 == 0.0 THEN target == 2"
+  dexp: "IF 2 == 113.0 AND 3 == 17.2 THEN target == 2"
+  expl: "IF 3 == 17.2 AND 2 == 113.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 65.0 AND 3 == 25.3 AND 4 == 5.8 AND 5 == 1.3 AND 6 == 0.2 THEN target == 2"
+  dexp: "IF 2 == 65.0 THEN target == 2"
+  expl: "IF 2 == 65.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 88.0 AND 3 == 24.1 AND 4 == 5.5 AND 5 == 0.8 AND 6 == 0.1 THEN target == 2"
+  dexp: "IF 2 == 88.0 THEN target == 2"
+  expl: "IF 2 == 88.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 65.0 AND 3 == 18.2 AND 4 == 10.0 AND 5 == 1.3 AND 6 == 0.1 THEN target == 2"
+  dexp: "IF 2 == 65.0 THEN target == 2"
+  expl: "IF 2 == 65.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 134.0 AND 3 == 16.4 AND 4 == 4.8 AND 5 == 0.6 AND 6 == 0.1 THEN target == 2"
+  dexp: "IF 2 == 134.0 AND 3 == 16.4 THEN target == 2"
+  expl: "IF 3 == 16.4 AND 2 == 134.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 20.3 AND 4 == 3.7 AND 5 == 0.6 AND 6 == 0.2 THEN target == 2"
+  dexp: "IF 2 == 110.0 AND 3 == 20.3 THEN target == 2"
+  expl: "IF 3 == 20.3 AND 2 == 110.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 67.0 AND 3 == 23.3 AND 4 == 7.4 AND 5 == 1.8 AND 6 == -0.6 THEN target == 2"
+  dexp: "IF 2 == 67.0 THEN target == 2"
+  expl: "IF 2 == 67.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 95.0 AND 3 == 11.1 AND 4 == 2.7 AND 5 == 1.6 AND 6 == -0.3 THEN target == 2"
+  dexp: "IF 2 == 95.0 THEN target == 2"
+  expl: "IF 2 == 95.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 89.0 AND 3 == 14.3 AND 4 == 4.1 AND 5 == 0.5 AND 6 == 0.2 THEN target == 2"
+  dexp: "IF 2 == 89.0 THEN target == 2"
+  expl: "IF 2 == 89.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 89.0 AND 3 == 23.8 AND 4 == 5.4 AND 5 == 0.5 AND 6 == 0.1 THEN target == 2"
+  dexp: "IF 2 == 89.0 THEN target == 2"
+  expl: "IF 2 == 89.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 88.0 AND 3 == 12.9 AND 4 == 2.7 AND 5 == 0.1 AND 6 == 0.2 THEN target == 2"
+  dexp: "IF 2 == 88.0 THEN target == 2"
+  expl: "IF 2 == 88.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 17.4 AND 4 == 1.6 AND 5 == 0.3 AND 6 == 0.4 THEN target == 2"
+  dexp: "IF 2 == 105.0 AND 3 == 17.4 THEN target == 2"
+  expl: "IF 3 == 17.4 AND 2 == 105.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 89.0 AND 3 == 20.1 AND 4 == 7.3 AND 5 == 1.1 AND 6 == -0.2 THEN target == 2"
+  dexp: "IF 2 == 89.0 THEN target == 2"
+  expl: "IF 2 == 89.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 99.0 AND 3 == 13.0 AND 4 == 3.6 AND 5 == 0.7 AND 6 == -0.1 THEN target == 2"
+  dexp: "IF 2 == 99.0 THEN target == 2"
+  expl: "IF 2 == 99.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 80.0 AND 3 == 23.0 AND 4 == 10.0 AND 5 == 0.9 AND 6 == -0.1 THEN target == 1"
+  dexp: "IF 2 == 80.0 AND 3 == 23.0 AND 4 == 10.0 THEN target == 1"
+  expl: "IF 3 == 23.0 AND 2 == 80.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 89.0 AND 3 == 21.8 AND 4 == 7.1 AND 5 == 0.7 AND 6 == -0.1 THEN target == 2"
+  dexp: "IF 2 == 89.0 THEN target == 2"
+  expl: "IF 2 == 89.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 99.0 AND 3 == 13.0 AND 4 == 3.1 AND 5 == 0.5 AND 6 == -0.1 THEN target == 2"
+  dexp: "IF 2 == 99.0 THEN target == 2"
+  expl: "IF 2 == 99.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 68.0 AND 3 == 14.7 AND 4 == 7.8 AND 5 == 0.6 AND 6 == -0.2 THEN target == 2"
+  dexp: "IF 2 == 68.0 THEN target == 2"
+  expl: "IF 2 == 68.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 97.0 AND 3 == 14.2 AND 4 == 3.6 AND 5 == 1.5 AND 6 == 0.3 THEN target == 2"
+  dexp: "IF 2 == 97.0 AND 3 == 14.2 THEN target == 2"
+  expl: "IF 3 == 14.2 AND 2 == 97.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 84.0 AND 3 == 21.5 AND 4 == 2.7 AND 5 == 1.1 AND 6 == -0.6 THEN target == 2"
+  dexp: "IF 2 == 84.0 THEN target == 2"
+  expl: "IF 2 == 84.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 84.0 AND 3 == 18.5 AND 4 == 4.4 AND 5 == 1.1 AND 6 == -0.3 THEN target == 2"
+  dexp: "IF 2 == 84.0 THEN target == 2"
+  expl: "IF 2 == 84.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 98.0 AND 3 == 16.7 AND 4 == 4.3 AND 5 == 1.7 AND 6 == 0.2 THEN target == 1"
+  dexp: "IF 2 == 98.0 THEN target == 1"
+  expl: "IF 2 == 98.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 94.0 AND 3 == 20.5 AND 4 == 1.8 AND 5 == 1.4 AND 6 == -0.5 THEN target == 1"
+  dexp: "IF 2 == 94.0 THEN target == 1"
+  expl: "IF 2 == 94.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 99.0 AND 3 == 17.5 AND 4 == 1.9 AND 5 == 1.4 AND 6 == 0.3 THEN target == 2"
+  dexp: "IF 2 == 99.0 THEN target == 2"
+  expl: "IF 2 == 99.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 76.0 AND 3 == 25.3 AND 4 == 4.5 AND 5 == 1.2 AND 6 == -0.1 THEN target == 2"
+  dexp: "IF 2 == 76.0 THEN target == 2"
+  expl: "IF 2 == 76.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 110.0 AND 3 == 15.2 AND 4 == 1.9 AND 5 == 0.7 AND 6 == -0.2 THEN target == 2"
+  dexp: "IF 2 == 110.0 AND 3 == 15.2 THEN target == 2"
+  expl: "IF 3 == 15.2 AND 2 == 110.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 144.0 AND 3 == 22.3 AND 4 == 3.3 AND 5 == 1.3 AND 6 == 0.6 THEN target == 2"
+  dexp: "IF 2 == 144.0 THEN target == 2"
+  expl: "IF 2 == 144.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 105.0 AND 3 == 12.0 AND 4 == 3.3 AND 5 == 1.1 AND 6 == 0.0 THEN target == 2"
+  dexp: "IF 2 == 105.0 AND 3 == 12.0 THEN target == 2"
+  expl: "IF 3 == 12.0 AND 2 == 105.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 88.0 AND 3 == 16.5 AND 4 == 4.9 AND 5 == 0.8 AND 6 == 0.1 THEN target == 2"
+  dexp: "IF 2 == 88.0 THEN target == 2"
+  expl: "IF 2 == 88.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 97.0 AND 3 == 15.1 AND 4 == 1.8 AND 5 == 1.2 AND 6 == -0.2 THEN target == 2"
+  dexp: "IF 2 == 97.0 AND 3 == 15.1 THEN target == 2"
+  expl: "IF 3 == 15.1 AND 2 == 97.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 106.0 AND 3 == 13.4 AND 4 == 3.0 AND 5 == 1.1 AND 6 == 0.0 THEN target == 2"
+  dexp: "IF 2 == 106.0 AND 3 == 13.4 THEN target == 2"
+  expl: "IF 3 == 13.4 AND 2 == 106.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 79.0 AND 3 == 19.0 AND 4 == 5.5 AND 5 == 0.9 AND 6 == 0.3 THEN target == 2"
+  dexp: "IF 2 == 79.0 THEN target == 2"
+  expl: "IF 2 == 79.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 92.0 AND 3 == 11.1 AND 4 == 2.0 AND 5 == 0.7 AND 6 == -0.2 THEN target == 2"
+  dexp: "IF 2 == 92.0 THEN target == 2"
+  expl: "IF 2 == 92.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 125.0 AND 3 == 2.3 AND 4 == 0.9 AND 5 == 16.5 AND 6 == 9.5 THEN target == 3"
+  dexp: "IF 2 == 125.0 THEN target == 3"
+  expl: "IF 2 == 125.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 6.8 AND 4 == 2.1 AND 5 == 10.4 AND 6 == 38.6 THEN target == 3"
+  dexp: "IF 2 == 120.0 AND 3 == 6.8 AND 4 == 2.1 THEN target == 3"
+  expl: "IF 4 == 2.1 AND 3 == 6.8 AND 2 == 120.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF 2 == 108.0 AND 3 == 3.5 AND 4 == 0.6 AND 5 == 1.7 AND 6 == 1.4 THEN target == 3"
+  dexp: "IF 2 == 108.0 AND 3 == 3.5 THEN target == 3"
+  expl: "IF 3 == 3.5 AND 2 == 108.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 3.0 AND 4 == 2.5 AND 5 == 1.2 AND 6 == 4.5 THEN target == 3"
+  dexp: "IF 2 == 120.0 AND 3 == 3.0 AND 4 == 2.5 THEN target == 3"
+  expl: "IF 4 == 2.5 AND 3 == 3.0 AND 2 == 120.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 3.8 AND 4 == 1.1 AND 5 == 23.0 AND 6 == 5.7 THEN target == 1"
+  dexp: "IF 2 == 119.0 AND 3 == 3.8 THEN target == 1"
+  expl: "IF 3 == 3.8 AND 2 == 119.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 141.0 AND 3 == 5.6 AND 4 == 1.8 AND 5 == 9.2 AND 6 == 14.4 THEN target == 3"
+  dexp: "IF 2 == 141.0 THEN target == 3"
+  expl: "IF 2 == 141.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 129.0 AND 3 == 1.5 AND 4 == 0.6 AND 5 == 12.5 AND 6 == 2.9 THEN target == 3"
+  dexp: "IF 2 == 129.0 THEN target == 3"
+  expl: "IF 2 == 129.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 3.6 AND 4 == 1.5 AND 5 == 11.6 AND 6 == 48.8 THEN target == 1"
+  dexp: "IF 2 == 118.0 AND 3 == 3.6 THEN target == 1"
+  expl: "IF 3 == 3.6 AND 2 == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 1.9 AND 4 == 0.7 AND 5 == 18.5 AND 6 == 24.0 THEN target == 3"
+  dexp: "IF 2 == 120.0 AND 3 == 1.9 THEN target == 3"
+  expl: "IF 3 == 1.9 AND 2 == 120.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 0.8 AND 4 == 0.7 AND 5 == 56.4 AND 6 == 21.6 THEN target == 3"
+  dexp: "IF 2 == 119.0 AND 3 == 0.8 THEN target == 3"
+  expl: "IF 3 == 0.8 AND 2 == 119.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 123.0 AND 3 == 5.6 AND 4 == 1.1 AND 5 == 13.7 AND 6 == 56.3 THEN target == 3"
+  dexp: "IF 2 == 123.0 THEN target == 3"
+  expl: "IF 2 == 123.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 115.0 AND 3 == 6.3 AND 4 == 1.2 AND 5 == 4.7 AND 6 == 14.4 THEN target == 3"
+  dexp: "IF 2 == 115.0 AND 3 == 6.3 THEN target == 3"
+  expl: "IF 3 == 6.3 AND 2 == 115.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 126.0 AND 3 == 0.5 AND 4 == 0.2 AND 5 == 12.2 AND 6 == 8.8 THEN target == 1"
+  dexp: "IF 2 == 126.0 THEN target == 1"
+  expl: "IF 2 == 126.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 121.0 AND 3 == 4.7 AND 4 == 1.8 AND 5 == 11.2 AND 6 == 53.0 THEN target == 1"
+  dexp: "IF 2 == 121.0 THEN target == 1"
+  expl: "IF 2 == 121.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 131.0 AND 3 == 2.7 AND 4 == 0.8 AND 5 == 9.9 AND 6 == 4.7 THEN target == 3"
+  dexp: "IF 2 == 131.0 THEN target == 3"
+  expl: "IF 2 == 131.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 134.0 AND 3 == 2.0 AND 4 == 0.5 AND 5 == 12.2 AND 6 == 2.2 THEN target == 3"
+  dexp: "IF 2 == 134.0 AND 3 == 2.0 THEN target == 3"
+  expl: "IF 3 == 2.0 AND 2 == 134.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 141.0 AND 3 == 2.5 AND 4 == 1.3 AND 5 == 8.5 AND 6 == 7.5 THEN target == 3"
+  dexp: "IF 2 == 141.0 THEN target == 3"
+  expl: "IF 2 == 141.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 113.0 AND 3 == 5.1 AND 4 == 0.7 AND 5 == 5.8 AND 6 == 19.6 THEN target == 3"
+  dexp: "IF 2 == 113.0 AND 3 == 5.1 THEN target == 3"
+  expl: "IF 3 == 5.1 AND 2 == 113.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 136.0 AND 3 == 1.4 AND 4 == 0.3 AND 5 == 32.6 AND 6 == 8.4 THEN target == 3"
+  dexp: "IF 2 == 136.0 THEN target == 3"
+  expl: "IF 2 == 136.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 120.0 AND 3 == 3.4 AND 4 == 1.8 AND 5 == 7.5 AND 6 == 21.5 THEN target == 3"
+  dexp: "IF 2 == 120.0 AND 3 == 3.4 THEN target == 3"
+  expl: "IF 3 == 3.4 AND 2 == 120.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 125.0 AND 3 == 3.7 AND 4 == 1.1 AND 5 == 8.5 AND 6 == 25.9 THEN target == 3"
+  dexp: "IF 2 == 125.0 THEN target == 3"
+  expl: "IF 2 == 125.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 123.0 AND 3 == 1.9 AND 4 == 0.3 AND 5 == 22.8 AND 6 == 22.2 THEN target == 3"
+  dexp: "IF 2 == 123.0 THEN target == 3"
+  expl: "IF 2 == 123.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF 2 == 112.0 AND 3 == 2.6 AND 4 == 0.7 AND 5 == 41.0 AND 6 == 19.0 THEN target == 3"
+  dexp: "IF 2 == 112.0 AND 3 == 2.6 THEN target == 3"
+  expl: "IF 3 == 2.6 AND 2 == 112.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 134.0 AND 3 == 1.9 AND 4 == 0.6 AND 5 == 18.4 AND 6 == 8.2 THEN target == 3"
+  dexp: "IF 2 == 134.0 AND 3 == 1.9 THEN target == 3"
+  expl: "IF 3 == 1.9 AND 2 == 134.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 119.0 AND 3 == 5.1 AND 4 == 1.1 AND 5 == 7.0 AND 6 == 40.8 THEN target == 3"
+  dexp: "IF 2 == 119.0 AND 3 == 5.1 THEN target == 3"
+  expl: "IF 3 == 5.1 AND 2 == 119.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 118.0 AND 3 == 6.5 AND 4 == 1.3 AND 5 == 1.7 AND 6 == 11.5 THEN target == 3"
+  dexp: "IF 2 == 118.0 AND 3 == 6.5 THEN target == 3"
+  expl: "IF 3 == 6.5 AND 2 == 118.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 139.0 AND 3 == 4.2 AND 4 == 0.7 AND 5 == 4.3 AND 6 == 6.3 THEN target == 3"
+  dexp: "IF 2 == 139.0 AND 3 == 4.2 THEN target == 3"
+  expl: "IF 3 == 4.2 AND 2 == 139.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 103.0 AND 3 == 5.1 AND 4 == 1.4 AND 5 == 1.2 AND 6 == 5.0 THEN target == 3"
+  dexp: "IF 2 == 103.0 AND 3 == 5.1 THEN target == 3"
+  expl: "IF 3 == 5.1 AND 2 == 103.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 97.0 AND 3 == 4.7 AND 4 == 1.1 AND 5 == 2.1 AND 6 == 12.6 THEN target == 3"
+  dexp: "IF 2 == 97.0 AND 3 == 4.7 THEN target == 3"
+  expl: "IF 3 == 4.7 AND 2 == 97.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF 2 == 102.0 AND 3 == 5.3 AND 4 == 1.4 AND 5 == 1.3 AND 6 == 6.7 THEN target == 1"
+  dexp: "IF 2 == 102.0 THEN target == 1"
+  expl: "IF 2 == 102.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 215
+tot # of expls: 215
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.52
+avg expl sz: 1.52
+max expl sz: 1.52
+Max expl sz: 3
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.31%
+max dxrd:  33.33%

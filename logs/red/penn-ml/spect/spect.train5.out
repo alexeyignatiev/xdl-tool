@@ -1,0 +1,1393 @@
+MODEL:
+IF F17 != 0 THEN target == 1
+IF F18 != 0 THEN target == 1
+IF F15 != 0, F1 != 0 THEN target == 1
+IF F13 != 0, F2 != 0 THEN target == 1
+IF F16 != 0, F1 != 1 THEN target == 1
+IF F13 != 0, F5 != 0 THEN target == 1
+IF F6 != 0, F1 != 0 THEN target == 1
+IF F13 != 0, F6 != 0 THEN target == 1
+IF F13 != 0, F11 != 0 THEN target == 1
+IF F13 != 0, F15 != 0 THEN target == 1
+IF F13 != 0, F7 != 0 THEN target == 0
+IF F13 != 0, F22 != 0 THEN target == 1
+IF F2 != 0, F1 != 1 THEN target == 0
+IF F3 != 0, F1 != 0 THEN target == 0
+IF F2 != 0 THEN target == 1
+IF F16 != 0 THEN target == 1
+IF F21 != 0, F1 != 0 THEN target == 1
+IF F21 != 0, F3 != 1 THEN target == 1
+IF F11 != 0, F1 != 0 THEN target == 1
+IF F13 != 0, F4 != 0 THEN target == 0
+IF F21 != 0 THEN target == 1
+IF F13 != 0, F3 != 0 THEN target == 1
+IF F3 != 0, F4 != 1 THEN target == 0
+IF F12 != 0, F1 != 1 THEN target == 0
+IF F13 != 0 THEN target == 1
+IF F3 != 0, F9 != 1 THEN target == 0
+IF F8 != 0, F1 != 0 THEN target == 1
+IF F19 != 0, F1 != 1 THEN target == 0
+IF F6 != 0, F4 != 0 THEN target == 1
+IF F8 != 0, F3 != 1 THEN target == 1
+IF F12 != 0, F19 != 1 THEN target == 0
+IF F7 != 0, F1 != 1 THEN target == 1
+IF F22 == 0, F6 != 0 THEN target == 0
+IF F6 != 0 THEN target == 1
+IF F1 == 0, F22 == 0, F14 != 0 THEN target == 0
+IF F14 != 0 THEN target == 1
+IF F20 == 0, F9 != 0 THEN target == 1
+IF F20 == 0, F4 != 0 THEN target == 0
+IF F1 == 0, F22 == 0, F20 == 0 THEN target == 0
+IF F20 != 0, F1 != 0 THEN target == 1
+IF F1 != 0, F10 == 0 THEN target == 0
+IF F1 == 0, F20 == 0 THEN target == 1
+IF F22 != 0, F1 != 0 THEN target == 0
+IF F1 != 0, F19 == 0 THEN target == 1
+IF F1 == 0 THEN target == 1
+IF F1 == 1 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 58
+avg # of vars: 58.00
+max # of vars: 58
+min # of clauses: 126
+avg # of clauses: 133.50
+max # of clauses: 141
+
+EXPLANATIONS:
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F21 == 0 AND F4 == 1 AND F13 == 1 THEN target == 0"
+  expl: "IF F13 == 1 AND F4 == 1 AND F21 == 0 AND F22 == 0 AND F15 == 0 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F16 == 0 AND F2 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F13 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F13 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F2 == 1 THEN target == 0"
+  expl: "IF F2 == 1 AND F16 == 0 AND F13 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F7 == 1 THEN target == 1"
+  expl: "IF F7 == 1 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F11 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F12 == 0 AND F4 == 0 AND F7 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F3 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 1 THEN target == 1"
+  expl: "IF F20 == 1 AND F14 == 0 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F6 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 0 AND F9 == 0 AND F22 == 1 AND F20 == 0 THEN target == 1"
+  expl: "IF F22 == 1 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F4 == 0 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 0 AND F22 == 0 THEN target == 0"
+  expl: "IF F22 == 0 AND F20 == 0 AND F9 == 0 AND F8 == 0 AND F21 == 0 AND F7 == 0 AND F13 == 0 AND F6 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F11 == 1 THEN target == 1"
+  expl: "IF F11 == 1 AND F3 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 0 AND F10 == 1 AND F22 == 0 AND F19 == 1 THEN target == 0"
+  expl: "IF F19 == 1 AND F20 == 0 AND F9 == 0 AND F14 == 0 AND F8 == 0 AND F21 == 0 AND F16 == 0 AND F11 == 0 AND F6 == 0 AND F13 == 0 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 14
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F12 == 0 AND F4 == 0 AND F7 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 1 AND F22 == 0 THEN target == 0"
+  expl: "IF F22 == 0 AND F14 == 1 AND F8 == 0 AND F21 == 0 AND F7 == 0 AND F13 == 0 AND F6 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 0 AND F9 == 0 AND F4 == 1 AND F20 == 0 THEN target == 0"
+  expl: "IF F20 == 0 AND F4 == 1 AND F9 == 0 AND F14 == 0 AND F8 == 0 AND F21 == 0 AND F7 == 0 AND F13 == 0 AND F6 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 13
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F13 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F2 == 1 THEN target == 0"
+  expl: "IF F2 == 1 AND F16 == 0 AND F13 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 0 AND F10 == 1 AND F22 == 1 THEN target == 0"
+  expl: "IF F22 == 1 AND F20 == 0 AND F9 == 0 AND F14 == 0 AND F8 == 0 AND F21 == 0 AND F16 == 0 AND F11 == 0 AND F6 == 0 AND F13 == 0 AND F1 == 1 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 15
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 1 THEN target == 0"
+  expl: "IF F12 == 1 AND F3 == 0 AND F21 == 0 AND F22 == 0 AND F15 == 0 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F16 == 0 AND F2 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 13
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 1 AND F21 == 0 AND F4 == 1 AND F12 == 0 AND F9 == 0 THEN target == 0"
+  expl: "IF F9 == 0 AND F21 == 0 AND F3 == 1 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 0 AND F20 == 1 THEN target == 1"
+  expl: "IF F20 == 1 AND F14 == 0 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F6 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 1 AND F4 == 0 AND F21 == 0 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F4 == 0 AND F3 == 1 AND F7 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 1 AND F19 == 0 THEN target == 0"
+  expl: "IF F19 == 0 AND F12 == 1 AND F8 == 0 AND F21 == 0 AND F16 == 0 AND F11 == 0 AND F6 == 0 AND F13 == 0 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F13 == 0 AND F16 == 0 AND F5 == 0 AND F11 == 0 AND F7 == 0 AND F2 == 1 THEN target == 0"
+  expl: "IF F2 == 1 AND F16 == 0 AND F13 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 1 THEN target == 0"
+  expl: "IF F19 == 1 AND F21 == 0 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 0 AND F3 == 1 THEN target == 0"
+  expl: "IF F3 == 1 AND F6 == 0 AND F1 == 1 AND F13 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F11 == 1 THEN target == 1"
+  expl: "IF F11 == 1 AND F3 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 0 AND F10 == 0 THEN target == 0"
+  expl: "IF F10 == 0 AND F20 == 0 AND F9 == 0 AND F14 == 0 AND F8 == 0 AND F21 == 0 AND F16 == 0 AND F11 == 0 AND F6 == 0 AND F13 == 0 AND F1 == 1 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 15
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 1 AND F4 == 0 AND F21 == 0 THEN target == 0"
+  expl: "IF F21 == 0 AND F4 == 0 AND F3 == 1 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F6 == 1 AND F22 == 0 THEN target == 0"
+  expl: "IF F22 == 0 AND F6 == 1 AND F8 == 0 AND F4 == 0 AND F21 == 0 AND F7 == 0 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F19 == 1 AND F14 == 0 AND F9 == 0 AND F20 == 0 AND F10 == 1 AND F22 == 0 THEN target == 0"
+  expl: "IF F20 == 0 AND F9 == 0 AND F14 == 0 AND F19 == 1 AND F8 == 0 AND F21 == 0 AND F16 == 0 AND F11 == 0 AND F6 == 0 AND F13 == 0 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 14
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 1 THEN target == 0"
+  expl: "IF F3 == 1 AND F22 == 0 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F1 == 1 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 0 AND F10 == 1 AND F22 == 0 AND F19 == 0 THEN target == 1"
+  expl: "IF F19 == 0 AND F22 == 0 AND F10 == 1 AND F12 == 0 AND F4 == 0 AND F3 == 0 AND F13 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 1 AND F13 == 1 THEN target == 0"
+  expl: "IF F13 == 1 AND F7 == 1 AND F15 == 0 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F16 == 0 AND F2 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F4 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F4 == 1 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 1 AND F13 == 1 THEN target == 0"
+  expl: "IF F13 == 1 AND F7 == 1 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F1 == 1 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F3 == 0 AND F13 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 0 AND F9 == 0 AND F20 == 1 THEN target == 1"
+  expl: "IF F20 == 1 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 0 AND F11 == 0 AND F3 == 0 AND F2 == 1 THEN target == 1"
+  expl: "IF F2 == 1 AND F3 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 1 AND F21 == 0 AND F4 == 1 AND F12 == 0 AND F9 == 1 AND F19 == 0 AND F14 == 0 AND F20 == 1 THEN target == 1"
+  expl: "IF F14 == 0 AND F19 == 0 AND F9 == 1 AND F12 == 0 AND F4 == 1 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F13 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F6 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F22 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F4 == 0 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F3 == 0 AND F13 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F11 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 1 AND F4 == 0 AND F21 == 0 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F4 == 0 AND F3 == 1 AND F7 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F11 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F13 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 1 AND F4 == 0 AND F21 == 0 THEN target == 0"
+  expl: "IF F21 == 0 AND F4 == 0 AND F3 == 1 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 1 THEN target == 1"
+  expl: "IF F14 == 1 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F8 == 1 THEN target == 1"
+  expl: "IF F8 == 1 AND F3 == 0 AND F13 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 0 AND F4 == 0 AND F8 == 0 AND F12 == 0 AND F14 == 1 THEN target == 1"
+  expl: "IF F14 == 1 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F3 == 0 AND F13 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F22 == 1 AND F14 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F4 == 0 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 0 AND F11 == 0 AND F3 == 0 AND F2 == 1 THEN target == 1"
+  expl: "IF F2 == 1 AND F3 == 0 AND F1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F3 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 1 THEN target == 0"
+  expl: "IF F3 == 1 AND F22 == 0 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F1 == 1 AND F2 == 0 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F3 == 0 AND F13 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 1 THEN target == 1"
+  expl: "IF F8 == 1 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 1 AND F4 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F4 == 0 AND F7 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F13 == 1 AND F22 == 1 THEN target == 1"
+  expl: "IF F22 == 1 AND F13 == 1 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 0 AND F8 == 0 AND F14 == 0 AND F9 == 1 AND F20 == 0 THEN target == 1"
+  expl: "IF F9 == 1 AND F14 == 0 AND F19 == 0 AND F12 == 0 AND F3 == 0 AND F13 == 0 AND F6 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F3 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F13 == 0 AND F2 == 0 AND F1 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F3 == 0 AND F7 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 1 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 1 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 1 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F5 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 1 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F13 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 0 AND F16 == 1 THEN target == 1"
+  expl: "IF F16 == 1 AND F3 == 0 AND F7 == 0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 0 AND F17 == 0 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 1 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 1 AND F18 == 1 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 1 THEN target == 1"
+  expl: "IF F17 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 1 AND F13 == 1 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 1 AND F13 == 1 THEN target == 1"
+  expl: "IF F13 == 1 AND F2 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 1 AND F19 == 1 AND F20 == 1 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 1 THEN target == 1"
+  expl: "IF F18 == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 1 AND F21 == 1 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 0 AND F16 == 0 AND F21 == 1 THEN target == 1"
+  expl: "IF F21 == 1 AND F3 == 0 AND F13 == 0 AND F2 == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 1 AND F4 == 1 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 1 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F15 == 0 AND F7 == 0 AND F22 == 0 AND F3 == 1 AND F4 == 1 AND F13 == 1 THEN target == 0"
+  expl: "IF F13 == 1 AND F4 == 1 AND F3 == 1 AND F22 == 0 AND F15 == 0 AND F11 == 0 AND F6 == 0 AND F5 == 0 AND F16 == 0 AND F2 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 1 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F5 == 0 AND F6 == 0 AND F11 == 0 AND F13 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 1 THEN target == 0"
+  expl: "IF F19 == 1 AND F21 == 0 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF F1 == 0 AND F2 == 0 AND F3 == 0 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 0 AND F17 == 0 AND F18 == 0 AND F19 == 1 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 0 AND F2 == 0 AND F16 == 0 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F21 == 0 AND F4 == 0 AND F3 == 0 AND F12 == 0 AND F19 == 1 THEN target == 0"
+  expl: "IF F19 == 1 AND F21 == 0 AND F13 == 0 AND F16 == 0 AND F1 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 1 AND F3 == 0 AND F4 == 0 AND F5 == 0 AND F6 == 1 AND F7 == 0 AND F8 == 0 AND F9 == 0 AND F10 == 1 AND F11 == 1 AND F12 == 1 AND F13 == 0 AND F14 == 0 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F13 == 0 AND F1 == 1 AND F5 == 0 AND F6 == 1 THEN target == 1"
+  expl: "IF F6 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 0 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 1 AND F14 == 0 AND F15 == 1 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 1"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F1 == 1 AND F15 == 1 THEN target == 1"
+  expl: "IF F15 == 1 AND F1 == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF F1 == 1 AND F2 == 0 AND F3 == 1 AND F4 == 0 AND F5 == 1 AND F6 == 0 AND F7 == 0 AND F8 == 1 AND F9 == 1 AND F10 == 0 AND F11 == 0 AND F12 == 0 AND F13 == 0 AND F14 == 1 AND F15 == 0 AND F16 == 1 AND F17 == 0 AND F18 == 0 AND F19 == 0 AND F20 == 0 AND F21 == 0 AND F22 == 0 THEN target == 0"
+  dexp: "IF F17 == 0 AND F18 == 0 AND F15 == 0 AND F2 == 0 AND F1 == 1 AND F13 == 0 AND F6 == 0 AND F11 == 0 AND F7 == 0 AND F3 == 1 THEN target == 0"
+  expl: "IF F3 == 1 AND F6 == 0 AND F13 == 0 AND F1 == 1 AND F15 == 0 AND F18 == 0 AND F17 == 0 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+# of insts: 219
+tot # of expls: 219
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 3.28
+avg expl sz: 3.28
+max expl sz: 3.28
+Max expl sz: 15
+
+tot time: 0.03
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  47.03%
+max dxrd:  80.00%

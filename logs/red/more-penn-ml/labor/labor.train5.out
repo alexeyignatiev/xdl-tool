@@ -1,0 +1,400 @@
+MODEL:
+IF duration == 3 THEN target == 1
+IF wage increase first year == 1 THEN target == 0
+IF wage increase first year == 2 THEN target == 0
+IF wage increase first year == 3 THEN target == 1
+IF wage increase first year == 8 THEN target == 1
+IF wage increase first year == 10 THEN target == 1
+IF wage increase first year == 11 THEN target == 1
+IF wage increase first year == 12 THEN target == 1
+IF wage increase first year == 13 THEN target == 1
+IF wage increase first year == 15 THEN target == 1
+IF wage increase first year == 16 THEN target == 1
+IF wage increase second year == 0 THEN target == 0
+IF wage increase first year == 4 THEN target == 1
+IF duration == 0 THEN target == 0
+IF wage increase second year == 1 THEN target == 0
+IF duration != 1 THEN target == 1
+IF wage increase first year == 0 THEN target == 0
+IF wage increase first year == 5 THEN target == 0
+IF wage increase second year == 6 THEN target == 1
+IF wage increase second year == 11 THEN target == 1
+IF cost of living adjustment == 3 THEN target == 1
+IF wage increase first year == 7 THEN target == 0
+IF cost of living adjustment != 0 THEN target == 1
+IF shift differential == 4 THEN target == 0
+IF duration == 1 THEN target == 1
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 112
+avg # of vars: 112.00
+max # of vars: 112
+min # of clauses: 528
+avg # of clauses: 532.00
+max # of clauses: 536
+
+EXPLANATIONS:
+  inst: "IF duration == 2 AND wage increase first year == 11 AND wage increase second year == 9 AND wage increase third year == 7 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 11 THEN target == 1"
+  expl: "IF wage increase first year == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 10 AND wage increase second year == 7 AND wage increase third year == 9 AND cost of living adjustment == 3 AND working hours == 5 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 6 AND vacation == 0 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 10 THEN target == 1"
+  expl: "IF wage increase first year == 10 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 12 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 1 AND standby pay == 7 AND shift differential == 7 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 3 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 0 AND wage increase first year == 12 THEN target == 1"
+  expl: "IF wage increase first year == 12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 6 AND wage increase second year == 4 AND wage increase third year == 7 AND cost of living adjustment == 2 AND working hours == 8 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 6 AND vacation == 0 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 6 AND wage increase second year == 4 THEN target == 1"
+  expl: "IF wage increase second year == 4 AND wage increase first year == 6 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 2 AND wage increase second year == 2 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 2 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 2 THEN target == 0"
+  expl: "IF wage increase first year == 2 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 1 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 2 AND working hours == 7 AND pension == 3 AND standby pay == 4 AND shift differential == 6 AND education allowance == 1 AND statutory holidays == 5 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 0 AND wage increase first year == 1 THEN target == 0"
+  expl: "IF wage increase first year == 1 AND duration == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 9 AND wage increase second year == 6 AND wage increase third year == 7 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 9 AND wage increase second year == 6 THEN target == 1"
+  expl: "IF wage increase second year == 6 AND wage increase first year == 9 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 6 AND wage increase third year == 9 AND cost of living adjustment == 3 AND working hours == 8 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 3 AND bereavement assistance == 0 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 6 THEN target == 1"
+  expl: "IF wage increase second year == 6 AND wage increase first year == 9 AND duration == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 3 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 2 AND pension == 0 AND standby pay == 7 AND shift differential == 4 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 2 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 0 AND wage increase first year == 3 THEN target == 1"
+  expl: "IF wage increase first year == 3 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 16 AND wage increase second year == 10 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 8 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 0 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 16 THEN target == 1"
+  expl: "IF wage increase first year == 16 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 1 AND wage increase third year == 0 AND cost of living adjustment == 0 AND working hours == 4 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 0 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 1 THEN target == 0"
+  expl: "IF wage increase second year == 1 AND wage increase first year == 0 AND duration == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 7 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 8 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 1 AND contribution to dental plan == 3 AND bereavement assistance == 1 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 0 AND wage increase first year == 7 AND wage increase second year == 15 THEN target == 0"
+  expl: "IF wage increase first year == 7 AND duration == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 11 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 4 AND pension == 0 AND standby pay == 7 AND shift differential == 8 AND education allowance == 1 AND statutory holidays == 1 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 11 THEN target == 1"
+  expl: "IF wage increase first year == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 4 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 3 AND pension == 0 AND standby pay == 7 AND shift differential == 2 AND education allowance == 1 AND statutory holidays == 1 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 0 AND wage increase first year == 4 AND wage increase second year == 15 THEN target == 1"
+  expl: "IF wage increase second year == 15 AND wage increase first year == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 4 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND cost of living adjustment == 1 THEN target == 1"
+  expl: "IF cost of living adjustment == 1 AND wage increase second year == 4 AND wage increase first year == 9 AND duration == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 AND wage increase third year == 6 AND cost of living adjustment == 1 AND working hours == 3 AND pension == 0 AND standby pay == 7 AND shift differential == 6 AND education allowance == 0 AND statutory holidays == 3 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 THEN target == 1"
+  expl: "IF wage increase second year == 4 AND wage increase first year == 5 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 0 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 5 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 1 AND contribution to dental plan == 3 AND bereavement assistance == 1 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 0 AND wage increase first year == 0 AND wage increase second year == 15 THEN target == 0"
+  expl: "IF wage increase first year == 0 AND duration == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 2 AND wage increase second year == 2 AND wage increase third year == 9 AND cost of living adjustment == 3 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 2 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 2 THEN target == 0"
+  expl: "IF wage increase first year == 2 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 AND wage increase third year == 5 AND cost of living adjustment == 3 AND working hours == 2 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 3 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 THEN target == 1"
+  expl: "IF wage increase second year == 4 AND wage increase first year == 5 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 9 AND wage increase second year == 6 AND wage increase third year == 7 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 1 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 9 AND wage increase second year == 6 THEN target == 1"
+  expl: "IF wage increase second year == 6 AND wage increase first year == 9 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 8 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND cost of living adjustment == 1 THEN target == 1"
+  expl: "IF cost of living adjustment == 1 AND wage increase second year == 4 AND wage increase first year == 9 AND duration == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 13 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 5 AND pension == 0 AND standby pay == 6 AND shift differential == 6 AND education allowance == 0 AND statutory holidays == 5 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 0 AND wage increase first year == 13 THEN target == 1"
+  expl: "IF wage increase first year == 13 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 2 AND wage increase second year == 1 AND wage increase third year == 9 AND cost of living adjustment == 2 AND working hours == 6 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 2 THEN target == 0"
+  expl: "IF wage increase first year == 2 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 1 AND wage increase third year == 1 AND cost of living adjustment == 2 AND working hours == 7 AND pension == 2 AND standby pay == 4 AND shift differential == 1 AND education allowance == 1 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 1 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 0"
+  dexp: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 1 THEN target == 0"
+  expl: "IF wage increase second year == 1 AND wage increase first year == 0 AND duration == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 AND wage increase third year == 6 AND cost of living adjustment == 3 AND working hours == 0 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 6 AND vacation == 0 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 THEN target == 1"
+  expl: "IF wage increase second year == 4 AND wage increase first year == 5 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 11 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 2 AND pension == 3 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 1 AND vacation == 2 AND longterm disability assistance == 0 AND contribution to dental plan == 1 AND bereavement assistance == 0 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 11 THEN target == 1"
+  expl: "IF wage increase second year == 11 AND wage increase first year == 9 AND duration == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 14 AND wage increase second year == 13 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 5 AND pension == 0 AND standby pay == 7 AND shift differential == 7 AND education allowance == 0 AND statutory holidays == 4 AND vacation == 0 AND longterm disability assistance == 0 AND contribution to dental plan == 1 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 14 AND wage increase second year == 13 AND cost of living adjustment == 0 AND shift differential == 7 THEN target == 1"
+  expl: "IF shift differential == 7 AND wage increase second year == 13 AND wage increase first year == 14 AND duration == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 7 AND education allowance == 0 AND statutory holidays == 0 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND cost of living adjustment == 0 AND shift differential == 7 THEN target == 1"
+  expl: "IF shift differential == 7 AND wage increase second year == 4 AND wage increase first year == 9 AND duration == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 4 AND education allowance == 1 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 1 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 2 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND cost of living adjustment == 0 AND shift differential == 4 THEN target == 0"
+  expl: "IF shift differential == 4 AND cost of living adjustment == 0 AND wage increase second year == 4 AND wage increase first year == 9 AND duration == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 0 AND wage increase third year == 0 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 0 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 0"
+  dexp: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 0 THEN target == 0"
+  expl: "IF wage increase second year == 0 AND wage increase first year == 0 AND duration == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 7 AND wage increase second year == 3 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 1 AND standby pay == 7 AND shift differential == 9 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 0 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 7 AND wage increase second year == 3 THEN target == 1"
+  expl: "IF wage increase second year == 3 AND wage increase first year == 7 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 AND wage increase third year == 8 AND cost of living adjustment == 3 AND working hours == 4 AND pension == 0 AND standby pay == 7 AND shift differential == 7 AND education allowance == 0 AND statutory holidays == 3 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 5 AND wage increase second year == 4 THEN target == 1"
+  expl: "IF wage increase second year == 4 AND wage increase first year == 5 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 11 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 4 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 0 AND wage increase first year == 11 THEN target == 1"
+  expl: "IF wage increase first year == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 2 AND wage increase third year == 9 AND cost of living adjustment == 3 AND working hours == 8 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 6 AND vacation == 0 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 2 THEN target == 1"
+  expl: "IF wage increase second year == 2 AND wage increase first year == 0 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 7 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 6 AND education allowance == 0 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 1 AND contribution to dental plan == 3 AND bereavement assistance == 0 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 7 AND wage increase second year == 4 AND cost of living adjustment == 1 THEN target == 0"
+  expl: "IF cost of living adjustment == 1 AND wage increase second year == 4 AND wage increase first year == 7 AND duration == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 0 AND wage increase second year == 0 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 1 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 2 AND contribution to dental plan == 3 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 0 AND wage increase second year == 0 THEN target == 0"
+  expl: "IF wage increase first year == 0 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 7 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 1 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 9 AND wage increase second year == 4 AND cost of living adjustment == 1 THEN target == 1"
+  expl: "IF cost of living adjustment == 1 AND wage increase second year == 4 AND wage increase first year == 9 AND duration == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 12 AND wage increase second year == 6 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 3 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 1 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 12 THEN target == 1"
+  expl: "IF wage increase first year == 12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 15 AND wage increase second year == 8 AND wage increase third year == 2 AND cost of living adjustment == 0 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 6 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 2 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 15 THEN target == 1"
+  expl: "IF wage increase first year == 15 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 13 AND wage increase second year == 12 AND wage increase third year == 4 AND cost of living adjustment == 0 AND working hours == 2 AND pension == 0 AND standby pay == 7 AND shift differential == 3 AND education allowance == 0 AND statutory holidays == 5 AND vacation == 3 AND longterm disability assistance == 2 AND contribution to dental plan == 1 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 13 THEN target == 1"
+  expl: "IF wage increase first year == 13 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 2 AND wage increase second year == 1 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 5 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 0 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 2 THEN target == 0"
+  expl: "IF wage increase first year == 2 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 3 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 5 AND pension == 1 AND standby pay == 4 AND shift differential == 6 AND education allowance == 1 AND statutory holidays == 5 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 3 THEN target == 1"
+  dexp: "IF duration == 0 AND wage increase first year == 3 THEN target == 1"
+  expl: "IF wage increase first year == 3 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 4 AND wage increase second year == 14 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 5 AND pension == 0 AND standby pay == 1 AND shift differential == 5 AND education allowance == 2 AND statutory holidays == 1 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 4 AND wage increase second year == 14 THEN target == 1"
+  expl: "IF wage increase second year == 14 AND wage increase first year == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 0 AND wage increase second year == 1 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 2 AND pension == 0 AND standby pay == 7 AND shift differential == 9 AND education allowance == 2 AND statutory holidays == 2 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 0 AND wage increase second year == 1 THEN target == 0"
+  expl: "IF wage increase first year == 0 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 3 AND wage increase first year == 17 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 5 AND pension == 1 AND standby pay == 7 AND shift differential == 8 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 3 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 3 THEN target == 1"
+  expl: "IF duration == 3 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 0 AND wage increase first year == 0 AND wage increase second year == 15 AND wage increase third year == 9 AND cost of living adjustment == 2 AND working hours == 7 AND pension == 3 AND standby pay == 5 AND shift differential == 0 AND education allowance == 1 AND statutory holidays == 1 AND vacation == 3 AND longterm disability assistance == 1 AND contribution to dental plan == 3 AND bereavement assistance == 1 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 0 AND wage increase first year == 0 AND wage increase second year == 15 THEN target == 0"
+  expl: "IF wage increase first year == 0 AND duration == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 5 AND wage increase second year == 4 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 0 AND standby pay == 7 AND shift differential == 4 AND education allowance == 1 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 1 AND contribution to dental plan == 2 AND bereavement assistance == 0 AND contribution to health plan == 2 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 5 AND wage increase second year == 4 THEN target == 0"
+  expl: "IF wage increase first year == 5 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 11 AND wage increase second year == 5 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 5 AND pension == 1 AND standby pay == 0 AND shift differential == 9 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 3 AND longterm disability assistance == 2 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 11 THEN target == 1"
+  expl: "IF wage increase first year == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 7 AND wage increase second year == 9 AND wage increase third year == 7 AND cost of living adjustment == 2 AND working hours == 8 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 3 AND longterm disability assistance == 2 AND contribution to dental plan == 3 AND bereavement assistance == 2 AND contribution to health plan == 2 THEN target == 1"
+  dexp: "IF duration == 2 AND wage increase first year == 7 AND wage increase second year == 9 THEN target == 1"
+  expl: "IF wage increase second year == 9 AND wage increase first year == 7 AND duration == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 7 AND wage increase second year == 9 AND wage increase third year == 9 AND cost of living adjustment == 3 AND working hours == 2 AND pension == 0 AND standby pay == 2 AND shift differential == 8 AND education allowance == 0 AND statutory holidays == 4 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 0 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 7 AND wage increase second year == 9 AND cost of living adjustment == 3 THEN target == 1"
+  expl: "IF cost of living adjustment == 3 AND wage increase second year == 9 AND wage increase first year == 7 AND duration == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 7 AND wage increase second year == 9 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 6 AND education allowance == 1 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 1 AND contribution to dental plan == 3 AND bereavement assistance == 0 AND contribution to health plan == 3 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 7 AND wage increase second year == 9 AND cost of living adjustment == 1 THEN target == 0"
+  expl: "IF cost of living adjustment == 1 AND wage increase second year == 9 AND wage increase first year == 7 AND duration == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 1 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 2 AND pension == 2 AND standby pay == 7 AND shift differential == 10 AND education allowance == 0 AND statutory holidays == 0 AND vacation == 1 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 0"
+  dexp: "IF duration == 2 AND wage increase first year == 0 AND wage increase second year == 1 THEN target == 0"
+  expl: "IF wage increase second year == 1 AND wage increase first year == 0 AND duration == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 8 AND wage increase second year == 5 AND wage increase third year == 9 AND cost of living adjustment == 0 AND working hours == 5 AND pension == 0 AND standby pay == 7 AND shift differential == 7 AND education allowance == 0 AND statutory holidays == 2 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 1 AND bereavement assistance == 0 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 8 THEN target == 1"
+  expl: "IF wage increase first year == 8 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 11 AND wage increase second year == 6 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 5 AND pension == 0 AND standby pay == 3 AND shift differential == 8 AND education allowance == 0 AND statutory holidays == 1 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 0 AND bereavement assistance == 0 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 11 THEN target == 1"
+  expl: "IF wage increase first year == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 4 AND wage increase second year == 2 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 1 AND pension == 0 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 2 AND vacation == 3 AND longterm disability assistance == 0 AND contribution to dental plan == 0 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 1"
+  dexp: "IF duration == 1 AND wage increase first year == 4 AND wage increase second year == 2 THEN target == 1"
+  expl: "IF wage increase second year == 2 AND wage increase first year == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 1 AND wage increase first year == 0 AND wage increase second year == 2 AND wage increase third year == 9 AND cost of living adjustment == 1 AND working hours == 5 AND pension == 1 AND standby pay == 7 AND shift differential == 10 AND education allowance == 2 AND statutory holidays == 2 AND vacation == 3 AND longterm disability assistance == 2 AND contribution to dental plan == 3 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 0"
+  dexp: "IF duration == 1 AND wage increase first year == 0 AND wage increase second year == 2 THEN target == 0"
+  expl: "IF wage increase first year == 0 AND duration == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF duration == 2 AND wage increase first year == 4 AND wage increase second year == 0 AND wage increase third year == 3 AND cost of living adjustment == 2 AND working hours == 7 AND pension == 2 AND standby pay == 7 AND shift differential == 8 AND education allowance == 1 AND statutory holidays == 0 AND vacation == 2 AND longterm disability assistance == 2 AND contribution to dental plan == 2 AND bereavement assistance == 2 AND contribution to health plan == 1 THEN target == 0"
+  dexp: "IF duration == 2 AND wage increase first year == 4 AND wage increase second year == 0 THEN target == 0"
+  expl: "IF wage increase second year == 0 AND wage increase first year == 4 AND duration == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+# of insts: 57
+tot # of expls: 57
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.35
+avg expl sz: 2.35
+max expl sz: 2.35
+Max expl sz: 5
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  19.71%
+max dxrd:  50.00%

@@ -1,0 +1,2156 @@
+MODEL:
+IF ID == 7.0 THEN class == 0
+IF ID == 8.0 THEN class == 1
+IF ID == 11.0 THEN class == 1
+IF ID == 12.0 THEN class == 0
+IF ID == 13.0 THEN class == 1
+IF ID == 18.0 THEN class == 1
+IF ID == 19.0 THEN class == 0
+IF ID == 20.0 THEN class == 0
+IF ID == 21.0 THEN class == 0
+IF ID == 22.0 THEN class == 1
+IF ID == 24.0 THEN class == 0
+IF ID == 25.0 THEN class == 1
+IF ID == 27.0 THEN class == 1
+IF ID == 30.0 THEN class == 0
+IF ID == 35.0 THEN class == 0
+IF ID == 38.0 THEN class == 0
+IF ID == 41.0 THEN class == 0
+IF ID == 43.0 THEN class == 0
+IF ID == 50.0 THEN class == 1
+IF ID == 51.0 THEN class == 1
+IF ID == 59.0 THEN class == 1
+IF ID == 60.0 THEN class == 0
+IF ID == 61.0 THEN class == 1
+IF ID == 64.0 THEN class == 1
+IF ID == 66.0 THEN class == 1
+IF ID == 70.0 THEN class == 1
+IF ID == 74.0 THEN class == 0
+IF ID == 75.0 THEN class == 0
+IF ID == 80.0 THEN class == 0
+IF ID == 81.0 THEN class == 0
+IF ID == 82.0 THEN class == 0
+IF ID == 84.0 THEN class == 0
+IF ID == 86.0 THEN class == 1
+IF ID == 96.0 THEN class == 0
+IF ID == 101.0 THEN class == 1
+IF ID == 103.0 THEN class == 1
+IF ID == 107.0 THEN class == 1
+IF ID == 117.0 THEN class == 1
+IF ID == 129.0 THEN class == 1
+IF ID == 130.0 THEN class == 1
+IF ID == 132.0 THEN class == 1
+IF ID == 134.0 THEN class == 0
+IF ID == 141.0 THEN class == 0
+IF ID == 143.0 THEN class == 0
+IF ID == 146.0 THEN class == 0
+IF ID == 149.0 THEN class == 0
+IF ID == 150.0 THEN class == 0
+IF ID == 161.0 THEN class == 0
+IF ID == 167.0 THEN class == 0
+IF ID == 168.0 THEN class == 1
+IF ID == 179.0 THEN class == 1
+IF ID == 180.0 THEN class == 1
+IF ID == 185.0 THEN class == 0
+IF ID == 191.0 THEN class == 0
+IF ID == 200.0 THEN class == 1
+IF ID == 202.0 THEN class == 0
+IF ID == 207.0 THEN class == 1
+IF ID == 221.0 THEN class == 0
+IF ID == 227.0 THEN class == 0
+IF ID == 231.0 THEN class == 1
+IF ID == 233.0 THEN class == 0
+IF ID == 234.0 THEN class == 0
+IF ID == 235.0 THEN class == 0
+IF ID == 241.0 THEN class == 1
+IF ID == 242.0 THEN class == 1
+IF ID == 245.0 THEN class == 0
+IF ID == 246.0 THEN class == 1
+IF ID == 247.0 THEN class == 0
+IF ID == 249.0 THEN class == 1
+IF ID == 251.0 THEN class == 0
+IF ID == 252.0 THEN class == 0
+IF ID == 253.0 THEN class == 0
+IF ID == 254.0 THEN class == 0
+IF ID == 255.0 THEN class == 0
+IF ID == 261.0 THEN class == 1
+IF ID == 262.0 THEN class == 0
+IF ID == 263.0 THEN class == 1
+IF ID == 264.0 THEN class == 1
+IF ID == 267.0 THEN class == 1
+IF ID == 270.0 THEN class == 1
+IF ID == 272.0 THEN class == 1
+IF ID == 275.0 THEN class == 1
+IF ID == 276.0 THEN class == 1
+IF TRUE THEN class == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 2231
+avg # of vars: 2231.00
+max # of vars: 2231
+min # of clauses: 211313
+avg # of clauses: 211315.00
+max # of clauses: 211317
+
+EXPLANATIONS:
+  inst: "IF ID == 7.0 AND target == 1 AND gain_ratio_1 == 167 AND gain_ratio_2 == 162 AND gain_ratio_3 == 177 AND gain_ratio_4 == 157 AND gain_ratio_5 == 179 AND gain_ratio_6 == 175 AND gain_ratio_7 == 172 AND gain_ratio_8 == 121 AND gain_ratio_9 == 143 AND gain_ratio_10 == 159 AND gain_ratio_11 == 139 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 7.0 THEN class == 0"
+  expl: "IF ID == 7.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 7.0 AND target == 1 AND gain_ratio_1 == 150 AND gain_ratio_2 == 92 AND gain_ratio_3 == 129 AND gain_ratio_4 == 136 AND gain_ratio_5 == 91 AND gain_ratio_6 == 160 AND gain_ratio_7 == 137 AND gain_ratio_8 == 130 AND gain_ratio_9 == 143 AND gain_ratio_10 == 141 AND gain_ratio_11 == 135 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 7.0 THEN class == 0"
+  expl: "IF ID == 7.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 7.0 AND target == 0 AND gain_ratio_1 == 117 AND gain_ratio_2 == 117 AND gain_ratio_3 == 160 AND gain_ratio_4 == 202 AND gain_ratio_5 == 110 AND gain_ratio_6 == 143 AND gain_ratio_7 == 113 AND gain_ratio_8 == 107 AND gain_ratio_9 == 45 AND gain_ratio_10 == 81 AND gain_ratio_11 == 88 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 7.0 THEN class == 0"
+  expl: "IF ID == 7.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 7.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 93 AND gain_ratio_4 == 76 AND gain_ratio_5 == 196 AND gain_ratio_6 == 65 AND gain_ratio_7 == 65 AND gain_ratio_8 == 99 AND gain_ratio_9 == 65 AND gain_ratio_10 == 82 AND gain_ratio_11 == 49 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 7.0 THEN class == 0"
+  expl: "IF ID == 7.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 7.0 AND target == 1 AND gain_ratio_1 == 128 AND gain_ratio_2 == 118 AND gain_ratio_3 == 85 AND gain_ratio_4 == 24 AND gain_ratio_5 == 47 AND gain_ratio_6 == 64 AND gain_ratio_7 == 124 AND gain_ratio_8 == 98 AND gain_ratio_9 == 128 AND gain_ratio_10 == 57 AND gain_ratio_11 == 120 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 7.0 THEN class == 0"
+  expl: "IF ID == 7.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 19.0 AND target == 1 AND gain_ratio_1 == 157 AND gain_ratio_2 == 126 AND gain_ratio_3 == 190 AND gain_ratio_4 == 154 AND gain_ratio_5 == 133 AND gain_ratio_6 == 83 AND gain_ratio_7 == 91 AND gain_ratio_8 == 75 AND gain_ratio_9 == 165 AND gain_ratio_10 == 166 AND gain_ratio_11 == 189 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 19.0 THEN class == 0"
+  expl: "IF ID == 19.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 19.0 AND target == 1 AND gain_ratio_1 == 110 AND gain_ratio_2 == 76 AND gain_ratio_3 == 102 AND gain_ratio_4 == 88 AND gain_ratio_5 == 124 AND gain_ratio_6 == 95 AND gain_ratio_7 == 190 AND gain_ratio_8 == 71 AND gain_ratio_9 == 108 AND gain_ratio_10 == 91 AND gain_ratio_11 == 127 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 19.0 THEN class == 0"
+  expl: "IF ID == 19.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 19.0 AND target == 0 AND gain_ratio_1 == 161 AND gain_ratio_2 == 76 AND gain_ratio_3 == 50 AND gain_ratio_4 == 69 AND gain_ratio_5 == 45 AND gain_ratio_6 == 36 AND gain_ratio_7 == 27 AND gain_ratio_8 == 106 AND gain_ratio_9 == 119 AND gain_ratio_10 == 132 AND gain_ratio_11 == 113 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 19.0 THEN class == 0"
+  expl: "IF ID == 19.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 19.0 AND target == 1 AND gain_ratio_1 == 89 AND gain_ratio_2 == 130 AND gain_ratio_3 == 60 AND gain_ratio_4 == 129 AND gain_ratio_5 == 79 AND gain_ratio_6 == 138 AND gain_ratio_7 == 136 AND gain_ratio_8 == 108 AND gain_ratio_9 == 52 AND gain_ratio_10 == 98 AND gain_ratio_11 == 146 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 19.0 THEN class == 0"
+  expl: "IF ID == 19.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 20.0 AND target == 1 AND gain_ratio_1 == 104 AND gain_ratio_2 == 100 AND gain_ratio_3 == 92 AND gain_ratio_4 == 105 AND gain_ratio_5 == 94 AND gain_ratio_6 == 46 AND gain_ratio_7 == 64 AND gain_ratio_8 == 81 AND gain_ratio_9 == 46 AND gain_ratio_10 == 45 AND gain_ratio_11 == 85 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 20.0 THEN class == 0"
+  expl: "IF ID == 20.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 20.0 AND target == 1 AND gain_ratio_1 == 51 AND gain_ratio_2 == 24 AND gain_ratio_3 == 27 AND gain_ratio_4 == 20 AND gain_ratio_5 == 26 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 4 AND gain_ratio_9 == 9 AND gain_ratio_10 == 18 AND gain_ratio_11 == 24 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 20.0 THEN class == 0"
+  expl: "IF ID == 20.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 20.0 AND target == 0 AND gain_ratio_1 == 57 AND gain_ratio_2 == 32 AND gain_ratio_3 == 190 AND gain_ratio_4 == 19 AND gain_ratio_5 == 18 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 38 AND gain_ratio_9 == 39 AND gain_ratio_10 == 59 AND gain_ratio_11 == 35 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 20.0 THEN class == 0"
+  expl: "IF ID == 20.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 20.0 AND target == 1 AND gain_ratio_1 == 87 AND gain_ratio_2 == 62 AND gain_ratio_3 == 43 AND gain_ratio_4 == 57 AND gain_ratio_5 == 59 AND gain_ratio_6 == 24 AND gain_ratio_7 == 37 AND gain_ratio_8 == 34 AND gain_ratio_9 == 30 AND gain_ratio_10 == 40 AND gain_ratio_11 == 48 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 20.0 THEN class == 0"
+  expl: "IF ID == 20.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 24.0 AND target == 0 AND gain_ratio_1 == 100 AND gain_ratio_2 == 55 AND gain_ratio_3 == 70 AND gain_ratio_4 == 41 AND gain_ratio_5 == 64 AND gain_ratio_6 == 78 AND gain_ratio_7 == 60 AND gain_ratio_8 == 52 AND gain_ratio_9 == 65 AND gain_ratio_10 == 14 AND gain_ratio_11 == 25 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 24.0 THEN class == 0"
+  expl: "IF ID == 24.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 24.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 54 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 30 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 56 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 24.0 THEN class == 0"
+  expl: "IF ID == 24.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 24.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 11 AND gain_ratio_4 == 5 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 17 AND gain_ratio_11 == 34 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 24.0 THEN class == 0"
+  expl: "IF ID == 24.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 30.0 AND target == 1 AND gain_ratio_1 == 174 AND gain_ratio_2 == 139 AND gain_ratio_3 == 121 AND gain_ratio_4 == 128 AND gain_ratio_5 == 95 AND gain_ratio_6 == 109 AND gain_ratio_7 == 97 AND gain_ratio_8 == 104 AND gain_ratio_9 == 85 AND gain_ratio_10 == 54 AND gain_ratio_11 == 41 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 30.0 THEN class == 0"
+  expl: "IF ID == 30.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 30.0 AND target == 1 AND gain_ratio_1 == 119 AND gain_ratio_2 == 131 AND gain_ratio_3 == 123 AND gain_ratio_4 == 130 AND gain_ratio_5 == 105 AND gain_ratio_6 == 89 AND gain_ratio_7 == 104 AND gain_ratio_8 == 76 AND gain_ratio_9 == 42 AND gain_ratio_10 == 46 AND gain_ratio_11 == 50 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 30.0 THEN class == 0"
+  expl: "IF ID == 30.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 30.0 AND target == 0 AND gain_ratio_1 == 149 AND gain_ratio_2 == 142 AND gain_ratio_3 == 125 AND gain_ratio_4 == 95 AND gain_ratio_5 == 93 AND gain_ratio_6 == 93 AND gain_ratio_7 == 78 AND gain_ratio_8 == 64 AND gain_ratio_9 == 82 AND gain_ratio_10 == 59 AND gain_ratio_11 == 61 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 30.0 THEN class == 0"
+  expl: "IF ID == 30.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 30.0 AND target == 1 AND gain_ratio_1 == 164 AND gain_ratio_2 == 153 AND gain_ratio_3 == 98 AND gain_ratio_4 == 142 AND gain_ratio_5 == 121 AND gain_ratio_6 == 97 AND gain_ratio_7 == 80 AND gain_ratio_8 == 48 AND gain_ratio_9 == 43 AND gain_ratio_10 == 71 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 30.0 THEN class == 0"
+  expl: "IF ID == 30.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 30.0 AND target == 2 AND gain_ratio_1 == 70 AND gain_ratio_2 == 29 AND gain_ratio_3 == 43 AND gain_ratio_4 == 55 AND gain_ratio_5 == 29 AND gain_ratio_6 == 55 AND gain_ratio_7 == 35 AND gain_ratio_8 == 16 AND gain_ratio_9 == 19 AND gain_ratio_10 == 34 AND gain_ratio_11 == 13 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 30.0 THEN class == 0"
+  expl: "IF ID == 30.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 35.0 AND target == 1 AND gain_ratio_1 == 72 AND gain_ratio_2 == 72 AND gain_ratio_3 == 190 AND gain_ratio_4 == 118 AND gain_ratio_5 == 50 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 70 AND gain_ratio_9 == 58 AND gain_ratio_10 == 53 AND gain_ratio_11 == 68 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 35.0 THEN class == 0"
+  expl: "IF ID == 35.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 35.0 AND target == 1 AND gain_ratio_1 == 96 AND gain_ratio_2 == 122 AND gain_ratio_3 == 100 AND gain_ratio_4 == 80 AND gain_ratio_5 == 136 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 99 AND gain_ratio_10 == 87 AND gain_ratio_11 == 83 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 35.0 THEN class == 0"
+  expl: "IF ID == 35.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 35.0 AND target == 0 AND gain_ratio_1 == 98 AND gain_ratio_2 == 13 AND gain_ratio_3 == 105 AND gain_ratio_4 == 74 AND gain_ratio_5 == 89 AND gain_ratio_6 == 118 AND gain_ratio_7 == 148 AND gain_ratio_8 == 147 AND gain_ratio_9 == 119 AND gain_ratio_10 == 159 AND gain_ratio_11 == 101 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 35.0 THEN class == 0"
+  expl: "IF ID == 35.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 35.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 173 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 176 AND gain_ratio_7 == 105 AND gain_ratio_8 == 135 AND gain_ratio_9 == 164 AND gain_ratio_10 == 115 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 35.0 THEN class == 0"
+  expl: "IF ID == 35.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 41.0 AND target == 1 AND gain_ratio_1 == 74 AND gain_ratio_2 == 102 AND gain_ratio_3 == 47 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 51 AND gain_ratio_8 == 187 AND gain_ratio_9 == 107 AND gain_ratio_10 == 110 AND gain_ratio_11 == 161 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 41.0 THEN class == 0"
+  expl: "IF ID == 41.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 74.0 AND target == 1 AND gain_ratio_1 == 102 AND gain_ratio_2 == 105 AND gain_ratio_3 == 87 AND gain_ratio_4 == 67 AND gain_ratio_5 == 129 AND gain_ratio_6 == 141 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 95 AND gain_ratio_11 == 104 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 74.0 THEN class == 0"
+  expl: "IF ID == 74.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 74.0 AND target == 1 AND gain_ratio_1 == 125 AND gain_ratio_2 == 193 AND gain_ratio_3 == 120 AND gain_ratio_4 == 156 AND gain_ratio_5 == 79 AND gain_ratio_6 == 60 AND gain_ratio_7 == 116 AND gain_ratio_8 == 162 AND gain_ratio_9 == 111 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 74.0 THEN class == 0"
+  expl: "IF ID == 74.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 74.0 AND target == 0 AND gain_ratio_1 == 143 AND gain_ratio_2 == 115 AND gain_ratio_3 == 66 AND gain_ratio_4 == 131 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 151 AND gain_ratio_11 == 131 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 74.0 THEN class == 0"
+  expl: "IF ID == 74.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 74.0 AND target == 1 AND gain_ratio_1 == 71 AND gain_ratio_2 == 154 AND gain_ratio_3 == 107 AND gain_ratio_4 == 60 AND gain_ratio_5 == 196 AND gain_ratio_6 == 145 AND gain_ratio_7 == 131 AND gain_ratio_8 == 133 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 128 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 74.0 THEN class == 0"
+  expl: "IF ID == 74.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 74.0 AND target == 2 AND gain_ratio_1 == 40 AND gain_ratio_2 == 35 AND gain_ratio_3 == 59 AND gain_ratio_4 == 89 AND gain_ratio_5 == 33 AND gain_ratio_6 == 99 AND gain_ratio_7 == 190 AND gain_ratio_8 == 87 AND gain_ratio_9 == 62 AND gain_ratio_10 == 69 AND gain_ratio_11 == 54 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 74.0 THEN class == 0"
+  expl: "IF ID == 74.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 81.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 135 AND gain_ratio_3 == 115 AND gain_ratio_4 == 143 AND gain_ratio_5 == 196 AND gain_ratio_6 == 104 AND gain_ratio_7 == 113 AND gain_ratio_8 == 187 AND gain_ratio_9 == 119 AND gain_ratio_10 == 154 AND gain_ratio_11 == 111 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 81.0 THEN class == 0"
+  expl: "IF ID == 81.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 81.0 AND target == 1 AND gain_ratio_1 == 157 AND gain_ratio_2 == 159 AND gain_ratio_3 == 159 AND gain_ratio_4 == 107 AND gain_ratio_5 == 151 AND gain_ratio_6 == 141 AND gain_ratio_7 == 132 AND gain_ratio_8 == 139 AND gain_ratio_9 == 140 AND gain_ratio_10 == 122 AND gain_ratio_11 == 163 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 81.0 THEN class == 0"
+  expl: "IF ID == 81.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 81.0 AND target == 0 AND gain_ratio_1 == 162 AND gain_ratio_2 == 121 AND gain_ratio_3 == 126 AND gain_ratio_4 == 139 AND gain_ratio_5 == 109 AND gain_ratio_6 == 91 AND gain_ratio_7 == 78 AND gain_ratio_8 == 153 AND gain_ratio_9 == 126 AND gain_ratio_10 == 152 AND gain_ratio_11 == 148 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 81.0 THEN class == 0"
+  expl: "IF ID == 81.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 81.0 AND target == 1 AND gain_ratio_1 == 173 AND gain_ratio_2 == 148 AND gain_ratio_3 == 164 AND gain_ratio_4 == 156 AND gain_ratio_5 == 149 AND gain_ratio_6 == 130 AND gain_ratio_7 == 142 AND gain_ratio_8 == 124 AND gain_ratio_9 == 106 AND gain_ratio_10 == 135 AND gain_ratio_11 == 116 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 81.0 THEN class == 0"
+  expl: "IF ID == 81.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 81.0 AND target == 2 AND gain_ratio_1 == 119 AND gain_ratio_2 == 157 AND gain_ratio_3 == 74 AND gain_ratio_4 == 110 AND gain_ratio_5 == 117 AND gain_ratio_6 == 194 AND gain_ratio_7 == 97 AND gain_ratio_8 == 151 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 81.0 THEN class == 0"
+  expl: "IF ID == 81.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 82.0 AND target == 0 AND gain_ratio_1 == 97 AND gain_ratio_2 == 65 AND gain_ratio_3 == 22 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 79 AND gain_ratio_10 == 195 AND gain_ratio_11 == 69 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 82.0 THEN class == 0"
+  expl: "IF ID == 82.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 82.0 AND target == 1 AND gain_ratio_1 == 22 AND gain_ratio_2 == 193 AND gain_ratio_3 == 35 AND gain_ratio_4 == 66 AND gain_ratio_5 == 92 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 29 AND gain_ratio_9 == 187 AND gain_ratio_10 == 145 AND gain_ratio_11 == 60 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 82.0 THEN class == 0"
+  expl: "IF ID == 82.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 96.0 AND target == 1 AND gain_ratio_1 == 129 AND gain_ratio_2 == 193 AND gain_ratio_3 == 82 AND gain_ratio_4 == 97 AND gain_ratio_5 == 60 AND gain_ratio_6 == 90 AND gain_ratio_7 == 92 AND gain_ratio_8 == 187 AND gain_ratio_9 == 67 AND gain_ratio_10 == 195 AND gain_ratio_11 == 89 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 96.0 THEN class == 0"
+  expl: "IF ID == 96.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 96.0 AND target == 1 AND gain_ratio_1 == 78 AND gain_ratio_2 == 24 AND gain_ratio_3 == 32 AND gain_ratio_4 == 52 AND gain_ratio_5 == 196 AND gain_ratio_6 == 62 AND gain_ratio_7 == 40 AND gain_ratio_8 == 31 AND gain_ratio_9 == 41 AND gain_ratio_10 == 21 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 96.0 THEN class == 0"
+  expl: "IF ID == 96.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 96.0 AND target == 0 AND gain_ratio_1 == 99 AND gain_ratio_2 == 108 AND gain_ratio_3 == 190 AND gain_ratio_4 == 135 AND gain_ratio_5 == 125 AND gain_ratio_6 == 88 AND gain_ratio_7 == 128 AND gain_ratio_8 == 85 AND gain_ratio_9 == 103 AND gain_ratio_10 == 76 AND gain_ratio_11 == 155 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 96.0 THEN class == 0"
+  expl: "IF ID == 96.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 96.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 79 AND gain_ratio_5 == 161 AND gain_ratio_6 == 194 AND gain_ratio_7 == 100 AND gain_ratio_8 == 48 AND gain_ratio_9 == 35 AND gain_ratio_10 == 62 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 96.0 THEN class == 0"
+  expl: "IF ID == 96.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 96.0 AND target == 2 AND gain_ratio_1 == 35 AND gain_ratio_2 == 47 AND gain_ratio_3 == 9 AND gain_ratio_4 == 44 AND gain_ratio_5 == 15 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 8 AND gain_ratio_10 == 3 AND gain_ratio_11 == 14 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 96.0 THEN class == 0"
+  expl: "IF ID == 96.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 134.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 176 AND gain_ratio_4 == 161 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 148 AND gain_ratio_9 == 74 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 134.0 THEN class == 0"
+  expl: "IF ID == 134.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 134.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 164 AND gain_ratio_6 == 191 AND gain_ratio_7 == 187 AND gain_ratio_8 == 181 AND gain_ratio_9 == 184 AND gain_ratio_10 == 134 AND gain_ratio_11 == 99 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 134.0 THEN class == 0"
+  expl: "IF ID == 134.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 134.0 AND target == 0 AND gain_ratio_1 == 194 AND gain_ratio_2 == 177 AND gain_ratio_3 == 148 AND gain_ratio_4 == 180 AND gain_ratio_5 == 190 AND gain_ratio_6 == 189 AND gain_ratio_7 == 176 AND gain_ratio_8 == 182 AND gain_ratio_9 == 162 AND gain_ratio_10 == 78 AND gain_ratio_11 == 167 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 134.0 THEN class == 0"
+  expl: "IF ID == 134.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 134.0 AND target == 1 AND gain_ratio_1 == 192 AND gain_ratio_2 == 184 AND gain_ratio_3 == 188 AND gain_ratio_4 == 200 AND gain_ratio_5 == 193 AND gain_ratio_6 == 193 AND gain_ratio_7 == 189 AND gain_ratio_8 == 185 AND gain_ratio_9 == 182 AND gain_ratio_10 == 187 AND gain_ratio_11 == 197 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 134.0 THEN class == 0"
+  expl: "IF ID == 134.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 143.0 AND target == 1 AND gain_ratio_1 == 153 AND gain_ratio_2 == 193 AND gain_ratio_3 == 170 AND gain_ratio_4 == 170 AND gain_ratio_5 == 148 AND gain_ratio_6 == 165 AND gain_ratio_7 == 143 AND gain_ratio_8 == 168 AND gain_ratio_9 == 147 AND gain_ratio_10 == 161 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 143.0 THEN class == 0"
+  expl: "IF ID == 143.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 143.0 AND target == 0 AND gain_ratio_1 == 166 AND gain_ratio_2 == 147 AND gain_ratio_3 == 171 AND gain_ratio_4 == 71 AND gain_ratio_5 == 129 AND gain_ratio_6 == 157 AND gain_ratio_7 == 158 AND gain_ratio_8 == 47 AND gain_ratio_9 == 113 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 143.0 THEN class == 0"
+  expl: "IF ID == 143.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 143.0 AND target == 1 AND gain_ratio_1 == 75 AND gain_ratio_2 == 193 AND gain_ratio_3 == 172 AND gain_ratio_4 == 152 AND gain_ratio_5 == 137 AND gain_ratio_6 == 83 AND gain_ratio_7 == 90 AND gain_ratio_8 == 138 AND gain_ratio_9 == 172 AND gain_ratio_10 == 183 AND gain_ratio_11 == 111 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 143.0 THEN class == 0"
+  expl: "IF ID == 143.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 143.0 AND target == 2 AND gain_ratio_1 == 31 AND gain_ratio_2 == 70 AND gain_ratio_3 == 48 AND gain_ratio_4 == 58 AND gain_ratio_5 == 196 AND gain_ratio_6 == 20 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 44 AND gain_ratio_10 == 49 AND gain_ratio_11 == 61 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 143.0 THEN class == 0"
+  expl: "IF ID == 143.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 143.0 AND target == 1 AND gain_ratio_1 == 140 AND gain_ratio_2 == 125 AND gain_ratio_3 == 135 AND gain_ratio_4 == 171 AND gain_ratio_5 == 160 AND gain_ratio_6 == 158 AND gain_ratio_7 == 137 AND gain_ratio_8 == 136 AND gain_ratio_9 == 109 AND gain_ratio_10 == 195 AND gain_ratio_11 == 111 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 143.0 THEN class == 0"
+  expl: "IF ID == 143.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 146.0 AND target == 1 AND gain_ratio_1 == 69 AND gain_ratio_2 == 34 AND gain_ratio_3 == 51 AND gain_ratio_4 == 95 AND gain_ratio_5 == 73 AND gain_ratio_6 == 51 AND gain_ratio_7 == 77 AND gain_ratio_8 == 84 AND gain_ratio_9 == 103 AND gain_ratio_10 == 123 AND gain_ratio_11 == 98 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 146.0 THEN class == 0"
+  expl: "IF ID == 146.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 146.0 AND target == 1 AND gain_ratio_1 == 153 AND gain_ratio_2 == 124 AND gain_ratio_3 == 108 AND gain_ratio_4 == 160 AND gain_ratio_5 == 126 AND gain_ratio_6 == 73 AND gain_ratio_7 == 42 AND gain_ratio_8 == 54 AND gain_ratio_9 == 47 AND gain_ratio_10 == 111 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 146.0 THEN class == 0"
+  expl: "IF ID == 146.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 146.0 AND target == 0 AND gain_ratio_1 == 121 AND gain_ratio_2 == 193 AND gain_ratio_3 == 155 AND gain_ratio_4 == 76 AND gain_ratio_5 == 196 AND gain_ratio_6 == 96 AND gain_ratio_7 == 102 AND gain_ratio_8 == 74 AND gain_ratio_9 == 139 AND gain_ratio_10 == 88 AND gain_ratio_11 == 55 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 146.0 THEN class == 0"
+  expl: "IF ID == 146.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 146.0 AND target == 1 AND gain_ratio_1 == 44 AND gain_ratio_2 == 61 AND gain_ratio_3 == 97 AND gain_ratio_4 == 36 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 38 AND gain_ratio_10 == 63 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 146.0 THEN class == 0"
+  expl: "IF ID == 146.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 149.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 22 AND gain_ratio_3 == 118 AND gain_ratio_4 == 202 AND gain_ratio_5 == 66 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 105 AND gain_ratio_11 == 90 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 149.0 THEN class == 0"
+  expl: "IF ID == 149.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 149.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 52 AND gain_ratio_4 == 53 AND gain_ratio_5 == 49 AND gain_ratio_6 == 67 AND gain_ratio_7 == 40 AND gain_ratio_8 == 37 AND gain_ratio_9 == 29 AND gain_ratio_10 == 50 AND gain_ratio_11 == 37 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 149.0 THEN class == 0"
+  expl: "IF ID == 149.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 149.0 AND target == 1 AND gain_ratio_1 == 85 AND gain_ratio_2 == 56 AND gain_ratio_3 == 19 AND gain_ratio_4 == 62 AND gain_ratio_5 == 43 AND gain_ratio_6 == 71 AND gain_ratio_7 == 70 AND gain_ratio_8 == 76 AND gain_ratio_9 == 60 AND gain_ratio_10 == 30 AND gain_ratio_11 == 63 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 149.0 THEN class == 0"
+  expl: "IF ID == 149.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 149.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 149.0 THEN class == 0"
+  expl: "IF ID == 149.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 150.0 AND target == 2 AND gain_ratio_1 == 100 AND gain_ratio_2 == 98 AND gain_ratio_3 == 135 AND gain_ratio_4 == 148 AND gain_ratio_5 == 165 AND gain_ratio_6 == 108 AND gain_ratio_7 == 170 AND gain_ratio_8 == 117 AND gain_ratio_9 == 128 AND gain_ratio_10 == 170 AND gain_ratio_11 == 65 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 150.0 THEN class == 0"
+  expl: "IF ID == 150.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 150.0 AND target == 1 AND gain_ratio_1 == 189 AND gain_ratio_2 == 189 AND gain_ratio_3 == 187 AND gain_ratio_4 == 196 AND gain_ratio_5 == 188 AND gain_ratio_6 == 170 AND gain_ratio_7 == 180 AND gain_ratio_8 == 179 AND gain_ratio_9 == 180 AND gain_ratio_10 == 172 AND gain_ratio_11 == 193 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 150.0 THEN class == 0"
+  expl: "IF ID == 150.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 150.0 AND target == 0 AND gain_ratio_1 == 196 AND gain_ratio_2 == 190 AND gain_ratio_3 == 190 AND gain_ratio_4 == 201 AND gain_ratio_5 == 189 AND gain_ratio_6 == 190 AND gain_ratio_7 == 183 AND gain_ratio_8 == 180 AND gain_ratio_9 == 181 AND gain_ratio_10 == 189 AND gain_ratio_11 == 195 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 150.0 THEN class == 0"
+  expl: "IF ID == 150.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 150.0 AND target == 1 AND gain_ratio_1 == 197 AND gain_ratio_2 == 192 AND gain_ratio_3 == 189 AND gain_ratio_4 == 196 AND gain_ratio_5 == 195 AND gain_ratio_6 == 187 AND gain_ratio_7 == 188 AND gain_ratio_8 == 184 AND gain_ratio_9 == 185 AND gain_ratio_10 == 192 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 150.0 THEN class == 0"
+  expl: "IF ID == 150.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 150.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 191 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 191 AND gain_ratio_6 == 192 AND gain_ratio_7 == 186 AND gain_ratio_8 == 186 AND gain_ratio_9 == 186 AND gain_ratio_10 == 194 AND gain_ratio_11 == 196 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 150.0 THEN class == 0"
+  expl: "IF ID == 150.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 161.0 AND target == 1 AND gain_ratio_1 == 29 AND gain_ratio_2 == 116 AND gain_ratio_3 == 123 AND gain_ratio_4 == 59 AND gain_ratio_5 == 149 AND gain_ratio_6 == 144 AND gain_ratio_7 == 72 AND gain_ratio_8 == 136 AND gain_ratio_9 == 109 AND gain_ratio_10 == 131 AND gain_ratio_11 == 124 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 161.0 THEN class == 0"
+  expl: "IF ID == 161.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 161.0 AND target == 0 AND gain_ratio_1 == 16 AND gain_ratio_2 == 53 AND gain_ratio_3 == 117 AND gain_ratio_4 == 202 AND gain_ratio_5 == 152 AND gain_ratio_6 == 121 AND gain_ratio_7 == 135 AND gain_ratio_8 == 80 AND gain_ratio_9 == 116 AND gain_ratio_10 == 108 AND gain_ratio_11 == 148 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 161.0 THEN class == 0"
+  expl: "IF ID == 161.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 161.0 AND target == 1 AND gain_ratio_1 == 178 AND gain_ratio_2 == 167 AND gain_ratio_3 == 149 AND gain_ratio_4 == 202 AND gain_ratio_5 == 119 AND gain_ratio_6 == 75 AND gain_ratio_7 == 123 AND gain_ratio_8 == 158 AND gain_ratio_9 == 72 AND gain_ratio_10 == 157 AND gain_ratio_11 == 61 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 161.0 THEN class == 0"
+  expl: "IF ID == 161.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 161.0 AND target == 2 AND gain_ratio_1 == 89 AND gain_ratio_2 == 33 AND gain_ratio_3 == 29 AND gain_ratio_4 == 38 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 71 AND gain_ratio_8 == 23 AND gain_ratio_9 == 60 AND gain_ratio_10 == 27 AND gain_ratio_11 == 27 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 161.0 THEN class == 0"
+  expl: "IF ID == 161.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 185.0 AND target == 1 AND gain_ratio_1 == 37 AND gain_ratio_2 == 193 AND gain_ratio_3 == 18 AND gain_ratio_4 == 202 AND gain_ratio_5 == 102 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 185.0 THEN class == 0"
+  expl: "IF ID == 185.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 185.0 AND target == 0 AND gain_ratio_1 == 150 AND gain_ratio_2 == 67 AND gain_ratio_3 == 190 AND gain_ratio_4 == 82 AND gain_ratio_5 == 111 AND gain_ratio_6 == 140 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 170 AND gain_ratio_10 == 195 AND gain_ratio_11 == 180 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 185.0 THEN class == 0"
+  expl: "IF ID == 185.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 185.0 AND target == 1 AND gain_ratio_1 == 144 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 183 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 185.0 THEN class == 0"
+  expl: "IF ID == 185.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 185.0 AND target == 2 AND gain_ratio_1 == 84 AND gain_ratio_2 == 109 AND gain_ratio_3 == 190 AND gain_ratio_4 == 177 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 126 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 185.0 THEN class == 0"
+  expl: "IF ID == 185.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 191.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 83 AND gain_ratio_3 == 69 AND gain_ratio_4 == 61 AND gain_ratio_5 == 71 AND gain_ratio_6 == 109 AND gain_ratio_7 == 98 AND gain_ratio_8 == 73 AND gain_ratio_9 == 104 AND gain_ratio_10 == 117 AND gain_ratio_11 == 97 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 191.0 THEN class == 0"
+  expl: "IF ID == 191.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 191.0 AND target == 0 AND gain_ratio_1 == 84 AND gain_ratio_2 == 87 AND gain_ratio_3 == 77 AND gain_ratio_4 == 46 AND gain_ratio_5 == 84 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 191.0 THEN class == 0"
+  expl: "IF ID == 191.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 191.0 AND target == 1 AND gain_ratio_1 == 80 AND gain_ratio_2 == 73 AND gain_ratio_3 == 10 AND gain_ratio_4 == 102 AND gain_ratio_5 == 98 AND gain_ratio_6 == 78 AND gain_ratio_7 == 95 AND gain_ratio_8 == 61 AND gain_ratio_9 == 95 AND gain_ratio_10 == 66 AND gain_ratio_11 == 71 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 191.0 THEN class == 0"
+  expl: "IF ID == 191.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 202.0 AND target == 1 AND gain_ratio_1 == 79 AND gain_ratio_2 == 163 AND gain_ratio_3 == 130 AND gain_ratio_4 == 166 AND gain_ratio_5 == 140 AND gain_ratio_6 == 101 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 124 AND gain_ratio_11 == 170 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 202.0 THEN class == 0"
+  expl: "IF ID == 202.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 202.0 AND target == 0 AND gain_ratio_1 == 170 AND gain_ratio_2 == 106 AND gain_ratio_3 == 142 AND gain_ratio_4 == 155 AND gain_ratio_5 == 139 AND gain_ratio_6 == 149 AND gain_ratio_7 == 141 AND gain_ratio_8 == 93 AND gain_ratio_9 == 134 AND gain_ratio_10 == 121 AND gain_ratio_11 == 154 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 202.0 THEN class == 0"
+  expl: "IF ID == 202.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 202.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 106 AND gain_ratio_3 == 67 AND gain_ratio_4 == 59 AND gain_ratio_5 == 196 AND gain_ratio_6 == 119 AND gain_ratio_7 == 132 AND gain_ratio_8 == 121 AND gain_ratio_9 == 91 AND gain_ratio_10 == 114 AND gain_ratio_11 == 156 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 202.0 THEN class == 0"
+  expl: "IF ID == 202.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 202.0 AND target == 2 AND gain_ratio_1 == 81 AND gain_ratio_2 == 91 AND gain_ratio_3 == 101 AND gain_ratio_4 == 101 AND gain_ratio_5 == 99 AND gain_ratio_6 == 119 AND gain_ratio_7 == 110 AND gain_ratio_8 == 75 AND gain_ratio_9 == 104 AND gain_ratio_10 == 116 AND gain_ratio_11 == 86 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 202.0 THEN class == 0"
+  expl: "IF ID == 202.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 234.0 AND target == 1 AND gain_ratio_1 == 89 AND gain_ratio_2 == 57 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 75 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 74 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 234.0 THEN class == 0"
+  expl: "IF ID == 234.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 234.0 AND target == 0 AND gain_ratio_1 == 105 AND gain_ratio_2 == 118 AND gain_ratio_3 == 96 AND gain_ratio_4 == 123 AND gain_ratio_5 == 118 AND gain_ratio_6 == 47 AND gain_ratio_7 == 100 AND gain_ratio_8 == 69 AND gain_ratio_9 == 84 AND gain_ratio_10 == 147 AND gain_ratio_11 == 118 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 234.0 THEN class == 0"
+  expl: "IF ID == 234.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 234.0 AND target == 1 AND gain_ratio_1 == 47 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 114 AND gain_ratio_5 == 91 AND gain_ratio_6 == 102 AND gain_ratio_7 == 57 AND gain_ratio_8 == 102 AND gain_ratio_9 == 66 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 234.0 THEN class == 0"
+  expl: "IF ID == 234.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 234.0 AND target == 2 AND gain_ratio_1 == 29 AND gain_ratio_2 == 12 AND gain_ratio_3 == 64 AND gain_ratio_4 == 202 AND gain_ratio_5 == 11 AND gain_ratio_6 == 13 AND gain_ratio_7 == 16 AND gain_ratio_8 == 10 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 39 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 234.0 THEN class == 0"
+  expl: "IF ID == 234.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 245.0 AND target == 1 AND gain_ratio_1 == 98 AND gain_ratio_2 == 193 AND gain_ratio_3 == 138 AND gain_ratio_4 == 167 AND gain_ratio_5 == 182 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 101 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 245.0 THEN class == 0"
+  expl: "IF ID == 245.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 245.0 AND target == 0 AND gain_ratio_1 == 107 AND gain_ratio_2 == 193 AND gain_ratio_3 == 109 AND gain_ratio_4 == 94 AND gain_ratio_5 == 144 AND gain_ratio_6 == 87 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 144 AND gain_ratio_11 == 143 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 245.0 THEN class == 0"
+  expl: "IF ID == 245.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 245.0 AND target == 1 AND gain_ratio_1 == 160 AND gain_ratio_2 == 193 AND gain_ratio_3 == 134 AND gain_ratio_4 == 183 AND gain_ratio_5 == 156 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 25 AND gain_ratio_9 == 115 AND gain_ratio_10 == 195 AND gain_ratio_11 == 140 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 245.0 THEN class == 0"
+  expl: "IF ID == 245.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 245.0 AND target == 2 AND gain_ratio_1 == 68 AND gain_ratio_2 == 130 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 38 AND gain_ratio_6 == 128 AND gain_ratio_7 == 109 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 118 AND sex == 0 THEN class == 0"
+  dexp: "IF ID == 245.0 THEN class == 0"
+  expl: "IF ID == 245.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 12.0 AND target == 1 AND gain_ratio_1 == 176 AND gain_ratio_2 == 185 AND gain_ratio_3 == 184 AND gain_ratio_4 == 184 AND gain_ratio_5 == 174 AND gain_ratio_6 == 183 AND gain_ratio_7 == 121 AND gain_ratio_8 == 177 AND gain_ratio_9 == 171 AND gain_ratio_10 == 186 AND gain_ratio_11 == 187 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 12.0 THEN class == 0"
+  expl: "IF ID == 12.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 12.0 AND target == 1 AND gain_ratio_1 == 190 AND gain_ratio_2 == 169 AND gain_ratio_3 == 182 AND gain_ratio_4 == 192 AND gain_ratio_5 == 171 AND gain_ratio_6 == 168 AND gain_ratio_7 == 181 AND gain_ratio_8 == 145 AND gain_ratio_9 == 178 AND gain_ratio_10 == 182 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 12.0 THEN class == 0"
+  expl: "IF ID == 12.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 12.0 AND target == 0 AND gain_ratio_1 == 191 AND gain_ratio_2 == 182 AND gain_ratio_3 == 183 AND gain_ratio_4 == 178 AND gain_ratio_5 == 187 AND gain_ratio_6 == 180 AND gain_ratio_7 == 175 AND gain_ratio_8 == 170 AND gain_ratio_9 == 176 AND gain_ratio_10 == 184 AND gain_ratio_11 == 189 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 12.0 THEN class == 0"
+  expl: "IF ID == 12.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 12.0 AND target == 1 AND gain_ratio_1 == 192 AND gain_ratio_2 == 183 AND gain_ratio_3 == 181 AND gain_ratio_4 == 191 AND gain_ratio_5 == 183 AND gain_ratio_6 == 177 AND gain_ratio_7 == 179 AND gain_ratio_8 == 174 AND gain_ratio_9 == 151 AND gain_ratio_10 == 187 AND gain_ratio_11 == 190 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 12.0 THEN class == 0"
+  expl: "IF ID == 12.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 21.0 AND target == 1 AND gain_ratio_1 == 95 AND gain_ratio_2 == 107 AND gain_ratio_3 == 12 AND gain_ratio_4 == 91 AND gain_ratio_5 == 34 AND gain_ratio_6 == 33 AND gain_ratio_7 == 110 AND gain_ratio_8 == 118 AND gain_ratio_9 == 37 AND gain_ratio_10 == 75 AND gain_ratio_11 == 93 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 21.0 THEN class == 0"
+  expl: "IF ID == 21.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 21.0 AND target == 1 AND gain_ratio_1 == 120 AND gain_ratio_2 == 149 AND gain_ratio_3 == 56 AND gain_ratio_4 == 122 AND gain_ratio_5 == 84 AND gain_ratio_6 == 130 AND gain_ratio_7 == 154 AND gain_ratio_8 == 120 AND gain_ratio_9 == 123 AND gain_ratio_10 == 128 AND gain_ratio_11 == 116 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 21.0 THEN class == 0"
+  expl: "IF ID == 21.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 21.0 AND target == 0 AND gain_ratio_1 == 152 AND gain_ratio_2 == 68 AND gain_ratio_3 == 103 AND gain_ratio_4 == 28 AND gain_ratio_5 == 196 AND gain_ratio_6 == 81 AND gain_ratio_7 == 46 AND gain_ratio_8 == 51 AND gain_ratio_9 == 68 AND gain_ratio_10 == 68 AND gain_ratio_11 == 106 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 21.0 THEN class == 0"
+  expl: "IF ID == 21.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 21.0 AND target == 1 AND gain_ratio_1 == 144 AND gain_ratio_2 == 70 AND gain_ratio_3 == 56 AND gain_ratio_4 == 120 AND gain_ratio_5 == 89 AND gain_ratio_6 == 57 AND gain_ratio_7 == 20 AND gain_ratio_8 == 59 AND gain_ratio_9 == 92 AND gain_ratio_10 == 26 AND gain_ratio_11 == 119 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 21.0 THEN class == 0"
+  expl: "IF ID == 21.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 38.0 AND target == 1 AND gain_ratio_1 == 93 AND gain_ratio_2 == 80 AND gain_ratio_3 == 62 AND gain_ratio_4 == 54 AND gain_ratio_5 == 1 AND gain_ratio_6 == 59 AND gain_ratio_7 == 15 AND gain_ratio_8 == 90 AND gain_ratio_9 == 126 AND gain_ratio_10 == 90 AND gain_ratio_11 == 31 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 38.0 THEN class == 0"
+  expl: "IF ID == 38.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 38.0 AND target == 1 AND gain_ratio_1 == 86 AND gain_ratio_2 == 44 AND gain_ratio_3 == 23 AND gain_ratio_4 == 100 AND gain_ratio_5 == 58 AND gain_ratio_6 == 13 AND gain_ratio_7 == 32 AND gain_ratio_8 == 120 AND gain_ratio_9 == 96 AND gain_ratio_10 == 7 AND gain_ratio_11 == 112 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 38.0 THEN class == 0"
+  expl: "IF ID == 38.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 38.0 AND target == 0 AND gain_ratio_1 == 39 AND gain_ratio_2 == 46 AND gain_ratio_3 == 78 AND gain_ratio_4 == 68 AND gain_ratio_5 == 28 AND gain_ratio_6 == 9 AND gain_ratio_7 == 13 AND gain_ratio_8 == 20 AND gain_ratio_9 == 21 AND gain_ratio_10 == 10 AND gain_ratio_11 == 38 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 38.0 THEN class == 0"
+  expl: "IF ID == 38.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 38.0 AND target == 1 AND gain_ratio_1 == 37 AND gain_ratio_2 == 36 AND gain_ratio_3 == 50 AND gain_ratio_4 == 8 AND gain_ratio_5 == 196 AND gain_ratio_6 == 9 AND gain_ratio_7 == 190 AND gain_ratio_8 == 0 AND gain_ratio_9 == 7 AND gain_ratio_10 == 195 AND gain_ratio_11 == 4 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 38.0 THEN class == 0"
+  expl: "IF ID == 38.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 38.0 AND target == 2 AND gain_ratio_1 == 18 AND gain_ratio_2 == 1 AND gain_ratio_3 == 190 AND gain_ratio_4 == 16 AND gain_ratio_5 == 2 AND gain_ratio_6 == 7 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 38.0 THEN class == 0"
+  expl: "IF ID == 38.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 43.0 AND target == 1 AND gain_ratio_1 == 32 AND gain_ratio_2 == 129 AND gain_ratio_3 == 145 AND gain_ratio_4 == 145 AND gain_ratio_5 == 153 AND gain_ratio_6 == 181 AND gain_ratio_7 == 149 AND gain_ratio_8 == 177 AND gain_ratio_9 == 177 AND gain_ratio_10 == 180 AND gain_ratio_11 == 177 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 43.0 THEN class == 0"
+  expl: "IF ID == 43.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 43.0 AND target == 1 AND gain_ratio_1 == 143 AND gain_ratio_2 == 193 AND gain_ratio_3 == 101 AND gain_ratio_4 == 186 AND gain_ratio_5 == 72 AND gain_ratio_6 == 163 AND gain_ratio_7 == 153 AND gain_ratio_8 == 180 AND gain_ratio_9 == 183 AND gain_ratio_10 == 177 AND gain_ratio_11 == 166 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 43.0 THEN class == 0"
+  expl: "IF ID == 43.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 43.0 AND target == 1 AND gain_ratio_1 == 33 AND gain_ratio_2 == 193 AND gain_ratio_3 == 70 AND gain_ratio_4 == 63 AND gain_ratio_5 == 22 AND gain_ratio_6 == 39 AND gain_ratio_7 == 114 AND gain_ratio_8 == 92 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 172 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 43.0 THEN class == 0"
+  expl: "IF ID == 43.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 43.0 AND target == 2 AND gain_ratio_1 == 24 AND gain_ratio_2 == 15 AND gain_ratio_3 == 13 AND gain_ratio_4 == 20 AND gain_ratio_5 == 19 AND gain_ratio_6 == 21 AND gain_ratio_7 == 28 AND gain_ratio_8 == 24 AND gain_ratio_9 == 48 AND gain_ratio_10 == 39 AND gain_ratio_11 == 32 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 43.0 THEN class == 0"
+  expl: "IF ID == 43.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 60.0 AND target == 1 AND gain_ratio_1 == 161 AND gain_ratio_2 == 181 AND gain_ratio_3 == 190 AND gain_ratio_4 == 163 AND gain_ratio_5 == 153 AND gain_ratio_6 == 126 AND gain_ratio_7 == 190 AND gain_ratio_8 == 143 AND gain_ratio_9 == 169 AND gain_ratio_10 == 140 AND gain_ratio_11 == 153 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 60.0 THEN class == 0"
+  expl: "IF ID == 60.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 60.0 AND target == 1 AND gain_ratio_1 == 190 AND gain_ratio_2 == 162 AND gain_ratio_3 == 190 AND gain_ratio_4 == 195 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 159 AND gain_ratio_9 == 174 AND gain_ratio_10 == 165 AND gain_ratio_11 == 191 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 60.0 THEN class == 0"
+  expl: "IF ID == 60.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 60.0 AND target == 0 AND gain_ratio_1 == 188 AND gain_ratio_2 == 172 AND gain_ratio_3 == 162 AND gain_ratio_4 == 194 AND gain_ratio_5 == 170 AND gain_ratio_6 == 142 AND gain_ratio_7 == 183 AND gain_ratio_8 == 140 AND gain_ratio_9 == 160 AND gain_ratio_10 == 168 AND gain_ratio_11 == 175 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 60.0 THEN class == 0"
+  expl: "IF ID == 60.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 60.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 170 AND gain_ratio_3 == 176 AND gain_ratio_4 == 170 AND gain_ratio_5 == 172 AND gain_ratio_6 == 182 AND gain_ratio_7 == 107 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 152 AND gain_ratio_11 == 126 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 60.0 THEN class == 0"
+  expl: "IF ID == 60.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 60.0 AND target == 2 AND gain_ratio_1 == 122 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 126 AND gain_ratio_5 == 74 AND gain_ratio_6 == 83 AND gain_ratio_7 == 103 AND gain_ratio_8 == 113 AND gain_ratio_9 == 70 AND gain_ratio_10 == 80 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 60.0 THEN class == 0"
+  expl: "IF ID == 60.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 75.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 155 AND gain_ratio_6 == 151 AND gain_ratio_7 == 180 AND gain_ratio_8 == 173 AND gain_ratio_9 == 164 AND gain_ratio_10 == 186 AND gain_ratio_11 == 186 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 75.0 THEN class == 0"
+  expl: "IF ID == 75.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 75.0 AND target == 1 AND gain_ratio_1 == 171 AND gain_ratio_2 == 175 AND gain_ratio_3 == 65 AND gain_ratio_4 == 186 AND gain_ratio_5 == 181 AND gain_ratio_6 == 132 AND gain_ratio_7 == 118 AND gain_ratio_8 == 161 AND gain_ratio_9 == 152 AND gain_ratio_10 == 176 AND gain_ratio_11 == 167 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 75.0 THEN class == 0"
+  expl: "IF ID == 75.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 75.0 AND target == 0 AND gain_ratio_1 == 185 AND gain_ratio_2 == 184 AND gain_ratio_3 == 166 AND gain_ratio_4 == 191 AND gain_ratio_5 == 177 AND gain_ratio_6 == 136 AND gain_ratio_7 == 172 AND gain_ratio_8 == 165 AND gain_ratio_9 == 162 AND gain_ratio_10 == 159 AND gain_ratio_11 == 176 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 75.0 THEN class == 0"
+  expl: "IF ID == 75.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 75.0 AND target == 1 AND gain_ratio_1 == 186 AND gain_ratio_2 == 175 AND gain_ratio_3 == 181 AND gain_ratio_4 == 185 AND gain_ratio_5 == 180 AND gain_ratio_6 == 169 AND gain_ratio_7 == 171 AND gain_ratio_8 == 171 AND gain_ratio_9 == 176 AND gain_ratio_10 == 182 AND gain_ratio_11 == 173 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 75.0 THEN class == 0"
+  expl: "IF ID == 75.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 75.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 84 AND gain_ratio_4 == 100 AND gain_ratio_5 == 56 AND gain_ratio_6 == 90 AND gain_ratio_7 == 126 AND gain_ratio_8 == 84 AND gain_ratio_9 == 117 AND gain_ratio_10 == 195 AND gain_ratio_11 == 115 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 75.0 THEN class == 0"
+  expl: "IF ID == 75.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 80.0 AND target == 1 AND gain_ratio_1 == 97 AND gain_ratio_2 == 110 AND gain_ratio_3 == 106 AND gain_ratio_4 == 113 AND gain_ratio_5 == 113 AND gain_ratio_6 == 173 AND gain_ratio_7 == 144 AND gain_ratio_8 == 157 AND gain_ratio_9 == 71 AND gain_ratio_10 == 123 AND gain_ratio_11 == 149 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 80.0 THEN class == 0"
+  expl: "IF ID == 80.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 80.0 AND target == 1 AND gain_ratio_1 == 181 AND gain_ratio_2 == 174 AND gain_ratio_3 == 111 AND gain_ratio_4 == 176 AND gain_ratio_5 == 96 AND gain_ratio_6 == 150 AND gain_ratio_7 == 163 AND gain_ratio_8 == 114 AND gain_ratio_9 == 112 AND gain_ratio_10 == 123 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 80.0 THEN class == 0"
+  expl: "IF ID == 80.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 80.0 AND target == 0 AND gain_ratio_1 == 138 AND gain_ratio_2 == 170 AND gain_ratio_3 == 163 AND gain_ratio_4 == 168 AND gain_ratio_5 == 141 AND gain_ratio_6 == 155 AND gain_ratio_7 == 161 AND gain_ratio_8 == 131 AND gain_ratio_9 == 148 AND gain_ratio_10 == 142 AND gain_ratio_11 == 121 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 80.0 THEN class == 0"
+  expl: "IF ID == 80.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 80.0 AND target == 1 AND gain_ratio_1 == 134 AND gain_ratio_2 == 106 AND gain_ratio_3 == 97 AND gain_ratio_4 == 160 AND gain_ratio_5 == 157 AND gain_ratio_6 == 162 AND gain_ratio_7 == 146 AND gain_ratio_8 == 152 AND gain_ratio_9 == 141 AND gain_ratio_10 == 147 AND gain_ratio_11 == 145 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 80.0 THEN class == 0"
+  expl: "IF ID == 80.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 80.0 AND target == 2 AND gain_ratio_1 == 77 AND gain_ratio_2 == 48 AND gain_ratio_3 == 74 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 97 AND gain_ratio_7 == 75 AND gain_ratio_8 == 77 AND gain_ratio_9 == 57 AND gain_ratio_10 == 52 AND gain_ratio_11 == 45 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 80.0 THEN class == 0"
+  expl: "IF ID == 80.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 84.0 AND target == 1 AND gain_ratio_1 == 113 AND gain_ratio_2 == 127 AND gain_ratio_3 == 104 AND gain_ratio_4 == 73 AND gain_ratio_5 == 78 AND gain_ratio_6 == 74 AND gain_ratio_7 == 62 AND gain_ratio_8 == 64 AND gain_ratio_9 == 187 AND gain_ratio_10 == 85 AND gain_ratio_11 == 129 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 84.0 THEN class == 0"
+  expl: "IF ID == 84.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 84.0 AND target == 1 AND gain_ratio_1 == 171 AND gain_ratio_2 == 164 AND gain_ratio_3 == 131 AND gain_ratio_4 == 98 AND gain_ratio_5 == 100 AND gain_ratio_6 == 133 AND gain_ratio_7 == 66 AND gain_ratio_8 == 47 AND gain_ratio_9 == 61 AND gain_ratio_10 == 146 AND gain_ratio_11 == 54 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 84.0 THEN class == 0"
+  expl: "IF ID == 84.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 84.0 AND target == 0 AND gain_ratio_1 == 145 AND gain_ratio_2 == 176 AND gain_ratio_3 == 190 AND gain_ratio_4 == 109 AND gain_ratio_5 == 77 AND gain_ratio_6 == 122 AND gain_ratio_7 == 65 AND gain_ratio_8 == 58 AND gain_ratio_9 == 187 AND gain_ratio_10 == 65 AND gain_ratio_11 == 176 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 84.0 THEN class == 0"
+  expl: "IF ID == 84.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 84.0 AND target == 1 AND gain_ratio_1 == 50 AND gain_ratio_2 == 25 AND gain_ratio_3 == 58 AND gain_ratio_4 == 47 AND gain_ratio_5 == 30 AND gain_ratio_6 == 17 AND gain_ratio_7 == 50 AND gain_ratio_8 == 17 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 130 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 84.0 THEN class == 0"
+  expl: "IF ID == 84.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 84.0 AND target == 2 AND gain_ratio_1 == 76 AND gain_ratio_2 == 30 AND gain_ratio_3 == 36 AND gain_ratio_4 == 23 AND gain_ratio_5 == 27 AND gain_ratio_6 == 5 AND gain_ratio_7 == 21 AND gain_ratio_8 == 27 AND gain_ratio_9 == 18 AND gain_ratio_10 == 10 AND gain_ratio_11 == 36 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 84.0 THEN class == 0"
+  expl: "IF ID == 84.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 141.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 3 AND gain_ratio_4 == 12 AND gain_ratio_5 == 15 AND gain_ratio_6 == 8 AND gain_ratio_7 == 7 AND gain_ratio_8 == 187 AND gain_ratio_9 == 55 AND gain_ratio_10 == 119 AND gain_ratio_11 == 16 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 141.0 THEN class == 0"
+  expl: "IF ID == 141.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 141.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 86 AND gain_ratio_6 == 111 AND gain_ratio_7 == 110 AND gain_ratio_8 == 67 AND gain_ratio_9 == 59 AND gain_ratio_10 == 96 AND gain_ratio_11 == 47 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 141.0 THEN class == 0"
+  expl: "IF ID == 141.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 141.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 38 AND gain_ratio_4 == 202 AND gain_ratio_5 == 68 AND gain_ratio_6 == 194 AND gain_ratio_7 == 80 AND gain_ratio_8 == 32 AND gain_ratio_9 == 187 AND gain_ratio_10 == 127 AND gain_ratio_11 == 33 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 141.0 THEN class == 0"
+  expl: "IF ID == 141.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 141.0 AND target == 1 AND gain_ratio_1 == 136 AND gain_ratio_2 == 86 AND gain_ratio_3 == 54 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 57 AND gain_ratio_7 == 67 AND gain_ratio_8 == 97 AND gain_ratio_9 == 70 AND gain_ratio_10 == 11 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 141.0 THEN class == 0"
+  expl: "IF ID == 141.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 141.0 AND target == 1 AND gain_ratio_1 == 131 AND gain_ratio_2 == 193 AND gain_ratio_3 == 157 AND gain_ratio_4 == 76 AND gain_ratio_5 == 196 AND gain_ratio_6 == 53 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 97 AND gain_ratio_10 == 51 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 141.0 THEN class == 0"
+  expl: "IF ID == 141.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 167.0 AND target == 1 AND gain_ratio_1 == 58 AND gain_ratio_2 == 93 AND gain_ratio_3 == 91 AND gain_ratio_4 == 86 AND gain_ratio_5 == 76 AND gain_ratio_6 == 23 AND gain_ratio_7 == 134 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 167.0 THEN class == 0"
+  expl: "IF ID == 167.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 167.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 34 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 167.0 THEN class == 0"
+  expl: "IF ID == 167.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 167.0 AND target == 0 AND gain_ratio_1 == 70 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 167.0 THEN class == 0"
+  expl: "IF ID == 167.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 167.0 AND target == 2 AND gain_ratio_1 == 114 AND gain_ratio_2 == 42 AND gain_ratio_3 == 79 AND gain_ratio_4 == 44 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 58 AND gain_ratio_8 == 66 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 167.0 THEN class == 0"
+  expl: "IF ID == 167.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 221.0 AND target == 1 AND gain_ratio_1 == 185 AND gain_ratio_2 == 136 AND gain_ratio_3 == 112 AND gain_ratio_4 == 162 AND gain_ratio_5 == 138 AND gain_ratio_6 == 176 AND gain_ratio_7 == 155 AND gain_ratio_8 == 176 AND gain_ratio_9 == 163 AND gain_ratio_10 == 186 AND gain_ratio_11 == 181 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 221.0 THEN class == 0"
+  expl: "IF ID == 221.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 221.0 AND target == 0 AND gain_ratio_1 == 180 AND gain_ratio_2 == 160 AND gain_ratio_3 == 151 AND gain_ratio_4 == 120 AND gain_ratio_5 == 145 AND gain_ratio_6 == 78 AND gain_ratio_7 == 125 AND gain_ratio_8 == 164 AND gain_ratio_9 == 128 AND gain_ratio_10 == 157 AND gain_ratio_11 == 79 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 221.0 THEN class == 0"
+  expl: "IF ID == 221.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 221.0 AND target == 1 AND gain_ratio_1 == 162 AND gain_ratio_2 == 152 AND gain_ratio_3 == 128 AND gain_ratio_4 == 114 AND gain_ratio_5 == 116 AND gain_ratio_6 == 106 AND gain_ratio_7 == 49 AND gain_ratio_8 == 88 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 103 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 221.0 THEN class == 0"
+  expl: "IF ID == 221.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 221.0 AND target == 2 AND gain_ratio_1 == 56 AND gain_ratio_2 == 56 AND gain_ratio_3 == 90 AND gain_ratio_4 == 39 AND gain_ratio_5 == 40 AND gain_ratio_6 == 50 AND gain_ratio_7 == 63 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 102 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 221.0 THEN class == 0"
+  expl: "IF ID == 221.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 227.0 AND target == 1 AND gain_ratio_1 == 109 AND gain_ratio_2 == 90 AND gain_ratio_3 == 63 AND gain_ratio_4 == 124 AND gain_ratio_5 == 63 AND gain_ratio_6 == 98 AND gain_ratio_7 == 48 AND gain_ratio_8 == 15 AND gain_ratio_9 == 110 AND gain_ratio_10 == 195 AND gain_ratio_11 == 108 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 227.0 THEN class == 0"
+  expl: "IF ID == 227.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 227.0 AND target == 1 AND gain_ratio_1 == 174 AND gain_ratio_2 == 128 AND gain_ratio_3 == 112 AND gain_ratio_4 == 119 AND gain_ratio_5 == 81 AND gain_ratio_6 == 63 AND gain_ratio_7 == 108 AND gain_ratio_8 == 110 AND gain_ratio_9 == 129 AND gain_ratio_10 == 112 AND gain_ratio_11 == 113 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 227.0 THEN class == 0"
+  expl: "IF ID == 227.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 227.0 AND target == 2 AND gain_ratio_1 == 53 AND gain_ratio_2 == 28 AND gain_ratio_3 == 30 AND gain_ratio_4 == 202 AND gain_ratio_5 == 32 AND gain_ratio_6 == 16 AND gain_ratio_7 == 45 AND gain_ratio_8 == 187 AND gain_ratio_9 == 27 AND gain_ratio_10 == 113 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 227.0 THEN class == 0"
+  expl: "IF ID == 227.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 233.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 160 AND gain_ratio_3 == 144 AND gain_ratio_4 == 193 AND gain_ratio_5 == 160 AND gain_ratio_6 == 194 AND gain_ratio_7 == 122 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 233.0 THEN class == 0"
+  expl: "IF ID == 233.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 233.0 AND target == 0 AND gain_ratio_1 == 126 AND gain_ratio_2 == 98 AND gain_ratio_3 == 95 AND gain_ratio_4 == 141 AND gain_ratio_5 == 115 AND gain_ratio_6 == 112 AND gain_ratio_7 == 137 AND gain_ratio_8 == 116 AND gain_ratio_9 == 129 AND gain_ratio_10 == 130 AND gain_ratio_11 == 158 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 233.0 THEN class == 0"
+  expl: "IF ID == 233.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 233.0 AND target == 1 AND gain_ratio_1 == 60 AND gain_ratio_2 == 70 AND gain_ratio_3 == 33 AND gain_ratio_4 == 202 AND gain_ratio_5 == 70 AND gain_ratio_6 == 194 AND gain_ratio_7 == 126 AND gain_ratio_8 == 129 AND gain_ratio_9 == 187 AND gain_ratio_10 == 138 AND gain_ratio_11 == 152 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 233.0 THEN class == 0"
+  expl: "IF ID == 233.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 233.0 AND target == 2 AND gain_ratio_1 == 47 AND gain_ratio_2 == 45 AND gain_ratio_3 == 75 AND gain_ratio_4 == 104 AND gain_ratio_5 == 61 AND gain_ratio_6 == 49 AND gain_ratio_7 == 74 AND gain_ratio_8 == 72 AND gain_ratio_9 == 68 AND gain_ratio_10 == 195 AND gain_ratio_11 == 95 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 233.0 THEN class == 0"
+  expl: "IF ID == 233.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 235.0 AND target == 1 AND gain_ratio_1 == 189 AND gain_ratio_2 == 141 AND gain_ratio_3 == 179 AND gain_ratio_4 == 182 AND gain_ratio_5 == 101 AND gain_ratio_6 == 123 AND gain_ratio_7 == 190 AND gain_ratio_8 == 112 AND gain_ratio_9 == 187 AND gain_ratio_10 == 137 AND gain_ratio_11 == 146 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 235.0 THEN class == 0"
+  expl: "IF ID == 235.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 235.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 168 AND gain_ratio_4 == 193 AND gain_ratio_5 == 122 AND gain_ratio_6 == 188 AND gain_ratio_7 == 190 AND gain_ratio_8 == 167 AND gain_ratio_9 == 178 AND gain_ratio_10 == 147 AND gain_ratio_11 == 193 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 235.0 THEN class == 0"
+  expl: "IF ID == 235.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 235.0 AND target == 1 AND gain_ratio_1 == 179 AND gain_ratio_2 == 188 AND gain_ratio_3 == 150 AND gain_ratio_4 == 172 AND gain_ratio_5 == 150 AND gain_ratio_6 == 147 AND gain_ratio_7 == 180 AND gain_ratio_8 == 177 AND gain_ratio_9 == 153 AND gain_ratio_10 == 185 AND gain_ratio_11 == 193 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 235.0 THEN class == 0"
+  expl: "IF ID == 235.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 235.0 AND target == 2 AND gain_ratio_1 == 111 AND gain_ratio_2 == 161 AND gain_ratio_3 == 146 AND gain_ratio_4 == 202 AND gain_ratio_5 == 97 AND gain_ratio_6 == 65 AND gain_ratio_7 == 58 AND gain_ratio_8 == 115 AND gain_ratio_9 == 187 AND gain_ratio_10 == 126 AND gain_ratio_11 == 136 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 235.0 THEN class == 0"
+  expl: "IF ID == 235.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 247.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 88 AND gain_ratio_4 == 122 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 121 AND gain_ratio_8 == 187 AND gain_ratio_9 == 76 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 247.0 THEN class == 0"
+  expl: "IF ID == 247.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 247.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 92 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 247.0 THEN class == 0"
+  expl: "IF ID == 247.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 247.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 100 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 247.0 THEN class == 0"
+  expl: "IF ID == 247.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 247.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 36 AND gain_ratio_6 == 34 AND gain_ratio_7 == 44 AND gain_ratio_8 == 36 AND gain_ratio_9 == 97 AND gain_ratio_10 == 36 AND gain_ratio_11 == 46 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 247.0 THEN class == 0"
+  expl: "IF ID == 247.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 251.0 AND target == 1 AND gain_ratio_1 == 98 AND gain_ratio_2 == 104 AND gain_ratio_3 == 128 AND gain_ratio_4 == 147 AND gain_ratio_5 == 135 AND gain_ratio_6 == 131 AND gain_ratio_7 == 145 AND gain_ratio_8 == 120 AND gain_ratio_9 == 141 AND gain_ratio_10 == 146 AND gain_ratio_11 == 164 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 251.0 THEN class == 0"
+  expl: "IF ID == 251.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 251.0 AND target == 0 AND gain_ratio_1 == 123 AND gain_ratio_2 == 141 AND gain_ratio_3 == 135 AND gain_ratio_4 == 125 AND gain_ratio_5 == 102 AND gain_ratio_6 == 80 AND gain_ratio_7 == 144 AND gain_ratio_8 == 122 AND gain_ratio_9 == 124 AND gain_ratio_10 == 135 AND gain_ratio_11 == 105 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 251.0 THEN class == 0"
+  expl: "IF ID == 251.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 251.0 AND target == 1 AND gain_ratio_1 == 146 AND gain_ratio_2 == 168 AND gain_ratio_3 == 153 AND gain_ratio_4 == 155 AND gain_ratio_5 == 130 AND gain_ratio_6 == 167 AND gain_ratio_7 == 143 AND gain_ratio_8 == 153 AND gain_ratio_9 == 142 AND gain_ratio_10 == 143 AND gain_ratio_11 == 126 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 251.0 THEN class == 0"
+  expl: "IF ID == 251.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 251.0 AND target == 2 AND gain_ratio_1 == 79 AND gain_ratio_2 == 58 AND gain_ratio_3 == 94 AND gain_ratio_4 == 63 AND gain_ratio_5 == 100 AND gain_ratio_6 == 66 AND gain_ratio_7 == 76 AND gain_ratio_8 == 82 AND gain_ratio_9 == 51 AND gain_ratio_10 == 73 AND gain_ratio_11 == 123 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 251.0 THEN class == 0"
+  expl: "IF ID == 251.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 252.0 AND target == 1 AND gain_ratio_1 == 188 AND gain_ratio_2 == 75 AND gain_ratio_3 == 158 AND gain_ratio_4 == 188 AND gain_ratio_5 == 196 AND gain_ratio_6 == 48 AND gain_ratio_7 == 130 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 89 AND gain_ratio_11 == 94 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 252.0 THEN class == 0"
+  expl: "IF ID == 252.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 252.0 AND target == 0 AND gain_ratio_1 == 190 AND gain_ratio_2 == 157 AND gain_ratio_3 == 132 AND gain_ratio_4 == 153 AND gain_ratio_5 == 154 AND gain_ratio_6 == 114 AND gain_ratio_7 == 166 AND gain_ratio_8 == 133 AND gain_ratio_9 == 87 AND gain_ratio_10 == 150 AND gain_ratio_11 == 161 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 252.0 THEN class == 0"
+  expl: "IF ID == 252.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 252.0 AND target == 1 AND gain_ratio_1 == 163 AND gain_ratio_2 == 150 AND gain_ratio_3 == 81 AND gain_ratio_4 == 202 AND gain_ratio_5 == 83 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 85 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 252.0 THEN class == 0"
+  expl: "IF ID == 252.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 252.0 AND target == 2 AND gain_ratio_1 == 145 AND gain_ratio_2 == 138 AND gain_ratio_3 == 136 AND gain_ratio_4 == 90 AND gain_ratio_5 == 123 AND gain_ratio_6 == 54 AND gain_ratio_7 == 59 AND gain_ratio_8 == 60 AND gain_ratio_9 == 86 AND gain_ratio_10 == 31 AND gain_ratio_11 == 62 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 252.0 THEN class == 0"
+  expl: "IF ID == 252.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 253.0 AND target == 1 AND gain_ratio_1 == 141 AND gain_ratio_2 == 117 AND gain_ratio_3 == 116 AND gain_ratio_4 == 202 AND gain_ratio_5 == 166 AND gain_ratio_6 == 93 AND gain_ratio_7 == 129 AND gain_ratio_8 == 169 AND gain_ratio_9 == 143 AND gain_ratio_10 == 164 AND gain_ratio_11 == 134 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 253.0 THEN class == 0"
+  expl: "IF ID == 253.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 253.0 AND target == 1 AND gain_ratio_1 == 141 AND gain_ratio_2 == 145 AND gain_ratio_3 == 155 AND gain_ratio_4 == 161 AND gain_ratio_5 == 113 AND gain_ratio_6 == 105 AND gain_ratio_7 == 144 AND gain_ratio_8 == 128 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 253.0 THEN class == 0"
+  expl: "IF ID == 253.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 253.0 AND target == 1 AND gain_ratio_1 == 139 AND gain_ratio_2 == 65 AND gain_ratio_3 == 180 AND gain_ratio_4 == 137 AND gain_ratio_5 == 165 AND gain_ratio_6 == 194 AND gain_ratio_7 == 111 AND gain_ratio_8 == 23 AND gain_ratio_9 == 50 AND gain_ratio_10 == 93 AND gain_ratio_11 == 145 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 253.0 THEN class == 0"
+  expl: "IF ID == 253.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 253.0 AND target == 2 AND gain_ratio_1 == 14 AND gain_ratio_2 == 23 AND gain_ratio_3 == 42 AND gain_ratio_4 == 26 AND gain_ratio_5 == 21 AND gain_ratio_6 == 35 AND gain_ratio_7 == 53 AND gain_ratio_8 == 41 AND gain_ratio_9 == 87 AND gain_ratio_10 == 84 AND gain_ratio_11 == 66 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 253.0 THEN class == 0"
+  expl: "IF ID == 253.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 254.0 AND target == 1 AND gain_ratio_1 == 63 AND gain_ratio_2 == 89 AND gain_ratio_3 == 190 AND gain_ratio_4 == 97 AND gain_ratio_5 == 51 AND gain_ratio_6 == 102 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 38 AND gain_ratio_10 == 58 AND gain_ratio_11 == 44 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 254.0 THEN class == 0"
+  expl: "IF ID == 254.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 254.0 AND target == 0 AND gain_ratio_1 == 17 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 19 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 254.0 THEN class == 0"
+  expl: "IF ID == 254.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 254.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 20 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 52 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 254.0 THEN class == 0"
+  expl: "IF ID == 254.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 254.0 AND target == 2 AND gain_ratio_1 == 48 AND gain_ratio_2 == 193 AND gain_ratio_3 == 31 AND gain_ratio_4 == 56 AND gain_ratio_5 == 49 AND gain_ratio_6 == 95 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 76 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 254.0 THEN class == 0"
+  expl: "IF ID == 254.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 255.0 AND target == 1 AND gain_ratio_1 == 170 AND gain_ratio_2 == 165 AND gain_ratio_3 == 142 AND gain_ratio_4 == 164 AND gain_ratio_5 == 163 AND gain_ratio_6 == 146 AND gain_ratio_7 == 152 AND gain_ratio_8 == 161 AND gain_ratio_9 == 145 AND gain_ratio_10 == 195 AND gain_ratio_11 == 163 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 255.0 THEN class == 0"
+  expl: "IF ID == 255.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 255.0 AND target == 0 AND gain_ratio_1 == 158 AND gain_ratio_2 == 151 AND gain_ratio_3 == 154 AND gain_ratio_4 == 127 AND gain_ratio_5 == 162 AND gain_ratio_6 == 120 AND gain_ratio_7 == 162 AND gain_ratio_8 == 187 AND gain_ratio_9 == 120 AND gain_ratio_10 == 178 AND gain_ratio_11 == 87 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 255.0 THEN class == 0"
+  expl: "IF ID == 255.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 255.0 AND target == 1 AND gain_ratio_1 == 112 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 190 AND gain_ratio_5 == 143 AND gain_ratio_6 == 179 AND gain_ratio_7 == 94 AND gain_ratio_8 == 142 AND gain_ratio_9 == 146 AND gain_ratio_10 == 153 AND gain_ratio_11 == 127 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 255.0 THEN class == 0"
+  expl: "IF ID == 255.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 255.0 AND target == 2 AND gain_ratio_1 == 124 AND gain_ratio_2 == 49 AND gain_ratio_3 == 190 AND gain_ratio_4 == 103 AND gain_ratio_5 == 53 AND gain_ratio_6 == 58 AND gain_ratio_7 == 41 AND gain_ratio_8 == 31 AND gain_ratio_9 == 89 AND gain_ratio_10 == 29 AND gain_ratio_11 == 55 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 255.0 THEN class == 0"
+  expl: "IF ID == 255.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 262.0 AND target == 1 AND gain_ratio_1 == 111 AND gain_ratio_2 == 137 AND gain_ratio_3 == 152 AND gain_ratio_4 == 165 AND gain_ratio_5 == 96 AND gain_ratio_6 == 194 AND gain_ratio_7 == 121 AND gain_ratio_8 == 96 AND gain_ratio_9 == 88 AND gain_ratio_10 == 64 AND gain_ratio_11 == 133 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 262.0 THEN class == 0"
+  expl: "IF ID == 262.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 262.0 AND target == 0 AND gain_ratio_1 == 61 AND gain_ratio_2 == 93 AND gain_ratio_3 == 190 AND gain_ratio_4 == 85 AND gain_ratio_5 == 87 AND gain_ratio_6 == 64 AND gain_ratio_7 == 74 AND gain_ratio_8 == 97 AND gain_ratio_9 == 98 AND gain_ratio_10 == 138 AND gain_ratio_11 == 69 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 262.0 THEN class == 0"
+  expl: "IF ID == 262.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 262.0 AND target == 1 AND gain_ratio_1 == 95 AND gain_ratio_2 == 193 AND gain_ratio_3 == 131 AND gain_ratio_4 == 93 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 61 AND gain_ratio_8 == 97 AND gain_ratio_9 == 91 AND gain_ratio_10 == 97 AND gain_ratio_11 == 64 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 262.0 THEN class == 0"
+  expl: "IF ID == 262.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 262.0 AND target == 2 AND gain_ratio_1 == 8 AND gain_ratio_2 == 97 AND gain_ratio_3 == 20 AND gain_ratio_4 == 30 AND gain_ratio_5 == 35 AND gain_ratio_6 == 56 AND gain_ratio_7 == 36 AND gain_ratio_8 == 22 AND gain_ratio_9 == 33 AND gain_ratio_10 == 24 AND gain_ratio_11 == 6 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 262.0 THEN class == 0"
+  expl: "IF ID == 262.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 18.0 AND target == 1 AND gain_ratio_1 == 133 AND gain_ratio_2 == 52 AND gain_ratio_3 == 86 AND gain_ratio_4 == 193 AND gain_ratio_5 == 131 AND gain_ratio_6 == 134 AND gain_ratio_7 == 96 AND gain_ratio_8 == 149 AND gain_ratio_9 == 187 AND gain_ratio_10 == 92 AND gain_ratio_11 == 96 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 18.0 THEN class == 1"
+  expl: "IF ID == 18.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 18.0 AND target == 1 AND gain_ratio_1 == 127 AND gain_ratio_2 == 120 AND gain_ratio_3 == 141 AND gain_ratio_4 == 159 AND gain_ratio_5 == 103 AND gain_ratio_6 == 107 AND gain_ratio_7 == 190 AND gain_ratio_8 == 143 AND gain_ratio_9 == 99 AND gain_ratio_10 == 142 AND gain_ratio_11 == 108 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 18.0 THEN class == 1"
+  expl: "IF ID == 18.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 18.0 AND target == 0 AND gain_ratio_1 == 154 AND gain_ratio_2 == 157 AND gain_ratio_3 == 157 AND gain_ratio_4 == 179 AND gain_ratio_5 == 150 AND gain_ratio_6 == 135 AND gain_ratio_7 == 76 AND gain_ratio_8 == 163 AND gain_ratio_9 == 141 AND gain_ratio_10 == 133 AND gain_ratio_11 == 131 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 18.0 THEN class == 1"
+  expl: "IF ID == 18.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 18.0 AND target == 1 AND gain_ratio_1 == 185 AND gain_ratio_2 == 140 AND gain_ratio_3 == 104 AND gain_ratio_4 == 173 AND gain_ratio_5 == 134 AND gain_ratio_6 == 194 AND gain_ratio_7 == 147 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 77 AND gain_ratio_11 == 141 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 18.0 THEN class == 1"
+  expl: "IF ID == 18.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 25.0 AND target == 1 AND gain_ratio_1 == 155 AND gain_ratio_2 == 101 AND gain_ratio_3 == 127 AND gain_ratio_4 == 149 AND gain_ratio_5 == 168 AND gain_ratio_6 == 157 AND gain_ratio_7 == 140 AND gain_ratio_8 == 144 AND gain_ratio_9 == 153 AND gain_ratio_10 == 148 AND gain_ratio_11 == 108 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 25.0 THEN class == 1"
+  expl: "IF ID == 25.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 25.0 AND target == 1 AND gain_ratio_1 == 133 AND gain_ratio_2 == 140 AND gain_ratio_3 == 162 AND gain_ratio_4 == 82 AND gain_ratio_5 == 78 AND gain_ratio_6 == 154 AND gain_ratio_7 == 151 AND gain_ratio_8 == 130 AND gain_ratio_9 == 15 AND gain_ratio_10 == 123 AND gain_ratio_11 == 100 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 25.0 THEN class == 1"
+  expl: "IF ID == 25.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 25.0 AND target == 0 AND gain_ratio_1 == 103 AND gain_ratio_2 == 166 AND gain_ratio_3 == 133 AND gain_ratio_4 == 150 AND gain_ratio_5 == 122 AND gain_ratio_6 == 101 AND gain_ratio_7 == 112 AND gain_ratio_8 == 79 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 25.0 THEN class == 1"
+  expl: "IF ID == 25.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 25.0 AND target == 1 AND gain_ratio_1 == 46 AND gain_ratio_2 == 0 AND gain_ratio_3 == 77 AND gain_ratio_4 == 60 AND gain_ratio_5 == 114 AND gain_ratio_6 == 43 AND gain_ratio_7 == 122 AND gain_ratio_8 == 130 AND gain_ratio_9 == 105 AND gain_ratio_10 == 129 AND gain_ratio_11 == 139 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 25.0 THEN class == 1"
+  expl: "IF ID == 25.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 50.0 AND target == 1 AND gain_ratio_1 == 59 AND gain_ratio_2 == 52 AND gain_ratio_3 == 82 AND gain_ratio_4 == 126 AND gain_ratio_5 == 67 AND gain_ratio_6 == 194 AND gain_ratio_7 == 124 AND gain_ratio_8 == 53 AND gain_ratio_9 == 166 AND gain_ratio_10 == 195 AND gain_ratio_11 == 82 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 50.0 THEN class == 1"
+  expl: "IF ID == 50.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 50.0 AND target == 1 AND gain_ratio_1 == 40 AND gain_ratio_2 == 111 AND gain_ratio_3 == 71 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 92 AND gain_ratio_7 == 43 AND gain_ratio_8 == 79 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 50.0 THEN class == 1"
+  expl: "IF ID == 50.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 50.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 114 AND gain_ratio_3 == 190 AND gain_ratio_4 == 85 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 69 AND gain_ratio_8 == 55 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 50.0 THEN class == 1"
+  expl: "IF ID == 50.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 50.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 28 AND gain_ratio_4 == 25 AND gain_ratio_5 == 24 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 11 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 50.0 THEN class == 1"
+  expl: "IF ID == 50.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 61.0 AND target == 1 AND gain_ratio_1 == 112 AND gain_ratio_2 == 82 AND gain_ratio_3 == 113 AND gain_ratio_4 == 121 AND gain_ratio_5 == 120 AND gain_ratio_6 == 69 AND gain_ratio_7 == 74 AND gain_ratio_8 == 109 AND gain_ratio_9 == 132 AND gain_ratio_10 == 140 AND gain_ratio_11 == 110 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 61.0 THEN class == 1"
+  expl: "IF ID == 61.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 61.0 AND target == 2 AND gain_ratio_1 == 133 AND gain_ratio_2 == 99 AND gain_ratio_3 == 190 AND gain_ratio_4 == 83 AND gain_ratio_5 == 65 AND gain_ratio_6 == 132 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 49 AND gain_ratio_10 == 99 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 61.0 THEN class == 1"
+  expl: "IF ID == 61.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 61.0 AND target == 1 AND gain_ratio_1 == 116 AND gain_ratio_2 == 146 AND gain_ratio_3 == 73 AND gain_ratio_4 == 109 AND gain_ratio_5 == 117 AND gain_ratio_6 == 132 AND gain_ratio_7 == 156 AND gain_ratio_8 == 154 AND gain_ratio_9 == 136 AND gain_ratio_10 == 156 AND gain_ratio_11 == 147 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 61.0 THEN class == 1"
+  expl: "IF ID == 61.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 61.0 AND target == 0 AND gain_ratio_1 == 157 AND gain_ratio_2 == 113 AND gain_ratio_3 == 98 AND gain_ratio_4 == 149 AND gain_ratio_5 == 139 AND gain_ratio_6 == 128 AND gain_ratio_7 == 144 AND gain_ratio_8 == 159 AND gain_ratio_9 == 125 AND gain_ratio_10 == 181 AND gain_ratio_11 == 137 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 61.0 THEN class == 1"
+  expl: "IF ID == 61.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 61.0 AND target == 1 AND gain_ratio_1 == 151 AND gain_ratio_2 == 158 AND gain_ratio_3 == 82 AND gain_ratio_4 == 168 AND gain_ratio_5 == 140 AND gain_ratio_6 == 166 AND gain_ratio_7 == 155 AND gain_ratio_8 == 113 AND gain_ratio_9 == 159 AND gain_ratio_10 == 70 AND gain_ratio_11 == 174 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 61.0 THEN class == 1"
+  expl: "IF ID == 61.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 64.0 AND target == 1 AND gain_ratio_1 == 198 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 194 AND gain_ratio_6 == 194 AND gain_ratio_7 == 164 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 83 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 64.0 THEN class == 1"
+  expl: "IF ID == 64.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 64.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 64.0 THEN class == 1"
+  expl: "IF ID == 64.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 64.0 AND target == 0 AND gain_ratio_1 == 169 AND gain_ratio_2 == 186 AND gain_ratio_3 == 185 AND gain_ratio_4 == 199 AND gain_ratio_5 == 186 AND gain_ratio_6 == 181 AND gain_ratio_7 == 189 AND gain_ratio_8 == 180 AND gain_ratio_9 == 181 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 64.0 THEN class == 1"
+  expl: "IF ID == 64.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 64.0 AND target == 1 AND gain_ratio_1 == 72 AND gain_ratio_2 == 10 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 185 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 64.0 THEN class == 1"
+  expl: "IF ID == 64.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 64.0 AND target == 2 AND gain_ratio_1 == 82 AND gain_ratio_2 == 193 AND gain_ratio_3 == 182 AND gain_ratio_4 == 49 AND gain_ratio_5 == 185 AND gain_ratio_6 == 194 AND gain_ratio_7 == 6 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 64.0 THEN class == 1"
+  expl: "IF ID == 64.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 101.0 AND target == 2 AND gain_ratio_1 == 19 AND gain_ratio_2 == 16 AND gain_ratio_3 == 14 AND gain_ratio_4 == 17 AND gain_ratio_5 == 20 AND gain_ratio_6 == 25 AND gain_ratio_7 == 2 AND gain_ratio_8 == 187 AND gain_ratio_9 == 5 AND gain_ratio_10 == 195 AND gain_ratio_11 == 5 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 101.0 THEN class == 1"
+  expl: "IF ID == 101.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 101.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 126 AND gain_ratio_3 == 70 AND gain_ratio_4 == 45 AND gain_ratio_5 == 17 AND gain_ratio_6 == 194 AND gain_ratio_7 == 78 AND gain_ratio_8 == 187 AND gain_ratio_9 == 24 AND gain_ratio_10 == 38 AND gain_ratio_11 == 11 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 101.0 THEN class == 1"
+  expl: "IF ID == 101.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 101.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 7 AND gain_ratio_4 == 0 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 101.0 THEN class == 1"
+  expl: "IF ID == 101.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 103.0 AND target == 1 AND gain_ratio_1 == 184 AND gain_ratio_2 == 160 AND gain_ratio_3 == 175 AND gain_ratio_4 == 79 AND gain_ratio_5 == 196 AND gain_ratio_6 == 166 AND gain_ratio_7 == 125 AND gain_ratio_8 == 155 AND gain_ratio_9 == 14 AND gain_ratio_10 == 195 AND gain_ratio_11 == 164 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 103.0 THEN class == 1"
+  expl: "IF ID == 103.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 103.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 143 AND gain_ratio_3 == 129 AND gain_ratio_4 == 185 AND gain_ratio_5 == 67 AND gain_ratio_6 == 26 AND gain_ratio_7 == 134 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 103.0 THEN class == 1"
+  expl: "IF ID == 103.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 103.0 AND target == 0 AND gain_ratio_1 == 91 AND gain_ratio_2 == 172 AND gain_ratio_3 == 182 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 103.0 THEN class == 1"
+  expl: "IF ID == 103.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 103.0 AND target == 1 AND gain_ratio_1 == 41 AND gain_ratio_2 == 43 AND gain_ratio_3 == 118 AND gain_ratio_4 == 202 AND gain_ratio_5 == 175 AND gain_ratio_6 == 137 AND gain_ratio_7 == 131 AND gain_ratio_8 == 104 AND gain_ratio_9 == 127 AND gain_ratio_10 == 86 AND gain_ratio_11 == 132 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 103.0 THEN class == 1"
+  expl: "IF ID == 103.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 103.0 AND target == 2 AND gain_ratio_1 == 55 AND gain_ratio_2 == 123 AND gain_ratio_3 == 39 AND gain_ratio_4 == 144 AND gain_ratio_5 == 72 AND gain_ratio_6 == 76 AND gain_ratio_7 == 52 AND gain_ratio_8 == 89 AND gain_ratio_9 == 4 AND gain_ratio_10 == 28 AND gain_ratio_11 == 22 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 103.0 THEN class == 1"
+  expl: "IF ID == 103.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 207.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 118 AND gain_ratio_4 == 186 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 100 AND gain_ratio_9 == 113 AND gain_ratio_10 == 195 AND gain_ratio_11 == 109 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 207.0 THEN class == 1"
+  expl: "IF ID == 207.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 207.0 AND target == 0 AND gain_ratio_1 == 130 AND gain_ratio_2 == 89 AND gain_ratio_3 == 131 AND gain_ratio_4 == 3 AND gain_ratio_5 == 196 AND gain_ratio_6 == 19 AND gain_ratio_7 == 190 AND gain_ratio_8 == 127 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 137 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 207.0 THEN class == 1"
+  expl: "IF ID == 207.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 207.0 AND target == 1 AND gain_ratio_1 == 68 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 108 AND gain_ratio_6 == 194 AND gain_ratio_7 == 106 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 90 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 207.0 THEN class == 1"
+  expl: "IF ID == 207.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 241.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 21 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 33 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 81 AND gain_ratio_9 == 61 AND gain_ratio_10 == 103 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 241.0 THEN class == 1"
+  expl: "IF ID == 241.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 241.0 AND target == 2 AND gain_ratio_1 == 28 AND gain_ratio_2 == 39 AND gain_ratio_3 == 55 AND gain_ratio_4 == 4 AND gain_ratio_5 == 196 AND gain_ratio_6 == 14 AND gain_ratio_7 == 190 AND gain_ratio_8 == 30 AND gain_ratio_9 == 2 AND gain_ratio_10 == 55 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 241.0 THEN class == 1"
+  expl: "IF ID == 241.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 246.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 109 AND gain_ratio_3 == 119 AND gain_ratio_4 == 132 AND gain_ratio_5 == 118 AND gain_ratio_6 == 84 AND gain_ratio_7 == 38 AND gain_ratio_8 == 62 AND gain_ratio_9 == 133 AND gain_ratio_10 == 85 AND gain_ratio_11 == 53 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 246.0 THEN class == 1"
+  expl: "IF ID == 246.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 246.0 AND target == 0 AND gain_ratio_1 == 92 AND gain_ratio_2 == 116 AND gain_ratio_3 == 100 AND gain_ratio_4 == 89 AND gain_ratio_5 == 107 AND gain_ratio_6 == 83 AND gain_ratio_7 == 101 AND gain_ratio_8 == 98 AND gain_ratio_9 == 154 AND gain_ratio_10 == 195 AND gain_ratio_11 == 125 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 246.0 THEN class == 1"
+  expl: "IF ID == 246.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 246.0 AND target == 1 AND gain_ratio_1 == 168 AND gain_ratio_2 == 69 AND gain_ratio_3 == 114 AND gain_ratio_4 == 146 AND gain_ratio_5 == 169 AND gain_ratio_6 == 153 AND gain_ratio_7 == 190 AND gain_ratio_8 == 134 AND gain_ratio_9 == 187 AND gain_ratio_10 == 104 AND gain_ratio_11 == 170 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 246.0 THEN class == 1"
+  expl: "IF ID == 246.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 246.0 AND target == 2 AND gain_ratio_1 == 53 AND gain_ratio_2 == 193 AND gain_ratio_3 == 57 AND gain_ratio_4 == 202 AND gain_ratio_5 == 78 AND gain_ratio_6 == 44 AND gain_ratio_7 == 190 AND gain_ratio_8 == 40 AND gain_ratio_9 == 187 AND gain_ratio_10 == 76 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 246.0 THEN class == 1"
+  expl: "IF ID == 246.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 264.0 AND target == 1 AND gain_ratio_1 == 147 AND gain_ratio_2 == 85 AND gain_ratio_3 == 178 AND gain_ratio_4 == 187 AND gain_ratio_5 == 176 AND gain_ratio_6 == 164 AND gain_ratio_7 == 182 AND gain_ratio_8 == 150 AND gain_ratio_9 == 155 AND gain_ratio_10 == 185 AND gain_ratio_11 == 183 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 264.0 THEN class == 1"
+  expl: "IF ID == 264.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 264.0 AND target == 0 AND gain_ratio_1 == 155 AND gain_ratio_2 == 157 AND gain_ratio_3 == 147 AND gain_ratio_4 == 169 AND gain_ratio_5 == 174 AND gain_ratio_6 == 129 AND gain_ratio_7 == 164 AND gain_ratio_8 == 153 AND gain_ratio_9 == 173 AND gain_ratio_10 == 157 AND gain_ratio_11 == 160 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 264.0 THEN class == 1"
+  expl: "IF ID == 264.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 264.0 AND target == 1 AND gain_ratio_1 == 49 AND gain_ratio_2 == 134 AND gain_ratio_3 == 176 AND gain_ratio_4 == 90 AND gain_ratio_5 == 184 AND gain_ratio_6 == 163 AND gain_ratio_7 == 162 AND gain_ratio_8 == 171 AND gain_ratio_9 == 178 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 264.0 THEN class == 1"
+  expl: "IF ID == 264.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 264.0 AND target == 2 AND gain_ratio_1 == 45 AND gain_ratio_2 == 71 AND gain_ratio_3 == 45 AND gain_ratio_4 == 76 AND gain_ratio_5 == 148 AND gain_ratio_6 == 194 AND gain_ratio_7 == 115 AND gain_ratio_8 == 139 AND gain_ratio_9 == 78 AND gain_ratio_10 == 34 AND gain_ratio_11 == 144 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 264.0 THEN class == 1"
+  expl: "IF ID == 264.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 270.0 AND target == 1 AND gain_ratio_1 == 103 AND gain_ratio_2 == 113 AND gain_ratio_3 == 126 AND gain_ratio_4 == 202 AND gain_ratio_5 == 104 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 59 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 270.0 THEN class == 1"
+  expl: "IF ID == 270.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 270.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 108 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 270.0 THEN class == 1"
+  expl: "IF ID == 270.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 272.0 AND target == 1 AND gain_ratio_1 == 79 AND gain_ratio_2 == 120 AND gain_ratio_3 == 147 AND gain_ratio_4 == 151 AND gain_ratio_5 == 141 AND gain_ratio_6 == 128 AND gain_ratio_7 == 106 AND gain_ratio_8 == 111 AND gain_ratio_9 == 135 AND gain_ratio_10 == 67 AND gain_ratio_11 == 129 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 272.0 THEN class == 1"
+  expl: "IF ID == 272.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 272.0 AND target == 0 AND gain_ratio_1 == 189 AND gain_ratio_2 == 145 AND gain_ratio_3 == 140 AND gain_ratio_4 == 202 AND gain_ratio_5 == 158 AND gain_ratio_6 == 179 AND gain_ratio_7 == 147 AND gain_ratio_8 == 134 AND gain_ratio_9 == 178 AND gain_ratio_10 == 158 AND gain_ratio_11 == 138 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 272.0 THEN class == 1"
+  expl: "IF ID == 272.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 272.0 AND target == 1 AND gain_ratio_1 == 165 AND gain_ratio_2 == 151 AND gain_ratio_3 == 126 AND gain_ratio_4 == 150 AND gain_ratio_5 == 173 AND gain_ratio_6 == 178 AND gain_ratio_7 == 156 AND gain_ratio_8 == 187 AND gain_ratio_9 == 137 AND gain_ratio_10 == 167 AND gain_ratio_11 == 92 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 272.0 THEN class == 1"
+  expl: "IF ID == 272.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 272.0 AND target == 2 AND gain_ratio_1 == 142 AND gain_ratio_2 == 63 AND gain_ratio_3 == 77 AND gain_ratio_4 == 75 AND gain_ratio_5 == 44 AND gain_ratio_6 == 95 AND gain_ratio_7 == 89 AND gain_ratio_8 == 86 AND gain_ratio_9 == 50 AND gain_ratio_10 == 93 AND gain_ratio_11 == 114 AND sex == 0 THEN class == 1"
+  dexp: "IF ID == 272.0 THEN class == 1"
+  expl: "IF ID == 272.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 8.0 AND target == 1 AND gain_ratio_1 == 62 AND gain_ratio_2 == 37 AND gain_ratio_3 == 21 AND gain_ratio_4 == 35 AND gain_ratio_5 == 196 AND gain_ratio_6 == 22 AND gain_ratio_7 == 14 AND gain_ratio_8 == 12 AND gain_ratio_9 == 16 AND gain_ratio_10 == 195 AND gain_ratio_11 == 3 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 8.0 THEN class == 1"
+  expl: "IF ID == 8.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 8.0 AND target == 0 AND gain_ratio_1 == 101 AND gain_ratio_2 == 98 AND gain_ratio_3 == 30 AND gain_ratio_4 == 48 AND gain_ratio_5 == 93 AND gain_ratio_6 == 27 AND gain_ratio_7 == 81 AND gain_ratio_8 == 13 AND gain_ratio_9 == 22 AND gain_ratio_10 == 67 AND gain_ratio_11 == 67 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 8.0 THEN class == 1"
+  expl: "IF ID == 8.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 8.0 AND target == 2 AND gain_ratio_1 == 0 AND gain_ratio_2 == 9 AND gain_ratio_3 == 0 AND gain_ratio_4 == 1 AND gain_ratio_5 == 3 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 2 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 8.0 THEN class == 1"
+  expl: "IF ID == 8.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 11.0 AND target == 1 AND gain_ratio_1 == 12 AND gain_ratio_2 == 14 AND gain_ratio_3 == 190 AND gain_ratio_4 == 27 AND gain_ratio_5 == 7 AND gain_ratio_6 == 194 AND gain_ratio_7 == 90 AND gain_ratio_8 == 19 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 11.0 THEN class == 1"
+  expl: "IF ID == 11.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 11.0 AND target == 1 AND gain_ratio_1 == 30 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 18 AND gain_ratio_5 == 52 AND gain_ratio_6 == 40 AND gain_ratio_7 == 190 AND gain_ratio_8 == 35 AND gain_ratio_9 == 94 AND gain_ratio_10 == 60 AND gain_ratio_11 == 51 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 11.0 THEN class == 1"
+  expl: "IF ID == 11.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 11.0 AND target == 0 AND gain_ratio_1 == 64 AND gain_ratio_2 == 72 AND gain_ratio_3 == 115 AND gain_ratio_4 == 140 AND gain_ratio_5 == 125 AND gain_ratio_6 == 44 AND gain_ratio_7 == 86 AND gain_ratio_8 == 43 AND gain_ratio_9 == 38 AND gain_ratio_10 == 29 AND gain_ratio_11 == 58 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 11.0 THEN class == 1"
+  expl: "IF ID == 11.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 11.0 AND target == 1 AND gain_ratio_1 == 27 AND gain_ratio_2 == 33 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 27 AND gain_ratio_7 == 23 AND gain_ratio_8 == 25 AND gain_ratio_9 == 23 AND gain_ratio_10 == 38 AND gain_ratio_11 == 7 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 11.0 THEN class == 1"
+  expl: "IF ID == 11.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 13.0 AND target == 1 AND gain_ratio_1 == 132 AND gain_ratio_2 == 134 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 85 AND gain_ratio_6 == 152 AND gain_ratio_7 == 149 AND gain_ratio_8 == 171 AND gain_ratio_9 == 135 AND gain_ratio_10 == 155 AND gain_ratio_11 == 159 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 13.0 THEN class == 1"
+  expl: "IF ID == 13.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 13.0 AND target == 1 AND gain_ratio_1 == 106 AND gain_ratio_2 == 193 AND gain_ratio_3 == 122 AND gain_ratio_4 == 152 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 114 AND gain_ratio_10 == 156 AND gain_ratio_11 == 151 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 13.0 THEN class == 1"
+  expl: "IF ID == 13.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 13.0 AND target == 0 AND gain_ratio_1 == 67 AND gain_ratio_2 == 90 AND gain_ratio_3 == 109 AND gain_ratio_4 == 96 AND gain_ratio_5 == 112 AND gain_ratio_6 == 113 AND gain_ratio_7 == 159 AND gain_ratio_8 == 93 AND gain_ratio_9 == 130 AND gain_ratio_10 == 133 AND gain_ratio_11 == 127 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 13.0 THEN class == 1"
+  expl: "IF ID == 13.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 13.0 AND target == 1 AND gain_ratio_1 == 34 AND gain_ratio_2 == 125 AND gain_ratio_3 == 150 AND gain_ratio_4 == 125 AND gain_ratio_5 == 164 AND gain_ratio_6 == 103 AND gain_ratio_7 == 169 AND gain_ratio_8 == 106 AND gain_ratio_9 == 144 AND gain_ratio_10 == 120 AND gain_ratio_11 == 122 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 13.0 THEN class == 1"
+  expl: "IF ID == 13.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 22.0 AND target == 1 AND gain_ratio_1 == 68 AND gain_ratio_2 == 88 AND gain_ratio_3 == 190 AND gain_ratio_4 == 29 AND gain_ratio_5 == 33 AND gain_ratio_6 == 42 AND gain_ratio_7 == 190 AND gain_ratio_8 == 28 AND gain_ratio_9 == 40 AND gain_ratio_10 == 15 AND gain_ratio_11 == 51 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 22.0 THEN class == 1"
+  expl: "IF ID == 22.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 22.0 AND target == 1 AND gain_ratio_1 == 36 AND gain_ratio_2 == 19 AND gain_ratio_3 == 53 AND gain_ratio_4 == 40 AND gain_ratio_5 == 8 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 50 AND gain_ratio_9 == 23 AND gain_ratio_10 == 33 AND gain_ratio_11 == 70 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 22.0 THEN class == 1"
+  expl: "IF ID == 22.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 22.0 AND target == 0 AND gain_ratio_1 == 59 AND gain_ratio_2 == 90 AND gain_ratio_3 == 117 AND gain_ratio_4 == 78 AND gain_ratio_5 == 106 AND gain_ratio_6 == 41 AND gain_ratio_7 == 86 AND gain_ratio_8 == 53 AND gain_ratio_9 == 36 AND gain_ratio_10 == 43 AND gain_ratio_11 == 61 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 22.0 THEN class == 1"
+  expl: "IF ID == 22.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 22.0 AND target == 1 AND gain_ratio_1 == 165 AND gain_ratio_2 == 74 AND gain_ratio_3 == 89 AND gain_ratio_4 == 108 AND gain_ratio_5 == 48 AND gain_ratio_6 == 79 AND gain_ratio_7 == 74 AND gain_ratio_8 == 46 AND gain_ratio_9 == 12 AND gain_ratio_10 == 5 AND gain_ratio_11 == 8 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 22.0 THEN class == 1"
+  expl: "IF ID == 22.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 26.0 AND target == 1 AND gain_ratio_1 == 149 AND gain_ratio_2 == 156 AND gain_ratio_3 == 80 AND gain_ratio_4 == 65 AND gain_ratio_5 == 54 AND gain_ratio_6 == 82 AND gain_ratio_7 == 99 AND gain_ratio_8 == 78 AND gain_ratio_9 == 121 AND gain_ratio_10 == 195 AND gain_ratio_11 == 104 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 26.0 THEN class == 0"
+  expl: "IF ID == 26.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 26.0 AND target == 1 AND gain_ratio_1 == 112 AND gain_ratio_2 == 98 AND gain_ratio_3 == 88 AND gain_ratio_4 == 101 AND gain_ratio_5 == 128 AND gain_ratio_6 == 115 AND gain_ratio_7 == 68 AND gain_ratio_8 == 26 AND gain_ratio_9 == 32 AND gain_ratio_10 == 47 AND gain_ratio_11 == 43 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 26.0 THEN class == 0"
+  expl: "IF ID == 26.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 26.0 AND target == 0 AND gain_ratio_1 == 112 AND gain_ratio_2 == 78 AND gain_ratio_3 == 110 AND gain_ratio_4 == 112 AND gain_ratio_5 == 132 AND gain_ratio_6 == 118 AND gain_ratio_7 == 102 AND gain_ratio_8 == 55 AND gain_ratio_9 == 77 AND gain_ratio_10 == 119 AND gain_ratio_11 == 117 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 26.0 THEN class == 0"
+  expl: "IF ID == 26.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 26.0 AND target == 1 AND gain_ratio_1 == 106 AND gain_ratio_2 == 95 AND gain_ratio_3 == 75 AND gain_ratio_4 == 53 AND gain_ratio_5 == 41 AND gain_ratio_6 == 110 AND gain_ratio_7 == 56 AND gain_ratio_8 == 44 AND gain_ratio_9 == 83 AND gain_ratio_10 == 48 AND gain_ratio_11 == 73 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 26.0 THEN class == 0"
+  expl: "IF ID == 26.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 27.0 AND target == 1 AND gain_ratio_1 == 135 AND gain_ratio_2 == 79 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 87 AND gain_ratio_8 == 56 AND gain_ratio_9 == 77 AND gain_ratio_10 == 162 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 27.0 THEN class == 1"
+  expl: "IF ID == 27.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 27.0 AND target == 1 AND gain_ratio_1 == 57 AND gain_ratio_2 == 133 AND gain_ratio_3 == 52 AND gain_ratio_4 == 72 AND gain_ratio_5 == 122 AND gain_ratio_6 == 90 AND gain_ratio_7 == 127 AND gain_ratio_8 == 45 AND gain_ratio_9 == 90 AND gain_ratio_10 == 102 AND gain_ratio_11 == 142 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 27.0 THEN class == 1"
+  expl: "IF ID == 27.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 27.0 AND target == 0 AND gain_ratio_1 == 145 AND gain_ratio_2 == 132 AND gain_ratio_3 == 181 AND gain_ratio_4 == 50 AND gain_ratio_5 == 74 AND gain_ratio_6 == 38 AND gain_ratio_7 == 141 AND gain_ratio_8 == 156 AND gain_ratio_9 == 150 AND gain_ratio_10 == 89 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 27.0 THEN class == 1"
+  expl: "IF ID == 27.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 27.0 AND target == 1 AND gain_ratio_1 == 42 AND gain_ratio_2 == 81 AND gain_ratio_3 == 139 AND gain_ratio_4 == 87 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 39 AND gain_ratio_9 == 187 AND gain_ratio_10 == 2 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 27.0 THEN class == 1"
+  expl: "IF ID == 27.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 51.0 AND target == 1 AND gain_ratio_1 == 20 AND gain_ratio_2 == 50 AND gain_ratio_3 == 24 AND gain_ratio_4 == 64 AND gain_ratio_5 == 69 AND gain_ratio_6 == 82 AND gain_ratio_7 == 54 AND gain_ratio_8 == 51 AND gain_ratio_9 == 33 AND gain_ratio_10 == 69 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 51.0 THEN class == 1"
+  expl: "IF ID == 51.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 51.0 AND target == 1 AND gain_ratio_1 == 11 AND gain_ratio_2 == 5 AND gain_ratio_3 == 5 AND gain_ratio_4 == 15 AND gain_ratio_5 == 5 AND gain_ratio_6 == 2 AND gain_ratio_7 == 9 AND gain_ratio_8 == 187 AND gain_ratio_9 == 44 AND gain_ratio_10 == 20 AND gain_ratio_11 == 42 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 51.0 THEN class == 1"
+  expl: "IF ID == 51.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 51.0 AND target == 0 AND gain_ratio_1 == 110 AND gain_ratio_2 == 94 AND gain_ratio_3 == 74 AND gain_ratio_4 == 76 AND gain_ratio_5 == 31 AND gain_ratio_6 == 42 AND gain_ratio_7 == 45 AND gain_ratio_8 == 54 AND gain_ratio_9 == 187 AND gain_ratio_10 == 42 AND gain_ratio_11 == 12 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 51.0 THEN class == 1"
+  expl: "IF ID == 51.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 51.0 AND target == 1 AND gain_ratio_1 == 43 AND gain_ratio_2 == 41 AND gain_ratio_3 == 190 AND gain_ratio_4 == 36 AND gain_ratio_5 == 196 AND gain_ratio_6 == 30 AND gain_ratio_7 == 22 AND gain_ratio_8 == 7 AND gain_ratio_9 == 187 AND gain_ratio_10 == 22 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 51.0 THEN class == 1"
+  expl: "IF ID == 51.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 51.0 AND target == 2 AND gain_ratio_1 == 6 AND gain_ratio_2 == 31 AND gain_ratio_3 == 4 AND gain_ratio_4 == 9 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 31 AND gain_ratio_8 == 8 AND gain_ratio_9 == 187 AND gain_ratio_10 == 35 AND gain_ratio_11 == 10 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 51.0 THEN class == 1"
+  expl: "IF ID == 51.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 59.0 AND target == 1 AND gain_ratio_1 == 15 AND gain_ratio_2 == 26 AND gain_ratio_3 == 16 AND gain_ratio_4 == 43 AND gain_ratio_5 == 60 AND gain_ratio_6 == 194 AND gain_ratio_7 == 93 AND gain_ratio_8 == 64 AND gain_ratio_9 == 26 AND gain_ratio_10 == 125 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 59.0 THEN class == 1"
+  expl: "IF ID == 59.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 59.0 AND target == 2 AND gain_ratio_1 == 7 AND gain_ratio_2 == 14 AND gain_ratio_3 == 12 AND gain_ratio_4 == 10 AND gain_ratio_5 == 9 AND gain_ratio_6 == 13 AND gain_ratio_7 == 33 AND gain_ratio_8 == 22 AND gain_ratio_9 == 11 AND gain_ratio_10 == 6 AND gain_ratio_11 == 30 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 59.0 THEN class == 1"
+  expl: "IF ID == 59.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 59.0 AND target == 1 AND gain_ratio_1 == 52 AND gain_ratio_2 == 35 AND gain_ratio_3 == 41 AND gain_ratio_4 == 35 AND gain_ratio_5 == 82 AND gain_ratio_6 == 41 AND gain_ratio_7 == 24 AND gain_ratio_8 == 95 AND gain_ratio_9 == 17 AND gain_ratio_10 == 32 AND gain_ratio_11 == 26 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 59.0 THEN class == 1"
+  expl: "IF ID == 59.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 59.0 AND target == 0 AND gain_ratio_1 == 67 AND gain_ratio_2 == 32 AND gain_ratio_3 == 34 AND gain_ratio_4 == 77 AND gain_ratio_5 == 8 AND gain_ratio_6 == 52 AND gain_ratio_7 == 49 AND gain_ratio_8 == 3 AND gain_ratio_9 == 85 AND gain_ratio_10 == 25 AND gain_ratio_11 == 78 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 59.0 THEN class == 1"
+  expl: "IF ID == 59.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 59.0 AND target == 1 AND gain_ratio_1 == 71 AND gain_ratio_2 == 51 AND gain_ratio_3 == 66 AND gain_ratio_4 == 84 AND gain_ratio_5 == 66 AND gain_ratio_6 == 61 AND gain_ratio_7 == 66 AND gain_ratio_8 == 57 AND gain_ratio_9 == 66 AND gain_ratio_10 == 19 AND gain_ratio_11 == 56 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 59.0 THEN class == 1"
+  expl: "IF ID == 59.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 66.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 66 AND gain_ratio_3 == 15 AND gain_ratio_4 == 13 AND gain_ratio_5 == 14 AND gain_ratio_6 == 194 AND gain_ratio_7 == 5 AND gain_ratio_8 == 15 AND gain_ratio_9 == 13 AND gain_ratio_10 == 44 AND gain_ratio_11 == 80 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 66.0 THEN class == 1"
+  expl: "IF ID == 66.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 66.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 54 AND gain_ratio_3 == 190 AND gain_ratio_4 == 76 AND gain_ratio_5 == 12 AND gain_ratio_6 == 74 AND gain_ratio_7 == 79 AND gain_ratio_8 == 42 AND gain_ratio_9 == 94 AND gain_ratio_10 == 13 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 66.0 THEN class == 1"
+  expl: "IF ID == 66.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 66.0 AND target == 0 AND gain_ratio_1 == 63 AND gain_ratio_2 == 193 AND gain_ratio_3 == 94 AND gain_ratio_4 == 167 AND gain_ratio_5 == 6 AND gain_ratio_6 == 161 AND gain_ratio_7 == 29 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 23 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 66.0 THEN class == 1"
+  expl: "IF ID == 66.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 66.0 AND target == 1 AND gain_ratio_1 == 2 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 1 AND gain_ratio_7 == 1 AND gain_ratio_8 == 13 AND gain_ratio_9 == 25 AND gain_ratio_10 == 74 AND gain_ratio_11 == 75 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 66.0 THEN class == 1"
+  expl: "IF ID == 66.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 66.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 29 AND gain_ratio_3 == 26 AND gain_ratio_4 == 34 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 10 AND gain_ratio_10 == 0 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 66.0 THEN class == 1"
+  expl: "IF ID == 66.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 70.0 AND target == 1 AND gain_ratio_1 == 182 AND gain_ratio_2 == 151 AND gain_ratio_3 == 175 AND gain_ratio_4 == 189 AND gain_ratio_5 == 183 AND gain_ratio_6 == 115 AND gain_ratio_7 == 120 AND gain_ratio_8 == 187 AND gain_ratio_9 == 118 AND gain_ratio_10 == 126 AND gain_ratio_11 == 190 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 70.0 THEN class == 1"
+  expl: "IF ID == 70.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 70.0 AND target == 1 AND gain_ratio_1 == 193 AND gain_ratio_2 == 184 AND gain_ratio_3 == 187 AND gain_ratio_4 == 175 AND gain_ratio_5 == 159 AND gain_ratio_6 == 182 AND gain_ratio_7 == 162 AND gain_ratio_8 == 178 AND gain_ratio_9 == 177 AND gain_ratio_10 == 181 AND gain_ratio_11 == 72 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 70.0 THEN class == 1"
+  expl: "IF ID == 70.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 70.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 187 AND gain_ratio_3 == 183 AND gain_ratio_4 == 197 AND gain_ratio_5 == 191 AND gain_ratio_6 == 186 AND gain_ratio_7 == 177 AND gain_ratio_8 == 181 AND gain_ratio_9 == 179 AND gain_ratio_10 == 193 AND gain_ratio_11 == 182 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 70.0 THEN class == 1"
+  expl: "IF ID == 70.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 70.0 AND target == 1 AND gain_ratio_1 == 192 AND gain_ratio_2 == 185 AND gain_ratio_3 == 190 AND gain_ratio_4 == 196 AND gain_ratio_5 == 189 AND gain_ratio_6 == 184 AND gain_ratio_7 == 184 AND gain_ratio_8 == 178 AND gain_ratio_9 == 176 AND gain_ratio_10 == 191 AND gain_ratio_11 == 194 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 70.0 THEN class == 1"
+  expl: "IF ID == 70.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 70.0 AND target == 2 AND gain_ratio_1 == 135 AND gain_ratio_2 == 121 AND gain_ratio_3 == 161 AND gain_ratio_4 == 178 AND gain_ratio_5 == 147 AND gain_ratio_6 == 127 AND gain_ratio_7 == 145 AND gain_ratio_8 == 81 AND gain_ratio_9 == 135 AND gain_ratio_10 == 111 AND gain_ratio_11 == 88 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 70.0 THEN class == 1"
+  expl: "IF ID == 70.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 86.0 AND target == 1 AND gain_ratio_1 == 108 AND gain_ratio_2 == 88 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 18 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 34 AND gain_ratio_10 == 83 AND gain_ratio_11 == 20 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 86.0 THEN class == 1"
+  expl: "IF ID == 86.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 86.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 43 AND gain_ratio_6 == 32 AND gain_ratio_7 == 84 AND gain_ratio_8 == 38 AND gain_ratio_9 == 80 AND gain_ratio_10 == 57 AND gain_ratio_11 == 59 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 86.0 THEN class == 1"
+  expl: "IF ID == 86.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 107.0 AND target == 2 AND gain_ratio_1 == 23 AND gain_ratio_2 == 93 AND gain_ratio_3 == 91 AND gain_ratio_4 == 85 AND gain_ratio_5 == 97 AND gain_ratio_6 == 72 AND gain_ratio_7 == 113 AND gain_ratio_8 == 103 AND gain_ratio_9 == 93 AND gain_ratio_10 == 130 AND gain_ratio_11 == 104 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 107.0 THEN class == 1"
+  expl: "IF ID == 107.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 107.0 AND target == 1 AND gain_ratio_1 == 190 AND gain_ratio_2 == 89 AND gain_ratio_3 == 181 AND gain_ratio_4 == 193 AND gain_ratio_5 == 171 AND gain_ratio_6 == 171 AND gain_ratio_7 == 185 AND gain_ratio_8 == 157 AND gain_ratio_9 == 167 AND gain_ratio_10 == 129 AND gain_ratio_11 == 179 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 107.0 THEN class == 1"
+  expl: "IF ID == 107.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 107.0 AND target == 0 AND gain_ratio_1 == 191 AND gain_ratio_2 == 178 AND gain_ratio_3 == 186 AND gain_ratio_4 == 181 AND gain_ratio_5 == 188 AND gain_ratio_6 == 184 AND gain_ratio_7 == 183 AND gain_ratio_8 == 178 AND gain_ratio_9 == 175 AND gain_ratio_10 == 189 AND gain_ratio_11 == 193 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 107.0 THEN class == 1"
+  expl: "IF ID == 107.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 107.0 AND target == 1 AND gain_ratio_1 == 192 AND gain_ratio_2 == 185 AND gain_ratio_3 == 187 AND gain_ratio_4 == 198 AND gain_ratio_5 == 192 AND gain_ratio_6 == 185 AND gain_ratio_7 == 178 AND gain_ratio_8 == 178 AND gain_ratio_9 == 179 AND gain_ratio_10 == 188 AND gain_ratio_11 == 188 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 107.0 THEN class == 1"
+  expl: "IF ID == 107.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 107.0 AND target == 1 AND gain_ratio_1 == 195 AND gain_ratio_2 == 131 AND gain_ratio_3 == 186 AND gain_ratio_4 == 174 AND gain_ratio_5 == 190 AND gain_ratio_6 == 175 AND gain_ratio_7 == 185 AND gain_ratio_8 == 177 AND gain_ratio_9 == 161 AND gain_ratio_10 == 190 AND gain_ratio_11 == 192 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 107.0 THEN class == 1"
+  expl: "IF ID == 107.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 117.0 AND target == 1 AND gain_ratio_1 == 40 AND gain_ratio_2 == 31 AND gain_ratio_3 == 93 AND gain_ratio_4 == 33 AND gain_ratio_5 == 39 AND gain_ratio_6 == 68 AND gain_ratio_7 == 90 AND gain_ratio_8 == 68 AND gain_ratio_9 == 53 AND gain_ratio_10 == 129 AND gain_ratio_11 == 77 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 117.0 THEN class == 1"
+  expl: "IF ID == 117.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 117.0 AND target == 1 AND gain_ratio_1 == 163 AND gain_ratio_2 == 112 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 183 AND gain_ratio_6 == 169 AND gain_ratio_7 == 150 AND gain_ratio_8 == 168 AND gain_ratio_9 == 139 AND gain_ratio_10 == 126 AND gain_ratio_11 == 171 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 117.0 THEN class == 1"
+  expl: "IF ID == 117.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 117.0 AND target == 0 AND gain_ratio_1 == 156 AND gain_ratio_2 == 153 AND gain_ratio_3 == 91 AND gain_ratio_4 == 138 AND gain_ratio_5 == 63 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 117.0 THEN class == 1"
+  expl: "IF ID == 117.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 117.0 AND target == 1 AND gain_ratio_1 == 183 AND gain_ratio_2 == 38 AND gain_ratio_3 == 148 AND gain_ratio_4 == 176 AND gain_ratio_5 == 135 AND gain_ratio_6 == 114 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 175 AND gain_ratio_11 == 88 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 117.0 THEN class == 1"
+  expl: "IF ID == 117.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 117.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 169 AND gain_ratio_4 == 193 AND gain_ratio_5 == 98 AND gain_ratio_6 == 162 AND gain_ratio_7 == 55 AND gain_ratio_8 == 125 AND gain_ratio_9 == 187 AND gain_ratio_10 == 107 AND gain_ratio_11 == 129 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 117.0 THEN class == 1"
+  expl: "IF ID == 117.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 129.0 AND target == 0 AND gain_ratio_1 == 137 AND gain_ratio_2 == 30 AND gain_ratio_3 == 143 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 70 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 129.0 THEN class == 1"
+  expl: "IF ID == 129.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 129.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 115 AND gain_ratio_5 == 62 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 0 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 129.0 THEN class == 1"
+  expl: "IF ID == 129.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 130.0 AND target == 2 AND gain_ratio_1 == 25 AND gain_ratio_2 == 92 AND gain_ratio_3 == 88 AND gain_ratio_4 == 91 AND gain_ratio_5 == 75 AND gain_ratio_6 == 78 AND gain_ratio_7 == 73 AND gain_ratio_8 == 78 AND gain_ratio_9 == 94 AND gain_ratio_10 == 37 AND gain_ratio_11 == 76 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 130.0 THEN class == 1"
+  expl: "IF ID == 130.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 130.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 185 AND gain_ratio_4 == 109 AND gain_ratio_5 == 196 AND gain_ratio_6 == 174 AND gain_ratio_7 == 174 AND gain_ratio_8 == 123 AND gain_ratio_9 == 73 AND gain_ratio_10 == 173 AND gain_ratio_11 == 107 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 130.0 THEN class == 1"
+  expl: "IF ID == 130.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 130.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 42 AND gain_ratio_3 == 68 AND gain_ratio_4 == 95 AND gain_ratio_5 == 137 AND gain_ratio_6 == 73 AND gain_ratio_7 == 69 AND gain_ratio_8 == 187 AND gain_ratio_9 == 115 AND gain_ratio_10 == 160 AND gain_ratio_11 == 53 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 130.0 THEN class == 1"
+  expl: "IF ID == 130.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 130.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 148 AND gain_ratio_6 == 133 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 149 AND gain_ratio_10 == 174 AND gain_ratio_11 == 178 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 130.0 THEN class == 1"
+  expl: "IF ID == 130.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 130.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 180 AND gain_ratio_3 == 184 AND gain_ratio_4 == 170 AND gain_ratio_5 == 178 AND gain_ratio_6 == 181 AND gain_ratio_7 == 165 AND gain_ratio_8 == 178 AND gain_ratio_9 == 168 AND gain_ratio_10 == 100 AND gain_ratio_11 == 157 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 130.0 THEN class == 1"
+  expl: "IF ID == 130.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 132.0 AND target == 1 AND gain_ratio_1 == 66 AND gain_ratio_2 == 193 AND gain_ratio_3 == 117 AND gain_ratio_4 == 202 AND gain_ratio_5 == 142 AND gain_ratio_6 == 166 AND gain_ratio_7 == 168 AND gain_ratio_8 == 128 AND gain_ratio_9 == 107 AND gain_ratio_10 == 150 AND gain_ratio_11 == 98 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 132.0 THEN class == 1"
+  expl: "IF ID == 132.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 132.0 AND target == 0 AND gain_ratio_1 == 83 AND gain_ratio_2 == 163 AND gain_ratio_3 == 171 AND gain_ratio_4 == 195 AND gain_ratio_5 == 185 AND gain_ratio_6 == 163 AND gain_ratio_7 == 157 AND gain_ratio_8 == 175 AND gain_ratio_9 == 102 AND gain_ratio_10 == 169 AND gain_ratio_11 == 165 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 132.0 THEN class == 1"
+  expl: "IF ID == 132.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 132.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 114 AND gain_ratio_3 == 137 AND gain_ratio_4 == 133 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 115 AND gain_ratio_8 == 137 AND gain_ratio_9 == 131 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 132.0 THEN class == 1"
+  expl: "IF ID == 132.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 132.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 40 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 65 AND gain_ratio_6 == 94 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 40 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 132.0 THEN class == 1"
+  expl: "IF ID == 132.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 168.0 AND target == 1 AND gain_ratio_1 == 111 AND gain_ratio_2 == 77 AND gain_ratio_3 == 40 AND gain_ratio_4 == 71 AND gain_ratio_5 == 88 AND gain_ratio_6 == 125 AND gain_ratio_7 == 42 AND gain_ratio_8 == 101 AND gain_ratio_9 == 95 AND gain_ratio_10 == 136 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 168.0 THEN class == 1"
+  expl: "IF ID == 168.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 168.0 AND target == 0 AND gain_ratio_1 == 130 AND gain_ratio_2 == 122 AND gain_ratio_3 == 102 AND gain_ratio_4 == 42 AND gain_ratio_5 == 103 AND gain_ratio_6 == 65 AND gain_ratio_7 == 117 AND gain_ratio_8 == 91 AND gain_ratio_9 == 75 AND gain_ratio_10 == 109 AND gain_ratio_11 == 108 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 168.0 THEN class == 1"
+  expl: "IF ID == 168.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 168.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 83 AND gain_ratio_3 == 190 AND gain_ratio_4 == 117 AND gain_ratio_5 == 105 AND gain_ratio_6 == 148 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 34 AND gain_ratio_10 == 94 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 168.0 THEN class == 1"
+  expl: "IF ID == 168.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 168.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 17 AND gain_ratio_3 == 18 AND gain_ratio_4 == 32 AND gain_ratio_5 == 25 AND gain_ratio_6 == 31 AND gain_ratio_7 == 190 AND gain_ratio_8 == 33 AND gain_ratio_9 == 56 AND gain_ratio_10 == 46 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 168.0 THEN class == 1"
+  expl: "IF ID == 168.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 179.0 AND target == 1 AND gain_ratio_1 == 148 AND gain_ratio_2 == 111 AND gain_ratio_3 == 156 AND gain_ratio_4 == 81 AND gain_ratio_5 == 174 AND gain_ratio_6 == 136 AND gain_ratio_7 == 156 AND gain_ratio_8 == 132 AND gain_ratio_9 == 158 AND gain_ratio_10 == 179 AND gain_ratio_11 == 169 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 179.0 THEN class == 1"
+  expl: "IF ID == 179.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 179.0 AND target == 1 AND gain_ratio_1 == 65 AND gain_ratio_2 == 171 AND gain_ratio_3 == 165 AND gain_ratio_4 == 162 AND gain_ratio_5 == 112 AND gain_ratio_6 == 152 AND gain_ratio_7 == 160 AND gain_ratio_8 == 139 AND gain_ratio_9 == 156 AND gain_ratio_10 == 158 AND gain_ratio_11 == 150 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 179.0 THEN class == 1"
+  expl: "IF ID == 179.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 179.0 AND target == 0 AND gain_ratio_1 == 175 AND gain_ratio_2 == 173 AND gain_ratio_3 == 150 AND gain_ratio_4 == 156 AND gain_ratio_5 == 159 AND gain_ratio_6 == 156 AND gain_ratio_7 == 139 AND gain_ratio_8 == 146 AND gain_ratio_9 == 149 AND gain_ratio_10 == 163 AND gain_ratio_11 == 158 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 179.0 THEN class == 1"
+  expl: "IF ID == 179.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 179.0 AND target == 2 AND gain_ratio_1 == 88 AND gain_ratio_2 == 99 AND gain_ratio_3 == 93 AND gain_ratio_4 == 112 AND gain_ratio_5 == 81 AND gain_ratio_6 == 70 AND gain_ratio_7 == 119 AND gain_ratio_8 == 58 AND gain_ratio_9 == 69 AND gain_ratio_10 == 118 AND gain_ratio_11 == 70 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 179.0 THEN class == 1"
+  expl: "IF ID == 179.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 180.0 AND target == 1 AND gain_ratio_1 == 159 AND gain_ratio_2 == 133 AND gain_ratio_3 == 83 AND gain_ratio_4 == 104 AND gain_ratio_5 == 196 AND gain_ratio_6 == 117 AND gain_ratio_7 == 105 AND gain_ratio_8 == 187 AND gain_ratio_9 == 46 AND gain_ratio_10 == 195 AND gain_ratio_11 == 54 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 180.0 THEN class == 1"
+  expl: "IF ID == 180.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 180.0 AND target == 1 AND gain_ratio_1 == 125 AND gain_ratio_2 == 41 AND gain_ratio_3 == 68 AND gain_ratio_4 == 37 AND gain_ratio_5 == 196 AND gain_ratio_6 == 76 AND gain_ratio_7 == 68 AND gain_ratio_8 == 21 AND gain_ratio_9 == 82 AND gain_ratio_10 == 106 AND gain_ratio_11 == 19 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 180.0 THEN class == 1"
+  expl: "IF ID == 180.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 180.0 AND target == 0 AND gain_ratio_1 == 13 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 14 AND gain_ratio_5 == 16 AND gain_ratio_6 == 29 AND gain_ratio_7 == 25 AND gain_ratio_8 == 187 AND gain_ratio_9 == 51 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 180.0 THEN class == 1"
+  expl: "IF ID == 180.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 180.0 AND target == 2 AND gain_ratio_1 == 22 AND gain_ratio_2 == 8 AND gain_ratio_3 == 12 AND gain_ratio_4 == 11 AND gain_ratio_5 == 23 AND gain_ratio_6 == 12 AND gain_ratio_7 == 17 AND gain_ratio_8 == 5 AND gain_ratio_9 == 14 AND gain_ratio_10 == 8 AND gain_ratio_11 == 28 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 180.0 THEN class == 1"
+  expl: "IF ID == 180.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 195.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 61 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 101 AND gain_ratio_9 == 81 AND gain_ratio_10 == 126 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 195.0 THEN class == 0"
+  expl: "IF ID == 195.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 195.0 AND target == 0 AND gain_ratio_1 == 11 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 46 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 20 AND gain_ratio_10 == 195 AND gain_ratio_11 == 18 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 195.0 THEN class == 0"
+  expl: "IF ID == 195.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 200.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 46 AND gain_ratio_4 == 23 AND gain_ratio_5 == 42 AND gain_ratio_6 == 53 AND gain_ratio_7 == 10 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 200.0 THEN class == 1"
+  expl: "IF ID == 200.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 200.0 AND target == 1 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 37 AND gain_ratio_7 == 127 AND gain_ratio_8 == 106 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 200.0 THEN class == 1"
+  expl: "IF ID == 200.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 200.0 AND target == 0 AND gain_ratio_1 == 177 AND gain_ratio_2 == 96 AND gain_ratio_3 == 174 AND gain_ratio_4 == 99 AND gain_ratio_5 == 150 AND gain_ratio_6 == 148 AND gain_ratio_7 == 167 AND gain_ratio_8 == 141 AND gain_ratio_9 == 122 AND gain_ratio_10 == 171 AND gain_ratio_11 == 147 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 200.0 THEN class == 1"
+  expl: "IF ID == 200.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 200.0 AND target == 2 AND gain_ratio_1 == 4 AND gain_ratio_2 == 2 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 4 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 1 AND gain_ratio_9 == 0 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 200.0 THEN class == 1"
+  expl: "IF ID == 200.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 231.0 AND target == 1 AND gain_ratio_1 == 23 AND gain_ratio_2 == 33 AND gain_ratio_3 == 25 AND gain_ratio_4 == 51 AND gain_ratio_5 == 29 AND gain_ratio_6 == 15 AND gain_ratio_7 == 3 AND gain_ratio_8 == 14 AND gain_ratio_9 == 187 AND gain_ratio_10 == 16 AND gain_ratio_11 == 29 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 231.0 THEN class == 1"
+  expl: "IF ID == 231.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 231.0 AND target == 0 AND gain_ratio_1 == 21 AND gain_ratio_2 == 18 AND gain_ratio_3 == 190 AND gain_ratio_4 == 9 AND gain_ratio_5 == 37 AND gain_ratio_6 == 28 AND gain_ratio_7 == 26 AND gain_ratio_8 == 187 AND gain_ratio_9 == 6 AND gain_ratio_10 == 195 AND gain_ratio_11 == 58 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 231.0 THEN class == 1"
+  expl: "IF ID == 231.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 231.0 AND target == 1 AND gain_ratio_1 == 52 AND gain_ratio_2 == 19 AND gain_ratio_3 == 37 AND gain_ratio_4 == 202 AND gain_ratio_5 == 38 AND gain_ratio_6 == 6 AND gain_ratio_7 == 18 AND gain_ratio_8 == 49 AND gain_ratio_9 == 187 AND gain_ratio_10 == 12 AND gain_ratio_11 == 15 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 231.0 THEN class == 1"
+  expl: "IF ID == 231.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 231.0 AND target == 2 AND gain_ratio_1 == 1 AND gain_ratio_2 == 4 AND gain_ratio_3 == 8 AND gain_ratio_4 == 202 AND gain_ratio_5 == 10 AND gain_ratio_6 == 0 AND gain_ratio_7 == 12 AND gain_ratio_8 == 18 AND gain_ratio_9 == 1 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 231.0 THEN class == 1"
+  expl: "IF ID == 231.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 242.0 AND target == 1 AND gain_ratio_1 == 50 AND gain_ratio_2 == 84 AND gain_ratio_3 == 72 AND gain_ratio_4 == 22 AND gain_ratio_5 == 80 AND gain_ratio_6 == 87 AND gain_ratio_7 == 88 AND gain_ratio_8 == 83 AND gain_ratio_9 == 100 AND gain_ratio_10 == 86 AND gain_ratio_11 == 81 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 242.0 THEN class == 1"
+  expl: "IF ID == 242.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 242.0 AND target == 0 AND gain_ratio_1 == 68 AND gain_ratio_2 == 71 AND gain_ratio_3 == 44 AND gain_ratio_4 == 79 AND gain_ratio_5 == 55 AND gain_ratio_6 == 59 AND gain_ratio_7 == 85 AND gain_ratio_8 == 70 AND gain_ratio_9 == 63 AND gain_ratio_10 == 85 AND gain_ratio_11 == 66 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 242.0 THEN class == 1"
+  expl: "IF ID == 242.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 242.0 AND target == 1 AND gain_ratio_1 == 33 AND gain_ratio_2 == 64 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 79 AND gain_ratio_6 == 45 AND gain_ratio_7 == 37 AND gain_ratio_8 == 56 AND gain_ratio_9 == 28 AND gain_ratio_10 == 72 AND gain_ratio_11 == 57 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 242.0 THEN class == 1"
+  expl: "IF ID == 242.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 242.0 AND target == 2 AND gain_ratio_1 == 9 AND gain_ratio_2 == 6 AND gain_ratio_3 == 6 AND gain_ratio_4 == 6 AND gain_ratio_5 == 13 AND gain_ratio_6 == 10 AND gain_ratio_7 == 11 AND gain_ratio_8 == 6 AND gain_ratio_9 == 4 AND gain_ratio_10 == 4 AND gain_ratio_11 == 9 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 242.0 THEN class == 1"
+  expl: "IF ID == 242.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 249.0 AND target == 1 AND gain_ratio_1 == 5 AND gain_ratio_2 == 3 AND gain_ratio_3 == 2 AND gain_ratio_4 == 21 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 28 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 249.0 THEN class == 1"
+  expl: "IF ID == 249.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 249.0 AND target == 1 AND gain_ratio_1 == 10 AND gain_ratio_2 == 193 AND gain_ratio_3 == 17 AND gain_ratio_4 == 7 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 86 AND gain_ratio_9 == 187 AND gain_ratio_10 == 9 AND gain_ratio_11 == 21 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 249.0 THEN class == 1"
+  expl: "IF ID == 249.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 249.0 AND target == 2 AND gain_ratio_1 == 3 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 0 AND gain_ratio_8 == 2 AND gain_ratio_9 == 187 AND gain_ratio_10 == 1 AND gain_ratio_11 == 17 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 249.0 THEN class == 1"
+  expl: "IF ID == 249.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 261.0 AND target == 1 AND gain_ratio_1 == 172 AND gain_ratio_2 == 193 AND gain_ratio_3 == 52 AND gain_ratio_4 == 202 AND gain_ratio_5 == 110 AND gain_ratio_6 == 116 AND gain_ratio_7 == 150 AND gain_ratio_8 == 187 AND gain_ratio_9 == 83 AND gain_ratio_10 == 61 AND gain_ratio_11 == 150 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 261.0 THEN class == 1"
+  expl: "IF ID == 261.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 261.0 AND target == 0 AND gain_ratio_1 == 38 AND gain_ratio_2 == 67 AND gain_ratio_3 == 190 AND gain_ratio_4 == 202 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 190 AND gain_ratio_8 == 166 AND gain_ratio_9 == 64 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 261.0 THEN class == 1"
+  expl: "IF ID == 261.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 263.0 AND target == 1 AND gain_ratio_1 == 94 AND gain_ratio_2 == 11 AND gain_ratio_3 == 49 AND gain_ratio_4 == 31 AND gain_ratio_5 == 196 AND gain_ratio_6 == 11 AND gain_ratio_7 == 190 AND gain_ratio_8 == 9 AND gain_ratio_9 == 100 AND gain_ratio_10 == 4 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 263.0 THEN class == 1"
+  expl: "IF ID == 263.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 263.0 AND target == 0 AND gain_ratio_1 == 132 AND gain_ratio_2 == 59 AND gain_ratio_3 == 70 AND gain_ratio_4 == 108 AND gain_ratio_5 == 22 AND gain_ratio_6 == 194 AND gain_ratio_7 == 83 AND gain_ratio_8 == 73 AND gain_ratio_9 == 3 AND gain_ratio_10 == 41 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 263.0 THEN class == 1"
+  expl: "IF ID == 263.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 263.0 AND target == 1 AND gain_ratio_1 == 26 AND gain_ratio_2 == 45 AND gain_ratio_3 == 190 AND gain_ratio_4 == 13 AND gain_ratio_5 == 26 AND gain_ratio_6 == 3 AND gain_ratio_7 == 4 AND gain_ratio_8 == 65 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 263.0 THEN class == 1"
+  expl: "IF ID == 263.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 263.0 AND target == 2 AND gain_ratio_1 == 26 AND gain_ratio_2 == 7 AND gain_ratio_3 == 1 AND gain_ratio_4 == 2 AND gain_ratio_5 == 0 AND gain_ratio_6 == 4 AND gain_ratio_7 == 8 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 1 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 263.0 THEN class == 1"
+  expl: "IF ID == 263.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 267.0 AND target == 1 AND gain_ratio_1 == 162 AND gain_ratio_2 == 155 AND gain_ratio_3 == 151 AND gain_ratio_4 == 179 AND gain_ratio_5 == 185 AND gain_ratio_6 == 172 AND gain_ratio_7 == 170 AND gain_ratio_8 == 172 AND gain_ratio_9 == 169 AND gain_ratio_10 == 180 AND gain_ratio_11 == 184 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 267.0 THEN class == 1"
+  expl: "IF ID == 267.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 267.0 AND target == 0 AND gain_ratio_1 == 115 AND gain_ratio_2 == 103 AND gain_ratio_3 == 167 AND gain_ratio_4 == 111 AND gain_ratio_5 == 146 AND gain_ratio_6 == 135 AND gain_ratio_7 == 105 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 267.0 THEN class == 1"
+  expl: "IF ID == 267.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 267.0 AND target == 1 AND gain_ratio_1 == 113 AND gain_ratio_2 == 179 AND gain_ratio_3 == 114 AND gain_ratio_4 == 106 AND gain_ratio_5 == 120 AND gain_ratio_6 == 159 AND gain_ratio_7 == 173 AND gain_ratio_8 == 160 AND gain_ratio_9 == 157 AND gain_ratio_10 == 149 AND gain_ratio_11 == 162 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 267.0 THEN class == 1"
+  expl: "IF ID == 267.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 267.0 AND target == 2 AND gain_ratio_1 == 54 AND gain_ratio_2 == 69 AND gain_ratio_3 == 102 AND gain_ratio_4 == 107 AND gain_ratio_5 == 90 AND gain_ratio_6 == 100 AND gain_ratio_7 == 82 AND gain_ratio_8 == 63 AND gain_ratio_9 == 54 AND gain_ratio_10 == 94 AND gain_ratio_11 == 84 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 267.0 THEN class == 1"
+  expl: "IF ID == 267.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 274.0 AND target == 0 AND gain_ratio_1 == 199 AND gain_ratio_2 == 193 AND gain_ratio_3 == 190 AND gain_ratio_4 == 92 AND gain_ratio_5 == 126 AND gain_ratio_6 == 158 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 187 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 0"
+  dexp: "IF ID == 274.0 THEN class == 0"
+  expl: "IF ID == 274.0 THEN class == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 275.0 AND target == 1 AND gain_ratio_1 == 186 AND gain_ratio_2 == 140 AND gain_ratio_3 == 124 AND gain_ratio_4 == 158 AND gain_ratio_5 == 114 AND gain_ratio_6 == 194 AND gain_ratio_7 == 138 AND gain_ratio_8 == 128 AND gain_ratio_9 == 101 AND gain_ratio_10 == 195 AND gain_ratio_11 == 100 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 275.0 THEN class == 1"
+  expl: "IF ID == 275.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 275.0 AND target == 0 AND gain_ratio_1 == 187 AND gain_ratio_2 == 119 AND gain_ratio_3 == 147 AND gain_ratio_4 == 140 AND gain_ratio_5 == 167 AND gain_ratio_6 == 124 AND gain_ratio_7 == 190 AND gain_ratio_8 == 187 AND gain_ratio_9 == 138 AND gain_ratio_10 == 195 AND gain_ratio_11 == 86 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 275.0 THEN class == 1"
+  expl: "IF ID == 275.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 275.0 AND target == 1 AND gain_ratio_1 == 118 AND gain_ratio_2 == 144 AND gain_ratio_3 == 99 AND gain_ratio_4 == 83 AND gain_ratio_5 == 147 AND gain_ratio_6 == 77 AND gain_ratio_7 == 47 AND gain_ratio_8 == 119 AND gain_ratio_9 == 187 AND gain_ratio_10 == 101 AND gain_ratio_11 == 91 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 275.0 THEN class == 1"
+  expl: "IF ID == 275.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 275.0 AND target == 2 AND gain_ratio_1 == 199 AND gain_ratio_2 == 60 AND gain_ratio_3 == 76 AND gain_ratio_4 == 70 AND gain_ratio_5 == 196 AND gain_ratio_6 == 194 AND gain_ratio_7 == 91 AND gain_ratio_8 == 105 AND gain_ratio_9 == 31 AND gain_ratio_10 == 195 AND gain_ratio_11 == 198 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 275.0 THEN class == 1"
+  expl: "IF ID == 275.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 276.0 AND target == 1 AND gain_ratio_1 == 90 AND gain_ratio_2 == 120 AND gain_ratio_3 == 37 AND gain_ratio_4 == 124 AND gain_ratio_5 == 109 AND gain_ratio_6 == 85 AND gain_ratio_7 == 39 AND gain_ratio_8 == 84 AND gain_ratio_9 == 187 AND gain_ratio_10 == 96 AND gain_ratio_11 == 23 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 276.0 THEN class == 1"
+  expl: "IF ID == 276.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 276.0 AND target == 0 AND gain_ratio_1 == 76 AND gain_ratio_2 == 27 AND gain_ratio_3 == 113 AND gain_ratio_4 == 129 AND gain_ratio_5 == 57 AND gain_ratio_6 == 86 AND gain_ratio_7 == 133 AND gain_ratio_8 == 125 AND gain_ratio_9 == 81 AND gain_ratio_10 == 79 AND gain_ratio_11 == 110 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 276.0 THEN class == 1"
+  expl: "IF ID == 276.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 276.0 AND target == 1 AND gain_ratio_1 == 167 AND gain_ratio_2 == 124 AND gain_ratio_3 == 84 AND gain_ratio_4 == 134 AND gain_ratio_5 == 88 AND gain_ratio_6 == 139 AND gain_ratio_7 == 126 AND gain_ratio_8 == 126 AND gain_ratio_9 == 187 AND gain_ratio_10 == 139 AND gain_ratio_11 == 168 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 276.0 THEN class == 1"
+  expl: "IF ID == 276.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF ID == 276.0 AND target == 2 AND gain_ratio_1 == 73 AND gain_ratio_2 == 114 AND gain_ratio_3 == 82 AND gain_ratio_4 == 116 AND gain_ratio_5 == 127 AND gain_ratio_6 == 108 AND gain_ratio_7 == 114 AND gain_ratio_8 == 94 AND gain_ratio_9 == 105 AND gain_ratio_10 == 162 AND gain_ratio_11 == 71 AND sex == 1 THEN class == 1"
+  dexp: "IF ID == 276.0 THEN class == 1"
+  expl: "IF ID == 276.0 THEN class == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 340
+tot # of expls: 340
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.00
+avg expl sz: 1.00
+max expl sz: 1.00
+Max expl sz: 1
+
+tot time: 0.03
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

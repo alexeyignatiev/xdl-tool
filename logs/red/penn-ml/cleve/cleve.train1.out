@@ -1,0 +1,2014 @@
+MODEL:
+IF Age == 29.0 THEN target == 0
+IF Age == 34.0 THEN target == 0
+IF Age == 37.0 THEN target == 0
+IF Age == 69.0 THEN target == 0
+IF Age == 71.0 THEN target == 0
+IF Age == 74.0 THEN target == 0
+IF Age == 76.0 THEN target == 0
+IF Age == 77.0 THEN target == 1
+IF Trestbps == 94.0 THEN target == 0
+IF Trestbps == 101.0 THEN target == 0
+IF Trestbps == 102.0 THEN target == 0
+IF Trestbps == 104.0 THEN target == 0
+IF Trestbps == 105.0 THEN target == 0
+IF Trestbps == 106.0 THEN target == 0
+IF Trestbps == 108.0 THEN target == 0
+IF Trestbps == 114.0 THEN target == 1
+IF Trestbps == 115.0 THEN target == 0
+IF Trestbps == 129.0 THEN target == 0
+IF Trestbps == 144.0 THEN target == 1
+IF Age == 68.0 THEN target == 0
+IF Trestbps == 148.0 THEN target == 1
+IF Trestbps == 154.0 THEN target == 1
+IF Trestbps == 155.0 THEN target == 0
+IF Trestbps == 156.0 THEN target == 0
+IF Age == 70.0 THEN target == 1
+IF Trestbps == 164.0 THEN target == 1
+IF Trestbps == 165.0 THEN target == 1
+IF Trestbps == 172.0 THEN target == 0
+IF Trestbps == 174.0 THEN target == 1
+IF Trestbps == 178.0 THEN target == 0
+IF Trestbps == 180.0 THEN target == 1
+IF Trestbps == 192.0 THEN target == 1
+IF Trestbps == 200.0 THEN target == 1
+IF Cholesterol == 126.0 THEN target == 0
+IF Cholesterol == 131.0 THEN target == 1
+IF Cholesterol == 149.0 THEN target == 1
+IF Cholesterol == 157.0 THEN target == 0
+IF Cholesterol == 160.0 THEN target == 0
+IF Cholesterol == 164.0 THEN target == 1
+IF Cholesterol == 166.0 THEN target == 1
+IF Cholesterol == 167.0 THEN target == 1
+IF Age == 40.0 THEN target == 0
+IF Cholesterol == 169.0 THEN target == 1
+IF Age == 44.0 THEN target == 0
+IF Cholesterol == 172.0 THEN target == 1
+IF Age == 41.0 THEN target == 0
+IF Trestbps == 112.0 THEN target == 1
+IF Trestbps == 126.0 THEN target == 1
+IF Cholesterol == 175.0 THEN target == 0
+IF Age == 38.0 THEN target == 1
+IF Cholesterol == 180.0 THEN target == 0
+IF Cholesterol == 183.0 THEN target == 0
+IF Cholesterol == 184.0 THEN target == 1
+IF Cholesterol == 185.0 THEN target == 1
+IF Cholesterol == 186.0 THEN target == 0
+IF Trestbps == 118.0 THEN target == 1
+IF Age == 39.0 THEN target == 0
+IF Cholesterol == 187.0 THEN target == 1
+IF Cholesterol == 188.0 THEN target == 1
+IF Age == 49.0 THEN target == 0
+IF Cholesterol == 192.0 THEN target == 0
+IF Age == 35.0 THEN target == 1
+IF Cholesterol == 193.0 THEN target == 0
+IF Cholesterol == 195.0 THEN target == 0
+IF Cholesterol == 196.0 THEN target == 0
+IF Trestbps == 136.0 THEN target == 1
+IF Age == 42.0 THEN target == 0
+IF Cholesterol == 201.0 THEN target == 0
+IF Trestbps == 134.0 THEN target == 1
+IF Cholesterol == 203.0 THEN target == 1
+IF Age == 53.0 THEN target == 0
+IF Cholesterol == 204.0 THEN target == 1
+IF Cholesterol == 206.0 THEN target == 1
+IF Cholesterol == 208.0 THEN target == 0
+IF Cholesterol == 209.0 THEN target == 0
+IF Trestbps == 124.0 THEN target == 1
+IF Cholesterol == 197.0 THEN target == 0
+IF Cholesterol == 211.0 THEN target == 0
+IF Cholesterol == 213.0 THEN target == 0
+IF Cholesterol == 214.0 THEN target == 0
+IF Cholesterol == 216.0 THEN target == 1
+IF Cholesterol == 218.0 THEN target == 1
+IF Trestbps == 146.0 THEN target == 0
+IF Cholesterol == 219.0 THEN target == 0
+IF Cholesterol == 220.0 THEN target == 0
+IF Cholesterol == 221.0 THEN target == 0
+IF Cholesterol == 222.0 THEN target == 0
+IF Trestbps == 122.0 THEN target == 1
+IF Cholesterol == 223.0 THEN target == 0
+IF Cholesterol == 224.0 THEN target == 1
+IF Cholesterol == 225.0 THEN target == 1
+IF Cholesterol == 227.0 THEN target == 0
+IF Trestbps == 170.0 THEN target == 1
+IF Cholesterol == 229.0 THEN target == 1
+IF Cholesterol == 231.0 THEN target == 0
+IF Cholesterol == 232.0 THEN target == 0
+IF Cholesterol == 237.0 THEN target == 1
+IF Cholesterol == 240.0 THEN target == 0
+IF Age == 60.0 THEN target == 1
+IF Cholesterol == 241.0 THEN target == 1
+IF Cholesterol == 245.0 THEN target == 0
+IF Trestbps == 125.0 THEN target == 1
+IF Cholesterol == 246.0 THEN target == 1
+IF Age == 66.0 THEN target == 0
+IF Cholesterol == 249.0 THEN target == 1
+IF Age == 46.0 THEN target == 0
+IF Trestbps == 142.0 THEN target == 1
+IF Cholesterol == 252.0 THEN target == 0
+IF Cholesterol == 253.0 THEN target == 0
+IF Cholesterol == 255.0 THEN target == 1
+IF Age == 52.0 THEN target == 0
+IF Cholesterol == 205.0 THEN target == 1
+IF Cholesterol == 257.0 THEN target == 0
+IF Age == 47.0 THEN target == 1
+IF Cholesterol == 259.0 THEN target == 1
+IF Trestbps == 128.0 THEN target == 0
+IF Cholesterol == 260.0 THEN target == 1
+IF Cholesterol == 261.0 THEN target == 0
+IF Cholesterol == 262.0 THEN target == 0
+IF Cholesterol == 263.0 THEN target == 1
+IF Cholesterol == 264.0 THEN target == 1
+IF Age == 45.0 THEN target == 0
+IF Chest pain type == 1 THEN target == 0
+IF Age == 63.0 THEN target == 1
+IF Trestbps == 145.0 THEN target == 1
+IF Cholesterol == 233.0 THEN target == 1
+IF Cholesterol == 267.0 THEN target == 1
+IF Cholesterol == 268.0 THEN target == 1
+IF Cholesterol == 270.0 THEN target == 1
+IF Cholesterol == 271.0 THEN target == 0
+IF Trestbps == 138.0 THEN target == 1
+IF Cholesterol == 274.0 THEN target == 1
+IF Cholesterol == 275.0 THEN target == 0
+IF Age == 48.0 THEN target == 1
+IF Cholesterol == 256.0 THEN target == 0
+IF Cholesterol == 276.0 THEN target == 1
+IF Cholesterol == 277.0 THEN target == 0
+IF Age == 67.0 THEN target == 1
+IF Cholesterol == 212.0 THEN target == 0
+IF Cholesterol == 283.0 THEN target == 1
+IF Age == 56.0 THEN target == 0
+IF Cholesterol == 236.0 THEN target == 1
+IF Cholesterol == 284.0 THEN target == 1
+IF Chest pain type == 0 THEN target == 0
+IF Age == 55.0 THEN target == 1
+IF Trestbps == 160.0 THEN target == 0
+IF Cholesterol == 244.0 THEN target == 1
+IF Age == 62.0 THEN target == 0
+IF Cholesterol == 298.0 THEN target == 1
+IF Cholesterol == 299.0 THEN target == 1
+IF Cholesterol == 303.0 THEN target == 0
+IF Age == 64.0 THEN target == 1
+IF Chest pain type != 2 THEN target == 0
+IF Age == 51.0 THEN target == 1
+IF Age == 61.0 THEN target == 1
+IF Cholesterol == 207.0 THEN target == 0
+IF Trestbps == 132.0 THEN target == 1
+IF Sex == 0 THEN target == 0
+IF Age == 50.0 THEN target == 1
+IF Age == 57.0 THEN target == 1
+IF Age == 58.0 THEN target == 1
+IF Trestbps == 110.0 THEN target == 1
+IF Age == 54.0 THEN target == 0
+IF Trestbps == 140.0 THEN target == 1
+IF Age == 59.0 THEN target == 0
+IF Trestbps == 135.0 THEN target == 1
+IF Age != 43.0 THEN target == 0
+IF Trestbps == 120.0 THEN target == 1
+IF Age == 43.0 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 395
+avg # of vars: 395.00
+max # of vars: 395
+min # of clauses: 18469
+avg # of clauses: 18470.00
+max # of clauses: 18471
+
+EXPLANATIONS:
+  inst: "IF Age == 68.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 118.0 AND Cholesterol == 277.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 151.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 68.0 AND Trestbps == 118.0 THEN target == 0"
+  expl: "IF Trestbps == 118.0 AND Age == 68.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 76.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 197.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 0 AND Max heart rate == 116.0 AND Exercise induced angina == 0 AND Oldpeak == 1.1 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 76.0 THEN target == 0"
+  expl: "IF Age == 76.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 234.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 175.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 45.0 AND Trestbps == 130.0 AND Cholesterol == 234.0 THEN target == 0"
+  expl: "IF Cholesterol == 234.0 AND Trestbps == 130.0 AND Age == 45.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 112.0 AND Cholesterol == 268.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 172.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 112.0 AND Cholesterol == 268.0 THEN target == 0"
+  expl: "IF Cholesterol == 268.0 AND Trestbps == 112.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 35.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 183.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 182.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 35.0 AND Trestbps == 138.0 AND Cholesterol == 183.0 THEN target == 0"
+  expl: "IF Cholesterol == 183.0 AND Trestbps == 138.0 AND Age == 35.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 124.0 AND Cholesterol == 209.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 62.0 AND Trestbps == 124.0 AND Cholesterol == 209.0 THEN target == 0"
+  expl: "IF Cholesterol == 209.0 AND Trestbps == 124.0 AND Age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 303.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 122.0 AND Exercise induced angina == 0 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 64.0 AND Trestbps == 130.0 AND Cholesterol == 303.0 AND Chest pain type == 2 THEN target == 0"
+  expl: "IF Cholesterol == 303.0 AND Trestbps == 130.0 AND Age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 135.0 AND Cholesterol == 304.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 170.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 135.0 AND Cholesterol == 304.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 304.0 AND Trestbps == 135.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 47.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 138.0 AND Cholesterol == 257.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 156.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 47.0 AND Trestbps == 138.0 AND Cholesterol == 257.0 THEN target == 0"
+  expl: "IF Cholesterol == 257.0 AND Trestbps == 138.0 AND Age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 100.0 AND Cholesterol == 222.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 143.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 100.0 AND Cholesterol == 222.0 THEN target == 0"
+  expl: "IF Cholesterol == 222.0 AND Trestbps == 100.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 236.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 152.0 AND Exercise induced angina == 1 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 45.0 AND Trestbps == 138.0 AND Cholesterol == 236.0 THEN target == 0"
+  expl: "IF Cholesterol == 236.0 AND Trestbps == 138.0 AND Age == 45.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 126.0 AND Cholesterol == 306.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 126.0 AND Cholesterol == 306.0 THEN target == 0"
+  expl: "IF Cholesterol == 306.0 AND Trestbps == 126.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 142.0 AND Cholesterol == 226.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 111.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 142.0 AND Cholesterol == 226.0 THEN target == 0"
+  expl: "IF Cholesterol == 226.0 AND Trestbps == 142.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 108.0 AND Cholesterol == 267.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 167.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 108.0 THEN target == 0"
+  expl: "IF Trestbps == 108.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 262.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 155.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 55.0 AND Trestbps == 130.0 AND Cholesterol == 262.0 THEN target == 0"
+  expl: "IF Cholesterol == 262.0 AND Trestbps == 130.0 AND Age == 55.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 108.0 AND Cholesterol == 233.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 147.0 AND Exercise induced angina == 0 AND Oldpeak == 0.1 AND Slope == 2 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 108.0 THEN target == 0"
+  expl: "IF Trestbps == 108.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 68.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 211.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 115.0 AND Exercise induced angina == 0 AND Oldpeak == 1.5 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 68.0 AND Trestbps == 120.0 THEN target == 0"
+  expl: "IF Trestbps == 120.0 AND Age == 68.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 112.0 AND Cholesterol == 290.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 153.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 112.0 AND Cholesterol == 290.0 THEN target == 0"
+  expl: "IF Cholesterol == 290.0 AND Trestbps == 112.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 256.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 142.0 AND Exercise induced angina == 1 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 56.0 AND Trestbps == 130.0 AND Cholesterol == 256.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 256.0 AND Trestbps == 130.0 AND Age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 298.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 122.0 AND Exercise induced angina == 1 AND Oldpeak == 4.2 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 51.0 AND Trestbps == 140.0 AND Cholesterol == 298.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 298.0 AND Trestbps == 140.0 AND Age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 122.0 AND Cholesterol == 286.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 116.0 AND Exercise induced angina == 1 AND Oldpeak == 3.2 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 122.0 AND Cholesterol == 286.0 THEN target == 1"
+  expl: "IF Cholesterol == 286.0 AND Trestbps == 122.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 108.0 AND Cholesterol == 269.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 169.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 63.0 AND Trestbps == 108.0 THEN target == 0"
+  expl: "IF Trestbps == 108.0 AND Age == 63.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 239.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 126.0 AND Exercise induced angina == 1 AND Oldpeak == 2.8 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 110.0 AND Cholesterol == 239.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 239.0 AND Trestbps == 110.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 125.0 AND Cholesterol == 254.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 67.0 AND Trestbps == 125.0 AND Cholesterol == 254.0 THEN target == 1"
+  expl: "IF Cholesterol == 254.0 AND Trestbps == 125.0 AND Age == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 114.0 AND Cholesterol == 318.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 0 AND Max heart rate == 140.0 AND Exercise induced angina == 0 AND Oldpeak == 4.4 AND Slope == 0 AND Number of vessels colored == 3 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 114.0 THEN target == 1"
+  expl: "IF Trestbps == 114.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 132.0 AND Cholesterol == 247.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 143.0 AND Exercise induced angina == 1 AND Oldpeak == 0.1 AND Slope == 1 AND Number of vessels colored == 4 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 43.0 AND Trestbps == 132.0 AND Cholesterol == 247.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 247.0 AND Trestbps == 132.0 AND Age == 43.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 237.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 71.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 67.0 AND Trestbps == 120.0 AND Cholesterol == 237.0 THEN target == 1"
+  expl: "IF Cholesterol == 237.0 AND Trestbps == 120.0 AND Age == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 49.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 188.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 139.0 AND Exercise induced angina == 0 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 49.0 AND Trestbps == 120.0 AND Cholesterol == 188.0 THEN target == 1"
+  expl: "IF Cholesterol == 188.0 AND Trestbps == 120.0 AND Age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 145.0 AND Cholesterol == 212.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 132.0 AND Exercise induced angina == 0 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 64.0 AND Trestbps == 145.0 AND Cholesterol == 212.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 212.0 AND Trestbps == 145.0 AND Age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 170.0 AND Cholesterol == 288.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 159.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 170.0 AND Cholesterol == 288.0 THEN target == 1"
+  expl: "IF Cholesterol == 288.0 AND Trestbps == 170.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 135.0 AND Cholesterol == 254.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 127.0 AND Exercise induced angina == 0 AND Oldpeak == 2.8 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 65.0 AND Trestbps == 135.0 AND Cholesterol == 254.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 254.0 AND Trestbps == 135.0 AND Age == 65.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 340.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 172.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 120.0 AND Cholesterol == 340.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 340.0 AND Trestbps == 120.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 35.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 122.0 AND Cholesterol == 192.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 174.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 35.0 AND Trestbps == 122.0 AND Cholesterol == 192.0 THEN target == 0"
+  expl: "IF Cholesterol == 192.0 AND Trestbps == 122.0 AND Age == 35.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 136.0 AND Cholesterol == 196.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 169.0 AND Exercise induced angina == 0 AND Oldpeak == 0.1 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 136.0 AND Cholesterol == 196.0 THEN target == 0"
+  expl: "IF Cholesterol == 196.0 AND Trestbps == 136.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 140.0 AND Cholesterol == 294.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 153.0 AND Exercise induced angina == 0 AND Oldpeak == 1.3 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 56.0 AND Trestbps == 140.0 AND Cholesterol == 294.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Cholesterol == 294.0 AND Trestbps == 140.0 AND Age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 105.0 AND Cholesterol == 198.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 168.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 105.0 THEN target == 0"
+  expl: "IF Trestbps == 105.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 40.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 140.0 AND Cholesterol == 199.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 178.0 AND Exercise induced angina == 1 AND Oldpeak == 1.4 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 40.0 AND Trestbps == 140.0 AND Cholesterol == 199.0 THEN target == 0"
+  expl: "IF Cholesterol == 199.0 AND Trestbps == 140.0 AND Age == 40.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 71.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 160.0 AND Cholesterol == 302.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 71.0 THEN target == 0"
+  expl: "IF Age == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 152.0 AND Cholesterol == 298.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 178.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 152.0 AND Cholesterol == 298.0 THEN target == 0"
+  expl: "IF Cholesterol == 298.0 AND Trestbps == 152.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 240.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 169.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 56.0 AND Trestbps == 120.0 AND Cholesterol == 240.0 THEN target == 0"
+  expl: "IF Cholesterol == 240.0 AND Trestbps == 120.0 AND Age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 132.0 AND Cholesterol == 288.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 159.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 132.0 AND Cholesterol == 288.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Chest pain type == 0 AND Cholesterol == 288.0 AND Trestbps == 132.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 112.0 AND Cholesterol == 250.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 179.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 112.0 AND Cholesterol == 250.0 THEN target == 0"
+  expl: "IF Cholesterol == 250.0 AND Trestbps == 112.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 244.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 1.1 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 50.0 AND Trestbps == 120.0 AND Cholesterol == 244.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Chest pain type == 0 AND Cholesterol == 244.0 AND Trestbps == 120.0 AND Age == 50.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 204.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 172.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 130.0 AND Cholesterol == 204.0 THEN target == 0"
+  expl: "IF Cholesterol == 204.0 AND Trestbps == 130.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 120.0 AND Cholesterol == 193.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 1.9 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 56.0 AND Trestbps == 120.0 AND Cholesterol == 193.0 THEN target == 0"
+  expl: "IF Cholesterol == 193.0 AND Trestbps == 120.0 AND Age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 394.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 157.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 62.0 AND Trestbps == 140.0 AND Cholesterol == 394.0 AND Chest pain type == 2 THEN target == 0"
+  expl: "IF Cholesterol == 394.0 AND Trestbps == 140.0 AND Age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 303.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 159.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 128.0 AND Cholesterol == 303.0 THEN target == 0"
+  expl: "IF Cholesterol == 303.0 AND Trestbps == 128.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 180.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 150.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 42.0 AND Trestbps == 130.0 AND Cholesterol == 180.0 THEN target == 0"
+  expl: "IF Cholesterol == 180.0 AND Trestbps == 130.0 AND Age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 293.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 170.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 140.0 AND Cholesterol == 293.0 THEN target == 1"
+  expl: "IF Cholesterol == 293.0 AND Trestbps == 140.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 259.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 130.0 AND Exercise induced angina == 1 AND Oldpeak == 3.0 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 128.0 AND Cholesterol == 259.0 THEN target == 1"
+  expl: "IF Cholesterol == 259.0 AND Trestbps == 128.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 47.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 275.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 118.0 AND Exercise induced angina == 1 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 47.0 AND Trestbps == 110.0 AND Cholesterol == 275.0 THEN target == 1"
+  expl: "IF Cholesterol == 275.0 AND Trestbps == 110.0 AND Age == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 263.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 97.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 62.0 AND Trestbps == 130.0 AND Cholesterol == 263.0 THEN target == 1"
+  expl: "IF Cholesterol == 263.0 AND Trestbps == 130.0 AND Age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 255.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 161.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 52.0 AND Trestbps == 128.0 AND Cholesterol == 255.0 THEN target == 1"
+  expl: "IF Cholesterol == 255.0 AND Trestbps == 128.0 AND Age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 217.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 111.0 AND Exercise induced angina == 1 AND Oldpeak == 5.6 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 55.0 AND Trestbps == 140.0 AND Cholesterol == 217.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 217.0 AND Trestbps == 140.0 AND Age == 55.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 77.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 125.0 AND Cholesterol == 304.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 162.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 3 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 77.0 THEN target == 1"
+  expl: "IF Age == 77.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 335.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 158.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 64.0 AND Trestbps == 140.0 AND Cholesterol == 335.0 AND Chest pain type == 3 THEN target == 1"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 335.0 AND Trestbps == 140.0 AND Age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 305.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 142.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 51.0 AND Trestbps == 130.0 AND Cholesterol == 305.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 305.0 AND Trestbps == 130.0 AND Age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 126.0 AND Cholesterol == 218.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 134.0 AND Exercise induced angina == 0 AND Oldpeak == 2.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 126.0 AND Cholesterol == 218.0 THEN target == 1"
+  expl: "IF Cholesterol == 218.0 AND Trestbps == 126.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 47.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 108.0 AND Cholesterol == 243.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 152.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 47.0 AND Trestbps == 108.0 THEN target == 0"
+  expl: "IF Trestbps == 108.0 AND Age == 47.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 281.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 103.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 62.0 AND Trestbps == 120.0 AND Cholesterol == 281.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Cholesterol == 281.0 AND Trestbps == 120.0 AND Age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 249.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 144.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 46.0 AND Trestbps == 120.0 AND Cholesterol == 249.0 THEN target == 1"
+  expl: "IF Cholesterol == 249.0 AND Trestbps == 120.0 AND Age == 46.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 38.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 120.0 AND Cholesterol == 231.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 182.0 AND Exercise induced angina == 1 AND Oldpeak == 3.8 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 38.0 AND Trestbps == 120.0 AND Cholesterol == 231.0 THEN target == 1"
+  expl: "IF Cholesterol == 231.0 AND Trestbps == 120.0 AND Age == 38.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 47.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 112.0 AND Cholesterol == 204.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 143.0 AND Exercise induced angina == 0 AND Oldpeak == 0.1 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 47.0 AND Trestbps == 112.0 AND Cholesterol == 204.0 THEN target == 1"
+  expl: "IF Cholesterol == 204.0 AND Trestbps == 112.0 AND Age == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 315.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 1.9 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 43.0 AND Trestbps == 130.0 AND Cholesterol == 315.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 315.0 AND Trestbps == 130.0 AND Age == 43.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 94.0 AND Cholesterol == 227.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 154.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 94.0 THEN target == 0"
+  expl: "IF Trestbps == 94.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 146.0 AND Cholesterol == 278.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 152.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 66.0 AND Trestbps == 146.0 AND Cholesterol == 278.0 THEN target == 0"
+  expl: "IF Cholesterol == 278.0 AND Trestbps == 146.0 AND Age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 302.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 151.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 66.0 AND Trestbps == 120.0 AND Cholesterol == 302.0 THEN target == 0"
+  expl: "IF Cholesterol == 302.0 AND Trestbps == 120.0 AND Age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 108.0 AND Cholesterol == 309.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 156.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 108.0 THEN target == 0"
+  expl: "IF Trestbps == 108.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 157.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 182.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 120.0 AND Cholesterol == 157.0 THEN target == 0"
+  expl: "IF Cholesterol == 157.0 AND Trestbps == 120.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 132.0 AND Cholesterol == 342.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 166.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 55.0 AND Trestbps == 132.0 AND Cholesterol == 342.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Chest pain type == 0 AND Cholesterol == 342.0 AND Trestbps == 132.0 AND Age == 55.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 38.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 138.0 AND Cholesterol == 175.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 173.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 4 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 38.0 AND Trestbps == 138.0 AND Cholesterol == 175.0 THEN target == 0"
+  expl: "IF Cholesterol == 175.0 AND Trestbps == 138.0 AND Age == 38.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 180.0 AND Cholesterol == 325.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 154.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 64.0 AND Trestbps == 180.0 THEN target == 1"
+  expl: "IF Trestbps == 180.0 AND Age == 64.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 152.0 AND Cholesterol == 277.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 172.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 67.0 AND Trestbps == 152.0 AND Cholesterol == 277.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 277.0 AND Trestbps == 152.0 AND Age == 67.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 101.0 AND Cholesterol == 197.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 156.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 46.0 AND Trestbps == 101.0 THEN target == 0"
+  expl: "IF Trestbps == 101.0 AND Age == 46.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 122.0 AND Cholesterol == 213.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 165.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 43.0 AND Trestbps == 122.0 AND Cholesterol == 213.0 THEN target == 0"
+  expl: "IF Cholesterol == 213.0 AND Trestbps == 122.0 AND Age == 43.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 135.0 AND Cholesterol == 250.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 161.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 55.0 AND Trestbps == 135.0 AND Cholesterol == 250.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Chest pain type == 0 AND Cholesterol == 250.0 AND Trestbps == 135.0 AND Age == 55.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 122.0 AND Cholesterol == 222.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 186.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 48.0 AND Trestbps == 122.0 AND Cholesterol == 222.0 THEN target == 0"
+  expl: "IF Cholesterol == 222.0 AND Trestbps == 122.0 AND Age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 150.0 AND Cholesterol == 232.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 165.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 150.0 AND Cholesterol == 232.0 THEN target == 0"
+  expl: "IF Cholesterol == 232.0 AND Trestbps == 150.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 155.0 AND Cholesterol == 269.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 148.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 65.0 AND Trestbps == 155.0 THEN target == 0"
+  expl: "IF Trestbps == 155.0 AND Age == 65.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 154.0 AND Cholesterol == 232.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 164.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 154.0 THEN target == 1"
+  expl: "IF Trestbps == 154.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 70.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 322.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 109.0 AND Exercise induced angina == 0 AND Oldpeak == 2.4 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 70.0 AND Trestbps == 130.0 THEN target == 1"
+  expl: "IF Trestbps == 130.0 AND Age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 188.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 113.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 120.0 AND Cholesterol == 188.0 THEN target == 1"
+  expl: "IF Cholesterol == 188.0 AND Trestbps == 120.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 145.0 AND Cholesterol == 282.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 142.0 AND Exercise induced angina == 1 AND Oldpeak == 2.8 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 145.0 AND Cholesterol == 282.0 THEN target == 1"
+  expl: "IF Cholesterol == 282.0 AND Trestbps == 145.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 125.0 AND Cholesterol == 300.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 171.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 125.0 AND Cholesterol == 300.0 THEN target == 1"
+  expl: "IF Cholesterol == 300.0 AND Trestbps == 125.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 110.0 AND Cholesterol == 264.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 132.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 45.0 AND Trestbps == 110.0 AND Cholesterol == 264.0 THEN target == 1"
+  expl: "IF Cholesterol == 264.0 AND Trestbps == 110.0 AND Age == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 148.0 AND Cholesterol == 203.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 161.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 148.0 THEN target == 1"
+  expl: "IF Trestbps == 148.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 170.0 AND Cholesterol == 225.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 146.0 AND Exercise induced angina == 1 AND Oldpeak == 2.8 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 170.0 AND Cholesterol == 225.0 THEN target == 1"
+  expl: "IF Cholesterol == 225.0 AND Trestbps == 170.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 100.0 AND Cholesterol == 299.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 125.0 AND Exercise induced angina == 1 AND Oldpeak == 0.9 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 67.0 AND Trestbps == 100.0 AND Cholesterol == 299.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 299.0 AND Trestbps == 100.0 AND Age == 67.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 283.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 103.0 AND Exercise induced angina == 1 AND Oldpeak == 1.6 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 56.0 AND Trestbps == 130.0 AND Cholesterol == 283.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 283.0 AND Trestbps == 130.0 AND Age == 56.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 166.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 125.0 AND Exercise induced angina == 1 AND Oldpeak == 3.6 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 138.0 AND Cholesterol == 166.0 THEN target == 1"
+  expl: "IF Cholesterol == 166.0 AND Trestbps == 138.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 128.0 AND Cholesterol == 229.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 150.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 128.0 AND Cholesterol == 229.0 THEN target == 1"
+  expl: "IF Cholesterol == 229.0 AND Trestbps == 128.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 124.0 AND Cholesterol == 274.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 166.0 AND Exercise induced angina == 0 AND Oldpeak == 0.5 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 48.0 AND Trestbps == 124.0 AND Cholesterol == 274.0 THEN target == 1"
+  expl: "IF Cholesterol == 274.0 AND Trestbps == 124.0 AND Age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 236.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 174.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 130.0 AND Cholesterol == 236.0 AND Chest pain type == 0 THEN target == 1"
+  expl: "IF Chest pain type == 0 AND Cholesterol == 236.0 AND Trestbps == 130.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 263.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 173.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 120.0 AND Cholesterol == 263.0 THEN target == 0"
+  expl: "IF Cholesterol == 263.0 AND Trestbps == 120.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 148.0 AND Cholesterol == 244.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 178.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 42.0 AND Trestbps == 148.0 THEN target == 1"
+  expl: "IF Trestbps == 148.0 AND Age == 42.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 264.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 143.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 130.0 AND Cholesterol == 264.0 THEN target == 0"
+  expl: "IF Cholesterol == 264.0 AND Trestbps == 130.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 110.0 AND Cholesterol == 235.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 153.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 110.0 AND Cholesterol == 235.0 THEN target == 0"
+  expl: "IF Cholesterol == 235.0 AND Trestbps == 110.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 245.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 180.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 48.0 AND Trestbps == 130.0 AND Cholesterol == 245.0 THEN target == 0"
+  expl: "IF Cholesterol == 245.0 AND Trestbps == 130.0 AND Age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 172.0 AND Cholesterol == 199.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 0.5 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 172.0 THEN target == 0"
+  expl: "IF Trestbps == 172.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 102.0 AND Cholesterol == 318.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 60.0 AND Trestbps == 102.0 THEN target == 0"
+  expl: "IF Trestbps == 102.0 AND Age == 60.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 211.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 161.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 43.0 AND Trestbps == 110.0 AND Cholesterol == 211.0 THEN target == 0"
+  expl: "IF Cholesterol == 211.0 AND Trestbps == 110.0 AND Age == 43.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 138.0 AND Cholesterol == 223.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 169.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 4 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 138.0 AND Cholesterol == 223.0 THEN target == 0"
+  expl: "IF Cholesterol == 223.0 AND Trestbps == 138.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 150.0 AND Cholesterol == 243.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 137.0 AND Exercise induced angina == 1 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 61.0 AND Trestbps == 150.0 AND Cholesterol == 243.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 243.0 AND Trestbps == 150.0 AND Age == 61.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 192.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 148.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 140.0 AND Cholesterol == 192.0 THEN target == 0"
+  expl: "IF Cholesterol == 192.0 AND Trestbps == 140.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 34.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 118.0 AND Cholesterol == 210.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 192.0 AND Exercise induced angina == 0 AND Oldpeak == 0.7 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 34.0 THEN target == 0"
+  expl: "IF Age == 34.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 71.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 112.0 AND Cholesterol == 149.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 125.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 71.0 THEN target == 0"
+  expl: "IF Age == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 134.0 AND Cholesterol == 201.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 158.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 134.0 AND Cholesterol == 201.0 THEN target == 0"
+  expl: "IF Cholesterol == 201.0 AND Trestbps == 134.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 37.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 250.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 187.0 AND Exercise induced angina == 0 AND Oldpeak == 3.5 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 37.0 THEN target == 0"
+  expl: "IF Age == 37.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 313.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 133.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 64.0 AND Trestbps == 140.0 AND Cholesterol == 313.0 AND Chest pain type == 3 THEN target == 1"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 313.0 AND Trestbps == 140.0 AND Age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 110.0 AND Cholesterol == 175.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 123.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 110.0 AND Cholesterol == 175.0 THEN target == 0"
+  expl: "IF Cholesterol == 175.0 AND Trestbps == 110.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 39.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 118.0 AND Cholesterol == 219.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 140.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 39.0 AND Trestbps == 118.0 AND Cholesterol == 219.0 THEN target == 1"
+  expl: "IF Cholesterol == 219.0 AND Trestbps == 118.0 AND Age == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 178.0 AND Cholesterol == 228.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 165.0 AND Exercise induced angina == 1 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 66.0 AND Trestbps == 178.0 THEN target == 0"
+  expl: "IF Trestbps == 178.0 AND Age == 66.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 180.0 AND Cholesterol == 327.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 0 AND Max heart rate == 117.0 AND Exercise induced angina == 1 AND Oldpeak == 3.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 55.0 AND Trestbps == 180.0 THEN target == 1"
+  expl: "IF Trestbps == 180.0 AND Age == 55.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 216.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 131.0 AND Exercise induced angina == 1 AND Oldpeak == 2.2 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 128.0 AND Cholesterol == 216.0 THEN target == 1"
+  expl: "IF Cholesterol == 216.0 AND Trestbps == 128.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 152.0 AND Cholesterol == 274.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 88.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 152.0 AND Cholesterol == 274.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 274.0 AND Trestbps == 152.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 150.0 AND Cholesterol == 231.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 147.0 AND Exercise induced angina == 0 AND Oldpeak == 3.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 46.0 AND Trestbps == 150.0 AND Cholesterol == 231.0 THEN target == 0"
+  expl: "IF Cholesterol == 231.0 AND Trestbps == 150.0 AND Age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 134.0 AND Cholesterol == 234.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 145.0 AND Exercise induced angina == 0 AND Oldpeak == 2.6 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 134.0 AND Cholesterol == 234.0 THEN target == 1"
+  expl: "IF Cholesterol == 234.0 AND Trestbps == 134.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 125.0 AND Cholesterol == 309.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 131.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 64.0 AND Trestbps == 125.0 AND Cholesterol == 309.0 THEN target == 1"
+  expl: "IF Cholesterol == 309.0 AND Trestbps == 125.0 AND Age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 134.0 AND Cholesterol == 204.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 134.0 AND Cholesterol == 204.0 THEN target == 1"
+  expl: "IF Cholesterol == 204.0 AND Trestbps == 134.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 131.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 115.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 130.0 AND Cholesterol == 131.0 THEN target == 1"
+  expl: "IF Cholesterol == 131.0 AND Trestbps == 130.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 330.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 132.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 2 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 63.0 AND Trestbps == 130.0 AND Cholesterol == 330.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 330.0 AND Trestbps == 130.0 AND Age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 253.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 144.0 AND Exercise induced angina == 1 AND Oldpeak == 1.4 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 130.0 AND Cholesterol == 253.0 THEN target == 1"
+  expl: "IF Cholesterol == 253.0 AND Trestbps == 130.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 112.0 AND Cholesterol == 230.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 52.0 AND Trestbps == 112.0 AND Cholesterol == 230.0 THEN target == 1"
+  expl: "IF Cholesterol == 230.0 AND Trestbps == 112.0 AND Age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 240.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 194.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 42.0 AND Trestbps == 120.0 AND Cholesterol == 240.0 THEN target == 0"
+  expl: "IF Cholesterol == 240.0 AND Trestbps == 120.0 AND Age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 219.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 188.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 130.0 AND Cholesterol == 219.0 THEN target == 0"
+  expl: "IF Cholesterol == 219.0 AND Trestbps == 130.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 239.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 140.0 AND Cholesterol == 239.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 0"
+  expl: "IF Cholesterol == 239.0 AND Trestbps == 140.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 39.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 321.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 182.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 39.0 AND Trestbps == 140.0 AND Cholesterol == 321.0 THEN target == 0"
+  expl: "IF Cholesterol == 321.0 AND Trestbps == 140.0 AND Age == 39.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 135.0 AND Cholesterol == 203.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 132.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 135.0 AND Cholesterol == 203.0 THEN target == 0"
+  expl: "IF Cholesterol == 203.0 AND Trestbps == 135.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 128.0 AND Cholesterol == 216.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 115.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 0 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 128.0 AND Cholesterol == 216.0 THEN target == 0"
+  expl: "IF Cholesterol == 216.0 AND Trestbps == 128.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 170.0 AND Cholesterol == 227.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 155.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 64.0 AND Trestbps == 170.0 AND Cholesterol == 227.0 THEN target == 0"
+  expl: "IF Cholesterol == 227.0 AND Trestbps == 170.0 AND Age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 233.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 179.0 AND Exercise induced angina == 1 AND Oldpeak == 0.4 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 130.0 AND Cholesterol == 233.0 THEN target == 0"
+  expl: "IF Cholesterol == 233.0 AND Trestbps == 130.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 275.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 139.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 48.0 AND Trestbps == 130.0 AND Cholesterol == 275.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 275.0 AND Trestbps == 130.0 AND Age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 105.0 AND Cholesterol == 240.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 154.0 AND Exercise induced angina == 1 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 105.0 THEN target == 0"
+  expl: "IF Trestbps == 105.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 160.0 AND Cholesterol == 201.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 160.0 AND Cholesterol == 201.0 THEN target == 0"
+  expl: "IF Cholesterol == 201.0 AND Trestbps == 160.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 150.0 AND Cholesterol == 126.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 173.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 150.0 AND Cholesterol == 126.0 THEN target == 0"
+  expl: "IF Cholesterol == 126.0 AND Trestbps == 150.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 209.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 173.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 42.0 AND Trestbps == 120.0 AND Cholesterol == 209.0 THEN target == 0"
+  expl: "IF Cholesterol == 209.0 AND Trestbps == 120.0 AND Age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 110.0 AND Cholesterol == 214.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 158.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 110.0 AND Cholesterol == 214.0 THEN target == 0"
+  expl: "IF Cholesterol == 214.0 AND Trestbps == 110.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 417.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 157.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 65.0 AND Trestbps == 140.0 AND Cholesterol == 417.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 417.0 AND Trestbps == 140.0 AND Age == 65.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 234.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 138.0 AND Cholesterol == 234.0 THEN target == 0"
+  expl: "IF Cholesterol == 234.0 AND Trestbps == 138.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 100.0 AND Cholesterol == 248.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 122.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 100.0 AND Cholesterol == 248.0 AND Chest pain type == 2 AND Sex == 0 THEN target == 0"
+  expl: "IF Sex == 0 AND Cholesterol == 248.0 AND Trestbps == 100.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 239.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 142.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 110.0 AND Cholesterol == 239.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 239.0 AND Trestbps == 110.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 125.0 AND Cholesterol == 249.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 144.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 56.0 AND Trestbps == 125.0 AND Cholesterol == 249.0 THEN target == 1"
+  expl: "IF Cholesterol == 249.0 AND Trestbps == 125.0 AND Age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 132.0 AND Cholesterol == 341.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 136.0 AND Exercise induced angina == 1 AND Oldpeak == 3.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 43.0 AND Trestbps == 132.0 AND Cholesterol == 341.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 341.0 AND Trestbps == 132.0 AND Age == 43.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 35.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 126.0 AND Cholesterol == 282.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 156.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 35.0 AND Trestbps == 126.0 AND Cholesterol == 282.0 THEN target == 1"
+  expl: "IF Cholesterol == 282.0 AND Trestbps == 126.0 AND Age == 35.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 244.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 154.0 AND Exercise induced angina == 1 AND Oldpeak == 1.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 62.0 AND Trestbps == 150.0 AND Cholesterol == 244.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 244.0 AND Trestbps == 150.0 AND Age == 62.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 136.0 AND Cholesterol == 315.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 125.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 42.0 AND Trestbps == 136.0 AND Cholesterol == 315.0 THEN target == 1"
+  expl: "IF Cholesterol == 315.0 AND Trestbps == 136.0 AND Age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 294.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 106.0 AND Exercise induced angina == 0 AND Oldpeak == 1.9 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 62.0 AND Trestbps == 138.0 AND Cholesterol == 294.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 294.0 AND Trestbps == 138.0 AND Age == 62.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 203.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 155.0 AND Exercise induced angina == 1 AND Oldpeak == 3.1 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 53.0 AND Trestbps == 140.0 AND Cholesterol == 203.0 THEN target == 1"
+  expl: "IF Cholesterol == 203.0 AND Trestbps == 140.0 AND Age == 53.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 207.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 138.0 AND Exercise induced angina == 1 AND Oldpeak == 1.9 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 140.0 AND Cholesterol == 207.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 207.0 AND Trestbps == 140.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 172.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 158.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 41.0 AND Trestbps == 110.0 AND Cholesterol == 172.0 THEN target == 1"
+  expl: "IF Cholesterol == 172.0 AND Trestbps == 110.0 AND Age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 407.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 154.0 AND Exercise induced angina == 0 AND Oldpeak == 4.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 63.0 AND Trestbps == 150.0 AND Cholesterol == 407.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 407.0 AND Trestbps == 150.0 AND Age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 187.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 144.0 AND Exercise induced angina == 1 AND Oldpeak == 4.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 63.0 AND Trestbps == 140.0 AND Cholesterol == 187.0 THEN target == 1"
+  expl: "IF Cholesterol == 187.0 AND Trestbps == 140.0 AND Age == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 160.0 AND Cholesterol == 246.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 120.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 66.0 AND Trestbps == 160.0 AND Cholesterol == 246.0 THEN target == 1"
+  expl: "IF Cholesterol == 246.0 AND Trestbps == 160.0 AND Age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 258.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 147.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 54.0 AND Trestbps == 120.0 AND Cholesterol == 258.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 258.0 AND Trestbps == 120.0 AND Age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 0 AND Chest pain type == 1 AND Trestbps == 150.0 AND Cholesterol == 226.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 114.0 AND Exercise induced angina == 0 AND Oldpeak == 2.6 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 66.0 AND Trestbps == 150.0 AND Cholesterol == 226.0 THEN target == 0"
+  expl: "IF Cholesterol == 226.0 AND Trestbps == 150.0 AND Age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 115.0 AND Cholesterol == 564.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 67.0 AND Trestbps == 115.0 THEN target == 0"
+  expl: "IF Trestbps == 115.0 AND Age == 67.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 49.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 134.0 AND Cholesterol == 271.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 49.0 AND Trestbps == 134.0 AND Cholesterol == 271.0 THEN target == 0"
+  expl: "IF Cholesterol == 271.0 AND Trestbps == 134.0 AND Age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 125.0 AND Cholesterol == 245.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 166.0 AND Exercise induced angina == 0 AND Oldpeak == 2.4 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 125.0 AND Cholesterol == 245.0 THEN target == 0"
+  expl: "IF Cholesterol == 245.0 AND Trestbps == 125.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 135.0 AND Cholesterol == 234.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 161.0 AND Exercise induced angina == 0 AND Oldpeak == 0.5 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 59.0 AND Trestbps == 135.0 AND Cholesterol == 234.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 0"
+  expl: "IF Cholesterol == 234.0 AND Trestbps == 135.0 AND Age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 132.0 AND Cholesterol == 207.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 168.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 132.0 AND Cholesterol == 207.0 AND Chest pain type == 2 THEN target == 0"
+  expl: "IF Cholesterol == 207.0 AND Trestbps == 132.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 221.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 56.0 AND Trestbps == 130.0 AND Cholesterol == 221.0 THEN target == 0"
+  expl: "IF Cholesterol == 221.0 AND Trestbps == 130.0 AND Age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 231.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 146.0 AND Exercise induced angina == 0 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 62.0 AND Trestbps == 130.0 AND Cholesterol == 231.0 THEN target == 0"
+  expl: "IF Cholesterol == 231.0 AND Trestbps == 130.0 AND Age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 74.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 269.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 121.0 AND Exercise induced angina == 1 AND Oldpeak == 0.2 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 74.0 THEN target == 0"
+  expl: "IF Age == 74.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 325.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 172.0 AND Exercise induced angina == 0 AND Oldpeak == 0.2 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 120.0 AND Cholesterol == 325.0 THEN target == 0"
+  expl: "IF Cholesterol == 325.0 AND Trestbps == 120.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 128.0 AND Cholesterol == 308.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 170.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 45.0 AND Trestbps == 128.0 AND Cholesterol == 308.0 THEN target == 0"
+  expl: "IF Cholesterol == 308.0 AND Trestbps == 128.0 AND Age == 45.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 226.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 178.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 42.0 AND Trestbps == 140.0 AND Cholesterol == 226.0 THEN target == 0"
+  expl: "IF Cholesterol == 226.0 AND Trestbps == 140.0 AND Age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 145.0 AND Cholesterol == 233.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 150.0 AND Exercise induced angina == 0 AND Oldpeak == 2.3 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 63.0 AND Trestbps == 145.0 AND Cholesterol == 233.0 AND Chest pain type == 1 THEN target == 0"
+  expl: "IF Chest pain type == 1 AND Cholesterol == 233.0 AND Trestbps == 145.0 AND Age == 63.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 142.0 AND Cholesterol == 177.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 160.0 AND Exercise induced angina == 1 AND Oldpeak == 1.4 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 46.0 AND Trestbps == 142.0 AND Cholesterol == 177.0 THEN target == 0"
+  expl: "IF Cholesterol == 177.0 AND Trestbps == 142.0 AND Age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 150.0 AND Cholesterol == 168.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 174.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 150.0 AND Cholesterol == 168.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 168.0 AND Trestbps == 150.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 299.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 173.0 AND Exercise induced angina == 1 AND Oldpeak == 1.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 51.0 AND Trestbps == 140.0 AND Cholesterol == 299.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 299.0 AND Trestbps == 140.0 AND Age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 177.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 120.0 AND Exercise induced angina == 1 AND Oldpeak == 2.5 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 43.0 AND Trestbps == 120.0 AND Cholesterol == 177.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 177.0 AND Trestbps == 120.0 AND Age == 43.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 248.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 158.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 65.0 AND Trestbps == 110.0 AND Cholesterol == 248.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 248.0 AND Trestbps == 110.0 AND Age == 65.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 170.0 AND Cholesterol == 326.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 140.0 AND Exercise induced angina == 1 AND Oldpeak == 3.4 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 170.0 AND Cholesterol == 326.0 THEN target == 1"
+  expl: "IF Cholesterol == 326.0 AND Trestbps == 170.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 206.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 108.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 110.0 AND Cholesterol == 206.0 THEN target == 1"
+  expl: "IF Cholesterol == 206.0 AND Trestbps == 110.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 110.0 AND Cholesterol == 229.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 168.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 48.0 AND Trestbps == 110.0 AND Cholesterol == 229.0 THEN target == 1"
+  expl: "IF Cholesterol == 229.0 AND Trestbps == 110.0 AND Age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 246.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 96.0 AND Exercise induced angina == 1 AND Oldpeak == 2.2 AND Slope == 0 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 64.0 AND Trestbps == 120.0 AND Cholesterol == 246.0 THEN target == 1"
+  expl: "IF Cholesterol == 246.0 AND Trestbps == 120.0 AND Age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 134.0 AND Cholesterol == 409.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 150.0 AND Exercise induced angina == 1 AND Oldpeak == 1.9 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 56.0 AND Trestbps == 134.0 AND Cholesterol == 409.0 THEN target == 1"
+  expl: "IF Cholesterol == 409.0 AND Trestbps == 134.0 AND Age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 40.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 167.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 114.0 AND Exercise induced angina == 1 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 40.0 AND Trestbps == 110.0 AND Cholesterol == 167.0 THEN target == 1"
+  expl: "IF Cholesterol == 167.0 AND Trestbps == 110.0 AND Age == 40.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 241.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 123.0 AND Exercise induced angina == 1 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 140.0 AND Cholesterol == 241.0 THEN target == 1"
+  expl: "IF Cholesterol == 241.0 AND Trestbps == 140.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 311.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 120.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 46.0 AND Trestbps == 140.0 AND Cholesterol == 311.0 THEN target == 0"
+  expl: "IF Cholesterol == 311.0 AND Trestbps == 140.0 AND Age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 177.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 140.0 AND Cholesterol == 177.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 177.0 AND Trestbps == 140.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 284.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 120.0 AND Cholesterol == 284.0 AND Chest pain type == 0 THEN target == 1"
+  expl: "IF Chest pain type == 0 AND Cholesterol == 284.0 AND Trestbps == 120.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 132.0 AND Cholesterol == 353.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 132.0 AND Exercise induced angina == 1 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 55.0 AND Trestbps == 132.0 AND Cholesterol == 353.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 353.0 AND Trestbps == 132.0 AND Age == 55.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 160.0 AND Cholesterol == 360.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 151.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 65.0 AND Trestbps == 160.0 AND Cholesterol == 360.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 360.0 AND Trestbps == 160.0 AND Age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 135.0 AND Cholesterol == 252.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 172.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 63.0 AND Trestbps == 135.0 AND Cholesterol == 252.0 THEN target == 0"
+  expl: "IF Cholesterol == 252.0 AND Trestbps == 135.0 AND Age == 63.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 110.0 AND Cholesterol == 211.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 144.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 64.0 AND Trestbps == 110.0 AND Cholesterol == 211.0 THEN target == 0"
+  expl: "IF Cholesterol == 211.0 AND Trestbps == 110.0 AND Age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 70.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 156.0 AND Cholesterol == 245.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 143.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 70.0 AND Trestbps == 156.0 THEN target == 0"
+  expl: "IF Trestbps == 156.0 AND Age == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 220.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 170.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 120.0 AND Cholesterol == 220.0 THEN target == 0"
+  expl: "IF Cholesterol == 220.0 AND Trestbps == 120.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 29.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 204.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 202.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 29.0 THEN target == 0"
+  expl: "IF Age == 29.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 118.0 AND Cholesterol == 186.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 190.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 118.0 AND Cholesterol == 186.0 THEN target == 0"
+  expl: "IF Cholesterol == 186.0 AND Trestbps == 118.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 246.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 173.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 3 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 130.0 AND Cholesterol == 246.0 THEN target == 0"
+  expl: "IF Cholesterol == 246.0 AND Trestbps == 130.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 64.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 263.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 105.0 AND Exercise induced angina == 1 AND Oldpeak == 0.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 64.0 AND Trestbps == 128.0 AND Cholesterol == 263.0 THEN target == 0"
+  expl: "IF Cholesterol == 263.0 AND Trestbps == 128.0 AND Age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 71.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 110.0 AND Cholesterol == 265.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 130.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 71.0 THEN target == 0"
+  expl: "IF Age == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 118.0 AND Cholesterol == 242.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 149.0 AND Exercise induced angina == 0 AND Oldpeak == 0.3 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 118.0 AND Cholesterol == 242.0 THEN target == 0"
+  expl: "IF Cholesterol == 242.0 AND Trestbps == 118.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 112.0 AND Cholesterol == 160.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 138.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 45.0 AND Trestbps == 112.0 AND Cholesterol == 160.0 THEN target == 0"
+  expl: "IF Cholesterol == 160.0 AND Trestbps == 112.0 AND Age == 45.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 115.0 AND Cholesterol == 260.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 185.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 45.0 AND Trestbps == 115.0 THEN target == 0"
+  expl: "IF Trestbps == 115.0 AND Age == 45.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 247.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 171.0 AND Exercise induced angina == 0 AND Oldpeak == 1.5 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 43.0 AND Trestbps == 150.0 AND Cholesterol == 247.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 0"
+  expl: "IF Cholesterol == 247.0 AND Trestbps == 150.0 AND Age == 43.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 160.0 AND Cholesterol == 228.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 138.0 AND Exercise induced angina == 0 AND Oldpeak == 2.3 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 66.0 AND Trestbps == 160.0 AND Cholesterol == 228.0 THEN target == 0"
+  expl: "IF Cholesterol == 228.0 AND Trestbps == 160.0 AND Age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 102.0 AND Cholesterol == 265.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 122.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 42.0 AND Trestbps == 102.0 THEN target == 0"
+  expl: "IF Trestbps == 102.0 AND Age == 42.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 69.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 254.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 146.0 AND Exercise induced angina == 0 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 69.0 THEN target == 0"
+  expl: "IF Age == 69.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 254.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 147.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 63.0 AND Trestbps == 130.0 AND Cholesterol == 254.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 254.0 AND Trestbps == 130.0 AND Age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 125.0 AND Cholesterol == 258.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 141.0 AND Exercise induced angina == 1 AND Oldpeak == 2.8 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 125.0 AND Cholesterol == 258.0 THEN target == 1"
+  expl: "IF Cholesterol == 258.0 AND Trestbps == 125.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 70.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 145.0 AND Cholesterol == 174.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 125.0 AND Exercise induced angina == 1 AND Oldpeak == 2.6 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 70.0 AND Trestbps == 145.0 THEN target == 1"
+  expl: "IF Trestbps == 145.0 AND Age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 258.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 157.0 AND Exercise induced angina == 0 AND Oldpeak == 2.6 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 150.0 AND Cholesterol == 258.0 THEN target == 1"
+  expl: "IF Cholesterol == 258.0 AND Trestbps == 150.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 270.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 111.0 AND Exercise induced angina == 1 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 150.0 AND Cholesterol == 270.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 270.0 AND Trestbps == 150.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 174.0 AND Cholesterol == 249.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 143.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 174.0 THEN target == 1"
+  expl: "IF Trestbps == 174.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 335.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 143.0 AND Exercise induced angina == 1 AND Oldpeak == 3.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 110.0 AND Cholesterol == 335.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 335.0 AND Trestbps == 110.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 204.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 156.0 AND Exercise induced angina == 1 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 0 THEN target == 1"
+  dexp: "IF Age == 52.0 AND Trestbps == 128.0 AND Cholesterol == 204.0 THEN target == 1"
+  expl: "IF Cholesterol == 204.0 AND Trestbps == 128.0 AND Age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 260.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 140.0 AND Exercise induced angina == 1 AND Oldpeak == 3.6 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 120.0 AND Cholesterol == 260.0 THEN target == 1"
+  expl: "IF Cholesterol == 260.0 AND Trestbps == 120.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 169.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 144.0 AND Exercise induced angina == 1 AND Oldpeak == 2.8 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 44.0 AND Trestbps == 120.0 AND Cholesterol == 169.0 THEN target == 1"
+  expl: "IF Cholesterol == 169.0 AND Trestbps == 120.0 AND Age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 200.0 AND Cholesterol == 288.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 133.0 AND Exercise induced angina == 1 AND Oldpeak == 4.0 AND Slope == 0 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 56.0 AND Trestbps == 200.0 THEN target == 1"
+  expl: "IF Trestbps == 200.0 AND Age == 56.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 160.0 AND Cholesterol == 289.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 145.0 AND Exercise induced angina == 1 AND Oldpeak == 0.8 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 55.0 AND Trestbps == 160.0 AND Cholesterol == 289.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 289.0 AND Trestbps == 160.0 AND Age == 55.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 124.0 AND Cholesterol == 261.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 141.0 AND Exercise induced angina == 0 AND Oldpeak == 0.3 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 124.0 AND Cholesterol == 261.0 THEN target == 1"
+  expl: "IF Cholesterol == 261.0 AND Trestbps == 124.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 128.0 AND Cholesterol == 205.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 184.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 52.0 AND Trestbps == 128.0 AND Cholesterol == 205.0 THEN target == 0"
+  expl: "IF Cholesterol == 205.0 AND Trestbps == 128.0 AND Age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 41.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 214.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 168.0 AND Exercise induced angina == 0 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 41.0 AND Trestbps == 130.0 AND Cholesterol == 214.0 THEN target == 0"
+  expl: "IF Cholesterol == 214.0 AND Trestbps == 130.0 AND Age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 125.0 AND Cholesterol == 213.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 125.0 AND Exercise induced angina == 1 AND Oldpeak == 1.4 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 125.0 AND Cholesterol == 213.0 THEN target == 0"
+  expl: "IF Cholesterol == 213.0 AND Trestbps == 125.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 69.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 160.0 AND Cholesterol == 234.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 131.0 AND Exercise induced angina == 0 AND Oldpeak == 0.1 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 69.0 THEN target == 0"
+  expl: "IF Age == 69.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 47.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 253.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 179.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 47.0 AND Trestbps == 130.0 AND Cholesterol == 253.0 THEN target == 0"
+  expl: "IF Cholesterol == 253.0 AND Trestbps == 130.0 AND Age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 128.0 AND Cholesterol == 208.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 140.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 62.0 AND Trestbps == 128.0 AND Cholesterol == 208.0 THEN target == 0"
+  expl: "IF Cholesterol == 208.0 AND Trestbps == 128.0 AND Age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 140.0 AND Cholesterol == 195.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 179.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 63.0 AND Trestbps == 140.0 AND Cholesterol == 195.0 THEN target == 0"
+  expl: "IF Cholesterol == 195.0 AND Trestbps == 140.0 AND Age == 63.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 124.0 AND Cholesterol == 255.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 175.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 48.0 AND Trestbps == 124.0 AND Cholesterol == 255.0 THEN target == 1"
+  expl: "IF Cholesterol == 255.0 AND Trestbps == 124.0 AND Age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 105.0 AND Cholesterol == 204.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 172.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 46.0 AND Trestbps == 105.0 THEN target == 0"
+  expl: "IF Trestbps == 105.0 AND Age == 46.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 236.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 178.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 56.0 AND Trestbps == 120.0 AND Cholesterol == 236.0 AND Chest pain type == 0 THEN target == 0"
+  expl: "IF Cholesterol == 236.0 AND Trestbps == 120.0 AND Age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 39.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 138.0 AND Cholesterol == 220.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 152.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 39.0 AND Trestbps == 138.0 AND Cholesterol == 220.0 THEN target == 0"
+  expl: "IF Cholesterol == 220.0 AND Trestbps == 138.0 AND Age == 39.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 37.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 215.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 170.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 37.0 THEN target == 0"
+  expl: "IF Age == 37.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 226.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 169.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 120.0 AND Cholesterol == 226.0 THEN target == 0"
+  expl: "IF Cholesterol == 226.0 AND Trestbps == 120.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 49.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 130.0 AND Cholesterol == 266.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 171.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 49.0 AND Trestbps == 130.0 AND Cholesterol == 266.0 THEN target == 0"
+  expl: "IF Cholesterol == 266.0 AND Trestbps == 130.0 AND Age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 178.0 AND Cholesterol == 270.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 145.0 AND Exercise induced angina == 0 AND Oldpeak == 4.2 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 59.0 AND Trestbps == 178.0 THEN target == 0"
+  expl: "IF Trestbps == 178.0 AND Age == 59.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 235.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 180.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 140.0 AND Cholesterol == 235.0 THEN target == 0"
+  expl: "IF Cholesterol == 235.0 AND Trestbps == 140.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 117.0 AND Cholesterol == 230.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 160.0 AND Exercise induced angina == 1 AND Oldpeak == 1.4 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 117.0 AND Cholesterol == 230.0 THEN target == 1"
+  expl: "IF Cholesterol == 230.0 AND Trestbps == 117.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 144.0 AND Cholesterol == 200.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 126.0 AND Exercise induced angina == 1 AND Oldpeak == 0.9 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 50.0 AND Trestbps == 144.0 THEN target == 1"
+  expl: "IF Trestbps == 144.0 AND Age == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 268.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 160.0 AND Exercise induced angina == 0 AND Oldpeak == 3.6 AND Slope == 0 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 62.0 AND Trestbps == 140.0 AND Cholesterol == 268.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 268.0 AND Trestbps == 140.0 AND Age == 62.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 160.0 AND Cholesterol == 273.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 125.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 59.0 AND Trestbps == 160.0 AND Cholesterol == 273.0 AND Chest pain type == 1 THEN target == 0"
+  expl: "IF Cholesterol == 273.0 AND Trestbps == 160.0 AND Age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 142.0 AND Cholesterol == 309.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 147.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 45.0 AND Trestbps == 142.0 AND Cholesterol == 309.0 THEN target == 1"
+  expl: "IF Cholesterol == 309.0 AND Trestbps == 142.0 AND Age == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 225.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 114.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 65.0 AND Trestbps == 150.0 AND Cholesterol == 225.0 THEN target == 1"
+  expl: "IF Cholesterol == 225.0 AND Trestbps == 150.0 AND Age == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 138.0 AND Cholesterol == 282.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 174.0 AND Exercise induced angina == 0 AND Oldpeak == 1.4 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 65.0 AND Trestbps == 138.0 AND Cholesterol == 282.0 AND Chest pain type == 1 THEN target == 0"
+  expl: "IF Chest pain type == 1 AND Cholesterol == 282.0 AND Trestbps == 138.0 AND Age == 65.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 229.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 129.0 AND Exercise induced angina == 1 AND Oldpeak == 2.6 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 67.0 AND Trestbps == 120.0 AND Cholesterol == 229.0 THEN target == 1"
+  expl: "IF Cholesterol == 229.0 AND Trestbps == 120.0 AND Age == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 192.0 AND Cholesterol == 283.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 195.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 192.0 THEN target == 1"
+  expl: "IF Trestbps == 192.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 276.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 112.0 AND Exercise induced angina == 1 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 150.0 AND Cholesterol == 276.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 276.0 AND Trestbps == 150.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 160.0 AND Cholesterol == 164.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 145.0 AND Exercise induced angina == 0 AND Oldpeak == 6.2 AND Slope == 0 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 62.0 AND Trestbps == 160.0 AND Cholesterol == 164.0 THEN target == 1"
+  expl: "IF Cholesterol == 164.0 AND Trestbps == 160.0 AND Age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 48.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 256.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 150.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 48.0 AND Trestbps == 130.0 AND Cholesterol == 256.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 256.0 AND Trestbps == 130.0 AND Age == 48.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 55.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 128.0 AND Cholesterol == 205.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 0 AND Max heart rate == 130.0 AND Exercise induced angina == 1 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 55.0 AND Trestbps == 128.0 AND Cholesterol == 205.0 THEN target == 1"
+  expl: "IF Cholesterol == 205.0 AND Trestbps == 128.0 AND Age == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 40.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 152.0 AND Cholesterol == 223.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 181.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 40.0 AND Trestbps == 152.0 AND Cholesterol == 223.0 THEN target == 0"
+  expl: "IF Cholesterol == 223.0 AND Trestbps == 152.0 AND Age == 40.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 197.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 131.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 130.0 AND Cholesterol == 197.0 THEN target == 0"
+  expl: "IF Cholesterol == 197.0 AND Trestbps == 130.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 201.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 126.0 AND Exercise induced angina == 1 AND Oldpeak == 1.5 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 1 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 110.0 AND Cholesterol == 201.0 THEN target == 0"
+  expl: "IF Cholesterol == 201.0 AND Trestbps == 110.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 108.0 AND Cholesterol == 141.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 175.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 108.0 THEN target == 0"
+  expl: "IF Trestbps == 108.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 140.0 AND Cholesterol == 261.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 186.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 140.0 AND Cholesterol == 261.0 THEN target == 0"
+  expl: "IF Cholesterol == 261.0 AND Trestbps == 140.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 0 AND Chest pain type == 1 AND Trestbps == 150.0 AND Cholesterol == 283.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 150.0 AND Cholesterol == 283.0 AND Chest pain type == 1 THEN target == 0"
+  expl: "IF Chest pain type == 1 AND Cholesterol == 283.0 AND Trestbps == 150.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 65.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 177.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 140.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 65.0 AND Trestbps == 120.0 AND Cholesterol == 177.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 0"
+  expl: "IF Cholesterol == 177.0 AND Trestbps == 120.0 AND Age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 256.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 149.0 AND Exercise induced angina == 0 AND Oldpeak == 0.5 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 130.0 AND Cholesterol == 256.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 256.0 AND Trestbps == 130.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 211.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 165.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 140.0 AND Cholesterol == 211.0 THEN target == 0"
+  expl: "IF Cholesterol == 211.0 AND Trestbps == 140.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 43.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 115.0 AND Cholesterol == 303.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 181.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 43.0 AND Trestbps == 115.0 THEN target == 0"
+  expl: "IF Trestbps == 115.0 AND Age == 43.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 46.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 243.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 152.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 46.0 AND Trestbps == 138.0 AND Cholesterol == 243.0 THEN target == 0"
+  expl: "IF Cholesterol == 243.0 AND Trestbps == 138.0 AND Age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 219.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 158.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 50.0 AND Trestbps == 120.0 AND Cholesterol == 219.0 THEN target == 0"
+  expl: "IF Cholesterol == 219.0 AND Trestbps == 120.0 AND Age == 50.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 125.0 AND Cholesterol == 220.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 144.0 AND Exercise induced angina == 0 AND Oldpeak == 0.4 AND Slope == 1 AND Number of vessels colored == 4 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 58.0 AND Trestbps == 125.0 AND Cholesterol == 220.0 THEN target == 0"
+  expl: "IF Cholesterol == 220.0 AND Trestbps == 125.0 AND Age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 138.0 AND Cholesterol == 271.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 182.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 59.0 AND Trestbps == 138.0 AND Cholesterol == 271.0 AND Chest pain type == 2 THEN target == 0"
+  expl: "IF Cholesterol == 271.0 AND Trestbps == 138.0 AND Age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 308.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 142.0 AND Exercise induced angina == 0 AND Oldpeak == 1.5 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 140.0 AND Cholesterol == 308.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 308.0 AND Trestbps == 140.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 129.0 AND Cholesterol == 196.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 50.0 AND Trestbps == 129.0 THEN target == 0"
+  expl: "IF Trestbps == 129.0 AND Age == 50.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 112.0 AND Cholesterol == 230.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 165.0 AND Exercise induced angina == 0 AND Oldpeak == 2.5 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 112.0 AND Cholesterol == 230.0 THEN target == 1"
+  expl: "IF Cholesterol == 230.0 AND Trestbps == 112.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 35.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 198.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 130.0 AND Exercise induced angina == 1 AND Oldpeak == 1.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 35.0 AND Trestbps == 120.0 AND Cholesterol == 198.0 THEN target == 1"
+  expl: "IF Cholesterol == 198.0 AND Trestbps == 120.0 AND Age == 35.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 160.0 AND Cholesterol == 286.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 108.0 AND Exercise induced angina == 1 AND Oldpeak == 1.5 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 67.0 AND Trestbps == 160.0 AND Cholesterol == 286.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 286.0 AND Trestbps == 160.0 AND Age == 67.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 145.0 AND Cholesterol == 307.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 146.0 AND Exercise induced angina == 1 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 145.0 AND Cholesterol == 307.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 307.0 AND Trestbps == 145.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 70.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 160.0 AND Cholesterol == 269.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 112.0 AND Exercise induced angina == 1 AND Oldpeak == 2.9 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 70.0 AND Trestbps == 160.0 THEN target == 1"
+  expl: "IF Trestbps == 160.0 AND Age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 206.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 132.0 AND Exercise induced angina == 1 AND Oldpeak == 2.4 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 130.0 AND Cholesterol == 206.0 THEN target == 1"
+  expl: "IF Cholesterol == 206.0 AND Trestbps == 130.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 52.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 125.0 AND Cholesterol == 212.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 168.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 52.0 AND Trestbps == 125.0 AND Cholesterol == 212.0 THEN target == 1"
+  expl: "IF Cholesterol == 212.0 AND Trestbps == 125.0 AND Age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 56.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 132.0 AND Cholesterol == 184.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 105.0 AND Exercise induced angina == 1 AND Oldpeak == 2.1 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 56.0 AND Trestbps == 132.0 AND Cholesterol == 184.0 THEN target == 1"
+  expl: "IF Cholesterol == 184.0 AND Trestbps == 132.0 AND Age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 165.0 AND Cholesterol == 289.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 124.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 3 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 57.0 AND Trestbps == 165.0 THEN target == 1"
+  expl: "IF Trestbps == 165.0 AND Age == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 164.0 AND Cholesterol == 176.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 90.0 AND Exercise induced angina == 0 AND Oldpeak == 1.0 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 1 THEN target == 1"
+  dexp: "IF Age == 59.0 AND Trestbps == 164.0 THEN target == 1"
+  expl: "IF Trestbps == 164.0 AND Age == 59.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 66.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 112.0 AND Cholesterol == 212.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 132.0 AND Exercise induced angina == 1 AND Oldpeak == 0.1 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 66.0 AND Trestbps == 112.0 AND Cholesterol == 212.0 THEN target == 1"
+  expl: "IF Cholesterol == 212.0 AND Trestbps == 112.0 AND Age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 0 AND Chest pain type == 0 AND Trestbps == 136.0 AND Cholesterol == 319.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 152.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 136.0 AND Cholesterol == 319.0 THEN target == 1"
+  expl: "IF Cholesterol == 319.0 AND Trestbps == 136.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 152.0 AND Cholesterol == 212.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 150.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 67.0 AND Trestbps == 152.0 AND Cholesterol == 212.0 AND Chest pain type == 3 THEN target == 1"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 212.0 AND Trestbps == 152.0 AND Age == 67.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 124.0 AND Cholesterol == 266.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 109.0 AND Exercise induced angina == 1 AND Oldpeak == 2.2 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 124.0 AND Cholesterol == 266.0 THEN target == 1"
+  expl: "IF Cholesterol == 266.0 AND Trestbps == 124.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 54.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 125.0 AND Cholesterol == 273.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 152.0 AND Exercise induced angina == 0 AND Oldpeak == 0.5 AND Slope == 0 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 54.0 AND Trestbps == 125.0 AND Cholesterol == 273.0 THEN target == 1"
+  expl: "IF Cholesterol == 273.0 AND Trestbps == 125.0 AND Age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 0 AND Chest pain type == 1 AND Trestbps == 150.0 AND Cholesterol == 240.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 171.0 AND Exercise induced angina == 0 AND Oldpeak == 0.9 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 60.0 AND Trestbps == 150.0 AND Cholesterol == 240.0 THEN target == 0"
+  expl: "IF Cholesterol == 240.0 AND Trestbps == 150.0 AND Age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 57.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 354.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 1 AND Oldpeak == 0.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 57.0 AND Trestbps == 120.0 AND Cholesterol == 354.0 AND Chest pain type == 2 AND Sex == 0 THEN target == 0"
+  expl: "IF Sex == 0 AND Cholesterol == 354.0 AND Trestbps == 120.0 AND Age == 57.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 34.0 AND Sex == 1 AND Chest pain type == 1 AND Trestbps == 118.0 AND Cholesterol == 182.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 174.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 34.0 THEN target == 0"
+  expl: "IF Age == 34.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 130.0 AND Cholesterol == 197.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 152.0 AND Exercise induced angina == 0 AND Oldpeak == 1.2 AND Slope == 0 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 130.0 AND Cholesterol == 197.0 THEN target == 0"
+  expl: "IF Cholesterol == 197.0 AND Trestbps == 130.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 51.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 295.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 157.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 51.0 AND Trestbps == 120.0 AND Cholesterol == 295.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 295.0 AND Trestbps == 120.0 AND Age == 51.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 39.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 94.0 AND Cholesterol == 199.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 179.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 39.0 AND Trestbps == 94.0 THEN target == 0"
+  expl: "IF Trestbps == 94.0 AND Age == 39.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 140.0 AND Cholesterol == 221.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 164.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 59.0 AND Trestbps == 140.0 AND Cholesterol == 221.0 THEN target == 0"
+  expl: "IF Cholesterol == 221.0 AND Trestbps == 140.0 AND Age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 67.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 106.0 AND Cholesterol == 223.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 142.0 AND Exercise induced angina == 0 AND Oldpeak == 0.3 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 67.0 AND Trestbps == 106.0 THEN target == 0"
+  expl: "IF Trestbps == 106.0 AND Age == 67.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 42.0 AND Sex == 1 AND Chest pain type == 0 AND Trestbps == 120.0 AND Cholesterol == 295.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 162.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 42.0 AND Trestbps == 120.0 AND Cholesterol == 295.0 THEN target == 0"
+  expl: "IF Cholesterol == 295.0 AND Trestbps == 120.0 AND Age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 0 AND Chest pain type == 3 AND Trestbps == 120.0 AND Cholesterol == 178.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 96.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 120.0 AND Cholesterol == 178.0 THEN target == 1"
+  expl: "IF Cholesterol == 178.0 AND Trestbps == 120.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 49.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 269.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 49.0 AND Trestbps == 130.0 AND Cholesterol == 269.0 THEN target == 0"
+  expl: "IF Cholesterol == 269.0 AND Trestbps == 130.0 AND Age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 59.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 150.0 AND Cholesterol == 212.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 157.0 AND Exercise induced angina == 0 AND Oldpeak == 1.6 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 59.0 AND Trestbps == 150.0 AND Cholesterol == 212.0 AND Chest pain type == 3 THEN target == 0"
+  expl: "IF Cholesterol == 212.0 AND Trestbps == 150.0 AND Age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 69.0 AND Sex == 0 AND Chest pain type == 1 AND Trestbps == 140.0 AND Cholesterol == 239.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 151.0 AND Exercise induced angina == 0 AND Oldpeak == 1.8 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 69.0 THEN target == 0"
+  expl: "IF Age == 69.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 254.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 159.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 50.0 AND Trestbps == 110.0 AND Cholesterol == 254.0 AND Chest pain type == 2 AND Sex == 0 THEN target == 0"
+  expl: "IF Sex == 0 AND Cholesterol == 254.0 AND Trestbps == 110.0 AND Age == 50.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 45.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 104.0 AND Cholesterol == 208.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 148.0 AND Exercise induced angina == 1 AND Oldpeak == 3.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 45.0 AND Trestbps == 104.0 THEN target == 0"
+  expl: "IF Trestbps == 104.0 AND Age == 45.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 53.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 123.0 AND Cholesterol == 282.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 95.0 AND Exercise induced angina == 1 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 53.0 AND Trestbps == 123.0 AND Cholesterol == 282.0 THEN target == 0"
+  expl: "IF Cholesterol == 282.0 AND Trestbps == 123.0 AND Age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 150.0 AND Cholesterol == 243.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 128.0 AND Exercise induced angina == 0 AND Oldpeak == 2.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 50.0 AND Trestbps == 150.0 AND Cholesterol == 243.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 243.0 AND Trestbps == 150.0 AND Age == 50.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 44.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 110.0 AND Cholesterol == 197.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 177.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 2 THEN target == 0"
+  dexp: "IF Age == 44.0 AND Trestbps == 110.0 AND Cholesterol == 197.0 THEN target == 0"
+  expl: "IF Cholesterol == 197.0 AND Trestbps == 110.0 AND Age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 146.0 AND Cholesterol == 218.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 105.0 AND Exercise induced angina == 0 AND Oldpeak == 2.0 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 146.0 AND Cholesterol == 218.0 THEN target == 1"
+  expl: "IF Cholesterol == 218.0 AND Trestbps == 146.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 68.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 144.0 AND Cholesterol == 193.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 2 AND Max heart rate == 141.0 AND Exercise induced angina == 0 AND Oldpeak == 3.4 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 68.0 AND Trestbps == 144.0 THEN target == 1"
+  expl: "IF Trestbps == 144.0 AND Age == 68.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age == 62.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 120.0 AND Cholesterol == 267.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 99.0 AND Exercise induced angina == 1 AND Oldpeak == 1.8 AND Slope == 1 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 62.0 AND Trestbps == 120.0 AND Cholesterol == 267.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 267.0 AND Trestbps == 120.0 AND Age == 62.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 132.0 AND Cholesterol == 224.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 173.0 AND Exercise induced angina == 0 AND Oldpeak == 3.2 AND Slope == 2 AND Number of vessels colored == 2 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 132.0 AND Cholesterol == 224.0 THEN target == 1"
+  expl: "IF Cholesterol == 224.0 AND Trestbps == 132.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 50.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 233.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 163.0 AND Exercise induced angina == 0 AND Oldpeak == 0.6 AND Slope == 1 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 50.0 AND Trestbps == 140.0 AND Cholesterol == 233.0 AND Chest pain type == 3 THEN target == 1"
+  expl: "IF Chest pain type == 3 AND Cholesterol == 233.0 AND Trestbps == 140.0 AND Age == 50.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 63.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 124.0 AND Cholesterol == 197.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 136.0 AND Exercise induced angina == 1 AND Oldpeak == 0.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 63.0 AND Trestbps == 124.0 AND Cholesterol == 197.0 THEN target == 1"
+  expl: "IF Cholesterol == 197.0 AND Trestbps == 124.0 AND Age == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 60.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 140.0 AND Cholesterol == 185.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 155.0 AND Exercise induced angina == 0 AND Oldpeak == 3.0 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 60.0 AND Trestbps == 140.0 AND Cholesterol == 185.0 THEN target == 1"
+  expl: "IF Cholesterol == 185.0 AND Trestbps == 140.0 AND Age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 49.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 118.0 AND Cholesterol == 149.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 126.0 AND Exercise induced angina == 0 AND Oldpeak == 0.8 AND Slope == 2 AND Number of vessels colored == 3 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 49.0 AND Trestbps == 118.0 AND Cholesterol == 149.0 THEN target == 1"
+  expl: "IF Cholesterol == 149.0 AND Trestbps == 118.0 AND Age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age == 61.0 AND Sex == 0 AND Chest pain type == 2 AND Trestbps == 130.0 AND Cholesterol == 330.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 1 AND Max heart rate == 169.0 AND Exercise induced angina == 0 AND Oldpeak == 0.0 AND Slope == 2 AND Number of vessels colored == 0 AND Thal == 2 THEN target == 1"
+  dexp: "IF Age == 61.0 AND Trestbps == 130.0 AND Cholesterol == 330.0 AND Chest pain type == 2 THEN target == 1"
+  expl: "IF Chest pain type == 2 AND Cholesterol == 330.0 AND Trestbps == 130.0 AND Age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Age == 58.0 AND Sex == 1 AND Chest pain type == 2 AND Trestbps == 100.0 AND Cholesterol == 234.0 AND Fasting blood sugar &lt; 120 == 0 AND Resting ecg == 2 AND Max heart rate == 156.0 AND Exercise induced angina == 0 AND Oldpeak == 0.1 AND Slope == 2 AND Number of vessels colored == 1 AND Thal == 3 THEN target == 1"
+  dexp: "IF Age == 58.0 AND Trestbps == 100.0 AND Cholesterol == 234.0 AND Chest pain type == 2 AND Sex == 1 THEN target == 1"
+  expl: "IF Sex == 1 AND Chest pain type == 2 AND Cholesterol == 234.0 AND Trestbps == 100.0 AND Age == 58.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Age == 68.0 AND Sex == 1 AND Chest pain type == 3 AND Trestbps == 180.0 AND Cholesterol == 274.0 AND Fasting blood sugar &lt; 120 == 1 AND Resting ecg == 1 AND Max heart rate == 150.0 AND Exercise induced angina == 1 AND Oldpeak == 1.6 AND Slope == 1 AND Number of vessels colored == 0 AND Thal == 3 THEN target == 0"
+  dexp: "IF Age == 68.0 AND Trestbps == 180.0 THEN target == 0"
+  expl: "IF Trestbps == 180.0 AND Age == 68.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 302
+tot # of expls: 302
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.98
+avg expl sz: 2.98
+max expl sz: 2.98
+Max expl sz: 5
+
+tot time: 0.08
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   2.14%
+max dxrd:  40.00%

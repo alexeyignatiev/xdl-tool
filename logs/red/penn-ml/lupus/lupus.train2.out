@@ -1,0 +1,613 @@
+MODEL:
+IF TIME == 4.0 THEN target == 1
+IF TIME == 13.0 THEN target == 1
+IF TIME == 21.0 THEN target == 1
+IF TIME == 25.0 THEN target == 1
+IF TIME == 28.0 THEN target == 1
+IF TIME == 32.0 THEN target == 1
+IF TIME == 37.0 THEN target == 0
+IF TIME == 39.0 THEN target == 1
+IF TIME == 46.0 THEN target == 1
+IF TIME == 54.0 THEN target == 1
+IF TIME == 62.0 THEN target == 1
+IF TIME == 63.0 THEN target == 1
+IF TIME == 65.0 THEN target == 1
+IF TIME == 78.0 THEN target == 0
+IF TIME == 81.0 THEN target == 0
+IF TIME == 86.0 THEN target == 1
+IF TIME == 89.0 THEN target == 0
+IF TIME == 99.0 THEN target == 1
+IF TIME == 100.0 THEN target == 0
+IF TIME == 103.0 THEN target == 1
+IF TIME == 107.0 THEN target == 0
+IF TIME == 112.0 THEN target == 0
+IF TIME == 114.0 THEN target == 1
+IF TIME == 118.0 THEN target == 1
+IF TIME == 126.0 THEN target == 0
+IF TIME == 128.0 THEN target == 0
+IF TIME == 132.0 THEN target == 1
+IF TIME == 136.0 THEN target == 0
+IF TIME == 145.0 THEN target == 1
+IF TIME == 147.0 THEN target == 0
+IF TIME == 148.0 THEN target == 0
+IF TIME == 157.0 THEN target == 0
+IF TIME == 158.0 THEN target == 0
+IF TIME == 159.0 THEN target == 1
+IF TIME == 165.0 THEN target == 1
+IF TIME == 166.0 THEN target == 0
+IF TIME == 169.0 THEN target == 0
+IF TIME == 179.0 THEN target == 0
+IF TIME == 182.0 THEN target == 1
+IF TIME == 186.0 THEN target == 0
+IF TIME == 189.0 THEN target == 0
+IF TIME == 191.0 THEN target == 0
+IF TIME == 192.0 THEN target == 0
+IF TIME == 195.0 THEN target == 0
+IF TIME == 200.0 THEN target == 0
+IF TIME == 214.0 THEN target == 0
+IF TIME == 220.0 THEN target == 0
+IF TIME == 221.0 THEN target == 0
+IF TIME == 225.0 THEN target == 0
+IF TIME == 226.0 THEN target == 0
+IF TIME == 237.0 THEN target == 0
+IF TIME == 239.0 THEN target == 0
+IF TIME == 240.0 THEN target == 0
+IF TIME == 248.0 THEN target == 0
+IF TIME == 253.0 THEN target == 0
+IF TIME == 256.0 THEN target == 0
+IF TIME == 263.0 THEN target == 0
+IF TIME == 276.0 THEN target == 0
+IF DURATION == 0.1 THEN target == 0
+IF TIME == 127.0 THEN target == 1
+IF DURATION == 1.0 THEN target == 0
+IF TIME == 138.0 THEN target == 1
+IF DURATION == 2.0 THEN target == 1
+IF TIME == 209.0 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 129
+avg # of vars: 129.00
+max # of vars: 129
+min # of clauses: 3505
+avg # of clauses: 3512.50
+max # of clauses: 3520
+
+EXPLANATIONS:
+  inst: "IF TIME == 157.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 157.0 THEN target == 0"
+  expl: "IF TIME == 157.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 268.0 AND DURATION == 10.0 AND LOG(1+DURATION) == 2.4 THEN target == 0"
+  dexp: "IF TIME == 268.0 AND DURATION == 10.0 THEN target == 0"
+  expl: "IF DURATION == 10.0 AND TIME == 268.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 209.0 AND DURATION == 2.0 AND LOG(1+DURATION) == 1.1 THEN target == 1"
+  dexp: "IF TIME == 209.0 AND DURATION == 2.0 THEN target == 1"
+  expl: "IF DURATION == 2.0 AND TIME == 209.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 134.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 134.0 AND DURATION == 0.1 THEN target == 0"
+  expl: "IF DURATION == 0.1 AND TIME == 134.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 21.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 21.0 THEN target == 1"
+  expl: "IF TIME == 21.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 28.0 AND DURATION == 7.0 AND LOG(1+DURATION) == 2.08 THEN target == 1"
+  dexp: "IF TIME == 28.0 THEN target == 1"
+  expl: "IF TIME == 28.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 150.0 AND DURATION == 25.0 AND LOG(1+DURATION) == 3.26 THEN target == 0"
+  dexp: "IF TIME == 150.0 AND DURATION == 25.0 THEN target == 0"
+  expl: "IF DURATION == 25.0 AND TIME == 150.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 221.0 AND DURATION == 12.0 AND LOG(1+DURATION) == 2.56 THEN target == 0"
+  dexp: "IF TIME == 221.0 THEN target == 0"
+  expl: "IF TIME == 221.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 225.0 AND DURATION == 18.0 AND LOG(1+DURATION) == 2.94 THEN target == 0"
+  dexp: "IF TIME == 225.0 THEN target == 0"
+  expl: "IF TIME == 225.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 264.0 AND DURATION == 2.0 AND LOG(1+DURATION) == 1.1 THEN target == 1"
+  dexp: "IF TIME == 264.0 AND DURATION == 2.0 THEN target == 1"
+  expl: "IF DURATION == 2.0 AND TIME == 264.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 46.0 AND DURATION == 24.0 AND LOG(1+DURATION) == 3.22 THEN target == 1"
+  dexp: "IF TIME == 46.0 THEN target == 1"
+  expl: "IF TIME == 46.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 169.0 AND DURATION == 2.0 AND LOG(1+DURATION) == 1.1 THEN target == 0"
+  dexp: "IF TIME == 169.0 THEN target == 0"
+  expl: "IF TIME == 169.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 195.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 195.0 THEN target == 0"
+  expl: "IF TIME == 195.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 237.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 237.0 THEN target == 0"
+  expl: "IF TIME == 237.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 39.0 AND DURATION == 22.0 AND LOG(1+DURATION) == 3.14 THEN target == 1"
+  dexp: "IF TIME == 39.0 THEN target == 1"
+  expl: "IF TIME == 39.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 99.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 99.0 THEN target == 1"
+  expl: "IF TIME == 99.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 132.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 132.0 THEN target == 1"
+  expl: "IF TIME == 132.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 114.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 1"
+  dexp: "IF TIME == 114.0 THEN target == 1"
+  expl: "IF TIME == 114.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 212.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 212.0 AND DURATION == 1.0 THEN target == 0"
+  expl: "IF DURATION == 1.0 AND TIME == 212.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 179.0 AND DURATION == 5.0 AND LOG(1+DURATION) == 1.79 THEN target == 0"
+  dexp: "IF TIME == 179.0 THEN target == 0"
+  expl: "IF TIME == 179.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 127.0 AND DURATION == 4.0 AND LOG(1+DURATION) == 1.61 THEN target == 1"
+  dexp: "IF TIME == 127.0 AND DURATION == 4.0 THEN target == 1"
+  expl: "IF DURATION == 4.0 AND TIME == 127.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 182.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 182.0 THEN target == 1"
+  expl: "IF TIME == 182.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 107.0 AND DURATION == 6.0 AND LOG(1+DURATION) == 1.95 THEN target == 0"
+  dexp: "IF TIME == 107.0 THEN target == 0"
+  expl: "IF TIME == 107.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 200.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 200.0 THEN target == 0"
+  expl: "IF TIME == 200.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 248.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 248.0 THEN target == 0"
+  expl: "IF TIME == 248.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 108.0 AND DURATION == 7.0 AND LOG(1+DURATION) == 2.08 THEN target == 0"
+  dexp: "IF TIME == 108.0 AND DURATION == 7.0 THEN target == 0"
+  expl: "IF DURATION == 7.0 AND TIME == 108.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 192.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 192.0 THEN target == 0"
+  expl: "IF TIME == 192.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 112.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 112.0 THEN target == 0"
+  expl: "IF TIME == 112.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 103.0 AND DURATION == 11.0 AND LOG(1+DURATION) == 2.48 THEN target == 1"
+  dexp: "IF TIME == 103.0 THEN target == 1"
+  expl: "IF TIME == 103.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 136.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 136.0 THEN target == 0"
+  expl: "IF TIME == 136.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 126.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 126.0 THEN target == 0"
+  expl: "IF TIME == 126.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 256.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 256.0 THEN target == 0"
+  expl: "IF TIME == 256.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 39.0 AND DURATION == 57.0 AND LOG(1+DURATION) == 4.06 THEN target == 1"
+  dexp: "IF TIME == 39.0 THEN target == 1"
+  expl: "IF TIME == 39.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 220.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 220.0 THEN target == 0"
+  expl: "IF TIME == 220.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 63.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 1"
+  dexp: "IF TIME == 63.0 THEN target == 1"
+  expl: "IF TIME == 63.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 186.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 186.0 THEN target == 0"
+  expl: "IF TIME == 186.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 159.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 159.0 THEN target == 1"
+  expl: "IF TIME == 159.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 166.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 166.0 THEN target == 0"
+  expl: "IF TIME == 166.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 75.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 75.0 AND DURATION == 1.0 THEN target == 0"
+  expl: "IF DURATION == 1.0 AND TIME == 75.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 32.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 1"
+  dexp: "IF TIME == 32.0 THEN target == 1"
+  expl: "IF TIME == 32.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 237.0 AND DURATION == 5.0 AND LOG(1+DURATION) == 1.79 THEN target == 0"
+  dexp: "IF TIME == 237.0 THEN target == 0"
+  expl: "IF TIME == 237.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 148.0 AND DURATION == 44.0 AND LOG(1+DURATION) == 3.81 THEN target == 0"
+  dexp: "IF TIME == 148.0 THEN target == 0"
+  expl: "IF TIME == 148.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 127.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 127.0 AND DURATION == 0.1 THEN target == 0"
+  expl: "IF DURATION == 0.1 AND TIME == 127.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 189.0 AND DURATION == 4.0 AND LOG(1+DURATION) == 1.61 THEN target == 0"
+  dexp: "IF TIME == 189.0 THEN target == 0"
+  expl: "IF TIME == 189.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 138.0 AND DURATION == 10.0 AND LOG(1+DURATION) == 2.4 THEN target == 1"
+  dexp: "IF TIME == 138.0 AND DURATION == 10.0 THEN target == 1"
+  expl: "IF DURATION == 10.0 AND TIME == 138.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 145.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 145.0 THEN target == 1"
+  expl: "IF TIME == 145.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 182.0 AND DURATION == 14.0 AND LOG(1+DURATION) == 2.71 THEN target == 1"
+  dexp: "IF TIME == 182.0 THEN target == 1"
+  expl: "IF TIME == 182.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 214.0 AND DURATION == 17.0 AND LOG(1+DURATION) == 2.89 THEN target == 0"
+  dexp: "IF TIME == 214.0 THEN target == 0"
+  expl: "IF TIME == 214.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 226.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 226.0 THEN target == 0"
+  expl: "IF TIME == 226.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 4.0 AND DURATION == 106.0 AND LOG(1+DURATION) == 4.67 THEN target == 1"
+  dexp: "IF TIME == 4.0 THEN target == 1"
+  expl: "IF TIME == 4.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 138.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 138.0 AND DURATION == 1.0 THEN target == 0"
+  expl: "IF DURATION == 1.0 AND TIME == 138.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 103.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 1"
+  dexp: "IF TIME == 103.0 THEN target == 1"
+  expl: "IF TIME == 103.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 253.0 AND DURATION == 4.0 AND LOG(1+DURATION) == 1.61 THEN target == 0"
+  dexp: "IF TIME == 253.0 THEN target == 0"
+  expl: "IF TIME == 253.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 81.0 AND DURATION == 16.0 AND LOG(1+DURATION) == 2.83 THEN target == 0"
+  dexp: "IF TIME == 81.0 THEN target == 0"
+  expl: "IF TIME == 81.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 169.0 AND DURATION == 3.0 AND LOG(1+DURATION) == 1.39 THEN target == 0"
+  dexp: "IF TIME == 169.0 THEN target == 0"
+  expl: "IF TIME == 169.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 180.0 AND DURATION == 7.0 AND LOG(1+DURATION) == 2.08 THEN target == 0"
+  dexp: "IF TIME == 180.0 AND DURATION == 7.0 THEN target == 0"
+  expl: "IF DURATION == 7.0 AND TIME == 180.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 235.0 AND DURATION == 7.0 AND LOG(1+DURATION) == 2.08 THEN target == 0"
+  dexp: "IF TIME == 235.0 AND DURATION == 7.0 THEN target == 0"
+  expl: "IF DURATION == 7.0 AND TIME == 235.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 54.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 1"
+  dexp: "IF TIME == 54.0 THEN target == 1"
+  expl: "IF TIME == 54.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 188.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 188.0 AND DURATION == 0.1 THEN target == 0"
+  expl: "IF DURATION == 0.1 AND TIME == 188.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 239.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 239.0 THEN target == 0"
+  expl: "IF TIME == 239.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 263.0 AND DURATION == 7.0 AND LOG(1+DURATION) == 2.08 THEN target == 0"
+  dexp: "IF TIME == 263.0 THEN target == 0"
+  expl: "IF TIME == 263.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 168.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 168.0 AND DURATION == 0.1 THEN target == 0"
+  expl: "IF DURATION == 0.1 AND TIME == 168.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 276.0 AND DURATION == 99.0 AND LOG(1+DURATION) == 4.61 THEN target == 0"
+  dexp: "IF TIME == 276.0 THEN target == 0"
+  expl: "IF TIME == 276.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 19.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 19.0 AND DURATION == 0.1 THEN target == 0"
+  expl: "IF DURATION == 0.1 AND TIME == 19.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 240.0 AND DURATION == 75.0 AND LOG(1+DURATION) == 4.33 THEN target == 0"
+  dexp: "IF TIME == 240.0 THEN target == 0"
+  expl: "IF TIME == 240.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 118.0 AND DURATION == 10.0 AND LOG(1+DURATION) == 2.4 THEN target == 1"
+  dexp: "IF TIME == 118.0 THEN target == 1"
+  expl: "IF TIME == 118.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 128.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 128.0 THEN target == 0"
+  expl: "IF TIME == 128.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 37.0 AND DURATION == 7.0 AND LOG(1+DURATION) == 2.08 THEN target == 0"
+  dexp: "IF TIME == 37.0 THEN target == 0"
+  expl: "IF TIME == 37.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 147.0 AND DURATION == 3.0 AND LOG(1+DURATION) == 1.39 THEN target == 0"
+  dexp: "IF TIME == 147.0 THEN target == 0"
+  expl: "IF TIME == 147.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 100.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 100.0 THEN target == 0"
+  expl: "IF TIME == 100.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 48.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 48.0 AND DURATION == 1.0 THEN target == 0"
+  expl: "IF DURATION == 1.0 AND TIME == 48.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 158.0 AND DURATION == 14.0 AND LOG(1+DURATION) == 2.71 THEN target == 0"
+  dexp: "IF TIME == 158.0 THEN target == 0"
+  expl: "IF TIME == 158.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 191.0 AND DURATION == 1.0 AND LOG(1+DURATION) == 0.69 THEN target == 0"
+  dexp: "IF TIME == 191.0 THEN target == 0"
+  expl: "IF TIME == 191.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 189.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 189.0 THEN target == 0"
+  expl: "IF TIME == 189.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 13.0 AND DURATION == 6.0 AND LOG(1+DURATION) == 1.95 THEN target == 1"
+  dexp: "IF TIME == 13.0 THEN target == 1"
+  expl: "IF TIME == 13.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 209.0 AND DURATION == 75.0 AND LOG(1+DURATION) == 4.33 THEN target == 0"
+  dexp: "IF TIME == 209.0 AND DURATION == 75.0 THEN target == 0"
+  expl: "IF DURATION == 75.0 AND TIME == 209.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF TIME == 165.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 165.0 THEN target == 1"
+  expl: "IF TIME == 165.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 86.0 AND DURATION == 8.0 AND LOG(1+DURATION) == 2.2 THEN target == 1"
+  dexp: "IF TIME == 86.0 THEN target == 1"
+  expl: "IF TIME == 86.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 78.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 78.0 THEN target == 0"
+  expl: "IF TIME == 78.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 25.0 AND DURATION == 15.0 AND LOG(1+DURATION) == 2.77 THEN target == 1"
+  dexp: "IF TIME == 25.0 THEN target == 1"
+  expl: "IF TIME == 25.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 107.0 AND DURATION == 3.0 AND LOG(1+DURATION) == 1.39 THEN target == 0"
+  dexp: "IF TIME == 107.0 THEN target == 0"
+  expl: "IF TIME == 107.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 4.0 AND DURATION == 34.0 AND LOG(1+DURATION) == 3.56 THEN target == 1"
+  dexp: "IF TIME == 4.0 THEN target == 1"
+  expl: "IF TIME == 4.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 65.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 1"
+  dexp: "IF TIME == 65.0 THEN target == 1"
+  expl: "IF TIME == 65.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 62.0 AND DURATION == 8.0 AND LOG(1+DURATION) == 2.2 THEN target == 1"
+  dexp: "IF TIME == 62.0 THEN target == 1"
+  expl: "IF TIME == 62.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 89.0 AND DURATION == 0.1 AND LOG(1+DURATION) == 0.1 THEN target == 0"
+  dexp: "IF TIME == 89.0 THEN target == 0"
+  expl: "IF TIME == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF TIME == 44.0 AND DURATION == 77.0 AND LOG(1+DURATION) == 4.36 THEN target == 0"
+  dexp: "IF TIME == 44.0 AND DURATION == 77.0 THEN target == 0"
+  expl: "IF DURATION == 77.0 AND TIME == 44.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 86
+tot # of expls: 86
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.23
+avg expl sz: 1.23
+max expl sz: 1.23
+Max expl sz: 2
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

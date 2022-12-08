@@ -1,0 +1,2167 @@
+MODEL:
+IF mcg == 0.0 THEN target == 1
+IF mcg == 0.1 THEN target == 1
+IF mcg == 0.4 THEN target == 0
+IF mcg == 0.04 THEN target == 0
+IF mcg == 0.06 THEN target == 1
+IF mcg == 0.07 THEN target == 0
+IF mcg == 0.11 THEN target == 1
+IF mcg == 0.12 THEN target == 1
+IF mcg == 0.17 THEN target == 0
+IF mcg == 0.18 THEN target == 0
+IF mcg == 0.21 THEN target == 0
+IF mcg == 0.22 THEN target == 0
+IF mcg == 0.23 THEN target == 0
+IF mcg == 0.24 THEN target == 0
+IF mcg == 0.25 THEN target == 0
+IF mcg == 0.26 THEN target == 0
+IF mcg == 0.27 THEN target == 0
+IF mcg == 0.28 THEN target == 0
+IF mcg == 0.38 THEN target == 0
+IF mcg == 0.42 THEN target == 0
+IF mcg == 0.44 THEN target == 0
+IF mcg == 0.45 THEN target == 1
+IF mcg == 0.46 THEN target == 1
+IF mcg == 0.48 THEN target == 1
+IF mcg == 0.53 THEN target == 0
+IF mcg == 0.54 THEN target == 1
+IF mcg == 0.55 THEN target == 1
+IF mcg == 0.68 THEN target == 7
+IF mcg == 0.79 THEN target == 4
+IF mcg == 0.81 THEN target == 4
+IF mcg == 0.86 THEN target == 4
+IF mcg == 0.87 THEN target == 4
+IF mcg == 0.88 THEN target == 4
+IF mcg == 0.89 THEN target == 1
+IF gvh == 0.8 THEN target == 7
+IF gvh == 0.9 THEN target == 5
+IF gvh == 0.16 THEN target == 0
+IF gvh == 0.23 THEN target == 0
+IF gvh == 0.26 THEN target == 4
+IF gvh == 0.28 THEN target == 0
+IF gvh == 0.31 THEN target == 0
+IF mcg == 0.39 THEN target == 1
+IF gvh == 0.32 THEN target == 0
+IF gvh == 0.33 THEN target == 4
+IF gvh == 0.34 THEN target == 0
+IF gvh == 0.35 THEN target == 0
+IF gvh == 0.38 THEN target == 4
+IF mcg == 0.57 THEN target == 7
+IF gvh == 0.58 THEN target == 1
+IF gvh == 0.67 THEN target == 1
+IF gvh == 0.68 THEN target == 5
+IF mcg == 0.78 THEN target == 4
+IF gvh == 0.69 THEN target == 5
+IF gvh == 0.72 THEN target == 7
+IF gvh == 0.73 THEN target == 7
+IF mcg == 0.76 THEN target == 4
+IF gvh == 0.41 THEN target == 0
+IF gvh == 0.74 THEN target == 7
+IF gvh == 0.82 THEN target == 7
+IF gvh == 0.83 THEN target == 7
+IF gvh == 0.86 THEN target == 7
+IF mcg == 0.72 THEN target == 4
+IF gvh == 0.88 THEN target == 5
+IF gvh == 1.0 THEN target == 7
+IF aac == 0.0 THEN target == 1
+IF aac == 0.3 THEN target == 0
+IF aac == 0.6 THEN target == 7
+IF aac == 0.22 THEN target == 0
+IF aac == 0.25 THEN target == 7
+IF aac == 0.27 THEN target == 0
+IF aac == 0.29 THEN target == 0
+IF mcg == 0.31 THEN target == 1
+IF gvh == 0.36 THEN target == 0
+IF aac == 0.31 THEN target == 1
+IF gvh == 0.66 THEN target == 7
+IF aac == 0.33 THEN target == 1
+IF mcg == 0.16 THEN target == 0
+IF aac == 0.34 THEN target == 0
+IF aac == 0.36 THEN target == 0
+IF aac == 0.43 THEN target == 7
+IF mcg == 0.56 THEN target == 0
+IF aac == 0.49 THEN target == 0
+IF mcg == 0.5 THEN target == 1
+IF aac == 0.57 THEN target == 1
+IF mcg == 0.2 THEN target == 0
+IF mcg == 0.51 THEN target == 0
+IF mcg == 0.58 THEN target == 4
+IF gvh == 0.6 THEN target == 7
+IF mcg == 0.61 THEN target == 5
+IF gvh == 0.75 THEN target == 1
+IF aac == 0.44 THEN target == 0
+IF aac == 0.61 THEN target == 1
+IF mcg == 0.35 THEN target == 0
+IF mcg == 0.83 THEN target == 4
+IF aac == 0.62 THEN target == 4
+IF aac == 0.63 THEN target == 7
+IF gvh == 0.65 THEN target == 1
+IF aac == 0.65 THEN target == 1
+IF aac == 0.68 THEN target == 5
+IF gvh == 0.71 THEN target == 7
+IF aac == 0.41 THEN target == 0
+IF gvh == 0.54 THEN target == 4
+IF aac == 0.71 THEN target == 1
+IF aac == 0.72 THEN target == 5
+IF mcg == 0.52 THEN target == 0
+IF gvh == 0.44 THEN target == 1
+IF mcg == 0.84 THEN target == 4
+IF gvh == 0.81 THEN target == 7
+IF aac == 0.55 THEN target == 1
+IF gvh == 0.56 THEN target == 7
+IF aac == 0.75 THEN target == 5
+IF gvh == 0.78 THEN target == 7
+IF mcg == 0.62 THEN target == 4
+IF mcg == 0.73 THEN target == 5
+IF gvh == 0.84 THEN target == 7
+IF mcg == 0.75 THEN target == 5
+IF aac == 0.35 THEN target == 0
+IF mcg == 0.32 THEN target == 7
+IF aac == 0.77 THEN target == 5
+IF mcg == 0.6 THEN target == 1
+IF gvh == 0.76 THEN target == 0
+IF lip != 0.48 THEN target == 4
+IF gvh == 0.61 THEN target == 7
+IF aac == 0.45 THEN target == 0
+IF aac == 0.54 THEN target == 4
+IF mcg == 0.66 THEN target == 1
+IF mcg == 0.67 THEN target == 7
+IF gvh == 0.7 THEN target == 1
+IF mcg == 0.74 THEN target == 7
+IF gvh == 0.48 THEN target == 0
+IF gvh == 0.53 THEN target == 4
+IF mcg == 0.7 THEN target == 1
+IF gvh == 0.46 THEN target == 0
+IF aac == 0.5 THEN target == 0
+IF gvh == 0.43 THEN target == 4
+IF mcg == 0.69 THEN target == 7
+IF gvh == 0.59 THEN target == 1
+IF aac == 0.7 THEN target == 5
+IF mcg == 0.64 THEN target == 4
+IF aac == 0.46 THEN target == 1
+IF mcg == 0.33 THEN target == 0
+IF gvh == 0.37 THEN target == 0
+IF mcg == 0.3 THEN target == 1
+IF aac == 0.42 THEN target == 0
+IF mcg == 0.29 THEN target == 7
+IF mcg == 0.37 THEN target == 1
+IF gvh == 0.5 THEN target == 1
+IF gvh == 0.39 THEN target == 0
+IF mcg == 0.36 THEN target == 1
+IF gvh == 0.45 THEN target == 0
+IF gvh == 0.52 THEN target == 1
+IF mcg == 0.71 THEN target == 7
+IF aac == 0.39 THEN target == 0
+IF mcg == 0.43 THEN target == 1
+IF aac == 0.47 THEN target == 7
+IF gvh == 0.57 THEN target == 5
+IF mcg == 0.77 THEN target == 4
+IF aac == 0.48 THEN target == 4
+IF mcg == 0.63 THEN target == 1
+IF gvh == 0.42 THEN target == 1
+IF mcg == 0.49 THEN target == 0
+IF gvh == 0.47 THEN target == 0
+IF mcg == 0.65 THEN target == 5
+IF aac == 0.51 THEN target == 0
+IF mcg == 0.47 THEN target == 1
+IF gvh == 0.29 THEN target == 4
+IF mcg == 0.59 THEN target == 0
+IF gvh == 0.49 THEN target == 1
+IF gvh != 0.51 THEN target == 0
+IF mcg == 0.34 THEN target == 1
+IF aac == 0.53 THEN target == 1
+IF mcg == 0.41 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 5
+min # of vars: 357
+avg # of vars: 357.00
+max # of vars: 357
+min # of clauses: 12624
+avg # of clauses: 12644.60
+max # of clauses: 12670
+
+EXPLANATIONS:
+  inst: "IF mcg == 0.49 AND gvh == 0.29 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.24 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.49 AND gvh == 0.29 AND aac == 0.56 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.56 AND gvh == 0.29 AND mcg == 0.49 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.07 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.07 THEN target == 0"
+  expl: "IF mcg == 0.07 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.56 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.37 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.56 AND gvh == 0.4 AND aac == 0.49 THEN target == 0"
+  expl: "IF aac == 0.49 AND gvh == 0.4 AND mcg == 0.56 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.59 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.45 AND alm2 == 0.36 THEN target == 0"
+  dexp: "IF mcg == 0.59 AND gvh == 0.49 AND aac == 0.52 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.52 AND gvh == 0.49 AND mcg == 0.59 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.23 AND gvh == 0.32 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.25 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.23 THEN target == 0"
+  expl: "IF mcg == 0.23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.36 AND alm1 == 0.38 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.67 AND gvh == 0.39 AND aac == 0.36 THEN target == 0"
+  expl: "IF aac == 0.36 AND gvh == 0.39 AND mcg == 0.67 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.28 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.23 AND alm2 == 0.34 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.28 THEN target == 0"
+  expl: "IF gvh == 0.28 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.21 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.28 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.21 THEN target == 0"
+  expl: "IF mcg == 0.21 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.2 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.51 AND alm2 == 0.57 THEN target == 0"
+  dexp: "IF mcg == 0.2 AND gvh == 0.44 AND aac == 0.46 THEN target == 0"
+  expl: "IF aac == 0.46 AND gvh == 0.44 AND mcg == 0.2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.42 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.18 AND alm2 == 0.3 THEN target == 0"
+  dexp: "IF mcg == 0.42 THEN target == 0"
+  expl: "IF mcg == 0.42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.42 AND gvh == 0.24 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.27 AND alm2 == 0.37 THEN target == 0"
+  dexp: "IF mcg == 0.42 THEN target == 0"
+  expl: "IF mcg == 0.42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.48 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.17 AND alm2 == 0.29 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.39 AND gvh == 0.32 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.24 AND alm2 == 0.35 THEN target == 1"
+  dexp: "IF mcg == 0.39 AND gvh == 0.32 THEN target == 1"
+  expl: "IF gvh == 0.32 AND mcg == 0.39 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.51 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.32 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.51 AND gvh == 0.5 AND aac == 0.46 THEN target == 0"
+  expl: "IF aac == 0.46 AND gvh == 0.5 AND mcg == 0.51 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.22 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.16 AND alm2 == 0.28 THEN target == 0"
+  dexp: "IF mcg == 0.22 THEN target == 0"
+  expl: "IF mcg == 0.22 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.44 AND alm2 == 0.52 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.24 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.45 AND aac == 0.38 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.38 AND gvh == 0.45 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.27 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.52 AND alm2 == 0.58 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.23 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.28 AND alm2 == 0.38 THEN target == 0"
+  dexp: "IF mcg == 0.23 THEN target == 0"
+  expl: "IF mcg == 0.23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.41 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.21 AND alm2 == 0.32 THEN target == 0"
+  dexp: "IF mcg == 0.41 AND gvh == 0.57 AND aac == 0.39 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.39 AND gvh == 0.57 AND mcg == 0.41 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.22 AND alm2 == 0.0 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.31 AND gvh == 0.23 AND lip == 0.48 AND chg == 0.5 AND aac == 0.73 AND alm1 == 0.05 AND alm2 == 0.14 THEN target == 0"
+  dexp: "IF mcg == 0.31 AND gvh == 0.23 THEN target == 0"
+  expl: "IF gvh == 0.23 AND mcg == 0.31 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.51 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.34 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.51 AND gvh == 0.54 AND aac == 0.41 THEN target == 0"
+  expl: "IF aac == 0.41 AND gvh == 0.54 AND mcg == 0.51 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.3 AND gvh == 0.16 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.11 AND alm2 == 0.23 THEN target == 0"
+  dexp: "IF mcg == 0.3 AND gvh == 0.16 THEN target == 0"
+  expl: "IF gvh == 0.16 AND mcg == 0.3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.22 AND alm2 == 0.23 THEN target == 0"
+  dexp: "IF mcg == 0.36 AND gvh == 0.39 AND aac == 0.48 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.48 AND gvh == 0.39 AND mcg == 0.36 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.44 AND alm2 == 0.52 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.37 AND aac == 0.48 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.48 AND gvh == 0.37 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.33 AND alm2 == 0.42 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.21 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.32 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.21 THEN target == 0"
+  expl: "IF mcg == 0.21 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.43 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.43 AND gvh == 0.37 AND aac == 0.53 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.53 AND gvh == 0.37 AND mcg == 0.43 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.43 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.31 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.43 AND gvh == 0.39 AND aac == 0.47 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.47 AND gvh == 0.39 AND mcg == 0.43 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.53 AND gvh == 0.38 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.26 AND alm2 == 0.36 THEN target == 0"
+  dexp: "IF mcg == 0.53 THEN target == 0"
+  expl: "IF mcg == 0.53 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.33 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 4"
+  dexp: "IF mcg == 0.34 AND gvh == 0.33 THEN target == 4"
+  expl: "IF gvh == 0.33 AND mcg == 0.34 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.56 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.34 AND alm1 == 0.37 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.56 AND gvh == 0.51 AND aac == 0.34 THEN target == 0"
+  expl: "IF aac == 0.34 AND gvh == 0.51 AND mcg == 0.56 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.29 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.24 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.31 AND alm1 == 0.19 AND alm2 == 0.31 THEN target == 0"
+  dexp: "IF mcg == 0.24 THEN target == 0"
+  expl: "IF mcg == 0.24 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.38 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.36 AND gvh == 0.54 AND aac == 0.41 THEN target == 0"
+  expl: "IF aac == 0.41 AND gvh == 0.54 AND mcg == 0.36 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.29 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.52 AND aac == 0.42 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.42 AND gvh == 0.52 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.65 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.3 AND alm2 == 0.4 THEN target == 0"
+  dexp: "IF mcg == 0.65 AND gvh == 0.47 AND aac == 0.59 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.59 AND gvh == 0.47 AND mcg == 0.65 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.32 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.35 AND alm1 == 0.28 AND alm2 == 0.38 THEN target == 0"
+  dexp: "IF mcg == 0.32 AND gvh == 0.42 AND aac == 0.35 THEN target == 0"
+  expl: "IF aac == 0.35 AND gvh == 0.42 AND mcg == 0.32 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.38 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.22 AND alm2 == 0.29 THEN target == 0"
+  dexp: "IF mcg == 0.38 THEN target == 0"
+  expl: "IF mcg == 0.38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.33 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.32 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.33 AND gvh == 0.45 AND aac == 0.52 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.52 AND gvh == 0.45 AND mcg == 0.33 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.3 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.41 AND alm2 == 0.49 THEN target == 0"
+  dexp: "IF mcg == 0.3 AND gvh == 0.37 AND aac == 0.59 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.59 AND gvh == 0.37 AND mcg == 0.3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.39 AND alm2 == 0.47 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.28 AND gvh == 0.38 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.33 AND alm2 == 0.42 THEN target == 0"
+  dexp: "IF mcg == 0.28 THEN target == 0"
+  expl: "IF mcg == 0.28 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.35 AND alm2 == 0.41 THEN target == 5"
+  dexp: "IF mcg == 0.61 AND gvh == 0.45 AND aac == 0.48 THEN target == 5"
+  expl: "IF aac == 0.48 AND gvh == 0.45 AND mcg == 0.61 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.17 AND gvh == 0.38 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.42 AND alm2 == 0.5 THEN target == 0"
+  dexp: "IF mcg == 0.17 THEN target == 0"
+  expl: "IF mcg == 0.17 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.55 AND alm2 == 0.61 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.43 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.28 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.43 AND gvh == 0.4 AND aac == 0.39 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.39 AND gvh == 0.4 AND mcg == 0.43 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.42 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.15 AND alm2 == 0.27 THEN target == 0"
+  dexp: "IF mcg == 0.42 THEN target == 0"
+  expl: "IF mcg == 0.42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.23 AND gvh == 0.33 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.33 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.23 THEN target == 0"
+  expl: "IF mcg == 0.23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.37 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.42 AND alm2 == 0.36 THEN target == 0"
+  dexp: "IF mcg == 0.37 AND gvh == 0.52 AND aac == 0.42 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.42 AND gvh == 0.52 AND mcg == 0.37 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.3 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.03 AND alm2 == 0.17 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.3 AND aac == 0.45 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.45 AND gvh == 0.3 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.22 AND gvh == 0.36 AND lip == 0.48 AND chg == 0.5 AND aac == 0.35 AND alm1 == 0.39 AND alm2 == 0.47 THEN target == 0"
+  dexp: "IF mcg == 0.22 THEN target == 0"
+  expl: "IF mcg == 0.22 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.23 AND gvh == 0.58 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.53 AND alm2 == 0.59 THEN target == 0"
+  dexp: "IF mcg == 0.23 THEN target == 0"
+  expl: "IF mcg == 0.23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.47 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.22 AND alm1 == 0.16 AND alm2 == 0.26 THEN target == 0"
+  dexp: "IF mcg == 0.47 AND gvh == 0.47 AND aac == 0.22 THEN target == 0"
+  expl: "IF aac == 0.22 AND gvh == 0.47 AND mcg == 0.47 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.54 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.28 AND alm1 == 0.33 AND alm2 == 0.42 THEN target == 1"
+  dexp: "IF mcg == 0.54 THEN target == 1"
+  expl: "IF mcg == 0.54 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.51 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.35 AND alm1 == 0.36 AND alm2 == 0.45 THEN target == 0"
+  dexp: "IF mcg == 0.51 AND gvh == 0.37 AND aac == 0.35 THEN target == 0"
+  expl: "IF aac == 0.35 AND gvh == 0.37 AND mcg == 0.51 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.33 AND alm2 == 0.42 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.3 AND alm1 == 0.33 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.42 AND gvh == 0.38 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.34 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.42 THEN target == 0"
+  expl: "IF mcg == 0.42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.56 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.46 AND alm2 == 0.54 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.52 AND gvh == 0.36 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.28 AND alm2 == 0.38 THEN target == 0"
+  dexp: "IF mcg == 0.52 AND gvh == 0.36 AND aac == 0.41 THEN target == 0"
+  expl: "IF aac == 0.41 AND gvh == 0.36 AND mcg == 0.52 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.47 AND alm2 == 0.54 THEN target == 0"
+  dexp: "IF mcg == 0.36 AND gvh == 0.41 THEN target == 0"
+  expl: "IF gvh == 0.41 AND mcg == 0.36 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.18 AND gvh == 0.3 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.24 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.18 THEN target == 0"
+  expl: "IF mcg == 0.18 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.47 AND gvh == 0.29 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.33 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.47 AND gvh == 0.29 AND aac == 0.51 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.51 AND gvh == 0.29 AND mcg == 0.47 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.24 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.52 AND alm2 == 0.59 THEN target == 0"
+  dexp: "IF mcg == 0.24 THEN target == 0"
+  expl: "IF mcg == 0.24 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.33 AND alm2 == 0.42 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.52 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.47 AND alm2 == 0.54 THEN target == 0"
+  dexp: "IF mcg == 0.52 AND gvh == 0.57 AND aac == 0.42 THEN target == 0"
+  expl: "IF aac == 0.42 AND gvh == 0.57 AND mcg == 0.52 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.26 AND alm2 == 0.36 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.35 AND gvh == 0.48 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.4 AND alm2 == 0.48 THEN target == 0"
+  dexp: "IF mcg == 0.35 AND gvh == 0.48 AND aac == 0.56 THEN target == 0"
+  expl: "IF aac == 0.56 AND gvh == 0.48 AND mcg == 0.35 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.26 AND gvh == 0.26 AND lip == 0.48 AND chg == 0.5 AND aac == 0.34 AND alm1 == 0.25 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.26 THEN target == 0"
+  expl: "IF mcg == 0.26 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.26 AND alm2 == 0.36 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.37 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.36 AND alm2 == 0.45 THEN target == 0"
+  dexp: "IF mcg == 0.37 AND gvh == 0.5 AND aac == 0.42 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.42 AND gvh == 0.5 AND mcg == 0.37 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.25 AND alm2 == 0.2 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.24 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.28 AND alm2 == 0.38 THEN target == 0"
+  dexp: "IF mcg == 0.24 THEN target == 0"
+  expl: "IF mcg == 0.24 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.42 AND gvh == 0.3 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.26 AND alm2 == 0.36 THEN target == 0"
+  dexp: "IF mcg == 0.42 THEN target == 0"
+  expl: "IF mcg == 0.42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.48 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.25 AND alm2 == 0.35 THEN target == 1"
+  dexp: "IF mcg == 0.48 THEN target == 1"
+  expl: "IF mcg == 0.48 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.41 AND gvh == 0.48 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.44 AND alm2 == 0.51 THEN target == 0"
+  dexp: "IF mcg == 0.41 AND gvh == 0.48 AND aac == 0.51 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.51 AND gvh == 0.48 AND mcg == 0.41 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.28 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.27 AND alm2 == 0.37 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.38 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.41 THEN target == 0"
+  expl: "IF gvh == 0.41 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.28 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.28 THEN target == 0"
+  expl: "IF gvh == 0.28 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.41 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.31 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.41 AND gvh == 0.43 AND aac == 0.45 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.45 AND gvh == 0.43 AND mcg == 0.41 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.23 AND alm2 == 0.34 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.47 AND aac == 0.41 THEN target == 0"
+  expl: "IF aac == 0.41 AND gvh == 0.47 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.31 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.55 AND aac == 0.58 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.58 AND gvh == 0.55 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.56 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.45 AND alm2 == 0.53 THEN target == 7"
+  dexp: "IF mcg == 0.36 AND gvh == 0.56 AND aac == 0.43 THEN target == 7"
+  expl: "IF aac == 0.43 AND gvh == 0.56 AND mcg == 0.36 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.49 AND alm2 == 0.56 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.5 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.46 AND alm2 == 0.53 THEN target == 0"
+  dexp: "IF mcg == 0.5 AND gvh == 0.49 AND aac == 0.49 THEN target == 0"
+  expl: "IF aac == 0.49 AND gvh == 0.49 AND mcg == 0.5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.52 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.36 AND alm2 == 0.42 THEN target == 0"
+  dexp: "IF mcg == 0.52 AND gvh == 0.44 AND aac == 0.37 THEN target == 0"
+  expl: "IF aac == 0.37 AND gvh == 0.44 AND mcg == 0.52 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.5 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.27 AND alm1 == 0.23 AND alm2 == 0.34 THEN target == 0"
+  dexp: "IF mcg == 0.5 AND gvh == 0.51 AND aac == 0.27 THEN target == 0"
+  expl: "IF aac == 0.27 AND gvh == 0.51 AND mcg == 0.5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.53 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.16 AND alm1 == 0.29 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.53 THEN target == 0"
+  expl: "IF mcg == 0.53 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.46 AND aac == 0.52 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.52 AND gvh == 0.46 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.27 AND alm2 == 0.27 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.41 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.24 AND alm2 == 0.25 THEN target == 0"
+  dexp: "IF mcg == 0.41 AND gvh == 0.43 AND aac == 0.5 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.5 AND gvh == 0.43 AND mcg == 0.41 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.3 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.36 AND alm1 == 0.21 AND alm2 == 0.32 THEN target == 0"
+  dexp: "IF mcg == 0.3 AND gvh == 0.45 AND aac == 0.36 THEN target == 0"
+  expl: "IF aac == 0.36 AND gvh == 0.45 AND mcg == 0.3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.31 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.29 AND alm1 == 0.28 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.31 AND gvh == 0.47 AND aac == 0.29 THEN target == 0"
+  expl: "IF aac == 0.29 AND gvh == 0.47 AND mcg == 0.31 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.76 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.35 AND alm2 == 0.38 THEN target == 0"
+  dexp: "IF mcg == 0.64 AND gvh == 0.76 AND aac == 0.45 THEN target == 0"
+  expl: "IF aac == 0.45 AND gvh == 0.76 AND mcg == 0.64 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.35 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.3 AND alm1 == 0.34 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.35 AND gvh == 0.37 AND aac == 0.3 THEN target == 0"
+  expl: "IF aac == 0.3 AND gvh == 0.37 AND mcg == 0.35 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.57 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.28 AND alm2 == 0.33 THEN target == 7"
+  dexp: "IF mcg == 0.57 AND gvh == 0.54 THEN target == 7"
+  expl: "IF gvh == 0.54 AND mcg == 0.57 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.65 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.34 AND alm1 == 0.37 AND alm2 == 0.28 THEN target == 0"
+  dexp: "IF mcg == 0.65 AND gvh == 0.55 AND aac == 0.34 THEN target == 0"
+  expl: "IF aac == 0.34 AND gvh == 0.55 AND mcg == 0.65 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.51 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.31 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.51 AND gvh == 0.46 AND aac == 0.58 THEN target == 0"
+  expl: "IF aac == 0.58 AND gvh == 0.46 AND mcg == 0.51 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.38 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.63 AND alm1 == 0.25 AND alm2 == 0.35 THEN target == 0"
+  dexp: "IF mcg == 0.38 THEN target == 0"
+  expl: "IF mcg == 0.38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.24 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.63 AND alm1 == 0.34 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.24 THEN target == 0"
+  expl: "IF mcg == 0.24 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.38 AND gvh == 0.26 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.16 AND alm2 == 0.28 THEN target == 0"
+  dexp: "IF mcg == 0.38 THEN target == 0"
+  expl: "IF mcg == 0.38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.33 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.18 AND alm2 == 0.29 THEN target == 0"
+  dexp: "IF mcg == 0.33 AND gvh == 0.47 AND aac == 0.53 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.53 AND gvh == 0.47 AND mcg == 0.33 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.24 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.3 AND alm2 == 0.4 THEN target == 0"
+  dexp: "IF mcg == 0.24 THEN target == 0"
+  expl: "IF mcg == 0.24 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.26 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.32 AND alm2 == 0.41 THEN target == 0"
+  dexp: "IF mcg == 0.26 THEN target == 0"
+  expl: "IF mcg == 0.26 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.38 AND alm2 == 0.4 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.43 AND gvh == 0.32 AND lip == 0.48 AND chg == 0.5 AND aac == 0.33 AND alm1 == 0.45 AND alm2 == 0.52 THEN target == 0"
+  dexp: "IF mcg == 0.43 AND gvh == 0.32 THEN target == 0"
+  expl: "IF gvh == 0.32 AND mcg == 0.43 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.49 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.3 AND alm2 == 0.4 THEN target == 0"
+  dexp: "IF mcg == 0.49 AND gvh == 0.43 AND aac == 0.49 THEN target == 0"
+  expl: "IF aac == 0.49 AND gvh == 0.43 AND mcg == 0.49 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.47 AND gvh == 0.28 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.2 AND alm2 == 0.25 THEN target == 0"
+  dexp: "IF mcg == 0.47 AND gvh == 0.28 THEN target == 0"
+  expl: "IF gvh == 0.28 AND mcg == 0.47 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.32 AND gvh == 0.33 AND lip == 0.48 AND chg == 0.5 AND aac == 0.6 AND alm1 == 0.06 AND alm2 == 0.2 THEN target == 4"
+  dexp: "IF mcg == 0.32 AND gvh == 0.33 THEN target == 4"
+  expl: "IF gvh == 0.33 AND mcg == 0.32 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.49 AND alm2 == 0.56 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.35 THEN target == 0"
+  expl: "IF gvh == 0.35 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.35 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.3 AND alm2 == 0.27 THEN target == 0"
+  dexp: "IF mcg == 0.35 AND gvh == 0.34 THEN target == 0"
+  expl: "IF gvh == 0.34 AND mcg == 0.35 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.38 AND gvh == 0.3 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.29 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.38 THEN target == 0"
+  expl: "IF mcg == 0.38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.38 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.2 AND alm2 == 0.31 THEN target == 0"
+  dexp: "IF mcg == 0.38 THEN target == 0"
+  expl: "IF mcg == 0.38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.41 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.2 AND alm2 == 0.31 THEN target == 0"
+  dexp: "IF mcg == 0.41 AND gvh == 0.51 AND aac == 0.58 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.58 AND gvh == 0.51 AND mcg == 0.41 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.34 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.42 AND aac == 0.41 THEN target == 0"
+  expl: "IF aac == 0.41 AND gvh == 0.42 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.51 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.14 AND alm2 == 0.26 THEN target == 0"
+  dexp: "IF mcg == 0.51 AND gvh == 0.49 AND aac == 0.53 THEN target == 0"
+  expl: "IF aac == 0.53 AND gvh == 0.49 AND mcg == 0.51 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.42 AND alm2 == 0.5 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.28 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.42 AND alm2 == 0.5 THEN target == 0"
+  dexp: "IF mcg == 0.29 AND gvh == 0.28 THEN target == 0"
+  expl: "IF gvh == 0.28 AND mcg == 0.29 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.25 AND gvh == 0.26 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.32 AND alm2 == 0.42 THEN target == 0"
+  dexp: "IF mcg == 0.25 THEN target == 0"
+  expl: "IF mcg == 0.25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.24 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.23 AND alm2 == 0.34 THEN target == 0"
+  dexp: "IF mcg == 0.24 THEN target == 0"
+  expl: "IF mcg == 0.24 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.17 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.3 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.17 THEN target == 0"
+  expl: "IF mcg == 0.17 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.04 AND gvh == 0.31 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.29 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.04 THEN target == 0"
+  expl: "IF mcg == 0.04 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.36 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.61 AND gvh == 0.36 AND aac == 0.49 THEN target == 0"
+  expl: "IF aac == 0.49 AND gvh == 0.36 AND mcg == 0.61 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.37 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.34 AND gvh == 0.51 AND aac == 0.44 THEN target == 0"
+  expl: "IF aac == 0.44 AND gvh == 0.51 AND mcg == 0.34 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.28 AND gvh == 0.33 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.22 AND alm2 == 0.33 THEN target == 0"
+  dexp: "IF mcg == 0.28 THEN target == 0"
+  expl: "IF mcg == 0.28 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.35 AND alm2 == 0.44 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.23 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.26 AND alm2 == 0.37 THEN target == 0"
+  dexp: "IF mcg == 0.23 THEN target == 0"
+  expl: "IF mcg == 0.23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.37 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.39 AND alm2 == 0.47 THEN target == 1"
+  dexp: "IF mcg == 0.37 AND gvh == 0.44 AND aac == 0.42 THEN target == 1"
+  expl: "IF aac == 0.42 AND gvh == 0.44 AND mcg == 0.37 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.0 AND gvh == 0.38 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.48 AND alm2 == 0.55 THEN target == 1"
+  dexp: "IF mcg == 0.0 THEN target == 1"
+  expl: "IF mcg == 0.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.39 AND gvh == 0.31 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.34 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.39 AND gvh == 0.31 THEN target == 0"
+  expl: "IF gvh == 0.31 AND mcg == 0.39 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.3 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.22 AND alm2 == 0.33 THEN target == 0"
+  dexp: "IF mcg == 0.3 AND gvh == 0.44 AND aac == 0.49 THEN target == 0"
+  expl: "IF aac == 0.49 AND gvh == 0.44 AND mcg == 0.3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.27 AND gvh == 0.3 AND lip == 0.48 AND chg == 0.5 AND aac == 0.71 AND alm1 == 0.28 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.27 THEN target == 0"
+  expl: "IF mcg == 0.27 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.17 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.37 AND alm2 == 0.46 THEN target == 0"
+  dexp: "IF mcg == 0.17 THEN target == 0"
+  expl: "IF mcg == 0.17 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.32 AND alm2 == 0.41 THEN target == 1"
+  dexp: "IF mcg == 0.36 AND gvh == 0.42 AND aac == 0.53 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.53 AND gvh == 0.42 AND mcg == 0.36 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.3 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.18 AND alm2 == 0.3 THEN target == 7"
+  dexp: "IF mcg == 0.3 AND gvh == 0.37 AND aac == 0.43 THEN target == 7"
+  expl: "IF aac == 0.43 AND gvh == 0.37 AND mcg == 0.3 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.26 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.36 AND alm1 == 0.26 AND alm2 == 0.37 THEN target == 0"
+  dexp: "IF mcg == 0.26 THEN target == 0"
+  expl: "IF mcg == 0.26 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.22 AND alm2 == 0.33 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.22 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.29 AND alm2 == 0.39 THEN target == 0"
+  dexp: "IF mcg == 0.22 THEN target == 0"
+  expl: "IF mcg == 0.22 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.52 AND alm2 == 0.59 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.27 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.38 AND alm2 == 0.43 THEN target == 0"
+  dexp: "IF mcg == 0.27 THEN target == 0"
+  expl: "IF mcg == 0.27 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.16 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.27 AND alm2 == 0.37 THEN target == 0"
+  dexp: "IF mcg == 0.16 AND gvh == 0.43 AND aac == 0.54 THEN target == 0"
+  expl: "IF aac == 0.54 AND gvh == 0.43 AND mcg == 0.16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.06 AND gvh == 0.61 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.92 AND alm2 == 0.37 THEN target == 1"
+  dexp: "IF mcg == 0.06 THEN target == 1"
+  expl: "IF mcg == 0.06 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.44 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.47 AND alm2 == 0.54 THEN target == 0"
+  dexp: "IF mcg == 0.44 THEN target == 0"
+  expl: "IF mcg == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.82 AND alm2 == 0.84 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.47 AND aac == 0.51 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.51 AND gvh == 0.47 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.23 AND gvh == 0.48 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.88 AND alm2 == 0.89 THEN target == 0"
+  dexp: "IF mcg == 0.23 THEN target == 0"
+  expl: "IF mcg == 0.23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.85 AND alm2 == 0.8 THEN target == 1"
+  dexp: "IF mcg == 0.34 AND gvh == 0.49 AND aac == 0.58 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.58 AND gvh == 0.49 AND mcg == 0.34 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.43 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.75 AND alm2 == 0.78 THEN target == 1"
+  dexp: "IF mcg == 0.43 AND gvh == 0.4 AND aac == 0.58 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.58 AND gvh == 0.4 AND mcg == 0.43 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.46 AND gvh == 0.61 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.86 AND alm2 == 0.87 THEN target == 1"
+  dexp: "IF mcg == 0.46 THEN target == 1"
+  expl: "IF mcg == 0.46 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.27 AND gvh == 0.35 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.77 AND alm2 == 0.79 THEN target == 0"
+  dexp: "IF mcg == 0.27 THEN target == 0"
+  expl: "IF mcg == 0.27 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.52 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.65 AND alm1 == 0.71 AND alm2 == 0.73 THEN target == 1"
+  dexp: "IF mcg == 0.52 AND gvh == 0.39 AND aac == 0.65 THEN target == 1"
+  expl: "IF aac == 0.65 AND gvh == 0.39 AND mcg == 0.52 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.71 AND alm1 == 0.65 AND alm2 == 0.69 THEN target == 1"
+  dexp: "IF mcg == 0.29 AND gvh == 0.47 AND aac == 0.71 THEN target == 1"
+  expl: "IF aac == 0.71 AND gvh == 0.47 AND mcg == 0.29 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.55 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.78 AND alm2 == 0.8 THEN target == 1"
+  dexp: "IF mcg == 0.55 THEN target == 1"
+  expl: "IF mcg == 0.55 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.12 AND gvh == 0.67 AND lip == 0.48 AND chg == 0.5 AND aac == 0.74 AND alm1 == 0.58 AND alm2 == 0.63 THEN target == 1"
+  dexp: "IF mcg == 0.12 THEN target == 1"
+  expl: "IF mcg == 0.12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.4 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.65 AND alm1 == 0.82 AND alm2 == 0.84 THEN target == 0"
+  dexp: "IF mcg == 0.4 THEN target == 0"
+  expl: "IF mcg == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.73 AND gvh == 0.36 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.91 AND alm2 == 0.92 THEN target == 0"
+  dexp: "IF mcg == 0.73 AND gvh == 0.36 AND aac == 0.53 THEN target == 0"
+  expl: "IF aac == 0.53 AND gvh == 0.36 AND mcg == 0.73 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.84 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.71 AND alm2 == 0.74 THEN target == 1"
+  dexp: "IF mcg == 0.84 AND gvh == 0.44 AND aac == 0.48 THEN target == 1"
+  expl: "IF aac == 0.48 AND gvh == 0.44 AND mcg == 0.84 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.48 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.6 AND alm1 == 0.78 AND alm2 == 0.8 THEN target == 1"
+  dexp: "IF mcg == 0.48 THEN target == 1"
+  expl: "IF mcg == 0.48 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.54 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.4 AND alm1 == 0.87 AND alm2 == 0.88 THEN target == 1"
+  dexp: "IF mcg == 0.54 THEN target == 1"
+  expl: "IF mcg == 0.54 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.48 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.9 AND alm2 == 0.88 THEN target == 1"
+  dexp: "IF mcg == 0.48 THEN target == 1"
+  expl: "IF mcg == 0.48 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.5 AND gvh == 0.66 AND lip == 0.48 AND chg == 0.5 AND aac == 0.31 AND alm1 == 0.92 AND alm2 == 0.92 THEN target == 1"
+  dexp: "IF mcg == 0.5 AND gvh == 0.66 AND aac == 0.31 THEN target == 1"
+  expl: "IF aac == 0.31 AND gvh == 0.66 AND mcg == 0.5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.72 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.66 AND alm2 == 0.7 THEN target == 4"
+  dexp: "IF mcg == 0.72 AND gvh == 0.46 THEN target == 4"
+  expl: "IF gvh == 0.46 AND mcg == 0.72 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.47 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.71 AND alm2 == 0.75 THEN target == 1"
+  dexp: "IF mcg == 0.47 AND gvh == 0.55 AND aac == 0.58 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.58 AND gvh == 0.55 AND mcg == 0.47 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.33 AND gvh == 0.56 AND lip == 0.48 AND chg == 0.5 AND aac == 0.33 AND alm1 == 0.78 AND alm2 == 0.8 THEN target == 1"
+  dexp: "IF mcg == 0.33 AND gvh == 0.56 AND aac == 0.33 THEN target == 1"
+  expl: "IF aac == 0.33 AND gvh == 0.56 AND mcg == 0.33 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.58 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.78 AND alm2 == 0.73 THEN target == 1"
+  dexp: "IF mcg == 0.64 AND gvh == 0.58 THEN target == 1"
+  expl: "IF gvh == 0.58 AND mcg == 0.64 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.54 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.81 AND alm2 == 0.83 THEN target == 1"
+  dexp: "IF mcg == 0.54 THEN target == 1"
+  expl: "IF mcg == 0.54 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.47 AND gvh == 0.59 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 1"
+  dexp: "IF mcg == 0.47 AND gvh == 0.59 AND aac == 0.52 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.52 AND gvh == 0.59 AND mcg == 0.47 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.85 AND alm2 == 0.86 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.5 AND aac == 0.59 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.59 AND gvh == 0.5 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.49 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.79 AND alm2 == 0.81 THEN target == 1"
+  dexp: "IF mcg == 0.49 AND gvh == 0.42 AND aac == 0.53 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.53 AND gvh == 0.42 AND mcg == 0.49 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.31 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.84 AND alm2 == 0.85 THEN target == 1"
+  dexp: "IF mcg == 0.31 AND gvh == 0.5 AND aac == 0.57 THEN target == 1"
+  expl: "IF aac == 0.57 AND gvh == 0.5 AND mcg == 0.31 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.88 AND alm2 == 0.89 THEN target == 1"
+  dexp: "IF mcg == 0.74 AND gvh == 0.44 AND aac == 0.55 THEN target == 1"
+  expl: "IF aac == 0.55 AND gvh == 0.44 AND mcg == 0.74 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.33 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.88 AND alm2 == 0.89 THEN target == 0"
+  dexp: "IF mcg == 0.33 AND gvh == 0.45 AND aac == 0.45 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.45 AND gvh == 0.45 AND mcg == 0.33 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.45 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.61 AND alm1 == 0.74 AND alm2 == 0.77 THEN target == 1"
+  dexp: "IF mcg == 0.45 THEN target == 1"
+  expl: "IF mcg == 0.45 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.71 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.71 AND alm1 == 0.7 AND alm2 == 0.74 THEN target == 1"
+  dexp: "IF mcg == 0.71 AND gvh == 0.4 AND aac == 0.71 THEN target == 1"
+  expl: "IF aac == 0.71 AND gvh == 0.4 AND mcg == 0.71 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.5 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.66 AND alm1 == 0.64 AND alm2 == 0.69 THEN target == 1"
+  dexp: "IF mcg == 0.5 AND gvh == 0.37 AND aac == 0.66 THEN target == 1"
+  expl: "IF aac == 0.66 AND gvh == 0.37 AND mcg == 0.5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.66 AND gvh == 0.53 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.66 AND alm2 == 0.66 THEN target == 1"
+  dexp: "IF mcg == 0.66 AND gvh == 0.53 AND aac == 0.59 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.59 AND gvh == 0.53 AND mcg == 0.66 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.6 AND gvh == 0.61 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.67 AND alm2 == 0.71 THEN target == 1"
+  dexp: "IF mcg == 0.6 AND gvh == 0.61 AND aac == 0.54 THEN target == 1"
+  expl: "IF aac == 0.54 AND gvh == 0.61 AND mcg == 0.6 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.83 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.61 AND alm1 == 0.71 AND alm2 == 0.74 THEN target == 1"
+  dexp: "IF mcg == 0.83 AND gvh == 0.37 AND aac == 0.61 THEN target == 1"
+  expl: "IF aac == 0.61 AND gvh == 0.37 AND mcg == 0.83 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.67 AND alm1 == 0.9 AND alm2 == 0.9 THEN target == 1"
+  dexp: "IF mcg == 0.34 AND gvh == 0.51 AND aac == 0.67 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.67 AND gvh == 0.51 AND mcg == 0.34 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.65 AND alm1 == 0.79 AND alm2 == 0.81 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.54 AND aac == 0.65 THEN target == 1"
+  expl: "IF aac == 0.65 AND gvh == 0.54 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.7 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.86 AND alm2 == 0.83 THEN target == 1"
+  dexp: "IF mcg == 0.7 AND gvh == 0.4 AND aac == 0.56 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.56 AND gvh == 0.4 AND mcg == 0.7 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.6 AND gvh == 0.5 AND lip == 1.0 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.77 AND alm2 == 0.8 THEN target == 1"
+  dexp: "IF mcg == 0.6 AND gvh == 0.5 AND aac == 0.54 THEN target == 1"
+  expl: "IF aac == 0.54 AND gvh == 0.5 AND mcg == 0.6 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.16 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.33 AND alm1 == 0.39 AND alm2 == 0.48 THEN target == 1"
+  dexp: "IF mcg == 0.16 AND gvh == 0.51 AND aac == 0.33 THEN target == 1"
+  expl: "IF aac == 0.33 AND gvh == 0.51 AND mcg == 0.16 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.7 AND lip == 0.48 AND chg == 0.5 AND aac == 0.66 AND alm1 == 0.65 AND alm2 == 0.69 THEN target == 1"
+  dexp: "IF mcg == 0.74 AND gvh == 0.7 AND aac == 0.66 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.66 AND gvh == 0.7 AND mcg == 0.74 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.2 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.78 AND alm2 == 0.81 THEN target == 1"
+  dexp: "IF mcg == 0.2 AND gvh == 0.46 AND aac == 0.57 THEN target == 1"
+  expl: "IF aac == 0.57 AND gvh == 0.46 AND mcg == 0.2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.89 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.72 AND alm2 == 0.76 THEN target == 1"
+  dexp: "IF mcg == 0.89 THEN target == 1"
+  expl: "IF mcg == 0.89 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.7 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.78 AND alm2 == 0.73 THEN target == 1"
+  dexp: "IF mcg == 0.7 AND gvh == 0.46 AND aac == 0.56 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.56 AND gvh == 0.46 AND mcg == 0.7 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.12 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.63 AND alm1 == 0.7 AND alm2 == 0.74 THEN target == 1"
+  dexp: "IF mcg == 0.12 THEN target == 1"
+  expl: "IF mcg == 0.12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.67 AND alm2 == 0.52 THEN target == 5"
+  dexp: "IF mcg == 0.61 AND gvh == 0.52 AND aac == 0.54 THEN target == 5"
+  expl: "IF aac == 0.54 AND gvh == 0.52 AND mcg == 0.61 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.33 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.65 AND alm2 == 0.69 THEN target == 1"
+  dexp: "IF mcg == 0.33 AND gvh == 0.37 AND aac == 0.46 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.46 AND gvh == 0.37 AND mcg == 0.33 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.65 AND lip == 0.48 AND chg == 0.5 AND aac == 0.66 AND alm1 == 0.67 AND alm2 == 0.71 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.65 AND aac == 0.66 THEN target == 1"
+  expl: "IF aac == 0.66 AND gvh == 0.65 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.41 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.75 AND alm2 == 0.78 THEN target == 1"
+  dexp: "IF mcg == 0.41 AND gvh == 0.51 AND aac == 0.53 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.53 AND gvh == 0.51 AND mcg == 0.41 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.34 AND gvh == 0.67 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 1"
+  dexp: "IF mcg == 0.34 AND gvh == 0.67 THEN target == 1"
+  expl: "IF gvh == 0.67 AND mcg == 0.34 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.58 AND gvh == 0.34 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.87 AND alm2 == 0.81 THEN target == 0"
+  dexp: "IF mcg == 0.58 AND gvh == 0.34 THEN target == 0"
+  expl: "IF gvh == 0.34 AND mcg == 0.58 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.59 AND gvh == 0.56 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.8 AND alm2 == 0.82 THEN target == 1"
+  dexp: "IF mcg == 0.59 AND gvh == 0.56 AND aac == 0.55 THEN target == 1"
+  expl: "IF aac == 0.55 AND gvh == 0.56 AND mcg == 0.59 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.51 AND gvh == 0.4 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.62 AND alm2 == 0.67 THEN target == 1"
+  dexp: "IF mcg == 0.51 AND gvh == 0.4 AND aac == 0.57 THEN target == 1"
+  expl: "IF aac == 0.57 AND gvh == 0.4 AND mcg == 0.51 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.5 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.71 AND alm1 == 0.61 AND alm2 == 0.66 THEN target == 1"
+  dexp: "IF mcg == 0.5 AND gvh == 0.57 AND aac == 0.71 THEN target == 1"
+  expl: "IF aac == 0.71 AND gvh == 0.57 AND mcg == 0.5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.6 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.81 AND alm2 == 0.83 THEN target == 1"
+  dexp: "IF mcg == 0.6 AND gvh == 0.46 AND aac == 0.45 THEN target == 1"
+  expl: "IF aac == 0.45 AND gvh == 0.46 AND mcg == 0.6 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.37 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 1"
+  dexp: "IF mcg == 0.37 AND gvh == 0.47 AND aac == 0.39 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.39 AND gvh == 0.47 AND mcg == 0.37 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.58 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.7 AND alm2 == 0.74 THEN target == 1"
+  dexp: "IF mcg == 0.58 AND gvh == 0.55 AND aac == 0.57 THEN target == 1"
+  expl: "IF aac == 0.57 AND gvh == 0.55 AND mcg == 0.58 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.69 AND alm2 == 0.72 THEN target == 1"
+  dexp: "IF mcg == 0.36 AND gvh == 0.47 AND aac == 0.51 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.51 AND gvh == 0.47 AND mcg == 0.36 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.39 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.72 AND alm2 == 0.75 THEN target == 1"
+  dexp: "IF mcg == 0.39 AND gvh == 0.41 THEN target == 1"
+  expl: "IF gvh == 0.41 AND mcg == 0.39 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.35 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.61 AND alm1 == 0.71 AND alm2 == 0.74 THEN target == 1"
+  dexp: "IF mcg == 0.35 AND gvh == 0.51 AND aac == 0.61 THEN target == 1"
+  expl: "IF aac == 0.61 AND gvh == 0.51 AND mcg == 0.35 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.31 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.79 AND alm2 == 0.82 THEN target == 1"
+  dexp: "IF mcg == 0.31 AND gvh == 0.44 AND aac == 0.5 THEN target == 1"
+  expl: "IF aac == 0.5 AND gvh == 0.44 AND mcg == 0.31 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.66 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.87 AND alm2 == 0.88 THEN target == 7"
+  dexp: "IF mcg == 0.61 AND gvh == 0.66 AND aac == 0.46 THEN target == 7"
+  expl: "IF aac == 0.46 AND gvh == 0.66 AND mcg == 0.61 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.48 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.77 AND alm2 == 0.71 THEN target == 1"
+  dexp: "IF mcg == 0.48 THEN target == 1"
+  expl: "IF mcg == 0.48 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.11 AND gvh == 0.5 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.72 AND alm2 == 0.68 THEN target == 1"
+  dexp: "IF mcg == 0.11 THEN target == 1"
+  expl: "IF mcg == 0.11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.31 AND gvh == 0.36 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.94 AND alm2 == 0.94 THEN target == 1"
+  dexp: "IF mcg == 0.31 AND gvh == 0.36 AND aac == 0.58 THEN target == 1"
+  expl: "IF aac == 0.58 AND gvh == 0.36 AND mcg == 0.31 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.68 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.71 AND alm1 == 0.75 AND alm2 == 0.78 THEN target == 7"
+  dexp: "IF mcg == 0.68 THEN target == 7"
+  expl: "IF mcg == 0.68 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 1"
+  dexp: "IF mcg == 0.69 AND gvh == 0.39 AND aac == 0.57 THEN target == 1"
+  expl: "IF aac == 0.57 AND gvh == 0.39 AND mcg == 0.69 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.52 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.62 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 4"
+  dexp: "IF mcg == 0.52 AND gvh == 0.54 AND aac == 0.62 THEN target == 4"
+  expl: "IF aac == 0.62 AND gvh == 0.54 AND mcg == 0.52 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.46 AND gvh == 0.59 AND lip == 0.48 AND chg == 0.5 AND aac == 0.36 AND alm1 == 0.76 AND alm2 == 0.23 THEN target == 1"
+  dexp: "IF mcg == 0.46 THEN target == 1"
+  expl: "IF mcg == 0.46 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.36 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.79 AND alm2 == 0.17 THEN target == 1"
+  dexp: "IF mcg == 0.36 AND gvh == 0.45 AND aac == 0.38 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.38 AND gvh == 0.45 AND mcg == 0.36 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.0 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.35 AND alm1 == 0.67 AND alm2 == 0.44 THEN target == 1"
+  dexp: "IF mcg == 0.0 THEN target == 1"
+  expl: "IF mcg == 0.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.1 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.67 AND alm2 == 0.21 THEN target == 1"
+  dexp: "IF mcg == 0.1 THEN target == 1"
+  expl: "IF mcg == 0.1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.3 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.61 AND alm2 == 0.34 THEN target == 1"
+  dexp: "IF mcg == 0.3 AND gvh == 0.51 AND aac == 0.42 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.42 AND gvh == 0.51 AND mcg == 0.3 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.0 AND alm1 == 0.8 AND alm2 == 0.32 THEN target == 1"
+  dexp: "IF mcg == 0.61 AND gvh == 0.47 AND aac == 0.0 THEN target == 1"
+  expl: "IF aac == 0.0 AND gvh == 0.47 AND mcg == 0.61 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.75 AND lip == 0.48 AND chg == 0.5 AND aac == 0.64 AND alm1 == 0.73 AND alm2 == 0.66 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.75 AND aac == 0.64 THEN target == 1"
+  expl: "IF aac == 0.64 AND gvh == 0.75 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.71 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.64 AND alm1 == 1.0 AND alm2 == 0.99 THEN target == 1"
+  dexp: "IF mcg == 0.71 AND gvh == 0.52 AND aac == 0.64 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.64 AND gvh == 0.52 AND mcg == 0.71 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.72 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.65 AND alm1 == 0.77 AND alm2 == 0.79 THEN target == 4"
+  dexp: "IF mcg == 0.72 AND gvh == 0.42 THEN target == 4"
+  expl: "IF gvh == 0.42 AND mcg == 0.72 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.79 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.66 AND alm1 == 0.81 AND alm2 == 0.83 THEN target == 4"
+  dexp: "IF mcg == 0.79 THEN target == 4"
+  expl: "IF mcg == 0.79 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.83 AND gvh == 0.48 AND lip == 0.48 AND chg == 0.5 AND aac == 0.65 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 4"
+  dexp: "IF mcg == 0.83 AND gvh == 0.48 AND aac == 0.65 THEN target == 4"
+  expl: "IF aac == 0.65 AND gvh == 0.48 AND mcg == 0.83 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.43 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.74 AND alm2 == 0.77 THEN target == 4"
+  dexp: "IF mcg == 0.69 AND gvh == 0.43 AND aac == 0.59 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.59 AND gvh == 0.43 AND mcg == 0.69 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.79 AND gvh == 0.36 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.82 AND alm2 == 0.7 THEN target == 4"
+  dexp: "IF mcg == 0.79 THEN target == 4"
+  expl: "IF mcg == 0.79 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.78 AND gvh == 0.33 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.77 AND alm2 == 0.79 THEN target == 4"
+  dexp: "IF mcg == 0.78 AND gvh == 0.33 THEN target == 4"
+  expl: "IF gvh == 0.33 AND mcg == 0.78 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.75 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.64 AND alm1 == 0.7 AND alm2 == 0.74 THEN target == 5"
+  dexp: "IF mcg == 0.75 AND gvh == 0.37 AND aac == 0.64 THEN target == 5"
+  expl: "IF aac == 0.64 AND gvh == 0.37 AND mcg == 0.75 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.59 AND gvh == 0.29 AND lip == 0.48 AND chg == 0.5 AND aac == 0.64 AND alm1 == 0.75 AND alm2 == 0.77 THEN target == 4"
+  dexp: "IF mcg == 0.59 AND gvh == 0.29 AND aac == 0.64 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.64 AND gvh == 0.29 AND mcg == 0.59 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.37 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.64 AND alm2 == 0.68 THEN target == 4"
+  dexp: "IF mcg == 0.67 AND gvh == 0.37 AND aac == 0.54 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.54 AND gvh == 0.37 AND mcg == 0.67 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.66 AND gvh == 0.48 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.7 AND alm2 == 0.74 THEN target == 4"
+  dexp: "IF mcg == 0.66 AND gvh == 0.48 AND aac == 0.54 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.54 AND gvh == 0.48 AND mcg == 0.66 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.73 AND alm2 == 0.76 THEN target == 0"
+  dexp: "IF mcg == 0.64 AND gvh == 0.46 AND aac == 0.48 AND lip == 0.48 THEN target == 0"
+  expl: "IF lip == 0.48 AND aac == 0.48 AND gvh == 0.46 AND mcg == 0.64 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.76 AND gvh == 0.71 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.71 AND alm2 == 0.75 THEN target == 4"
+  dexp: "IF mcg == 0.76 AND gvh == 0.71 THEN target == 4"
+  expl: "IF gvh == 0.71 AND mcg == 0.76 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.84 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.55 AND alm1 == 0.78 AND alm2 == 0.74 THEN target == 4"
+  dexp: "IF mcg == 0.84 AND gvh == 0.49 AND aac == 0.55 THEN target == 4"
+  expl: "IF aac == 0.55 AND gvh == 0.49 AND mcg == 0.84 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.77 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.78 AND alm2 == 0.74 THEN target == 4"
+  dexp: "IF mcg == 0.77 AND gvh == 0.55 AND aac == 0.51 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.51 AND gvh == 0.55 AND mcg == 0.77 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.81 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.67 AND alm2 == 0.68 THEN target == 4"
+  dexp: "IF mcg == 0.81 THEN target == 4"
+  expl: "IF mcg == 0.81 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.58 AND gvh == 0.6 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.73 AND alm2 == 0.76 THEN target == 4"
+  dexp: "IF mcg == 0.58 AND gvh == 0.6 AND aac == 0.59 THEN target == 4"
+  expl: "IF aac == 0.59 AND gvh == 0.6 AND mcg == 0.58 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.77 AND alm2 == 0.8 THEN target == 4"
+  dexp: "IF mcg == 0.63 AND gvh == 0.42 AND aac == 0.48 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.48 AND gvh == 0.42 AND mcg == 0.63 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.62 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.79 AND alm2 == 0.81 THEN target == 4"
+  dexp: "IF mcg == 0.62 AND gvh == 0.42 AND aac == 0.58 THEN target == 4"
+  expl: "IF aac == 0.58 AND gvh == 0.42 AND mcg == 0.62 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.86 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.59 AND alm1 == 0.89 AND alm2 == 0.9 THEN target == 4"
+  dexp: "IF mcg == 0.86 THEN target == 4"
+  expl: "IF mcg == 0.86 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.81 AND gvh == 0.53 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.87 AND alm2 == 0.88 THEN target == 4"
+  dexp: "IF mcg == 0.81 THEN target == 4"
+  expl: "IF mcg == 0.81 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.87 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.61 AND alm1 == 0.76 AND alm2 == 0.79 THEN target == 4"
+  dexp: "IF mcg == 0.87 THEN target == 4"
+  expl: "IF mcg == 0.87 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.47 AND gvh == 0.46 AND lip == 0.48 AND chg == 0.5 AND aac == 0.62 AND alm1 == 0.74 AND alm2 == 0.77 THEN target == 4"
+  dexp: "IF mcg == 0.47 AND gvh == 0.46 AND aac == 0.62 THEN target == 4"
+  expl: "IF aac == 0.62 AND gvh == 0.46 AND mcg == 0.47 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.76 AND gvh == 0.41 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.59 AND alm2 == 0.62 THEN target == 4"
+  dexp: "IF mcg == 0.76 AND gvh == 0.41 THEN target == 4"
+  expl: "IF gvh == 0.41 AND mcg == 0.76 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.7 AND gvh == 0.53 AND lip == 0.48 AND chg == 0.5 AND aac == 0.7 AND alm1 == 0.86 AND alm2 == 0.87 THEN target == 4"
+  dexp: "IF mcg == 0.7 AND gvh == 0.53 AND aac == 0.7 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.7 AND gvh == 0.53 AND mcg == 0.7 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.45 AND lip == 0.48 AND chg == 0.5 AND aac == 0.67 AND alm1 == 0.61 AND alm2 == 0.66 THEN target == 4"
+  dexp: "IF mcg == 0.64 AND gvh == 0.45 AND aac == 0.67 AND lip == 0.48 THEN target == 4"
+  expl: "IF aac == 0.67 AND gvh == 0.45 AND mcg == 0.64 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.81 AND gvh == 0.52 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.78 AND alm2 == 0.8 THEN target == 4"
+  dexp: "IF mcg == 0.81 THEN target == 4"
+  expl: "IF mcg == 0.81 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.73 AND gvh == 0.26 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.75 AND alm2 == 0.78 THEN target == 4"
+  dexp: "IF mcg == 0.73 AND gvh == 0.26 THEN target == 4"
+  expl: "IF gvh == 0.26 AND mcg == 0.73 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.49 AND gvh == 0.61 AND lip == 1.0 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.71 AND alm2 == 0.74 THEN target == 4"
+  dexp: "IF mcg == 0.49 AND gvh == 0.61 AND aac == 0.56 AND lip == 1.0 THEN target == 4"
+  expl: "IF lip == 1.0 AND aac == 0.56 AND gvh == 0.61 AND mcg == 0.49 THEN target == 4"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.88 AND gvh == 0.42 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.73 AND alm2 == 0.75 THEN target == 4"
+  dexp: "IF mcg == 0.88 THEN target == 4"
+  expl: "IF mcg == 0.88 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.84 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.75 AND alm1 == 0.92 AND alm2 == 0.7 THEN target == 4"
+  dexp: "IF mcg == 0.84 AND gvh == 0.54 AND aac == 0.75 THEN target == 4"
+  expl: "IF aac == 0.75 AND gvh == 0.54 AND mcg == 0.84 THEN target == 4"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.64 AND alm1 == 0.72 AND alm2 == 0.76 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.51 AND aac == 0.64 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.64 AND gvh == 0.51 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.86 AND gvh == 0.55 AND lip == 0.48 AND chg == 0.5 AND aac == 0.63 AND alm1 == 0.81 AND alm2 == 0.83 THEN target == 4"
+  dexp: "IF mcg == 0.86 THEN target == 4"
+  expl: "IF mcg == 0.86 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.79 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.66 AND alm2 == 0.68 THEN target == 4"
+  dexp: "IF mcg == 0.79 THEN target == 4"
+  expl: "IF mcg == 0.79 THEN target == 4"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.57 AND gvh == 0.38 AND lip == 0.48 AND chg == 0.5 AND aac == 0.06 AND alm1 == 0.49 AND alm2 == 0.33 THEN target == 4"
+  dexp: "IF mcg == 0.57 AND gvh == 0.38 THEN target == 4"
+  expl: "IF gvh == 0.38 AND mcg == 0.57 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.78 AND gvh == 0.44 AND lip == 0.48 AND chg == 0.5 AND aac == 0.45 AND alm1 == 0.73 AND alm2 == 0.68 THEN target == 4"
+  dexp: "IF mcg == 0.78 AND gvh == 0.44 THEN target == 4"
+  expl: "IF gvh == 0.44 AND mcg == 0.78 THEN target == 4"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.78 AND gvh == 0.68 AND lip == 0.48 AND chg == 0.5 AND aac == 0.83 AND alm1 == 0.4 AND alm2 == 0.29 THEN target == 5"
+  dexp: "IF mcg == 0.78 AND gvh == 0.68 THEN target == 5"
+  expl: "IF gvh == 0.68 AND mcg == 0.78 THEN target == 5"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.69 AND lip == 0.48 AND chg == 0.5 AND aac == 0.65 AND alm1 == 0.41 AND alm2 == 0.28 THEN target == 5"
+  dexp: "IF mcg == 0.63 AND gvh == 0.69 THEN target == 5"
+  expl: "IF gvh == 0.69 AND mcg == 0.63 THEN target == 5"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.88 AND lip == 0.48 AND chg == 0.5 AND aac == 0.73 AND alm1 == 0.5 AND alm2 == 0.25 THEN target == 5"
+  dexp: "IF mcg == 0.67 AND gvh == 0.88 THEN target == 5"
+  expl: "IF gvh == 0.88 AND mcg == 0.67 THEN target == 5"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.75 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.33 AND alm2 == 0.33 THEN target == 5"
+  dexp: "IF mcg == 0.61 AND gvh == 0.75 AND aac == 0.51 THEN target == 5"
+  expl: "IF aac == 0.51 AND gvh == 0.75 AND mcg == 0.61 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.84 AND lip == 0.48 AND chg == 0.5 AND aac == 0.74 AND alm1 == 0.54 AND alm2 == 0.37 THEN target == 7"
+  dexp: "IF mcg == 0.67 AND gvh == 0.84 AND aac == 0.74 THEN target == 7"
+  expl: "IF aac == 0.74 AND gvh == 0.84 AND mcg == 0.67 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.9 AND lip == 0.48 AND chg == 0.5 AND aac == 0.57 AND alm1 == 0.53 AND alm2 == 0.29 THEN target == 5"
+  dexp: "IF mcg == 0.74 AND gvh == 0.9 THEN target == 5"
+  expl: "IF gvh == 0.9 AND mcg == 0.74 THEN target == 5"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.73 AND gvh == 0.84 AND lip == 0.48 AND chg == 0.5 AND aac == 0.86 AND alm1 == 0.58 AND alm2 == 0.29 THEN target == 5"
+  dexp: "IF mcg == 0.73 AND gvh == 0.84 AND aac == 0.86 THEN target == 5"
+  expl: "IF aac == 0.86 AND gvh == 0.84 AND mcg == 0.73 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.75 AND gvh == 0.76 AND lip == 0.48 AND chg == 0.5 AND aac == 0.83 AND alm1 == 0.57 AND alm2 == 0.3 THEN target == 5"
+  dexp: "IF mcg == 0.75 AND gvh == 0.76 AND aac == 0.83 THEN target == 5"
+  expl: "IF aac == 0.83 AND gvh == 0.76 AND mcg == 0.75 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.77 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.88 AND alm1 == 0.53 AND alm2 == 0.2 THEN target == 5"
+  dexp: "IF mcg == 0.77 AND gvh == 0.57 AND aac == 0.88 AND lip == 0.48 THEN target == 5"
+  expl: "IF lip == 0.48 AND aac == 0.88 AND gvh == 0.57 AND mcg == 0.77 THEN target == 5"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.78 AND lip == 0.48 AND chg == 0.5 AND aac == 0.75 AND alm1 == 0.54 AND alm2 == 0.15 THEN target == 5"
+  dexp: "IF mcg == 0.74 AND gvh == 0.78 AND aac == 0.75 THEN target == 5"
+  expl: "IF aac == 0.75 AND gvh == 0.78 AND mcg == 0.74 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.68 AND gvh == 0.76 AND lip == 0.48 AND chg == 0.5 AND aac == 0.84 AND alm1 == 0.45 AND alm2 == 0.27 THEN target == 7"
+  dexp: "IF mcg == 0.68 THEN target == 7"
+  expl: "IF mcg == 0.68 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.56 AND gvh == 0.68 AND lip == 0.48 AND chg == 0.5 AND aac == 0.77 AND alm1 == 0.36 AND alm2 == 0.45 THEN target == 5"
+  dexp: "IF mcg == 0.56 AND gvh == 0.68 THEN target == 5"
+  expl: "IF gvh == 0.68 AND mcg == 0.56 THEN target == 5"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.65 AND gvh == 0.51 AND lip == 0.48 AND chg == 0.5 AND aac == 0.66 AND alm1 == 0.54 AND alm2 == 0.33 THEN target == 5"
+  dexp: "IF mcg == 0.65 AND gvh == 0.51 AND aac == 0.66 AND lip == 0.48 THEN target == 5"
+  expl: "IF lip == 0.48 AND aac == 0.66 AND gvh == 0.51 AND mcg == 0.65 THEN target == 5"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.52 AND gvh == 0.81 AND lip == 0.48 AND chg == 0.5 AND aac == 0.72 AND alm1 == 0.38 AND alm2 == 0.38 THEN target == 5"
+  dexp: "IF mcg == 0.52 AND gvh == 0.81 AND aac == 0.72 THEN target == 5"
+  expl: "IF aac == 0.72 AND gvh == 0.81 AND mcg == 0.52 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.7 AND alm1 == 0.33 AND alm2 == 0.26 THEN target == 5"
+  dexp: "IF mcg == 0.64 AND gvh == 0.57 AND aac == 0.7 AND lip == 0.48 THEN target == 5"
+  expl: "IF lip == 0.48 AND aac == 0.7 AND gvh == 0.57 AND mcg == 0.64 THEN target == 5"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.6 AND gvh == 0.76 AND lip == 1.0 AND chg == 0.5 AND aac == 0.77 AND alm1 == 0.59 AND alm2 == 0.52 THEN target == 5"
+  dexp: "IF mcg == 0.6 AND gvh == 0.76 AND aac == 0.77 THEN target == 5"
+  expl: "IF aac == 0.77 AND gvh == 0.76 AND mcg == 0.6 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.59 AND lip == 0.48 AND chg == 0.5 AND aac == 0.77 AND alm1 == 0.39 AND alm2 == 0.21 THEN target == 5"
+  dexp: "IF mcg == 0.69 AND gvh == 0.59 AND aac == 0.77 THEN target == 5"
+  expl: "IF aac == 0.77 AND gvh == 0.59 AND mcg == 0.69 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.79 AND alm1 == 0.45 AND alm2 == 0.28 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.49 AND aac == 0.79 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.79 AND gvh == 0.49 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.71 AND gvh == 0.71 AND lip == 0.48 AND chg == 0.5 AND aac == 0.68 AND alm1 == 0.43 AND alm2 == 0.36 THEN target == 5"
+  dexp: "IF mcg == 0.71 AND gvh == 0.71 AND aac == 0.68 THEN target == 5"
+  expl: "IF aac == 0.68 AND gvh == 0.71 AND mcg == 0.71 THEN target == 5"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.68 AND gvh == 0.63 AND lip == 0.48 AND chg == 0.5 AND aac == 0.73 AND alm1 == 0.4 AND alm2 == 0.3 THEN target == 7"
+  dexp: "IF mcg == 0.68 THEN target == 7"
+  expl: "IF mcg == 0.68 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.49 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.54 AND alm2 == 0.36 THEN target == 7"
+  dexp: "IF mcg == 0.74 AND gvh == 0.49 AND aac == 0.42 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.42 AND gvh == 0.49 AND mcg == 0.74 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.7 AND gvh == 0.61 AND lip == 0.48 AND chg == 0.5 AND aac == 0.56 AND alm1 == 0.52 AND alm2 == 0.43 THEN target == 7"
+  dexp: "IF mcg == 0.7 AND gvh == 0.61 AND aac == 0.56 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.56 AND gvh == 0.61 AND mcg == 0.7 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.66 AND gvh == 0.86 AND lip == 0.48 AND chg == 0.5 AND aac == 0.34 AND alm1 == 0.41 AND alm2 == 0.36 THEN target == 7"
+  dexp: "IF mcg == 0.66 AND gvh == 0.86 THEN target == 7"
+  expl: "IF gvh == 0.86 AND mcg == 0.66 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.73 AND gvh == 0.78 AND lip == 0.48 AND chg == 0.5 AND aac == 0.58 AND alm1 == 0.51 AND alm2 == 0.31 THEN target == 7"
+  dexp: "IF mcg == 0.73 AND gvh == 0.78 AND aac == 0.58 THEN target == 7"
+  expl: "IF aac == 0.58 AND gvh == 0.78 AND mcg == 0.73 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.65 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.47 AND alm2 == 0.51 THEN target == 7"
+  dexp: "IF mcg == 0.65 AND gvh == 0.57 AND aac == 0.47 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.47 AND gvh == 0.57 AND mcg == 0.65 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.72 AND gvh == 0.86 AND lip == 0.48 AND chg == 0.5 AND aac == 0.17 AND alm1 == 0.55 AND alm2 == 0.21 THEN target == 7"
+  dexp: "IF mcg == 0.72 AND gvh == 0.86 THEN target == 7"
+  expl: "IF gvh == 0.86 AND mcg == 0.72 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.7 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.45 AND alm2 == 0.33 THEN target == 7"
+  dexp: "IF mcg == 0.67 AND gvh == 0.7 AND aac == 0.46 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.46 AND gvh == 0.7 AND mcg == 0.67 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.81 AND lip == 0.48 AND chg == 0.5 AND aac == 0.54 AND alm1 == 0.49 AND alm2 == 0.23 THEN target == 7"
+  dexp: "IF mcg == 0.67 AND gvh == 0.81 AND aac == 0.54 THEN target == 7"
+  expl: "IF aac == 0.54 AND gvh == 0.81 AND mcg == 0.67 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.61 AND lip == 0.48 AND chg == 0.5 AND aac == 0.51 AND alm1 == 0.37 AND alm2 == 0.38 THEN target == 7"
+  dexp: "IF mcg == 0.67 AND gvh == 0.61 AND aac == 0.51 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.51 AND gvh == 0.61 AND mcg == 0.67 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 1.0 AND lip == 0.48 AND chg == 0.5 AND aac == 0.35 AND alm1 == 0.51 AND alm2 == 0.49 THEN target == 7"
+  dexp: "IF mcg == 0.63 AND gvh == 1.0 THEN target == 7"
+  expl: "IF gvh == 1.0 AND mcg == 0.63 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.57 AND gvh == 0.59 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.47 AND alm2 == 0.33 THEN target == 7"
+  dexp: "IF mcg == 0.57 AND gvh == 0.59 THEN target == 7"
+  expl: "IF gvh == 0.59 AND mcg == 0.57 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.71 AND gvh == 0.71 AND lip == 0.48 AND chg == 0.5 AND aac == 0.4 AND alm1 == 0.54 AND alm2 == 0.39 THEN target == 7"
+  dexp: "IF mcg == 0.71 AND gvh == 0.71 AND aac == 0.4 THEN target == 7"
+  expl: "IF aac == 0.4 AND gvh == 0.71 AND mcg == 0.71 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.66 AND gvh == 0.74 AND lip == 0.48 AND chg == 0.5 AND aac == 0.31 AND alm1 == 0.38 AND alm2 == 0.43 THEN target == 7"
+  dexp: "IF mcg == 0.66 AND gvh == 0.74 THEN target == 7"
+  expl: "IF gvh == 0.74 AND mcg == 0.66 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.67 AND gvh == 0.81 AND lip == 0.48 AND chg == 0.5 AND aac == 0.25 AND alm1 == 0.42 AND alm2 == 0.25 THEN target == 7"
+  dexp: "IF mcg == 0.67 AND gvh == 0.81 AND aac == 0.25 THEN target == 7"
+  expl: "IF aac == 0.25 AND gvh == 0.81 AND mcg == 0.67 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.72 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.42 AND alm2 == 0.19 THEN target == 7"
+  dexp: "IF mcg == 0.64 AND gvh == 0.72 THEN target == 7"
+  expl: "IF gvh == 0.72 AND mcg == 0.64 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.68 AND gvh == 0.82 AND lip == 0.48 AND chg == 0.5 AND aac == 0.38 AND alm1 == 0.65 AND alm2 == 0.56 THEN target == 7"
+  dexp: "IF mcg == 0.68 THEN target == 7"
+  expl: "IF mcg == 0.68 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.32 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.53 AND alm1 == 0.28 AND alm2 == 0.38 THEN target == 7"
+  dexp: "IF mcg == 0.32 AND gvh == 0.39 AND aac == 0.53 THEN target == 7"
+  expl: "IF aac == 0.53 AND gvh == 0.39 AND mcg == 0.32 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.7 AND gvh == 0.64 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.51 AND alm2 == 0.47 THEN target == 1"
+  dexp: "IF mcg == 0.7 AND gvh == 0.64 AND aac == 0.47 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.47 AND gvh == 0.64 AND mcg == 0.7 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.7 AND alm2 == 0.2 THEN target == 0"
+  dexp: "IF mcg == 0.63 AND gvh == 0.57 AND aac == 0.49 THEN target == 0"
+  expl: "IF aac == 0.49 AND gvh == 0.57 AND mcg == 0.63 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.82 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.49 AND alm2 == 0.41 THEN target == 7"
+  dexp: "IF mcg == 0.74 AND gvh == 0.82 THEN target == 7"
+  expl: "IF gvh == 0.82 AND mcg == 0.74 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.86 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.47 AND alm2 == 0.34 THEN target == 7"
+  dexp: "IF mcg == 0.63 AND gvh == 0.86 THEN target == 7"
+  expl: "IF gvh == 0.86 AND mcg == 0.63 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.83 AND lip == 0.48 AND chg == 0.5 AND aac == 0.4 AND alm1 == 0.39 AND alm2 == 0.19 THEN target == 7"
+  dexp: "IF mcg == 0.63 AND gvh == 0.83 THEN target == 7"
+  expl: "IF gvh == 0.83 AND mcg == 0.63 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.71 AND lip == 0.48 AND chg == 0.5 AND aac == 0.6 AND alm1 == 0.4 AND alm2 == 0.39 THEN target == 7"
+  dexp: "IF mcg == 0.63 AND gvh == 0.71 AND aac == 0.6 THEN target == 7"
+  expl: "IF aac == 0.6 AND gvh == 0.71 AND mcg == 0.63 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.71 AND gvh == 0.86 AND lip == 0.48 AND chg == 0.5 AND aac == 0.4 AND alm1 == 0.54 AND alm2 == 0.32 THEN target == 7"
+  dexp: "IF mcg == 0.71 AND gvh == 0.86 THEN target == 7"
+  expl: "IF gvh == 0.86 AND mcg == 0.71 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.68 AND gvh == 0.78 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.44 AND alm2 == 0.42 THEN target == 7"
+  dexp: "IF mcg == 0.68 THEN target == 7"
+  expl: "IF mcg == 0.68 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.84 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.45 AND alm2 == 0.4 THEN target == 7"
+  dexp: "IF mcg == 0.64 AND gvh == 0.84 AND aac == 0.37 THEN target == 7"
+  expl: "IF aac == 0.37 AND gvh == 0.84 AND mcg == 0.64 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.47 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.57 AND alm2 == 0.42 THEN target == 7"
+  dexp: "IF mcg == 0.74 AND gvh == 0.47 AND aac == 0.5 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.5 AND gvh == 0.47 AND mcg == 0.74 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.75 AND gvh == 0.84 AND lip == 0.48 AND chg == 0.5 AND aac == 0.35 AND alm1 == 0.52 AND alm2 == 0.33 THEN target == 7"
+  dexp: "IF mcg == 0.75 AND gvh == 0.84 AND aac == 0.35 THEN target == 7"
+  expl: "IF aac == 0.35 AND gvh == 0.84 AND mcg == 0.75 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.65 AND lip == 0.48 AND chg == 0.5 AND aac == 0.39 AND alm1 == 0.44 AND alm2 == 0.35 THEN target == 1"
+  dexp: "IF mcg == 0.63 AND gvh == 0.65 AND aac == 0.39 THEN target == 1"
+  expl: "IF aac == 0.39 AND gvh == 0.65 AND mcg == 0.63 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.67 AND lip == 0.48 AND chg == 0.5 AND aac == 0.3 AND alm1 == 0.39 AND alm2 == 0.24 THEN target == 1"
+  dexp: "IF mcg == 0.69 AND gvh == 0.67 THEN target == 1"
+  expl: "IF gvh == 0.67 AND mcg == 0.69 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.7 AND gvh == 0.71 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.84 AND alm2 == 0.85 THEN target == 7"
+  dexp: "IF mcg == 0.7 AND gvh == 0.71 AND aac == 0.42 THEN target == 7"
+  expl: "IF aac == 0.42 AND gvh == 0.71 AND mcg == 0.7 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.8 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.57 AND alm2 == 0.26 THEN target == 7"
+  dexp: "IF mcg == 0.69 AND gvh == 0.8 THEN target == 7"
+  expl: "IF gvh == 0.8 AND mcg == 0.69 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.66 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.39 AND alm2 == 0.2 THEN target == 7"
+  dexp: "IF mcg == 0.64 AND gvh == 0.66 AND aac == 0.41 THEN target == 7"
+  expl: "IF aac == 0.41 AND gvh == 0.66 AND mcg == 0.64 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.63 AND gvh == 0.8 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.31 AND alm2 == 0.29 THEN target == 7"
+  dexp: "IF mcg == 0.63 AND gvh == 0.8 THEN target == 7"
+  expl: "IF gvh == 0.8 AND mcg == 0.63 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.66 AND gvh == 0.71 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.5 AND alm2 == 0.35 THEN target == 7"
+  dexp: "IF mcg == 0.66 AND gvh == 0.71 AND aac == 0.41 THEN target == 7"
+  expl: "IF aac == 0.41 AND gvh == 0.71 AND mcg == 0.66 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.59 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.44 AND alm2 == 0.52 THEN target == 7"
+  dexp: "IF mcg == 0.69 AND gvh == 0.59 AND aac == 0.46 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.46 AND gvh == 0.59 AND mcg == 0.69 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.68 AND gvh == 0.67 AND lip == 0.48 AND chg == 0.5 AND aac == 0.49 AND alm1 == 0.4 AND alm2 == 0.34 THEN target == 7"
+  dexp: "IF mcg == 0.68 THEN target == 7"
+  expl: "IF mcg == 0.68 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.78 AND lip == 0.48 AND chg == 0.5 AND aac == 0.5 AND alm1 == 0.36 AND alm2 == 0.38 THEN target == 7"
+  dexp: "IF mcg == 0.64 AND gvh == 0.78 AND aac == 0.5 THEN target == 7"
+  expl: "IF aac == 0.5 AND gvh == 0.78 AND mcg == 0.64 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.62 AND gvh == 0.78 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.49 AND alm2 == 0.54 THEN target == 7"
+  dexp: "IF mcg == 0.62 AND gvh == 0.78 AND aac == 0.47 THEN target == 7"
+  expl: "IF aac == 0.47 AND gvh == 0.78 AND mcg == 0.62 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.76 AND gvh == 0.73 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.39 AND alm2 == 0.39 THEN target == 7"
+  dexp: "IF mcg == 0.76 AND gvh == 0.73 THEN target == 7"
+  expl: "IF gvh == 0.73 AND mcg == 0.76 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.64 AND gvh == 0.81 AND lip == 0.48 AND chg == 0.5 AND aac == 0.37 AND alm1 == 0.39 AND alm2 == 0.44 THEN target == 7"
+  dexp: "IF mcg == 0.64 AND gvh == 0.81 AND aac == 0.37 THEN target == 7"
+  expl: "IF aac == 0.37 AND gvh == 0.81 AND mcg == 0.64 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.29 AND gvh == 0.39 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.4 AND alm2 == 0.48 THEN target == 7"
+  dexp: "IF mcg == 0.29 AND gvh == 0.39 AND aac == 0.52 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.52 AND gvh == 0.39 AND mcg == 0.29 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.62 AND gvh == 0.83 AND lip == 0.48 AND chg == 0.5 AND aac == 0.46 AND alm1 == 0.36 AND alm2 == 0.4 THEN target == 7"
+  dexp: "IF mcg == 0.62 AND gvh == 0.83 THEN target == 7"
+  expl: "IF gvh == 0.83 AND mcg == 0.62 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF mcg == 0.56 AND gvh == 0.54 AND lip == 0.48 AND chg == 0.5 AND aac == 0.43 AND alm1 == 0.37 AND alm2 == 0.3 THEN target == 7"
+  dexp: "IF mcg == 0.56 AND gvh == 0.54 AND aac == 0.43 THEN target == 7"
+  expl: "IF aac == 0.43 AND gvh == 0.54 AND mcg == 0.56 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.66 AND lip == 0.48 AND chg == 0.5 AND aac == 0.41 AND alm1 == 0.5 AND alm2 == 0.25 THEN target == 7"
+  dexp: "IF mcg == 0.69 AND gvh == 0.66 AND aac == 0.41 THEN target == 7"
+  expl: "IF aac == 0.41 AND gvh == 0.66 AND mcg == 0.69 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.69 AND gvh == 0.65 AND lip == 0.48 AND chg == 0.5 AND aac == 0.63 AND alm1 == 0.48 AND alm2 == 0.41 THEN target == 7"
+  dexp: "IF mcg == 0.69 AND gvh == 0.65 AND aac == 0.63 THEN target == 7"
+  expl: "IF aac == 0.63 AND gvh == 0.65 AND mcg == 0.69 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.43 AND gvh == 0.59 AND lip == 0.48 AND chg == 0.5 AND aac == 0.52 AND alm1 == 0.49 AND alm2 == 0.56 THEN target == 1"
+  dexp: "IF mcg == 0.43 AND gvh == 0.59 AND aac == 0.52 AND lip == 0.48 THEN target == 1"
+  expl: "IF lip == 0.48 AND aac == 0.52 AND gvh == 0.59 AND mcg == 0.43 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.56 AND lip == 0.48 AND chg == 0.5 AND aac == 0.47 AND alm1 == 0.68 AND alm2 == 0.3 THEN target == 7"
+  dexp: "IF mcg == 0.74 AND gvh == 0.56 AND aac == 0.47 THEN target == 7"
+  expl: "IF aac == 0.47 AND gvh == 0.56 AND mcg == 0.74 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.71 AND gvh == 0.57 AND lip == 0.48 AND chg == 0.5 AND aac == 0.48 AND alm1 == 0.35 AND alm2 == 0.32 THEN target == 7"
+  dexp: "IF mcg == 0.71 AND gvh == 0.57 AND aac == 0.48 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.48 AND gvh == 0.57 AND mcg == 0.71 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.61 AND gvh == 0.6 AND lip == 0.48 AND chg == 0.5 AND aac == 0.44 AND alm1 == 0.39 AND alm2 == 0.38 THEN target == 7"
+  dexp: "IF mcg == 0.61 AND gvh == 0.6 AND aac == 0.44 THEN target == 7"
+  expl: "IF aac == 0.44 AND gvh == 0.6 AND mcg == 0.61 THEN target == 7"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF mcg == 0.59 AND gvh == 0.61 AND lip == 0.48 AND chg == 0.5 AND aac == 0.42 AND alm1 == 0.42 AND alm2 == 0.37 THEN target == 7"
+  dexp: "IF mcg == 0.59 AND gvh == 0.61 AND aac == 0.42 AND lip == 0.48 THEN target == 7"
+  expl: "IF lip == 0.48 AND aac == 0.42 AND gvh == 0.61 AND mcg == 0.59 THEN target == 7"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF mcg == 0.74 AND gvh == 0.74 AND lip == 0.48 AND chg == 0.5 AND aac == 0.31 AND alm1 == 0.53 AND alm2 == 0.52 THEN target == 7"
+  dexp: "IF mcg == 0.74 AND gvh == 0.74 THEN target == 7"
+  expl: "IF gvh == 0.74 AND mcg == 0.74 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 327
+tot # of expls: 327
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.41
+avg expl sz: 2.41
+max expl sz: 2.41
+Max expl sz: 4
+
+tot time: 0.06
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.61%
+max dxrd:  25.00%

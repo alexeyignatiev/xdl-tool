@@ -1,0 +1,1643 @@
+MODEL:
+IF become complex == 1, largest spot code == 1 THEN target == 0
+IF become complex == 1, largest spot code == 2 THEN target == 0
+IF become complex == 1, largest spot code == 3 THEN target == 0
+IF become complex == 1, Evolution == 1.0 THEN target == 0
+IF class code == 5, largest spot code == 1 THEN target == 0
+IF class code == 5, Previous 24 hour code != 1.0 THEN target == 0
+IF become complex == 1, Historically-complex != 1 THEN target == 0
+IF class code == 0, largest spot code != 5 THEN target == 0
+IF class code == 0, Evolution == 1.0 THEN target == 0
+IF Evolution == 1.0, class code == 4 THEN target == 0
+IF Evolution == 1.0, spot dist code == 0 THEN target == 1
+IF Evolution == 1.0, Activity != 1 THEN target == 0
+IF Evolution == 1.0, Previous 24 hour code != 1.0 THEN target == 0
+IF class code == 1, largest spot code == 1 THEN target == 1
+IF class code == 1, largest spot code == 2 THEN target == 1
+IF class code == 1, Evolution == 1.0 THEN target == 0
+IF class code == 1, Previous 24 hour code == 2.0 THEN target == 0
+IF largest spot code == 3, class code == 3 THEN target == 0
+IF largest spot code == 3, class code == 4 THEN target == 1
+IF largest spot code == 3, spot dist code == 0 THEN target == 1
+IF Historically-complex == 1, class code == 4 THEN target == 0
+IF Historically-complex == 1, spot dist code == 0 THEN target == 1
+IF Historically-complex == 1, Previous 24 hour code == 3.0 THEN target == 0
+IF become complex == 1, Evolution != 2.0, largest spot code != 4 THEN target == 0
+IF class code == 5, Historically-complex != 1, largest spot code == 3 THEN target == 0
+IF class code == 5, Historically-complex != 1, largest spot code != 4 THEN target == 0
+IF class code == 5, largest spot code == 3, Evolution == 2.0 THEN target == 0
+IF class code == 5, Historically-complex != 1, Activity != 1 THEN target == 0
+IF class code == 0, Historically-complex == 1, spot dist code != 2 THEN target == 0
+IF class code == 1, largest spot code == 0, spot dist code != 2 THEN target == 0
+IF class code == 5, Historically-complex != 1, Evolution == 2.0 THEN target == 0
+IF class code == 0, Historically-complex == 1, Activity != 1 THEN target == 0
+IF become complex == 1, Evolution != 2.0 THEN target == 0
+IF Historically-complex == 1, Evolution == 1.0, class code != 5 THEN target == 0
+IF class code == 0, Evolution != 2.0, spot dist code != 2 THEN target == 0
+IF class code == 0, Historically-complex == 1, Evolution != 3.0 THEN target == 0
+IF class code == 0, Evolution != 2.0 THEN target == 0
+IF Evolution == 1.0, largest spot code == 4, class code == 3 THEN target == 0
+IF largest spot code == 4, Previous 24 hour code == 2.0 THEN target == 1
+IF Historically-complex == 1, Previous 24 hour code != 1.0 THEN target == 0
+IF largest spot code == 4, Evolution == 1.0, class code != 5 THEN target == 0
+IF class code == 1, largest spot code == 0, Evolution != 2.0 THEN target == 0
+IF Historically-complex == 1, Evolution == 1.0, largest spot code != 3 THEN target == 0
+IF largest spot code == 3, spot dist code == 2, Activity != 1 THEN target == 0
+IF largest spot code == 3, spot dist code == 2, Evolution == 1.0 THEN target == 0
+IF class code == 5, Evolution == 3.0, Activity != 1 THEN target == 0
+IF class code == 5, become complex != 1, Activity != 1 THEN target == 0
+IF class code == 5, become complex != 1, largest spot code == 0, Evolution != 2.0 THEN target == 0
+IF class code == 5, Evolution == 3.0, largest spot code != 4 THEN target == 0
+IF largest spot code == 3, Evolution == 2.0, Activity != 1 THEN target == 0
+IF largest spot code == 3, Activity != 1 THEN target == 1
+IF largest spot code == 3, Historically-complex != 1, class code != 1 THEN target == 0
+IF largest spot code == 3, spot dist code == 2, class code == 1, Historically-complex == 1, Evolution != 3.0 THEN target == 0
+IF class code == 1, Evolution != 2.0, Activity != 1 THEN target == 0
+IF class code == 5, become complex != 1, Evolution == 2.0, largest spot code != 4 THEN target == 0
+IF class code == 1, Evolution != 2.0, Historically-complex == 1, largest spot code != 3, spot dist code != 2 THEN target == 0
+IF largest spot code == 3, spot dist code == 2, class code == 1, Evolution != 2.0 THEN target == 0
+IF spot dist code == 2, Previous 24 hour code == 2.0 THEN target == 0
+IF class code == 5, become complex != 1, Evolution == 2.0 THEN target == 0
+IF become complex == 1, Activity == 1, largest spot code != 0 THEN target == 0
+IF class code == 5, Evolution == 3.0 THEN target == 0
+IF class code == 1, largest spot code == 4, spot dist code != 2 THEN target == 0
+IF class code == 1, largest spot code == 4, Previous 24 hour code == 1.0, Historically-complex != 1, Activity != 1 THEN target == 0
+IF class code == 1, largest spot code == 4, Activity == 1, Evolution == 2.0, Historically-complex != 1 THEN target == 0
+IF class code == 1, largest spot code == 0, Historically-complex != 1 THEN target == 0
+IF largest spot code == 3, spot dist code == 2, Evolution == 2.0, class code != 1 THEN target == 0
+IF spot dist code == 2, largest spot code == 3, class code != 1 THEN target == 0
+IF class code == 1, largest spot code == 4, Evolution != 2.0, Historically-complex != 2 THEN target == 0
+IF Evolution == 1.0, class code == 3 THEN target == 1
+IF Evolution == 1.0, spot dist code == 1 THEN target == 1
+IF Evolution == 1.0, class code != 5 THEN target == 0
+IF Evolution == 1.0, largest spot code != 4 THEN target == 0
+IF spot dist code == 2, largest spot code == 3 THEN target == 0
+IF Evolution == 1.0 THEN target == 0
+IF class code == 5, largest spot code != 4 THEN target == 0
+IF class code == 2, largest spot code == 1 THEN target == 0
+IF largest spot code == 1, spot dist code == 0 THEN target == 0
+IF largest spot code == 1, class code != 4 THEN target == 1
+IF Activity == 1, spot dist code == 0, class code != 3 THEN target == 0
+IF class code == 2, Area != 1 THEN target == 1
+IF class code == 2, spot dist code == 0 THEN target == 0
+IF class code == 0, Activity == 1, spot dist code != 1 THEN target == 0
+IF spot dist code == 2, largest spot code == 5 THEN target == 1
+IF class code == 0, Activity != 1 THEN target == 0
+IF spot dist code == 2, class code == 2, largest spot code == 0, Evolution == 2.0 THEN target == 0
+IF class code == 1, Activity != 1, Previous 24 hour code != 3.0 THEN target == 0
+IF largest spot code == 4, class code == 1, Historically-complex == 1 THEN target == 0
+IF largest spot code != 2, Area != 1 THEN target == 1
+IF Evolution != 2.0, largest spot code == 1 THEN target == 0
+IF largest spot code == 1 THEN target == 1
+IF Evolution != 2.0, Previous 24 hour code != 1.0, class code != 3 THEN target == 1
+IF class code == 2, Previous 24 hour code != 1.0 THEN target == 0
+IF spot dist code != 1, Evolution != 2.0, class code == 4 THEN target == 0
+IF spot dist code != 1, class code == 4 THEN target == 1
+IF largest spot code != 2, spot dist code == 0 THEN target == 0
+IF Activity == 1, spot dist code == 0 THEN target == 1
+IF spot dist code != 1, Evolution != 2.0, Previous 24 hour code != 1.0 THEN target == 0
+IF Evolution != 2.0, Previous 24 hour code != 1.0 THEN target == 1
+IF spot dist code == 2, class code == 2, Activity != 1, largest spot code != 4 THEN target == 0
+IF spot dist code == 2, Evolution != 2.0, Historically-complex != 1, largest spot code == 0, class code != 2 THEN target == 0
+IF class code == 2, spot dist code != 1, Historically-complex != 1, Evolution != 2.0, Activity == 1 THEN target == 0
+IF largest spot code == 4, spot dist code == 1, class code == 3, Historically-complex == 1 THEN target == 0
+IF largest spot code == 4, spot dist code == 1, Evolution == 2.0, Activity == 1 THEN target == 0
+IF class code == 2, spot dist code != 1, Activity != 1, Evolution != 3.0 THEN target == 0
+IF Historically-complex == 1, class code == 2, largest spot code == 0, Evolution == 2.0 THEN target == 0
+IF largest spot code == 4, Evolution != 2.0, Activity != 1, spot dist code == 1 THEN target == 0
+IF Previous 24 hour code == 3.0, class code == 4 THEN target == 0
+IF Historically-complex == 1, Activity != 1, class code == 3 THEN target == 1
+IF largest spot code == 2, spot dist code != 0, class code == 3, Activity != 1 THEN target == 1
+IF Activity == 1, Area != 1, class code != 3 THEN target == 0
+IF class code == 4, largest spot code == 2 THEN target == 1
+IF Activity == 1, largest spot code == 2, Evolution == 2.0 THEN target == 1
+IF Historically-complex == 1, largest spot code == 0, Activity == 1, spot dist code == 1 THEN target == 0
+IF largest spot code == 4, class code == 1, Activity != 2 THEN target == 0
+IF class code == 2, largest spot code == 2, Activity != 2 THEN target == 1
+IF class code == 2, spot dist code != 1, Evolution != 2.0, largest spot code != 0, Activity != 2 THEN target == 0
+IF spot dist code == 0, Area == 1 THEN target == 0
+IF class code == 2, spot dist code != 1, Historically-complex != 1, Activity != 2 THEN target == 0
+IF Activity == 1, largest spot code == 0, spot dist code == 1, class code == 3, Evolution != 3.0 THEN target == 0
+IF class code == 4, Activity != 1, largest spot code != 4 THEN target == 1
+IF class code == 2, spot dist code != 1, largest spot code != 4 THEN target == 0
+IF Evolution != 2.0, class code == 1, Historically-complex != 1 THEN target == 0
+IF class code == 2, largest spot code == 2, Evolution != 2.0 THEN target == 1
+IF class code == 2, Historically-complex != 1, spot dist code != 1 THEN target == 0
+IF Historically-complex == 1, Activity != 1, class code != 5 THEN target == 1
+IF class code == 2, Activity == 1, largest spot code == 0, Evolution != 3.0 THEN target == 0
+IF class code == 2, Evolution != 2.0, Activity != 1 THEN target == 0
+IF Evolution != 2.0, Activity != 1, largest spot code == 4 THEN target == 1
+IF Evolution != 2.0, spot dist code == 2, largest spot code != 0 THEN target == 0
+IF Historically-complex == 1, largest spot code == 0, class code != 3 THEN target == 0
+IF class code == 1, Historically-complex != 1, largest spot code != 4 THEN target == 1
+IF spot dist code == 2, Activity == 1, Historically-complex != 1 THEN target == 1
+IF largest spot code == 0, class code == 3, Evolution == 2.0 THEN target == 0
+IF Evolution != 2.0, class code == 2, largest spot code == 4, Historically-complex != 2 THEN target == 0
+IF Evolution != 2.0, largest spot code == 4, class code == 3 THEN target == 1
+IF class code == 3, largest spot code == 4, spot dist code != 2 THEN target == 0
+IF Evolution != 2.0, largest spot code == 0, class code != 3 THEN target == 0
+IF Evolution != 2.0, largest spot code == 0, spot dist code == 1, Activity != 2 THEN target == 0
+IF largest spot code == 0, Activity != 1, class code != 3 THEN target == 1
+IF largest spot code == 3, class code != 1 THEN target == 0
+IF class code == 0 THEN target == 0
+IF class code == 1 THEN target == 0
+IF class code == 2 THEN target == 0
+IF class code == 3 THEN target == 0
+IF class code == 4 THEN target == 0
+IF class code == 5 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 165
+avg # of vars: 165.00
+max # of vars: 165
+min # of clauses: 611
+avg # of clauses: 652.50
+max # of clauses: 694
+
+EXPLANATIONS:
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 1 AND Historically-complex == 1 AND class code == 1 AND Evolution == 2.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND become complex == 2 AND class code == 5 AND spot dist code == 3 AND Activity == 2 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Activity == 1 AND spot dist code == 2 AND class code == 1 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 2.0 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND spot dist code == 1 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Activity == 2 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 1.0 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 2 THEN target == 0"
+  expl: "IF Activity == 1 AND spot dist code == 3 AND class code == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 1 AND spot dist code == 2 AND Activity == 1 THEN target == 1"
+  expl: "IF class code == 1 AND Evolution == 3.0 AND largest spot code == 1 AND become complex == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Historically-complex == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND Historically-complex == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF Activity == 1 AND spot dist code == 3 AND class code == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND Historically-complex == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 2.0 AND become complex == 2 THEN target == 0"
+  expl: "IF Previous 24 hour code == 2.0 AND spot dist code == 1 AND Historically-complex == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 2 AND spot dist code == 0 AND Activity == 2 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 5 AND Previous 24 hour code == 2.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 2.0 AND class code == 5 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 3.0 AND class code == 0 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 0 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND Historically-complex == 1 AND class code == 2 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND become complex == 2 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND Historically-complex == 1 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND become complex == 2 AND class code == 0 AND Historically-complex == 1 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND class code == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 1.0 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND Evolution == 1.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 1 AND Historically-complex == 1 AND class code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Activity == 1 AND spot dist code == 2 AND class code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND Historically-complex == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 3.0 AND class code == 0 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 0 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND become complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND become complex == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND class code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 2 AND become complex == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND become complex == 2 AND class code == 5 AND spot dist code == 3 AND Activity == 1 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 1 AND class code == 2 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND Activity == 2 AND Area == 1 THEN target == 1"
+  expl: "IF Historically-complex == 2 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 1 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Historically-complex == 2 AND Previous 24 hour code == 3.0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 3.0 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND class code == 4 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 2 AND Historically-complex == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 3 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 2 AND become complex == 2 THEN target == 0"
+  expl: "IF become complex == 2 AND spot dist code == 3 AND class code == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND spot dist code == 1 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 1"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND spot dist code == 1 AND class code == 4 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND spot dist code == 1 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 2 THEN target == 0"
+  expl: "IF Area == 2 AND Activity == 1 AND spot dist code == 1 AND class code == 4 AND Evolution == 2.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 3.0 AND Area == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND class code == 4 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 2.0 AND class code == 4 AND spot dist code == 2 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND Historically-complex == 2 AND spot dist code == 2 AND class code == 4 AND Evolution == 2.0 AND become complex == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 2.0 AND class code == 3 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 1 AND become complex == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 1 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 4 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 THEN target == 0"
+  expl: "IF Historically-complex == 1 AND class code == 4 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 1 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 3 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 1 AND become complex == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 1 AND class code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 4 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 0 AND Previous 24 hour code == 1.0 AND class code == 4 AND Evolution == 3.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 THEN target == 1"
+  expl: "IF spot dist code == 0 AND Activity == 1 AND class code == 3 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 2.0 AND become complex == 2 THEN target == 1"
+  expl: "IF become complex == 2 AND Previous 24 hour code == 2.0 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND become complex == 2 AND class code == 0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND class code == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 0 AND Historically-complex == 1 THEN target == 0"
+  expl: "IF class code == 0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Activity == 1 AND spot dist code == 1 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND class code == 4 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND Historically-complex == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 3 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 3 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 3 AND spot dist code == 2 THEN target == 0"
+  expl: "IF class code == 3 AND Evolution == 2.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 2 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Activity == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND spot dist code == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 1 AND class code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND become complex == 2 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 2 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 THEN target == 1"
+  expl: "IF class code == 1 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND class code == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 THEN target == 1"
+  expl: "IF class code == 1 AND Evolution == 3.0 AND largest spot code == 1 AND become complex == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 AND Activity == 2 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND Historically-complex == 1 AND class code == 2 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND class code == 2 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 THEN target == 0"
+  expl: "IF spot dist code == 0 AND Historically-complex == 2 AND Activity == 1 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND class code == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND class code == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 2 THEN target == 1"
+  expl: "IF Area == 2 AND Historically-complex == 2 AND spot dist code == 1 AND become complex == 2 AND class code == 4 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND spot dist code == 2 AND Activity == 1 THEN target == 0"
+  expl: "IF class code == 3 AND Evolution == 3.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND Historically-complex == 2 AND spot dist code == 0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Previous 24 hour code == 3.0 AND spot dist code == 2 AND class code == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND Historically-complex == 2 AND Area == 1 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 3.0 AND class code == 0 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 0 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND class code == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND class code == 1 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 3 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 1.0 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND class code == 1 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 3.0 THEN target == 1"
+  expl: "IF Previous 24 hour code == 3.0 AND Historically-complex == 2 AND spot dist code == 1 AND become complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Historically-complex == 2 AND Previous 24 hour code == 3.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND become complex == 2 AND class code == 5 AND spot dist code == 3 AND Activity == 2 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND Activity == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND spot dist code == 1 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 0 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND Activity == 1 AND spot dist code == 0 THEN target == 1"
+  expl: "IF spot dist code == 0 AND class code == 2 AND become complex == 2 AND largest spot code == 3 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 THEN target == 1"
+  expl: "IF spot dist code == 0 AND Activity == 1 AND class code == 3 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 4 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND class code == 1 AND Evolution == 3.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 1 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 1 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND become complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND Historically-complex == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 2 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND class code == 1 AND spot dist code == 1 AND Activity == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 1 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 1 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 0 THEN target == 1"
+  expl: "IF spot dist code == 0 AND Historically-complex == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 4 AND spot dist code == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Historically-complex == 2 AND spot dist code == 1 AND class code == 4 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND class code == 4 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND class code == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 4 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND class code == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 3 AND Historically-complex == 2 AND spot dist code == 0 AND Activity == 2 AND Area == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 1.0 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 4 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 THEN target == 0"
+  expl: "IF spot dist code == 0 AND Activity == 1 AND class code == 4 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 AND Area == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 1.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND class code == 3 AND spot dist code == 0 AND Evolution == 1.0 THEN target == 1"
+  expl: "IF Evolution == 1.0 AND spot dist code == 0 AND class code == 3 AND become complex == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 3.0 AND Area == 1 AND spot dist code == 1 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND Evolution == 3.0 AND class code == 0 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 0 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 2.0 AND class code == 4 AND become complex == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 AND Area == 1 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND class code == 4 AND Evolution == 2.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 2.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 2 THEN target == 1"
+  expl: "IF Area == 2 AND Historically-complex == 2 AND spot dist code == 1 AND become complex == 2 AND class code == 4 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND become complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND Evolution == 3.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 AND Activity == 2 THEN target == 0"
+  expl: "IF Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 1.0 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND Activity == 1 AND spot dist code == 0 THEN target == 1"
+  expl: "IF spot dist code == 0 AND Historically-complex == 1 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 4 AND become complex == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 AND Area == 2 THEN target == 1"
+  expl: "IF Area == 2 AND Activity == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND class code == 4 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 AND Area == 2 THEN target == 1"
+  expl: "IF Area == 2 AND Activity == 2 AND Previous 24 hour code == 1.0 AND class code == 2 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 1 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 2 AND class code == 1 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND class code == 5 AND spot dist code == 3 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND become complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 2 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND become complex == 2 AND class code == 0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND class code == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Historically-complex == 2 AND Activity == 1 AND spot dist code == 1 AND become complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND spot dist code == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND class code == 4 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 3 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 THEN target == 0"
+  expl: "IF class code == 3 AND Evolution == 3.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 2.0 AND class code == 3 AND spot dist code == 2 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF Previous 24 hour code == 2.0 AND spot dist code == 2 AND class code == 3 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 1 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 1 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 4 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Historically-complex == 2 AND spot dist code == 1 AND become complex == 2 AND class code == 4 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 3 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 3 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 0 THEN target == 1"
+  expl: "IF spot dist code == 0 AND class code == 2 AND become complex == 2 AND largest spot code == 3 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Activity == 1 AND spot dist code == 1 AND Historically-complex == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 3 AND Historically-complex == 2 AND Previous 24 hour code == 2.0 AND spot dist code == 0 AND Activity == 2 AND Area == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 3 AND become complex == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Area == 1 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Historically-complex == 2 AND Activity == 1 AND spot dist code == 2 AND become complex == 2 AND class code == 3 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 3 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 1"
+  expl: "IF Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 3 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 1 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 2 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 3.0 AND spot dist code == 2 AND Historically-complex == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 1 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 5 AND become complex == 2 AND class code == 0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND class code == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 5 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 5 AND Evolution == 2.0 AND class code == 0 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 2 AND become complex == 2 AND class code == 0 AND Evolution == 2.0 AND largest spot code == 5 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF Evolution == 1.0 AND spot dist code == 2 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 THEN target == 0"
+  expl: "IF spot dist code == 0 AND Activity == 1 AND class code == 4 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 1 AND become complex == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND spot dist code == 1 AND Activity == 1 THEN target == 1"
+  expl: "IF class code == 4 AND Evolution == 2.0 AND become complex == 2 AND largest spot code == 3 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND class code == 2 AND spot dist code == 1 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 1"
+  expl: "IF Evolution == 1.0 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 1 AND spot dist code == 1 AND class code == 2 AND become complex == 2 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 4 AND spot dist code == 2 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND class code == 4 AND Evolution == 3.0 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 4 AND Historically-complex == 1 AND spot dist code == 2 THEN target == 0"
+  expl: "IF Historically-complex == 1 AND class code == 4 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 3 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 1 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 5 THEN target == 0"
+  expl: "IF class code == 5 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND become complex == 2 AND class code == 5 AND spot dist code == 3 AND Activity == 1 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 3 AND class code == 5 AND become complex == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 0 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 0 AND Historically-complex == 1 THEN target == 0"
+  expl: "IF class code == 0 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 1 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 1 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND Historically-complex == 1 AND class code == 1 AND largest spot code == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 0 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND become complex == 2 AND Activity == 1 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 0 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 3.0 AND spot dist code == 1 AND Historically-complex == 1 AND largest spot code == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Historically-complex == 2 AND spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 3 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 2.0 AND class code == 4 AND spot dist code == 1 AND Historically-complex == 2 AND Activity == 2 AND Previous 24 hour code == 3.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 3.0 AND spot dist code == 1 AND class code == 4 AND Evolution == 2.0 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 2 AND spot dist code == 0 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 4 AND Historically-complex == 2 AND spot dist code == 0 AND Activity == 2 AND Previous 24 hour code == 3.0 THEN target == 1"
+  expl: "IF Previous 24 hour code == 3.0 AND Activity == 2 AND Historically-complex == 2 AND class code == 4 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND become complex == 2 AND class code == 5 AND Previous 24 hour code == 2.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 2.0 AND class code == 5 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 2 AND spot dist code == 3 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 2 AND become complex == 1 THEN target == 0"
+  expl: "IF become complex == 1 AND largest spot code == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 0 AND spot dist code == 3 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 5 AND Previous 24 hour code == 2.0 THEN target == 0"
+  expl: "IF Previous 24 hour code == 2.0 AND class code == 5 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 1 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF Activity == 2 AND spot dist code == 1 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Historically-complex == 2 AND Previous 24 hour code == 3.0 AND Area == 1 THEN target == 1"
+  expl: "IF Previous 24 hour code == 3.0 AND Historically-complex == 2 AND spot dist code == 2 AND become complex == 2 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 1 AND spot dist code == 3 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 2.0 AND class code == 5 THEN target == 0"
+  expl: "IF class code == 5 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF class code == 5 AND largest spot code == 4 AND spot dist code == 3 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 1 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 5 AND spot dist code == 3 AND become complex == 1 AND Activity == 2 AND Area == 1 THEN target == 0"
+  expl: "IF Area == 1 AND spot dist code == 3 AND class code == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 3.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 2 AND become complex == 2 AND spot dist code == 1 AND Historically-complex == 2 AND Area == 1 AND Previous 24 hour code == 3.0 THEN target == 1"
+  expl: "IF Previous 24 hour code == 3.0 AND Historically-complex == 2 AND spot dist code == 1 AND become complex == 2 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 4 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 2.0 AND class code == 4 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 THEN target == 0"
+  expl: "IF Historically-complex == 1 AND class code == 4 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 1 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 2 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 THEN target == 0"
+  expl: "IF spot dist code == 1 AND class code == 2 AND Evolution == 3.0 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 3 AND spot dist code == 2 AND Activity == 1 AND Evolution == 2.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF largest spot code == 3 AND become complex == 2 AND Evolution == 2.0 AND class code == 2 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 1 AND spot dist code == 2 AND Activity == 1 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 0"
+  dexp: "IF become complex == 2 AND largest spot code == 1 AND Evolution == 3.0 AND class code == 2 AND Historically-complex == 1 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 THEN target == 0"
+  expl: "IF spot dist code == 2 AND class code == 2 AND largest spot code == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 2 AND Activity == 1 AND Evolution == 1.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND become complex == 2 AND class code == 3 AND spot dist code == 2 AND Activity == 1 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND Evolution == 1.0 THEN target == 1"
+  expl: "IF Evolution == 1.0 AND Historically-complex == 2 AND Previous 24 hour code == 1.0 AND Activity == 1 AND class code == 3 AND become complex == 2 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 2 AND largest spot code == 4 AND spot dist code == 2 AND Activity == 2 AND Evolution == 2.0 AND Previous 24 hour code == 2.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 4 AND Evolution == 2.0 AND class code == 2 AND become complex == 2 AND spot dist code == 2 AND Previous 24 hour code == 2.0 THEN target == 1"
+  expl: "IF Previous 24 hour code == 2.0 AND become complex == 2 AND class code == 2 AND Evolution == 2.0 AND largest spot code == 4 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 2 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 2 AND become complex == 2 AND Area == 2 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 2 AND become complex == 2 AND Evolution == 3.0 AND class code == 3 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND Activity == 2 AND Historically-complex == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND Previous 24 hour code == 1.0 AND spot dist code == 1 AND class code == 3 AND Evolution == 3.0 AND become complex == 2 AND largest spot code == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF class code == 3 AND largest spot code == 0 AND spot dist code == 1 AND Activity == 2 AND Evolution == 3.0 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND become complex == 2 AND Area == 1 AND Area of the largest spot == 1 THEN target == 1"
+  dexp: "IF largest spot code == 0 AND Evolution == 3.0 AND class code == 3 AND Historically-complex == 1 AND spot dist code == 1 AND Previous 24 hour code == 1.0 AND become complex == 2 AND Area == 1 AND Activity == 2 THEN target == 1"
+  expl: "IF Activity == 2 AND become complex == 2 AND Previous 24 hour code == 1.0 AND Historically-complex == 1 AND class code == 3 AND Evolution == 3.0 AND largest spot code == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+# of insts: 244
+tot # of expls: 244
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 2
+min expl sz: 4.47
+avg expl sz: 4.47
+max expl sz: 4.47
+Max expl sz: 8
+
+tot time: 0.07
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  39.79%
+max dxrd:  66.67%

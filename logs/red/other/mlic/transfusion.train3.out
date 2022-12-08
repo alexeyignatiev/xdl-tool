@@ -1,0 +1,3300 @@
+MODEL:
+IF x1 == 10 THEN target == 0
+IF x1 == 12 THEN target == 0
+IF x1 == 15 THEN target == 0
+IF x1 == 17 THEN target == 1
+IF x1 == 18 THEN target == 0
+IF x1 == 23 THEN target == 0
+IF x1 == 25 THEN target == 0
+IF x1 == 26 THEN target == 1
+IF x1 == 35 THEN target == 0
+IF x1 == 38 THEN target == 0
+IF x1 == 39 THEN target == 0
+IF x1 == 40 THEN target == 0
+IF x1 == 72 THEN target == 0
+IF x1 == 74 THEN target == 0
+IF x2 == 18 THEN target == 0
+IF x2 == 19 THEN target == 1
+IF x2 == 20 THEN target == 1
+IF x2 == 21 THEN target == 1
+IF x2 == 24 THEN target == 0
+IF x2 == 26 THEN target == 1
+IF x1 == 0 THEN target == 0
+IF x2 == 33 THEN target == 1
+IF x2 == 41 THEN target == 1
+IF x2 == 43 THEN target == 1
+IF x2 == 46 THEN target == 1
+IF x2 == 50 THEN target == 1
+IF x4 == 13 THEN target == 0
+IF x4 == 15 THEN target == 1
+IF x4 == 17 THEN target == 0
+IF x4 == 18 THEN target == 0
+IF x4 == 24 THEN target == 0
+IF x4 == 27 THEN target == 0
+IF x4 == 30 THEN target == 0
+IF x4 == 31 THEN target == 0
+IF x4 == 32 THEN target == 1
+IF x4 == 36 THEN target == 0
+IF x4 == 39 THEN target == 0
+IF x4 == 42 THEN target == 0
+IF x4 == 45 THEN target == 0
+IF x4 == 49 THEN target == 1
+IF x2 == 15 THEN target == 0
+IF x4 == 54 THEN target == 0
+IF x4 == 55 THEN target == 0
+IF x4 == 59 THEN target == 0
+IF x4 == 60 THEN target == 0
+IF x4 == 61 THEN target == 0
+IF x4 == 63 THEN target == 0
+IF x4 == 65 THEN target == 0
+IF x4 == 72 THEN target == 0
+IF x4 == 74 THEN target == 0
+IF x4 == 77 THEN target == 0
+IF x4 == 78 THEN target == 0
+IF x4 == 81 THEN target == 0
+IF x4 == 82 THEN target == 0
+IF x4 == 83 THEN target == 0
+IF x4 == 86 THEN target == 0
+IF x1 == 5 THEN target == 1
+IF x4 == 87 THEN target == 1
+IF x4 == 88 THEN target == 0
+IF x4 == 95 THEN target == 0
+IF x4 == 52, x1 == 4 THEN target == 0
+IF x1 == 16, x2 == 2 THEN target == 0
+IF x1 == 16, x2 == 4 THEN target == 0
+IF x1 == 16, x2 == 7 THEN target == 0
+IF x1 == 16, x2 == 8 THEN target == 0
+IF x1 == 16, x2 == 10 THEN target == 0
+IF x1 == 21, x2 == 6 THEN target == 0
+IF x1 == 21, x2 == 7 THEN target == 0
+IF x4 == 52, x1 == 7 THEN target == 0
+IF x4 == 58, x1 == 2 THEN target == 1
+IF x4 == 58 THEN target == 0
+IF x1 == 16, x2 == 11 THEN target == 0
+IF x1 == 21, x2 == 13 THEN target == 0
+IF x2 == 13 THEN target == 1
+IF x4 == 76 THEN target == 0
+IF x1 == 16, x2 == 12 THEN target == 0
+IF x1 == 21, x4 == 23 THEN target == 0
+IF x1 == 16, x3 == 250 THEN target == 0
+IF x4 == 52, x1 == 8 THEN target == 1
+IF x1 == 8 THEN target == 0
+IF x4 == 52 THEN target == 0
+IF x1 == 21, x4 == 25 THEN target == 0
+IF x1 == 21, x4 == 33 THEN target == 0
+IF x1 == 14, x2 == 6 THEN target == 0
+IF x1 == 21, x4 == 35 THEN target == 0
+IF x1 == 14, x2 == 7 THEN target == 0
+IF x4 == 73 THEN target == 1
+IF x1 == 14, x2 == 16 THEN target == 0
+IF x4 == 2, x2 != 1 THEN target == 0
+IF x4 == 23, x1 != 4 THEN target == 0
+IF x4 == 50, x1 == 11 THEN target == 0
+IF x2 == 1, x1 == 9 THEN target == 0
+IF x1 == 14, x3 == 250 THEN target == 0
+IF x1 == 21, x4 == 38 THEN target == 0
+IF x1 == 11, x2 == 4 THEN target == 0
+IF x1 == 21, x4 == 40 THEN target == 0
+IF x4 == 50, x1 != 14 THEN target == 0
+IF x1 == 11, x2 == 6 THEN target == 0
+IF x1 == 21, x4 == 70 THEN target == 0
+IF x4 == 21, x1 == 3 THEN target == 0
+IF x1 == 11, x2 == 9 THEN target == 0
+IF x4 == 21, x1 == 4 THEN target == 0
+IF x1 == 11, x2 == 10 THEN target == 0
+IF x2 == 10, x1 == 2 THEN target == 1
+IF x2 == 10, x1 == 3 THEN target == 1
+IF x1 == 7, x2 == 9 THEN target == 1
+IF x1 == 7 THEN target == 0
+IF x2 == 10 THEN target == 1
+IF x4 == 48 THEN target == 1
+IF x4 == 89 THEN target == 0
+IF x4 == 21, x1 == 11 THEN target == 0
+IF x4 == 29, x1 == 3 THEN target == 1
+IF x1 == 3 THEN target == 0
+IF x4 == 29 THEN target == 0
+IF x4 == 64, x1 == 4 THEN target == 1
+IF x4 == 64 THEN target == 0
+IF x2 == 16 THEN target == 1
+IF x1 == 1 THEN target == 0
+IF x4 == 51 THEN target == 1
+IF x4 == 98 THEN target == 0
+IF x2 == 12 THEN target == 1
+IF x2 == 22 THEN target == 1
+IF x4 == 47 THEN target == 0
+IF x4 == 70 THEN target == 0
+IF x2 == 17 THEN target == 1
+IF x4 == 71 THEN target == 0
+IF x1 == 11, x2 == 11 THEN target == 0
+IF x4 == 38, x1 == 4 THEN target == 1
+IF x4 == 38, x1 != 9 THEN target == 1
+IF x1 == 11, x2 == 2 THEN target == 0
+IF x1 == 14, x4 == 14 THEN target == 0
+IF x1 == 9, x2 == 3 THEN target == 0
+IF x1 == 11, x4 == 14 THEN target == 0
+IF x4 == 19, x1 == 9 THEN target == 0
+IF x4 == 33, x1 != 2 THEN target == 0
+IF x4 == 37, x1 != 11 THEN target == 0
+IF x1 == 11, x4 == 16 THEN target == 1
+IF x1 == 11, x4 == 26 THEN target == 0
+IF x1 == 11, x4 == 28 THEN target == 0
+IF x1 == 11, x4 == 35 THEN target == 0
+IF x4 == 46, x1 == 11 THEN target == 0
+IF x4 == 4, x2 == 3 THEN target == 1
+IF x4 == 4, x2 == 4 THEN target == 1
+IF x2 == 3, x1 == 6 THEN target == 0
+IF x1 == 6 THEN target == 1
+IF x2 == 3, x4 == 9 THEN target == 1
+IF x2 == 3, x4 == 11 THEN target == 0
+IF x2 == 3, x4 == 22 THEN target == 0
+IF x1 == 11, x2 == 8 THEN target == 1
+IF x1 == 11, x4 == 40 THEN target == 1
+IF x1 == 11, x2 == 3 THEN target == 0
+IF x1 == 11, x4 == 41 THEN target == 0
+IF x1 == 11, x2 == 5 THEN target == 1
+IF x4 == 37 THEN target == 0
+IF x1 == 11, x2 != 1 THEN target == 1
+IF x4 == 62 THEN target == 0
+IF x2 == 3, x4 == 25 THEN target == 1
+IF x4 == 25 THEN target == 0
+IF x2 == 7, x1 != 4 THEN target == 1
+IF x4 == 46, x1 == 14 THEN target == 0
+IF x4 == 46, x1 == 16 THEN target == 0
+IF x2 == 3, x4 == 28 THEN target == 0
+IF x4 == 46, x2 == 2 THEN target == 0
+IF x2 == 3, x4 == 34 THEN target == 0
+IF x2 == 8, x1 == 4 THEN target == 1
+IF x4 == 46, x1 != 2 THEN target == 0
+IF x4 == 26, x1 == 9 THEN target == 0
+IF x4 == 26, x1 == 13 THEN target == 0
+IF x4 == 26, x1 == 14 THEN target == 0
+IF x2 == 8, x1 == 9 THEN target == 1
+IF x4 == 38 THEN target == 0
+IF x2 != 5, x4 == 33 THEN target == 0
+IF x4 == 33 THEN target == 1
+IF x2 != 5, x4 == 34 THEN target == 1
+IF x4 == 34 THEN target == 0
+IF x2 != 6, x4 == 23 THEN target == 0
+IF x4 == 23 THEN target == 1
+IF x1 != 4, x2 == 14 THEN target == 1
+IF x2 == 14 THEN target == 0
+IF x4 == 57 THEN target == 0
+IF x4 == 21, x2 != 2, x1 == 14 THEN target == 0
+IF x4 == 21, x1 == 14 THEN target == 1
+IF x2 == 1, x1 == 21 THEN target == 0
+IF x1 == 2, x2 == 8 THEN target == 1
+IF x1 == 2, x4 == 19 THEN target == 0
+IF x1 == 2, x4 == 21 THEN target == 0
+IF x1 == 2, x4 == 35 THEN target == 1
+IF x1 == 2, x4 == 40 THEN target == 1
+IF x4 == 40, x1 == 14 THEN target == 0
+IF x1 == 2, x4 == 79 THEN target == 1
+IF x4 == 79 THEN target == 0
+IF x2 != 5, x4 == 40 THEN target == 0
+IF x4 == 40 THEN target == 1
+IF x2 != 6, x4 == 43 THEN target == 1
+IF x4 == 43 THEN target == 0
+IF x1 == 11 THEN target == 0
+IF x1 == 16, x4 == 19 THEN target == 0
+IF x4 == 19 THEN target == 1
+IF x2 == 2, x1 == 9 THEN target == 1
+IF x1 == 9 THEN target == 0
+IF x2 == 2, x4 == 14 THEN target == 0
+IF x4 == 22, x1 != 2 THEN target == 1
+IF x2 == 7 THEN target == 0
+IF x2 == 4, x1 == 14 THEN target == 1
+IF x2 == 4, x4 == 11 THEN target == 0
+IF x4 == 11, x1 != 2 THEN target == 1
+IF x2 == 4, x4 == 41 THEN target == 0
+IF x2 == 4, x4 == 16, x1 != 2 THEN target == 0
+IF x4 == 11, x2 != 2 THEN target == 1
+IF x4 == 2 THEN target == 0
+IF x4 == 35, x2 == 2 THEN target == 1
+IF x4 == 35, x1 != 16 THEN target == 0
+IF x2 == 2, x1 == 14 THEN target == 0
+IF x2 == 2, x4 == 16 THEN target == 0
+IF x4 == 35, x2 != 6 THEN target == 0
+IF x4 == 41, x1 != 2 THEN target == 1
+IF x4 == 50, x2 != 8 THEN target == 0
+IF x1 == 14, x2 != 8 THEN target == 1
+IF x4 == 75, x2 != 3 THEN target == 0
+IF x4 == 75 THEN target == 1
+IF x2 == 9, x1 != 4 THEN target == 1
+IF x2 == 9, x4 != 28 THEN target == 1
+IF x4 == 22, x2 != 6 THEN target == 0
+IF x4 == 26, x2 == 2 THEN target == 0
+IF x1 == 4, x2 == 11 THEN target == 0
+IF x4 == 26, x2 == 11 THEN target == 0
+IF x2 == 11, x4 != 46 THEN target == 1
+IF x4 == 41 THEN target == 0
+IF x1 == 4, x2 == 5, x4 == 16 THEN target == 1
+IF x4 == 16, x1 == 13 THEN target == 0
+IF x1 == 13 THEN target == 1
+IF x2 == 4, x4 != 14, x1 == 2, x4 != 16 THEN target == 0
+IF x4 == 4, x1 != 2, x2 != 1 THEN target == 0
+IF x4 == 16, x2 == 6 THEN target == 1
+IF x4 == 16, x2 == 4 THEN target == 0
+IF x2 == 1 THEN target == 0
+IF x2 == 5, x4 == 14 THEN target == 1
+IF x2 == 5, x4 == 28 THEN target == 0
+IF x2 == 5, x1 != 2 THEN target == 1
+IF x2 == 5, x4 != 16 THEN target == 0
+IF x4 == 14, x2 == 3 THEN target == 0
+IF x2 == 4, x4 == 14, x1 != 2 THEN target == 1
+IF x4 == 14, x1 != 2 THEN target == 0
+IF x2 == 6, x1 == 4 THEN target == 1
+IF x2 == 5 THEN target == 0
+IF x4 == 16, x1 != 4 THEN target == 1
+IF x4 == 4 THEN target == 0
+IF x4 == 14 THEN target == 1
+IF x4 == 28, x1 != 4 THEN target == 1
+IF x4 == 11 THEN target == 1
+IF x1 == 2 THEN target == 1
+IF x1 == 4 THEN target == 1
+IF x1 == 14 THEN target == 1
+IF x1 == 16 THEN target == 0
+IF x1 == 21 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 316
+avg # of vars: 316.00
+max # of vars: 316
+min # of clauses: 5043
+avg # of clauses: 5086.00
+max # of clauses: 5129
+
+EXPLANATIONS:
+  inst: "IF x1 == 2 AND x2 == 50 AND x3 == 12500 AND x4 == 98 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 50 THEN target == 1"
+  expl: "IF x2 == 50 AND x1 == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 0 AND x2 == 13 AND x3 == 3250 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 0 AND x2 == 13 THEN target == 0"
+  expl: "IF x2 == 13 AND x1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 16 AND x3 == 4000 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 1 AND x2 == 16 AND x4 == 35 THEN target == 1"
+  expl: "IF x4 == 35 AND x2 == 16 AND x1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 20 AND x3 == 5000 AND x4 == 45 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 20 THEN target == 1"
+  expl: "IF x2 == 20 AND x1 == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 24 AND x3 == 6000 AND x4 == 77 THEN target == 0"
+  dexp: "IF x1 == 1 AND x2 == 24 THEN target == 0"
+  expl: "IF x2 == 24 AND x1 == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 4 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 4 THEN target == 1"
+  expl: "IF x4 == 4 AND x2 == 4 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 14 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 14 THEN target == 1"
+  expl: "IF x4 == 14 AND x2 == 7 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 12 AND x3 == 3000 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 1 AND x2 == 12 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 12 AND x1 == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 9 AND x3 == 2250 AND x4 == 22 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 9 AND x4 == 22 THEN target == 1"
+  expl: "IF x4 == 22 AND x2 == 9 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 5 AND x2 == 46 AND x3 == 11500 AND x4 == 98 THEN target == 1"
+  dexp: "IF x1 == 5 AND x2 == 46 THEN target == 1"
+  expl: "IF x2 == 46 AND x1 == 5 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 23 AND x3 == 5750 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 23 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 23 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 0 AND x2 == 3 AND x3 == 750 AND x4 == 4 THEN target == 0"
+  dexp: "IF x1 == 0 AND x2 == 3 THEN target == 0"
+  expl: "IF x2 == 3 AND x1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 10 AND x3 == 2500 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 10 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 10 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 13 AND x3 == 3250 AND x4 == 47 THEN target == 1"
+  dexp: "IF x1 == 1 AND x2 == 13 AND x4 == 47 THEN target == 1"
+  expl: "IF x4 == 47 AND x2 == 13 AND x1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 15 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 15 THEN target == 1"
+  expl: "IF x4 == 15 AND x2 == 6 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 11 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 11 THEN target == 1"
+  expl: "IF x4 == 11 AND x2 == 5 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 14 AND x3 == 3500 AND x4 == 48 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 14 AND x4 == 48 THEN target == 1"
+  expl: "IF x4 == 48 AND x2 == 14 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 15 AND x3 == 3750 AND x4 == 49 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 15 AND x4 == 49 THEN target == 1"
+  expl: "IF x4 == 49 AND x2 == 15 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 4 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 4 THEN target == 1"
+  expl: "IF x4 == 4 AND x2 == 3 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 11 AND x3 == 2750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 11 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 11 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 6 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 9 AND x3 == 2250 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 9 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 9 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 14 AND x3 == 3500 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 14 AND x4 == 40 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 14 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 12 AND x3 == 3000 AND x4 == 34 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 12 AND x4 == 34 THEN target == 1"
+  expl: "IF x4 == 34 AND x2 == 12 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 11 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 11 THEN target == 1"
+  expl: "IF x4 == 11 AND x2 == 5 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 21 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 8 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 14 AND x3 == 3500 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 1 AND x2 == 14 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 14 AND x1 == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 10 AND x3 == 2500 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 10 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 10 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 26 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 26 THEN target == 1"
+  expl: "IF x4 == 26 AND x2 == 9 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 16 AND x3 == 4000 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 16 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 16 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 8 AND x3 == 2000 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 8 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 8 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 12 AND x3 == 3000 AND x4 == 47 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 12 AND x4 == 47 THEN target == 1"
+  expl: "IF x4 == 47 AND x2 == 12 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 6 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 14 AND x3 == 3500 AND x4 == 57 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 14 AND x4 == 57 THEN target == 1"
+  expl: "IF x4 == 57 AND x2 == 14 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 22 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 22 THEN target == 1"
+  expl: "IF x4 == 22 AND x2 == 7 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 13 AND x3 == 3250 AND x4 == 53 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 13 AND x4 == 53 THEN target == 1"
+  expl: "IF x4 == 53 AND x2 == 13 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 5 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 20 AND x3 == 5000 AND x4 == 69 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 20 THEN target == 1"
+  expl: "IF x2 == 20 AND x1 == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 9 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 9 AND x3 == 2250 AND x4 == 36 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 9 AND x4 == 36 THEN target == 0"
+  expl: "IF x4 == 36 AND x2 == 9 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 2 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 2 THEN target == 0"
+  expl: "IF x4 == 2 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 46 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 46 THEN target == 1"
+  expl: "IF x4 == 46 AND x2 == 11 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 22 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 22 THEN target == 1"
+  expl: "IF x4 == 22 AND x2 == 6 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 12 AND x3 == 3000 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 12 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 12 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 14 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 14 THEN target == 1"
+  expl: "IF x4 == 14 AND x2 == 5 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 19 AND x3 == 4750 AND x4 == 69 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 19 THEN target == 1"
+  expl: "IF x2 == 19 AND x1 == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 26 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 26 THEN target == 1"
+  expl: "IF x4 == 26 AND x2 == 8 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 7 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 16 AND x3 == 4000 AND x4 == 81 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 16 AND x4 == 81 THEN target == 0"
+  expl: "IF x4 == 81 AND x2 == 16 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 6 AND x3 == 1500 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 6 AND x4 == 21 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 6 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 29 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 29 THEN target == 0"
+  expl: "IF x4 == 29 AND x2 == 7 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 8 AND x3 == 2000 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 8 AND x4 == 35 THEN target == 1"
+  expl: "IF x4 == 35 AND x2 == 8 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 10 AND x3 == 2500 AND x4 == 49 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 10 AND x4 == 49 THEN target == 1"
+  expl: "IF x4 == 49 AND x2 == 10 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 5 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 9 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 9 THEN target == 1"
+  expl: "IF x4 == 9 AND x2 == 3 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 16 AND x3 == 4000 AND x4 == 74 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 16 AND x4 == 74 THEN target == 0"
+  expl: "IF x4 == 74 AND x2 == 16 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 14 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 14 THEN target == 1"
+  expl: "IF x4 == 14 AND x2 == 4 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 0 AND x2 == 2 AND x3 == 500 AND x4 == 4 THEN target == 0"
+  dexp: "IF x1 == 0 AND x2 == 2 THEN target == 0"
+  expl: "IF x2 == 2 AND x1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 25 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 25 THEN target == 0"
+  expl: "IF x4 == 25 AND x2 == 7 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 9 AND x3 == 2250 AND x4 == 51 THEN target == 0"
+  dexp: "IF x1 == 1 AND x2 == 9 AND x4 == 51 THEN target == 0"
+  expl: "IF x4 == 51 AND x2 == 9 AND x1 == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 4 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 17 AND x3 == 4250 AND x4 == 71 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 17 AND x4 == 71 THEN target == 1"
+  expl: "IF x4 == 71 AND x2 == 17 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 4 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 4 THEN target == 0"
+  expl: "IF x4 == 4 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 23 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 23 THEN target == 1"
+  expl: "IF x4 == 23 AND x2 == 6 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 6 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 4 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 4 THEN target == 0"
+  expl: "IF x4 == 4 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 35 THEN target == 1"
+  expl: "IF x4 == 35 AND x2 == 7 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 12 AND x2 == 11 AND x3 == 2750 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 12 THEN target == 0"
+  expl: "IF x1 == 12 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 7 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 17 AND x3 == 4250 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 17 AND x4 == 86 THEN target == 0"
+  expl: "IF x4 == 86 AND x2 == 17 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 9 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 14 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 14 THEN target == 1"
+  expl: "IF x4 == 14 AND x2 == 4 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 5 AND x2 == 7 AND x3 == 1750 AND x4 == 26 THEN target == 1"
+  dexp: "IF x1 == 5 AND x2 == 7 AND x4 == 26 THEN target == 1"
+  expl: "IF x4 == 26 AND x2 == 7 AND x1 == 5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 34 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 34 THEN target == 1"
+  expl: "IF x4 == 34 AND x2 == 8 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 13 AND x3 == 3250 AND x4 == 76 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 13 AND x4 == 76 THEN target == 1"
+  expl: "IF x4 == 76 AND x2 == 13 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 40 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 9 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 5 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 6 AND x2 == 17 AND x3 == 4250 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 6 AND x2 == 17 AND x4 == 70 THEN target == 0"
+  expl: "IF x4 == 70 AND x2 == 17 AND x1 == 6 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 0 AND x2 == 8 AND x3 == 2000 AND x4 == 59 THEN target == 0"
+  dexp: "IF x1 == 0 AND x2 == 8 THEN target == 0"
+  expl: "IF x2 == 8 AND x1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 5 AND x3 == 1250 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 5 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 5 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 10 AND x3 == 2500 AND x4 == 64 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 10 AND x4 == 64 THEN target == 1"
+  expl: "IF x4 == 64 AND x2 == 10 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 46 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 9 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 40 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 40 THEN target == 1"
+  expl: "IF x4 == 40 AND x2 == 8 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 12 AND x3 == 3000 AND x4 == 82 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 12 AND x4 == 82 THEN target == 0"
+  expl: "IF x4 == 82 AND x2 == 12 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 24 AND x3 == 6000 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 24 THEN target == 0"
+  expl: "IF x2 == 24 AND x1 == 11 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 46 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 46 THEN target == 1"
+  expl: "IF x4 == 46 AND x2 == 7 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 11 AND x3 == 2750 AND x4 == 61 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 11 AND x4 == 61 THEN target == 0"
+  expl: "IF x4 == 61 AND x2 == 11 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 7 AND x3 == 1750 AND x4 == 57 THEN target == 0"
+  dexp: "IF x1 == 1 AND x2 == 7 AND x4 == 57 THEN target == 0"
+  expl: "IF x4 == 57 AND x2 == 7 AND x1 == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 79 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 79 THEN target == 1"
+  expl: "IF x4 == 79 AND x2 == 11 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 3 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 26 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 26 THEN target == 1"
+  expl: "IF x4 == 26 AND x2 == 5 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 41 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 41 THEN target == 0"
+  expl: "IF x4 == 41 AND x2 == 6 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 33 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 33 THEN target == 1"
+  expl: "IF x4 == 33 AND x2 == 5 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 4 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 34 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 5 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 46 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 46 THEN target == 1"
+  expl: "IF x4 == 46 AND x2 == 8 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 48 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 48 THEN target == 1"
+  expl: "IF x4 == 48 AND x2 == 8 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 10 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 10 THEN target == 1"
+  expl: "IF x4 == 10 AND x2 == 2 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 12 AND x3 == 3000 AND x4 == 95 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 12 AND x4 == 95 THEN target == 0"
+  expl: "IF x4 == 95 AND x2 == 12 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 88 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 88 THEN target == 0"
+  expl: "IF x4 == 88 AND x2 == 11 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 19 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 19 THEN target == 0"
+  expl: "IF x4 == 19 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 37 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 37 THEN target == 0"
+  expl: "IF x4 == 37 AND x2 == 5 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 12 AND x3 == 3000 AND x4 == 98 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 12 AND x4 == 98 THEN target == 0"
+  expl: "IF x4 == 98 AND x2 == 12 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 5 AND x3 == 1250 AND x4 == 19 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 5 AND x4 == 19 THEN target == 0"
+  expl: "IF x4 == 19 AND x2 == 5 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 11 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 11 THEN target == 1"
+  expl: "IF x4 == 11 AND x2 == 2 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 9 AND x3 == 2250 AND x4 == 74 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 9 AND x4 == 74 THEN target == 0"
+  expl: "IF x4 == 74 AND x2 == 9 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 5 AND x2 == 14 AND x3 == 3500 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 5 AND x2 == 14 AND x4 == 86 THEN target == 0"
+  expl: "IF x4 == 86 AND x2 == 14 AND x1 == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 3 AND x3 == 750 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 3 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 3 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 9 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 9 THEN target == 1"
+  expl: "IF x4 == 9 AND x2 == 2 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 6 AND x2 == 3 AND x3 == 750 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 6 AND x2 == 3 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 3 AND x1 == 6 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 58 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 58 THEN target == 1"
+  expl: "IF x4 == 58 AND x2 == 7 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 39 THEN target == 0"
+  expl: "IF x4 == 39 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 11 AND x3 == 2750 AND x4 == 78 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 11 AND x4 == 78 THEN target == 0"
+  expl: "IF x4 == 78 AND x2 == 11 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 1 AND x3 == 250 AND x4 == 2 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 1 AND x4 == 2 THEN target == 0"
+  expl: "IF x4 == 2 AND x2 == 1 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 10 AND x3 == 2500 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 10 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 10 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 33 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 41 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 41 THEN target == 1"
+  expl: "IF x4 == 41 AND x2 == 6 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 22 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 22 THEN target == 0"
+  expl: "IF x4 == 22 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 26 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 26 THEN target == 1"
+  expl: "IF x4 == 26 AND x2 == 4 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 10 AND x2 == 4 AND x3 == 1000 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 10 THEN target == 0"
+  expl: "IF x1 == 10 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 35 THEN target == 1"
+  expl: "IF x4 == 35 AND x2 == 4 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 12 AND x3 == 3000 AND x4 == 88 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 12 AND x4 == 88 THEN target == 0"
+  expl: "IF x4 == 88 AND x2 == 12 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 13 AND x2 == 8 AND x3 == 2000 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 13 AND x2 == 8 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 8 AND x1 == 13 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 9 AND x3 == 2250 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 9 AND x4 == 33 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 9 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 34 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 8 AND x2 == 15 AND x3 == 3750 AND x4 == 77 THEN target == 0"
+  dexp: "IF x1 == 8 AND x2 == 15 AND x4 == 77 THEN target == 0"
+  expl: "IF x4 == 77 AND x2 == 15 AND x1 == 8 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 7 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 11 AND x3 == 2750 AND x4 == 42 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 11 AND x4 == 42 THEN target == 0"
+  expl: "IF x4 == 42 AND x2 == 11 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 47 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 47 THEN target == 0"
+  expl: "IF x4 == 47 AND x2 == 5 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 8 AND x3 == 2000 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 9 AND x2 == 8 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 8 AND x1 == 9 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 47 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 47 THEN target == 0"
+  expl: "IF x4 == 47 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 7 AND x3 == 1750 AND x4 == 29 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 7 AND x4 == 29 THEN target == 0"
+  expl: "IF x4 == 29 AND x2 == 7 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 9 AND x3 == 2250 AND x4 == 45 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 9 AND x4 == 45 THEN target == 0"
+  expl: "IF x4 == 45 AND x2 == 9 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 7 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 6 AND x2 == 2 AND x3 == 500 AND x4 == 11 THEN target == 1"
+  dexp: "IF x1 == 6 AND x2 == 2 AND x4 == 11 THEN target == 1"
+  expl: "IF x4 == 11 AND x2 == 2 AND x1 == 6 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 9 AND x3 == 2250 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 9 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 9 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 6 AND x3 == 1500 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 6 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 6 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 76 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 76 THEN target == 0"
+  expl: "IF x4 == 76 AND x2 == 7 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 6 AND x3 == 1500 AND x4 == 27 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 6 AND x4 == 27 THEN target == 0"
+  expl: "IF x4 == 27 AND x2 == 6 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 3 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 1 AND x3 == 250 AND x4 == 4 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 1 AND x4 == 4 THEN target == 0"
+  expl: "IF x4 == 4 AND x2 == 1 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 3 AND x3 == 750 AND x4 == 24 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 3 AND x4 == 24 THEN target == 0"
+  expl: "IF x4 == 24 AND x2 == 3 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 10 AND x2 == 8 AND x3 == 2000 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 10 THEN target == 0"
+  expl: "IF x1 == 10 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 7 AND x3 == 1750 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 7 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 7 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 8 AND x2 == 10 AND x3 == 2500 AND x4 == 63 THEN target == 0"
+  dexp: "IF x1 == 8 AND x2 == 10 AND x4 == 63 THEN target == 0"
+  expl: "IF x4 == 63 AND x2 == 10 AND x1 == 8 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 15 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 15 THEN target == 1"
+  expl: "IF x4 == 15 AND x2 == 3 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 43 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 43 THEN target == 1"
+  expl: "IF x4 == 43 AND x2 == 4 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 8 AND x2 == 9 AND x3 == 2250 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 8 AND x2 == 9 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 9 AND x1 == 8 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 8 AND x2 == 8 AND x3 == 2000 AND x4 == 52 THEN target == 1"
+  dexp: "IF x1 == 8 AND x2 == 8 AND x4 == 52 THEN target == 1"
+  expl: "IF x4 == 52 AND x2 == 8 AND x1 == 8 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 22 AND x3 == 5500 AND x4 == 98 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 22 AND x4 == 98 THEN target == 0"
+  expl: "IF x4 == 98 AND x2 == 22 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 3 AND x3 == 750 AND x4 == 25 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 3 AND x4 == 25 THEN target == 1"
+  expl: "IF x4 == 25 AND x2 == 3 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 17 AND x3 == 4250 AND x4 == 79 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 17 AND x4 == 79 THEN target == 1"
+  expl: "IF x4 == 79 AND x2 == 17 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 2 AND x3 == 500 AND x4 == 11 THEN target == 1"
+  dexp: "IF x1 == 9 AND x2 == 2 AND x4 == 11 THEN target == 1"
+  expl: "IF x4 == 11 AND x2 == 2 AND x1 == 9 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 46 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 12 AND x3 == 3000 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 12 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 12 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 12 AND x3 == 3000 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 12 AND x4 == 86 THEN target == 0"
+  expl: "IF x4 == 86 AND x2 == 12 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 11 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 11 THEN target == 0"
+  expl: "IF x4 == 11 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 75 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 75 THEN target == 0"
+  expl: "IF x4 == 75 AND x2 == 6 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 8 AND x3 == 2000 AND x4 == 41 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 8 AND x4 == 41 THEN target == 1"
+  expl: "IF x4 == 41 AND x2 == 8 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 3 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 12 AND x2 == 13 AND x3 == 3250 AND x4 == 59 THEN target == 0"
+  dexp: "IF x1 == 12 THEN target == 0"
+  expl: "IF x1 == 12 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 35 THEN target == 1"
+  expl: "IF x4 == 35 AND x2 == 3 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 8 AND x3 == 2000 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 8 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 8 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 7 AND x3 == 1750 AND x4 == 37 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 7 AND x4 == 37 THEN target == 0"
+  expl: "IF x4 == 37 AND x2 == 7 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 3 AND x3 == 750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 3 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 3 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 12 AND x2 == 12 AND x3 == 3000 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 12 THEN target == 0"
+  expl: "IF x1 == 12 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 41 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 41 THEN target == 0"
+  expl: "IF x4 == 41 AND x2 == 4 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 14 AND x3 == 3500 AND x4 == 73 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 14 AND x4 == 73 THEN target == 1"
+  expl: "IF x4 == 73 AND x2 == 14 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 3 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 43 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 43 THEN target == 1"
+  expl: "IF x4 == 43 AND x2 == 4 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 2 AND x3 == 500 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 2 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 2 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 8 AND x3 == 2000 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 8 AND x4 == 46 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 8 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 82 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 82 THEN target == 0"
+  expl: "IF x4 == 82 AND x2 == 7 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 13 AND x2 == 4 AND x3 == 1000 AND x4 == 21 THEN target == 1"
+  dexp: "IF x1 == 13 AND x2 == 4 AND x4 == 21 THEN target == 1"
+  expl: "IF x4 == 21 AND x2 == 4 AND x1 == 13 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 11 AND x3 == 2750 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 11 AND x4 == 40 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 11 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 7 AND x3 == 1750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 7 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 7 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 2 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 46 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 4 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 13 AND x3 == 3250 AND x4 == 57 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 13 AND x4 == 57 THEN target == 1"
+  expl: "IF x4 == 57 AND x2 == 13 AND x1 == 14 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 3 AND x3 == 750 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 3 AND x4 == 34 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 3 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 18 AND x3 == 4500 AND x4 == 78 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 18 THEN target == 0"
+  expl: "IF x2 == 18 AND x1 == 14 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 8 AND x3 == 2000 AND x4 == 48 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 8 AND x4 == 48 THEN target == 1"
+  expl: "IF x4 == 48 AND x2 == 8 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 16 AND x3 == 4000 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 16 AND x4 == 70 THEN target == 0"
+  expl: "IF x4 == 70 AND x2 == 16 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 22 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 22 AND x3 == 1000 THEN target == 1"
+  expl: "IF x3 == 1000 AND x4 == 22 AND x2 == 4 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 5 AND x3 == 1250 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 5 AND x4 == 26 AND x3 == 1250 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 5 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 8 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 8 AND x2 == 2 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 8 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 33 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 5 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 1"
+  dexp: "IF x1 == 9 AND x2 == 2 AND x4 == 16 THEN target == 1"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 9 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 5 AND x3 == 1250 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 5 AND x4 == 28 AND x3 == 1250 THEN target == 1"
+  expl: "IF x3 == 1250 AND x4 == 28 AND x2 == 5 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 19 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 19 AND x3 == 750 THEN target == 1"
+  expl: "IF x3 == 750 AND x4 == 19 AND x2 == 3 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 4 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 12 AND x3 == 3000 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 12 AND x4 == 50 THEN target == 0"
+  expl: "IF x4 == 50 AND x2 == 12 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 5 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 70 THEN target == 0"
+  expl: "IF x4 == 70 AND x2 == 4 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 2 AND x3 == 500 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 2 AND x4 == 14 AND x3 == 500 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 2 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 6 AND x3 == 1500 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 6 AND x4 == 34 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 6 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 37 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 37 THEN target == 1"
+  expl: "IF x4 == 37 AND x2 == 5 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 5 AND x3 == 1250 AND x4 == 74 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 5 AND x4 == 74 THEN target == 0"
+  expl: "IF x4 == 74 AND x2 == 5 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 3 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 4 AND x3 == 1000 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 4 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 4 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 19 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 19 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 19 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 5 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 12 AND x2 == 9 AND x3 == 2250 AND x4 == 60 THEN target == 0"
+  dexp: "IF x1 == 12 THEN target == 0"
+  expl: "IF x1 == 12 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 1 AND x3 == 250 AND x4 == 9 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 1 AND x4 == 9 THEN target == 0"
+  expl: "IF x4 == 9 AND x2 == 1 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 29 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 29 THEN target == 0"
+  expl: "IF x4 == 29 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 17 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 17 THEN target == 0"
+  expl: "IF x4 == 17 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 26 AND x3 == 1000 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 4 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 9 AND x3 == 2250 AND x4 == 72 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 9 AND x4 == 72 THEN target == 0"
+  expl: "IF x4 == 72 AND x2 == 9 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 41 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 41 THEN target == 0"
+  expl: "IF x4 == 41 AND x2 == 5 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 15 AND x2 == 16 AND x3 == 4000 AND x4 == 82 THEN target == 0"
+  dexp: "IF x1 == 15 THEN target == 0"
+  expl: "IF x1 == 15 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 5 AND x3 == 1250 AND x4 == 51 THEN target == 1"
+  dexp: "IF x1 == 9 AND x2 == 5 AND x4 == 51 THEN target == 1"
+  expl: "IF x4 == 51 AND x2 == 5 AND x1 == 9 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 34 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 8 AND x3 == 2000 AND x4 == 50 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 8 AND x4 == 50 AND x3 == 2000 THEN target == 1"
+  expl: "IF x3 == 2000 AND x4 == 50 AND x2 == 8 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 7 AND x3 == 1750 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 7 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 7 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 2 AND x4 == 16 AND x3 == 500 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 41 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 41 THEN target == 0"
+  expl: "IF x4 == 41 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 16 AND x3 == 4000 AND x4 == 98 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 16 AND x4 == 98 THEN target == 0"
+  expl: "IF x4 == 98 AND x2 == 16 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 28 AND x3 == 1000 THEN target == 1"
+  expl: "IF x3 == 1000 AND x4 == 28 AND x2 == 4 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 7 AND x3 == 1750 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 7 AND x4 == 39 THEN target == 0"
+  expl: "IF x4 == 39 AND x2 == 7 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 7 AND x3 == 1750 AND x4 == 47 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 7 AND x4 == 47 THEN target == 0"
+  expl: "IF x4 == 47 AND x2 == 7 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 6 AND x3 == 1500 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 6 AND x4 == 35 AND x3 == 1500 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 6 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 7 AND x3 == 1750 AND x4 == 62 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 7 AND x4 == 62 THEN target == 1"
+  expl: "IF x4 == 62 AND x2 == 7 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 2 AND x3 == 500 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 2 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 2 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 21 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 3 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 7 AND x3 == 1750 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 7 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 7 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 1 AND x3 == 250 AND x4 == 11 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 1 AND x4 == 11 THEN target == 0"
+  expl: "IF x4 == 11 AND x2 == 1 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 3 AND x3 == 750 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 3 AND x4 == 34 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 3 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 30 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 30 THEN target == 0"
+  expl: "IF x4 == 30 AND x2 == 4 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 38 AND x3 == 9500 AND x4 == 98 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 6 AND x3 == 1500 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 6 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 6 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 21 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 50 THEN target == 0"
+  expl: "IF x4 == 50 AND x2 == 5 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 4 AND x3 == 1000 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 4 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 4 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 41 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 41 THEN target == 1"
+  expl: "IF x4 == 41 AND x2 == 2 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 6 AND x3 == 1500 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 6 AND x4 == 40 AND x3 == 1500 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 6 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 26 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 2 AND x3 == 500 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 2 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 2 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 16 AND x3 == 4000 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 16 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 16 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 6 AND x3 == 1500 AND x4 == 51 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 6 AND x4 == 51 THEN target == 0"
+  expl: "IF x4 == 51 AND x2 == 6 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 24 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 24 THEN target == 0"
+  expl: "IF x4 == 24 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 3 AND x3 == 750 AND x4 == 71 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 3 AND x4 == 71 THEN target == 0"
+  expl: "IF x4 == 71 AND x2 == 3 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 13 AND x3 == 3250 AND x4 == 57 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 13 AND x4 == 57 THEN target == 0"
+  expl: "IF x4 == 57 AND x2 == 13 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 6 AND x3 == 1500 AND x4 == 71 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 6 AND x4 == 71 THEN target == 0"
+  expl: "IF x4 == 71 AND x2 == 6 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 2 AND x3 == 500 AND x4 == 21 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 2 AND x4 == 21 AND x3 == 500 THEN target == 1"
+  expl: "IF x3 == 500 AND x4 == 21 AND x2 == 2 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 15 AND x3 == 3750 AND x4 == 57 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 38 AND x3 == 1000 THEN target == 1"
+  expl: "IF x3 == 1000 AND x4 == 38 AND x2 == 4 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 5 AND x3 == 1250 AND x4 == 40 THEN target == 1"
+  dexp: "IF x1 == 16 AND x2 == 5 AND x4 == 40 AND x3 == 1250 THEN target == 1"
+  expl: "IF x3 == 1250 AND x4 == 40 AND x2 == 5 AND x1 == 16 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 51 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 51 THEN target == 1"
+  expl: "IF x4 == 51 AND x2 == 2 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 31 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 31 THEN target == 0"
+  expl: "IF x4 == 31 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 4 AND x3 == 1000 AND x4 == 65 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 4 AND x4 == 65 THEN target == 0"
+  expl: "IF x4 == 65 AND x2 == 4 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 40 AND x3 == 1000 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 4 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 40 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 40 THEN target == 1"
+  expl: "IF x4 == 40 AND x2 == 3 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 5 AND x3 == 1250 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 5 AND x4 == 50 AND x3 == 1250 THEN target == 0"
+  expl: "IF x4 == 50 AND x2 == 5 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 1 AND x3 == 250 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 1 AND x4 == 14 AND x3 == 250 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 1 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 7 AND x3 == 1750 AND x4 == 72 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 7 AND x4 == 72 THEN target == 0"
+  expl: "IF x4 == 72 AND x2 == 7 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 3 AND x3 == 750 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 3 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 3 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 7 AND x3 == 1750 AND x4 == 73 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 7 AND x4 == 73 THEN target == 0"
+  expl: "IF x4 == 73 AND x2 == 7 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 59 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 59 THEN target == 0"
+  expl: "IF x4 == 59 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 59 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 59 THEN target == 0"
+  expl: "IF x4 == 59 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 61 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 61 THEN target == 0"
+  expl: "IF x4 == 61 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 4 AND x3 == 1000 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 4 AND x4 == 40 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 4 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 10 AND x3 == 2500 AND x4 == 89 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 10 AND x4 == 89 THEN target == 0"
+  expl: "IF x4 == 89 AND x2 == 10 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 21 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 3 AND x3 == 750 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 3 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 3 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 8 AND x3 == 2000 AND x4 == 76 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 8 AND x4 == 76 THEN target == 0"
+  expl: "IF x4 == 76 AND x2 == 8 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 18 AND x2 == 2 AND x3 == 500 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 18 THEN target == 0"
+  expl: "IF x1 == 18 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 5 AND x3 == 1250 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 8 AND x3 == 2000 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 34 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 34 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 34 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 5 AND x3 == 1250 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 5 AND x4 == 64 AND x3 == 1250 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 5 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 41 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 41 AND x3 == 750 THEN target == 1"
+  expl: "IF x3 == 750 AND x4 == 41 AND x2 == 3 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 1 AND x3 == 250 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 1 AND x4 == 16 AND x3 == 250 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 1 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 4 AND x3 == 1000 AND x4 == 45 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 4 AND x4 == 45 THEN target == 0"
+  expl: "IF x4 == 45 AND x2 == 4 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 2 AND x3 == 500 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 2 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 2 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 2 AND x3 == 500 AND x4 == 27 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 2 AND x4 == 27 THEN target == 0"
+  expl: "IF x4 == 27 AND x2 == 2 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 57 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 57 AND x3 == 1000 THEN target == 0"
+  expl: "IF x4 == 57 AND x2 == 4 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 5 AND x3 == 1250 AND x4 == 60 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 5 AND x4 == 60 THEN target == 0"
+  expl: "IF x4 == 60 AND x2 == 5 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 2 AND x3 == 500 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 5 AND x3 == 1250 AND x4 == 74 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 5 AND x4 == 74 THEN target == 0"
+  expl: "IF x4 == 74 AND x2 == 5 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 40 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 2 AND x3 == 500 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 2 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 2 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 7 AND x3 == 1750 AND x4 == 87 THEN target == 1"
+  dexp: "IF x1 == 16 AND x2 == 7 AND x4 == 87 THEN target == 1"
+  expl: "IF x4 == 87 AND x2 == 7 AND x1 == 16 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 4 AND x3 == 1000 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 4 AND x4 == 64 AND x3 == 1000 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 4 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 2 AND x3 == 500 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 14 AND x2 == 2 AND x4 == 35 AND x3 == 500 THEN target == 1"
+  expl: "IF x3 == 500 AND x4 == 35 AND x2 == 2 AND x1 == 14 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 7 AND x3 == 1750 AND x4 == 93 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 7 AND x4 == 93 THEN target == 0"
+  expl: "IF x4 == 93 AND x2 == 7 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 25 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 25 THEN target == 0"
+  expl: "IF x4 == 25 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 14 AND x3 == 3500 AND x4 == 93 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 18 AND x2 == 8 AND x3 == 2000 AND x4 == 95 THEN target == 0"
+  dexp: "IF x1 == 18 THEN target == 0"
+  expl: "IF x1 == 18 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 46 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 76 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 76 THEN target == 0"
+  expl: "IF x4 == 76 AND x2 == 3 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 12 AND x3 == 3000 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 3 AND x3 == 750 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 3 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 3 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 2 AND x3 == 500 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 8 AND x3 == 2000 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 50 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 50 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 3 AND x3 == 750 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 3 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 3 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 2 AND x3 == 500 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 1 AND x3 == 250 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 1 AND x4 == 21 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 1 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 5 AND x3 == 1250 AND x4 == 60 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 5 AND x4 == 60 THEN target == 0"
+  expl: "IF x4 == 60 AND x2 == 5 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 4 AND x3 == 1000 AND x4 == 45 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 4 AND x3 == 1000 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 4 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 4 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 22 AND x2 == 1 AND x3 == 250 AND x4 == 22 THEN target == 1"
+  dexp: "IF x1 == 22 AND x2 == 1 AND x4 == 22 THEN target == 1"
+  expl: "IF x4 == 22 AND x2 == 1 AND x1 == 22 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 70 THEN target == 0"
+  expl: "IF x4 == 70 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 5 AND x3 == 1250 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 41 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 83 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 83 THEN target == 0"
+  expl: "IF x4 == 83 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 26 AND x2 == 5 AND x3 == 1250 AND x4 == 49 THEN target == 1"
+  dexp: "IF x1 == 26 THEN target == 1"
+  expl: "IF x1 == 26 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 6 AND x3 == 1500 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 1 AND x3 == 250 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 4 AND x3 == 1000 AND x4 == 53 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 6 AND x3 == 1500 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 6 AND x4 == 86 THEN target == 0"
+  expl: "IF x4 == 86 AND x2 == 6 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 48 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 41 THEN target == 1"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 41 THEN target == 1"
+  expl: "IF x4 == 41 AND x2 == 2 AND x1 == 21 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 3 AND x3 == 750 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 3 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 3 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 2 AND x3 == 500 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 2 AND x4 == 70 THEN target == 0"
+  expl: "IF x4 == 70 AND x2 == 2 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 3 AND x3 == 750 AND x4 == 70 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 3 AND x4 == 70 THEN target == 0"
+  expl: "IF x4 == 70 AND x2 == 3 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 4 AND x3 == 1000 AND x4 == 87 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 89 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 2 AND x3 == 500 AND x4 == 87 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 35 AND x2 == 3 AND x3 == 750 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 35 THEN target == 0"
+  expl: "IF x1 == 35 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 38 AND x2 == 1 AND x3 == 250 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 38 THEN target == 0"
+  expl: "IF x1 == 38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 40 AND x2 == 1 AND x3 == 250 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 40 THEN target == 0"
+  expl: "IF x1 == 40 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 74 AND x2 == 1 AND x3 == 250 AND x4 == 74 THEN target == 0"
+  dexp: "IF x1 == 74 THEN target == 0"
+  expl: "IF x1 == 74 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 43 AND x3 == 10750 AND x4 == 86 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 43 THEN target == 1"
+  expl: "IF x2 == 43 AND x1 == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 6 AND x2 == 22 AND x3 == 5500 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 6 AND x2 == 22 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 22 AND x1 == 6 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 34 AND x3 == 8500 AND x4 == 77 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 34 AND x4 == 77 THEN target == 0"
+  expl: "IF x4 == 77 AND x2 == 34 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 44 AND x3 == 11000 AND x4 == 98 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 44 AND x4 == 98 THEN target == 0"
+  expl: "IF x4 == 98 AND x2 == 44 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 0 AND x2 == 26 AND x3 == 6500 AND x4 == 76 THEN target == 1"
+  dexp: "IF x1 == 0 AND x2 == 26 THEN target == 1"
+  expl: "IF x2 == 26 AND x1 == 0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 41 AND x3 == 10250 AND x4 == 98 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 41 THEN target == 1"
+  expl: "IF x2 == 41 AND x1 == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 21 AND x3 == 5250 AND x4 == 42 THEN target == 1"
+  dexp: "IF x1 == 3 AND x2 == 21 THEN target == 1"
+  expl: "IF x2 == 21 AND x1 == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 11 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 21 AND x3 == 5250 AND x4 == 52 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 21 THEN target == 1"
+  expl: "IF x2 == 21 AND x1 == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 13 AND x3 == 3250 AND x4 == 32 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 13 AND x4 == 32 THEN target == 1"
+  expl: "IF x4 == 32 AND x2 == 13 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 11 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 11 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 14 AND x3 == 3500 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 14 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 14 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 16 AND x3 == 4000 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 16 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 16 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 5 AND x3 == 1250 AND x4 == 12 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 5 AND x4 == 12 THEN target == 0"
+  expl: "IF x4 == 12 AND x2 == 5 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 33 AND x3 == 8250 AND x4 == 98 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 33 THEN target == 1"
+  expl: "IF x2 == 33 AND x1 == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 10 AND x3 == 2500 AND x4 == 33 THEN target == 1"
+  dexp: "IF x1 == 3 AND x2 == 10 AND x4 == 33 THEN target == 1"
+  expl: "IF x4 == 33 AND x2 == 10 AND x1 == 3 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 40 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 40 THEN target == 1"
+  expl: "IF x4 == 40 AND x2 == 11 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 11 AND x3 == 2750 AND x4 == 41 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 11 AND x4 == 41 THEN target == 1"
+  expl: "IF x4 == 41 AND x2 == 11 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 13 AND x3 == 3250 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 13 AND x4 == 39 THEN target == 0"
+  expl: "IF x4 == 39 AND x2 == 13 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 10 AND x3 == 2500 AND x4 == 43 THEN target == 1"
+  dexp: "IF x1 == 1 AND x2 == 10 AND x4 == 43 THEN target == 1"
+  expl: "IF x4 == 43 AND x2 == 10 AND x1 == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 11 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 11 THEN target == 0"
+  expl: "IF x4 == 11 AND x2 == 4 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 15 AND x3 == 3750 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 15 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 15 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 5 AND x2 == 24 AND x3 == 6000 AND x4 == 79 THEN target == 0"
+  dexp: "IF x1 == 5 AND x2 == 24 THEN target == 0"
+  expl: "IF x2 == 24 AND x1 == 5 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 8 AND x3 == 2000 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 8 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 8 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 26 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 26 THEN target == 1"
+  expl: "IF x4 == 26 AND x2 == 6 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 32 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 32 THEN target == 1"
+  expl: "IF x4 == 32 AND x2 == 7 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 8 AND x3 == 2000 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 8 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 8 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 10 AND x3 == 2500 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 10 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 10 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 16 AND x3 == 4000 AND x4 == 70 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 16 AND x4 == 70 THEN target == 1"
+  expl: "IF x4 == 70 AND x2 == 16 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 1 AND x2 == 14 AND x3 == 3500 AND x4 == 95 THEN target == 0"
+  dexp: "IF x1 == 1 AND x2 == 14 AND x4 == 95 THEN target == 0"
+  expl: "IF x4 == 95 AND x2 == 14 AND x1 == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 14 AND x3 == 3500 AND x4 == 48 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 14 AND x4 == 48 THEN target == 0"
+  expl: "IF x4 == 48 AND x2 == 14 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 11 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 11 THEN target == 0"
+  expl: "IF x4 == 11 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 12 AND x3 == 3000 AND x4 == 70 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 12 AND x4 == 70 THEN target == 1"
+  expl: "IF x4 == 70 AND x2 == 12 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 32 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 32 THEN target == 1"
+  expl: "IF x4 == 32 AND x2 == 7 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 4 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 35 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 35 THEN target == 1"
+  expl: "IF x4 == 35 AND x2 == 6 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 6 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 4 AND x3 == 1000 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 4 AND x4 == 23 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 4 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 18 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 18 THEN target == 0"
+  expl: "IF x4 == 18 AND x2 == 4 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 5 AND x2 == 6 AND x3 == 1500 AND x4 == 28 THEN target == 1"
+  dexp: "IF x1 == 5 AND x2 == 6 AND x4 == 28 THEN target == 1"
+  expl: "IF x4 == 28 AND x2 == 6 AND x1 == 5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 30 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 30 THEN target == 0"
+  expl: "IF x4 == 30 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 5 AND x3 == 1250 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 5 AND x4 == 14 AND x3 == 1250 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 5 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 8 AND x3 == 2000 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 8 AND x4 == 50 THEN target == 0"
+  expl: "IF x4 == 50 AND x2 == 8 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 11 AND x3 == 2750 AND x4 == 64 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 11 AND x4 == 64 THEN target == 1"
+  expl: "IF x4 == 64 AND x2 == 11 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 9 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 16 AND x3 == 4000 AND x4 == 98 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 16 AND x4 == 98 THEN target == 1"
+  expl: "IF x4 == 98 AND x2 == 16 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 10 AND x3 == 2500 AND x4 == 47 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 10 AND x4 == 47 THEN target == 0"
+  expl: "IF x4 == 47 AND x2 == 10 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 14 AND x3 == 3500 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 14 AND x4 == 86 THEN target == 0"
+  expl: "IF x4 == 86 AND x2 == 14 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 9 AND x3 == 2250 AND x4 == 75 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 9 AND x4 == 75 THEN target == 0"
+  expl: "IF x4 == 75 AND x2 == 9 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 9 AND x3 == 2250 AND x4 == 55 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 9 AND x4 == 55 THEN target == 0"
+  expl: "IF x4 == 55 AND x2 == 9 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 45 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 45 THEN target == 0"
+  expl: "IF x4 == 45 AND x2 == 6 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 6 AND x3 == 1500 AND x4 == 47 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 6 AND x4 == 47 THEN target == 0"
+  expl: "IF x4 == 47 AND x2 == 6 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 6 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 4 AND x3 == 1000 AND x4 == 29 THEN target == 1"
+  dexp: "IF x1 == 3 AND x2 == 4 AND x4 == 29 THEN target == 1"
+  expl: "IF x4 == 29 AND x2 == 4 AND x1 == 3 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 9 AND x3 == 2250 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 9 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 9 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 5 AND x3 == 1250 AND x4 == 18 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 5 AND x4 == 18 THEN target == 0"
+  expl: "IF x4 == 18 AND x2 == 5 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 21 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 11 AND x3 == 2750 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 11 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 11 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 11 AND x3 == 2750 AND x4 == 49 THEN target == 1"
+  dexp: "IF x1 == 9 AND x2 == 11 AND x4 == 49 THEN target == 1"
+  expl: "IF x4 == 49 AND x2 == 11 AND x1 == 9 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 5 AND x2 == 11 AND x3 == 2750 AND x4 == 75 THEN target == 1"
+  dexp: "IF x1 == 5 AND x2 == 11 AND x4 == 75 THEN target == 1"
+  expl: "IF x4 == 75 AND x2 == 11 AND x1 == 5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 5 AND x3 == 1250 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 5 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 5 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 3 AND x2 == 1 AND x3 == 250 AND x4 == 3 THEN target == 0"
+  dexp: "IF x1 == 3 AND x2 == 1 AND x4 == 3 THEN target == 0"
+  expl: "IF x4 == 3 AND x2 == 1 AND x1 == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 43 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 43 THEN target == 0"
+  expl: "IF x4 == 43 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 24 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 24 THEN target == 0"
+  expl: "IF x4 == 24 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 12 AND x2 == 11 AND x3 == 2750 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 12 THEN target == 0"
+  expl: "IF x1 == 12 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 6 AND x3 == 1500 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 6 AND x4 == 46 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 6 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 3 AND x3 == 750 AND x4 == 14 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 3 AND x4 == 14 THEN target == 0"
+  expl: "IF x4 == 14 AND x2 == 3 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 8 AND x3 == 2000 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 8 AND x4 == 26 AND x3 == 2000 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 8 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 13 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 13 THEN target == 0"
+  expl: "IF x4 == 13 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 11 AND x3 == 2750 AND x4 == 95 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 11 AND x4 == 95 THEN target == 0"
+  expl: "IF x4 == 95 AND x2 == 11 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 7 AND x3 == 1750 AND x4 == 77 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 7 AND x4 == 77 THEN target == 0"
+  expl: "IF x4 == 77 AND x2 == 7 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 7 AND x3 == 1750 AND x4 == 62 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 7 AND x4 == 62 THEN target == 0"
+  expl: "IF x4 == 62 AND x2 == 7 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 4 AND x3 == 1000 AND x4 == 34 THEN target == 1"
+  dexp: "IF x1 == 4 AND x2 == 4 AND x4 == 34 THEN target == 1"
+  expl: "IF x4 == 34 AND x2 == 4 AND x1 == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 6 AND x3 == 1500 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 6 AND x4 == 28 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 6 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 13 AND x2 == 3 AND x3 == 750 AND x4 == 14 THEN target == 1"
+  dexp: "IF x1 == 13 AND x2 == 3 AND x4 == 14 THEN target == 1"
+  expl: "IF x4 == 14 AND x2 == 3 AND x1 == 13 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 5 AND x3 == 1250 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 5 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 5 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 9 AND x2 == 9 AND x3 == 2250 AND x4 == 54 THEN target == 0"
+  dexp: "IF x1 == 9 AND x2 == 9 AND x4 == 54 THEN target == 0"
+  expl: "IF x4 == 54 AND x2 == 9 AND x1 == 9 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 5 AND x3 == 1250 AND x4 == 63 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 5 AND x4 == 63 THEN target == 0"
+  expl: "IF x4 == 63 AND x2 == 5 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 11 AND x3 == 2750 AND x4 == 89 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 11 AND x4 == 89 THEN target == 0"
+  expl: "IF x4 == 89 AND x2 == 11 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 8 AND x2 == 9 AND x3 == 2250 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 8 AND x2 == 9 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 9 AND x1 == 8 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 22 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 22 THEN target == 0"
+  expl: "IF x4 == 22 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 6 AND x2 == 3 AND x3 == 750 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 6 AND x2 == 3 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 3 AND x1 == 6 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 12 AND x2 == 15 AND x3 == 3750 AND x4 == 71 THEN target == 0"
+  dexp: "IF x1 == 12 THEN target == 0"
+  expl: "IF x1 == 12 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 13 AND x2 == 3 AND x3 == 750 AND x4 == 16 THEN target == 0"
+  dexp: "IF x1 == 13 AND x2 == 3 AND x4 == 16 THEN target == 0"
+  expl: "IF x4 == 16 AND x2 == 3 AND x1 == 13 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 16 AND x3 == 4000 AND x4 == 89 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 16 AND x4 == 89 THEN target == 0"
+  expl: "IF x4 == 89 AND x2 == 16 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 7 AND x3 == 1750 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 7 AND x4 == 35 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 7 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 27 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 27 THEN target == 0"
+  expl: "IF x4 == 27 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 9 AND x3 == 2250 AND x4 == 89 THEN target == 1"
+  dexp: "IF x1 == 7 AND x2 == 9 AND x4 == 89 THEN target == 1"
+  expl: "IF x4 == 89 AND x2 == 9 AND x1 == 7 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 8 AND x3 == 2000 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 8 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 8 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 7 AND x2 == 5 AND x3 == 1250 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 7 AND x2 == 5 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 5 AND x1 == 7 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 6 AND x3 == 1500 AND x4 == 41 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 6 AND x4 == 41 THEN target == 0"
+  expl: "IF x4 == 41 AND x2 == 6 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 10 AND x2 == 5 AND x3 == 1250 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 10 THEN target == 0"
+  expl: "IF x1 == 10 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 2 AND x3 == 500 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 2 AND x4 == 33 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 2 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 8 AND x3 == 2000 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 8 AND x4 == 46 AND x3 == 2000 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 8 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 5 AND x3 == 1250 AND x4 == 27 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 5 AND x4 == 27 THEN target == 0"
+  expl: "IF x4 == 27 AND x2 == 5 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 30 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 30 THEN target == 0"
+  expl: "IF x4 == 30 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 21 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 21 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 21 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 16 AND x3 == 4000 AND x4 == 77 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 16 AND x4 == 77 THEN target == 0"
+  expl: "IF x4 == 77 AND x2 == 16 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 31 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 31 THEN target == 0"
+  expl: "IF x4 == 31 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 3 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 7 AND x3 == 1750 AND x4 == 45 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 7 AND x4 == 45 THEN target == 0"
+  expl: "IF x4 == 45 AND x2 == 7 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 15 AND x2 == 5 AND x3 == 1250 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 15 THEN target == 0"
+  expl: "IF x1 == 15 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 8 AND x3 == 2000 AND x4 == 72 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 8 AND x4 == 72 THEN target == 0"
+  expl: "IF x4 == 72 AND x2 == 8 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 75 THEN target == 1"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 75 THEN target == 1"
+  expl: "IF x4 == 75 AND x2 == 3 AND x1 == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 2 AND x2 == 3 AND x3 == 750 AND x4 == 77 THEN target == 0"
+  dexp: "IF x1 == 2 AND x2 == 3 AND x4 == 77 THEN target == 0"
+  expl: "IF x4 == 77 AND x2 == 3 AND x1 == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 15 AND x3 == 3750 AND x4 == 87 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 15 AND x4 == 87 THEN target == 0"
+  expl: "IF x4 == 87 AND x2 == 15 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 14 AND x3 == 3500 AND x4 == 83 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 14 AND x4 == 83 THEN target == 0"
+  expl: "IF x4 == 83 AND x2 == 14 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 10 AND x3 == 2500 AND x4 == 62 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 10 AND x4 == 62 THEN target == 0"
+  expl: "IF x4 == 62 AND x2 == 10 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 23 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 23 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 23 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 19 AND x3 == 4750 AND x4 == 62 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 7 AND x3 == 1750 AND x4 == 75 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 7 AND x4 == 75 THEN target == 1"
+  expl: "IF x4 == 75 AND x2 == 7 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 28 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 28 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 28 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 20 AND x2 == 14 AND x3 == 3500 AND x4 == 69 THEN target == 1"
+  dexp: "IF x1 == 20 AND x2 == 14 AND x4 == 69 THEN target == 1"
+  expl: "IF x4 == 69 AND x2 == 14 AND x1 == 20 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 4 AND x2 == 2 AND x3 == 500 AND x4 == 46 THEN target == 0"
+  dexp: "IF x1 == 4 AND x2 == 2 AND x4 == 46 THEN target == 0"
+  expl: "IF x4 == 46 AND x2 == 2 AND x1 == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 25 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 25 THEN target == 0"
+  expl: "IF x4 == 25 AND x2 == 2 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 3 AND x3 == 750 AND x4 == 37 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 3 AND x4 == 37 THEN target == 0"
+  expl: "IF x4 == 37 AND x2 == 3 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 4 AND x3 == 1000 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 4 AND x4 == 33 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 4 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 7 AND x3 == 1750 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 7 AND x4 == 38 THEN target == 0"
+  expl: "IF x4 == 38 AND x2 == 7 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 13 AND x2 == 7 AND x3 == 1750 AND x4 == 76 THEN target == 0"
+  dexp: "IF x1 == 13 AND x2 == 7 AND x4 == 76 THEN target == 0"
+  expl: "IF x4 == 76 AND x2 == 7 AND x1 == 13 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 6 AND x3 == 1500 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 6 AND x4 == 50 AND x3 == 1500 THEN target == 0"
+  expl: "IF x4 == 50 AND x2 == 6 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 33 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 17 AND x2 == 7 AND x3 == 1750 AND x4 == 58 THEN target == 1"
+  dexp: "IF x1 == 17 THEN target == 1"
+  expl: "IF x1 == 17 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 35 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 7 AND x3 == 1750 AND x4 == 64 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 7 AND x4 == 64 THEN target == 0"
+  expl: "IF x4 == 64 AND x2 == 7 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 35 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 35 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 2 AND x3 == 500 AND x4 == 29 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 2 AND x4 == 29 AND x3 == 500 THEN target == 0"
+  expl: "IF x4 == 29 AND x2 == 2 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 4 AND x3 == 1000 AND x4 == 74 THEN target == 0"
+  dexp: "IF x1 == 11 AND x2 == 4 AND x4 == 74 THEN target == 0"
+  expl: "IF x4 == 74 AND x2 == 4 AND x1 == 11 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 11 AND x2 == 2 AND x3 == 500 AND x4 == 38 THEN target == 1"
+  dexp: "IF x1 == 11 AND x2 == 2 AND x4 == 38 THEN target == 1"
+  expl: "IF x4 == 38 AND x2 == 2 AND x1 == 11 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 6 AND x3 == 1500 AND x4 == 48 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 6 AND x4 == 48 THEN target == 0"
+  expl: "IF x4 == 48 AND x2 == 6 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 6 AND x3 == 1500 AND x4 == 45 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 6 AND x3 == 1500 AND x4 == 81 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 6 AND x4 == 81 THEN target == 0"
+  expl: "IF x4 == 81 AND x2 == 6 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 4 AND x3 == 1000 AND x4 == 58 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 4 AND x4 == 58 THEN target == 0"
+  expl: "IF x4 == 58 AND x2 == 4 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 5 AND x3 == 1250 AND x4 == 71 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 5 AND x4 == 71 AND x3 == 1250 THEN target == 0"
+  expl: "IF x4 == 71 AND x2 == 5 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 26 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 26 THEN target == 0"
+  expl: "IF x4 == 26 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 8 AND x3 == 2000 AND x4 == 69 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 35 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 3 AND x3 == 750 AND x4 == 40 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 3 AND x4 == 40 THEN target == 0"
+  expl: "IF x4 == 40 AND x2 == 3 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 25 AND x2 == 6 AND x3 == 1500 AND x4 == 50 THEN target == 0"
+  dexp: "IF x1 == 25 THEN target == 0"
+  expl: "IF x1 == 25 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 33 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 33 THEN target == 0"
+  expl: "IF x4 == 33 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 14 AND x2 == 3 AND x3 == 750 AND x4 == 79 THEN target == 0"
+  dexp: "IF x1 == 14 AND x2 == 3 AND x4 == 79 AND x3 == 750 THEN target == 0"
+  expl: "IF x4 == 79 AND x2 == 3 AND x1 == 14 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 4 AND x3 == 1000 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 7 AND x3 == 1750 AND x4 == 88 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 16 AND x2 == 3 AND x3 == 750 AND x4 == 86 THEN target == 0"
+  dexp: "IF x1 == 16 AND x2 == 3 AND x4 == 86 THEN target == 0"
+  expl: "IF x4 == 86 AND x2 == 3 AND x1 == 16 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 2 AND x3 == 500 AND x4 == 38 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 21 AND x2 == 2 AND x3 == 500 AND x4 == 52 THEN target == 0"
+  dexp: "IF x1 == 21 AND x2 == 2 AND x4 == 52 THEN target == 0"
+  expl: "IF x4 == 52 AND x2 == 2 AND x1 == 21 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF x1 == 23 AND x2 == 3 AND x3 == 750 AND x4 == 62 THEN target == 0"
+  dexp: "IF x1 == 23 THEN target == 0"
+  expl: "IF x1 == 23 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 39 AND x2 == 1 AND x3 == 250 AND x4 == 39 THEN target == 0"
+  dexp: "IF x1 == 39 THEN target == 0"
+  expl: "IF x1 == 39 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF x1 == 72 AND x2 == 1 AND x3 == 250 AND x4 == 72 THEN target == 0"
+  dexp: "IF x1 == 72 THEN target == 0"
+  expl: "IF x1 == 72 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 502
+tot # of expls: 502
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.77
+avg expl sz: 2.77
+max expl sz: 2.77
+Max expl sz: 4
+
+tot time: 0.14
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   1.64%
+max dxrd:  25.00%

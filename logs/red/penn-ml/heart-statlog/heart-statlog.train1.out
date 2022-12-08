@@ -1,0 +1,1800 @@
+MODEL:
+IF age == 29.0 THEN target == 0
+IF age == 34.0 THEN target == 0
+IF age == 37.0 THEN target == 0
+IF age == 38.0 THEN target == 1
+IF age == 41.0 THEN target == 0
+IF age == 45.0 THEN target == 0
+IF age == 55.0 THEN target == 1
+IF age == 68.0 THEN target == 0
+IF age == 71.0 THEN target == 0
+IF age == 74.0 THEN target == 0
+IF age == 76.0 THEN target == 0
+IF age == 77.0 THEN target == 1
+IF resting_blood_pressure == 94.0 THEN target == 0
+IF resting_blood_pressure == 101.0 THEN target == 0
+IF resting_blood_pressure == 102.0 THEN target == 0
+IF resting_blood_pressure == 105.0 THEN target == 0
+IF resting_blood_pressure == 106.0 THEN target == 0
+IF resting_blood_pressure == 115.0 THEN target == 0
+IF resting_blood_pressure == 123.0 THEN target == 1
+IF resting_blood_pressure == 126.0 THEN target == 1
+IF resting_blood_pressure == 129.0 THEN target == 0
+IF resting_blood_pressure == 142.0 THEN target == 0
+IF resting_blood_pressure == 144.0 THEN target == 1
+IF resting_blood_pressure == 146.0 THEN target == 1
+IF resting_blood_pressure == 148.0 THEN target == 0
+IF resting_blood_pressure == 155.0 THEN target == 0
+IF resting_blood_pressure == 156.0 THEN target == 0
+IF age == 70.0 THEN target == 1
+IF resting_blood_pressure == 158.0 THEN target == 1
+IF resting_blood_pressure == 165.0 THEN target == 1
+IF resting_blood_pressure == 170.0 THEN target == 1
+IF resting_blood_pressure == 172.0 THEN target == 0
+IF resting_blood_pressure == 174.0 THEN target == 1
+IF resting_blood_pressure == 192.0 THEN target == 1
+IF serum_cholestoral == 126.0 THEN target == 0
+IF serum_cholestoral == 141.0 THEN target == 0
+IF serum_cholestoral == 149.0 THEN target == 1
+IF serum_cholestoral == 164.0 THEN target == 1
+IF serum_cholestoral == 167.0 THEN target == 1
+IF age == 40.0 THEN target == 0
+IF serum_cholestoral == 168.0 THEN target == 0
+IF serum_cholestoral == 175.0 THEN target == 0
+IF serum_cholestoral == 178.0 THEN target == 0
+IF serum_cholestoral == 180.0 THEN target == 0
+IF serum_cholestoral == 184.0 THEN target == 1
+IF serum_cholestoral == 186.0 THEN target == 0
+IF serum_cholestoral == 188.0 THEN target == 1
+IF age == 49.0 THEN target == 0
+IF resting_blood_pressure == 134.0 THEN target == 1
+IF serum_cholestoral == 192.0 THEN target == 0
+IF serum_cholestoral == 193.0 THEN target == 0
+IF serum_cholestoral == 195.0 THEN target == 0
+IF serum_cholestoral == 196.0 THEN target == 0
+IF resting_blood_pressure == 136.0 THEN target == 1
+IF age == 42.0 THEN target == 0
+IF serum_cholestoral == 201.0 THEN target == 0
+IF serum_cholestoral == 203.0 THEN target == 1
+IF age == 53.0 THEN target == 0
+IF serum_cholestoral == 197.0 THEN target == 1
+IF serum_cholestoral == 204.0 THEN target == 0
+IF resting_blood_pressure == 112.0 THEN target == 1
+IF age == 44.0 THEN target == 0
+IF resting_blood_pressure == 118.0 THEN target == 1
+IF age == 39.0 THEN target == 0
+IF serum_cholestoral == 206.0 THEN target == 1
+IF serum_cholestoral == 208.0 THEN target == 0
+IF serum_cholestoral == 213.0 THEN target == 0
+IF serum_cholestoral == 214.0 THEN target == 0
+IF serum_cholestoral == 221.0 THEN target == 0
+IF serum_cholestoral == 222.0 THEN target == 0
+IF resting_blood_pressure == 122.0 THEN target == 1
+IF serum_cholestoral == 224.0 THEN target == 1
+IF serum_cholestoral == 225.0 THEN target == 1
+IF serum_cholestoral == 226.0 THEN target == 0
+IF serum_cholestoral == 229.0 THEN target == 1
+IF serum_cholestoral == 231.0 THEN target == 0
+IF serum_cholestoral == 232.0 THEN target == 0
+IF serum_cholestoral == 236.0 THEN target == 0
+IF serum_cholestoral == 237.0 THEN target == 1
+IF serum_cholestoral == 240.0 THEN target == 0
+IF age == 60.0 THEN target == 1
+IF serum_cholestoral == 246.0 THEN target == 1
+IF serum_cholestoral == 249.0 THEN target == 1
+IF serum_cholestoral == 252.0 THEN target == 0
+IF serum_cholestoral == 255.0 THEN target == 0
+IF resting_blood_pressure == 124.0 THEN target == 1
+IF chest == 2.0 THEN target == 0
+IF age == 56.0 THEN target == 1
+IF serum_cholestoral == 244.0 THEN target == 1
+IF age == 62.0 THEN target == 0
+IF serum_cholestoral == 256.0 THEN target == 1
+IF age == 48.0 THEN target == 0
+IF serum_cholestoral == 257.0 THEN target == 0
+IF age == 47.0 THEN target == 1
+IF serum_cholestoral == 259.0 THEN target == 1
+IF resting_blood_pressure == 128.0 THEN target == 0
+IF serum_cholestoral == 260.0 THEN target == 1
+IF serum_cholestoral == 261.0 THEN target == 0
+IF serum_cholestoral == 267.0 THEN target == 0
+IF serum_cholestoral == 269.0 THEN target == 1
+IF resting_blood_pressure == 108.0 THEN target == 0
+IF serum_cholestoral == 271.0 THEN target == 0
+IF serum_cholestoral == 274.0 THEN target == 1
+IF resting_blood_pressure == 152.0 THEN target == 0
+IF age == 52.0 THEN target == 1
+IF age == 67.0 THEN target == 1
+IF serum_cholestoral == 276.0 THEN target == 1
+IF age == 57.0 THEN target == 0
+IF resting_blood_pressure == 132.0 THEN target == 1
+IF serum_cholestoral == 207.0 THEN target == 1
+IF serum_cholestoral == 282.0 THEN target == 1
+IF resting_blood_pressure == 138.0 THEN target == 0
+IF age == 46.0 THEN target == 1
+IF serum_cholestoral == 283.0 THEN target == 0
+IF serum_cholestoral == 295.0 THEN target == 0
+IF serum_cholestoral == 298.0 THEN target == 1
+IF serum_cholestoral == 299.0 THEN target == 1
+IF serum_cholestoral == 300.0 THEN target == 1
+IF resting_blood_pressure == 125.0 THEN target == 0
+IF serum_cholestoral == 273.0 THEN target == 1
+IF chest == 1.0 THEN target == 0
+IF age == 63.0 THEN target == 1
+IF age == 69.0 THEN target == 1
+IF resting_blood_pressure == 145.0 THEN target == 1
+IF resting_blood_pressure == 160.0 THEN target == 0
+IF age == 66.0 THEN target == 1
+IF serum_cholestoral == 212.0 THEN target == 0
+IF serum_cholestoral == 233.0 THEN target == 1
+IF serum_cholestoral == 270.0 THEN target == 1
+IF serum_cholestoral == 303.0 THEN target == 0
+IF serum_cholestoral == 304.0 THEN target == 0
+IF serum_cholestoral == 305.0 THEN target == 1
+IF age == 51.0 THEN target == 0
+IF serum_cholestoral == 313.0 THEN target == 0
+IF age == 64.0 THEN target == 1
+IF chest == 3.0 THEN target == 0
+IF age == 43.0 THEN target == 1
+IF age == 61.0 THEN target == 1
+IF sex == 0.0 THEN target == 0
+IF age == 50.0 THEN target == 1
+IF age == 58.0 THEN target == 1
+IF resting_blood_pressure == 110.0 THEN target == 1
+IF age == 54.0 THEN target == 0
+IF resting_blood_pressure == 120.0 THEN target == 0
+IF age != 59.0 THEN target == 1
+IF resting_blood_pressure == 135.0 THEN target == 0
+IF age == 59.0 THEN target == 1
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 381
+avg # of vars: 381.00
+max # of vars: 381
+min # of clauses: 17042
+avg # of clauses: 17048.00
+max # of clauses: 17054
+
+EXPLANATIONS:
+  inst: "IF age == 70.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 322.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 109.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.4 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 70.0 AND resting_blood_pressure == 130.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 130.0 AND age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 115.0 AND serum_cholestoral == 564.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 115.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 115.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 261.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 141.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.3 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 261.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 261.0 AND resting_blood_pressure == 124.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 263.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 105.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 263.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 263.0 AND resting_blood_pressure == 128.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 74.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 269.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 121.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.2 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 74.0 THEN target == 0"
+  expl: "IF age == 74.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 177.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 140.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 177.0 AND chest == 4.0 AND sex == 1.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 177.0 AND resting_blood_pressure == 120.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 256.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 142.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 256.0 AND chest == 3.0 THEN target == 1"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 256.0 AND resting_blood_pressure == 130.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 239.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 142.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 239.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 239.0 AND resting_blood_pressure == 110.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 293.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 170.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 293.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 293.0 AND resting_blood_pressure == 140.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 407.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 154.0 AND exercise_induced_angina == 0.0 AND oldpeak == 4.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 407.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 407.0 AND resting_blood_pressure == 150.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 234.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 161.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.5 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 234.0 AND chest == 4.0 AND sex == 1.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 234.0 AND resting_blood_pressure == 135.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 142.0 AND serum_cholestoral == 226.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 111.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 142.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 142.0 AND age == 53.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 235.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 180.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 235.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 235.0 AND resting_blood_pressure == 140.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 234.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 145.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.6 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 234.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 234.0 AND resting_blood_pressure == 134.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 303.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 159.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 303.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 303.0 AND resting_blood_pressure == 128.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 71.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 149.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 71.0 THEN target == 0"
+  expl: "IF age == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 311.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 120.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 311.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 311.0 AND resting_blood_pressure == 140.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 203.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 155.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.1 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 203.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 203.0 AND resting_blood_pressure == 140.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 211.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 144.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 211.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 211.0 AND resting_blood_pressure == 110.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 40.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 199.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 178.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.4 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 40.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 199.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 199.0 AND resting_blood_pressure == 140.0 AND age == 40.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 229.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 129.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.6 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 229.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 229.0 AND resting_blood_pressure == 120.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 245.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 180.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 245.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 245.0 AND resting_blood_pressure == 130.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 115.0 AND serum_cholestoral == 303.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 181.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 115.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 115.0 AND age == 43.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 204.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 143.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.1 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 47.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 204.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 204.0 AND resting_blood_pressure == 112.0 AND age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 288.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 159.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 288.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF chest == 2.0 AND serum_cholestoral == 288.0 AND resting_blood_pressure == 132.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 275.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 139.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 275.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 275.0 AND resting_blood_pressure == 130.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 243.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 152.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 243.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 243.0 AND resting_blood_pressure == 138.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 295.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 157.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 295.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 295.0 AND resting_blood_pressure == 120.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 230.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 165.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.5 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 230.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 230.0 AND resting_blood_pressure == 112.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 71.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 265.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 130.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 71.0 THEN target == 0"
+  expl: "IF age == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 229.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 150.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 229.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 229.0 AND resting_blood_pressure == 128.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 228.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 138.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.3 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 0"
+  dexp: "IF age == 66.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 228.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 228.0 AND resting_blood_pressure == 160.0 AND age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 37.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 215.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 170.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 37.0 THEN target == 0"
+  expl: "IF age == 37.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 170.0 AND serum_cholestoral == 326.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 140.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.4 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 170.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 170.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 144.0 AND serum_cholestoral == 200.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 126.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.9 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 144.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 144.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 256.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 150.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 256.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 256.0 AND resting_blood_pressure == 130.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 207.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 138.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.9 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 207.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 207.0 AND resting_blood_pressure == 140.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 273.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 273.0 AND chest == 1.0 THEN target == 1"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 273.0 AND resting_blood_pressure == 160.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 180.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 150.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 180.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 180.0 AND resting_blood_pressure == 130.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 122.0 AND serum_cholestoral == 222.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 186.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 122.0 AND serum_cholestoral == 222.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 222.0 AND resting_blood_pressure == 122.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 40.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 223.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 181.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 40.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 223.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 223.0 AND resting_blood_pressure == 152.0 AND age == 40.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 209.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 209.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 209.0 AND resting_blood_pressure == 124.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 233.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 179.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.4 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 233.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 233.0 AND resting_blood_pressure == 130.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 101.0 AND serum_cholestoral == 197.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 156.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 101.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 101.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 126.0 AND serum_cholestoral == 218.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 134.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 126.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 126.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 211.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 165.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 211.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 211.0 AND resting_blood_pressure == 140.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 149.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 126.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 3.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 49.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 149.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 149.0 AND resting_blood_pressure == 118.0 AND age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 197.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 177.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 197.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 197.0 AND resting_blood_pressure == 110.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 246.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 120.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 66.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 246.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 246.0 AND resting_blood_pressure == 160.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 225.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 114.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 225.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 225.0 AND resting_blood_pressure == 150.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 136.0 AND serum_cholestoral == 315.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 136.0 AND serum_cholestoral == 315.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 315.0 AND resting_blood_pressure == 136.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 205.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 184.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 205.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 205.0 AND resting_blood_pressure == 128.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 417.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 157.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 417.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 417.0 AND resting_blood_pressure == 140.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 195.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 179.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 195.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 195.0 AND resting_blood_pressure == 140.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 234.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 175.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 105.0 AND serum_cholestoral == 198.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 168.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 166.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.6 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 166.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 166.0 AND resting_blood_pressure == 138.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 178.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 96.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 178.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 178.0 AND resting_blood_pressure == 120.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 174.0 AND serum_cholestoral == 249.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 143.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 174.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 174.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 281.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 103.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 281.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 281.0 AND resting_blood_pressure == 120.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 126.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 173.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 126.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 126.0 AND resting_blood_pressure == 150.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 305.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 142.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 305.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 305.0 AND resting_blood_pressure == 130.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 226.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 169.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 226.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 226.0 AND resting_blood_pressure == 120.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0.0 AND chest == 1.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 240.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 171.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.9 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 240.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 240.0 AND resting_blood_pressure == 150.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 233.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 150.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.3 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 0"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 233.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 233.0 AND resting_blood_pressure == 145.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 276.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 112.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 276.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 276.0 AND resting_blood_pressure == 150.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 261.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 186.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 261.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 261.0 AND resting_blood_pressure == 140.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 136.0 AND serum_cholestoral == 319.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 152.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 136.0 AND serum_cholestoral == 319.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 319.0 AND resting_blood_pressure == 136.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 242.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 149.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.3 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 242.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 242.0 AND resting_blood_pressure == 118.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 243.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 152.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 47.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 243.0 AND chest == 3.0 THEN target == 1"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 243.0 AND resting_blood_pressure == 108.0 AND age == 47.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 260.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 140.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.6 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 260.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 260.0 AND resting_blood_pressure == 120.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 354.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 354.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 354.0 AND resting_blood_pressure == 120.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 156.0 AND serum_cholestoral == 245.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 143.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 70.0 AND resting_blood_pressure == 156.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 156.0 AND age == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 76.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 197.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 1.0 AND maximum_heart_rate_achieved == 116.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.1 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 76.0 THEN target == 0"
+  expl: "IF age == 76.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 106.0 AND serum_cholestoral == 223.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 142.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.3 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 106.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 106.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 142.0 AND serum_cholestoral == 309.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 147.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 104.0 AND serum_cholestoral == 208.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 148.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 94.0 AND serum_cholestoral == 199.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 179.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 39.0 AND resting_blood_pressure == 94.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 94.0 AND age == 39.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 209.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 173.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 209.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 209.0 AND resting_blood_pressure == 120.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 236.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 178.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 236.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 236.0 AND resting_blood_pressure == 120.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 146.0 AND serum_cholestoral == 218.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 105.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 146.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 146.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 198.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 130.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 35.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 198.0 AND chest == 4.0 AND sex == 1.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 198.0 AND resting_blood_pressure == 120.0 AND age == 35.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 270.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 111.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 270.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 270.0 AND resting_blood_pressure == 150.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 214.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 168.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 201.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 126.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.5 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 201.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 201.0 AND resting_blood_pressure == 110.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 148.0 AND serum_cholestoral == 244.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 178.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 148.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 148.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 208.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 140.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 208.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 208.0 AND resting_blood_pressure == 128.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 178.0 AND serum_cholestoral == 270.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 145.0 AND exercise_induced_angina == 0.0 AND oldpeak == 4.2 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 178.0 AND serum_cholestoral == 270.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 270.0 AND resting_blood_pressure == 178.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 126.0 AND serum_cholestoral == 306.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 243.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 128.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 243.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 243.0 AND resting_blood_pressure == 150.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 221.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 164.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 221.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 221.0 AND resting_blood_pressure == 140.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 330.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 169.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 330.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 330.0 AND resting_blood_pressure == 130.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 266.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 109.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 266.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 266.0 AND resting_blood_pressure == 124.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 206.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 108.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 206.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 206.0 AND resting_blood_pressure == 110.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 212.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 168.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 212.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 212.0 AND resting_blood_pressure == 125.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 275.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 118.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 47.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 275.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 275.0 AND resting_blood_pressure == 110.0 AND age == 47.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 302.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 151.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 66.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 302.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 302.0 AND resting_blood_pressure == 120.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 234.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 156.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.1 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 234.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 234.0 AND resting_blood_pressure == 100.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 313.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 133.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 313.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 313.0 AND resting_blood_pressure == 140.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 244.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.1 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 244.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF chest == 2.0 AND serum_cholestoral == 244.0 AND resting_blood_pressure == 120.0 AND age == 50.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 141.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 175.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 141.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 141.0 AND resting_blood_pressure == 108.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 237.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 71.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 237.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 237.0 AND resting_blood_pressure == 120.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 269.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 49.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 269.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 269.0 AND resting_blood_pressure == 130.0 AND age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 165.0 AND serum_cholestoral == 289.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 124.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 165.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 165.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 254.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 147.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 254.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 254.0 AND resting_blood_pressure == 130.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 274.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 166.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.5 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 274.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 274.0 AND resting_blood_pressure == 124.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 222.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 143.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 222.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 222.0 AND resting_blood_pressure == 100.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 258.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 157.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.6 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 258.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 258.0 AND resting_blood_pressure == 150.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 177.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 177.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 177.0 AND resting_blood_pressure == 140.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 160.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 138.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 180.0 AND serum_cholestoral == 327.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 1.0 AND maximum_heart_rate_achieved == 117.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 55.0 THEN target == 1"
+  expl: "IF age == 55.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 235.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 153.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 158.0 AND serum_cholestoral == 305.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 161.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 158.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 158.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 304.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 170.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 304.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 304.0 AND resting_blood_pressure == 135.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 295.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 295.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 295.0 AND resting_blood_pressure == 120.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 271.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 49.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 271.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 271.0 AND resting_blood_pressure == 134.0 AND age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 249.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 144.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 249.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 249.0 AND resting_blood_pressure == 120.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 200.0 AND serum_cholestoral == 288.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 133.0 AND exercise_induced_angina == 1.0 AND oldpeak == 4.0 AND slope == 3.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 200.0 AND serum_cholestoral == 288.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 288.0 AND resting_blood_pressure == 200.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 0.0 AND chest == 1.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 226.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 114.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.6 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 66.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 226.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 226.0 AND resting_blood_pressure == 150.0 AND age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 283.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 103.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.6 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 283.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 283.0 AND resting_blood_pressure == 130.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 188.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 139.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 49.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 188.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 188.0 AND resting_blood_pressure == 120.0 AND age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 122.0 AND serum_cholestoral == 286.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 116.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.2 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 122.0 AND serum_cholestoral == 286.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 286.0 AND resting_blood_pressure == 122.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 274.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 88.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 274.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 274.0 AND resting_blood_pressure == 152.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 360.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 151.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 360.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 360.0 AND resting_blood_pressure == 160.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 273.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 152.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.5 AND slope == 3.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 273.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 273.0 AND resting_blood_pressure == 125.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 201.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 201.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 201.0 AND resting_blood_pressure == 160.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 267.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 99.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 267.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 267.0 AND resting_blood_pressure == 120.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 136.0 AND serum_cholestoral == 196.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 169.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.1 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 136.0 AND serum_cholestoral == 196.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 196.0 AND resting_blood_pressure == 136.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 201.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 158.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 201.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 201.0 AND resting_blood_pressure == 134.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 117.0 AND serum_cholestoral == 230.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.4 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 117.0 AND serum_cholestoral == 230.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 230.0 AND resting_blood_pressure == 117.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 269.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 169.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 269.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 269.0 AND resting_blood_pressure == 108.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 212.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 132.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.1 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 66.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 212.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 212.0 AND resting_blood_pressure == 112.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 226.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 178.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 226.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 226.0 AND resting_blood_pressure == 140.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 246.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 96.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.2 AND slope == 3.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 246.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 246.0 AND resting_blood_pressure == 120.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 232.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 165.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 232.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 232.0 AND resting_blood_pressure == 150.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 142.0 AND serum_cholestoral == 177.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.4 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 142.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 142.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 277.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 277.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 277.0 AND resting_blood_pressure == 152.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 249.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 144.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 249.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 249.0 AND resting_blood_pressure == 125.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 34.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 210.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 192.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.7 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 34.0 THEN target == 0"
+  expl: "IF age == 34.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 207.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 168.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 207.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 207.0 AND resting_blood_pressure == 132.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 212.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 132.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 212.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 212.0 AND resting_blood_pressure == 145.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 271.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 182.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 271.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 271.0 AND resting_blood_pressure == 138.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 233.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 233.0 AND chest == 3.0 THEN target == 1"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 233.0 AND resting_blood_pressure == 140.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 213.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.4 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 213.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 213.0 AND resting_blood_pressure == 125.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 192.0 AND serum_cholestoral == 283.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 195.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 192.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 192.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 123.0 AND serum_cholestoral == 282.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 95.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 123.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 123.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 230.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 230.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 230.0 AND resting_blood_pressure == 112.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 40.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 167.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 114.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 40.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 167.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 167.0 AND resting_blood_pressure == 110.0 AND age == 40.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 224.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 173.0 AND exercise_induced_angina == 0.0 AND oldpeak == 3.2 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 224.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 224.0 AND resting_blood_pressure == 132.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 268.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 250.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 179.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 219.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 158.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 219.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 219.0 AND resting_blood_pressure == 120.0 AND age == 50.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 267.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 167.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 267.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 267.0 AND resting_blood_pressure == 108.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 303.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 122.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 303.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 303.0 AND resting_blood_pressure == 130.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 256.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 149.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.5 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 256.0 AND chest == 3.0 THEN target == 1"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 256.0 AND resting_blood_pressure == 130.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 105.0 AND serum_cholestoral == 204.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 105.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 105.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 217.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 111.0 AND exercise_induced_angina == 1.0 AND oldpeak == 5.6 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 55.0 THEN target == 1"
+  expl: "IF age == 55.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 308.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 170.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 193.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.9 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 193.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 193.0 AND resting_blood_pressure == 120.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 178.0 AND serum_cholestoral == 228.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 165.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 66.0 AND resting_blood_pressure == 178.0 AND serum_cholestoral == 228.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 228.0 AND resting_blood_pressure == 178.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 38.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 231.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 182.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.8 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 38.0 THEN target == 1"
+  expl: "IF age == 38.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 244.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 154.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 244.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 244.0 AND resting_blood_pressure == 150.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 262.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 155.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 55.0 THEN target == 1"
+  expl: "IF age == 55.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 259.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 130.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.0 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 259.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 259.0 AND resting_blood_pressure == 128.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 211.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 161.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 211.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 211.0 AND resting_blood_pressure == 110.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 180.0 AND serum_cholestoral == 325.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 154.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 180.0 AND serum_cholestoral == 325.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 325.0 AND resting_blood_pressure == 180.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 254.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 159.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 254.0 AND chest == 4.0 AND sex == 0.0 THEN target == 0"
+  expl: "IF sex == 0.0 AND serum_cholestoral == 254.0 AND resting_blood_pressure == 110.0 AND age == 50.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 197.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 152.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 197.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 197.0 AND resting_blood_pressure == 130.0 AND age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 236.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 152.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 282.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 174.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 282.0 AND chest == 1.0 THEN target == 1"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 282.0 AND resting_blood_pressure == 138.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 69.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 234.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 131.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.1 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 69.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 234.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 234.0 AND resting_blood_pressure == 160.0 AND age == 69.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 69.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 254.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 146.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.0 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 69.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 254.0 AND chest == 3.0 THEN target == 1"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 254.0 AND resting_blood_pressure == 140.0 AND age == 69.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 299.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.9 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 299.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 299.0 AND resting_blood_pressure == 100.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 211.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 115.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.5 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 68.0 THEN target == 0"
+  expl: "IF age == 68.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 34.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 182.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 174.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 34.0 THEN target == 0"
+  expl: "IF age == 34.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 294.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 106.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.9 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 294.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 294.0 AND resting_blood_pressure == 138.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 298.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 122.0 AND exercise_induced_angina == 1.0 AND oldpeak == 4.2 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 298.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 298.0 AND resting_blood_pressure == 140.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 231.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 147.0 AND exercise_induced_angina == 0.0 AND oldpeak == 3.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 46.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 231.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 231.0 AND resting_blood_pressure == 150.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 254.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 254.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 254.0 AND resting_blood_pressure == 125.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 129.0 AND serum_cholestoral == 196.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 163.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 50.0 AND resting_blood_pressure == 129.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 129.0 AND age == 50.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 240.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 194.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 240.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 240.0 AND resting_blood_pressure == 120.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 409.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 150.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.9 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 134.0 AND serum_cholestoral == 409.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 409.0 AND resting_blood_pressure == 134.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 172.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 158.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 102.0 AND serum_cholestoral == 265.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 122.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 42.0 AND resting_blood_pressure == 102.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 102.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 246.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 173.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 3.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 246.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 246.0 AND resting_blood_pressure == 130.0 AND age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 315.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.9 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 315.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 315.0 AND resting_blood_pressure == 130.0 AND age == 43.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 184.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 105.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.1 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 184.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 184.0 AND resting_blood_pressure == 132.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 233.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 147.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.1 AND slope == 1.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 233.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 233.0 AND resting_blood_pressure == 108.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 394.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 157.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 394.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 394.0 AND resting_blood_pressure == 140.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 269.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 112.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.9 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 70.0 AND resting_blood_pressure == 160.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 160.0 AND age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 239.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 239.0 AND chest == 4.0 AND sex == 1.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 239.0 AND resting_blood_pressure == 140.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 174.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 125.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.6 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 70.0 AND resting_blood_pressure == 145.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 145.0 AND age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 309.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 156.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 108.0 AND serum_cholestoral == 309.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 309.0 AND resting_blood_pressure == 108.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 126.0 AND serum_cholestoral == 282.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 156.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 35.0 AND resting_blood_pressure == 126.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 126.0 AND age == 35.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 255.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 175.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 124.0 AND serum_cholestoral == 255.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 255.0 AND resting_blood_pressure == 124.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 250.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 161.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 55.0 THEN target == 1"
+  expl: "IF age == 55.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 248.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 122.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 100.0 AND serum_cholestoral == 248.0 AND chest == 4.0 AND sex == 0.0 THEN target == 0"
+  expl: "IF sex == 0.0 AND serum_cholestoral == 248.0 AND resting_blood_pressure == 100.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 214.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 158.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 214.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 214.0 AND resting_blood_pressure == 110.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 69.0 AND sex == 0.0 AND chest == 1.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 239.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 151.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.8 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 69.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 239.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF chest == 1.0 AND serum_cholestoral == 239.0 AND resting_blood_pressure == 140.0 AND age == 69.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 77.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 304.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 3.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 77.0 THEN target == 1"
+  expl: "IF age == 77.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 277.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 151.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 68.0 THEN target == 0"
+  expl: "IF age == 68.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 300.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 171.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 300.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 300.0 AND resting_blood_pressure == 125.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 258.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 141.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.8 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 258.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 258.0 AND resting_blood_pressure == 125.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 299.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 173.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 299.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 299.0 AND resting_blood_pressure == 140.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 289.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 145.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.8 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 55.0 THEN target == 1"
+  expl: "IF age == 55.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 298.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 178.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 152.0 AND serum_cholestoral == 298.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 298.0 AND resting_blood_pressure == 152.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 102.0 AND serum_cholestoral == 318.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 102.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 102.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 105.0 AND serum_cholestoral == 240.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 154.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 105.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 105.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 309.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 131.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 309.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 309.0 AND resting_blood_pressure == 125.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 37.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 250.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 187.0 AND exercise_induced_angina == 0.0 AND oldpeak == 3.5 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 37.0 THEN target == 0"
+  expl: "IF age == 37.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 170.0 AND serum_cholestoral == 288.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 159.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 170.0 THEN target == 1"
+  expl: "IF resting_blood_pressure == 170.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 245.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 166.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 125.0 AND serum_cholestoral == 245.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 245.0 AND resting_blood_pressure == 125.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 122.0 AND serum_cholestoral == 213.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 165.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 122.0 AND serum_cholestoral == 213.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 213.0 AND resting_blood_pressure == 122.0 AND age == 43.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 216.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 131.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.2 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 216.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 216.0 AND resting_blood_pressure == 128.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 29.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 204.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 202.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 29.0 THEN target == 0"
+  expl: "IF age == 29.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 204.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 252.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 252.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 252.0 AND resting_blood_pressure == 135.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 94.0 AND serum_cholestoral == 227.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 154.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 94.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 94.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 258.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 147.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 258.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 258.0 AND resting_blood_pressure == 120.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 220.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 170.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 220.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 220.0 AND resting_blood_pressure == 120.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 239.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 126.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.8 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 239.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 239.0 AND resting_blood_pressure == 110.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 254.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 127.0 AND exercise_induced_angina == 0.0 AND oldpeak == 2.8 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 254.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 254.0 AND resting_blood_pressure == 135.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 168.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 174.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 168.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 168.0 AND resting_blood_pressure == 150.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 330.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 132.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.8 AND slope == 1.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 63.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 330.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 330.0 AND resting_blood_pressure == 130.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 183.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 182.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 35.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 183.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 183.0 AND resting_blood_pressure == 138.0 AND age == 35.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 135.0 AND serum_cholestoral == 203.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 132.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 0"
+  dexp: "IF age == 41.0 THEN target == 0"
+  expl: "IF age == 41.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 263.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 97.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 263.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 263.0 AND resting_blood_pressure == 130.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 341.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 136.0 AND exercise_induced_angina == 1.0 AND oldpeak == 3.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 341.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 341.0 AND resting_blood_pressure == 132.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0.0 AND chest == 1.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 283.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 283.0 AND chest == 1.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 283.0 AND resting_blood_pressure == 150.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 1.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 186.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 190.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 186.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 186.0 AND resting_blood_pressure == 118.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 307.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 146.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 307.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 307.0 AND resting_blood_pressure == 145.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 219.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 140.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 39.0 AND resting_blood_pressure == 118.0 AND serum_cholestoral == 219.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 219.0 AND resting_blood_pressure == 118.0 AND age == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 115.0 AND serum_cholestoral == 260.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 185.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 45.0 THEN target == 0"
+  expl: "IF age == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 255.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 161.0 AND exercise_induced_angina == 1.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 128.0 AND serum_cholestoral == 255.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 255.0 AND resting_blood_pressure == 128.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 231.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 146.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 231.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 231.0 AND resting_blood_pressure == 130.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 164.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 145.0 AND exercise_induced_angina == 0.0 AND oldpeak == 6.2 AND slope == 3.0 AND number_of_major_vessels == 3.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 164.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 164.0 AND resting_blood_pressure == 160.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 234.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 234.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 234.0 AND resting_blood_pressure == 138.0 AND age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 177.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 120.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.5 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 177.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 177.0 AND resting_blood_pressure == 120.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 257.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 156.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 47.0 AND resting_blood_pressure == 138.0 AND serum_cholestoral == 257.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 257.0 AND resting_blood_pressure == 138.0 AND age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 325.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.2 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 325.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF chest == 2.0 AND serum_cholestoral == 325.0 AND resting_blood_pressure == 120.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 180.0 AND serum_cholestoral == 274.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 150.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.6 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 68.0 THEN target == 0"
+  expl: "IF age == 68.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 321.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 182.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 39.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 321.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 321.0 AND resting_blood_pressure == 140.0 AND age == 39.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 264.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 143.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 53.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 264.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 264.0 AND resting_blood_pressure == 130.0 AND age == 53.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 268.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 3.6 AND slope == 3.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 62.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 268.0 AND chest == 4.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 268.0 AND resting_blood_pressure == 140.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 308.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 142.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.5 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 308.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 308.0 AND resting_blood_pressure == 140.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 253.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 144.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.4 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 253.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 253.0 AND resting_blood_pressure == 130.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 248.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 158.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 6.0 THEN target == 1"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 248.0 AND chest == 4.0 AND sex == 1.0 THEN target == 1"
+  expl: "IF sex == 1.0 AND chest == 4.0 AND serum_cholestoral == 248.0 AND resting_blood_pressure == 110.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 155.0 AND serum_cholestoral == 269.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 148.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.8 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 65.0 AND resting_blood_pressure == 155.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 155.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 185.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 155.0 AND exercise_induced_angina == 0.0 AND oldpeak == 3.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 185.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 185.0 AND resting_blood_pressure == 140.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 282.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 142.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.8 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 145.0 AND serum_cholestoral == 282.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 282.0 AND resting_blood_pressure == 145.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 188.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 113.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.4 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 54.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 188.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 188.0 AND resting_blood_pressure == 120.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 219.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 188.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 219.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 219.0 AND resting_blood_pressure == 130.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 290.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 153.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 1.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 112.0 AND serum_cholestoral == 290.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 290.0 AND resting_blood_pressure == 112.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 175.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 123.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 51.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 175.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 175.0 AND resting_blood_pressure == 110.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 212.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 157.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 59.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 212.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 212.0 AND resting_blood_pressure == 150.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 71.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 302.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 1.0 AND number_of_major_vessels == 2.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 71.0 THEN target == 0"
+  expl: "IF age == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 243.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 137.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.0 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 61.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 243.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 243.0 AND resting_blood_pressure == 150.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 132.0 AND serum_cholestoral == 353.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 132.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.2 AND slope == 2.0 AND number_of_major_vessels == 1.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 55.0 THEN target == 1"
+  expl: "IF age == 55.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 335.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 158.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 64.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 335.0 AND chest == 3.0 THEN target == 1"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 335.0 AND resting_blood_pressure == 140.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 247.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 171.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.5 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 43.0 AND resting_blood_pressure == 150.0 AND serum_cholestoral == 247.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 247.0 AND resting_blood_pressure == 150.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0.0 AND chest == 3.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 340.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 172.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 340.0 AND chest == 3.0 THEN target == 0"
+  expl: "IF chest == 3.0 AND serum_cholestoral == 340.0 AND resting_blood_pressure == 120.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 206.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 132.0 AND exercise_induced_angina == 1.0 AND oldpeak == 2.4 AND slope == 2.0 AND number_of_major_vessels == 2.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 60.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 206.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 206.0 AND resting_blood_pressure == 130.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 284.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 160.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.8 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 58.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 284.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF chest == 2.0 AND serum_cholestoral == 284.0 AND resting_blood_pressure == 120.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 266.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 171.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.6 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 49.0 AND resting_blood_pressure == 130.0 AND serum_cholestoral == 266.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 266.0 AND resting_blood_pressure == 130.0 AND age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 229.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 168.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.0 AND slope == 3.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 1"
+  dexp: "IF age == 48.0 AND resting_blood_pressure == 110.0 AND serum_cholestoral == 229.0 THEN target == 1"
+  expl: "IF serum_cholestoral == 229.0 AND resting_blood_pressure == 110.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1.0 AND chest == 3.0 AND resting_blood_pressure == 172.0 AND serum_cholestoral == 199.0 AND fasting_blood_sugar == 1.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 162.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.5 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 52.0 AND resting_blood_pressure == 172.0 THEN target == 0"
+  expl: "IF resting_blood_pressure == 172.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1.0 AND chest == 2.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 263.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 173.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.0 AND slope == 1.0 AND number_of_major_vessels == 0.0 AND thal == 7.0 THEN target == 0"
+  dexp: "IF age == 44.0 AND resting_blood_pressure == 120.0 AND serum_cholestoral == 263.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 263.0 AND resting_blood_pressure == 120.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 0.0 AND chest == 2.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 294.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 153.0 AND exercise_induced_angina == 0.0 AND oldpeak == 1.3 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 3.0 THEN target == 0"
+  dexp: "IF age == 56.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 294.0 AND chest == 2.0 THEN target == 0"
+  expl: "IF chest == 2.0 AND serum_cholestoral == 294.0 AND resting_blood_pressure == 140.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 192.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 0.0 AND maximum_heart_rate_achieved == 148.0 AND exercise_induced_angina == 0.0 AND oldpeak == 0.4 AND slope == 2.0 AND number_of_major_vessels == 0.0 AND thal == 6.0 THEN target == 0"
+  dexp: "IF age == 57.0 AND resting_blood_pressure == 140.0 AND serum_cholestoral == 192.0 THEN target == 0"
+  expl: "IF serum_cholestoral == 192.0 AND resting_blood_pressure == 140.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1.0 AND chest == 4.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 286.0 AND fasting_blood_sugar == 0.0 AND resting_electrocardiographic_results == 2.0 AND maximum_heart_rate_achieved == 108.0 AND exercise_induced_angina == 1.0 AND oldpeak == 1.5 AND slope == 2.0 AND number_of_major_vessels == 3.0 AND thal == 3.0 THEN target == 1"
+  dexp: "IF age == 67.0 AND resting_blood_pressure == 160.0 AND serum_cholestoral == 286.0 AND chest == 4.0 THEN target == 1"
+  expl: "IF chest == 4.0 AND serum_cholestoral == 286.0 AND resting_blood_pressure == 160.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+# of insts: 270
+tot # of expls: 270
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.89
+avg expl sz: 2.89
+max expl sz: 2.89
+Max expl sz: 5
+
+tot time: 0.07
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   4.26%
+max dxrd:  40.00%

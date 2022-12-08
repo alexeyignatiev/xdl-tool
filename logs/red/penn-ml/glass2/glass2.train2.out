@@ -1,0 +1,1117 @@
+MODEL:
+IF Refractive Index == 1.519 THEN target == 0
+IF Refractive Index == 1.523 THEN target == 0
+IF Refractive Index == 1.5159 THEN target == 1
+IF Refractive Index == 1.5161 THEN target == 0
+IF Refractive Index == 1.5166 THEN target == 1
+IF Refractive Index == 1.5169 THEN target == 1
+IF Refractive Index == 1.5172 THEN target == 0
+IF Refractive Index == 1.5175 THEN target == 0
+IF Refractive Index == 1.5182 THEN target == 1
+IF Refractive Index == 1.5186 THEN target == 1
+IF Refractive Index == 1.5202 THEN target == 1
+IF Refractive Index == 1.5221 THEN target == 0
+IF Refractive Index == 1.5241 THEN target == 1
+IF Refractive Index == 1.51215 THEN target == 0
+IF Refractive Index == 1.51409 THEN target == 1
+IF Refractive Index == 1.51567 THEN target == 0
+IF Refractive Index == 1.51569 THEN target == 1
+IF Refractive Index == 1.51571 THEN target == 0
+IF Refractive Index == 1.51574 THEN target == 1
+IF Refractive Index == 1.51588 THEN target == 1
+IF Refractive Index == 1.51589 THEN target == 0
+IF Refractive Index == 1.51593 THEN target == 1
+IF Refractive Index == 1.51594 THEN target == 1
+IF Refractive Index == 1.51596 THEN target == 0
+IF Refractive Index == 1.51605 THEN target == 1
+IF Refractive Index == 1.51613 THEN target == 1
+IF Refractive Index == 1.51618 THEN target == 1
+IF Refractive Index == 1.51625 THEN target == 1
+IF Refractive Index == 1.51627 THEN target == 1
+IF Refractive Index == 1.51629 THEN target == 1
+IF Refractive Index == 1.51631 THEN target == 1
+IF Refractive Index == 1.51643 THEN target == 0
+IF Refractive Index == 1.51645 THEN target == 1
+IF Refractive Index == 1.51646 THEN target == 0
+IF Refractive Index == 1.51652 THEN target == 1
+IF Refractive Index == 1.51655 THEN target == 1
+IF Refractive Index == 1.51662 THEN target == 1
+IF Refractive Index == 1.51663 THEN target == 1
+IF Refractive Index == 1.51673 THEN target == 1
+IF Refractive Index == 1.51674 THEN target == 1
+IF Refractive Index == 1.51689 THEN target == 1
+IF Refractive Index == 1.51694 THEN target == 0
+IF Refractive Index == 1.51707 THEN target == 1
+IF Refractive Index == 1.51708 THEN target == 1
+IF Refractive Index == 1.51709 THEN target == 1
+IF Refractive Index == 1.51711 THEN target == 1
+IF Refractive Index == 1.51721 THEN target == 0
+IF Refractive Index == 1.51735 THEN target == 0
+IF Refractive Index == 1.51736 THEN target == 0
+IF Refractive Index == 1.51742 THEN target == 0
+IF Refractive Index == 1.51754 THEN target == 0
+IF Refractive Index == 1.51755 THEN target == 0
+IF Refractive Index == 1.51761 THEN target == 0
+IF Refractive Index == 1.51763 THEN target == 0
+IF Refractive Index == 1.51764 THEN target == 0
+IF Refractive Index == 1.51768 THEN target == 0
+IF Refractive Index == 1.51769 THEN target == 0
+IF Refractive Index == 1.51775 THEN target == 0
+IF Refractive Index == 1.51776 THEN target == 0
+IF Refractive Index == 1.51778 THEN target == 0
+IF Refractive Index == 1.51779 THEN target == 0
+IF Refractive Index == 1.51784 THEN target == 0
+IF Refractive Index == 1.51789 THEN target == 1
+IF Refractive Index == 1.51793 THEN target == 0
+IF Refractive Index == 1.51796 THEN target == 0
+IF Refractive Index == 1.51797 THEN target == 0
+IF Refractive Index == 1.51806 THEN target == 1
+IF Refractive Index == 1.51808 THEN target == 0
+IF Refractive Index == 1.51811 THEN target == 1
+IF Refractive Index == 1.51813 THEN target == 1
+IF Refractive Index == 1.51824 THEN target == 0
+IF Refractive Index == 1.51829 THEN target == 1
+IF Refractive Index == 1.51832 THEN target == 0
+IF Refractive Index == 1.51837 THEN target == 0
+IF Refractive Index == 1.51839 THEN target == 1
+IF Refractive Index == 1.51841 THEN target == 1
+IF Refractive Index == 1.51844 THEN target == 1
+IF Refractive Index == 1.51847 THEN target == 1
+IF Refractive Index == 1.51851 THEN target == 1
+IF Refractive Index == 1.51869 THEN target == 0
+IF Refractive Index == 1.51872 THEN target == 1
+IF Refractive Index == 1.51892 THEN target == 1
+IF Refractive Index == 1.51898 THEN target == 0
+IF Refractive Index == 1.51911 THEN target == 0
+IF Refractive Index == 1.51918 THEN target == 0
+IF Refractive Index == 1.51926 THEN target == 0
+IF Refractive Index == 1.51934 THEN target == 0
+IF Refractive Index == 1.51977 THEN target == 0
+IF Refractive Index == 1.52081 THEN target == 1
+IF Refractive Index == 1.52121 THEN target == 0
+IF Refractive Index == 1.52127 THEN target == 0
+IF Refractive Index == 1.52152 THEN target == 0
+IF Refractive Index == 1.52177 THEN target == 1
+IF Refractive Index == 1.52211 THEN target == 0
+IF Refractive Index == 1.52213 THEN target == 0
+IF Refractive Index == 1.52222 THEN target == 1
+IF Refractive Index == 1.52227 THEN target == 0
+IF Refractive Index == 1.52475 THEN target == 1
+IF Refractive Index == 1.52614 THEN target == 1
+IF Refractive Index == 1.52664 THEN target == 1
+IF Refractive Index == 1.52725 THEN target == 1
+IF Refractive Index == 1.52739 THEN target == 1
+IF Refractive Index == 1.52777 THEN target == 1
+IF Refractive Index == 1.53125 THEN target == 1
+IF Refractive Index == 1.53393 THEN target == 1
+IF Refractive Index == 1.5159200000000002 THEN target == 1
+IF Refractive Index == 1.5168700000000002 THEN target == 1
+IF Refractive Index == 1.5175299999999998 THEN target == 0
+IF Refractive Index == 1.5184799999999998 THEN target == 1
+IF Refractive Index != 1.5174299999999998 THEN target == 0
+IF Sodium == 12.2 THEN target == 1
+IF Refractive Index == 1.5174299999999998 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 718
+avg # of vars: 718.00
+max # of vars: 718
+min # of clauses: 35445
+avg # of clauses: 35448.50
+max # of clauses: 35452
+
+EXPLANATIONS:
+  inst: "IF Refractive Index == 1.51808 AND Sodium == 13.43 AND Magnesium == 2.87 AND Aluminum == 1.19 AND Silicon == 72.84 AND Potassium == 0.55 AND Calcium == 9.03 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51808 THEN target == 0"
+  expl: "IF Refractive Index == 1.51808 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51667 AND Sodium == 12.94 AND Magnesium == 3.61 AND Aluminum == 1.26 AND Silicon == 72.75 AND Potassium == 0.56 AND Calcium == 8.6 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51667 THEN target == 0"
+  expl: "IF Refractive Index == 1.51667 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51735 AND Sodium == 13.02 AND Magnesium == 3.54 AND Aluminum == 1.69 AND Silicon == 72.73 AND Potassium == 0.54 AND Calcium == 8.44 AND Barium == 0.0 AND Iron == 0.07 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51735 THEN target == 0"
+  expl: "IF Refractive Index == 1.51735 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51708 AND Sodium == 13.72 AND Magnesium == 3.68 AND Aluminum == 1.81 AND Silicon == 72.06 AND Potassium == 0.64 AND Calcium == 7.88 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51708 THEN target == 1"
+  expl: "IF Refractive Index == 1.51708 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51747 AND Sodium == 12.84 AND Magnesium == 3.5 AND Aluminum == 1.14 AND Silicon == 73.27 AND Potassium == 0.56 AND Calcium == 8.55 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51747 THEN target == 0"
+  expl: "IF Refractive Index == 1.51747 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51778 AND Sodium == 13.21 AND Magnesium == 2.81 AND Aluminum == 1.29 AND Silicon == 72.98 AND Potassium == 0.51 AND Calcium == 9.02 AND Barium == 0.0 AND Iron == 0.09 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51778 THEN target == 0"
+  expl: "IF Refractive Index == 1.51778 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51751 AND Sodium == 12.81 AND Magnesium == 3.57 AND Aluminum == 1.35 AND Silicon == 73.02 AND Potassium == 0.62 AND Calcium == 8.59 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51751 THEN target == 0"
+  expl: "IF Refractive Index == 1.51751 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51813 AND Sodium == 13.43 AND Magnesium == 3.98 AND Aluminum == 1.18 AND Silicon == 72.49 AND Potassium == 0.58 AND Calcium == 8.15 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51813 THEN target == 1"
+  expl: "IF Refractive Index == 1.51813 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.53125 AND Sodium == 10.73 AND Magnesium == 0.0 AND Aluminum == 2.1 AND Silicon == 69.81 AND Potassium == 0.58 AND Calcium == 13.3 AND Barium == 3.15 AND Iron == 0.28 THEN target == 1"
+  dexp: "IF Refractive Index == 1.53125 THEN target == 1"
+  expl: "IF Refractive Index == 1.53125 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51662 AND Sodium == 12.85 AND Magnesium == 3.51 AND Aluminum == 1.44 AND Silicon == 73.01 AND Potassium == 0.68 AND Calcium == 8.23 AND Barium == 0.06 AND Iron == 0.25 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51662 THEN target == 1"
+  expl: "IF Refractive Index == 1.51662 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51934 AND Sodium == 13.64 AND Magnesium == 3.54 AND Aluminum == 0.75 AND Silicon == 72.65 AND Potassium == 0.16 AND Calcium == 8.89 AND Barium == 0.15 AND Iron == 0.24 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51934 THEN target == 0"
+  expl: "IF Refractive Index == 1.51934 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51786 AND Sodium == 12.73 AND Magnesium == 3.43 AND Aluminum == 1.19 AND Silicon == 72.95 AND Potassium == 0.62 AND Calcium == 8.76 AND Barium == 0.0 AND Iron == 0.3 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51786 THEN target == 0"
+  expl: "IF Refractive Index == 1.51786 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5172 AND Sodium == 13.38 AND Magnesium == 3.5 AND Aluminum == 1.15 AND Silicon == 72.85 AND Potassium == 0.5 AND Calcium == 8.43 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5172 THEN target == 0"
+  expl: "IF Refractive Index == 1.5172 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51567 AND Sodium == 13.29 AND Magnesium == 3.45 AND Aluminum == 1.21 AND Silicon == 72.74 AND Potassium == 0.56 AND Calcium == 8.57 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51567 THEN target == 0"
+  expl: "IF Refractive Index == 1.51567 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52152 AND Sodium == 13.12 AND Magnesium == 3.58 AND Aluminum == 0.9 AND Silicon == 72.2 AND Potassium == 0.23 AND Calcium == 9.82 AND Barium == 0.0 AND Iron == 0.16 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52152 THEN target == 0"
+  expl: "IF Refractive Index == 1.52152 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52222 AND Sodium == 14.43 AND Magnesium == 0.0 AND Aluminum == 1.0 AND Silicon == 72.67 AND Potassium == 0.1 AND Calcium == 11.52 AND Barium == 0.0 AND Iron == 0.08 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52222 THEN target == 1"
+  expl: "IF Refractive Index == 1.52222 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52739 AND Sodium == 11.02 AND Magnesium == 0.0 AND Aluminum == 0.75 AND Silicon == 73.08 AND Potassium == 0.0 AND Calcium == 14.96 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52739 THEN target == 1"
+  expl: "IF Refractive Index == 1.52739 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51756 AND Sodium == 13.15 AND Magnesium == 3.61 AND Aluminum == 1.05 AND Silicon == 73.24 AND Potassium == 0.57 AND Calcium == 8.24 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51756 THEN target == 0"
+  expl: "IF Refractive Index == 1.51756 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51571 AND Sodium == 12.72 AND Magnesium == 3.46 AND Aluminum == 1.56 AND Silicon == 73.2 AND Potassium == 0.67 AND Calcium == 8.09 AND Barium == 0.0 AND Iron == 0.24 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51571 THEN target == 0"
+  expl: "IF Refractive Index == 1.51571 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52127 AND Sodium == 14.32 AND Magnesium == 3.9 AND Aluminum == 0.83 AND Silicon == 71.5 AND Potassium == 0.0 AND Calcium == 9.49 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52127 THEN target == 0"
+  expl: "IF Refractive Index == 1.52127 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51655 AND Sodium == 13.41 AND Magnesium == 3.39 AND Aluminum == 1.28 AND Silicon == 72.64 AND Potassium == 0.52 AND Calcium == 8.65 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51655 THEN target == 1"
+  expl: "IF Refractive Index == 1.51655 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51627 AND Sodium == 13.0 AND Magnesium == 3.58 AND Aluminum == 1.54 AND Silicon == 72.83 AND Potassium == 0.61 AND Calcium == 8.04 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51627 THEN target == 1"
+  expl: "IF Refractive Index == 1.51627 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51673 AND Sodium == 13.3 AND Magnesium == 3.64 AND Aluminum == 1.53 AND Silicon == 72.53 AND Potassium == 0.65 AND Calcium == 8.03 AND Barium == 0.0 AND Iron == 0.29 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51673 THEN target == 1"
+  expl: "IF Refractive Index == 1.51673 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51844 AND Sodium == 13.25 AND Magnesium == 3.76 AND Aluminum == 1.32 AND Silicon == 72.4 AND Potassium == 0.58 AND Calcium == 8.42 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51844 THEN target == 1"
+  expl: "IF Refractive Index == 1.51844 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51754 AND Sodium == 13.39 AND Magnesium == 3.66 AND Aluminum == 1.19 AND Silicon == 72.79 AND Potassium == 0.57 AND Calcium == 8.27 AND Barium == 0.0 AND Iron == 0.11 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51754 THEN target == 0"
+  expl: "IF Refractive Index == 1.51754 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51779 AND Sodium == 13.64 AND Magnesium == 3.65 AND Aluminum == 0.65 AND Silicon == 73.0 AND Potassium == 0.06 AND Calcium == 8.93 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51779 THEN target == 0"
+  expl: "IF Refractive Index == 1.51779 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52777 AND Sodium == 12.64 AND Magnesium == 0.0 AND Aluminum == 0.67 AND Silicon == 72.02 AND Potassium == 0.06 AND Calcium == 14.4 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52777 THEN target == 1"
+  expl: "IF Refractive Index == 1.52777 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51665 AND Sodium == 13.14 AND Magnesium == 3.45 AND Aluminum == 1.76 AND Silicon == 72.48 AND Potassium == 0.6 AND Calcium == 8.38 AND Barium == 0.0 AND Iron == 0.17 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51665 THEN target == 0"
+  expl: "IF Refractive Index == 1.51665 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52664 AND Sodium == 11.23 AND Magnesium == 0.0 AND Aluminum == 0.77 AND Silicon == 73.21 AND Potassium == 0.0 AND Calcium == 14.68 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52664 THEN target == 1"
+  expl: "IF Refractive Index == 1.52664 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51846 AND Sodium == 13.41 AND Magnesium == 3.89 AND Aluminum == 1.33 AND Silicon == 72.38 AND Potassium == 0.51 AND Calcium == 8.28 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51846 THEN target == 0"
+  expl: "IF Refractive Index == 1.51846 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51793 AND Sodium == 13.21 AND Magnesium == 3.48 AND Aluminum == 1.41 AND Silicon == 72.64 AND Potassium == 0.59 AND Calcium == 8.43 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51793 THEN target == 0"
+  expl: "IF Refractive Index == 1.51793 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51898 AND Sodium == 13.58 AND Magnesium == 3.35 AND Aluminum == 1.23 AND Silicon == 72.08 AND Potassium == 0.59 AND Calcium == 8.91 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51898 THEN target == 0"
+  expl: "IF Refractive Index == 1.51898 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51613 AND Sodium == 13.92 AND Magnesium == 3.52 AND Aluminum == 1.25 AND Silicon == 72.88 AND Potassium == 0.37 AND Calcium == 7.94 AND Barium == 0.0 AND Iron == 0.14 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51613 THEN target == 1"
+  expl: "IF Refractive Index == 1.51613 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51594 AND Sodium == 13.09 AND Magnesium == 3.52 AND Aluminum == 1.55 AND Silicon == 72.87 AND Potassium == 0.68 AND Calcium == 8.05 AND Barium == 0.0 AND Iron == 0.09 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51594 THEN target == 1"
+  expl: "IF Refractive Index == 1.51594 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5159200000000002 AND Sodium == 12.86 AND Magnesium == 3.52 AND Aluminum == 2.12 AND Silicon == 72.66 AND Potassium == 0.69 AND Calcium == 7.97 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5159200000000002 THEN target == 1"
+  expl: "IF Refractive Index == 1.5159200000000002 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5161 AND Sodium == 13.42 AND Magnesium == 3.4 AND Aluminum == 1.22 AND Silicon == 72.69 AND Potassium == 0.59 AND Calcium == 8.32 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5161 THEN target == 0"
+  expl: "IF Refractive Index == 1.5161 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5174299999999998 AND Sodium == 12.2 AND Magnesium == 3.25 AND Aluminum == 1.16 AND Silicon == 73.55 AND Potassium == 0.62 AND Calcium == 8.9 AND Barium == 0.0 AND Iron == 0.24 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5174299999999998 AND Sodium == 12.2 THEN target == 1"
+  expl: "IF Sodium == 12.2 AND Refractive Index == 1.5174299999999998 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51754 AND Sodium == 13.48 AND Magnesium == 3.74 AND Aluminum == 1.17 AND Silicon == 72.99 AND Potassium == 0.59 AND Calcium == 8.03 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51754 THEN target == 0"
+  expl: "IF Refractive Index == 1.51754 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.523 AND Sodium == 13.31 AND Magnesium == 3.58 AND Aluminum == 0.82 AND Silicon == 71.99 AND Potassium == 0.12 AND Calcium == 10.17 AND Barium == 0.0 AND Iron == 0.03 THEN target == 0"
+  dexp: "IF Refractive Index == 1.523 THEN target == 0"
+  expl: "IF Refractive Index == 1.523 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51926 AND Sodium == 13.2 AND Magnesium == 3.33 AND Aluminum == 1.28 AND Silicon == 72.36 AND Potassium == 0.6 AND Calcium == 9.14 AND Barium == 0.0 AND Iron == 0.11 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51926 THEN target == 0"
+  expl: "IF Refractive Index == 1.51926 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51806 AND Sodium == 13.0 AND Magnesium == 3.8 AND Aluminum == 1.08 AND Silicon == 73.07 AND Potassium == 0.56 AND Calcium == 8.38 AND Barium == 0.0 AND Iron == 0.12 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51806 THEN target == 1"
+  expl: "IF Refractive Index == 1.51806 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51918 AND Sodium == 14.04 AND Magnesium == 3.58 AND Aluminum == 1.37 AND Silicon == 72.08 AND Potassium == 0.56 AND Calcium == 8.3 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51918 THEN target == 0"
+  expl: "IF Refractive Index == 1.51918 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51588 AND Sodium == 13.12 AND Magnesium == 3.41 AND Aluminum == 1.58 AND Silicon == 73.26 AND Potassium == 0.07 AND Calcium == 8.39 AND Barium == 0.0 AND Iron == 0.19 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51588 THEN target == 1"
+  expl: "IF Refractive Index == 1.51588 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51818 AND Sodium == 13.72 AND Magnesium == 0.0 AND Aluminum == 0.56 AND Silicon == 74.45 AND Potassium == 0.0 AND Calcium == 10.99 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51818 THEN target == 0"
+  expl: "IF Refractive Index == 1.51818 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52177 AND Sodium == 13.75 AND Magnesium == 1.01 AND Aluminum == 1.36 AND Silicon == 72.19 AND Potassium == 0.33 AND Calcium == 11.14 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52177 THEN target == 1"
+  expl: "IF Refractive Index == 1.52177 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51761 AND Sodium == 12.81 AND Magnesium == 3.54 AND Aluminum == 1.23 AND Silicon == 73.24 AND Potassium == 0.58 AND Calcium == 8.39 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51761 THEN target == 0"
+  expl: "IF Refractive Index == 1.51761 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52099 AND Sodium == 13.69 AND Magnesium == 3.59 AND Aluminum == 1.12 AND Silicon == 71.96 AND Potassium == 0.09 AND Calcium == 9.4 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52099 THEN target == 0"
+  expl: "IF Refractive Index == 1.52099 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51689 AND Sodium == 12.67 AND Magnesium == 2.88 AND Aluminum == 1.71 AND Silicon == 73.21 AND Potassium == 0.73 AND Calcium == 8.54 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51689 THEN target == 1"
+  expl: "IF Refractive Index == 1.51689 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51909 AND Sodium == 13.89 AND Magnesium == 3.53 AND Aluminum == 1.32 AND Silicon == 71.81 AND Potassium == 0.51 AND Calcium == 8.78 AND Barium == 0.11 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51909 THEN target == 0"
+  expl: "IF Refractive Index == 1.51909 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51593 AND Sodium == 13.25 AND Magnesium == 3.45 AND Aluminum == 1.43 AND Silicon == 73.17 AND Potassium == 0.61 AND Calcium == 7.86 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51593 THEN target == 1"
+  expl: "IF Refractive Index == 1.51593 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51711 AND Sodium == 12.89 AND Magnesium == 3.62 AND Aluminum == 1.57 AND Silicon == 72.96 AND Potassium == 0.61 AND Calcium == 8.11 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51711 THEN target == 1"
+  expl: "IF Refractive Index == 1.51711 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51569 AND Sodium == 13.24 AND Magnesium == 3.49 AND Aluminum == 1.47 AND Silicon == 73.25 AND Potassium == 0.38 AND Calcium == 8.03 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51569 THEN target == 1"
+  expl: "IF Refractive Index == 1.51569 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51977 AND Sodium == 13.81 AND Magnesium == 3.58 AND Aluminum == 1.32 AND Silicon == 71.72 AND Potassium == 0.12 AND Calcium == 8.67 AND Barium == 0.69 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51977 THEN target == 0"
+  expl: "IF Refractive Index == 1.51977 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.53393 AND Sodium == 12.3 AND Magnesium == 0.0 AND Aluminum == 1.0 AND Silicon == 70.16 AND Potassium == 0.12 AND Calcium == 16.19 AND Barium == 0.0 AND Iron == 0.24 THEN target == 1"
+  dexp: "IF Refractive Index == 1.53393 THEN target == 1"
+  expl: "IF Refractive Index == 1.53393 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51841 AND Sodium == 12.93 AND Magnesium == 3.74 AND Aluminum == 1.11 AND Silicon == 72.28 AND Potassium == 0.64 AND Calcium == 8.96 AND Barium == 0.0 AND Iron == 0.22 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51841 THEN target == 1"
+  expl: "IF Refractive Index == 1.51841 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51589 AND Sodium == 12.88 AND Magnesium == 3.43 AND Aluminum == 1.4 AND Silicon == 73.28 AND Potassium == 0.69 AND Calcium == 8.05 AND Barium == 0.0 AND Iron == 0.24 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51589 THEN target == 0"
+  expl: "IF Refractive Index == 1.51589 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51593 AND Sodium == 13.09 AND Magnesium == 3.59 AND Aluminum == 1.52 AND Silicon == 73.1 AND Potassium == 0.67 AND Calcium == 7.83 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51593 THEN target == 1"
+  expl: "IF Refractive Index == 1.51593 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51629 AND Sodium == 12.71 AND Magnesium == 3.33 AND Aluminum == 1.49 AND Silicon == 73.28 AND Potassium == 0.67 AND Calcium == 8.24 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51629 THEN target == 1"
+  expl: "IF Refractive Index == 1.51629 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5159 AND Sodium == 13.24 AND Magnesium == 3.34 AND Aluminum == 1.47 AND Silicon == 73.1 AND Potassium == 0.39 AND Calcium == 8.22 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5159 THEN target == 1"
+  expl: "IF Refractive Index == 1.5159 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51824 AND Sodium == 12.87 AND Magnesium == 3.48 AND Aluminum == 1.29 AND Silicon == 72.95 AND Potassium == 0.6 AND Calcium == 8.43 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51824 THEN target == 0"
+  expl: "IF Refractive Index == 1.51824 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51768 AND Sodium == 12.56 AND Magnesium == 3.52 AND Aluminum == 1.43 AND Silicon == 73.15 AND Potassium == 0.57 AND Calcium == 8.54 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51768 THEN target == 0"
+  expl: "IF Refractive Index == 1.51768 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5217200000000002 AND Sodium == 13.51 AND Magnesium == 3.86 AND Aluminum == 0.88 AND Silicon == 71.79 AND Potassium == 0.23 AND Calcium == 9.54 AND Barium == 0.0 AND Iron == 0.11 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5217200000000002 THEN target == 0"
+  expl: "IF Refractive Index == 1.5217200000000002 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51652 AND Sodium == 13.56 AND Magnesium == 3.57 AND Aluminum == 1.47 AND Silicon == 72.45 AND Potassium == 0.64 AND Calcium == 7.96 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51652 THEN target == 1"
+  expl: "IF Refractive Index == 1.51652 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5232 AND Sodium == 13.72 AND Magnesium == 3.72 AND Aluminum == 0.51 AND Silicon == 71.75 AND Potassium == 0.09 AND Calcium == 10.06 AND Barium == 0.0 AND Iron == 0.16 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5232 THEN target == 0"
+  expl: "IF Refractive Index == 1.5232 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5184799999999998 AND Sodium == 13.64 AND Magnesium == 3.87 AND Aluminum == 1.27 AND Silicon == 71.96 AND Potassium == 0.54 AND Calcium == 8.32 AND Barium == 0.0 AND Iron == 0.32 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5184799999999998 THEN target == 1"
+  expl: "IF Refractive Index == 1.5184799999999998 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51618 AND Sodium == 13.53 AND Magnesium == 3.55 AND Aluminum == 1.54 AND Silicon == 72.99 AND Potassium == 0.39 AND Calcium == 7.78 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51618 THEN target == 1"
+  expl: "IF Refractive Index == 1.51618 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51768 AND Sodium == 12.65 AND Magnesium == 3.56 AND Aluminum == 1.3 AND Silicon == 73.08 AND Potassium == 0.61 AND Calcium == 8.69 AND Barium == 0.0 AND Iron == 0.14 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51768 THEN target == 0"
+  expl: "IF Refractive Index == 1.51768 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51769 AND Sodium == 12.45 AND Magnesium == 2.71 AND Aluminum == 1.29 AND Silicon == 73.7 AND Potassium == 0.56 AND Calcium == 9.06 AND Barium == 0.0 AND Iron == 0.24 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51769 THEN target == 0"
+  expl: "IF Refractive Index == 1.51769 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51783 AND Sodium == 12.69 AND Magnesium == 3.54 AND Aluminum == 1.34 AND Silicon == 72.95 AND Potassium == 0.57 AND Calcium == 8.75 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51783 THEN target == 0"
+  expl: "IF Refractive Index == 1.51783 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51694 AND Sodium == 12.86 AND Magnesium == 3.58 AND Aluminum == 1.31 AND Silicon == 72.61 AND Potassium == 0.61 AND Calcium == 8.79 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51694 THEN target == 0"
+  expl: "IF Refractive Index == 1.51694 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51707 AND Sodium == 13.48 AND Magnesium == 3.48 AND Aluminum == 1.71 AND Silicon == 72.52 AND Potassium == 0.62 AND Calcium == 7.99 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51707 THEN target == 1"
+  expl: "IF Refractive Index == 1.51707 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5221 AND Sodium == 13.73 AND Magnesium == 3.84 AND Aluminum == 0.72 AND Silicon == 71.76 AND Potassium == 0.17 AND Calcium == 9.74 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5221 THEN target == 0"
+  expl: "IF Refractive Index == 1.5221 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51655 AND Sodium == 12.75 AND Magnesium == 2.85 AND Aluminum == 1.44 AND Silicon == 73.27 AND Potassium == 0.57 AND Calcium == 8.79 AND Barium == 0.11 AND Iron == 0.22 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51655 THEN target == 1"
+  expl: "IF Refractive Index == 1.51655 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52213 AND Sodium == 14.21 AND Magnesium == 3.82 AND Aluminum == 0.47 AND Silicon == 71.77 AND Potassium == 0.11 AND Calcium == 9.57 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52213 THEN target == 0"
+  expl: "IF Refractive Index == 1.52213 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51776 AND Sodium == 13.53 AND Magnesium == 3.41 AND Aluminum == 1.52 AND Silicon == 72.04 AND Potassium == 0.58 AND Calcium == 8.79 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51776 THEN target == 0"
+  expl: "IF Refractive Index == 1.51776 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5159 AND Sodium == 12.82 AND Magnesium == 3.52 AND Aluminum == 1.9 AND Silicon == 72.86 AND Potassium == 0.69 AND Calcium == 7.97 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5159 THEN target == 1"
+  expl: "IF Refractive Index == 1.5159 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52177 AND Sodium == 13.2 AND Magnesium == 3.68 AND Aluminum == 1.15 AND Silicon == 72.75 AND Potassium == 0.54 AND Calcium == 8.52 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52177 THEN target == 1"
+  expl: "IF Refractive Index == 1.52177 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51709 AND Sodium == 13.0 AND Magnesium == 3.47 AND Aluminum == 1.79 AND Silicon == 72.72 AND Potassium == 0.66 AND Calcium == 8.18 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51709 THEN target == 1"
+  expl: "IF Refractive Index == 1.51709 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51721 AND Sodium == 12.87 AND Magnesium == 3.48 AND Aluminum == 1.33 AND Silicon == 73.04 AND Potassium == 0.56 AND Calcium == 8.43 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51721 THEN target == 0"
+  expl: "IF Refractive Index == 1.51721 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51796 AND Sodium == 13.5 AND Magnesium == 3.36 AND Aluminum == 1.63 AND Silicon == 71.94 AND Potassium == 0.57 AND Calcium == 8.81 AND Barium == 0.0 AND Iron == 0.09 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51796 THEN target == 0"
+  expl: "IF Refractive Index == 1.51796 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51839 AND Sodium == 12.85 AND Magnesium == 3.67 AND Aluminum == 1.24 AND Silicon == 72.57 AND Potassium == 0.62 AND Calcium == 8.68 AND Barium == 0.0 AND Iron == 0.35 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51839 THEN target == 1"
+  expl: "IF Refractive Index == 1.51839 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51779 AND Sodium == 13.21 AND Magnesium == 3.39 AND Aluminum == 1.33 AND Silicon == 72.76 AND Potassium == 0.59 AND Calcium == 8.59 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51779 THEN target == 0"
+  expl: "IF Refractive Index == 1.51779 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51646 AND Sodium == 13.04 AND Magnesium == 3.4 AND Aluminum == 1.26 AND Silicon == 73.01 AND Potassium == 0.52 AND Calcium == 8.58 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51646 THEN target == 0"
+  expl: "IF Refractive Index == 1.51646 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.518 AND Sodium == 13.71 AND Magnesium == 3.93 AND Aluminum == 1.54 AND Silicon == 71.81 AND Potassium == 0.54 AND Calcium == 8.21 AND Barium == 0.0 AND Iron == 0.15 THEN target == 0"
+  dexp: "IF Refractive Index == 1.518 THEN target == 0"
+  expl: "IF Refractive Index == 1.518 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51645 AND Sodium == 13.44 AND Magnesium == 3.61 AND Aluminum == 1.54 AND Silicon == 72.39 AND Potassium == 0.66 AND Calcium == 8.03 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51645 THEN target == 1"
+  expl: "IF Refractive Index == 1.51645 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51869 AND Sodium == 13.19 AND Magnesium == 3.37 AND Aluminum == 1.18 AND Silicon == 72.72 AND Potassium == 0.57 AND Calcium == 8.83 AND Barium == 0.0 AND Iron == 0.16 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51869 THEN target == 0"
+  expl: "IF Refractive Index == 1.51869 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51409 AND Sodium == 14.25 AND Magnesium == 3.09 AND Aluminum == 2.08 AND Silicon == 72.28 AND Potassium == 1.1 AND Calcium == 7.08 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51409 THEN target == 1"
+  expl: "IF Refractive Index == 1.51409 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51872 AND Sodium == 12.93 AND Magnesium == 3.66 AND Aluminum == 1.56 AND Silicon == 72.51 AND Potassium == 0.58 AND Calcium == 8.55 AND Barium == 0.0 AND Iron == 0.12 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51872 THEN target == 1"
+  expl: "IF Refractive Index == 1.51872 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52475 AND Sodium == 11.45 AND Magnesium == 0.0 AND Aluminum == 1.88 AND Silicon == 72.19 AND Potassium == 0.81 AND Calcium == 13.24 AND Barium == 0.0 AND Iron == 0.34 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52475 THEN target == 1"
+  expl: "IF Refractive Index == 1.52475 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5202 AND Sodium == 13.98 AND Magnesium == 1.35 AND Aluminum == 1.63 AND Silicon == 71.76 AND Potassium == 0.39 AND Calcium == 10.56 AND Barium == 0.0 AND Iron == 0.18 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5202 THEN target == 1"
+  expl: "IF Refractive Index == 1.5202 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5175 AND Sodium == 12.82 AND Magnesium == 3.55 AND Aluminum == 1.49 AND Silicon == 72.75 AND Potassium == 0.54 AND Calcium == 8.52 AND Barium == 0.0 AND Iron == 0.19 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5175 THEN target == 0"
+  expl: "IF Refractive Index == 1.5175 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51784 AND Sodium == 12.68 AND Magnesium == 3.67 AND Aluminum == 1.16 AND Silicon == 73.11 AND Potassium == 0.61 AND Calcium == 8.7 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51784 THEN target == 0"
+  expl: "IF Refractive Index == 1.51784 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51811 AND Sodium == 12.96 AND Magnesium == 2.96 AND Aluminum == 1.43 AND Silicon == 72.92 AND Potassium == 0.6 AND Calcium == 8.79 AND Barium == 0.14 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51811 THEN target == 1"
+  expl: "IF Refractive Index == 1.51811 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52196 AND Sodium == 14.36 AND Magnesium == 3.85 AND Aluminum == 0.89 AND Silicon == 71.36 AND Potassium == 0.15 AND Calcium == 9.15 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52196 THEN target == 0"
+  expl: "IF Refractive Index == 1.52196 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51755 AND Sodium == 13.0 AND Magnesium == 3.6 AND Aluminum == 1.36 AND Silicon == 72.99 AND Potassium == 0.57 AND Calcium == 8.4 AND Barium == 0.0 AND Iron == 0.11 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51755 THEN target == 0"
+  expl: "IF Refractive Index == 1.51755 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52614 AND Sodium == 13.7 AND Magnesium == 0.0 AND Aluminum == 1.36 AND Silicon == 71.24 AND Potassium == 0.19 AND Calcium == 13.44 AND Barium == 0.0 AND Iron == 0.1 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52614 THEN target == 1"
+  expl: "IF Refractive Index == 1.52614 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5168700000000002 AND Sodium == 13.23 AND Magnesium == 3.54 AND Aluminum == 1.48 AND Silicon == 72.84 AND Potassium == 0.56 AND Calcium == 8.1 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5168700000000002 THEN target == 1"
+  expl: "IF Refractive Index == 1.5168700000000002 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51905 AND Sodium == 13.6 AND Magnesium == 3.62 AND Aluminum == 1.11 AND Silicon == 72.64 AND Potassium == 0.14 AND Calcium == 8.76 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51905 THEN target == 0"
+  expl: "IF Refractive Index == 1.51905 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5166 AND Sodium == 12.99 AND Magnesium == 3.18 AND Aluminum == 1.23 AND Silicon == 72.97 AND Potassium == 0.58 AND Calcium == 8.81 AND Barium == 0.0 AND Iron == 0.24 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5166 THEN target == 1"
+  expl: "IF Refractive Index == 1.5166 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5169 AND Sodium == 13.33 AND Magnesium == 3.54 AND Aluminum == 1.61 AND Silicon == 72.54 AND Potassium == 0.68 AND Calcium == 8.11 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5169 THEN target == 1"
+  expl: "IF Refractive Index == 1.5169 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51645 AND Sodium == 13.4 AND Magnesium == 3.49 AND Aluminum == 1.52 AND Silicon == 72.65 AND Potassium == 0.67 AND Calcium == 8.08 AND Barium == 0.0 AND Iron == 0.1 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51645 THEN target == 1"
+  expl: "IF Refractive Index == 1.51645 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51742 AND Sodium == 13.27 AND Magnesium == 3.62 AND Aluminum == 1.24 AND Silicon == 73.08 AND Potassium == 0.55 AND Calcium == 8.07 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51742 THEN target == 0"
+  expl: "IF Refractive Index == 1.51742 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5161 AND Sodium == 13.33 AND Magnesium == 3.53 AND Aluminum == 1.34 AND Silicon == 72.67 AND Potassium == 0.56 AND Calcium == 8.33 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5161 THEN target == 0"
+  expl: "IF Refractive Index == 1.5161 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51574 AND Sodium == 14.86 AND Magnesium == 3.67 AND Aluminum == 1.74 AND Silicon == 71.87 AND Potassium == 0.16 AND Calcium == 7.36 AND Barium == 0.0 AND Iron == 0.12 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51574 THEN target == 1"
+  expl: "IF Refractive Index == 1.51574 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5217200000000002 AND Sodium == 13.48 AND Magnesium == 3.74 AND Aluminum == 0.9 AND Silicon == 72.01 AND Potassium == 0.18 AND Calcium == 9.61 AND Barium == 0.0 AND Iron == 0.07 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5217200000000002 THEN target == 0"
+  expl: "IF Refractive Index == 1.5217200000000002 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5186 AND Sodium == 13.36 AND Magnesium == 3.43 AND Aluminum == 1.43 AND Silicon == 72.26 AND Potassium == 0.51 AND Calcium == 8.6 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5186 THEN target == 1"
+  expl: "IF Refractive Index == 1.5186 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51851 AND Sodium == 13.2 AND Magnesium == 3.63 AND Aluminum == 1.07 AND Silicon == 72.83 AND Potassium == 0.57 AND Calcium == 8.41 AND Barium == 0.09 AND Iron == 0.17 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51851 THEN target == 1"
+  expl: "IF Refractive Index == 1.51851 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51643 AND Sodium == 12.16 AND Magnesium == 3.52 AND Aluminum == 1.35 AND Silicon == 72.89 AND Potassium == 0.57 AND Calcium == 8.53 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51643 THEN target == 0"
+  expl: "IF Refractive Index == 1.51643 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51966 AND Sodium == 14.77 AND Magnesium == 3.75 AND Aluminum == 0.29 AND Silicon == 72.02 AND Potassium == 0.03 AND Calcium == 9.0 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51966 THEN target == 0"
+  expl: "IF Refractive Index == 1.51966 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51674 AND Sodium == 12.79 AND Magnesium == 3.52 AND Aluminum == 1.54 AND Silicon == 73.36 AND Potassium == 0.66 AND Calcium == 7.9 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51674 THEN target == 1"
+  expl: "IF Refractive Index == 1.51674 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52725 AND Sodium == 13.8 AND Magnesium == 3.15 AND Aluminum == 0.66 AND Silicon == 70.57 AND Potassium == 0.08 AND Calcium == 11.64 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52725 THEN target == 1"
+  expl: "IF Refractive Index == 1.52725 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51769 AND Sodium == 13.65 AND Magnesium == 3.66 AND Aluminum == 1.11 AND Silicon == 72.77 AND Potassium == 0.11 AND Calcium == 8.6 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51769 THEN target == 0"
+  expl: "IF Refractive Index == 1.51769 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51829 AND Sodium == 13.24 AND Magnesium == 3.9 AND Aluminum == 1.41 AND Silicon == 72.33 AND Potassium == 0.55 AND Calcium == 8.31 AND Barium == 0.0 AND Iron == 0.1 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51829 THEN target == 1"
+  expl: "IF Refractive Index == 1.51829 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51596 AND Sodium == 13.02 AND Magnesium == 3.56 AND Aluminum == 1.54 AND Silicon == 73.11 AND Potassium == 0.72 AND Calcium == 7.9 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51596 THEN target == 0"
+  expl: "IF Refractive Index == 1.51596 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51215 AND Sodium == 12.99 AND Magnesium == 3.47 AND Aluminum == 1.12 AND Silicon == 72.98 AND Potassium == 0.62 AND Calcium == 8.35 AND Barium == 0.0 AND Iron == 0.31 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51215 THEN target == 0"
+  expl: "IF Refractive Index == 1.51215 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5173 AND Sodium == 12.35 AND Magnesium == 2.72 AND Aluminum == 1.63 AND Silicon == 72.87 AND Potassium == 0.7 AND Calcium == 9.23 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5173 THEN target == 0"
+  expl: "IF Refractive Index == 1.5173 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51605 AND Sodium == 12.9 AND Magnesium == 3.44 AND Aluminum == 1.45 AND Silicon == 73.06 AND Potassium == 0.44 AND Calcium == 8.27 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51605 THEN target == 1"
+  expl: "IF Refractive Index == 1.51605 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5167 AND Sodium == 13.24 AND Magnesium == 3.57 AND Aluminum == 1.38 AND Silicon == 72.7 AND Potassium == 0.56 AND Calcium == 8.44 AND Barium == 0.0 AND Iron == 0.1 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5167 THEN target == 0"
+  expl: "IF Refractive Index == 1.5167 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51797 AND Sodium == 12.74 AND Magnesium == 3.48 AND Aluminum == 1.35 AND Silicon == 72.96 AND Potassium == 0.64 AND Calcium == 8.68 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51797 THEN target == 0"
+  expl: "IF Refractive Index == 1.51797 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52152 AND Sodium == 13.05 AND Magnesium == 3.65 AND Aluminum == 0.87 AND Silicon == 72.32 AND Potassium == 0.19 AND Calcium == 9.85 AND Barium == 0.0 AND Iron == 0.17 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52152 THEN target == 0"
+  expl: "IF Refractive Index == 1.52152 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51646 AND Sodium == 13.41 AND Magnesium == 3.55 AND Aluminum == 1.25 AND Silicon == 72.81 AND Potassium == 0.68 AND Calcium == 8.1 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51646 THEN target == 0"
+  expl: "IF Refractive Index == 1.51646 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51811 AND Sodium == 13.33 AND Magnesium == 3.85 AND Aluminum == 1.25 AND Silicon == 72.78 AND Potassium == 0.52 AND Calcium == 8.12 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51811 THEN target == 1"
+  expl: "IF Refractive Index == 1.51811 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51892 AND Sodium == 13.46 AND Magnesium == 3.83 AND Aluminum == 1.26 AND Silicon == 72.55 AND Potassium == 0.57 AND Calcium == 8.21 AND Barium == 0.0 AND Iron == 0.14 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51892 THEN target == 1"
+  expl: "IF Refractive Index == 1.51892 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5164 AND Sodium == 12.55 AND Magnesium == 3.48 AND Aluminum == 1.87 AND Silicon == 73.23 AND Potassium == 0.63 AND Calcium == 8.08 AND Barium == 0.0 AND Iron == 0.09 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5164 THEN target == 0"
+  expl: "IF Refractive Index == 1.5164 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5175299999999998 AND Sodium == 12.57 AND Magnesium == 3.47 AND Aluminum == 1.38 AND Silicon == 73.39 AND Potassium == 0.6 AND Calcium == 8.55 AND Barium == 0.0 AND Iron == 0.06 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5175299999999998 THEN target == 0"
+  expl: "IF Refractive Index == 1.5175299999999998 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51784 AND Sodium == 13.08 AND Magnesium == 3.49 AND Aluminum == 1.28 AND Silicon == 72.86 AND Potassium == 0.6 AND Calcium == 8.49 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51784 THEN target == 0"
+  expl: "IF Refractive Index == 1.51784 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52227 AND Sodium == 14.17 AND Magnesium == 3.81 AND Aluminum == 0.78 AND Silicon == 71.35 AND Potassium == 0.0 AND Calcium == 9.69 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52227 THEN target == 0"
+  expl: "IF Refractive Index == 1.52227 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51663 AND Sodium == 12.93 AND Magnesium == 3.54 AND Aluminum == 1.62 AND Silicon == 72.96 AND Potassium == 0.64 AND Calcium == 8.03 AND Barium == 0.0 AND Iron == 0.21 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51663 THEN target == 1"
+  expl: "IF Refractive Index == 1.51663 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52223 AND Sodium == 13.21 AND Magnesium == 3.77 AND Aluminum == 0.79 AND Silicon == 71.99 AND Potassium == 0.13 AND Calcium == 10.02 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52223 THEN target == 0"
+  expl: "IF Refractive Index == 1.52223 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51674 AND Sodium == 12.87 AND Magnesium == 3.56 AND Aluminum == 1.64 AND Silicon == 73.14 AND Potassium == 0.65 AND Calcium == 7.99 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51674 THEN target == 1"
+  expl: "IF Refractive Index == 1.51674 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51911 AND Sodium == 13.9 AND Magnesium == 3.73 AND Aluminum == 1.18 AND Silicon == 72.12 AND Potassium == 0.06 AND Calcium == 8.89 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51911 THEN target == 0"
+  expl: "IF Refractive Index == 1.51911 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51748 AND Sodium == 12.86 AND Magnesium == 3.56 AND Aluminum == 1.27 AND Silicon == 73.21 AND Potassium == 0.54 AND Calcium == 8.38 AND Barium == 0.0 AND Iron == 0.17 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51748 THEN target == 0"
+  expl: "IF Refractive Index == 1.51748 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51596 AND Sodium == 12.79 AND Magnesium == 3.61 AND Aluminum == 1.62 AND Silicon == 72.97 AND Potassium == 0.64 AND Calcium == 8.07 AND Barium == 0.0 AND Iron == 0.26 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51596 THEN target == 0"
+  expl: "IF Refractive Index == 1.51596 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52068 AND Sodium == 13.55 AND Magnesium == 2.09 AND Aluminum == 1.67 AND Silicon == 72.18 AND Potassium == 0.53 AND Calcium == 9.57 AND Barium == 0.27 AND Iron == 0.17 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52068 THEN target == 0"
+  expl: "IF Refractive Index == 1.52068 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51625 AND Sodium == 13.36 AND Magnesium == 3.58 AND Aluminum == 1.49 AND Silicon == 72.72 AND Potassium == 0.45 AND Calcium == 8.21 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51625 THEN target == 1"
+  expl: "IF Refractive Index == 1.51625 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52152 AND Sodium == 13.05 AND Magnesium == 3.65 AND Aluminum == 0.87 AND Silicon == 72.22 AND Potassium == 0.19 AND Calcium == 9.85 AND Barium == 0.0 AND Iron == 0.17 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52152 THEN target == 0"
+  expl: "IF Refractive Index == 1.52152 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5174299999999998 AND Sodium == 13.3 AND Magnesium == 3.6 AND Aluminum == 1.14 AND Silicon == 73.09 AND Potassium == 0.58 AND Calcium == 8.17 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.5174299999999998 AND Sodium == 13.3 THEN target == 0"
+  expl: "IF Sodium == 13.3 AND Refractive Index == 1.5174299999999998 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51793 AND Sodium == 12.79 AND Magnesium == 3.5 AND Aluminum == 1.12 AND Silicon == 73.03 AND Potassium == 0.64 AND Calcium == 8.77 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51793 THEN target == 0"
+  expl: "IF Refractive Index == 1.51793 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51847 AND Sodium == 13.1 AND Magnesium == 3.97 AND Aluminum == 1.19 AND Silicon == 72.44 AND Potassium == 0.6 AND Calcium == 8.43 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51847 THEN target == 1"
+  expl: "IF Refractive Index == 1.51847 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52101 AND Sodium == 13.64 AND Magnesium == 4.49 AND Aluminum == 1.1 AND Silicon == 71.78 AND Potassium == 0.06 AND Calcium == 8.75 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52101 THEN target == 0"
+  expl: "IF Refractive Index == 1.52101 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51766 AND Sodium == 13.21 AND Magnesium == 3.69 AND Aluminum == 1.29 AND Silicon == 72.61 AND Potassium == 0.57 AND Calcium == 8.22 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51766 THEN target == 0"
+  expl: "IF Refractive Index == 1.51766 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51764 AND Sodium == 12.98 AND Magnesium == 3.54 AND Aluminum == 1.21 AND Silicon == 73.0 AND Potassium == 0.65 AND Calcium == 8.53 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51764 THEN target == 0"
+  expl: "IF Refractive Index == 1.51764 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52081 AND Sodium == 13.78 AND Magnesium == 2.28 AND Aluminum == 1.43 AND Silicon == 71.99 AND Potassium == 0.49 AND Calcium == 9.85 AND Barium == 0.0 AND Iron == 0.17 THEN target == 1"
+  dexp: "IF Refractive Index == 1.52081 THEN target == 1"
+  expl: "IF Refractive Index == 1.52081 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5182 AND Sodium == 12.62 AND Magnesium == 2.76 AND Aluminum == 0.83 AND Silicon == 73.81 AND Potassium == 0.35 AND Calcium == 9.42 AND Barium == 0.0 AND Iron == 0.2 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5182 THEN target == 1"
+  expl: "IF Refractive Index == 1.5182 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52667 AND Sodium == 13.99 AND Magnesium == 3.7 AND Aluminum == 0.71 AND Silicon == 71.57 AND Potassium == 0.02 AND Calcium == 9.82 AND Barium == 0.0 AND Iron == 0.1 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52667 THEN target == 0"
+  expl: "IF Refractive Index == 1.52667 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52211 AND Sodium == 14.19 AND Magnesium == 3.78 AND Aluminum == 0.91 AND Silicon == 71.36 AND Potassium == 0.23 AND Calcium == 9.14 AND Barium == 0.0 AND Iron == 0.37 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52211 THEN target == 0"
+  expl: "IF Refractive Index == 1.52211 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51736 AND Sodium == 12.78 AND Magnesium == 3.62 AND Aluminum == 1.29 AND Silicon == 72.79 AND Potassium == 0.59 AND Calcium == 8.7 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51736 THEN target == 0"
+  expl: "IF Refractive Index == 1.51736 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51841 AND Sodium == 13.02 AND Magnesium == 3.62 AND Aluminum == 1.06 AND Silicon == 72.34 AND Potassium == 0.64 AND Calcium == 9.13 AND Barium == 0.0 AND Iron == 0.15 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51841 THEN target == 1"
+  expl: "IF Refractive Index == 1.51841 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5159 AND Sodium == 13.02 AND Magnesium == 3.58 AND Aluminum == 1.51 AND Silicon == 73.12 AND Potassium == 0.69 AND Calcium == 7.96 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5159 THEN target == 1"
+  expl: "IF Refractive Index == 1.5159 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51631 AND Sodium == 13.34 AND Magnesium == 3.57 AND Aluminum == 1.57 AND Silicon == 72.87 AND Potassium == 0.61 AND Calcium == 7.89 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51631 THEN target == 1"
+  expl: "IF Refractive Index == 1.51631 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51837 AND Sodium == 13.14 AND Magnesium == 2.84 AND Aluminum == 1.28 AND Silicon == 72.85 AND Potassium == 0.55 AND Calcium == 9.07 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51837 THEN target == 0"
+  expl: "IF Refractive Index == 1.51837 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.5241 AND Sodium == 13.83 AND Magnesium == 2.9 AND Aluminum == 1.17 AND Silicon == 71.15 AND Potassium == 0.08 AND Calcium == 10.79 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.5241 THEN target == 1"
+  expl: "IF Refractive Index == 1.5241 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51763 AND Sodium == 12.8 AND Magnesium == 3.66 AND Aluminum == 1.27 AND Silicon == 73.01 AND Potassium == 0.6 AND Calcium == 8.56 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51763 THEN target == 0"
+  expl: "IF Refractive Index == 1.51763 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51761 AND Sodium == 13.89 AND Magnesium == 3.6 AND Aluminum == 1.36 AND Silicon == 72.73 AND Potassium == 0.48 AND Calcium == 7.83 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51761 THEN target == 0"
+  expl: "IF Refractive Index == 1.51761 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51775 AND Sodium == 12.85 AND Magnesium == 3.48 AND Aluminum == 1.23 AND Silicon == 72.97 AND Potassium == 0.61 AND Calcium == 8.56 AND Barium == 0.09 AND Iron == 0.22 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51775 THEN target == 0"
+  expl: "IF Refractive Index == 1.51775 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51763 AND Sodium == 12.61 AND Magnesium == 3.59 AND Aluminum == 1.31 AND Silicon == 73.29 AND Potassium == 0.58 AND Calcium == 8.5 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51763 THEN target == 0"
+  expl: "IF Refractive Index == 1.51763 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.519 AND Sodium == 13.49 AND Magnesium == 3.48 AND Aluminum == 1.35 AND Silicon == 71.95 AND Potassium == 0.55 AND Calcium == 9.0 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.519 THEN target == 0"
+  expl: "IF Refractive Index == 1.519 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.52121 AND Sodium == 14.03 AND Magnesium == 3.76 AND Aluminum == 0.58 AND Silicon == 71.79 AND Potassium == 0.11 AND Calcium == 9.65 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.52121 THEN target == 0"
+  expl: "IF Refractive Index == 1.52121 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51755 AND Sodium == 12.71 AND Magnesium == 3.42 AND Aluminum == 1.2 AND Silicon == 73.2 AND Potassium == 0.59 AND Calcium == 8.64 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51755 THEN target == 0"
+  expl: "IF Refractive Index == 1.51755 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51832 AND Sodium == 13.33 AND Magnesium == 3.34 AND Aluminum == 1.54 AND Silicon == 72.14 AND Potassium == 0.56 AND Calcium == 8.99 AND Barium == 0.0 AND Iron == 0.0 THEN target == 0"
+  dexp: "IF Refractive Index == 1.51832 THEN target == 0"
+  expl: "IF Refractive Index == 1.51832 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51789 AND Sodium == 13.19 AND Magnesium == 3.9 AND Aluminum == 1.3 AND Silicon == 72.33 AND Potassium == 0.55 AND Calcium == 8.44 AND Barium == 0.0 AND Iron == 0.28 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51789 THEN target == 1"
+  expl: "IF Refractive Index == 1.51789 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Refractive Index == 1.51618 AND Sodium == 13.01 AND Magnesium == 3.5 AND Aluminum == 1.48 AND Silicon == 72.89 AND Potassium == 0.6 AND Calcium == 8.12 AND Barium == 0.0 AND Iron == 0.0 THEN target == 1"
+  dexp: "IF Refractive Index == 1.51618 THEN target == 1"
+  expl: "IF Refractive Index == 1.51618 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 162
+tot # of expls: 162
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.01
+avg expl sz: 1.01
+max expl sz: 1.01
+Max expl sz: 2
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

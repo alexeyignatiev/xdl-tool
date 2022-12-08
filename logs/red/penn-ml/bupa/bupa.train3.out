@@ -1,0 +1,2252 @@
+MODEL:
+IF Mcv == 65.0 THEN target == 2
+IF Mcv == 78.0 THEN target == 1
+IF Mcv == 79.0 THEN target == 2
+IF Mcv == 100.0 THEN target == 2
+IF Mcv == 101.0 THEN target == 2
+IF Alkphos == 23.0 THEN target == 1
+IF Alkphos == 35.0 THEN target == 1
+IF Alkphos == 36.0 THEN target == 1
+IF Alkphos == 37.0 THEN target == 2
+IF Alkphos == 40.0 THEN target == 2
+IF Alkphos == 41.0 THEN target == 1
+IF Mcv == 81.0 THEN target == 2
+IF Alkphos == 42.0 THEN target == 2
+IF Alkphos == 43.0 THEN target == 2
+IF Alkphos == 45.0 THEN target == 2
+IF Alkphos == 46.0 THEN target == 2
+IF Alkphos == 47.0 THEN target == 2
+IF Alkphos == 49.0 THEN target == 2
+IF Alkphos == 61.0 THEN target == 2
+IF Alkphos == 72.0 THEN target == 2
+IF Alkphos == 77.0 THEN target == 1
+IF Alkphos == 81.0 THEN target == 2
+IF Alkphos == 83.0 THEN target == 1
+IF Alkphos == 88.0 THEN target == 2
+IF Alkphos == 90.0 THEN target == 2
+IF Alkphos == 91.0 THEN target == 2
+IF Alkphos == 94.0 THEN target == 1
+IF Alkphos == 95.0 THEN target == 1
+IF Alkphos == 97.0 THEN target == 2
+IF Alkphos == 102.0 THEN target == 1
+IF Alkphos == 105.0 THEN target == 1
+IF Alkphos == 107.0 THEN target == 2
+IF Alkphos == 108.0 THEN target == 2
+IF Alkphos == 115.0 THEN target == 1
+IF Alkphos == 116.0 THEN target == 1
+IF Alkphos == 117.0 THEN target == 2
+IF Alkphos == 123.0 THEN target == 2
+IF Alkphos == 134.0 THEN target == 2
+IF Sgpt == 5.0 THEN target == 2
+IF Sgpt == 9.0 THEN target == 2
+IF Sgpt == 12.0 THEN target == 2
+IF Sgpt == 14.0 THEN target == 2
+IF Sgpt == 16.0 THEN target == 2
+IF Sgpt == 30.0 THEN target == 2
+IF Sgpt == 48.0 THEN target == 2
+IF Sgpt == 50.0 THEN target == 2
+IF Sgpt == 52.0 THEN target == 2
+IF Sgpt == 53.0 THEN target == 2
+IF Sgpt == 59.0 THEN target == 2
+IF Sgpt == 61.0 THEN target == 1
+IF Alkphos == 64.0 THEN target == 2
+IF Sgpt == 64.0 THEN target == 2
+IF Sgpt == 67.0 THEN target == 2
+IF Sgpt == 68.0 THEN target == 2
+IF Sgpt == 70.0 THEN target == 1
+IF Sgpt == 77.0 THEN target == 1
+IF Sgpt == 83.0 THEN target == 2
+IF Sgpt == 103.0 THEN target == 1
+IF Sgpt == 113.0 THEN target == 2
+IF Sgpt == 148.0 THEN target == 2
+IF Sgot == 8.0 THEN target == 1
+IF Sgot == 12.0 THEN target == 1
+IF Sgpt == 11.0 THEN target == 2
+IF Sgot == 31.0 THEN target == 1
+IF Alkphos == 78.0 THEN target == 2
+IF Sgot == 39.0 THEN target == 2
+IF Sgot == 42.0 THEN target == 1
+IF Alkphos == 86.0 THEN target == 2
+IF Sgot == 45.0 THEN target == 1
+IF Sgpt == 57.0 THEN target == 2
+IF Sgot == 47.0 THEN target == 2
+IF Sgpt == 58.0 THEN target == 1
+IF Sgot == 35.0 THEN target == 2
+IF Sgot == 49.0 THEN target == 2
+IF Alkphos == 96.0 THEN target == 1
+IF Sgot == 55.0 THEN target == 2
+IF Gammagt == 5.0 THEN target == 1
+IF Gammagt == 6.0 THEN target == 1
+IF Gammagt == 7.0 THEN target == 1
+IF Gammagt == 10.0 THEN target == 1
+IF Gammagt == 20.0 THEN target == 1
+IF Sgpt == 10.0 THEN target == 2
+IF Gammagt == 24.0 THEN target == 2
+IF Alkphos == 79.0 THEN target == 1
+IF Sgot == 15.0 THEN target == 1
+IF Mcv == 83.0 THEN target == 2
+IF Alkphos == 48.0 THEN target == 2
+IF Alkphos == 109.0 THEN target == 2
+IF Sgpt == 32.0 THEN target == 1
+IF Gammagt == 27.0 THEN target == 1
+IF Alkphos == 51.0 THEN target == 2
+IF Gammagt == 28.0 THEN target == 1
+IF Alkphos == 60.0 THEN target == 2
+IF Gammagt == 29.0 THEN target == 2
+IF Gammagt == 32.0 THEN target == 1
+IF Mcv == 98.0 THEN target == 2
+IF Gammagt == 34.0 THEN target == 2
+IF Gammagt == 35.0 THEN target == 1
+IF Gammagt == 37.0 THEN target == 2
+IF Sgpt == 35.0 THEN target == 1
+IF Alkphos == 59.0 THEN target == 2
+IF Mcv == 99.0 THEN target == 1
+IF Alkphos == 69.0 THEN target == 2
+IF Sgot == 13.0 THEN target == 2
+IF Gammagt == 12.0 THEN target == 1
+IF Alkphos == 56.0 THEN target == 2
+IF Alkphos == 85.0 THEN target == 2
+IF Sgpt == 23.0 THEN target == 2
+IF Sgot == 29.0 THEN target == 1
+IF Alkphos == 54.0 THEN target == 2
+IF Sgpt == 41.0 THEN target == 2
+IF Sgpt == 47.0 THEN target == 1
+IF Sgot == 33.0 THEN target == 2
+IF Sgpt == 42.0 THEN target == 1
+IF Alkphos == 44.0 THEN target == 2
+IF Sgot == 11.0 THEN target == 1
+IF Gammagt == 15.0 THEN target == 1
+IF Mcv == 82.0 THEN target == 2
+IF Mcv == 95.0 THEN target == 2
+IF Alkphos == 50.0 THEN target == 2
+IF Alkphos == 52.0 THEN target == 2
+IF Alkphos == 68.0 THEN target == 1
+IF Alkphos == 74.0 THEN target == 2
+IF Sgpt == 13.0 THEN target == 2
+IF Sgpt == 17.0 THEN target == 2
+IF Sgpt == 24.0 THEN target == 2
+IF Alkphos == 80.0 THEN target == 1
+IF Sgpt == 27.0 THEN target == 1
+IF Alkphos == 101.0 THEN target == 2
+IF Sgpt == 34.0 THEN target == 1
+IF Alkphos == 73.0 THEN target == 2
+IF Sgpt == 33.0 THEN target == 1
+IF Mcv == 84.0 THEN target == 2
+IF Mcv == 89.0 THEN target == 2
+IF Alkphos == 99.0 THEN target == 2
+IF Sgpt == 38.0 THEN target == 1
+IF Sgpt == 46.0 THEN target == 1
+IF Sgot == 22.0 THEN target == 1
+IF Mcv == 97.0 THEN target == 2
+IF Alkphos == 71.0 THEN target == 2
+IF Alkphos == 92.0 THEN target == 1
+IF Mcv == 85.0 THEN target == 2
+IF Sgpt == 45.0 THEN target == 2
+IF Mcv == 90.0 THEN target == 1
+IF Alkphos == 63.0 THEN target == 1
+IF Alkphos == 76.0 THEN target == 2
+IF Alkphos == 84.0 THEN target == 2
+IF Sgpt == 18.0 THEN target == 1
+IF Mcv == 93.0 THEN target == 2
+IF Alkphos == 87.0 THEN target == 2
+IF Sgpt == 26.0 THEN target == 2
+IF Alkphos == 67.0 THEN target == 1
+IF Mcv == 96.0 THEN target == 2
+IF Alkphos == 70.0 THEN target == 1
+IF Sgpt == 15.0 THEN target == 2
+IF Sgpt == 19.0 THEN target == 2
+IF Sgpt == 29.0 THEN target == 2
+IF Mcv == 88.0 THEN target == 1
+IF Alkphos == 58.0 THEN target == 2
+IF Alkphos == 62.0 THEN target == 1
+IF Alkphos == 93.0 THEN target == 1
+IF Sgpt == 20.0 THEN target == 2
+IF Mcv == 94.0 THEN target == 1
+IF Alkphos == 65.0 THEN target == 2
+IF Sgpt == 22.0 THEN target == 2
+IF Mcv == 86.0 THEN target == 1
+IF Alkphos == 66.0 THEN target == 1
+IF Mcv == 92.0 THEN target == 2
+IF Alkphos == 57.0 THEN target == 1
+IF Mcv != 87.0 THEN target == 2
+IF Alkphos == 55.0 THEN target == 1
+IF Sgpt == 25.0 THEN target == 1
+IF Mcv == 87.0 THEN target == 2
+IF TRUE THEN target == 2
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 328
+avg # of vars: 328.00
+max # of vars: 328
+min # of clauses: 11184
+avg # of clauses: 11204.00
+max # of clauses: 11224
+
+EXPLANATIONS:
+  inst: "IF Mcv == 85.0 AND Alkphos == 92.0 AND Sgpt == 45.0 AND Sgot == 27.0 AND Gammagt == 31.0 AND Drinks == 0.0 THEN target == 1"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 92.0 AND Sgpt == 45.0 AND Sgot == 27.0 AND Gammagt == 31.0 THEN target == 1"
+  expl: "IF Gammagt == 31.0 AND Sgot == 27.0 AND Sgpt == 45.0 AND Alkphos == 92.0 AND Mcv == 85.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 64.0 AND Sgpt == 59.0 AND Sgot == 32.0 AND Gammagt == 23.0 AND Drinks == 0.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 64.0 AND Sgpt == 59.0 THEN target == 2"
+  expl: "IF Sgpt == 59.0 AND Alkphos == 64.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 54.0 AND Sgpt == 33.0 AND Sgot == 16.0 AND Gammagt == 54.0 AND Drinks == 0.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 54.0 AND Sgpt == 33.0 AND Sgot == 16.0 AND Gammagt == 54.0 THEN target == 2"
+  expl: "IF Gammagt == 54.0 AND Sgot == 16.0 AND Sgpt == 33.0 AND Alkphos == 54.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 78.0 AND Sgpt == 34.0 AND Sgot == 24.0 AND Gammagt == 36.0 AND Drinks == 0.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 78.0 AND Sgpt == 34.0 AND Sgot == 24.0 THEN target == 2"
+  expl: "IF Sgot == 24.0 AND Sgpt == 34.0 AND Alkphos == 78.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 55.0 AND Sgpt == 13.0 AND Sgot == 17.0 AND Gammagt == 17.0 AND Drinks == 0.0 THEN target == 2"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 55.0 AND Sgpt == 13.0 AND Sgot == 17.0 AND Gammagt == 17.0 THEN target == 2"
+  expl: "IF Gammagt == 17.0 AND Sgot == 17.0 AND Sgpt == 13.0 AND Alkphos == 55.0 AND Mcv == 98.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 62.0 AND Sgpt == 20.0 AND Sgot == 17.0 AND Gammagt == 9.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 62.0 AND Sgpt == 20.0 AND Sgot == 17.0 AND Gammagt == 9.0 THEN target == 1"
+  expl: "IF Gammagt == 9.0 AND Sgot == 17.0 AND Sgpt == 20.0 AND Alkphos == 62.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 67.0 AND Sgpt == 21.0 AND Sgot == 11.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 67.0 AND Sgpt == 21.0 AND Sgot == 11.0 AND Gammagt == 11.0 THEN target == 1"
+  expl: "IF Gammagt == 11.0 AND Sgot == 11.0 AND Sgpt == 21.0 AND Alkphos == 67.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 54.0 AND Sgpt == 22.0 AND Sgot == 20.0 AND Gammagt == 7.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 54.0 AND Sgpt == 22.0 AND Sgot == 20.0 AND Gammagt == 7.0 THEN target == 1"
+  expl: "IF Gammagt == 7.0 AND Sgot == 20.0 AND Sgpt == 22.0 AND Alkphos == 54.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 60.0 AND Sgpt == 25.0 AND Sgot == 19.0 AND Gammagt == 5.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 60.0 AND Sgpt == 25.0 AND Sgot == 19.0 AND Gammagt == 5.0 THEN target == 1"
+  expl: "IF Gammagt == 5.0 AND Sgot == 19.0 AND Sgpt == 25.0 AND Alkphos == 60.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 52.0 AND Sgpt == 13.0 AND Sgot == 24.0 AND Gammagt == 15.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 52.0 AND Sgpt == 13.0 AND Sgot == 24.0 AND Gammagt == 15.0 THEN target == 1"
+  expl: "IF Gammagt == 15.0 AND Sgot == 24.0 AND Sgpt == 13.0 AND Alkphos == 52.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 62.0 AND Sgpt == 17.0 AND Sgot == 17.0 AND Gammagt == 15.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 62.0 AND Sgpt == 17.0 AND Sgot == 17.0 AND Gammagt == 15.0 THEN target == 1"
+  expl: "IF Gammagt == 15.0 AND Sgot == 17.0 AND Sgpt == 17.0 AND Alkphos == 62.0 AND Mcv == 82.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 77.0 AND Sgpt == 25.0 AND Sgot == 19.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 86.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 67.0 AND Sgpt == 29.0 AND Sgot == 20.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 67.0 AND Sgpt == 29.0 AND Sgot == 20.0 AND Gammagt == 11.0 THEN target == 1"
+  expl: "IF Gammagt == 11.0 AND Sgot == 20.0 AND Sgpt == 29.0 AND Alkphos == 67.0 AND Mcv == 96.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 78.0 AND Sgpt == 20.0 AND Sgot == 31.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 78.0 AND Sgpt == 20.0 AND Sgot == 31.0 THEN target == 1"
+  expl: "IF Sgot == 31.0 AND Sgpt == 20.0 AND Alkphos == 78.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 67.0 AND Sgpt == 23.0 AND Sgot == 16.0 AND Gammagt == 10.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 67.0 AND Sgpt == 23.0 AND Sgot == 16.0 AND Gammagt == 10.0 THEN target == 1"
+  expl: "IF Gammagt == 10.0 AND Sgot == 16.0 AND Sgpt == 23.0 AND Alkphos == 67.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 79.0 AND Sgpt == 17.0 AND Sgot == 17.0 AND Gammagt == 16.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 79.0 AND Sgpt == 17.0 AND Sgot == 17.0 AND Gammagt == 16.0 THEN target == 1"
+  expl: "IF Gammagt == 16.0 AND Sgot == 17.0 AND Sgpt == 17.0 AND Alkphos == 79.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 107.0 AND Sgpt == 20.0 AND Sgot == 20.0 AND Gammagt == 56.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 107.0 THEN target == 2"
+  expl: "IF Alkphos == 107.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 116.0 AND Sgpt == 11.0 AND Sgot == 33.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 116.0 THEN target == 1"
+  expl: "IF Alkphos == 116.0 AND Mcv == 94.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 59.0 AND Sgpt == 35.0 AND Sgot == 13.0 AND Gammagt == 19.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 59.0 AND Sgpt == 35.0 AND Sgot == 13.0 AND Gammagt == 19.0 THEN target == 1"
+  expl: "IF Gammagt == 19.0 AND Sgot == 13.0 AND Sgpt == 35.0 AND Alkphos == 59.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 23.0 AND Sgpt == 35.0 AND Sgot == 20.0 AND Gammagt == 20.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 23.0 THEN target == 1"
+  expl: "IF Alkphos == 23.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 70.0 AND Sgpt == 24.0 AND Sgot == 13.0 AND Gammagt == 26.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 70.0 AND Sgpt == 24.0 AND Sgot == 13.0 AND Gammagt == 26.0 THEN target == 2"
+  expl: "IF Gammagt == 26.0 AND Sgot == 13.0 AND Sgpt == 24.0 AND Alkphos == 70.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 47.0 AND Sgpt == 28.0 AND Sgot == 15.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 47.0 THEN target == 2"
+  expl: "IF Alkphos == 47.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 66.0 AND Sgpt == 20.0 AND Sgot == 21.0 AND Gammagt == 10.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 66.0 AND Sgpt == 20.0 AND Sgot == 21.0 AND Gammagt == 10.0 THEN target == 1"
+  expl: "IF Gammagt == 10.0 AND Sgot == 21.0 AND Sgpt == 20.0 AND Alkphos == 66.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 102.0 AND Sgpt == 17.0 AND Sgot == 13.0 AND Gammagt == 19.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 102.0 THEN target == 1"
+  expl: "IF Alkphos == 102.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 41.0 AND Sgpt == 31.0 AND Sgot == 19.0 AND Gammagt == 16.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 41.0 THEN target == 1"
+  expl: "IF Alkphos == 41.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 79.0 AND Sgpt == 28.0 AND Sgot == 16.0 AND Gammagt == 17.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 79.0 AND Sgpt == 28.0 AND Sgot == 16.0 AND Gammagt == 17.0 THEN target == 1"
+  expl: "IF Gammagt == 17.0 AND Sgot == 16.0 AND Sgpt == 28.0 AND Alkphos == 79.0 AND Mcv == 86.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 77.0 AND Sgpt == 32.0 AND Sgot == 18.0 AND Gammagt == 29.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 96.0 AND Sgpt == 28.0 AND Sgot == 21.0 AND Gammagt == 40.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 96.0 AND Sgpt == 28.0 AND Sgot == 21.0 THEN target == 1"
+  expl: "IF Sgot == 21.0 AND Sgpt == 28.0 AND Alkphos == 96.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 65.0 AND Sgpt == 22.0 AND Sgot == 18.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 65.0 AND Sgpt == 22.0 AND Sgot == 18.0 AND Gammagt == 11.0 THEN target == 1"
+  expl: "IF Gammagt == 11.0 AND Sgot == 18.0 AND Sgpt == 22.0 AND Alkphos == 65.0 AND Mcv == 94.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 72.0 AND Sgpt == 155.0 AND Sgot == 68.0 AND Gammagt == 82.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 72.0 THEN target == 2"
+  expl: "IF Alkphos == 72.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 54.0 AND Sgpt == 47.0 AND Sgot == 33.0 AND Gammagt == 22.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 54.0 AND Sgpt == 47.0 AND Sgot == 33.0 AND Gammagt == 22.0 THEN target == 2"
+  expl: "IF Gammagt == 22.0 AND Sgot == 33.0 AND Sgpt == 47.0 AND Alkphos == 54.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 85.0 AND Sgpt == 25.0 AND Sgot == 26.0 AND Gammagt == 30.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 85.0 AND Sgpt == 25.0 AND Sgot == 26.0 AND Gammagt == 30.0 THEN target == 2"
+  expl: "IF Gammagt == 30.0 AND Sgot == 26.0 AND Sgpt == 25.0 AND Alkphos == 85.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 63.0 AND Sgpt == 24.0 AND Sgot == 20.0 AND Gammagt == 38.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 63.0 AND Sgpt == 24.0 AND Sgot == 20.0 AND Gammagt == 38.0 THEN target == 2"
+  expl: "IF Gammagt == 38.0 AND Sgot == 20.0 AND Sgpt == 24.0 AND Alkphos == 63.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 92.0 AND Sgpt == 68.0 AND Sgot == 37.0 AND Gammagt == 44.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 92.0 AND Sgpt == 68.0 THEN target == 2"
+  expl: "IF Sgpt == 68.0 AND Alkphos == 92.0 AND Mcv == 84.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 68.0 AND Sgpt == 26.0 AND Sgot == 39.0 AND Gammagt == 42.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 68.0 AND Sgpt == 26.0 AND Sgot == 39.0 THEN target == 2"
+  expl: "IF Sgot == 39.0 AND Sgpt == 26.0 AND Alkphos == 68.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 101.0 AND Sgpt == 18.0 AND Sgot == 25.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 101.0 AND Sgpt == 18.0 AND Sgot == 25.0 AND Gammagt == 13.0 THEN target == 2"
+  expl: "IF Gammagt == 13.0 AND Sgot == 25.0 AND Sgpt == 18.0 AND Alkphos == 101.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 84.0 AND Sgpt == 18.0 AND Sgot == 14.0 AND Gammagt == 16.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 84.0 AND Sgpt == 18.0 AND Sgot == 14.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 14.0 AND Sgpt == 18.0 AND Alkphos == 84.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 65.0 AND Sgpt == 25.0 AND Sgot == 14.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 65.0 AND Sgpt == 25.0 AND Sgot == 14.0 AND Gammagt == 18.0 THEN target == 2"
+  expl: "IF Gammagt == 18.0 AND Sgot == 14.0 AND Sgpt == 25.0 AND Alkphos == 65.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 61.0 AND Sgpt == 19.0 AND Sgot == 21.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 61.0 THEN target == 2"
+  expl: "IF Alkphos == 61.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 56.0 AND Sgpt == 14.0 AND Sgot == 16.0 AND Gammagt == 10.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 56.0 AND Sgpt == 14.0 THEN target == 2"
+  expl: "IF Sgpt == 14.0 AND Alkphos == 56.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 50.0 AND Sgpt == 29.0 AND Sgot == 25.0 AND Gammagt == 50.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 50.0 AND Sgpt == 29.0 AND Sgot == 25.0 AND Gammagt == 50.0 THEN target == 2"
+  expl: "IF Gammagt == 50.0 AND Sgot == 25.0 AND Sgpt == 29.0 AND Alkphos == 50.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 75.0 AND Sgpt == 24.0 AND Sgot == 22.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 75.0 AND Sgpt == 24.0 AND Sgot == 22.0 AND Gammagt == 11.0 THEN target == 2"
+  expl: "IF Gammagt == 11.0 AND Sgot == 22.0 AND Sgpt == 24.0 AND Alkphos == 75.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 74.0 AND Sgpt == 19.0 AND Sgot == 23.0 AND Gammagt == 16.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 74.0 AND Sgpt == 19.0 AND Sgot == 23.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 23.0 AND Sgpt == 19.0 AND Alkphos == 74.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 64.0 AND Sgpt == 24.0 AND Sgot == 22.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 64.0 AND Sgpt == 24.0 THEN target == 2"
+  expl: "IF Sgpt == 24.0 AND Alkphos == 64.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 57.0 AND Sgpt == 64.0 AND Sgot == 36.0 AND Gammagt == 90.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 57.0 AND Sgpt == 64.0 THEN target == 2"
+  expl: "IF Sgpt == 64.0 AND Alkphos == 57.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 48.0 AND Sgpt == 11.0 AND Sgot == 23.0 AND Gammagt == 43.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 48.0 AND Sgpt == 11.0 AND Sgot == 23.0 THEN target == 2"
+  expl: "IF Sgot == 23.0 AND Sgpt == 11.0 AND Alkphos == 48.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 52.0 AND Sgpt == 21.0 AND Sgot == 19.0 AND Gammagt == 30.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 52.0 AND Sgpt == 21.0 AND Sgot == 19.0 AND Gammagt == 30.0 THEN target == 2"
+  expl: "IF Gammagt == 30.0 AND Sgot == 19.0 AND Sgpt == 21.0 AND Alkphos == 52.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 65.0 AND Sgpt == 23.0 AND Sgot == 29.0 AND Gammagt == 15.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 65.0 AND Sgpt == 23.0 AND Sgot == 29.0 AND Gammagt == 15.0 THEN target == 2"
+  expl: "IF Gammagt == 15.0 AND Sgot == 29.0 AND Sgpt == 23.0 AND Alkphos == 65.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 82.0 AND Sgpt == 21.0 AND Sgot == 21.0 AND Gammagt == 19.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 82.0 AND Sgpt == 21.0 AND Sgot == 21.0 AND Gammagt == 19.0 THEN target == 2"
+  expl: "IF Gammagt == 19.0 AND Sgot == 21.0 AND Sgpt == 21.0 AND Alkphos == 82.0 AND Mcv == 84.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 49.0 AND Sgpt == 20.0 AND Sgot == 22.0 AND Gammagt == 19.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 49.0 THEN target == 2"
+  expl: "IF Alkphos == 49.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 67.0 AND Sgpt == 26.0 AND Sgot == 26.0 AND Gammagt == 36.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 67.0 AND Sgpt == 26.0 AND Sgot == 26.0 AND Gammagt == 36.0 THEN target == 2"
+  expl: "IF Gammagt == 36.0 AND Sgot == 26.0 AND Sgpt == 26.0 AND Alkphos == 67.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 24.0 AND Sgot == 24.0 AND Gammagt == 24.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 24.0 AND Sgot == 24.0 AND Gammagt == 24.0 THEN target == 2"
+  expl: "IF Gammagt == 24.0 AND Sgot == 24.0 AND Sgpt == 24.0 AND Alkphos == 63.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 45.0 AND Sgpt == 33.0 AND Sgot == 34.0 AND Gammagt == 27.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 45.0 THEN target == 2"
+  expl: "IF Alkphos == 45.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 72.0 AND Sgpt == 14.0 AND Sgot == 15.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 72.0 THEN target == 2"
+  expl: "IF Alkphos == 72.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 55.0 AND Sgpt == 4.0 AND Sgot == 8.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 55.0 AND Sgpt == 4.0 AND Sgot == 8.0 THEN target == 1"
+  expl: "IF Sgot == 8.0 AND Sgpt == 4.0 AND Alkphos == 55.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 52.0 AND Sgpt == 15.0 AND Sgot == 22.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 52.0 AND Sgpt == 15.0 AND Sgot == 22.0 AND Gammagt == 11.0 THEN target == 2"
+  expl: "IF Gammagt == 11.0 AND Sgot == 22.0 AND Sgpt == 15.0 AND Alkphos == 52.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 71.0 AND Sgpt == 32.0 AND Sgot == 19.0 AND Gammagt == 27.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 71.0 AND Sgpt == 32.0 AND Sgot == 19.0 AND Gammagt == 27.0 THEN target == 1"
+  expl: "IF Gammagt == 27.0 AND Sgot == 19.0 AND Sgpt == 32.0 AND Alkphos == 71.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 77.0 AND Sgpt == 26.0 AND Sgot == 20.0 AND Gammagt == 19.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 67.0 AND Sgpt == 5.0 AND Sgot == 17.0 AND Gammagt == 14.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 67.0 AND Sgpt == 5.0 THEN target == 2"
+  expl: "IF Sgpt == 5.0 AND Alkphos == 67.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 51.0 AND Sgpt == 26.0 AND Sgot == 24.0 AND Gammagt == 23.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 51.0 AND Sgpt == 26.0 AND Sgot == 24.0 AND Gammagt == 23.0 THEN target == 2"
+  expl: "IF Gammagt == 23.0 AND Sgot == 24.0 AND Sgpt == 26.0 AND Alkphos == 51.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 103.0 AND Alkphos == 75.0 AND Sgpt == 19.0 AND Sgot == 30.0 AND Gammagt == 13.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 103.0 AND Alkphos == 75.0 AND Sgpt == 19.0 AND Sgot == 30.0 AND Gammagt == 13.0 THEN target == 2"
+  expl: "IF Gammagt == 13.0 AND Sgot == 30.0 AND Sgpt == 19.0 AND Alkphos == 75.0 AND Mcv == 103.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 16.0 AND Sgot == 21.0 AND Gammagt == 14.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 16.0 THEN target == 2"
+  expl: "IF Sgpt == 16.0 AND Alkphos == 63.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 29.0 AND Sgot == 23.0 AND Gammagt == 57.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 29.0 AND Sgot == 23.0 AND Gammagt == 57.0 THEN target == 1"
+  expl: "IF Gammagt == 57.0 AND Sgot == 23.0 AND Sgpt == 29.0 AND Alkphos == 63.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 67.0 AND Sgpt == 35.0 AND Sgot == 19.0 AND Gammagt == 35.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 67.0 AND Sgpt == 35.0 AND Sgot == 19.0 AND Gammagt == 35.0 THEN target == 1"
+  expl: "IF Gammagt == 35.0 AND Sgot == 19.0 AND Sgpt == 35.0 AND Alkphos == 67.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 66.0 AND Sgpt == 27.0 AND Sgot == 22.0 AND Gammagt == 9.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 66.0 AND Sgpt == 27.0 AND Sgot == 22.0 AND Gammagt == 9.0 THEN target == 1"
+  expl: "IF Gammagt == 9.0 AND Sgot == 22.0 AND Sgpt == 27.0 AND Alkphos == 66.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 73.0 AND Sgpt == 34.0 AND Sgot == 21.0 AND Gammagt == 22.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 73.0 AND Sgpt == 34.0 AND Sgot == 21.0 AND Gammagt == 22.0 THEN target == 1"
+  expl: "IF Gammagt == 22.0 AND Sgot == 21.0 AND Sgpt == 34.0 AND Alkphos == 73.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 54.0 AND Sgpt == 20.0 AND Sgot == 21.0 AND Gammagt == 16.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 54.0 AND Sgpt == 20.0 AND Sgot == 21.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 21.0 AND Sgpt == 20.0 AND Alkphos == 54.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 80.0 AND Sgpt == 19.0 AND Sgot == 14.0 AND Gammagt == 42.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 80.0 AND Sgpt == 19.0 AND Sgot == 14.0 AND Gammagt == 42.0 THEN target == 1"
+  expl: "IF Gammagt == 42.0 AND Sgot == 14.0 AND Sgpt == 19.0 AND Alkphos == 80.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 90.0 AND Sgpt == 43.0 AND Sgot == 28.0 AND Gammagt == 156.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 90.0 THEN target == 2"
+  expl: "IF Alkphos == 90.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 72.0 AND Sgpt == 28.0 AND Sgot == 19.0 AND Gammagt == 30.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 72.0 THEN target == 2"
+  expl: "IF Alkphos == 72.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 55.0 AND Sgpt == 9.0 AND Sgot == 25.0 AND Gammagt == 16.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 55.0 AND Sgpt == 9.0 THEN target == 2"
+  expl: "IF Sgpt == 9.0 AND Alkphos == 55.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 78.0 AND Sgpt == 27.0 AND Sgot == 25.0 AND Gammagt == 30.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 78.0 AND Sgpt == 27.0 AND Sgot == 25.0 THEN target == 2"
+  expl: "IF Sgot == 25.0 AND Sgpt == 27.0 AND Alkphos == 78.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 101.0 AND Sgpt == 34.0 AND Sgot == 30.0 AND Gammagt == 64.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 101.0 AND Sgpt == 34.0 AND Sgot == 30.0 AND Gammagt == 64.0 THEN target == 2"
+  expl: "IF Gammagt == 64.0 AND Sgot == 30.0 AND Sgpt == 34.0 AND Alkphos == 101.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 51.0 AND Sgpt == 41.0 AND Sgot == 22.0 AND Gammagt == 48.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 51.0 AND Sgpt == 41.0 AND Sgot == 22.0 AND Gammagt == 48.0 THEN target == 2"
+  expl: "IF Gammagt == 48.0 AND Sgot == 22.0 AND Sgpt == 41.0 AND Alkphos == 51.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 99.0 AND Sgpt == 42.0 AND Sgot == 33.0 AND Gammagt == 16.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 99.0 AND Sgpt == 42.0 AND Sgot == 33.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 33.0 AND Sgpt == 42.0 AND Alkphos == 99.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 58.0 AND Sgpt == 21.0 AND Sgot == 18.0 AND Gammagt == 26.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 58.0 AND Sgpt == 21.0 AND Sgot == 18.0 AND Gammagt == 26.0 THEN target == 2"
+  expl: "IF Gammagt == 26.0 AND Sgot == 18.0 AND Sgpt == 21.0 AND Alkphos == 58.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 47.0 AND Sgpt == 33.0 AND Sgot == 26.0 AND Gammagt == 29.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 47.0 THEN target == 2"
+  expl: "IF Alkphos == 47.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 65.0 AND Sgpt == 17.0 AND Sgot == 25.0 AND Gammagt == 9.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 65.0 AND Sgpt == 17.0 AND Sgot == 25.0 AND Gammagt == 9.0 THEN target == 2"
+  expl: "IF Gammagt == 9.0 AND Sgot == 25.0 AND Sgpt == 17.0 AND Alkphos == 65.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 79.0 AND Sgpt == 22.0 AND Sgot == 20.0 AND Gammagt == 11.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 79.0 AND Sgpt == 22.0 AND Sgot == 20.0 AND Gammagt == 11.0 THEN target == 1"
+  expl: "IF Gammagt == 11.0 AND Sgot == 20.0 AND Sgpt == 22.0 AND Alkphos == 79.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 68.0 AND Sgpt == 27.0 AND Sgot == 21.0 AND Gammagt == 26.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 68.0 AND Sgpt == 27.0 AND Sgot == 21.0 AND Gammagt == 26.0 THEN target == 1"
+  expl: "IF Gammagt == 26.0 AND Sgot == 21.0 AND Sgpt == 27.0 AND Alkphos == 68.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 48.0 AND Sgpt == 20.0 AND Sgot == 20.0 AND Gammagt == 6.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 48.0 AND Sgpt == 20.0 AND Sgot == 20.0 AND Gammagt == 6.0 THEN target == 1"
+  expl: "IF Gammagt == 6.0 AND Sgot == 20.0 AND Sgpt == 20.0 AND Alkphos == 48.0 AND Mcv == 86.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 66.0 AND Sgpt == 23.0 AND Sgot == 12.0 AND Gammagt == 15.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 66.0 AND Sgpt == 23.0 AND Sgot == 12.0 THEN target == 1"
+  expl: "IF Sgot == 12.0 AND Sgpt == 23.0 AND Alkphos == 66.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 62.0 AND Sgpt == 42.0 AND Sgot == 30.0 AND Gammagt == 20.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 62.0 AND Sgpt == 42.0 AND Sgot == 30.0 AND Gammagt == 20.0 THEN target == 1"
+  expl: "IF Gammagt == 20.0 AND Sgot == 30.0 AND Sgpt == 42.0 AND Alkphos == 62.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 51.0 AND Sgpt == 23.0 AND Sgot == 17.0 AND Gammagt == 27.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 51.0 AND Sgpt == 23.0 AND Sgot == 17.0 AND Gammagt == 27.0 THEN target == 1"
+  expl: "IF Gammagt == 27.0 AND Sgot == 17.0 AND Sgpt == 23.0 AND Alkphos == 51.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 81.0 AND Alkphos == 61.0 AND Sgpt == 32.0 AND Sgot == 37.0 AND Gammagt == 53.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 81.0 AND Alkphos == 61.0 THEN target == 2"
+  expl: "IF Alkphos == 61.0 AND Mcv == 81.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 89.0 AND Sgpt == 23.0 AND Sgot == 18.0 AND Gammagt == 104.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 89.0 AND Sgpt == 23.0 AND Sgot == 18.0 AND Gammagt == 104.0 THEN target == 2"
+  expl: "IF Gammagt == 104.0 AND Sgot == 18.0 AND Sgpt == 23.0 AND Alkphos == 89.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 65.0 AND Sgpt == 26.0 AND Sgot == 18.0 AND Gammagt == 36.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 65.0 AND Sgpt == 26.0 AND Sgot == 18.0 AND Gammagt == 36.0 THEN target == 2"
+  expl: "IF Gammagt == 36.0 AND Sgot == 18.0 AND Sgpt == 26.0 AND Alkphos == 65.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 59.0 AND Sgpt == 25.0 AND Sgot == 20.0 AND Gammagt == 25.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 59.0 AND Sgpt == 25.0 AND Sgot == 20.0 AND Gammagt == 25.0 THEN target == 2"
+  expl: "IF Gammagt == 25.0 AND Sgot == 20.0 AND Sgpt == 25.0 AND Alkphos == 59.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 61.0 AND Sgpt == 18.0 AND Sgot == 13.0 AND Gammagt == 81.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 61.0 THEN target == 2"
+  expl: "IF Alkphos == 61.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 63.0 AND Sgpt == 22.0 AND Sgot == 27.0 AND Gammagt == 10.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 63.0 AND Sgpt == 22.0 AND Sgot == 27.0 AND Gammagt == 10.0 THEN target == 1"
+  expl: "IF Gammagt == 10.0 AND Sgot == 27.0 AND Sgpt == 22.0 AND Alkphos == 63.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 84.0 AND Sgpt == 18.0 AND Sgot == 23.0 AND Gammagt == 13.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 84.0 AND Sgpt == 18.0 AND Sgot == 23.0 AND Gammagt == 13.0 THEN target == 1"
+  expl: "IF Gammagt == 13.0 AND Sgot == 23.0 AND Sgpt == 18.0 AND Alkphos == 84.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 95.0 AND Sgpt == 25.0 AND Sgot == 19.0 AND Gammagt == 14.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 95.0 THEN target == 1"
+  expl: "IF Alkphos == 95.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 35.0 AND Sgpt == 27.0 AND Sgot == 29.0 AND Gammagt == 17.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 35.0 THEN target == 1"
+  expl: "IF Alkphos == 35.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 80.0 AND Sgpt == 37.0 AND Sgot == 23.0 AND Gammagt == 27.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 80.0 AND Sgpt == 37.0 AND Sgot == 23.0 AND Gammagt == 27.0 THEN target == 1"
+  expl: "IF Gammagt == 27.0 AND Sgot == 23.0 AND Sgpt == 37.0 AND Alkphos == 80.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 109.0 AND Sgpt == 33.0 AND Sgot == 15.0 AND Gammagt == 18.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 109.0 AND Sgpt == 33.0 AND Sgot == 15.0 AND Gammagt == 18.0 THEN target == 1"
+  expl: "IF Gammagt == 18.0 AND Sgot == 15.0 AND Sgpt == 33.0 AND Alkphos == 109.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 65.0 AND Sgpt == 17.0 AND Sgot == 5.0 AND Gammagt == 7.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 65.0 AND Sgpt == 17.0 AND Sgot == 5.0 AND Gammagt == 7.0 THEN target == 1"
+  expl: "IF Gammagt == 7.0 AND Sgot == 5.0 AND Sgpt == 17.0 AND Alkphos == 65.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 107.0 AND Sgpt == 29.0 AND Sgot == 20.0 AND Gammagt == 50.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 107.0 THEN target == 2"
+  expl: "IF Alkphos == 107.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 76.0 AND Sgpt == 22.0 AND Sgot == 55.0 AND Gammagt == 9.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 76.0 AND Sgpt == 22.0 AND Sgot == 55.0 THEN target == 2"
+  expl: "IF Sgot == 55.0 AND Sgpt == 22.0 AND Alkphos == 76.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 86.0 AND Sgpt == 28.0 AND Sgot == 23.0 AND Gammagt == 21.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 86.0 AND Sgpt == 28.0 AND Sgot == 23.0 THEN target == 2"
+  expl: "IF Sgot == 23.0 AND Sgpt == 28.0 AND Alkphos == 86.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 42.0 AND Sgpt == 26.0 AND Sgot == 23.0 AND Gammagt == 17.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 42.0 THEN target == 2"
+  expl: "IF Alkphos == 42.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 80.0 AND Sgpt == 24.0 AND Sgot == 25.0 AND Gammagt == 17.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 80.0 AND Sgpt == 24.0 AND Sgot == 25.0 AND Gammagt == 17.0 THEN target == 2"
+  expl: "IF Gammagt == 17.0 AND Sgot == 25.0 AND Sgpt == 24.0 AND Alkphos == 80.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 67.0 AND Sgpt == 11.0 AND Sgot == 15.0 AND Gammagt == 8.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 67.0 AND Sgpt == 11.0 AND Sgot == 15.0 THEN target == 2"
+  expl: "IF Sgot == 15.0 AND Sgpt == 11.0 AND Alkphos == 67.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 40.0 AND Sgpt == 19.0 AND Sgot == 20.0 AND Gammagt == 21.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 40.0 THEN target == 2"
+  expl: "IF Alkphos == 40.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 60.0 AND Sgpt == 17.0 AND Sgot == 21.0 AND Gammagt == 14.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 60.0 AND Sgpt == 17.0 AND Sgot == 21.0 AND Gammagt == 14.0 THEN target == 2"
+  expl: "IF Gammagt == 14.0 AND Sgot == 21.0 AND Sgpt == 17.0 AND Alkphos == 60.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 57.0 AND Sgpt == 15.0 AND Sgot == 16.0 AND Gammagt == 16.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 57.0 AND Sgpt == 15.0 AND Sgot == 16.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 16.0 AND Sgpt == 15.0 AND Alkphos == 57.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 55.0 AND Sgpt == 48.0 AND Sgot == 39.0 AND Gammagt == 42.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 55.0 AND Sgpt == 48.0 THEN target == 2"
+  expl: "IF Sgpt == 48.0 AND Alkphos == 55.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 79.0 AND Alkphos == 101.0 AND Sgpt == 17.0 AND Sgot == 27.0 AND Gammagt == 23.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 79.0 THEN target == 2"
+  expl: "IF Mcv == 79.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 134.0 AND Sgpt == 14.0 AND Sgot == 20.0 AND Gammagt == 14.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 134.0 THEN target == 2"
+  expl: "IF Alkphos == 134.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 76.0 AND Sgpt == 14.0 AND Sgot == 21.0 AND Gammagt == 24.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 76.0 AND Sgpt == 14.0 THEN target == 2"
+  expl: "IF Sgpt == 14.0 AND Alkphos == 76.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 93.0 AND Sgpt == 29.0 AND Sgot == 27.0 AND Gammagt == 31.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 93.0 AND Sgpt == 29.0 AND Sgot == 27.0 AND Gammagt == 31.0 THEN target == 2"
+  expl: "IF Gammagt == 31.0 AND Sgot == 27.0 AND Sgpt == 29.0 AND Alkphos == 93.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 73.0 AND Sgpt == 24.0 AND Sgot == 21.0 AND Gammagt == 48.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 73.0 AND Sgpt == 24.0 AND Sgot == 21.0 AND Gammagt == 48.0 THEN target == 2"
+  expl: "IF Gammagt == 48.0 AND Sgot == 21.0 AND Sgpt == 24.0 AND Alkphos == 73.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 55.0 AND Sgpt == 28.0 AND Sgot == 28.0 AND Gammagt == 82.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 55.0 AND Sgpt == 28.0 AND Sgot == 28.0 AND Gammagt == 82.0 THEN target == 2"
+  expl: "IF Gammagt == 82.0 AND Sgot == 28.0 AND Sgpt == 28.0 AND Alkphos == 55.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 83.0 AND Alkphos == 45.0 AND Sgpt == 19.0 AND Sgot == 21.0 AND Gammagt == 13.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 83.0 AND Alkphos == 45.0 THEN target == 2"
+  expl: "IF Alkphos == 45.0 AND Mcv == 83.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 74.0 AND Sgpt == 19.0 AND Sgot == 14.0 AND Gammagt == 22.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 74.0 AND Sgpt == 19.0 AND Sgot == 14.0 AND Gammagt == 22.0 THEN target == 2"
+  expl: "IF Gammagt == 22.0 AND Sgot == 14.0 AND Sgpt == 19.0 AND Alkphos == 74.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 66.0 AND Sgpt == 21.0 AND Sgot == 16.0 AND Gammagt == 33.0 AND Drinks == 5.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 66.0 AND Sgpt == 21.0 AND Sgot == 16.0 AND Gammagt == 33.0 THEN target == 1"
+  expl: "IF Gammagt == 33.0 AND Sgot == 16.0 AND Sgpt == 21.0 AND Alkphos == 66.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 63.0 AND Sgpt == 26.0 AND Sgot == 18.0 AND Gammagt == 18.0 AND Drinks == 5.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 63.0 AND Sgpt == 26.0 AND Sgot == 18.0 AND Gammagt == 18.0 THEN target == 1"
+  expl: "IF Gammagt == 18.0 AND Sgot == 18.0 AND Sgpt == 26.0 AND Alkphos == 63.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 78.0 AND Sgpt == 47.0 AND Sgot == 39.0 AND Gammagt == 107.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 78.0 AND Sgpt == 47.0 AND Sgot == 39.0 THEN target == 2"
+  expl: "IF Sgot == 39.0 AND Sgpt == 47.0 AND Alkphos == 78.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 44.0 AND Sgpt == 113.0 AND Sgot == 45.0 AND Gammagt == 150.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 44.0 AND Sgpt == 113.0 THEN target == 2"
+  expl: "IF Sgpt == 113.0 AND Alkphos == 44.0 AND Mcv == 97.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 59.0 AND Sgpt == 15.0 AND Sgot == 19.0 AND Gammagt == 12.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 59.0 AND Sgpt == 15.0 AND Sgot == 19.0 AND Gammagt == 12.0 THEN target == 2"
+  expl: "IF Gammagt == 12.0 AND Sgot == 19.0 AND Sgpt == 15.0 AND Alkphos == 59.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 44.0 AND Sgpt == 21.0 AND Sgot == 11.0 AND Gammagt == 15.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 44.0 AND Sgpt == 21.0 AND Sgot == 11.0 AND Gammagt == 15.0 THEN target == 2"
+  expl: "IF Gammagt == 15.0 AND Sgot == 11.0 AND Sgpt == 21.0 AND Alkphos == 44.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 64.0 AND Sgpt == 16.0 AND Sgot == 20.0 AND Gammagt == 24.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 64.0 AND Sgpt == 16.0 THEN target == 2"
+  expl: "IF Sgpt == 16.0 AND Alkphos == 64.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 57.0 AND Sgpt == 21.0 AND Sgot == 23.0 AND Gammagt == 22.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 57.0 AND Sgpt == 21.0 AND Sgot == 23.0 AND Gammagt == 22.0 THEN target == 2"
+  expl: "IF Gammagt == 22.0 AND Sgot == 23.0 AND Sgpt == 21.0 AND Alkphos == 57.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 70.0 AND Sgpt == 25.0 AND Sgot == 23.0 AND Gammagt == 112.0 AND Drinks == 5.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 70.0 AND Sgpt == 25.0 AND Sgot == 23.0 AND Gammagt == 112.0 THEN target == 1"
+  expl: "IF Gammagt == 112.0 AND Sgot == 23.0 AND Sgpt == 25.0 AND Alkphos == 70.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 99.0 AND Alkphos == 59.0 AND Sgpt == 17.0 AND Sgot == 19.0 AND Gammagt == 11.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 99.0 AND Alkphos == 59.0 AND Sgpt == 17.0 AND Sgot == 19.0 AND Gammagt == 11.0 THEN target == 2"
+  expl: "IF Gammagt == 11.0 AND Sgot == 19.0 AND Sgpt == 17.0 AND Alkphos == 59.0 AND Mcv == 99.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 80.0 AND Sgpt == 10.0 AND Sgot == 26.0 AND Gammagt == 20.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 80.0 AND Sgpt == 10.0 AND Sgot == 26.0 AND Gammagt == 20.0 THEN target == 1"
+  expl: "IF Gammagt == 20.0 AND Sgot == 26.0 AND Sgpt == 10.0 AND Alkphos == 80.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 60.0 AND Sgpt == 26.0 AND Sgot == 22.0 AND Gammagt == 28.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 60.0 AND Sgpt == 26.0 AND Sgot == 22.0 AND Gammagt == 28.0 THEN target == 1"
+  expl: "IF Gammagt == 28.0 AND Sgot == 22.0 AND Sgpt == 26.0 AND Alkphos == 60.0 AND Mcv == 95.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 63.0 AND Sgpt == 25.0 AND Sgot == 26.0 AND Gammagt == 15.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 63.0 AND Sgpt == 25.0 AND Sgot == 26.0 AND Gammagt == 15.0 THEN target == 1"
+  expl: "IF Gammagt == 15.0 AND Sgot == 26.0 AND Sgpt == 25.0 AND Alkphos == 63.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 62.0 AND Sgpt == 37.0 AND Sgot == 21.0 AND Gammagt == 36.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 62.0 AND Sgpt == 37.0 AND Sgot == 21.0 AND Gammagt == 36.0 THEN target == 1"
+  expl: "IF Gammagt == 36.0 AND Sgot == 21.0 AND Sgpt == 37.0 AND Alkphos == 62.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 50.0 AND Sgpt == 13.0 AND Sgot == 14.0 AND Gammagt == 15.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 50.0 AND Sgpt == 13.0 AND Sgot == 14.0 AND Gammagt == 15.0 THEN target == 1"
+  expl: "IF Gammagt == 15.0 AND Sgot == 14.0 AND Sgpt == 13.0 AND Alkphos == 50.0 AND Mcv == 95.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 76.0 AND Sgpt == 37.0 AND Sgot == 19.0 AND Gammagt == 50.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 76.0 AND Sgpt == 37.0 AND Sgot == 19.0 AND Gammagt == 50.0 THEN target == 1"
+  expl: "IF Gammagt == 50.0 AND Sgot == 19.0 AND Sgpt == 37.0 AND Alkphos == 76.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 70.0 AND Sgpt == 70.0 AND Sgot == 26.0 AND Gammagt == 36.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 70.0 AND Sgpt == 70.0 THEN target == 1"
+  expl: "IF Sgpt == 70.0 AND Alkphos == 70.0 AND Mcv == 96.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 62.0 AND Sgpt == 64.0 AND Sgot == 42.0 AND Gammagt == 76.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 62.0 AND Sgpt == 64.0 THEN target == 2"
+  expl: "IF Sgpt == 64.0 AND Alkphos == 62.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 56.0 AND Sgpt == 67.0 AND Sgot == 38.0 AND Gammagt == 92.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 56.0 AND Sgpt == 67.0 THEN target == 2"
+  expl: "IF Sgpt == 67.0 AND Alkphos == 56.0 AND Mcv == 82.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 82.0 AND Sgpt == 27.0 AND Sgot == 24.0 AND Gammagt == 37.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 82.0 AND Sgpt == 27.0 AND Sgot == 24.0 AND Gammagt == 37.0 THEN target == 2"
+  expl: "IF Gammagt == 37.0 AND Sgot == 24.0 AND Sgpt == 27.0 AND Alkphos == 82.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 37.0 AND Sgpt == 9.0 AND Sgot == 15.0 AND Gammagt == 16.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 37.0 THEN target == 2"
+  expl: "IF Alkphos == 37.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 100.0 AND Alkphos == 60.0 AND Sgpt == 29.0 AND Sgot == 23.0 AND Gammagt == 76.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 100.0 THEN target == 2"
+  expl: "IF Mcv == 100.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 43.0 AND Sgpt == 35.0 AND Sgot == 23.0 AND Gammagt == 69.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 43.0 THEN target == 2"
+  expl: "IF Alkphos == 43.0 AND Mcv == 98.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 99.0 AND Sgpt == 36.0 AND Sgot == 34.0 AND Gammagt == 48.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 99.0 AND Sgpt == 36.0 AND Sgot == 34.0 AND Gammagt == 48.0 THEN target == 2"
+  expl: "IF Gammagt == 48.0 AND Sgot == 34.0 AND Sgpt == 36.0 AND Alkphos == 99.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 93.0 AND Sgpt == 21.0 AND Sgot == 20.0 AND Gammagt == 68.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 93.0 AND Sgpt == 21.0 AND Sgot == 20.0 AND Gammagt == 68.0 THEN target == 2"
+  expl: "IF Gammagt == 68.0 AND Sgot == 20.0 AND Sgpt == 21.0 AND Alkphos == 93.0 AND Mcv == 97.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 50.0 AND Sgpt == 18.0 AND Sgot == 25.0 AND Gammagt == 17.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 50.0 AND Sgpt == 18.0 AND Sgot == 25.0 AND Gammagt == 17.0 THEN target == 2"
+  expl: "IF Gammagt == 17.0 AND Sgot == 25.0 AND Sgpt == 18.0 AND Alkphos == 50.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 57.0 AND Sgpt == 20.0 AND Sgot == 26.0 AND Gammagt == 33.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 57.0 AND Sgpt == 20.0 AND Sgot == 26.0 AND Gammagt == 33.0 THEN target == 1"
+  expl: "IF Gammagt == 33.0 AND Sgot == 26.0 AND Sgpt == 20.0 AND Alkphos == 57.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 76.0 AND Sgpt == 31.0 AND Sgot == 28.0 AND Gammagt == 41.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 76.0 AND Sgpt == 31.0 AND Sgot == 28.0 AND Gammagt == 41.0 THEN target == 2"
+  expl: "IF Gammagt == 41.0 AND Sgot == 28.0 AND Sgpt == 31.0 AND Alkphos == 76.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 55.0 AND Sgpt == 19.0 AND Sgot == 17.0 AND Gammagt == 14.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 55.0 AND Sgpt == 19.0 AND Sgot == 17.0 AND Gammagt == 14.0 THEN target == 2"
+  expl: "IF Gammagt == 14.0 AND Sgot == 17.0 AND Sgpt == 19.0 AND Alkphos == 55.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 63.0 AND Sgpt == 24.0 AND Sgot == 29.0 AND Gammagt == 29.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 63.0 AND Sgpt == 24.0 AND Sgot == 29.0 AND Gammagt == 29.0 THEN target == 2"
+  expl: "IF Gammagt == 29.0 AND Sgot == 29.0 AND Sgpt == 24.0 AND Alkphos == 63.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 79.0 AND Sgpt == 70.0 AND Sgot == 32.0 AND Gammagt == 84.0 AND Drinks == 7.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 79.0 AND Sgpt == 70.0 THEN target == 1"
+  expl: "IF Sgpt == 70.0 AND Alkphos == 79.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 93.0 AND Sgpt == 58.0 AND Sgot == 35.0 AND Gammagt == 120.0 AND Drinks == 7.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 93.0 AND Sgpt == 58.0 AND Sgot == 35.0 THEN target == 1"
+  expl: "IF Sgot == 35.0 AND Sgpt == 58.0 AND Alkphos == 93.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 84.0 AND Sgpt == 58.0 AND Sgot == 47.0 AND Gammagt == 62.0 AND Drinks == 7.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 84.0 AND Sgpt == 58.0 AND Sgot == 47.0 THEN target == 2"
+  expl: "IF Sgot == 47.0 AND Sgpt == 58.0 AND Alkphos == 84.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 71.0 AND Sgpt == 29.0 AND Sgot == 22.0 AND Gammagt == 52.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 71.0 AND Sgpt == 29.0 AND Sgot == 22.0 AND Gammagt == 52.0 THEN target == 1"
+  expl: "IF Gammagt == 52.0 AND Sgot == 22.0 AND Sgpt == 29.0 AND Alkphos == 71.0 AND Mcv == 97.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 99.0 AND Sgpt == 33.0 AND Sgot == 19.0 AND Gammagt == 26.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 99.0 AND Sgpt == 33.0 AND Sgot == 19.0 AND Gammagt == 26.0 THEN target == 1"
+  expl: "IF Gammagt == 26.0 AND Sgot == 19.0 AND Sgpt == 33.0 AND Alkphos == 99.0 AND Mcv == 84.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 44.0 AND Sgpt == 42.0 AND Sgot == 23.0 AND Gammagt == 73.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 44.0 AND Sgpt == 42.0 AND Sgot == 23.0 AND Gammagt == 73.0 THEN target == 1"
+  expl: "IF Gammagt == 73.0 AND Sgot == 23.0 AND Sgpt == 42.0 AND Alkphos == 44.0 AND Mcv == 96.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 62.0 AND Sgpt == 22.0 AND Sgot == 21.0 AND Gammagt == 21.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 62.0 AND Sgpt == 22.0 AND Sgot == 21.0 AND Gammagt == 21.0 THEN target == 1"
+  expl: "IF Gammagt == 21.0 AND Sgot == 21.0 AND Sgpt == 22.0 AND Alkphos == 62.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 94.0 AND Sgpt == 18.0 AND Sgot == 17.0 AND Gammagt == 6.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 94.0 THEN target == 1"
+  expl: "IF Alkphos == 94.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 67.0 AND Sgpt == 77.0 AND Sgot == 39.0 AND Gammagt == 114.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 67.0 AND Sgpt == 77.0 THEN target == 1"
+  expl: "IF Sgpt == 77.0 AND Alkphos == 67.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 69.0 AND Sgpt == 25.0 AND Sgot == 25.0 AND Gammagt == 66.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 69.0 AND Sgpt == 25.0 AND Sgot == 25.0 AND Gammagt == 66.0 THEN target == 2"
+  expl: "IF Gammagt == 66.0 AND Sgot == 25.0 AND Sgpt == 25.0 AND Alkphos == 69.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 59.0 AND Sgpt == 17.0 AND Sgot == 20.0 AND Gammagt == 14.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 59.0 AND Sgpt == 17.0 AND Sgot == 20.0 AND Gammagt == 14.0 THEN target == 2"
+  expl: "IF Gammagt == 14.0 AND Sgot == 20.0 AND Sgpt == 17.0 AND Alkphos == 59.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 95.0 AND Sgpt == 85.0 AND Sgot == 48.0 AND Gammagt == 200.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 95.0 THEN target == 1"
+  expl: "IF Alkphos == 95.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 50.0 AND Sgpt == 26.0 AND Sgot == 22.0 AND Gammagt == 53.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 50.0 AND Sgpt == 26.0 AND Sgot == 22.0 AND Gammagt == 53.0 THEN target == 2"
+  expl: "IF Gammagt == 53.0 AND Sgot == 22.0 AND Sgpt == 26.0 AND Alkphos == 50.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 62.0 AND Sgpt == 59.0 AND Sgot == 47.0 AND Gammagt == 60.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 62.0 AND Sgpt == 59.0 THEN target == 2"
+  expl: "IF Sgpt == 59.0 AND Alkphos == 62.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 93.0 AND Sgpt == 22.0 AND Sgot == 28.0 AND Gammagt == 123.0 AND Drinks == 9.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 93.0 AND Sgpt == 22.0 AND Sgot == 28.0 AND Gammagt == 123.0 THEN target == 1"
+  expl: "IF Gammagt == 123.0 AND Sgot == 28.0 AND Sgpt == 22.0 AND Alkphos == 93.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 77.0 AND Sgpt == 86.0 AND Sgot == 41.0 AND Gammagt == 31.0 AND Drinks == 10.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 66.0 AND Sgpt == 22.0 AND Sgot == 24.0 AND Gammagt == 26.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 66.0 AND Sgpt == 22.0 AND Sgot == 24.0 AND Gammagt == 26.0 THEN target == 2"
+  expl: "IF Gammagt == 26.0 AND Sgot == 24.0 AND Sgpt == 22.0 AND Alkphos == 66.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 57.0 AND Sgpt == 31.0 AND Sgot == 34.0 AND Gammagt == 73.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 57.0 AND Sgpt == 31.0 AND Sgot == 34.0 AND Gammagt == 73.0 THEN target == 2"
+  expl: "IF Gammagt == 73.0 AND Sgot == 34.0 AND Sgpt == 31.0 AND Alkphos == 57.0 AND Mcv == 98.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 80.0 AND Sgpt == 50.0 AND Sgot == 64.0 AND Gammagt == 55.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 80.0 AND Sgpt == 50.0 THEN target == 2"
+  expl: "IF Sgpt == 50.0 AND Alkphos == 80.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 108.0 AND Sgpt == 53.0 AND Sgot == 33.0 AND Gammagt == 94.0 AND Drinks == 12.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 108.0 THEN target == 2"
+  expl: "IF Alkphos == 108.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 92.0 AND Sgpt == 22.0 AND Sgot == 28.0 AND Gammagt == 49.0 AND Drinks == 12.0 THEN target == 2"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 92.0 AND Sgpt == 22.0 AND Sgot == 28.0 AND Gammagt == 49.0 THEN target == 2"
+  expl: "IF Gammagt == 49.0 AND Sgot == 28.0 AND Sgpt == 22.0 AND Alkphos == 92.0 AND Mcv == 97.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 83.0 AND Sgpt == 81.0 AND Sgot == 34.0 AND Gammagt == 201.0 AND Drinks == 20.0 THEN target == 1"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 83.0 THEN target == 1"
+  expl: "IF Alkphos == 83.0 AND Mcv == 94.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 75.0 AND Sgpt == 25.0 AND Sgot == 21.0 AND Gammagt == 14.0 AND Drinks == 0.0 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 75.0 AND Sgpt == 25.0 AND Sgot == 21.0 AND Gammagt == 14.0 THEN target == 1"
+  expl: "IF Gammagt == 14.0 AND Sgot == 21.0 AND Sgpt == 25.0 AND Alkphos == 75.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 56.0 AND Sgpt == 23.0 AND Sgot == 18.0 AND Gammagt == 12.0 AND Drinks == 0.0 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 56.0 AND Sgpt == 23.0 AND Sgot == 18.0 AND Gammagt == 12.0 THEN target == 1"
+  expl: "IF Gammagt == 12.0 AND Sgot == 18.0 AND Sgpt == 23.0 AND Alkphos == 56.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 97.0 AND Sgpt == 41.0 AND Sgot == 20.0 AND Gammagt == 32.0 AND Drinks == 0.0 THEN target == 2"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 97.0 THEN target == 2"
+  expl: "IF Alkphos == 97.0 AND Mcv == 84.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 91.0 AND Sgpt == 27.0 AND Sgot == 20.0 AND Gammagt == 15.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 91.0 THEN target == 2"
+  expl: "IF Alkphos == 91.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 85.0 AND Sgpt == 25.0 AND Sgot == 20.0 AND Gammagt == 12.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 85.0 AND Sgpt == 25.0 AND Sgot == 20.0 AND Gammagt == 12.0 THEN target == 1"
+  expl: "IF Gammagt == 12.0 AND Sgot == 20.0 AND Sgpt == 25.0 AND Alkphos == 85.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 48.0 AND Sgpt == 27.0 AND Sgot == 15.0 AND Gammagt == 12.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 48.0 AND Sgpt == 27.0 AND Sgot == 15.0 AND Gammagt == 12.0 THEN target == 1"
+  expl: "IF Gammagt == 12.0 AND Sgot == 15.0 AND Sgpt == 27.0 AND Alkphos == 48.0 AND Mcv == 82.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 74.0 AND Sgpt == 31.0 AND Sgot == 25.0 AND Gammagt == 15.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 74.0 AND Sgpt == 31.0 AND Sgot == 25.0 AND Gammagt == 15.0 THEN target == 1"
+  expl: "IF Gammagt == 15.0 AND Sgot == 25.0 AND Sgpt == 31.0 AND Alkphos == 74.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 77.0 AND Sgpt == 30.0 AND Sgot == 14.0 AND Gammagt == 21.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 95.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 94.0 AND Sgpt == 26.0 AND Sgot == 18.0 AND Gammagt == 8.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 94.0 THEN target == 1"
+  expl: "IF Alkphos == 94.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 70.0 AND Sgpt == 19.0 AND Sgot == 19.0 AND Gammagt == 22.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 70.0 AND Sgpt == 19.0 AND Sgot == 19.0 AND Gammagt == 22.0 THEN target == 1"
+  expl: "IF Gammagt == 22.0 AND Sgot == 19.0 AND Sgpt == 19.0 AND Alkphos == 70.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 83.0 AND Alkphos == 54.0 AND Sgpt == 27.0 AND Sgot == 15.0 AND Gammagt == 12.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 83.0 AND Alkphos == 54.0 AND Sgpt == 27.0 AND Sgot == 15.0 AND Gammagt == 12.0 THEN target == 1"
+  expl: "IF Gammagt == 12.0 AND Sgot == 15.0 AND Sgpt == 27.0 AND Alkphos == 54.0 AND Mcv == 83.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 105.0 AND Sgpt == 40.0 AND Sgot == 26.0 AND Gammagt == 56.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 105.0 THEN target == 1"
+  expl: "IF Alkphos == 105.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 79.0 AND Sgpt == 37.0 AND Sgot == 28.0 AND Gammagt == 14.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 79.0 AND Sgpt == 37.0 AND Sgot == 28.0 AND Gammagt == 14.0 THEN target == 1"
+  expl: "IF Gammagt == 14.0 AND Sgot == 28.0 AND Sgpt == 37.0 AND Alkphos == 79.0 AND Mcv == 86.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 96.0 AND Sgpt == 35.0 AND Sgot == 22.0 AND Gammagt == 135.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 96.0 AND Sgpt == 35.0 AND Sgot == 22.0 THEN target == 1"
+  expl: "IF Sgot == 22.0 AND Sgpt == 35.0 AND Alkphos == 96.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 82.0 AND Sgpt == 23.0 AND Sgot == 14.0 AND Gammagt == 35.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 82.0 AND Sgpt == 23.0 AND Sgot == 14.0 AND Gammagt == 35.0 THEN target == 1"
+  expl: "IF Gammagt == 35.0 AND Sgot == 14.0 AND Sgpt == 23.0 AND Alkphos == 82.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 73.0 AND Sgpt == 24.0 AND Sgot == 23.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 73.0 AND Sgpt == 24.0 AND Sgot == 23.0 AND Gammagt == 11.0 THEN target == 2"
+  expl: "IF Gammagt == 11.0 AND Sgot == 23.0 AND Sgpt == 24.0 AND Alkphos == 73.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 82.0 AND Sgpt == 33.0 AND Sgot == 32.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 82.0 AND Sgpt == 33.0 AND Sgot == 32.0 AND Gammagt == 18.0 THEN target == 1"
+  expl: "IF Gammagt == 18.0 AND Sgot == 32.0 AND Sgpt == 33.0 AND Alkphos == 82.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 79.0 AND Sgpt == 17.0 AND Sgot == 8.0 AND Gammagt == 9.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 79.0 AND Sgpt == 17.0 AND Sgot == 8.0 THEN target == 1"
+  expl: "IF Sgot == 8.0 AND Sgpt == 17.0 AND Alkphos == 79.0 AND Mcv == 85.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 119.0 AND Sgpt == 30.0 AND Sgot == 26.0 AND Gammagt == 17.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 119.0 AND Sgpt == 30.0 THEN target == 2"
+  expl: "IF Sgpt == 30.0 AND Alkphos == 119.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 78.0 AND Alkphos == 69.0 AND Sgpt == 24.0 AND Sgot == 18.0 AND Gammagt == 31.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 78.0 THEN target == 1"
+  expl: "IF Mcv == 78.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 107.0 AND Sgpt == 34.0 AND Sgot == 21.0 AND Gammagt == 27.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 107.0 THEN target == 2"
+  expl: "IF Alkphos == 107.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 115.0 AND Sgpt == 17.0 AND Sgot == 27.0 AND Gammagt == 7.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 115.0 THEN target == 1"
+  expl: "IF Alkphos == 115.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 67.0 AND Sgpt == 23.0 AND Sgot == 15.0 AND Gammagt == 12.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 67.0 AND Sgpt == 23.0 AND Sgot == 15.0 AND Gammagt == 12.0 THEN target == 1"
+  expl: "IF Gammagt == 12.0 AND Sgot == 15.0 AND Sgpt == 23.0 AND Alkphos == 67.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 84.0 AND Sgpt == 11.0 AND Sgot == 12.0 AND Gammagt == 10.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 84.0 AND Sgpt == 11.0 AND Sgot == 12.0 THEN target == 1"
+  expl: "IF Sgot == 12.0 AND Sgpt == 11.0 AND Alkphos == 84.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 101.0 AND Sgpt == 41.0 AND Sgot == 20.0 AND Gammagt == 53.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 101.0 AND Sgpt == 41.0 AND Sgot == 20.0 AND Gammagt == 53.0 THEN target == 2"
+  expl: "IF Gammagt == 53.0 AND Sgot == 20.0 AND Sgpt == 41.0 AND Alkphos == 101.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 46.0 AND Sgpt == 29.0 AND Sgot == 22.0 AND Gammagt == 18.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 46.0 THEN target == 2"
+  expl: "IF Alkphos == 46.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 122.0 AND Sgpt == 35.0 AND Sgot == 29.0 AND Gammagt == 42.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 122.0 AND Sgpt == 35.0 AND Sgot == 29.0 AND Gammagt == 42.0 THEN target == 1"
+  expl: "IF Gammagt == 42.0 AND Sgot == 29.0 AND Sgpt == 35.0 AND Alkphos == 122.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 88.0 AND Sgpt == 28.0 AND Sgot == 25.0 AND Gammagt == 35.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 88.0 THEN target == 2"
+  expl: "IF Alkphos == 88.0 AND Mcv == 84.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 79.0 AND Sgpt == 18.0 AND Sgot == 15.0 AND Gammagt == 24.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 79.0 AND Sgpt == 18.0 AND Sgot == 15.0 AND Gammagt == 24.0 THEN target == 2"
+  expl: "IF Gammagt == 24.0 AND Sgot == 15.0 AND Sgpt == 18.0 AND Alkphos == 79.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 69.0 AND Sgpt == 22.0 AND Sgot == 26.0 AND Gammagt == 11.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 69.0 AND Sgpt == 22.0 AND Sgot == 26.0 AND Gammagt == 11.0 THEN target == 2"
+  expl: "IF Gammagt == 11.0 AND Sgot == 26.0 AND Sgpt == 22.0 AND Alkphos == 69.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 65.0 AND Alkphos == 63.0 AND Sgpt == 19.0 AND Sgot == 20.0 AND Gammagt == 14.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 65.0 THEN target == 2"
+  expl: "IF Mcv == 65.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 64.0 AND Sgpt == 12.0 AND Sgot == 17.0 AND Gammagt == 14.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 64.0 AND Sgpt == 12.0 THEN target == 2"
+  expl: "IF Sgpt == 12.0 AND Alkphos == 64.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 58.0 AND Sgpt == 18.0 AND Sgot == 24.0 AND Gammagt == 16.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 58.0 AND Sgpt == 18.0 AND Sgot == 24.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 24.0 AND Sgpt == 18.0 AND Alkphos == 58.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 78.0 AND Sgpt == 52.0 AND Sgot == 29.0 AND Gammagt == 62.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 78.0 AND Sgpt == 52.0 THEN target == 2"
+  expl: "IF Sgpt == 52.0 AND Alkphos == 78.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 74.0 AND Sgpt == 38.0 AND Sgot == 28.0 AND Gammagt == 48.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 74.0 AND Sgpt == 38.0 AND Sgot == 28.0 AND Gammagt == 48.0 THEN target == 2"
+  expl: "IF Gammagt == 48.0 AND Sgot == 28.0 AND Sgpt == 38.0 AND Alkphos == 74.0 AND Mcv == 82.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 58.0 AND Sgpt == 36.0 AND Sgot == 27.0 AND Gammagt == 59.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 58.0 AND Sgpt == 36.0 AND Sgot == 27.0 AND Gammagt == 59.0 THEN target == 2"
+  expl: "IF Gammagt == 59.0 AND Sgot == 27.0 AND Sgpt == 36.0 AND Alkphos == 58.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 56.0 AND Sgpt == 30.0 AND Sgot == 18.0 AND Gammagt == 27.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 56.0 AND Sgpt == 30.0 THEN target == 2"
+  expl: "IF Sgpt == 30.0 AND Alkphos == 56.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 57.0 AND Sgpt == 30.0 AND Sgot == 30.0 AND Gammagt == 22.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 57.0 AND Sgpt == 30.0 THEN target == 2"
+  expl: "IF Sgpt == 30.0 AND Alkphos == 57.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 74.0 AND Sgpt == 148.0 AND Sgot == 75.0 AND Gammagt == 159.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 74.0 AND Sgpt == 148.0 THEN target == 2"
+  expl: "IF Sgpt == 148.0 AND Alkphos == 74.0 AND Mcv == 98.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 75.0 AND Sgpt == 20.0 AND Sgot == 25.0 AND Gammagt == 38.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 75.0 AND Sgpt == 20.0 AND Sgot == 25.0 AND Gammagt == 38.0 THEN target == 2"
+  expl: "IF Gammagt == 38.0 AND Sgot == 25.0 AND Sgpt == 20.0 AND Alkphos == 75.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 56.0 AND Sgpt == 25.0 AND Sgot == 21.0 AND Gammagt == 33.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 56.0 AND Sgpt == 25.0 AND Sgot == 21.0 AND Gammagt == 33.0 THEN target == 2"
+  expl: "IF Gammagt == 33.0 AND Sgot == 21.0 AND Sgpt == 25.0 AND Alkphos == 56.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 101.0 AND Alkphos == 65.0 AND Sgpt == 18.0 AND Sgot == 21.0 AND Gammagt == 22.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 101.0 THEN target == 2"
+  expl: "IF Mcv == 101.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 65.0 AND Sgpt == 25.0 AND Sgot == 20.0 AND Gammagt == 31.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 65.0 AND Sgpt == 25.0 AND Sgot == 20.0 AND Gammagt == 31.0 THEN target == 2"
+  expl: "IF Gammagt == 31.0 AND Sgot == 20.0 AND Sgpt == 25.0 AND Alkphos == 65.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 58.0 AND Sgpt == 14.0 AND Sgot == 16.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 58.0 AND Sgpt == 14.0 THEN target == 2"
+  expl: "IF Sgpt == 14.0 AND Alkphos == 58.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 58.0 AND Sgpt == 16.0 AND Sgot == 23.0 AND Gammagt == 23.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 58.0 AND Sgpt == 16.0 THEN target == 2"
+  expl: "IF Sgpt == 16.0 AND Alkphos == 58.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 62.0 AND Sgpt == 15.0 AND Sgot == 13.0 AND Gammagt == 22.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 62.0 AND Sgpt == 15.0 AND Sgot == 13.0 AND Gammagt == 22.0 THEN target == 2"
+  expl: "IF Gammagt == 22.0 AND Sgot == 13.0 AND Sgpt == 15.0 AND Alkphos == 62.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 57.0 AND Sgpt == 13.0 AND Sgot == 20.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 57.0 AND Sgpt == 13.0 AND Sgot == 20.0 AND Gammagt == 13.0 THEN target == 2"
+  expl: "IF Gammagt == 13.0 AND Sgot == 20.0 AND Sgpt == 13.0 AND Alkphos == 57.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 54.0 AND Sgpt == 26.0 AND Sgot == 30.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 54.0 AND Sgpt == 26.0 AND Sgot == 30.0 AND Gammagt == 13.0 THEN target == 2"
+  expl: "IF Gammagt == 13.0 AND Sgot == 30.0 AND Sgpt == 26.0 AND Alkphos == 54.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 81.0 AND Alkphos == 41.0 AND Sgpt == 33.0 AND Sgot == 27.0 AND Gammagt == 34.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 81.0 AND Alkphos == 41.0 THEN target == 1"
+  expl: "IF Alkphos == 41.0 AND Mcv == 81.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 67.0 AND Sgpt == 32.0 AND Sgot == 26.0 AND Gammagt == 13.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 67.0 AND Sgpt == 32.0 AND Sgot == 26.0 AND Gammagt == 13.0 THEN target == 1"
+  expl: "IF Gammagt == 13.0 AND Sgot == 26.0 AND Sgpt == 32.0 AND Alkphos == 67.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 80.0 AND Sgpt == 21.0 AND Sgot == 19.0 AND Gammagt == 14.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 80.0 AND Sgpt == 21.0 AND Sgot == 19.0 AND Gammagt == 14.0 THEN target == 1"
+  expl: "IF Gammagt == 14.0 AND Sgot == 19.0 AND Sgpt == 21.0 AND Alkphos == 80.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 60.0 AND Sgpt == 23.0 AND Sgot == 15.0 AND Gammagt == 19.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 60.0 AND Sgpt == 23.0 AND Sgot == 15.0 AND Gammagt == 19.0 THEN target == 1"
+  expl: "IF Gammagt == 19.0 AND Sgot == 15.0 AND Sgpt == 23.0 AND Alkphos == 60.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 60.0 AND Sgpt == 32.0 AND Sgot == 14.0 AND Gammagt == 8.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 60.0 AND Sgpt == 32.0 AND Sgot == 14.0 AND Gammagt == 8.0 THEN target == 1"
+  expl: "IF Gammagt == 8.0 AND Sgot == 14.0 AND Sgpt == 32.0 AND Alkphos == 60.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 65.0 AND Sgpt == 28.0 AND Sgot == 22.0 AND Gammagt == 10.0 AND Drinks == 1.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 65.0 AND Sgpt == 28.0 AND Sgot == 22.0 AND Gammagt == 10.0 THEN target == 1"
+  expl: "IF Gammagt == 10.0 AND Sgot == 22.0 AND Sgpt == 28.0 AND Alkphos == 65.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 45.0 AND Sgot == 24.0 AND Gammagt == 85.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 45.0 AND Sgot == 24.0 AND Gammagt == 85.0 THEN target == 2"
+  expl: "IF Gammagt == 85.0 AND Sgot == 24.0 AND Sgpt == 45.0 AND Alkphos == 63.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 92.0 AND Sgpt == 21.0 AND Sgot == 22.0 AND Gammagt == 37.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 92.0 AND Sgpt == 21.0 AND Sgot == 22.0 AND Gammagt == 37.0 THEN target == 2"
+  expl: "IF Gammagt == 37.0 AND Sgot == 22.0 AND Sgpt == 21.0 AND Alkphos == 92.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 62.0 AND Sgpt == 24.0 AND Sgot == 23.0 AND Gammagt == 14.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 62.0 AND Sgpt == 24.0 AND Sgot == 23.0 AND Gammagt == 14.0 THEN target == 2"
+  expl: "IF Gammagt == 14.0 AND Sgot == 23.0 AND Sgpt == 24.0 AND Alkphos == 62.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 59.0 AND Sgpt == 41.0 AND Sgot == 30.0 AND Gammagt == 48.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 59.0 AND Sgpt == 41.0 AND Sgot == 30.0 AND Gammagt == 48.0 THEN target == 2"
+  expl: "IF Gammagt == 48.0 AND Sgot == 30.0 AND Sgpt == 41.0 AND Alkphos == 59.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 82.0 AND Sgpt == 43.0 AND Sgot == 32.0 AND Gammagt == 38.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 82.0 AND Sgpt == 43.0 AND Sgot == 32.0 AND Gammagt == 38.0 THEN target == 2"
+  expl: "IF Gammagt == 38.0 AND Sgot == 32.0 AND Sgpt == 43.0 AND Alkphos == 82.0 AND Mcv == 84.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 71.0 AND Sgpt == 33.0 AND Sgot == 20.0 AND Gammagt == 22.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 71.0 AND Sgpt == 33.0 AND Sgot == 20.0 AND Gammagt == 22.0 THEN target == 1"
+  expl: "IF Gammagt == 22.0 AND Sgot == 20.0 AND Sgpt == 33.0 AND Alkphos == 71.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 66.0 AND Sgpt == 28.0 AND Sgot == 24.0 AND Gammagt == 21.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 66.0 AND Sgpt == 28.0 AND Sgot == 24.0 AND Gammagt == 21.0 THEN target == 1"
+  expl: "IF Gammagt == 21.0 AND Sgot == 24.0 AND Sgpt == 28.0 AND Alkphos == 66.0 AND Mcv == 86.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 58.0 AND Sgpt == 31.0 AND Sgot == 17.0 AND Gammagt == 17.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 58.0 AND Sgpt == 31.0 AND Sgot == 17.0 AND Gammagt == 17.0 THEN target == 1"
+  expl: "IF Gammagt == 17.0 AND Sgot == 17.0 AND Sgpt == 31.0 AND Alkphos == 58.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 61.0 AND Sgpt == 28.0 AND Sgot == 29.0 AND Gammagt == 31.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 61.0 THEN target == 2"
+  expl: "IF Alkphos == 61.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 69.0 AND Sgpt == 70.0 AND Sgot == 24.0 AND Gammagt == 64.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 69.0 AND Sgpt == 70.0 THEN target == 1"
+  expl: "IF Sgpt == 70.0 AND Alkphos == 69.0 AND Mcv == 88.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 87.0 AND Sgpt == 18.0 AND Sgot == 17.0 AND Gammagt == 26.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 87.0 AND Sgpt == 18.0 AND Sgot == 17.0 AND Gammagt == 26.0 THEN target == 1"
+  expl: "IF Gammagt == 26.0 AND Sgot == 17.0 AND Sgpt == 18.0 AND Alkphos == 87.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 58.0 AND Sgpt == 33.0 AND Sgot == 21.0 AND Gammagt == 28.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 58.0 AND Sgpt == 33.0 AND Sgot == 21.0 AND Gammagt == 28.0 THEN target == 1"
+  expl: "IF Gammagt == 28.0 AND Sgot == 21.0 AND Sgpt == 33.0 AND Alkphos == 58.0 AND Mcv == 98.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 44.0 AND Sgpt == 18.0 AND Sgot == 18.0 AND Gammagt == 23.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 44.0 AND Sgpt == 18.0 AND Sgot == 18.0 AND Gammagt == 23.0 THEN target == 2"
+  expl: "IF Gammagt == 23.0 AND Sgot == 18.0 AND Sgpt == 18.0 AND Alkphos == 44.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 75.0 AND Sgpt == 37.0 AND Sgot == 19.0 AND Gammagt == 70.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 75.0 AND Sgpt == 37.0 AND Sgot == 19.0 AND Gammagt == 70.0 THEN target == 2"
+  expl: "IF Gammagt == 70.0 AND Sgot == 19.0 AND Sgpt == 37.0 AND Alkphos == 75.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 91.0 AND Sgpt == 30.0 AND Sgot == 26.0 AND Gammagt == 25.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 91.0 THEN target == 2"
+  expl: "IF Alkphos == 91.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 85.0 AND Sgpt == 14.0 AND Sgot == 15.0 AND Gammagt == 10.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 85.0 AND Sgpt == 14.0 THEN target == 2"
+  expl: "IF Sgpt == 14.0 AND Alkphos == 85.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 109.0 AND Sgpt == 26.0 AND Sgot == 25.0 AND Gammagt == 27.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 109.0 AND Sgpt == 26.0 AND Sgot == 25.0 AND Gammagt == 27.0 THEN target == 2"
+  expl: "IF Gammagt == 27.0 AND Sgot == 25.0 AND Sgpt == 26.0 AND Alkphos == 109.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 59.0 AND Sgpt == 37.0 AND Sgot == 27.0 AND Gammagt == 34.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 59.0 AND Sgpt == 37.0 AND Sgot == 27.0 AND Gammagt == 34.0 THEN target == 2"
+  expl: "IF Gammagt == 34.0 AND Sgot == 27.0 AND Sgpt == 37.0 AND Alkphos == 59.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 58.0 AND Sgpt == 20.0 AND Sgot == 23.0 AND Gammagt == 18.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 58.0 AND Sgpt == 20.0 AND Sgot == 23.0 AND Gammagt == 18.0 THEN target == 2"
+  expl: "IF Gammagt == 18.0 AND Sgot == 23.0 AND Sgpt == 20.0 AND Alkphos == 58.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 57.0 AND Sgpt == 9.0 AND Sgot == 15.0 AND Gammagt == 16.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 57.0 AND Sgpt == 9.0 THEN target == 2"
+  expl: "IF Sgpt == 9.0 AND Alkphos == 57.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 65.0 AND Sgpt == 38.0 AND Sgot == 27.0 AND Gammagt == 17.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 65.0 AND Sgpt == 38.0 AND Sgot == 27.0 AND Gammagt == 17.0 THEN target == 1"
+  expl: "IF Gammagt == 17.0 AND Sgot == 27.0 AND Sgpt == 38.0 AND Alkphos == 65.0 AND Mcv == 94.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 71.0 AND Sgpt == 12.0 AND Sgot == 22.0 AND Gammagt == 11.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 71.0 AND Sgpt == 12.0 THEN target == 2"
+  expl: "IF Sgpt == 12.0 AND Alkphos == 71.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 55.0 AND Sgpt == 20.0 AND Sgot == 20.0 AND Gammagt == 16.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 55.0 AND Sgpt == 20.0 AND Sgot == 20.0 AND Gammagt == 16.0 THEN target == 1"
+  expl: "IF Gammagt == 16.0 AND Sgot == 20.0 AND Sgpt == 20.0 AND Alkphos == 55.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 64.0 AND Sgpt == 21.0 AND Sgot == 17.0 AND Gammagt == 26.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 64.0 AND Sgpt == 21.0 THEN target == 2"
+  expl: "IF Sgpt == 21.0 AND Alkphos == 64.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 47.0 AND Sgpt == 35.0 AND Sgot == 26.0 AND Gammagt == 33.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 47.0 THEN target == 2"
+  expl: "IF Alkphos == 47.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 58.0 AND Sgpt == 83.0 AND Sgot == 49.0 AND Gammagt == 51.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 58.0 AND Sgpt == 83.0 THEN target == 2"
+  expl: "IF Sgpt == 83.0 AND Alkphos == 58.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 50.0 AND Sgpt == 27.0 AND Sgot == 25.0 AND Gammagt == 53.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 50.0 AND Sgpt == 27.0 AND Sgot == 25.0 AND Gammagt == 53.0 THEN target == 2"
+  expl: "IF Gammagt == 53.0 AND Sgot == 25.0 AND Sgpt == 27.0 AND Alkphos == 50.0 AND Mcv == 98.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 62.0 AND Sgpt == 29.0 AND Sgot == 21.0 AND Gammagt == 26.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 62.0 AND Sgpt == 29.0 AND Sgot == 21.0 AND Gammagt == 26.0 THEN target == 2"
+  expl: "IF Gammagt == 26.0 AND Sgot == 21.0 AND Sgpt == 29.0 AND Alkphos == 62.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 68.0 AND Sgpt == 20.0 AND Sgot == 22.0 AND Gammagt == 9.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 68.0 AND Sgpt == 20.0 AND Sgot == 22.0 AND Gammagt == 9.0 THEN target == 2"
+  expl: "IF Gammagt == 9.0 AND Sgot == 22.0 AND Sgpt == 20.0 AND Alkphos == 68.0 AND Mcv == 82.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 83.0 AND Alkphos == 70.0 AND Sgpt == 17.0 AND Sgot == 19.0 AND Gammagt == 23.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 83.0 AND Alkphos == 70.0 AND Sgpt == 17.0 AND Sgot == 19.0 AND Gammagt == 23.0 THEN target == 2"
+  expl: "IF Gammagt == 23.0 AND Sgot == 19.0 AND Sgpt == 17.0 AND Alkphos == 70.0 AND Mcv == 83.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 70.0 AND Sgpt == 21.0 AND Sgot == 26.0 AND Gammagt == 21.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 70.0 AND Sgpt == 21.0 AND Sgot == 26.0 AND Gammagt == 21.0 THEN target == 2"
+  expl: "IF Gammagt == 21.0 AND Sgot == 26.0 AND Sgpt == 21.0 AND Alkphos == 70.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 117.0 AND Sgpt == 77.0 AND Sgot == 56.0 AND Gammagt == 52.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 117.0 THEN target == 2"
+  expl: "IF Alkphos == 117.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 45.0 AND Sgpt == 11.0 AND Sgot == 14.0 AND Gammagt == 21.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 45.0 THEN target == 2"
+  expl: "IF Alkphos == 45.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 49.0 AND Sgpt == 27.0 AND Sgot == 21.0 AND Gammagt == 29.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 49.0 THEN target == 2"
+  expl: "IF Alkphos == 49.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 73.0 AND Sgpt == 46.0 AND Sgot == 32.0 AND Gammagt == 39.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 73.0 AND Sgpt == 46.0 AND Sgot == 32.0 AND Gammagt == 39.0 THEN target == 2"
+  expl: "IF Gammagt == 39.0 AND Sgot == 32.0 AND Sgpt == 46.0 AND Alkphos == 73.0 AND Mcv == 84.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 63.0 AND Sgpt == 17.0 AND Sgot == 17.0 AND Gammagt == 46.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 63.0 AND Sgpt == 17.0 AND Sgot == 17.0 AND Gammagt == 46.0 THEN target == 2"
+  expl: "IF Gammagt == 46.0 AND Sgot == 17.0 AND Sgpt == 17.0 AND Alkphos == 63.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 57.0 AND Sgpt == 31.0 AND Sgot == 18.0 AND Gammagt == 37.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 57.0 AND Sgpt == 31.0 AND Sgot == 18.0 AND Gammagt == 37.0 THEN target == 2"
+  expl: "IF Gammagt == 37.0 AND Sgot == 18.0 AND Sgpt == 31.0 AND Alkphos == 57.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 45.0 AND Sgpt == 19.0 AND Sgot == 13.0 AND Gammagt == 16.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 45.0 THEN target == 2"
+  expl: "IF Alkphos == 45.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 68.0 AND Sgpt == 14.0 AND Sgot == 20.0 AND Gammagt == 19.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 68.0 AND Sgpt == 14.0 THEN target == 2"
+  expl: "IF Sgpt == 14.0 AND Alkphos == 68.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 55.0 AND Sgpt == 29.0 AND Sgot == 35.0 AND Gammagt == 108.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 55.0 AND Sgpt == 29.0 AND Sgot == 35.0 THEN target == 2"
+  expl: "IF Sgot == 35.0 AND Sgpt == 29.0 AND Alkphos == 55.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 86.0 AND Sgpt == 52.0 AND Sgot == 47.0 AND Gammagt == 52.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 86.0 AND Sgpt == 52.0 THEN target == 2"
+  expl: "IF Sgpt == 52.0 AND Alkphos == 86.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 46.0 AND Sgpt == 15.0 AND Sgot == 33.0 AND Gammagt == 55.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 46.0 THEN target == 2"
+  expl: "IF Alkphos == 46.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 72.0 AND Sgpt == 33.0 AND Sgot == 27.0 AND Gammagt == 55.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 72.0 THEN target == 2"
+  expl: "IF Alkphos == 72.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 59.0 AND Sgpt == 23.0 AND Sgot == 18.0 AND Gammagt == 19.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 59.0 AND Sgpt == 23.0 AND Sgot == 18.0 AND Gammagt == 19.0 THEN target == 2"
+  expl: "IF Gammagt == 19.0 AND Sgot == 18.0 AND Sgpt == 23.0 AND Alkphos == 59.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 43.0 AND Sgpt == 154.0 AND Sgot == 82.0 AND Gammagt == 121.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 43.0 THEN target == 2"
+  expl: "IF Alkphos == 43.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 56.0 AND Sgpt == 38.0 AND Sgot == 26.0 AND Gammagt == 23.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 56.0 AND Sgpt == 38.0 AND Sgot == 26.0 AND Gammagt == 23.0 THEN target == 2"
+  expl: "IF Gammagt == 23.0 AND Sgot == 26.0 AND Sgpt == 38.0 AND Alkphos == 56.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 52.0 AND Sgpt == 10.0 AND Sgot == 17.0 AND Gammagt == 12.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 52.0 AND Sgpt == 10.0 AND Sgot == 17.0 AND Gammagt == 12.0 THEN target == 2"
+  expl: "IF Gammagt == 12.0 AND Sgot == 17.0 AND Sgpt == 10.0 AND Alkphos == 52.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 45.0 AND Sgpt == 20.0 AND Sgot == 16.0 AND Gammagt == 12.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 45.0 THEN target == 2"
+  expl: "IF Alkphos == 45.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 99.0 AND Alkphos == 42.0 AND Sgpt == 14.0 AND Sgot == 21.0 AND Gammagt == 49.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 99.0 AND Alkphos == 42.0 THEN target == 2"
+  expl: "IF Alkphos == 42.0 AND Mcv == 99.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 102.0 AND Sgpt == 47.0 AND Sgot == 23.0 AND Gammagt == 37.0 AND Drinks == 5.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 102.0 THEN target == 1"
+  expl: "IF Alkphos == 102.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 94.0 AND Alkphos == 71.0 AND Sgpt == 25.0 AND Sgot == 26.0 AND Gammagt == 31.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 94.0 AND Alkphos == 71.0 AND Sgpt == 25.0 AND Sgot == 26.0 AND Gammagt == 31.0 THEN target == 2"
+  expl: "IF Gammagt == 31.0 AND Sgot == 26.0 AND Sgpt == 25.0 AND Alkphos == 71.0 AND Mcv == 94.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 73.0 AND Sgpt == 33.0 AND Sgot == 34.0 AND Gammagt == 115.0 AND Drinks == 5.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 73.0 AND Sgpt == 33.0 AND Sgot == 34.0 AND Gammagt == 115.0 THEN target == 2"
+  expl: "IF Gammagt == 115.0 AND Sgot == 34.0 AND Sgpt == 33.0 AND Alkphos == 73.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 54.0 AND Sgpt == 41.0 AND Sgot == 29.0 AND Gammagt == 23.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 54.0 AND Sgpt == 41.0 AND Sgot == 29.0 AND Gammagt == 23.0 THEN target == 1"
+  expl: "IF Gammagt == 23.0 AND Sgot == 29.0 AND Sgpt == 41.0 AND Alkphos == 54.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 67.0 AND Sgpt == 15.0 AND Sgot == 14.0 AND Gammagt == 14.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 67.0 AND Sgpt == 15.0 AND Sgot == 14.0 AND Gammagt == 14.0 THEN target == 1"
+  expl: "IF Gammagt == 14.0 AND Sgot == 14.0 AND Sgpt == 15.0 AND Alkphos == 67.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 101.0 AND Sgpt == 31.0 AND Sgot == 26.0 AND Gammagt == 32.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 101.0 AND Sgpt == 31.0 AND Sgot == 26.0 AND Gammagt == 32.0 THEN target == 1"
+  expl: "IF Gammagt == 32.0 AND Sgot == 26.0 AND Sgpt == 31.0 AND Alkphos == 101.0 AND Mcv == 98.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 53.0 AND Sgpt == 51.0 AND Sgot == 33.0 AND Gammagt == 92.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 53.0 AND Sgpt == 51.0 AND Sgot == 33.0 AND Gammagt == 92.0 THEN target == 2"
+  expl: "IF Gammagt == 92.0 AND Sgot == 33.0 AND Sgpt == 51.0 AND Alkphos == 53.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 94.0 AND Sgpt == 43.0 AND Sgot == 43.0 AND Gammagt == 82.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 94.0 THEN target == 1"
+  expl: "IF Alkphos == 94.0 AND Mcv == 97.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 43.0 AND Sgpt == 11.0 AND Sgot == 16.0 AND Gammagt == 54.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 43.0 THEN target == 2"
+  expl: "IF Alkphos == 43.0 AND Mcv == 93.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 68.0 AND Sgpt == 24.0 AND Sgot == 18.0 AND Gammagt == 19.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 68.0 AND Sgpt == 24.0 AND Sgot == 18.0 AND Gammagt == 19.0 THEN target == 1"
+  expl: "IF Gammagt == 19.0 AND Sgot == 18.0 AND Sgpt == 24.0 AND Alkphos == 68.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 36.0 AND Sgpt == 38.0 AND Sgot == 19.0 AND Gammagt == 15.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 36.0 THEN target == 1"
+  expl: "IF Alkphos == 36.0 AND Mcv == 95.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 99.0 AND Alkphos == 86.0 AND Sgpt == 58.0 AND Sgot == 42.0 AND Gammagt == 203.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 99.0 AND Alkphos == 86.0 AND Sgpt == 58.0 AND Sgot == 42.0 THEN target == 1"
+  expl: "IF Sgot == 42.0 AND Sgpt == 58.0 AND Alkphos == 86.0 AND Mcv == 99.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 66.0 AND Sgpt == 103.0 AND Sgot == 57.0 AND Gammagt == 114.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 66.0 AND Sgpt == 103.0 THEN target == 1"
+  expl: "IF Sgpt == 103.0 AND Alkphos == 66.0 AND Mcv == 98.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 74.0 AND Sgpt == 27.0 AND Sgot == 25.0 AND Gammagt == 43.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 74.0 AND Sgpt == 27.0 AND Sgot == 25.0 AND Gammagt == 43.0 THEN target == 2"
+  expl: "IF Gammagt == 43.0 AND Sgot == 25.0 AND Sgpt == 27.0 AND Alkphos == 74.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 109.0 AND Sgpt == 16.0 AND Sgot == 22.0 AND Gammagt == 28.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 109.0 AND Sgpt == 16.0 THEN target == 2"
+  expl: "IF Sgpt == 16.0 AND Alkphos == 109.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 46.0 AND Sgpt == 30.0 AND Sgot == 24.0 AND Gammagt == 39.0 AND Drinks == 7.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 46.0 THEN target == 2"
+  expl: "IF Alkphos == 46.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 102.0 AND Alkphos == 82.0 AND Sgpt == 34.0 AND Sgot == 78.0 AND Gammagt == 203.0 AND Drinks == 7.0 THEN target == 1"
+  dexp: "IF Mcv == 102.0 AND Alkphos == 82.0 AND Sgpt == 34.0 AND Sgot == 78.0 AND Gammagt == 203.0 THEN target == 1"
+  expl: "IF Gammagt == 203.0 AND Sgot == 78.0 AND Sgpt == 34.0 AND Alkphos == 82.0 AND Mcv == 102.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 50.0 AND Sgpt == 12.0 AND Sgot == 18.0 AND Gammagt == 14.0 AND Drinks == 7.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 50.0 AND Sgpt == 12.0 THEN target == 2"
+  expl: "IF Sgpt == 12.0 AND Alkphos == 50.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 57.0 AND Sgpt == 33.0 AND Sgot == 23.0 AND Gammagt == 12.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 57.0 AND Sgpt == 33.0 AND Sgot == 23.0 AND Gammagt == 12.0 THEN target == 1"
+  expl: "IF Gammagt == 12.0 AND Sgot == 23.0 AND Sgpt == 33.0 AND Alkphos == 57.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 52.0 AND Sgpt == 76.0 AND Sgot == 32.0 AND Gammagt == 24.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 52.0 AND Sgpt == 76.0 AND Sgot == 32.0 AND Gammagt == 24.0 THEN target == 2"
+  expl: "IF Gammagt == 24.0 AND Sgot == 32.0 AND Sgpt == 76.0 AND Alkphos == 52.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 70.0 AND Sgpt == 46.0 AND Sgot == 30.0 AND Gammagt == 33.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 70.0 AND Sgpt == 46.0 AND Sgot == 30.0 AND Gammagt == 33.0 THEN target == 1"
+  expl: "IF Gammagt == 33.0 AND Sgot == 30.0 AND Sgpt == 46.0 AND Alkphos == 70.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 55.0 AND Sgpt == 36.0 AND Sgot == 19.0 AND Gammagt == 25.0 AND Drinks == 8.0 THEN target == 1"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 55.0 AND Sgpt == 36.0 AND Sgot == 19.0 AND Gammagt == 25.0 THEN target == 1"
+  expl: "IF Gammagt == 25.0 AND Sgot == 19.0 AND Sgpt == 36.0 AND Alkphos == 55.0 AND Mcv == 87.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 123.0 AND Sgpt == 28.0 AND Sgot == 24.0 AND Gammagt == 31.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 123.0 THEN target == 2"
+  expl: "IF Alkphos == 123.0 AND Mcv == 98.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 55.0 AND Sgpt == 18.0 AND Sgot == 23.0 AND Gammagt == 44.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 55.0 AND Sgpt == 18.0 AND Sgot == 23.0 AND Gammagt == 44.0 THEN target == 2"
+  expl: "IF Gammagt == 44.0 AND Sgot == 23.0 AND Sgpt == 18.0 AND Alkphos == 55.0 AND Mcv == 82.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 73.0 AND Sgpt == 20.0 AND Sgot == 25.0 AND Gammagt == 225.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 73.0 AND Sgpt == 20.0 AND Sgot == 25.0 AND Gammagt == 225.0 THEN target == 2"
+  expl: "IF Gammagt == 225.0 AND Sgot == 25.0 AND Sgpt == 20.0 AND Alkphos == 73.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 80.0 AND Sgpt == 17.0 AND Sgot == 20.0 AND Gammagt == 53.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 80.0 AND Sgpt == 17.0 AND Sgot == 20.0 AND Gammagt == 53.0 THEN target == 2"
+  expl: "IF Gammagt == 53.0 AND Sgot == 20.0 AND Sgpt == 17.0 AND Alkphos == 80.0 AND Mcv == 97.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 100.0 AND Alkphos == 83.0 AND Sgpt == 25.0 AND Sgot == 24.0 AND Gammagt == 28.0 AND Drinks == 8.0 THEN target == 2"
+  dexp: "IF Mcv == 100.0 THEN target == 2"
+  expl: "IF Mcv == 100.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 91.0 AND Sgpt == 56.0 AND Sgot == 35.0 AND Gammagt == 126.0 AND Drinks == 9.0 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 91.0 THEN target == 2"
+  expl: "IF Alkphos == 91.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 138.0 AND Sgpt == 45.0 AND Sgot == 21.0 AND Gammagt == 48.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 138.0 AND Sgpt == 45.0 AND Sgot == 21.0 AND Gammagt == 48.0 THEN target == 2"
+  expl: "IF Gammagt == 48.0 AND Sgot == 21.0 AND Sgpt == 45.0 AND Alkphos == 138.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 41.0 AND Sgpt == 37.0 AND Sgot == 22.0 AND Gammagt == 37.0 AND Drinks == 10.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 41.0 THEN target == 1"
+  expl: "IF Alkphos == 41.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 123.0 AND Sgpt == 20.0 AND Sgot == 25.0 AND Gammagt == 23.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 123.0 THEN target == 2"
+  expl: "IF Alkphos == 123.0 AND Mcv == 86.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 87.0 AND Sgpt == 15.0 AND Sgot == 23.0 AND Gammagt == 11.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 87.0 AND Sgpt == 15.0 AND Sgot == 23.0 AND Gammagt == 11.0 THEN target == 2"
+  expl: "IF Gammagt == 11.0 AND Sgot == 23.0 AND Sgpt == 15.0 AND Alkphos == 87.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 56.0 AND Sgpt == 52.0 AND Sgot == 43.0 AND Gammagt == 55.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 56.0 AND Sgpt == 52.0 THEN target == 2"
+  expl: "IF Sgpt == 52.0 AND Alkphos == 56.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 99.0 AND Alkphos == 75.0 AND Sgpt == 26.0 AND Sgot == 24.0 AND Gammagt == 41.0 AND Drinks == 12.0 THEN target == 1"
+  dexp: "IF Mcv == 99.0 AND Alkphos == 75.0 AND Sgpt == 26.0 AND Sgot == 24.0 AND Gammagt == 41.0 THEN target == 1"
+  expl: "IF Gammagt == 41.0 AND Sgot == 24.0 AND Sgpt == 26.0 AND Alkphos == 75.0 AND Mcv == 99.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 69.0 AND Sgpt == 53.0 AND Sgot == 43.0 AND Gammagt == 203.0 AND Drinks == 12.0 THEN target == 2"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 69.0 AND Sgpt == 53.0 THEN target == 2"
+  expl: "IF Sgpt == 53.0 AND Alkphos == 69.0 AND Mcv == 96.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 77.0 AND Sgpt == 55.0 AND Sgot == 35.0 AND Gammagt == 89.0 AND Drinks == 15.0 THEN target == 1"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 98.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 68.0 AND Sgpt == 27.0 AND Sgot == 26.0 AND Gammagt == 14.0 AND Drinks == 16.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 68.0 AND Sgpt == 27.0 AND Sgot == 26.0 AND Gammagt == 14.0 THEN target == 1"
+  expl: "IF Gammagt == 14.0 AND Sgot == 26.0 AND Sgpt == 27.0 AND Alkphos == 68.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 98.0 AND Alkphos == 99.0 AND Sgpt == 57.0 AND Sgot == 45.0 AND Gammagt == 65.0 AND Drinks == 20.0 THEN target == 1"
+  dexp: "IF Mcv == 98.0 AND Alkphos == 99.0 AND Sgpt == 57.0 AND Sgot == 45.0 THEN target == 1"
+  expl: "IF Sgot == 45.0 AND Sgpt == 57.0 AND Alkphos == 99.0 AND Mcv == 98.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 87.0 AND Alkphos == 70.0 AND Sgpt == 12.0 AND Sgot == 28.0 AND Gammagt == 10.0 AND Drinks == 0.0 THEN target == 2"
+  dexp: "IF Mcv == 87.0 AND Alkphos == 70.0 AND Sgpt == 12.0 THEN target == 2"
+  expl: "IF Sgpt == 12.0 AND Alkphos == 70.0 AND Mcv == 87.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 64.0 AND Sgpt == 61.0 AND Sgot == 32.0 AND Gammagt == 13.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 64.0 AND Sgpt == 61.0 THEN target == 1"
+  expl: "IF Sgpt == 61.0 AND Alkphos == 64.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 60.0 AND Sgpt == 23.0 AND Sgot == 27.0 AND Gammagt == 5.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 60.0 AND Sgpt == 23.0 AND Sgot == 27.0 AND Gammagt == 5.0 THEN target == 1"
+  expl: "IF Gammagt == 5.0 AND Sgot == 27.0 AND Sgpt == 23.0 AND Alkphos == 60.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 96.0 AND Alkphos == 68.0 AND Sgpt == 18.0 AND Sgot == 19.0 AND Gammagt == 19.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 96.0 AND Alkphos == 68.0 AND Sgpt == 18.0 AND Sgot == 19.0 AND Gammagt == 19.0 THEN target == 1"
+  expl: "IF Gammagt == 19.0 AND Sgot == 19.0 AND Sgpt == 18.0 AND Alkphos == 68.0 AND Mcv == 96.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 80.0 AND Sgpt == 47.0 AND Sgot == 33.0 AND Gammagt == 97.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 80.0 AND Sgpt == 47.0 AND Sgot == 33.0 AND Gammagt == 97.0 THEN target == 1"
+  expl: "IF Gammagt == 97.0 AND Sgot == 33.0 AND Sgpt == 47.0 AND Alkphos == 80.0 AND Mcv == 84.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 57.0 AND Sgpt == 31.0 AND Sgot == 23.0 AND Gammagt == 42.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 57.0 AND Sgpt == 31.0 AND Sgot == 23.0 AND Gammagt == 42.0 THEN target == 1"
+  expl: "IF Gammagt == 42.0 AND Sgot == 23.0 AND Sgpt == 31.0 AND Alkphos == 57.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 79.0 AND Alkphos == 39.0 AND Sgpt == 14.0 AND Sgot == 19.0 AND Gammagt == 9.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 79.0 THEN target == 2"
+  expl: "IF Mcv == 79.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Mcv == 83.0 AND Alkphos == 40.0 AND Sgpt == 29.0 AND Sgot == 25.0 AND Gammagt == 38.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 83.0 AND Alkphos == 40.0 THEN target == 2"
+  expl: "IF Alkphos == 40.0 AND Mcv == 83.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 60.0 AND Sgpt == 30.0 AND Sgot == 27.0 AND Gammagt == 297.0 AND Drinks == 2.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 60.0 AND Sgpt == 30.0 THEN target == 2"
+  expl: "IF Sgpt == 30.0 AND Alkphos == 60.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 84.0 AND Alkphos == 83.0 AND Sgpt == 20.0 AND Sgot == 25.0 AND Gammagt == 7.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 84.0 AND Alkphos == 83.0 THEN target == 1"
+  expl: "IF Alkphos == 83.0 AND Mcv == 84.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 99.0 AND Alkphos == 69.0 AND Sgpt == 45.0 AND Sgot == 32.0 AND Gammagt == 30.0 AND Drinks == 3.0 THEN target == 1"
+  dexp: "IF Mcv == 99.0 AND Alkphos == 69.0 AND Sgpt == 45.0 AND Sgot == 32.0 AND Gammagt == 30.0 THEN target == 1"
+  expl: "IF Gammagt == 30.0 AND Sgot == 32.0 AND Sgpt == 45.0 AND Alkphos == 69.0 AND Mcv == 99.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 75.0 AND Sgpt == 26.0 AND Sgot == 26.0 AND Gammagt == 24.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 75.0 AND Sgpt == 26.0 AND Sgot == 26.0 AND Gammagt == 24.0 THEN target == 2"
+  expl: "IF Gammagt == 24.0 AND Sgot == 26.0 AND Sgpt == 26.0 AND Alkphos == 75.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 96.0 AND Sgpt == 34.0 AND Sgot == 49.0 AND Gammagt == 169.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 96.0 AND Sgpt == 34.0 AND Sgot == 49.0 THEN target == 2"
+  expl: "IF Sgot == 49.0 AND Sgpt == 34.0 AND Alkphos == 96.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 90.0 AND Sgpt == 15.0 AND Sgot == 17.0 AND Gammagt == 25.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 90.0 THEN target == 2"
+  expl: "IF Alkphos == 90.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 67.0 AND Sgpt == 10.0 AND Sgot == 16.0 AND Gammagt == 16.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 67.0 AND Sgpt == 10.0 AND Sgot == 16.0 AND Gammagt == 16.0 THEN target == 2"
+  expl: "IF Gammagt == 16.0 AND Sgot == 16.0 AND Sgpt == 10.0 AND Alkphos == 67.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 62.0 AND Sgpt == 20.0 AND Sgot == 23.0 AND Gammagt == 20.0 AND Drinks == 6.0 THEN target == 1"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 62.0 AND Sgpt == 20.0 AND Sgot == 23.0 AND Gammagt == 20.0 THEN target == 1"
+  expl: "IF Gammagt == 20.0 AND Sgot == 23.0 AND Sgpt == 20.0 AND Alkphos == 62.0 AND Mcv == 92.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 12.0 AND Sgot == 26.0 AND Gammagt == 21.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 63.0 AND Sgpt == 12.0 THEN target == 2"
+  expl: "IF Sgpt == 12.0 AND Alkphos == 63.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 74.0 AND Sgpt == 87.0 AND Sgot == 50.0 AND Gammagt == 67.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 74.0 AND Sgpt == 87.0 AND Sgot == 50.0 AND Gammagt == 67.0 THEN target == 2"
+  expl: "IF Gammagt == 67.0 AND Sgot == 50.0 AND Sgpt == 87.0 AND Alkphos == 74.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 92.0 AND Alkphos == 87.0 AND Sgpt == 57.0 AND Sgot == 25.0 AND Gammagt == 44.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 92.0 AND Alkphos == 87.0 AND Sgpt == 57.0 AND Sgot == 25.0 THEN target == 2"
+  expl: "IF Sgot == 25.0 AND Sgpt == 57.0 AND Alkphos == 87.0 AND Mcv == 92.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 72.0 AND Sgpt == 17.0 AND Sgot == 19.0 AND Gammagt == 19.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 72.0 THEN target == 2"
+  expl: "IF Alkphos == 72.0 AND Mcv == 90.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 93.0 AND Alkphos == 77.0 AND Sgpt == 39.0 AND Sgot == 37.0 AND Gammagt == 108.0 AND Drinks == 16.0 THEN target == 1"
+  dexp: "IF Mcv == 93.0 AND Alkphos == 77.0 THEN target == 1"
+  expl: "IF Alkphos == 77.0 AND Mcv == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 97.0 AND Alkphos == 62.0 AND Sgpt == 17.0 AND Sgot == 13.0 AND Gammagt == 5.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 97.0 AND Alkphos == 62.0 AND Sgpt == 17.0 AND Sgot == 13.0 AND Gammagt == 5.0 THEN target == 1"
+  expl: "IF Gammagt == 5.0 AND Sgot == 13.0 AND Sgpt == 17.0 AND Alkphos == 62.0 AND Mcv == 97.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 90.0 AND Alkphos == 87.0 AND Sgpt == 19.0 AND Sgot == 25.0 AND Gammagt == 19.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 90.0 AND Alkphos == 87.0 AND Sgpt == 19.0 AND Sgot == 25.0 AND Gammagt == 19.0 THEN target == 1"
+  expl: "IF Gammagt == 19.0 AND Sgot == 25.0 AND Sgpt == 19.0 AND Alkphos == 87.0 AND Mcv == 90.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 101.0 AND Sgpt == 27.0 AND Sgot == 34.0 AND Gammagt == 14.0 AND Drinks == 0.5 THEN target == 1"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 101.0 AND Sgpt == 27.0 AND Sgot == 34.0 AND Gammagt == 14.0 THEN target == 1"
+  expl: "IF Gammagt == 14.0 AND Sgot == 34.0 AND Sgpt == 27.0 AND Alkphos == 101.0 AND Mcv == 89.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 88.0 AND Alkphos == 81.0 AND Sgpt == 41.0 AND Sgot == 27.0 AND Gammagt == 36.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 88.0 AND Alkphos == 81.0 THEN target == 2"
+  expl: "IF Alkphos == 81.0 AND Mcv == 88.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 83.0 AND Alkphos == 68.0 AND Sgpt == 17.0 AND Sgot == 20.0 AND Gammagt == 71.0 AND Drinks == 0.5 THEN target == 2"
+  dexp: "IF Mcv == 83.0 AND Alkphos == 68.0 AND Sgpt == 17.0 AND Sgot == 20.0 AND Gammagt == 71.0 THEN target == 2"
+  expl: "IF Gammagt == 71.0 AND Sgot == 20.0 AND Sgpt == 17.0 AND Alkphos == 68.0 AND Mcv == 83.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 83.0 AND Alkphos == 78.0 AND Sgpt == 31.0 AND Sgot == 19.0 AND Gammagt == 115.0 AND Drinks == 1.0 THEN target == 2"
+  dexp: "IF Mcv == 83.0 AND Alkphos == 78.0 AND Sgpt == 31.0 AND Sgot == 19.0 THEN target == 2"
+  expl: "IF Sgot == 19.0 AND Sgpt == 31.0 AND Alkphos == 78.0 AND Mcv == 83.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Mcv == 86.0 AND Alkphos == 44.0 AND Sgpt == 24.0 AND Sgot == 15.0 AND Gammagt == 18.0 AND Drinks == 2.0 THEN target == 1"
+  dexp: "IF Mcv == 86.0 AND Alkphos == 44.0 AND Sgpt == 24.0 AND Sgot == 15.0 AND Gammagt == 18.0 THEN target == 1"
+  expl: "IF Gammagt == 18.0 AND Sgot == 15.0 AND Sgpt == 24.0 AND Alkphos == 44.0 AND Mcv == 86.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 82.0 AND Alkphos == 72.0 AND Sgpt == 31.0 AND Sgot == 20.0 AND Gammagt == 84.0 AND Drinks == 3.0 THEN target == 2"
+  dexp: "IF Mcv == 82.0 AND Alkphos == 72.0 THEN target == 2"
+  expl: "IF Alkphos == 72.0 AND Mcv == 82.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 54.0 AND Sgpt == 25.0 AND Sgot == 22.0 AND Gammagt == 35.0 AND Drinks == 4.0 THEN target == 1"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 54.0 AND Sgpt == 25.0 AND Sgot == 22.0 AND Gammagt == 35.0 THEN target == 1"
+  expl: "IF Gammagt == 35.0 AND Sgot == 22.0 AND Sgpt == 25.0 AND Alkphos == 54.0 AND Mcv == 91.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 89.0 AND Alkphos == 48.0 AND Sgpt == 32.0 AND Sgot == 22.0 AND Gammagt == 14.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 89.0 AND Alkphos == 48.0 AND Sgpt == 32.0 AND Sgot == 22.0 AND Gammagt == 14.0 THEN target == 2"
+  expl: "IF Gammagt == 14.0 AND Sgot == 22.0 AND Sgpt == 32.0 AND Alkphos == 48.0 AND Mcv == 89.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 85.0 AND Alkphos == 52.0 AND Sgpt == 22.0 AND Sgot == 23.0 AND Gammagt == 34.0 AND Drinks == 4.0 THEN target == 2"
+  dexp: "IF Mcv == 85.0 AND Alkphos == 52.0 AND Sgpt == 22.0 AND Sgot == 23.0 AND Gammagt == 34.0 THEN target == 2"
+  expl: "IF Gammagt == 34.0 AND Sgot == 23.0 AND Sgpt == 22.0 AND Alkphos == 52.0 AND Mcv == 85.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 95.0 AND Alkphos == 93.0 AND Sgpt == 21.0 AND Sgot == 27.0 AND Gammagt == 47.0 AND Drinks == 6.0 THEN target == 2"
+  dexp: "IF Mcv == 95.0 AND Alkphos == 93.0 AND Sgpt == 21.0 AND Sgot == 27.0 AND Gammagt == 47.0 THEN target == 2"
+  expl: "IF Gammagt == 47.0 AND Sgot == 27.0 AND Sgpt == 21.0 AND Alkphos == 93.0 AND Mcv == 95.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Mcv == 91.0 AND Alkphos == 93.0 AND Sgpt == 35.0 AND Sgot == 34.0 AND Gammagt == 37.0 AND Drinks == 10.0 THEN target == 2"
+  dexp: "IF Mcv == 91.0 AND Alkphos == 93.0 AND Sgpt == 35.0 AND Sgot == 34.0 AND Gammagt == 37.0 THEN target == 2"
+  expl: "IF Gammagt == 37.0 AND Sgot == 34.0 AND Sgpt == 35.0 AND Alkphos == 93.0 AND Mcv == 91.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+# of insts: 341
+tot # of expls: 341
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 3.96
+avg expl sz: 3.96
+max expl sz: 3.96
+Max expl sz: 5
+
+tot time: 0.10
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

@@ -1,0 +1,20 @@
+MODEL:
+IF target == 0 THEN botright_brown == 0
+IF target == 1 THEN botright_brown == 0
+IF target == 2 THEN botright_brown == 0
+IF target == 5 THEN botright_brown == 0
+IF target == 6 THEN botright_brown == 0
+IF TRUE THEN botright_brown == 0
+
+ENCODINDS:
+# of classes: 1
+min # of vars: 59
+avg # of vars: 59.00
+max # of vars: 59
+min # of clauses: 204
+avg # of clauses: 204.00
+max # of clauses: 204
+
+EXPLANATIONS:
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 5 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 THEN botright_brown == 0"

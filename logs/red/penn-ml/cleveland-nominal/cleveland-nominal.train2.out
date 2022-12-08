@@ -1,0 +1,907 @@
+MODEL:
+IF thal == 3 THEN target == 0
+IF cp == 2, exang != 0 THEN target == 0
+IF cp == 2, thal == 1 THEN target == 0
+IF cp != 4, restecg == 1 THEN target == 0
+IF cp == 3, slope == 3 THEN target == 0
+IF thal == 0, restecg == 1 THEN target == 2
+IF restecg == 1, sex != 0 THEN target == 4
+IF restecg == 1 THEN target == 3
+IF cp == 3, thal == 1 THEN target == 2
+IF cp != 4, thal == 1 THEN target == 0
+IF sex == 0, thal == 1 THEN target == 2
+IF slope == 1, cp == 1 THEN target == 0
+IF cp == 3, sex == 0, fbs != 0 THEN target == 0
+IF cp == 3, sex == 0, restecg != 0 THEN target == 0
+IF cp == 2, restecg == 0, sex != 1 THEN target == 0
+IF cp == 1, sex != 1 THEN target == 0
+IF sex == 0, slope == 3 THEN target == 3
+IF cp == 3, sex == 0, slope != 2 THEN target == 0
+IF cp == 2, restecg == 0, fbs != 0 THEN target == 0
+IF cp == 2, fbs != 0 THEN target == 3
+IF cp == 2, thal == 0, restecg == 0 THEN target == 0
+IF cp == 2, slope == 3 THEN target == 1
+IF thal == 0, slope == 3 THEN target == 3
+IF cp != 4, slope == 3 THEN target == 0
+IF slope == 3, fbs != 0 THEN target == 2
+IF thal != 2, slope == 3 THEN target == 2
+IF slope == 3, restecg != 0 THEN target == 2
+IF cp == 3, sex == 0, thal != 0 THEN target == 2
+IF cp == 3, sex != 1 THEN target == 0
+IF cp == 3, fbs != 0, restecg != 2 THEN target == 0
+IF thal == 0, cp == 3, fbs != 0 THEN target == 0
+IF cp == 3, fbs != 0 THEN target == 3
+IF cp == 2, sex == 0, slope != 2 THEN target == 0
+IF cp == 2, thal == 0, slope == 1 THEN target == 0
+IF cp == 3, thal == 0, exang != 0 THEN target == 0
+IF sex == 0, slope == 1, restecg != 2 THEN target == 0
+IF cp == 2, restecg == 0, slope != 1 THEN target == 0
+IF cp == 3, thal == 0, restecg == 0, slope != 1 THEN target == 1
+IF cp == 3, thal == 0, restecg != 2 THEN target == 0
+IF thal == 0, sex == 0, exang == 0, restecg == 0 THEN target == 0
+IF sex == 0, restecg == 0, fbs != 0 THEN target == 3
+IF sex == 0, fbs != 0 THEN target == 2
+IF sex == 0, restecg == 0 THEN target == 1
+IF sex == 0, thal == 0, exang != 0 THEN target == 0
+IF sex == 0, thal == 0, slope != 1, cp != 2 THEN target == 0
+IF cp == 1, fbs != 0, restecg != 2 THEN target == 0
+IF cp == 1, restecg != 0, exang != 0 THEN target == 0
+IF cp == 1, exang != 0 THEN target == 4
+IF thal == 1, restecg == 0, exang != 1 THEN target == 0
+IF thal == 0, fbs != 0, cp != 1 THEN target == 1
+IF cp == 2, sex != 1 THEN target == 0
+IF cp == 2, restecg != 2 THEN target == 0
+IF cp == 2, slope != 2 THEN target == 1
+IF cp == 2, thal != 0 THEN target == 3
+IF cp == 1, restecg == 0, thal != 0 THEN target == 1
+IF cp == 1, restecg == 0 THEN target == 2
+IF cp == 1, fbs != 1 THEN target == 0
+IF cp == 3, thal == 0, slope != 2 THEN target == 0
+IF cp != 4, slope == 1, restecg != 2 THEN target == 0
+IF cp == 1 THEN target == 1
+IF cp == 2 THEN target == 0
+IF slope == 3 THEN target == 3
+IF cp == 3, exang != 0 THEN target == 1
+IF cp == 3, slope == 1 THEN target == 3
+IF cp == 3, thal == 0 THEN target == 0
+IF thal == 1, restecg != 2 THEN target == 0
+IF thal == 1, exang != 0 THEN target == 1
+IF thal == 1, slope != 1 THEN target == 4
+IF thal == 1 THEN target == 0
+IF thal == 0, exang == 0, slope == 1, restecg == 0 THEN target == 0
+IF restecg == 0, thal == 0 THEN target == 2
+IF slope == 1, sex != 1 THEN target == 0
+IF sex == 0, exang != 0 THEN target == 1
+IF restecg == 0, fbs != 0, exang != 0 THEN target == 2
+IF slope == 1, fbs != 0, restecg != 0 THEN target == 3
+IF slope == 1, fbs != 0 THEN target == 0
+IF fbs != 0, exang != 0 THEN target == 1
+IF fbs != 0, restecg != 0 THEN target == 4
+IF sex == 0 THEN target == 3
+IF fbs != 0 THEN target == 2
+IF exang == 0, thal == 0, slope != 1 THEN target == 0
+IF exang == 0, thal == 0 THEN target == 0
+IF thal == 0, slope != 2 THEN target == 0
+IF slope == 1, restecg != 0, exang != 1 THEN target == 1
+IF cp == 3, restecg != 0 THEN target == 1
+IF slope == 1, exang != 0, restecg != 2 THEN target == 1
+IF slope == 1, restecg != 2 THEN target == 0
+IF cp == 3 THEN target == 1
+IF restecg == 0, exang != 1 THEN target == 1
+IF exang == 0 THEN target == 2
+IF thal == 0 THEN target == 3
+IF slope != 1, restecg != 0 THEN target == 3
+IF restecg == 0 THEN target == 1
+IF sex == 1 THEN target == 1
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 5
+min # of vars: 98
+avg # of vars: 98.00
+max # of vars: 98
+min # of clauses: 306
+avg # of clauses: 321.00
+max # of clauses: 349
+
+EXPLANATIONS:
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 3 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND cp == 1 AND restecg == 2 THEN target == 0"
+  expl: "IF cp == 1 AND thal == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 3"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 3"
+  expl: "IF exang == 1 AND fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 0 THEN target == 3"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 3"
+  expl: "IF exang == 1 AND fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 3 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 3 THEN target == 0"
+  expl: "IF slope == 3 AND cp == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 0 AND slope == 1 AND fbs == 0 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 1 AND sex == 0 AND cp == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 0 THEN target == 0"
+  expl: "IF cp == 2 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 3 AND thal == 0 THEN target == 3"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 3 THEN target == 3"
+  expl: "IF slope == 3 AND restecg == 2 AND cp == 4 AND thal == 0 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 1 AND fbs == 0 THEN target == 0"
+  expl: "IF slope == 1 AND sex == 0 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 2"
+  expl: "IF exang == 0 AND fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 3 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND fbs == 1 AND slope == 3 THEN target == 2"
+  expl: "IF slope == 3 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF slope == 2 AND sex == 1 AND restecg == 0 AND cp == 4 AND thal == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 0 AND slope == 2 AND fbs == 0 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 2 AND cp == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 1 THEN target == 2"
+  dexp: "IF thal == 1 AND cp == 3 AND restecg == 2 AND slope == 2 THEN target == 2"
+  expl: "IF slope == 2 AND restecg == 2 AND cp == 3 AND thal == 1 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 1 THEN target == 0"
+  expl: "IF slope == 1 AND restecg == 0 AND exang == 0 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF slope == 1 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 3 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 3 THEN target == 1"
+  expl: "IF slope == 3 AND fbs == 0 AND sex == 1 AND cp == 2 AND restecg == 0 AND exang == 0 AND thal == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF exang == 0 AND fbs == 0 AND slope == 1 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 2 AND restecg == 2 AND cp == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 1 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 2 AND sex == 0 AND slope == 1 THEN target == 0"
+  expl: "IF sex == 0 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 2 THEN target == 0"
+  expl: "IF slope == 2 AND fbs == 0 AND cp == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 2 AND slope == 1 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 3"
+  expl: "IF exang == 0 AND sex == 1 AND slope == 1 AND restecg == 2 AND cp == 3 AND thal == 2 THEN target == 3"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF sex == 0 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 3 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 0 AND sex == 0 AND slope == 3 THEN target == 0"
+  expl: "IF sex == 0 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 0 AND sex == 0 AND slope == 1 THEN target == 0"
+  expl: "IF sex == 0 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 1 AND exang == 1 AND fbs == 1 THEN target == 2"
+  expl: "IF fbs == 1 AND exang == 1 AND sex == 1 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 1"
+  expl: "IF fbs == 0 AND slope == 2 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 1 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 1 THEN target == 1"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF exang == 1 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF fbs == 0 AND slope == 2 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF fbs == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 3"
+  expl: "IF exang == 0 AND fbs == 0 AND slope == 2 AND sex == 0 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 1 AND restecg == 0 AND sex == 1 AND slope == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 0 THEN target == 0"
+  expl: "IF cp == 2 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 1 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 1"
+  expl: "IF fbs == 0 AND sex == 1 AND slope == 2 AND restecg == 2 AND cp == 3 AND thal == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 1 AND sex == 0 AND fbs == 1 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 3 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 3 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF exang == 0 AND slope == 1 AND restecg == 0 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 1 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 1 THEN target == 0"
+  expl: "IF slope == 1 AND fbs == 0 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF exang == 1 AND fbs == 0 AND slope == 1 AND sex == 1 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 1"
+  expl: "IF fbs == 0 AND sex == 1 AND slope == 2 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 0 THEN target == 1"
+  expl: "IF fbs == 0 AND slope == 1 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 3 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 3 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 2 AND sex == 1 AND slope == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF fbs == 0 AND slope == 2 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 3 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 3 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 0 AND fbs == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 3 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND fbs == 0 AND slope == 3 THEN target == 2"
+  expl: "IF slope == 3 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 1"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 1"
+  expl: "IF exang == 0 AND fbs == 0 AND sex == 1 AND slope == 2 AND restecg == 0 AND cp == 3 AND thal == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 2 AND exang == 0 AND fbs == 1 THEN target == 2"
+  expl: "IF fbs == 1 AND slope == 2 AND sex == 1 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF exang == 0 AND slope == 1 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 1 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF fbs == 0 AND slope == 1 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 2 AND sex == 0 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 1 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 1 AND fbs == 1 THEN target == 3"
+  expl: "IF fbs == 1 AND sex == 1 AND slope == 2 AND restecg == 2 AND cp == 3 AND thal == 2 THEN target == 3"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF thal == 3 THEN target == 0"
+  expl: "IF thal == 3 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF exang == 0 AND fbs == 0 AND slope == 2 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 3 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 3 THEN target == 3"
+  expl: "IF slope == 3 AND sex == 0 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 2 AND sex == 1 AND slope == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF exang == 1 AND fbs == 0 AND slope == 2 AND sex == 0 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 1"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 1 THEN target == 1"
+  expl: "IF fbs == 1 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 0 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND cp == 1 AND restecg == 2 THEN target == 0"
+  expl: "IF cp == 1 AND thal == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 2 AND fbs == 1 THEN target == 2"
+  expl: "IF fbs == 1 AND slope == 2 AND sex == 0 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 2"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 0 AND fbs == 0 THEN target == 2"
+  expl: "IF fbs == 0 AND sex == 0 AND slope == 2 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND exang == 0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND thal == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 1 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 1 AND fbs == 0 THEN target == 0"
+  expl: "IF slope == 1 AND sex == 0 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 1 AND fbs == 1 THEN target == 3"
+  expl: "IF fbs == 1 AND slope == 1 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF exang == 1 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 3 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND fbs == 0 AND exang == 1 AND slope == 3 THEN target == 3"
+  expl: "IF slope == 3 AND fbs == 0 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 1"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 2 AND sex == 1 AND slope == 2 AND exang == 0 AND fbs == 1 THEN target == 1"
+  expl: "IF fbs == 1 AND exang == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 1 AND thal == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 3 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 3 THEN target == 3"
+  expl: "IF slope == 3 AND sex == 0 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 1 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF slope == 1 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 1 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 1 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 2 THEN target == 3"
+  expl: "IF slope == 2 AND sex == 1 AND cp == 2 AND restecg == 2 AND exang == 0 AND thal == 2 THEN target == 3"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 2 AND exang == 1 THEN target == 0"
+  expl: "IF exang == 1 AND cp == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 1 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF fbs == 0 AND restecg == 2 AND cp == 1 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF cp == 2 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF fbs == 0 AND sex == 1 AND slope == 2 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 1 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF fbs == 0 AND sex == 1 AND slope == 2 AND restecg == 2 AND cp == 3 AND thal == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 4"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND exang == 0 AND fbs == 1 THEN target == 4"
+  expl: "IF fbs == 1 AND exang == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 4"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 1 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 1 THEN target == 0"
+  expl: "IF fbs == 1 AND restecg == 0 AND cp == 1 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF sex == 0 AND restecg == 2 AND cp == 3 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 3 AND thal == 0 THEN target == 3"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 3 THEN target == 3"
+  expl: "IF slope == 3 AND restecg == 2 AND cp == 4 AND thal == 0 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 1 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF slope == 1 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 1 THEN target == 0"
+  expl: "IF fbs == 1 AND cp == 2 AND restecg == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 2 AND exang == 1 THEN target == 0"
+  expl: "IF exang == 1 AND cp == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 0 THEN target == 0"
+  expl: "IF cp == 2 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 1"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 1"
+  expl: "IF exang == 1 AND fbs == 0 AND slope == 2 AND sex == 0 AND restecg == 0 AND cp == 4 AND thal == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 1 THEN target == 4"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 4"
+  expl: "IF exang == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 1 THEN target == 4"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 1 AND exang == 0 AND fbs == 1 THEN target == 0"
+  expl: "IF exang == 0 AND slope == 1 AND restecg == 0 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 1 AND restecg == 2 AND sex == 1 AND slope == 3 THEN target == 0"
+  expl: "IF slope == 3 AND cp == 1 AND thal == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 3 THEN target == 0"
+  expl: "IF slope == 3 AND cp == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND cp == 2 AND exang == 1 THEN target == 0"
+  expl: "IF cp == 2 AND thal == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 1 THEN target == 1"
+  expl: "IF slope == 1 AND fbs == 0 AND sex == 1 AND cp == 2 AND restecg == 2 AND exang == 0 AND thal == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND fbs == 1 AND exang == 1 THEN target == 1"
+  expl: "IF exang == 1 AND fbs == 1 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 2 AND exang == 0 THEN target == 0"
+  expl: "IF exang == 0 AND slope == 2 AND sex == 0 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 2 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 2 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF fbs == 0 AND slope == 2 AND sex == 0 AND restecg == 2 AND thal == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND cp == 3 AND restecg == 0 AND slope == 1 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF slope == 1 AND restecg == 0 AND cp == 3 AND thal == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 4"
+  dexp: "IF thal == 2 AND cp == 1 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 4"
+  expl: "IF exang == 1 AND fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 0 AND cp == 1 AND thal == 2 THEN target == 4"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 1 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 2 AND exang == 1 AND fbs == 1 THEN target == 3"
+  expl: "IF fbs == 1 AND slope == 2 AND sex == 0 AND restecg == 0 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 0 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 0"
+  expl: "IF exang == 0 AND slope == 2 AND sex == 0 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 2 AND slope == 1 AND sex == 0 AND fbs == 0 THEN target == 0"
+  expl: "IF restecg == 2 AND cp == 3 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 1 AND exang == 1 AND slope == 2 AND thal == 0 THEN target == 2"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 1 THEN target == 2"
+  expl: "IF restecg == 1 AND cp == 4 AND thal == 0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 0 AND restecg == 2 AND exang == 1 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 2 AND exang == 1 THEN target == 0"
+  expl: "IF exang == 1 AND cp == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 2"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 2"
+  expl: "IF exang == 0 AND fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 0 AND cp == 1 AND thal == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 2"
+  dexp: "IF thal == 0 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 2"
+  expl: "IF fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 0 AND cp == 4 AND thal == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 3"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 1 AND fbs == 1 THEN target == 3"
+  expl: "IF fbs == 1 AND cp == 2 AND restecg == 2 AND exang == 0 AND thal == 0 THEN target == 3"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 1 THEN target == 0"
+  expl: "IF slope == 2 AND sex == 1 AND restecg == 0 AND cp == 4 AND thal == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 3 AND fbs == 0 AND restecg == 1 AND exang == 0 AND slope == 2 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 3 AND restecg == 1 THEN target == 0"
+  expl: "IF restecg == 1 AND cp == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 2 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 3"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 2 AND cp == 2 AND sex == 0 AND slope == 1 AND fbs == 1 THEN target == 3"
+  expl: "IF fbs == 1 AND cp == 2 AND restecg == 2 AND exang == 0 AND thal == 0 THEN target == 3"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 0 AND exang == 1 AND slope == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF thal == 3 THEN target == 0"
+  expl: "IF thal == 3 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 3 AND fbs == 1 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 1 THEN target == 2"
+  dexp: "IF thal == 1 AND cp == 3 AND restecg == 0 AND slope == 2 THEN target == 2"
+  expl: "IF slope == 2 AND restecg == 0 AND cp == 3 AND thal == 1 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 1 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND cp == 1 AND restecg == 0 AND sex == 1 AND slope == 1 THEN target == 0"
+  expl: "IF slope == 1 AND cp == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 0 AND restecg == 1 AND exang == 1 AND slope == 2 AND thal == 2 THEN target == 3"
+  dexp: "IF thal == 2 AND cp == 4 AND sex == 0 AND restecg == 1 THEN target == 3"
+  expl: "IF restecg == 1 AND sex == 0 AND cp == 4 AND thal == 2 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 1 AND exang == 0 AND slope == 3 AND thal == 1 THEN target == 4"
+  dexp: "IF thal == 1 AND cp == 4 AND sex == 1 AND restecg == 1 THEN target == 4"
+  expl: "IF restecg == 1 AND sex == 1 AND cp == 4 AND thal == 1 THEN target == 4"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 0 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 1 AND slope == 2 AND thal == 1 THEN target == 2"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 2 AND sex == 0 THEN target == 2"
+  expl: "IF sex == 0 AND restecg == 2 AND cp == 4 AND thal == 1 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF thal == 2 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 0 AND slope == 2 THEN target == 0"
+  expl: "IF slope == 2 AND cp == 2 AND restecg == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 2 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 3 AND thal == 0 THEN target == 0"
+  dexp: "IF thal == 0 AND exang == 0 AND restecg == 0 AND cp == 2 AND sex == 1 AND fbs == 0 THEN target == 0"
+  expl: "IF cp == 2 AND restecg == 0 AND thal == 0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 0 AND restecg == 0 AND exang == 1 AND slope == 3 AND thal == 1 THEN target == 2"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 0 AND sex == 1 AND fbs == 0 AND slope == 3 THEN target == 2"
+  expl: "IF slope == 3 AND restecg == 0 AND cp == 4 AND thal == 1 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 4 AND fbs == 1 AND restecg == 2 AND exang == 0 AND slope == 2 AND thal == 1 THEN target == 4"
+  dexp: "IF thal == 1 AND cp == 4 AND restecg == 2 AND sex == 1 AND slope == 2 AND exang == 0 THEN target == 4"
+  expl: "IF exang == 0 AND slope == 2 AND sex == 1 AND restecg == 2 AND cp == 4 AND thal == 1 THEN target == 4"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF sex == 1 AND cp == 1 AND fbs == 0 AND restecg == 0 AND exang == 0 AND slope == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF thal == 2 AND cp == 1 AND restecg == 0 AND sex == 1 AND slope == 2 AND fbs == 0 AND exang == 0 THEN target == 1"
+  expl: "IF exang == 0 AND fbs == 0 AND slope == 2 AND sex == 1 AND restecg == 0 AND cp == 1 AND thal == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+# of insts: 130
+tot # of expls: 130
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 4.29
+avg expl sz: 4.29
+max expl sz: 4.29
+Max expl sz: 7
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  27.78%
+max dxrd:  60.00%

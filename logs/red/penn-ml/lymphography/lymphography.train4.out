@@ -1,0 +1,959 @@
+MODEL:
+IF Lymphatics == 3 THEN target == 3
+IF Lym_nodes_dimin == 3 THEN target == 0
+IF Changes_in_lym == 0 THEN target == 2
+IF Changes_in_node == 3 THEN target == 1
+IF Lym_nodes_enlar == 1 THEN target == 2
+IF Lym_nodes_dimin != 1 THEN target == 0
+IF Changes_in_stru == 7 THEN target == 1
+IF No_of_nodes_in == 5 THEN target == 1
+IF Bl_of_lymph_c != 0, Lymphatics == 2 THEN target == 2
+IF Changes_in_node == 0, Lymphatics == 2 THEN target == 1
+IF Bl_of_lymph_c != 0, By_pass == 0 THEN target == 2
+IF Bl_of_lymph_c != 0, Extravasates == 0 THEN target == 2
+IF Changes_in_node == 0, Block_of_affere == 0 THEN target == 1
+IF Changes_in_stru == 4 THEN target == 2
+IF Special_forms == 1, Lymphatics != 1 THEN target == 2
+IF Dislocation_of == 0, Lymphatics == 2 THEN target == 2
+IF Dislocation_of == 0, Bl_of_lymph_c != 0 THEN target == 2
+IF Changes_in_node == 0, Lymphatics != 0 THEN target == 1
+IF Bl_of_lymph_s != 0 THEN target == 2
+IF No_of_nodes_in == 7 THEN target == 1
+IF Changes_in_node == 0 THEN target == 2
+IF Block_of_affere != 0, Extravasates == 0 THEN target == 2
+IF Changes_in_stru == 2 THEN target == 1
+IF Changes_in_node != 1, Bl_of_lymph_c != 0 THEN target == 1
+IF Bl_of_lymph_c != 0 THEN target == 2
+IF Regeneration_of != 0 THEN target == 2
+IF No_of_nodes_in == 3 THEN target == 1
+IF No_of_nodes_in == 6 THEN target == 1
+IF Changes_in_stru == 6 THEN target == 2
+IF No_of_nodes_in == 4 THEN target == 1
+IF By_pass != 0 THEN target == 2
+IF Lym_nodes_enlar == 4 THEN target == 1
+IF Lymphatics == 2 THEN target == 2
+IF Changes_in_stru == 0 THEN target == 2
+IF Special_forms == 0 THEN target == 1
+IF No_of_nodes_in == 1 THEN target == 2
+IF Lymphatics == 0 THEN target == 1
+IF Lymphatics == 1 THEN target == 1
+IF TRUE THEN target == 2
+
+ENCODINDS:
+# of classes: 4
+min # of vars: 61
+avg # of vars: 61.00
+max # of vars: 61
+min # of clauses: 132
+avg # of clauses: 140.75
+max # of clauses: 151
+
+EXPLANATIONS:
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 3 AND No_of_nodes_in == 7 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 7 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 2 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Special_forms == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 3 AND Changes_in_stru == 7 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 3 THEN target == 1"
+  expl: "IF Changes_in_node == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 3 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 4 AND Changes_in_stru == 3 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Special_forms == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Special_forms == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 1 AND No_of_nodes_in == 3 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 2 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Extravasates == 1 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 4 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 4 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 4 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 4 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 0 AND Defect_in_node == 3 AND Changes_in_node == 3 AND Changes_in_stru == 2 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 0 THEN target == 2"
+  expl: "IF Changes_in_lym == 0 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 1 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 1 THEN target == 2"
+  expl: "IF Regeneration_of == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_c == 1 AND Dislocation_of == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 5 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 5 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 2 THEN target == 2"
+  expl: "IF Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 1 AND Changes_in_stru == 5 AND Lym_nodes_enlar == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 4 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 4 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Special_forms == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 1 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Extravasates == 1 AND Bl_of_lymph_s == 0 AND Dislocation_of == 1 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 3 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 0 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 1 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 4 AND Changes_in_node == 0 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 0 AND No_of_nodes_in == 6 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 6 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 3 AND No_of_nodes_in == 6 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Dislocation_of == 1 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 6 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 0 THEN target == 1"
+  expl: "IF Special_forms == 0 AND By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF By_pass == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Dislocation_of == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 1 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 1 AND No_of_nodes_in == 3 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Special_forms == 1 AND No_of_nodes_in == 3 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 1 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 6 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 1 AND No_of_nodes_in == 6 AND Changes_in_stru == 0 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 3 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 0 AND Defect_in_node == 2 AND Changes_in_node == 3 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 7 THEN target == 0"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 3 THEN target == 0"
+  expl: "IF Lym_nodes_dimin == 3 AND Lymphatics == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 3 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 0 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 0"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 3 THEN target == 0"
+  expl: "IF Lym_nodes_dimin == 3 AND Lymphatics == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 3 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 0 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 0"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 3 THEN target == 0"
+  expl: "IF Lym_nodes_dimin == 3 AND Lymphatics == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 6 AND Bl_of_lymph_c == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 0 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 3 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 3 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 6 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 6 AND No_of_nodes_in == 6 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 6 AND Changes_in_stru == 6 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Dislocation_of == 1 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 4 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 2 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 0 AND No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF Special_forms == 2 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 3 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 6 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 6 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 4 AND Changes_in_stru == 6 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 1 AND By_pass == 0 THEN target == 2"
+  expl: "IF By_pass == 0 AND Bl_of_lymph_c == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND By_pass == 1 AND Bl_of_lymph_c == 1 AND Extravasates == 0 THEN target == 2"
+  expl: "IF By_pass == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 7 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 7 THEN target == 1"
+  expl: "IF Changes_in_stru == 7 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 3 AND Changes_in_stru == 2 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 3 THEN target == 1"
+  expl: "IF Changes_in_node == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 4 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 THEN target == 2"
+  expl: "IF Block_of_affere == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Changes_in_node == 0 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 2 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 2 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 1 THEN target == 2"
+  expl: "IF Lym_nodes_enlar == 1 AND Changes_in_node == 2 AND Lym_nodes_dimin == 2 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 0 AND Changes_in_stru == 4 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 4 AND Changes_in_node == 0 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 1 THEN target == 2"
+  expl: "IF Lym_nodes_enlar == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 7 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 7 THEN target == 1"
+  expl: "IF Changes_in_stru == 7 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 0 THEN target == 1"
+  expl: "IF Special_forms == 0 AND By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 2 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Dislocation_of == 1 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 2 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 1 THEN target == 2"
+  expl: "IF Lym_nodes_enlar == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 THEN target == 2"
+  expl: "IF Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 0 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF Special_forms == 2 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Bl_of_lymph_s == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_s == 1 AND No_of_nodes_in == 3 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 1 THEN target == 2"
+  expl: "IF By_pass == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 2 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 8 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 2 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 1 THEN target == 2"
+  expl: "IF Lym_nodes_enlar == 1 AND Changes_in_node == 2 AND Lym_nodes_dimin == 2 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 1 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Dislocation_of == 1 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 7 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 8 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 7 THEN target == 1"
+  expl: "IF Changes_in_stru == 7 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 7 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 7 THEN target == 1"
+  expl: "IF Changes_in_stru == 7 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 1 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 1 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 7 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 7 THEN target == 1"
+  expl: "IF Changes_in_stru == 7 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 1 AND By_pass == 0 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 1 THEN target == 2"
+  expl: "IF Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Extravasates == 1 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 13
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 3 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 1 AND No_of_nodes_in == 3 AND Changes_in_stru == 0 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_c == 1 AND Dislocation_of == 0 THEN target == 2"
+  expl: "IF By_pass == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 3 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 3 AND Changes_in_node == 3 AND Changes_in_stru == 4 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 2 THEN target == 3"
+  dexp: "IF Lymphatics == 3 THEN target == 3"
+  expl: "IF Lymphatics == 3 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Extravasates == 1 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 4 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 0 AND Regeneration_of == 1 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 0 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 1 AND No_of_nodes_in == 7 AND Bl_of_lymph_c == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 2 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 3 AND No_of_nodes_in == 7 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Dislocation_of == 1 THEN target == 1"
+  expl: "IF Dislocation_of == 1 AND Extravasates == 1 AND By_pass == 1 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 4 AND Changes_in_node == 0 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 6 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 6 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 1 AND By_pass == 0 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Dislocation_of == 0 THEN target == 2"
+  expl: "IF Dislocation_of == 0 AND No_of_nodes_in == 1 AND Changes_in_stru == 2 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 1 THEN target == 2"
+  expl: "IF By_pass == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Extravasates == 1 AND Bl_of_lymph_s == 0 AND Special_forms == 0 AND Bl_of_lymph_c == 0 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 2 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_c == 1 AND No_of_nodes_in == 2 AND Changes_in_stru == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 5 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 5 THEN target == 1"
+  expl: "IF No_of_nodes_in == 5 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 0 AND No_of_nodes_in == 7 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 7 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 6 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 0 AND No_of_nodes_in == 6 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 1 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND Dislocation_of == 1 AND Special_forms == 2 AND Extravasates == 1 AND By_pass == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 4 AND Changes_in_node == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 12
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 2 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 2 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 0 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 0 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 1 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 THEN target == 1"
+  expl: "IF Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 0 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 7 AND By_pass == 1 AND Extravasates == 1 AND Block_of_affere == 1 AND Dislocation_of == 1 AND Bl_of_lymph_s == 1 THEN target == 2"
+  expl: "IF Bl_of_lymph_s == 1 AND No_of_nodes_in == 7 AND Changes_in_stru == 0 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 1 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 1 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Special_forms == 2 AND No_of_nodes_in == 1 AND Changes_in_stru == 1 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 1 THEN target == 2"
+  expl: "IF Lym_nodes_enlar == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 2 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 1 THEN target == 2"
+  expl: "IF Lym_nodes_enlar == 1 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Special_forms == 0 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 AND By_pass == 0 AND Special_forms == 1 THEN target == 2"
+  expl: "IF Special_forms == 1 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_node == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 0 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Extravasates == 0 AND Block_of_affere == 1 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 3 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 0 AND Defect_in_node == 3 AND Changes_in_node == 3 AND Changes_in_stru == 5 AND Special_forms == 1 AND Dislocation_of == 0 AND Exclusion_of_no == 0 AND No_of_nodes_in == 1 THEN target == 3"
+  dexp: "IF Lymphatics == 3 THEN target == 3"
+  expl: "IF Lymphatics == 3 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 0 AND Changes_in_stru == 3 AND Special_forms == 0 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 0 THEN target == 1"
+  expl: "IF Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Lym_nodes_enlar == 2 AND Changes_in_node == 0 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 3 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 0 THEN target == 1"
+  expl: "IF By_pass == 0 AND Regeneration_of == 0 AND Extravasates == 1 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_node == 2 AND Changes_in_lym == 2 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 13
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 0 AND Changes_in_stru == 7 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 1"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 0 AND Lym_nodes_enlar == 4 AND Changes_in_stru == 7 THEN target == 1"
+  expl: "IF Changes_in_stru == 7 AND Lym_nodes_enlar == 4 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 1"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 0 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 3 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 1"
+  # hypos left: 10
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 1"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 3 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Block_of_affere == 0 AND Regeneration_of == 0 THEN target == 1"
+  expl: "IF Regeneration_of == 0 AND Block_of_affere == 0 AND Bl_of_lymph_s == 0 AND Special_forms == 2 AND Bl_of_lymph_c == 0 AND No_of_nodes_in == 4 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 1"
+  # hypos left: 11
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 4 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 3 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 3 AND Changes_in_lym == 2 AND Defect_in_node == 0 AND Changes_in_node == 1 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 3 AND Changes_in_stru == 0 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Dislocation_of == 1 AND Bl_of_lymph_s == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND By_pass == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 0 AND Lym_nodes_enlar == 3 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 THEN target == 2"
+  expl: "IF No_of_nodes_in == 1 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 0 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 1 AND Changes_in_lym == 0 AND Defect_in_node == 2 AND Changes_in_node == 2 AND Changes_in_stru == 2 AND Special_forms == 1 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 0 THEN target == 2"
+  expl: "IF Changes_in_lym == 0 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 2 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 2 AND Bl_of_lymph_c == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 2 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF Lymphatics == 0 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 0 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 3 AND Special_forms == 2 AND Dislocation_of == 0 AND Exclusion_of_no == 1 AND No_of_nodes_in == 1 THEN target == 2"
+  dexp: "IF Lymphatics == 0 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 1 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 3 AND No_of_nodes_in == 1 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 AND Special_forms == 2 AND Bl_of_lymph_s == 0 AND Extravasates == 0 THEN target == 2"
+  expl: "IF Special_forms == 2 AND No_of_nodes_in == 1 AND Changes_in_stru == 3 AND Lym_nodes_enlar == 2 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 0 THEN target == 2"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 0 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 1 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 0 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 3 THEN target == 2"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 3 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 3 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 1 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 2 AND Block_of_affere == 1 AND Bl_of_lymph_c == 0 AND Bl_of_lymph_s == 0 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 0 AND Early_uptake_in == 1 AND Lym_nodes_dimin == 1 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 2 AND Defect_in_node == 2 AND Changes_in_node == 1 AND Changes_in_stru == 4 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 4 THEN target == 2"
+  dexp: "IF Lymphatics == 2 AND Lym_nodes_dimin == 1 AND Changes_in_lym == 2 AND Changes_in_node == 1 AND Lym_nodes_enlar == 2 AND Changes_in_stru == 4 AND No_of_nodes_in == 4 AND Bl_of_lymph_c == 0 AND Block_of_affere == 1 THEN target == 2"
+  expl: "IF No_of_nodes_in == 4 AND Changes_in_stru == 4 AND Changes_in_node == 1 AND Lym_nodes_dimin == 1 AND Lymphatics == 2 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Lymphatics == 1 AND Block_of_affere == 1 AND Bl_of_lymph_c == 1 AND Bl_of_lymph_s == 1 AND By_pass == 1 AND Extravasates == 1 AND Regeneration_of == 1 AND Early_uptake_in == 0 AND Lym_nodes_dimin == 2 AND Lym_nodes_enlar == 2 AND Changes_in_lym == 1 AND Defect_in_node == 0 AND Changes_in_node == 2 AND Changes_in_stru == 0 AND Special_forms == 2 AND Dislocation_of == 1 AND Exclusion_of_no == 1 AND No_of_nodes_in == 7 THEN target == 0"
+  dexp: "IF Lymphatics == 1 AND Lym_nodes_dimin == 2 AND Changes_in_lym == 1 AND Changes_in_node == 2 AND Lym_nodes_enlar == 2 THEN target == 0"
+  expl: "IF Lym_nodes_enlar == 2 AND Changes_in_node == 2 AND Changes_in_lym == 1 AND Lym_nodes_dimin == 2 AND Lymphatics == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+# of insts: 148
+tot # of expls: 148
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 6.84
+avg expl sz: 6.84
+max expl sz: 6.84
+Max expl sz: 13
+
+tot time: 0.03
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  29.75%
+max dxrd:  60.00%

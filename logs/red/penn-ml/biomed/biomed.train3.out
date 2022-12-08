@@ -1,0 +1,1450 @@
+MODEL:
+IF Observation_number == 5 THEN target == 0
+IF Observation_number == 6 THEN target == 1
+IF Observation_number == 7 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 657.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 667.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 669.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 671.0 THEN target == 1
+IF Observation_number == 4 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 673.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 675.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 682.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 762.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 763.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 765.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 766.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 768.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 769.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 770.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 771.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 773.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 774.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 776.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 777.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 778.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 781.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 782.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 785.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 786.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 789.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 798.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 801.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 802.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 804.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 810.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 811.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 813.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 818.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 819.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 824.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 825.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 829.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 831.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 895.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 896.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 901.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 902.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 903.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 904.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 906.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 907.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 908.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 909.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 910.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 913.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 916.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 918.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 919.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 920.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 923.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 929.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 933.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 934.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 936.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 938.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 941.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 942.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 943.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 947.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 949.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 951.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 953.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 955.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 956.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 966.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 970.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 978.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 979.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 987.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 989.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1001.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1003.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1007.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1008.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1011.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1012.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1013.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1014.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1015.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1016.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1017.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1019.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1021.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1024.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1030.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1050.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1066.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1115.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1124.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1135.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1141.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1153.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1155.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1163.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1168.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1173.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1193.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1202.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1203.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1217.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1218.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1219.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1220.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1223.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1244.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1245.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1246.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1247.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1250.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1254.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1255.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1258.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1260.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1261.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1262.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1281.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1285.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1289.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1290.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1294.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1296.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1298.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1300.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1302.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1307.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1310.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1311.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1323.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1327.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1328.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1332.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1334.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1354.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1358.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1381.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1395.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1398.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1447.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1493.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1513.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1538.0 THEN target == 0
+IF Age_of_patient == 22.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1306.0 THEN target == 0
+IF Age_of_patient == 25.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1009.0 THEN target == 0
+IF Observation_number == 3 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1253.0 THEN target == 0
+IF Observation_number != 1 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 1249.0 THEN target == 0
+IF Hospital_identification_number_for_blood_sample == 1303.0 THEN target == 0
+IF Age_of_patient == 29.0 THEN target == 1
+IF Hospital_identification_number_for_blood_sample == 911.0 THEN target == 0
+IF Age_of_patient == 36.0 THEN target == 1
+IF Observation_number == 1 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 742
+avg # of vars: 742.00
+max # of vars: 742
+min # of clauses: 48681
+avg # of clauses: 48705.00
+max # of clauses: 48729
+
+EXPLANATIONS:
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1027.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 167.0 AND m2 == 91 AND m3 == 25.6 AND m4 == 114 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1027.0 AND Age_of_patient == 30.0 THEN target == 0"
+  expl: "IF Age_of_patient == 30.0 AND Hospital_identification_number_for_blood_sample == 1027.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1013.0 AND Age_of_patient == 41.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 104.0 AND m2 == 68 AND m3 == 26.8 AND m4 == 83 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1013.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1013.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1324.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 30.0 AND m2 == 14 AND m3 == 8.8 AND m4 == 98 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1324.0 AND Age_of_patient == 22.0 THEN target == 1"
+  expl: "IF Age_of_patient == 22.0 AND Hospital_identification_number_for_blood_sample == 1324.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1332.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 44.0 AND m2 == 7 AND m3 == 17.4 AND m4 == 43 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1332.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1332.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 966.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 65.0 AND m2 == 84 AND m3 == 23.8 AND m4 == 58 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 966.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 966.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 979.0 AND Age_of_patient == 42.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 440.0 AND m2 == 13 AND m3 == 20.2 AND m4 == 79 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 979.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 979.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1327.0 AND Age_of_patient == 59.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 58.0 AND m2 == 89 AND m3 == 11.0 AND m4 == 88 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1327.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1327.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 978.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 129.0 AND m2 == 104 AND m3 == 18.3 AND m4 == 53 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 978.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 978.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1290.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 104.0 AND m2 == 87 AND m3 == 16.7 AND m4 == 86 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1290.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1290.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1139.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 122.0 AND m2 == 90 AND m3 == 21.6 AND m4 == 92 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1139.0 AND Age_of_patient == 35.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1139.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 1487.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 110079.0 AND ml == 144.0 AND m2 == 119 AND m3 == 24.4 AND m4 == 108 THEN target == 0"
+  dexp: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 1487.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1487.0 AND Observation_number == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1193.0 AND Age_of_patient == 29.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 265.0 AND m2 == 75 AND m3 == 16.1 AND m4 == 18 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1193.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1193.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1513.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 120079.0 AND ml == 510.0 AND m2 == 119 AND m3 == 60.2 AND m4 == 94 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1513.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1513.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1208.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 285.0 AND m2 == 62 AND m3 == 36.4 AND m4 == 83 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1208.0 AND Age_of_patient == 27.0 THEN target == 0"
+  expl: "IF Age_of_patient == 27.0 AND Hospital_identification_number_for_blood_sample == 1208.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1395.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 25.0 AND m2 == 95 AND m3 == 49.1 AND m4 == 65 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1395.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1395.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1209.0 AND Age_of_patient == 28.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 124.0 AND m2 == 98 AND m3 == 32.2 AND m4 == 101 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1209.0 AND Age_of_patient == 28.0 THEN target == 0"
+  expl: "IF Age_of_patient == 28.0 AND Hospital_identification_number_for_blood_sample == 1209.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 947.0 AND Age_of_patient == 29.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 53.0 AND m2 == 48 AND m3 == 14.0 AND m4 == 44 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 947.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 947.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1153.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 46.0 AND m2 == 37 AND m3 == 16.9 AND m4 == 57 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1153.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1153.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1311.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 40.0 AND m2 == 80 AND m3 == 12.7 AND m4 == 60 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1311.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1311.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 1325.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 41.0 AND m2 == 93 AND m3 == 9.7 AND m4 == 109 THEN target == 0"
+  dexp: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 1325.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1325.0 AND Observation_number == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 5 AND Hospital_identification_number_for_blood_sample == 1536.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 10080.0 AND ml == 45.0 AND m2 == 119 AND m3 == 13.8 AND m4 == 69 THEN target == 0"
+  dexp: "IF Observation_number == 5 THEN target == 0"
+  expl: "IF Observation_number == 5 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 923.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 657.0 AND m2 == 7 AND m3 == 110.0 AND m4 == 113 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 923.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 923.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1156.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 465.0 AND m2 == 83 AND m3 == 63.7 AND m4 == 117 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1156.0 AND Age_of_patient == 32.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1156.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1266.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 485.0 AND m2 == 75 AND m3 == 73.0 AND m4 == 116 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1266.0 AND Age_of_patient == 32.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1266.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 1496.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 120079.0 AND ml == 610.0 AND m2 == 119 AND m3 == 111.7 AND m4 == 120 THEN target == 0"
+  dexp: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 1496.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1496.0 AND Observation_number == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1135.0 AND Age_of_patient == 37.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 168.0 AND m2 == 71 AND m3 == 23.3 AND m4 == 90 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1135.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1135.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 914.0 AND Age_of_patient == 38.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 286.0 AND m2 == 17 AND m3 == 31.9 AND m4 == 89 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 914.0 AND Age_of_patient == 38.0 THEN target == 0"
+  expl: "IF Age_of_patient == 38.0 AND Hospital_identification_number_for_blood_sample == 914.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1124.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 10079.0 AND ml == 388.0 AND m2 == 95 AND m3 == 41.6 AND m4 == 62 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1124.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1124.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1398.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 148.0 AND m2 == 10 AND m3 == 18.8 AND m4 == 70 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1398.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1398.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 913.0 AND Age_of_patient == 34.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 73.0 AND m2 == 11 AND m3 == 17.0 AND m4 == 99 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 913.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 913.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1223.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 36.0 AND m2 == 102 AND m3 == 22.0 AND m4 == 104 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1223.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1223.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1531.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 10080.0 AND ml == 55.0 AND m2 == 119 AND m3 == 20.7 AND m4 == 91 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1531.0 AND Age_of_patient == 36.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1531.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 970.0 AND Age_of_patient == 58.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 19.0 AND m2 == 2 AND m3 == 10.9 AND m4 == 56 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 970.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 970.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1155.0 AND Age_of_patient == 58.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 34.0 AND m2 == 116 AND m3 == 19.9 AND m4 == 102 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1155.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1155.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1538.0 AND Age_of_patient == 59.0 AND Date_that_blood_sample_was_taken == 10080.0 AND ml == 25.0 AND m2 == 119 AND m3 == 9.2 AND m4 == 106 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1538.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1538.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1109.0 AND Age_of_patient == 38.0 AND Date_that_blood_sample_was_taken == 10079.0 AND ml == 113.0 AND m2 == 113 AND m3 == 18.8 AND m4 == 68 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1109.0 AND Age_of_patient == 38.0 THEN target == 0"
+  expl: "IF Age_of_patient == 38.0 AND Hospital_identification_number_for_blood_sample == 1109.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1354.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 57.0 AND m2 == 9 AND m3 == 12.9 AND m4 == 30 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1354.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1354.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 949.0 AND Age_of_patient == 42.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 78.0 AND m2 == 20 AND m3 == 15.5 AND m4 == 67 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 949.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 949.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1066.0 AND Age_of_patient == 43.0 AND Date_that_blood_sample_was_taken == 110078.0 AND ml == 73.0 AND m2 == 7 AND m3 == 20.6 AND m4 == 60 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1066.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1066.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1168.0 AND Age_of_patient == 29.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 69.0 AND m2 == 18 AND m3 == 16.0 AND m4 == 45 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1168.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1168.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1447.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 177.0 AND m2 == 6 AND m3 == 19.8 AND m4 == 81 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1447.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1447.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 911.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 48.0 AND m2 == 115 AND m3 == 16.4 AND m4 == 77 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 911.0 AND Age_of_patient == 35.0 THEN target == 0"
+  expl: "IF Age_of_patient == 35.0 AND Hospital_identification_number_for_blood_sample == 911.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 951.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 34.0 AND m2 == 112 AND m3 == 10.4 AND m4 == 7 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 951.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 951.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1009.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 42.0 AND m2 == 1 AND m3 == 17.1 AND m4 == 50 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1009.0 AND Age_of_patient == 35.0 THEN target == 0"
+  expl: "IF Age_of_patient == 35.0 AND Hospital_identification_number_for_blood_sample == 1009.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1358.0 AND Age_of_patient == 44.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 109.0 AND m2 == 68 AND m3 == 25.3 AND m4 == 72 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1358.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1358.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1115.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 925.0 AND m2 == 68 AND m3 == 62.9 AND m4 == 96 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1115.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1115.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1203.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 1288.0 AND m2 == 70 AND m3 == 51.6 AND m4 == 115 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1203.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1203.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1381.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 325.0 AND m2 == 49 AND m3 == 33.9 AND m4 == 118 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1381.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1381.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 929.0 AND Age_of_patient == 53.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 59.0 AND m2 == 103 AND m3 == 22.2 AND m4 == 80 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 929.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 929.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1236.0 AND Age_of_patient == 54.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 69.0 AND m2 == 100 AND m3 == 20.9 AND m4 == 82 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1236.0 AND Age_of_patient == 54.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1236.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1202.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 363.0 AND m2 == 96 AND m3 == 36.0 AND m4 == 107 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1202.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1202.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1050.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 110078.0 AND ml == 37.0 AND m2 == 76 AND m3 == 12.8 AND m4 == 31 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1050.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1050.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1289.0 AND Age_of_patient == 53.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 101.0 AND m2 == 53 AND m3 == 11.7 AND m4 == 97 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1289.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1289.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1173.0 AND Age_of_patient == 41.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 99.0 AND m2 == 105 AND m3 == 18.6 AND m4 == 31 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1173.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1173.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1008.0 AND Age_of_patient == 40.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 125.0 AND m2 == 94 AND m3 == 19.4 AND m4 == 119 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1008.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1008.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1328.0 AND Age_of_patient == 42.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 52.0 AND m2 == 106 AND m3 == 11.2 AND m4 == 94 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1328.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1328.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1303.0 AND Age_of_patient == 59.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 560.0 AND m2 == 12 AND m3 == 21.0 AND m4 == 111 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1303.0 AND Age_of_patient == 59.0 THEN target == 0"
+  expl: "IF Age_of_patient == 59.0 AND Hospital_identification_number_for_blood_sample == 1303.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 956.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 85.0 AND m2 == 108 AND m3 == 20.1 AND m4 == 58 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 956.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 956.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1253.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 79.0 AND m2 == 119 AND m3 == 9.0 AND m4 == 19 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1253.0 AND Age_of_patient == 32.0 THEN target == 0"
+  expl: "IF Age_of_patient == 32.0 AND Hospital_identification_number_for_blood_sample == 1253.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1302.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 72.0 AND m2 == 88 AND m3 == 8.3 AND m4 == 38 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1302.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1302.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 953.0 AND Age_of_patient == 52.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 197.0 AND m2 == 97 AND m3 == 25.2 AND m4 == 78 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 953.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 953.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1163.0 AND Age_of_patient == 52.0 AND Date_that_blood_sample_was_taken == 30078.0 AND ml == 242.0 AND m2 == 80 AND m3 == 16.6 AND m4 == 40 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1163.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1163.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1334.0 AND Age_of_patient == 53.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 245.0 AND m2 == 92 AND m3 == 22.7 AND m4 == 93 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1334.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1334.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1030.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 154.0 AND m2 == 6 AND m3 == 21.3 AND m4 == 100 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1030.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1030.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1306.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 228.0 AND m2 == 7 AND m3 == 10.2 AND m4 == 78 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1306.0 AND Age_of_patient == 39.0 THEN target == 0"
+  expl: "IF Age_of_patient == 39.0 AND Hospital_identification_number_for_blood_sample == 1306.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1493.0 AND Age_of_patient == 40.0 AND Date_that_blood_sample_was_taken == 120079.0 AND ml == 123.0 AND m2 == 119 AND m3 == 25.4 AND m4 == 95 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1493.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1493.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1323.0 AND Age_of_patient == 43.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 80.0 AND m2 == 94 AND m3 == 12.1 AND m4 == 93 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1323.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1323.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 902.0 AND Age_of_patient == 44.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 28.0 AND m2 == 7 AND m3 == 22.0 AND m4 == 22 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 902.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 902.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1296.0 AND Age_of_patient == 45.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 35.0 AND m2 == 82 AND m3 == 14.4 AND m4 == 50 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1296.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1296.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1249.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 57.0 AND m2 == 88 AND m3 == 8.9 AND m4 == 54 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1249.0 AND Age_of_patient == 33.0 THEN target == 0"
+  expl: "IF Age_of_patient == 33.0 AND Hospital_identification_number_for_blood_sample == 1249.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 955.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 110078.0 AND ml == 326.0 AND m2 == 115 AND m3 == 27.1 AND m4 == 113 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 955.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 955.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1307.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 700.0 AND m2 == 93 AND m3 == 49.1 AND m4 == 110 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1307.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1307.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 984.0 AND Age_of_patient == 61.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 100.0 AND m2 == 3 AND m3 == 11.8 AND m4 == 103 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 984.0 AND Age_of_patient == 61.0 THEN target == 0"
+  expl: "IF Age_of_patient == 61.0 AND Hospital_identification_number_for_blood_sample == 984.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1141.0 AND Age_of_patient == 61.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 80.0 AND m2 == 114 AND m3 == 15.1 AND m4 == 91 THEN target == 0"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1141.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1141.0 AND Observation_number == 2 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1305.0 AND Age_of_patient == 48.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 115.0 AND m2 == 59 AND m3 == 14.2 AND m4 == 87 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1305.0 AND Age_of_patient == 48.0 THEN target == 0"
+  expl: "IF Age_of_patient == 48.0 AND Hospital_identification_number_for_blood_sample == 1305.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1007.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 52.0 AND m2 == 75 AND m3 == 10.9 AND m4 == 46 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1007.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1007.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 786.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 20.0 AND m2 == 51 AND m3 == 11.0 AND m4 == 59 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 786.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 786.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 778.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 28.0 AND m2 == 83 AND m3 == 13.2 AND m4 == 42 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 778.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 778.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1306.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 110079.0 AND ml == 30.0 AND m2 == 7 AND m3 == 22.6 AND m4 == 74 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1306.0 AND Age_of_patient == 22.0 THEN target == 1"
+  expl: "IF Age_of_patient == 22.0 AND Hospital_identification_number_for_blood_sample == 1306.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 895.0 AND Age_of_patient == 23.0 AND Date_that_blood_sample_was_taken == 10078.0 AND ml == 40.0 AND m2 == 74 AND m3 == 15.2 AND m4 == 63 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 895.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 895.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 987.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 24.0 AND m2 == 57 AND m3 == 9.6 AND m4 == 29 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 987.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 987.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 789.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 15.0 AND m2 == 84 AND m3 == 13.5 AND m4 == 76 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 789.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 789.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 825.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 110078.0 AND ml == 22.0 AND m2 == 95 AND m3 == 17.5 AND m4 == 58 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 825.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 825.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1296.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 42.0 AND m2 == 28 AND m3 == 13.3 AND m4 == 68 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1296.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1296.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 906.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 130.0 AND m2 == 65 AND m3 == 17.1 AND m4 == 66 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 906.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 906.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 933.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 48.0 AND m2 == 79 AND m3 == 22.7 AND m4 == 34 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 933.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 933.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1246.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 31.0 AND m2 == 83 AND m3 == 6.9 AND m4 == 36 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1246.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1246.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 671.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 100077.0 AND ml == 41.0 AND m2 == 86 AND m3 == 15.0 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 671.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 671.0 AND Observation_number == 4 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 818.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 47.0 AND m2 == 22 AND m3 == 14.6 AND m4 == 14 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 818.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 818.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 921.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 36.0 AND m2 == 23 AND m3 == 18.2 AND m4 == 1 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 921.0 AND Age_of_patient == 27.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 921.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1253.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 24.0 AND m2 == 25 AND m3 == 5.6 AND m4 == 13 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1253.0 AND Age_of_patient == 27.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1253.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 941.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 34.0 AND m2 == 101 AND m3 == 7.9 AND m4 == 20 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 941.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 941.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1287.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 38.0 AND m2 == 111 AND m3 == 12.6 AND m4 == 32 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1287.0 AND Age_of_patient == 31.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1287.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1301.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 40.0 AND m2 == 8 AND m3 == 16.1 AND m4 == 65 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1301.0 AND Age_of_patient == 35.0 THEN target == 0"
+  expl: "IF Age_of_patient == 35.0 AND Hospital_identification_number_for_blood_sample == 1301.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 948.0 AND Age_of_patient == 28.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 59.0 AND m2 == 88 AND m3 == 9.9 AND m4 == 11 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 948.0 AND Age_of_patient == 28.0 THEN target == 0"
+  expl: "IF Age_of_patient == 28.0 AND Hospital_identification_number_for_blood_sample == 948.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1259.0 AND Age_of_patient == 28.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 75.0 AND m2 == 68 AND m3 == 10.1 AND m4 == 47 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1259.0 AND Age_of_patient == 28.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1259.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1289.0 AND Age_of_patient == 28.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 72.0 AND m2 == 29 AND m3 == 16.4 AND m4 == 31 THEN target == 0"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1289.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1289.0 AND Observation_number == 3 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 773.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 42.0 AND m2 == 51 AND m3 == 15.3 AND m4 == 37 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 773.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 773.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 934.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 30.0 AND m2 == 64 AND m3 == 8.1 AND m4 == 0 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 934.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 934.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1022.0 AND Age_of_patient == 28.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 24.0 AND m2 == 84 AND m3 == 3.5 AND m4 == 15 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1022.0 AND Age_of_patient == 28.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1022.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 667.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 110077.0 AND ml == 29.0 AND m2 == 108 AND m3 == 11.8 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 667.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 667.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 801.0 AND Age_of_patient == 24.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 26.0 AND m2 == 77 AND m3 == 20.7 AND m4 == 24 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 801.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 801.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1262.0 AND Age_of_patient == 23.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 65.0 AND m2 == 46 AND m3 == 19.9 AND m4 == 52 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1262.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1262.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 938.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 34.0 AND m2 == 82 AND m3 == 11.8 AND m4 == 6 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 938.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 938.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 903.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 37.0 AND m2 == 42 AND m3 == 13.0 AND m4 == 85 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 903.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 903.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 916.0 AND Age_of_patient == 34.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 73.0 AND m2 == 24 AND m3 == 7.4 AND m4 == 2 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 916.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 916.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1249.0 AND Age_of_patient == 34.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 87.0 AND m2 == 49 AND m3 == 6.0 AND m4 == 122 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1249.0 AND Age_of_patient == 34.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1249.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1218.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 35.0 AND m2 == 37 AND m3 == 8.8 AND m4 == 51 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1218.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1218.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 779.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 31.0 AND m2 == 27 AND m3 == 9.9 AND m4 == 43 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 779.0 AND Age_of_patient == 20.0 THEN target == 0"
+  expl: "IF Age_of_patient == 20.0 AND Hospital_identification_number_for_blood_sample == 779.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 990.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 62.0 AND m2 == 68 AND m3 == 10.2 AND m4 == 48 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 990.0 AND Age_of_patient == 20.0 THEN target == 0"
+  expl: "IF Age_of_patient == 20.0 AND Hospital_identification_number_for_blood_sample == 990.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1001.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 48.0 AND m2 == 59 AND m3 == 16.8 AND m4 == 49 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1001.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1001.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1250.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 40.0 AND m2 == 71 AND m3 == 6.4 AND m4 == 29 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1250.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1250.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1219.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 55.0 AND m2 == 80 AND m3 == 10.9 AND m4 == 68 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1219.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1219.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1248.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 32.0 AND m2 == 44 AND m3 == 8.6 AND m4 == 26 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1248.0 AND Age_of_patient == 26.0 THEN target == 0"
+  expl: "IF Age_of_patient == 26.0 AND Hospital_identification_number_for_blood_sample == 1248.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1307.0 AND Age_of_patient == 21.0 AND Date_that_blood_sample_was_taken == 110079.0 AND ml == 26.0 AND m2 == 61 AND m3 == 16.4 AND m4 == 8 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1307.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1307.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 769.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 25.0 AND m2 == 95 AND m3 == 10.3 AND m4 == 17 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 769.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 769.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1016.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 22.0 AND m2 == 76 AND m3 == 2.8 AND m4 == 24 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1016.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1016.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 774.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 30.0 AND m2 == 48 AND m3 == 17.1 AND m4 == 24 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 774.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 774.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 917.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 35.0 AND m2 == 50 AND m3 == 10.9 AND m4 == 1 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 917.0 AND Age_of_patient == 26.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 917.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1255.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 34.0 AND m2 == 54 AND m3 == 8.0 AND m4 == 20 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1255.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1255.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 813.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 27.0 AND m2 == 93 AND m3 == 15.6 AND m4 == 39 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 813.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 813.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 920.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 22.0 AND m2 == 38 AND m3 == 11.8 AND m4 == 123 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 920.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 920.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1012.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 22.0 AND m2 == 43 AND m3 == 5.1 AND m4 == 50 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1012.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1012.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1285.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 72.0 AND m2 == 67 AND m3 == 12.0 AND m4 == 71 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1285.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1285.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 669.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 120077.0 AND ml == 22.0 AND m2 == 80 AND m3 == 15.0 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 669.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 669.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 782.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 51.0 AND m2 == 34 AND m3 == 16.6 AND m4 == 25 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 782.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 782.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 909.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 30.0 AND m2 == 30 AND m3 == 15.3 AND m4 == 9 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 909.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 909.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1247.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 23.0 AND m2 == 29 AND m3 == 4.4 AND m4 == 22 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1247.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1247.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 943.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 67.0 AND m2 == 115 AND m3 == 9.3 AND m4 == 71 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 943.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 943.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 804.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 50.0 AND m2 == 32 AND m3 == 15.1 AND m4 == 34 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 804.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 804.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 942.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 92.0 AND m2 == 31 AND m3 == 16.5 AND m4 == 4 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 942.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 942.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1305.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 55.0 AND m2 == 55 AND m3 == 21.8 AND m4 == 53 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1305.0 AND Age_of_patient == 36.0 THEN target == 1"
+  expl: "IF Age_of_patient == 36.0 AND Hospital_identification_number_for_blood_sample == 1305.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 765.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 38.0 AND m2 == 70 AND m3 == 15.8 AND m4 == 35 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 765.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 765.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 657.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 100077.0 AND ml == 22.0 AND m2 == 118 AND m3 == 10.8 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 657.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 657.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 918.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 27.0 AND m2 == 0 AND m3 == 10.3 AND m4 == 41 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 918.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 918.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 673.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 120077.0 AND ml == 28.0 AND m2 == 107 AND m3 == 7.0 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 673.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 673.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 790.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 34.0 AND m2 == 76 AND m3 == 12.0 AND m4 == 45 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 790.0 AND Age_of_patient == 22.0 THEN target == 1"
+  expl: "IF Age_of_patient == 22.0 AND Hospital_identification_number_for_blood_sample == 790.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 908.0 AND Age_of_patient == 23.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 44.0 AND m2 == 69 AND m3 == 10.5 AND m4 == 33 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 908.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 908.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1244.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 32.0 AND m2 == 83 AND m3 == 6.7 AND m4 == 28 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1244.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1244.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1298.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 35.0 AND m2 == 26 AND m3 == 11.3 AND m4 == 13 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1298.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1298.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 949.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 35.0 AND m2 == 93 AND m3 == 15.3 AND m4 == 9 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 949.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 949.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 791.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 80078.0 AND ml == 31.0 AND m2 == 47 AND m3 == 13.7 AND m4 == 34 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 791.0 AND Age_of_patient == 33.0 THEN target == 0"
+  expl: "IF Age_of_patient == 33.0 AND Hospital_identification_number_for_blood_sample == 791.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 824.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 110078.0 AND ml == 25.0 AND m2 == 58 AND m3 == 12.2 AND m4 == 10 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 824.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 824.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1003.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 52.0 AND m2 == 51 AND m3 == 17.9 AND m4 == 58 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1003.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1003.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 819.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 34.0 AND m2 == 46 AND m3 == 15.4 AND m4 == 42 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 819.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 819.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1292.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 53.0 AND m2 == 105 AND m3 == 22.3 AND m4 == 112 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1292.0 AND Age_of_patient == 20.0 THEN target == 0"
+  expl: "IF Age_of_patient == 20.0 AND Hospital_identification_number_for_blood_sample == 1292.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 914.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 69.0 AND m2 == 30 AND m3 == 8.7 AND m4 == 5 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 914.0 AND Age_of_patient == 30.0 THEN target == 0"
+  expl: "IF Age_of_patient == 30.0 AND Hospital_identification_number_for_blood_sample == 914.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1220.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 25.0 AND m2 == 36 AND m3 == 5.3 AND m4 == 8 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1220.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1220.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 989.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 50079.0 AND ml == 24.0 AND m2 == 92 AND m3 == 16.1 AND m4 == 46 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 989.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 989.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1281.0 AND Age_of_patient == 35.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 21.0 AND m2 == 15 AND m3 == 9.8 AND m4 == 27 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1281.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1281.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 768.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 51.0 AND m2 == 70 AND m3 == 12.9 AND m4 == 28 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 768.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 768.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1011.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 37.0 AND m2 == 52 AND m3 == 3.9 AND m4 == 21 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1011.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1011.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 771.0 AND Age_of_patient == 24.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 24.0 AND m2 == 70 AND m3 == 14.2 AND m4 == 8 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 771.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 771.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 910.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 30.0 AND m2 == 51 AND m3 == 16.2 AND m4 == 9 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 910.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 910.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1245.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 34.0 AND m2 == 69 AND m3 == 9.7 AND m4 == 32 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1245.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1245.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 802.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 22.0 AND m2 == 4 AND m3 == 10.3 AND m4 == 47 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 802.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 802.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1295.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 32.0 AND m2 == 60 AND m3 == 5.8 AND m4 == 54 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1295.0 AND Age_of_patient == 22.0 THEN target == 1"
+  expl: "IF Age_of_patient == 22.0 AND Hospital_identification_number_for_blood_sample == 1295.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 675.0 AND Age_of_patient == 38.0 AND Date_that_blood_sample_was_taken == 120077.0 AND ml == 45.0 AND m2 == 14 AND m3 == 13.7 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 675.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 675.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1294.0 AND Age_of_patient == 34.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 24.0 AND m2 == 35 AND m3 == 10.6 AND m4 == 48 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1294.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1294.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 781.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 20.0 AND m2 == 39 AND m3 == 11.9 AND m4 == 3 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 781.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 781.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 762.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 34.0 AND m2 == 95 AND m3 == 14.5 AND m4 == 23 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 762.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 762.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1290.0 AND Age_of_patient == 24.0 AND Date_that_blood_sample_was_taken == 90079.0 AND ml == 25.0 AND m2 == 98 AND m3 == 14.0 AND m4 == 38 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1290.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1290.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 831.0 AND Age_of_patient == 38.0 AND Date_that_blood_sample_was_taken == 120078.0 AND ml == 26.0 AND m2 == 16 AND m3 == 8.9 AND m4 == 37 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 831.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 831.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 896.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 10079.0 AND ml == 28.0 AND m2 == 5 AND m3 == 17.1 AND m4 == 25 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 896.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 896.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 919.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 21.0 AND m2 == 99 AND m3 == 10.3 AND m4 == 57 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 919.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 919.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 927.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 23.0 AND m2 == 19 AND m3 == 10.0 AND m4 == 16 THEN target == 0"
+  dexp: "IF Observation_number == 4 AND Hospital_identification_number_for_blood_sample == 927.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 927.0 AND Observation_number == 4 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 5 AND Hospital_identification_number_for_blood_sample == 940.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 26.0 AND m2 == 100 AND m3 == 12.3 AND m4 == 56 THEN target == 0"
+  dexp: "IF Observation_number == 5 THEN target == 0"
+  expl: "IF Observation_number == 5 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Observation_number == 6 AND Hospital_identification_number_for_blood_sample == 947.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 25.0 AND m2 == 117 AND m3 == 10.0 AND m4 == 44 THEN target == 1"
+  dexp: "IF Observation_number == 6 THEN target == 1"
+  expl: "IF Observation_number == 6 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Observation_number == 7 AND Hospital_identification_number_for_blood_sample == 1010.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 21.0 AND m2 == 105 AND m3 == 5.9 AND m4 == 48 THEN target == 1"
+  dexp: "IF Observation_number == 7 THEN target == 1"
+  expl: "IF Observation_number == 7 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 899.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 56.0 AND m2 == 39 AND m3 == 9.9 AND m4 == 72 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 899.0 AND Age_of_patient == 32.0 THEN target == 0"
+  expl: "IF Age_of_patient == 32.0 AND Hospital_identification_number_for_blood_sample == 899.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1303.0 AND Age_of_patient == 34.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 48.0 AND m2 == 74 AND m3 == 13.7 AND m4 == 73 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1303.0 AND Age_of_patient == 34.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1303.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 763.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 51.0 AND m2 == 95 AND m3 == 12.7 AND m4 == 28 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 763.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 763.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 926.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 18.0 AND m2 == 110 AND m3 == 11.3 AND m4 == 121 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 926.0 AND Age_of_patient == 39.0 THEN target == 0"
+  expl: "IF Age_of_patient == 39.0 AND Hospital_identification_number_for_blood_sample == 926.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1252.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 28.8 AND m2 == 7 AND m3 == 6.9 AND m4 == 41 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1252.0 AND Age_of_patient == 33.0 THEN target == 0"
+  expl: "IF Age_of_patient == 33.0 AND Hospital_identification_number_for_blood_sample == 1252.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1310.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 110079.0 AND ml == 41.0 AND m2 == 11 AND m3 == 15.1 AND m4 == 84 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1310.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1310.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1017.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 40.0 AND m2 == 68 AND m3 == 6.1 AND m4 == 39 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1017.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1017.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 776.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 21.0 AND m2 == 45 AND m3 == 12.2 AND m4 == 37 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 776.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 776.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 901.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 20078.0 AND ml == 95.0 AND m2 == 33 AND m3 == 7.3 AND m4 == 41 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 901.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 901.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1009.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 59.0 AND m2 == 40 AND m3 == 10.7 AND m4 == 105 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1009.0 AND Age_of_patient == 25.0 THEN target == 1"
+  expl: "IF Age_of_patient == 25.0 AND Hospital_identification_number_for_blood_sample == 1009.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 913.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 40.0 AND m2 == 41 AND m3 == 7.0 AND m4 == 14 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 913.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 913.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1260.0 AND Age_of_patient == 36.0 AND Date_that_blood_sample_was_taken == 80079.0 AND ml == 30.0 AND m2 == 62 AND m3 == 11.9 AND m4 == 13 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1260.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1260.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 767.0 AND Age_of_patient == 22.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 48.0 AND m2 == 48 AND m3 == 16.6 AND m4 == 16 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 767.0 AND Age_of_patient == 22.0 THEN target == 1"
+  expl: "IF Age_of_patient == 22.0 AND Hospital_identification_number_for_blood_sample == 767.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1019.0 AND Age_of_patient == 39.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 39.0 AND m2 == 90 AND m3 == 7.6 AND m4 == 40 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1019.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1019.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 936.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 30.0 AND m2 == 72 AND m3 == 18.1 AND m4 == 9 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 936.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 936.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1261.0 AND Age_of_patient == 37.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 38.0 AND m2 == 78 AND m3 == 21.6 AND m4 == 58 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 1261.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1261.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 929.0 AND Age_of_patient == 27.0 AND Date_that_blood_sample_was_taken == 30079.0 AND ml == 27.0 AND m2 == 85 AND m3 == 12.5 AND m4 == 124 THEN target == 0"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 929.0 THEN target == 0"
+  expl: "IF Hospital_identification_number_for_blood_sample == 929.0 AND Observation_number == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1254.0 AND Age_of_patient == 28.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 32.0 AND m2 == 49 AND m3 == 5.6 AND m4 == 33 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1254.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1254.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 911.0 AND Age_of_patient == 29.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 74.0 AND m2 == 66 AND m3 == 8.9 AND m4 == 64 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 911.0 AND Age_of_patient == 29.0 THEN target == 1"
+  expl: "IF Age_of_patient == 29.0 AND Hospital_identification_number_for_blood_sample == 911.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1015.0 AND Age_of_patient == 30.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 33.0 AND m2 == 81 AND m3 == 3.8 AND m4 == 28 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1015.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1015.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 777.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 34.0 AND m2 == 67 AND m3 == 11.1 AND m4 == 28 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 777.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 777.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 904.0 AND Age_of_patient == 31.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 45.0 AND m2 == 83 AND m3 == 10.8 AND m4 == 41 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 904.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 904.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1021.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 52.0 AND m2 == 59 AND m3 == 10.7 AND m4 == 52 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1021.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1021.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 789.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 28.0 AND m2 == 71 AND m3 == 17.4 AND m4 == 23 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 789.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 789.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 829.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 120078.0 AND ml == 35.0 AND m2 == 113 AND m3 == 14.5 AND m4 == 19 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 829.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 829.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 764.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 37.0 AND m2 == 103 AND m3 == 15.3 AND m4 == 39 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 764.0 AND Age_of_patient == 25.0 THEN target == 1"
+  expl: "IF Age_of_patient == 25.0 AND Hospital_identification_number_for_blood_sample == 764.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 907.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 20079.0 AND ml == 44.0 AND m2 == 69 AND m3 == 15.3 AND m4 == 38 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 907.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 907.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1014.0 AND Age_of_patient == 26.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 68.0 AND m2 == 73 AND m3 == 11.9 AND m4 == 47 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1014.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1014.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 811.0 AND Age_of_patient == 37.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 97.5 AND m2 == 21 AND m3 == 12.0 AND m4 == 61 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 811.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 811.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 785.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 70078.0 AND ml == 37.0 AND m2 == 115 AND m3 == 16.4 AND m4 == 58 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 785.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 785.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1217.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 34.0 AND m2 == 98 AND m3 == 12.1 AND m4 == 69 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1217.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1217.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 766.0 AND Age_of_patient == 20.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 30.0 AND m2 == 63 AND m3 == 12.9 AND m4 == 12 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 766.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 766.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 770.0 AND Age_of_patient == 25.0 AND Date_that_blood_sample_was_taken == 60078.0 AND ml == 37.0 AND m2 == 115 AND m3 == 11.7 AND m4 == 47 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 770.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 770.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 682.0 AND Age_of_patient == 24.0 AND Date_that_blood_sample_was_taken == 100077.0 AND ml == 26.0 AND m2 == 109 AND m3 == 11.7 AND m4 == 125 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 682.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 682.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 798.0 AND Age_of_patient == 34.0 AND Date_that_blood_sample_was_taken == 90078.0 AND ml == 24.0 AND m2 == 2 AND m3 == 14.0 AND m4 == 75 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 798.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 798.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 942.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 40079.0 AND ml == 41.0 AND m2 == 56 AND m3 == 10.9 AND m4 == 55 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 942.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 942.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1024.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 60079.0 AND ml == 43.0 AND m2 == 87 AND m3 == 6.0 AND m4 == 18 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1024.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1024.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 810.0 AND Age_of_patient == 32.0 AND Date_that_blood_sample_was_taken == 100078.0 AND ml == 30.0 AND m2 == 94 AND m3 == 15.3 AND m4 == 18 THEN target == 1"
+  dexp: "IF Observation_number == 1 AND Hospital_identification_number_for_blood_sample == 810.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 810.0 AND Observation_number == 1 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1258.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 70079.0 AND ml == 30.0 AND m2 == 78 AND m3 == 11.4 AND m4 == 46 THEN target == 1"
+  dexp: "IF Observation_number == 2 AND Hospital_identification_number_for_blood_sample == 1258.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1258.0 AND Observation_number == 2 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1300.0 AND Age_of_patient == 33.0 AND Date_that_blood_sample_was_taken == 100079.0 AND ml == 43.0 AND m2 == 90 AND m3 == 20.3 AND m4 == 45 THEN target == 1"
+  dexp: "IF Observation_number == 3 AND Hospital_identification_number_for_blood_sample == 1300.0 THEN target == 1"
+  expl: "IF Hospital_identification_number_for_blood_sample == 1300.0 AND Observation_number == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 209
+tot # of expls: 209
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.14
+avg expl sz: 2.14
+max expl sz: 2.14
+Max expl sz: 3
+
+tot time: 0.05
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   2.07%
+max dxrd:  33.33%

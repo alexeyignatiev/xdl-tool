@@ -1,0 +1,754 @@
+MODEL:
+IF instance == 0 THEN target == 1
+IF instance == 1 THEN target == 1
+IF instance == 2 THEN target == 1
+IF instance == 3 THEN target == 1
+IF instance == 4 THEN target == 1
+IF instance == 5 THEN target == 1
+IF instance == 7 THEN target == 1
+IF instance == 8 THEN target == 1
+IF instance == 11 THEN target == 1
+IF instance == 12 THEN target == 1
+IF instance == 13 THEN target == 1
+IF instance == 14 THEN target == 1
+IF instance == 15 THEN target == 1
+IF instance == 16 THEN target == 1
+IF instance == 17 THEN target == 1
+IF instance == 18 THEN target == 1
+IF instance == 19 THEN target == 1
+IF instance == 20 THEN target == 1
+IF instance == 21 THEN target == 1
+IF instance == 22 THEN target == 1
+IF instance == 23 THEN target == 1
+IF instance == 24 THEN target == 1
+IF instance == 26 THEN target == 1
+IF instance == 27 THEN target == 1
+IF instance == 28 THEN target == 1
+IF instance == 29 THEN target == 1
+IF instance == 31 THEN target == 1
+IF instance == 34 THEN target == 1
+IF instance == 35 THEN target == 1
+IF instance == 36 THEN target == 1
+IF instance == 37 THEN target == 1
+IF instance == 38 THEN target == 1
+IF instance == 39 THEN target == 1
+IF instance == 40 THEN target == 1
+IF instance == 41 THEN target == 1
+IF instance == 42 THEN target == 1
+IF instance == 43 THEN target == 1
+IF instance == 45 THEN target == 1
+IF instance == 46 THEN target == 1
+IF instance == 47 THEN target == 1
+IF instance == 48 THEN target == 1
+IF instance == 49 THEN target == 1
+IF instance == 50 THEN target == 1
+IF instance == 51 THEN target == 1
+IF instance == 53 THEN target == 0
+IF instance == 54 THEN target == 0
+IF instance == 57 THEN target == 0
+IF instance == 58 THEN target == 0
+IF instance == 59 THEN target == 0
+IF instance == 60 THEN target == 0
+IF instance == 61 THEN target == 0
+IF instance == 63 THEN target == 0
+IF instance == 66 THEN target == 0
+IF instance == 67 THEN target == 0
+IF instance == 69 THEN target == 0
+IF instance == 70 THEN target == 0
+IF instance == 71 THEN target == 0
+IF instance == 72 THEN target == 0
+IF instance == 73 THEN target == 0
+IF instance == 74 THEN target == 0
+IF instance == 75 THEN target == 0
+IF instance == 79 THEN target == 0
+IF instance == 80 THEN target == 0
+IF instance == 81 THEN target == 0
+IF instance == 82 THEN target == 0
+IF instance == 83 THEN target == 0
+IF instance == 85 THEN target == 0
+IF instance == 86 THEN target == 0
+IF instance == 87 THEN target == 0
+IF instance == 88 THEN target == 0
+IF instance == 89 THEN target == 0
+IF instance == 91 THEN target == 0
+IF instance == 92 THEN target == 0
+IF instance == 93 THEN target == 0
+IF instance == 94 THEN target == 0
+IF instance == 95 THEN target == 0
+IF instance == 96 THEN target == 0
+IF instance == 97 THEN target == 0
+IF instance == 98 THEN target == 0
+IF instance == 99 THEN target == 0
+IF instance == 100 THEN target == 0
+IF instance == 101 THEN target == 0
+IF instance == 103 THEN target == 0
+IF instance == 104 THEN target == 0
+IF instance == 105 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 334
+avg # of vars: 334.00
+max # of vars: 334
+min # of clauses: 6006
+avg # of clauses: 6008.00
+max # of clauses: 6010
+
+EXPLANATIONS:
+  inst: "IF instance == 91 AND p-50 == 3 AND p-49 == 0 AND p-48 == 1 AND p-47 == 3 AND p-46 == 0 AND p-45 == 2 AND p-44 == 1 AND p-43 == 0 AND p-42 == 0 AND p-41 == 3 AND p-40 == 0 AND p-39 == 1 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 2 AND p-31 == 3 AND p-30 == 3 AND p-29 == 1 AND p-28 == 2 AND p-27 == 2 AND p-26 == 3 AND p-25 == 2 AND p-24 == 2 AND p-23 == 3 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 2 AND p-18 == 3 AND p-17 == 0 AND p-16 == 3 AND p-15 == 2 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 2 AND p-3 == 2 AND p-2 == 2 AND p-1 == 1 AND p1 == 3 AND p2 == 3 AND p3 == 2 AND p4 == 3 AND p5 == 1 AND p6 == 2 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 91 THEN target == 0"
+  expl: "IF instance == 91 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 54 AND p-50 == 3 AND p-49 == 2 AND p-48 == 1 AND p-47 == 3 AND p-46 == 0 AND p-45 == 3 AND p-44 == 1 AND p-43 == 1 AND p-42 == 3 AND p-41 == 2 AND p-40 == 0 AND p-39 == 1 AND p-38 == 0 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 1 AND p-31 == 0 AND p-30 == 1 AND p-29 == 2 AND p-28 == 1 AND p-27 == 3 AND p-26 == 2 AND p-25 == 0 AND p-24 == 3 AND p-23 == 3 AND p-22 == 2 AND p-21 == 2 AND p-20 == 3 AND p-19 == 2 AND p-18 == 3 AND p-17 == 1 AND p-16 == 2 AND p-15 == 3 AND p-14 == 3 AND p-13 == 0 AND p-12 == 1 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 1 AND p-7 == 3 AND p-6 == 0 AND p-5 == 0 AND p-4 == 1 AND p-3 == 2 AND p-2 == 1 AND p-1 == 0 AND p1 == 3 AND p2 == 1 AND p3 == 2 AND p4 == 1 AND p5 == 1 AND p6 == 0 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 54 THEN target == 0"
+  expl: "IF instance == 54 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 57 AND p-50 == 2 AND p-49 == 3 AND p-48 == 0 AND p-47 == 1 AND p-46 == 3 AND p-45 == 0 AND p-44 == 2 AND p-43 == 0 AND p-42 == 2 AND p-41 == 0 AND p-40 == 0 AND p-39 == 1 AND p-38 == 3 AND p-37 == 0 AND p-36 == 2 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 0 AND p-31 == 3 AND p-30 == 3 AND p-29 == 0 AND p-28 == 2 AND p-27 == 1 AND p-26 == 3 AND p-25 == 3 AND p-24 == 0 AND p-23 == 3 AND p-22 == 3 AND p-21 == 3 AND p-20 == 3 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 2 AND p-15 == 3 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 1 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 3 AND p-5 == 0 AND p-4 == 0 AND p-3 == 1 AND p-2 == 1 AND p-1 == 0 AND p1 == 1 AND p2 == 1 AND p3 == 1 AND p4 == 2 AND p5 == 2 AND p6 == 1 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 57 THEN target == 0"
+  expl: "IF instance == 57 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 61 AND p-50 == 0 AND p-49 == 0 AND p-48 == 3 AND p-47 == 3 AND p-46 == 2 AND p-45 == 3 AND p-44 == 2 AND p-43 == 0 AND p-42 == 3 AND p-41 == 2 AND p-40 == 3 AND p-39 == 2 AND p-38 == 3 AND p-37 == 0 AND p-36 == 3 AND p-35 == 1 AND p-34 == 2 AND p-33 == 0 AND p-32 == 0 AND p-31 == 2 AND p-30 == 3 AND p-29 == 2 AND p-28 == 3 AND p-27 == 2 AND p-26 == 3 AND p-25 == 3 AND p-24 == 2 AND p-23 == 1 AND p-22 == 2 AND p-21 == 2 AND p-20 == 0 AND p-19 == 2 AND p-18 == 3 AND p-17 == 0 AND p-16 == 2 AND p-15 == 0 AND p-14 == 3 AND p-13 == 2 AND p-12 == 3 AND p-11 == 3 AND p-10 == 0 AND p-9 == 2 AND p-8 == 0 AND p-7 == 0 AND p-6 == 3 AND p-5 == 0 AND p-4 == 1 AND p-3 == 3 AND p-2 == 0 AND p-1 == 0 AND p1 == 1 AND p2 == 0 AND p3 == 0 AND p4 == 0 AND p5 == 1 AND p6 == 3 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 61 THEN target == 0"
+  expl: "IF instance == 61 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 70 AND p-50 == 3 AND p-49 == 1 AND p-48 == 2 AND p-47 == 0 AND p-46 == 3 AND p-45 == 0 AND p-44 == 0 AND p-43 == 3 AND p-42 == 3 AND p-41 == 0 AND p-40 == 0 AND p-39 == 1 AND p-38 == 3 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 2 AND p-30 == 0 AND p-29 == 0 AND p-28 == 0 AND p-27 == 0 AND p-26 == 2 AND p-25 == 1 AND p-24 == 3 AND p-23 == 2 AND p-22 == 0 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 1 AND p-17 == 1 AND p-16 == 0 AND p-15 == 1 AND p-14 == 3 AND p-13 == 0 AND p-12 == 2 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 3 AND p-2 == 1 AND p-1 == 1 AND p1 == 2 AND p2 == 3 AND p3 == 2 AND p4 == 2 AND p5 == 3 AND p6 == 0 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 70 THEN target == 0"
+  expl: "IF instance == 70 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 74 AND p-50 == 0 AND p-49 == 2 AND p-48 == 2 AND p-47 == 2 AND p-46 == 2 AND p-45 == 1 AND p-44 == 0 AND p-43 == 0 AND p-42 == 2 AND p-41 == 2 AND p-40 == 0 AND p-39 == 2 AND p-38 == 2 AND p-37 == 0 AND p-36 == 3 AND p-35 == 2 AND p-34 == 2 AND p-33 == 0 AND p-32 == 0 AND p-31 == 0 AND p-30 == 2 AND p-29 == 0 AND p-28 == 2 AND p-27 == 2 AND p-26 == 3 AND p-25 == 3 AND p-24 == 2 AND p-23 == 1 AND p-22 == 1 AND p-21 == 2 AND p-20 == 3 AND p-19 == 0 AND p-18 == 3 AND p-17 == 0 AND p-16 == 0 AND p-15 == 0 AND p-14 == 2 AND p-13 == 0 AND p-12 == 0 AND p-11 == 0 AND p-10 == 1 AND p-9 == 3 AND p-8 == 0 AND p-7 == 2 AND p-6 == 0 AND p-5 == 2 AND p-4 == 3 AND p-3 == 1 AND p-2 == 1 AND p-1 == 2 AND p1 == 3 AND p2 == 3 AND p3 == 3 AND p4 == 0 AND p5 == 2 AND p6 == 2 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 74 THEN target == 0"
+  expl: "IF instance == 74 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 75 AND p-50 == 1 AND p-49 == 0 AND p-48 == 2 AND p-47 == 2 AND p-46 == 2 AND p-45 == 2 AND p-44 == 2 AND p-43 == 3 AND p-42 == 2 AND p-41 == 2 AND p-40 == 0 AND p-39 == 2 AND p-38 == 2 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 3 AND p-33 == 0 AND p-32 == 0 AND p-31 == 2 AND p-30 == 1 AND p-29 == 1 AND p-28 == 0 AND p-27 == 3 AND p-26 == 1 AND p-25 == 3 AND p-24 == 1 AND p-23 == 1 AND p-22 == 3 AND p-21 == 2 AND p-20 == 0 AND p-19 == 3 AND p-18 == 2 AND p-17 == 0 AND p-16 == 1 AND p-15 == 2 AND p-14 == 1 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 2 AND p-9 == 3 AND p-8 == 1 AND p-7 == 0 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 1 AND p-2 == 0 AND p-1 == 3 AND p1 == 1 AND p2 == 0 AND p3 == 3 AND p4 == 2 AND p5 == 0 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 75 THEN target == 0"
+  expl: "IF instance == 75 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 79 AND p-50 == 3 AND p-49 == 3 AND p-48 == 3 AND p-47 == 1 AND p-46 == 3 AND p-45 == 0 AND p-44 == 1 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 1 AND p-38 == 0 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 3 AND p-31 == 0 AND p-30 == 1 AND p-29 == 3 AND p-28 == 2 AND p-27 == 3 AND p-26 == 0 AND p-25 == 3 AND p-24 == 2 AND p-23 == 0 AND p-22 == 2 AND p-21 == 1 AND p-20 == 0 AND p-19 == 3 AND p-18 == 0 AND p-17 == 1 AND p-16 == 0 AND p-15 == 2 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 3 AND p-7 == 2 AND p-6 == 1 AND p-5 == 3 AND p-4 == 3 AND p-3 == 1 AND p-2 == 0 AND p-1 == 0 AND p1 == 1 AND p2 == 0 AND p3 == 2 AND p4 == 0 AND p5 == 0 AND p6 == 1 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 79 THEN target == 0"
+  expl: "IF instance == 79 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 82 AND p-50 == 1 AND p-49 == 2 AND p-48 == 0 AND p-47 == 1 AND p-46 == 3 AND p-45 == 3 AND p-44 == 0 AND p-43 == 0 AND p-42 == 3 AND p-41 == 0 AND p-40 == 3 AND p-39 == 0 AND p-38 == 1 AND p-37 == 3 AND p-36 == 2 AND p-35 == 1 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 2 AND p-29 == 2 AND p-28 == 0 AND p-27 == 1 AND p-26 == 2 AND p-25 == 3 AND p-24 == 1 AND p-23 == 1 AND p-22 == 2 AND p-21 == 3 AND p-20 == 3 AND p-19 == 1 AND p-18 == 3 AND p-17 == 2 AND p-16 == 3 AND p-15 == 2 AND p-14 == 3 AND p-13 == 0 AND p-12 == 0 AND p-11 == 0 AND p-10 == 3 AND p-9 == 1 AND p-8 == 2 AND p-7 == 1 AND p-6 == 0 AND p-5 == 0 AND p-4 == 3 AND p-3 == 2 AND p-2 == 0 AND p-1 == 0 AND p1 == 0 AND p2 == 3 AND p3 == 2 AND p4 == 2 AND p5 == 3 AND p6 == 3 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 82 THEN target == 0"
+  expl: "IF instance == 82 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 83 AND p-50 == 3 AND p-49 == 3 AND p-48 == 3 AND p-47 == 3 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 1 AND p-39 == 1 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 1 AND p-31 == 0 AND p-30 == 2 AND p-29 == 2 AND p-28 == 1 AND p-27 == 1 AND p-26 == 2 AND p-25 == 2 AND p-24 == 0 AND p-23 == 0 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 1 AND p-18 == 3 AND p-17 == 1 AND p-16 == 1 AND p-15 == 1 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 0 AND p-2 == 1 AND p-1 == 1 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 2 AND p5 == 0 AND p6 == 1 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 83 THEN target == 0"
+  expl: "IF instance == 83 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 84 AND p-50 == 2 AND p-49 == 1 AND p-48 == 0 AND p-47 == 0 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 3 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 3 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 3 AND p-30 == 1 AND p-29 == 3 AND p-28 == 2 AND p-27 == 3 AND p-26 == 0 AND p-25 == 2 AND p-24 == 1 AND p-23 == 2 AND p-22 == 2 AND p-21 == 2 AND p-20 == 0 AND p-19 == 0 AND p-18 == 2 AND p-17 == 2 AND p-16 == 1 AND p-15 == 2 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 3 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 0 AND p-5 == 1 AND p-4 == 0 AND p-3 == 1 AND p-2 == 1 AND p-1 == 1 AND p1 == 1 AND p2 == 2 AND p3 == 1 AND p4 == 2 AND p5 == 1 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 84 THEN target == 1"
+  expl: "IF instance == 84 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 85 AND p-50 == 1 AND p-49 == 1 AND p-48 == 3 AND p-47 == 2 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 3 AND p-42 == 3 AND p-41 == 1 AND p-40 == 0 AND p-39 == 2 AND p-38 == 2 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 3 AND p-30 == 1 AND p-29 == 3 AND p-28 == 2 AND p-27 == 0 AND p-26 == 0 AND p-25 == 0 AND p-24 == 2 AND p-23 == 0 AND p-22 == 2 AND p-21 == 2 AND p-20 == 0 AND p-19 == 0 AND p-18 == 0 AND p-17 == 2 AND p-16 == 1 AND p-15 == 2 AND p-14 == 3 AND p-13 == 0 AND p-12 == 0 AND p-11 == 3 AND p-10 == 0 AND p-9 == 3 AND p-8 == 0 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 0 AND p-2 == 1 AND p-1 == 1 AND p1 == 3 AND p2 == 1 AND p3 == 2 AND p4 == 1 AND p5 == 2 AND p6 == 0 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 85 THEN target == 0"
+  expl: "IF instance == 85 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 86 AND p-50 == 2 AND p-49 == 0 AND p-48 == 3 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 3 AND p-38 == 0 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 2 AND p-31 == 1 AND p-30 == 0 AND p-29 == 0 AND p-28 == 0 AND p-27 == 0 AND p-26 == 0 AND p-25 == 0 AND p-24 == 3 AND p-23 == 3 AND p-22 == 2 AND p-21 == 2 AND p-20 == 2 AND p-19 == 0 AND p-18 == 3 AND p-17 == 1 AND p-16 == 1 AND p-15 == 1 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 3 AND p-2 == 1 AND p-1 == 1 AND p1 == 2 AND p2 == 3 AND p3 == 3 AND p4 == 2 AND p5 == 0 AND p6 == 2 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 86 THEN target == 0"
+  expl: "IF instance == 86 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 87 AND p-50 == 1 AND p-49 == 3 AND p-48 == 2 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 3 AND p-39 == 1 AND p-38 == 3 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 2 AND p-31 == 2 AND p-30 == 1 AND p-29 == 1 AND p-28 == 3 AND p-27 == 2 AND p-26 == 1 AND p-25 == 2 AND p-24 == 2 AND p-23 == 0 AND p-22 == 2 AND p-21 == 0 AND p-20 == 0 AND p-19 == 1 AND p-18 == 3 AND p-17 == 1 AND p-16 == 1 AND p-15 == 1 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 3 AND p-2 == 1 AND p-1 == 1 AND p1 == 0 AND p2 == 3 AND p3 == 1 AND p4 == 2 AND p5 == 0 AND p6 == 1 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 87 THEN target == 0"
+  expl: "IF instance == 87 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 88 AND p-50 == 3 AND p-49 == 3 AND p-48 == 3 AND p-47 == 0 AND p-46 == 3 AND p-45 == 0 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 3 AND p-39 == 1 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 1 AND p-31 == 0 AND p-30 == 2 AND p-29 == 2 AND p-28 == 1 AND p-27 == 1 AND p-26 == 2 AND p-25 == 2 AND p-24 == 0 AND p-23 == 0 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 1 AND p-18 == 3 AND p-17 == 1 AND p-16 == 1 AND p-15 == 1 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 0 AND p-2 == 1 AND p-1 == 1 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 2 AND p5 == 0 AND p6 == 1 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 88 THEN target == 0"
+  expl: "IF instance == 88 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 89 AND p-50 == 0 AND p-49 == 0 AND p-48 == 2 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 2 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 3 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 3 AND p-30 == 1 AND p-29 == 3 AND p-28 == 2 AND p-27 == 3 AND p-26 == 0 AND p-25 == 2 AND p-24 == 1 AND p-23 == 2 AND p-22 == 2 AND p-21 == 2 AND p-20 == 0 AND p-19 == 0 AND p-18 == 2 AND p-17 == 2 AND p-16 == 1 AND p-15 == 2 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 3 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 0 AND p-5 == 1 AND p-4 == 0 AND p-3 == 1 AND p-2 == 1 AND p-1 == 2 AND p1 == 1 AND p2 == 1 AND p3 == 2 AND p4 == 1 AND p5 == 2 AND p6 == 1 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 89 THEN target == 0"
+  expl: "IF instance == 89 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 90 AND p-50 == 0 AND p-49 == 3 AND p-48 == 2 AND p-47 == 1 AND p-46 == 0 AND p-45 == 3 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 1 AND p-39 == 1 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 1 AND p-31 == 3 AND p-30 == 3 AND p-29 == 1 AND p-28 == 1 AND p-27 == 3 AND p-26 == 2 AND p-25 == 0 AND p-24 == 2 AND p-23 == 1 AND p-22 == 1 AND p-21 == 2 AND p-20 == 0 AND p-19 == 1 AND p-18 == 3 AND p-17 == 1 AND p-16 == 1 AND p-15 == 1 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 3 AND p-2 == 1 AND p-1 == 1 AND p1 == 0 AND p2 == 3 AND p3 == 1 AND p4 == 2 AND p5 == 0 AND p6 == 1 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 90 THEN target == 1"
+  expl: "IF instance == 90 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 97 AND p-50 == 0 AND p-49 == 0 AND p-48 == 0 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 1 AND p-40 == 0 AND p-39 == 2 AND p-38 == 0 AND p-37 == 0 AND p-36 == 3 AND p-35 == 0 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 0 AND p-29 == 0 AND p-28 == 0 AND p-27 == 0 AND p-26 == 1 AND p-25 == 3 AND p-24 == 1 AND p-23 == 3 AND p-22 == 2 AND p-21 == 0 AND p-20 == 2 AND p-19 == 3 AND p-18 == 2 AND p-17 == 3 AND p-16 == 0 AND p-15 == 0 AND p-14 == 3 AND p-13 == 0 AND p-12 == 0 AND p-11 == 3 AND p-10 == 2 AND p-9 == 3 AND p-8 == 0 AND p-7 == 2 AND p-6 == 1 AND p-5 == 1 AND p-4 == 3 AND p-3 == 1 AND p-2 == 2 AND p-1 == 3 AND p1 == 2 AND p2 == 3 AND p3 == 1 AND p4 == 3 AND p5 == 3 AND p6 == 2 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 97 THEN target == 0"
+  expl: "IF instance == 97 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 102 AND p-50 == 3 AND p-49 == 1 AND p-48 == 3 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 1 AND p-43 == 2 AND p-42 == 3 AND p-41 == 0 AND p-40 == 0 AND p-39 == 1 AND p-38 == 0 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 3 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 2 AND p-29 == 1 AND p-28 == 2 AND p-27 == 2 AND p-26 == 1 AND p-25 == 2 AND p-24 == 1 AND p-23 == 2 AND p-22 == 3 AND p-21 == 1 AND p-20 == 0 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 2 AND p-15 == 0 AND p-14 == 3 AND p-13 == 0 AND p-12 == 3 AND p-11 == 2 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 1 AND p-2 == 1 AND p-1 == 2 AND p1 == 1 AND p2 == 3 AND p3 == 3 AND p4 == 1 AND p5 == 1 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 102 THEN target == 1"
+  expl: "IF instance == 102 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 56 AND p-50 == 2 AND p-49 == 1 AND p-48 == 0 AND p-47 == 0 AND p-46 == 0 AND p-45 == 3 AND p-44 == 0 AND p-43 == 0 AND p-42 == 3 AND p-41 == 1 AND p-40 == 0 AND p-39 == 0 AND p-38 == 3 AND p-37 == 2 AND p-36 == 3 AND p-35 == 2 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 3 AND p-30 == 3 AND p-29 == 3 AND p-28 == 3 AND p-27 == 1 AND p-26 == 3 AND p-25 == 2 AND p-24 == 1 AND p-23 == 1 AND p-22 == 2 AND p-21 == 3 AND p-20 == 2 AND p-19 == 0 AND p-18 == 3 AND p-17 == 3 AND p-16 == 0 AND p-15 == 3 AND p-14 == 0 AND p-13 == 2 AND p-12 == 0 AND p-11 == 1 AND p-10 == 0 AND p-9 == 1 AND p-8 == 3 AND p-7 == 3 AND p-6 == 3 AND p-5 == 3 AND p-4 == 2 AND p-3 == 3 AND p-2 == 3 AND p-1 == 0 AND p1 == 1 AND p2 == 2 AND p3 == 1 AND p4 == 2 AND p5 == 3 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 56 THEN target == 1"
+  expl: "IF instance == 56 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 68 AND p-50 == 2 AND p-49 == 0 AND p-48 == 1 AND p-47 == 0 AND p-46 == 1 AND p-45 == 1 AND p-44 == 0 AND p-43 == 3 AND p-42 == 1 AND p-41 == 2 AND p-40 == 0 AND p-39 == 0 AND p-38 == 3 AND p-37 == 2 AND p-36 == 2 AND p-35 == 1 AND p-34 == 2 AND p-33 == 1 AND p-32 == 0 AND p-31 == 0 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 1 AND p-26 == 3 AND p-25 == 3 AND p-24 == 3 AND p-23 == 1 AND p-22 == 2 AND p-21 == 1 AND p-20 == 2 AND p-19 == 2 AND p-18 == 3 AND p-17 == 0 AND p-16 == 3 AND p-15 == 2 AND p-14 == 2 AND p-13 == 1 AND p-12 == 0 AND p-11 == 3 AND p-10 == 2 AND p-9 == 0 AND p-8 == 3 AND p-7 == 0 AND p-6 == 2 AND p-5 == 1 AND p-4 == 2 AND p-3 == 1 AND p-2 == 1 AND p-1 == 1 AND p1 == 2 AND p2 == 2 AND p3 == 0 AND p4 == 0 AND p5 == 2 AND p6 == 0 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 68 THEN target == 1"
+  expl: "IF instance == 68 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 76 AND p-50 == 0 AND p-49 == 0 AND p-48 == 0 AND p-47 == 0 AND p-46 == 0 AND p-45 == 1 AND p-44 == 2 AND p-43 == 3 AND p-42 == 1 AND p-41 == 0 AND p-40 == 3 AND p-39 == 1 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 0 AND p-31 == 3 AND p-30 == 3 AND p-29 == 0 AND p-28 == 2 AND p-27 == 0 AND p-26 == 0 AND p-25 == 0 AND p-24 == 2 AND p-23 == 2 AND p-22 == 3 AND p-21 == 3 AND p-20 == 3 AND p-19 == 1 AND p-18 == 3 AND p-17 == 2 AND p-16 == 2 AND p-15 == 1 AND p-14 == 1 AND p-13 == 2 AND p-12 == 0 AND p-11 == 1 AND p-10 == 1 AND p-9 == 3 AND p-8 == 3 AND p-7 == 0 AND p-6 == 3 AND p-5 == 0 AND p-4 == 0 AND p-3 == 1 AND p-2 == 1 AND p-1 == 0 AND p1 == 3 AND p2 == 3 AND p3 == 0 AND p4 == 0 AND p5 == 3 AND p6 == 3 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 76 THEN target == 1"
+  expl: "IF instance == 76 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 98 AND p-50 == 3 AND p-49 == 1 AND p-48 == 3 AND p-47 == 2 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 3 AND p-42 == 2 AND p-41 == 0 AND p-40 == 2 AND p-39 == 1 AND p-38 == 3 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 0 AND p-29 == 3 AND p-28 == 3 AND p-27 == 0 AND p-26 == 0 AND p-25 == 3 AND p-24 == 1 AND p-23 == 0 AND p-22 == 3 AND p-21 == 1 AND p-20 == 2 AND p-19 == 0 AND p-18 == 0 AND p-17 == 1 AND p-16 == 3 AND p-15 == 0 AND p-14 == 2 AND p-13 == 3 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 1 AND p-8 == 3 AND p-7 == 0 AND p-6 == 2 AND p-5 == 3 AND p-4 == 0 AND p-3 == 1 AND p-2 == 2 AND p-1 == 1 AND p1 == 0 AND p2 == 0 AND p3 == 2 AND p4 == 3 AND p5 == 3 AND p6 == 1 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 98 THEN target == 0"
+  expl: "IF instance == 98 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 99 AND p-50 == 0 AND p-49 == 1 AND p-48 == 1 AND p-47 == 2 AND p-46 == 2 AND p-45 == 0 AND p-44 == 0 AND p-43 == 2 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 0 AND p-38 == 1 AND p-37 == 1 AND p-36 == 2 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 3 AND p-29 == 3 AND p-28 == 3 AND p-27 == 3 AND p-26 == 0 AND p-25 == 0 AND p-24 == 1 AND p-23 == 0 AND p-22 == 1 AND p-21 == 2 AND p-20 == 3 AND p-19 == 3 AND p-18 == 3 AND p-17 == 2 AND p-16 == 3 AND p-15 == 3 AND p-14 == 0 AND p-13 == 1 AND p-12 == 0 AND p-11 == 0 AND p-10 == 2 AND p-9 == 2 AND p-8 == 3 AND p-7 == 0 AND p-6 == 0 AND p-5 == 0 AND p-4 == 2 AND p-3 == 2 AND p-2 == 1 AND p-1 == 2 AND p1 == 0 AND p2 == 1 AND p3 == 2 AND p4 == 1 AND p5 == 1 AND p6 == 2 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 99 THEN target == 0"
+  expl: "IF instance == 99 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 96 AND p-50 == 0 AND p-49 == 0 AND p-48 == 0 AND p-47 == 3 AND p-46 == 3 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 3 AND p-40 == 3 AND p-39 == 3 AND p-38 == 3 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 3 AND p-30 == 3 AND p-29 == 0 AND p-28 == 2 AND p-27 == 2 AND p-26 == 3 AND p-25 == 1 AND p-24 == 0 AND p-23 == 1 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 3 AND p-17 == 0 AND p-16 == 1 AND p-15 == 3 AND p-14 == 3 AND p-13 == 3 AND p-12 == 0 AND p-11 == 0 AND p-10 == 1 AND p-9 == 1 AND p-8 == 0 AND p-7 == 0 AND p-6 == 3 AND p-5 == 0 AND p-4 == 3 AND p-3 == 0 AND p-2 == 2 AND p-1 == 2 AND p1 == 1 AND p2 == 0 AND p3 == 3 AND p4 == 0 AND p5 == 2 AND p6 == 1 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 96 THEN target == 0"
+  expl: "IF instance == 96 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 59 AND p-50 == 3 AND p-49 == 3 AND p-48 == 2 AND p-47 == 3 AND p-46 == 1 AND p-45 == 0 AND p-44 == 3 AND p-43 == 0 AND p-42 == 0 AND p-41 == 3 AND p-40 == 1 AND p-39 == 2 AND p-38 == 0 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 0 AND p-31 == 0 AND p-30 == 0 AND p-29 == 1 AND p-28 == 1 AND p-27 == 0 AND p-26 == 0 AND p-25 == 0 AND p-24 == 3 AND p-23 == 3 AND p-22 == 2 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 0 AND p-17 == 2 AND p-16 == 0 AND p-15 == 3 AND p-14 == 3 AND p-13 == 3 AND p-12 == 0 AND p-11 == 2 AND p-10 == 2 AND p-9 == 3 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 1 AND p-4 == 0 AND p-3 == 0 AND p-2 == 2 AND p-1 == 3 AND p1 == 1 AND p2 == 3 AND p3 == 0 AND p4 == 1 AND p5 == 0 AND p6 == 1 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 59 THEN target == 0"
+  expl: "IF instance == 59 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 62 AND p-50 == 1 AND p-49 == 0 AND p-48 == 3 AND p-47 == 1 AND p-46 == 1 AND p-45 == 3 AND p-44 == 1 AND p-43 == 2 AND p-42 == 1 AND p-41 == 0 AND p-40 == 1 AND p-39 == 1 AND p-38 == 0 AND p-37 == 2 AND p-36 == 3 AND p-35 == 1 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 2 AND p-30 == 0 AND p-29 == 1 AND p-28 == 2 AND p-27 == 2 AND p-26 == 3 AND p-25 == 3 AND p-24 == 3 AND p-23 == 0 AND p-22 == 1 AND p-21 == 2 AND p-20 == 1 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 0 AND p-15 == 1 AND p-14 == 2 AND p-13 == 3 AND p-12 == 0 AND p-11 == 3 AND p-10 == 0 AND p-9 == 2 AND p-8 == 3 AND p-7 == 2 AND p-6 == 2 AND p-5 == 1 AND p-4 == 2 AND p-3 == 0 AND p-2 == 1 AND p-1 == 0 AND p1 == 0 AND p2 == 3 AND p3 == 3 AND p4 == 3 AND p5 == 3 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 62 THEN target == 1"
+  expl: "IF instance == 62 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 103 AND p-50 == 3 AND p-49 == 1 AND p-48 == 1 AND p-47 == 0 AND p-46 == 2 AND p-45 == 3 AND p-44 == 0 AND p-43 == 3 AND p-42 == 0 AND p-41 == 0 AND p-40 == 3 AND p-39 == 3 AND p-38 == 3 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 2 AND p-32 == 1 AND p-31 == 0 AND p-30 == 3 AND p-29 == 0 AND p-28 == 0 AND p-27 == 3 AND p-26 == 3 AND p-25 == 0 AND p-24 == 0 AND p-23 == 2 AND p-22 == 3 AND p-21 == 0 AND p-20 == 1 AND p-19 == 2 AND p-18 == 0 AND p-17 == 1 AND p-16 == 2 AND p-15 == 0 AND p-14 == 2 AND p-13 == 3 AND p-12 == 0 AND p-11 == 0 AND p-10 == 0 AND p-9 == 0 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 1 AND p-4 == 0 AND p-3 == 3 AND p-2 == 0 AND p-1 == 1 AND p1 == 1 AND p2 == 3 AND p3 == 2 AND p4 == 1 AND p5 == 1 AND p6 == 1 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 103 THEN target == 0"
+  expl: "IF instance == 103 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 104 AND p-50 == 0 AND p-49 == 1 AND p-48 == 0 AND p-47 == 2 AND p-46 == 3 AND p-45 == 3 AND p-44 == 0 AND p-43 == 3 AND p-42 == 1 AND p-41 == 1 AND p-40 == 0 AND p-39 == 1 AND p-38 == 3 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 1 AND p-33 == 1 AND p-32 == 3 AND p-31 == 2 AND p-30 == 3 AND p-29 == 2 AND p-28 == 2 AND p-27 == 0 AND p-26 == 3 AND p-25 == 0 AND p-24 == 0 AND p-23 == 1 AND p-22 == 1 AND p-21 == 0 AND p-20 == 3 AND p-19 == 2 AND p-18 == 3 AND p-17 == 2 AND p-16 == 3 AND p-15 == 0 AND p-14 == 3 AND p-13 == 3 AND p-12 == 0 AND p-11 == 2 AND p-10 == 0 AND p-9 == 2 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 2 AND p-4 == 0 AND p-3 == 0 AND p-2 == 0 AND p-1 == 0 AND p1 == 1 AND p2 == 0 AND p3 == 1 AND p4 == 2 AND p5 == 0 AND p6 == 2 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 104 THEN target == 0"
+  expl: "IF instance == 104 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 71 AND p-50 == 3 AND p-49 == 2 AND p-48 == 3 AND p-47 == 2 AND p-46 == 1 AND p-45 == 0 AND p-44 == 2 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 0 AND p-39 == 3 AND p-38 == 2 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 1 AND p-33 == 1 AND p-32 == 0 AND p-31 == 0 AND p-30 == 0 AND p-29 == 0 AND p-28 == 3 AND p-27 == 1 AND p-26 == 2 AND p-25 == 1 AND p-24 == 1 AND p-23 == 3 AND p-22 == 3 AND p-21 == 3 AND p-20 == 3 AND p-19 == 2 AND p-18 == 1 AND p-17 == 3 AND p-16 == 2 AND p-15 == 3 AND p-14 == 0 AND p-13 == 3 AND p-12 == 0 AND p-11 == 3 AND p-10 == 0 AND p-9 == 1 AND p-8 == 3 AND p-7 == 1 AND p-6 == 0 AND p-5 == 1 AND p-4 == 0 AND p-3 == 2 AND p-2 == 1 AND p-1 == 0 AND p1 == 3 AND p2 == 0 AND p3 == 0 AND p4 == 1 AND p5 == 3 AND p6 == 2 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 71 THEN target == 0"
+  expl: "IF instance == 71 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 77 AND p-50 == 1 AND p-49 == 3 AND p-48 == 2 AND p-47 == 3 AND p-46 == 3 AND p-45 == 2 AND p-44 == 3 AND p-43 == 3 AND p-42 == 1 AND p-41 == 0 AND p-40 == 2 AND p-39 == 3 AND p-38 == 3 AND p-37 == 3 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 2 AND p-31 == 3 AND p-30 == 3 AND p-29 == 2 AND p-28 == 3 AND p-27 == 2 AND p-26 == 3 AND p-25 == 0 AND p-24 == 3 AND p-23 == 0 AND p-22 == 0 AND p-21 == 1 AND p-20 == 1 AND p-19 == 1 AND p-18 == 1 AND p-17 == 3 AND p-16 == 1 AND p-15 == 0 AND p-14 == 3 AND p-13 == 3 AND p-12 == 1 AND p-11 == 3 AND p-10 == 2 AND p-9 == 0 AND p-8 == 3 AND p-7 == 1 AND p-6 == 1 AND p-5 == 1 AND p-4 == 0 AND p-3 == 2 AND p-2 == 1 AND p-1 == 3 AND p1 == 3 AND p2 == 0 AND p3 == 3 AND p4 == 0 AND p5 == 1 AND p6 == 2 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 77 THEN target == 1"
+  expl: "IF instance == 77 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 93 AND p-50 == 0 AND p-49 == 3 AND p-48 == 3 AND p-47 == 0 AND p-46 == 1 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 2 AND p-39 == 3 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 3 AND p-33 == 1 AND p-32 == 3 AND p-31 == 2 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 3 AND p-26 == 2 AND p-25 == 0 AND p-24 == 0 AND p-23 == 1 AND p-22 == 0 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 0 AND p-17 == 0 AND p-16 == 2 AND p-15 == 0 AND p-14 == 2 AND p-13 == 3 AND p-12 == 0 AND p-11 == 0 AND p-10 == 0 AND p-9 == 2 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 2 AND p-4 == 3 AND p-3 == 1 AND p-2 == 2 AND p-1 == 1 AND p1 == 2 AND p2 == 3 AND p3 == 0 AND p4 == 2 AND p5 == 2 AND p6 == 2 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 93 THEN target == 0"
+  expl: "IF instance == 93 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 73 AND p-50 == 0 AND p-49 == 3 AND p-48 == 2 AND p-47 == 1 AND p-46 == 2 AND p-45 == 1 AND p-44 == 0 AND p-43 == 0 AND p-42 == 1 AND p-41 == 2 AND p-40 == 1 AND p-39 == 2 AND p-38 == 2 AND p-37 == 2 AND p-36 == 2 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 0 AND p-29 == 2 AND p-28 == 2 AND p-27 == 2 AND p-26 == 1 AND p-25 == 2 AND p-24 == 1 AND p-23 == 2 AND p-22 == 1 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 1 AND p-17 == 1 AND p-16 == 1 AND p-15 == 3 AND p-14 == 1 AND p-13 == 3 AND p-12 == 0 AND p-11 == 3 AND p-10 == 0 AND p-9 == 1 AND p-8 == 3 AND p-7 == 2 AND p-6 == 1 AND p-5 == 2 AND p-4 == 1 AND p-3 == 2 AND p-2 == 1 AND p-1 == 1 AND p1 == 2 AND p2 == 0 AND p3 == 0 AND p4 == 2 AND p5 == 1 AND p6 == 3 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 73 THEN target == 0"
+  expl: "IF instance == 73 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 64 AND p-50 == 3 AND p-49 == 0 AND p-48 == 0 AND p-47 == 0 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 1 AND p-42 == 3 AND p-41 == 0 AND p-40 == 0 AND p-39 == 1 AND p-38 == 0 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 1 AND p-31 == 0 AND p-30 == 2 AND p-29 == 1 AND p-28 == 1 AND p-27 == 3 AND p-26 == 2 AND p-25 == 3 AND p-24 == 1 AND p-23 == 1 AND p-22 == 1 AND p-21 == 2 AND p-20 == 1 AND p-19 == 3 AND p-18 == 3 AND p-17 == 0 AND p-16 == 3 AND p-15 == 0 AND p-14 == 0 AND p-13 == 2 AND p-12 == 0 AND p-11 == 3 AND p-10 == 1 AND p-9 == 0 AND p-8 == 3 AND p-7 == 0 AND p-6 == 1 AND p-5 == 2 AND p-4 == 1 AND p-3 == 1 AND p-2 == 2 AND p-1 == 3 AND p1 == 3 AND p2 == 0 AND p3 == 3 AND p4 == 0 AND p5 == 1 AND p6 == 2 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 64 THEN target == 1"
+  expl: "IF instance == 64 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 101 AND p-50 == 0 AND p-49 == 3 AND p-48 == 2 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 3 AND p-39 == 3 AND p-38 == 0 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 0 AND p-31 == 3 AND p-30 == 2 AND p-29 == 0 AND p-28 == 0 AND p-27 == 1 AND p-26 == 3 AND p-25 == 1 AND p-24 == 2 AND p-23 == 1 AND p-22 == 0 AND p-21 == 3 AND p-20 == 2 AND p-19 == 3 AND p-18 == 1 AND p-17 == 3 AND p-16 == 1 AND p-15 == 1 AND p-14 == 0 AND p-13 == 3 AND p-12 == 0 AND p-11 == 2 AND p-10 == 0 AND p-9 == 0 AND p-8 == 3 AND p-7 == 2 AND p-6 == 1 AND p-5 == 2 AND p-4 == 1 AND p-3 == 2 AND p-2 == 1 AND p-1 == 3 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 3 AND p5 == 2 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 101 THEN target == 0"
+  expl: "IF instance == 101 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 95 AND p-50 == 1 AND p-49 == 1 AND p-48 == 3 AND p-47 == 3 AND p-46 == 2 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 2 AND p-39 == 0 AND p-38 == 2 AND p-37 == 2 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 2 AND p-30 == 1 AND p-29 == 3 AND p-28 == 2 AND p-27 == 1 AND p-26 == 0 AND p-25 == 0 AND p-24 == 2 AND p-23 == 2 AND p-22 == 1 AND p-21 == 3 AND p-20 == 1 AND p-19 == 3 AND p-18 == 0 AND p-17 == 3 AND p-16 == 0 AND p-15 == 1 AND p-14 == 2 AND p-13 == 1 AND p-12 == 0 AND p-11 == 3 AND p-10 == 0 AND p-9 == 0 AND p-8 == 3 AND p-7 == 2 AND p-6 == 1 AND p-5 == 2 AND p-4 == 1 AND p-3 == 1 AND p-2 == 1 AND p-1 == 1 AND p1 == 2 AND p2 == 1 AND p3 == 0 AND p4 == 0 AND p5 == 1 AND p6 == 2 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 95 THEN target == 0"
+  expl: "IF instance == 95 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 94 AND p-50 == 3 AND p-49 == 1 AND p-48 == 2 AND p-47 == 3 AND p-46 == 3 AND p-45 == 2 AND p-44 == 3 AND p-43 == 0 AND p-42 == 3 AND p-41 == 0 AND p-40 == 3 AND p-39 == 3 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 1 AND p-29 == 1 AND p-28 == 3 AND p-27 == 3 AND p-26 == 3 AND p-25 == 3 AND p-24 == 1 AND p-23 == 2 AND p-22 == 2 AND p-21 == 1 AND p-20 == 0 AND p-19 == 3 AND p-18 == 1 AND p-17 == 2 AND p-16 == 1 AND p-15 == 1 AND p-14 == 1 AND p-13 == 3 AND p-12 == 0 AND p-11 == 0 AND p-10 == 0 AND p-9 == 0 AND p-8 == 3 AND p-7 == 3 AND p-6 == 1 AND p-5 == 2 AND p-4 == 2 AND p-3 == 1 AND p-2 == 2 AND p-1 == 3 AND p1 == 1 AND p2 == 1 AND p3 == 3 AND p4 == 1 AND p5 == 0 AND p6 == 3 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 94 THEN target == 0"
+  expl: "IF instance == 94 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 92 AND p-50 == 1 AND p-49 == 1 AND p-48 == 2 AND p-47 == 3 AND p-46 == 3 AND p-45 == 3 AND p-44 == 0 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 3 AND p-39 == 3 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 0 AND p-34 == 1 AND p-33 == 1 AND p-32 == 1 AND p-31 == 0 AND p-30 == 3 AND p-29 == 0 AND p-28 == 3 AND p-27 == 1 AND p-26 == 1 AND p-25 == 3 AND p-24 == 3 AND p-23 == 2 AND p-22 == 0 AND p-21 == 0 AND p-20 == 2 AND p-19 == 1 AND p-18 == 2 AND p-17 == 2 AND p-16 == 3 AND p-15 == 2 AND p-14 == 3 AND p-13 == 3 AND p-12 == 0 AND p-11 == 3 AND p-10 == 0 AND p-9 == 0 AND p-8 == 3 AND p-7 == 2 AND p-6 == 1 AND p-5 == 1 AND p-4 == 2 AND p-3 == 1 AND p-2 == 2 AND p-1 == 1 AND p1 == 1 AND p2 == 1 AND p3 == 3 AND p4 == 1 AND p5 == 2 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 92 THEN target == 0"
+  expl: "IF instance == 92 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 81 AND p-50 == 3 AND p-49 == 3 AND p-48 == 1 AND p-47 == 2 AND p-46 == 1 AND p-45 == 0 AND p-44 == 3 AND p-43 == 0 AND p-42 == 3 AND p-41 == 3 AND p-40 == 3 AND p-39 == 3 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 0 AND p-31 == 0 AND p-30 == 0 AND p-29 == 2 AND p-28 == 3 AND p-27 == 3 AND p-26 == 2 AND p-25 == 2 AND p-24 == 2 AND p-23 == 3 AND p-22 == 3 AND p-21 == 2 AND p-20 == 0 AND p-19 == 2 AND p-18 == 1 AND p-17 == 3 AND p-16 == 2 AND p-15 == 2 AND p-14 == 1 AND p-13 == 3 AND p-12 == 0 AND p-11 == 2 AND p-10 == 0 AND p-9 == 3 AND p-8 == 3 AND p-7 == 0 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 0 AND p-2 == 2 AND p-1 == 1 AND p1 == 1 AND p2 == 0 AND p3 == 0 AND p4 == 3 AND p5 == 1 AND p6 == 3 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 81 THEN target == 0"
+  expl: "IF instance == 81 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 80 AND p-50 == 3 AND p-49 == 2 AND p-48 == 3 AND p-47 == 0 AND p-46 == 0 AND p-45 == 0 AND p-44 == 1 AND p-43 == 3 AND p-42 == 0 AND p-41 == 0 AND p-40 == 3 AND p-39 == 2 AND p-38 == 1 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 3 AND p-33 == 0 AND p-32 == 1 AND p-31 == 2 AND p-30 == 3 AND p-29 == 2 AND p-28 == 2 AND p-27 == 2 AND p-26 == 1 AND p-25 == 2 AND p-24 == 2 AND p-23 == 3 AND p-22 == 2 AND p-21 == 0 AND p-20 == 3 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 2 AND p-15 == 3 AND p-14 == 1 AND p-13 == 3 AND p-12 == 0 AND p-11 == 1 AND p-10 == 0 AND p-9 == 0 AND p-8 == 3 AND p-7 == 1 AND p-6 == 3 AND p-5 == 3 AND p-4 == 0 AND p-3 == 1 AND p-2 == 1 AND p-1 == 1 AND p1 == 1 AND p2 == 1 AND p3 == 0 AND p4 == 1 AND p5 == 2 AND p6 == 3 AND p7 == 0 THEN target == 0"
+  dexp: "IF instance == 80 THEN target == 0"
+  expl: "IF instance == 80 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 78 AND p-50 == 2 AND p-49 == 0 AND p-48 == 3 AND p-47 == 1 AND p-46 == 2 AND p-45 == 1 AND p-44 == 0 AND p-43 == 1 AND p-42 == 2 AND p-41 == 0 AND p-40 == 3 AND p-39 == 1 AND p-38 == 3 AND p-37 == 2 AND p-36 == 3 AND p-35 == 0 AND p-34 == 3 AND p-33 == 0 AND p-32 == 1 AND p-31 == 3 AND p-30 == 3 AND p-29 == 0 AND p-28 == 3 AND p-27 == 3 AND p-26 == 3 AND p-25 == 2 AND p-24 == 0 AND p-23 == 2 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 3 AND p-17 == 3 AND p-16 == 0 AND p-15 == 0 AND p-14 == 1 AND p-13 == 1 AND p-12 == 1 AND p-11 == 0 AND p-10 == 1 AND p-9 == 2 AND p-8 == 0 AND p-7 == 3 AND p-6 == 1 AND p-5 == 1 AND p-4 == 1 AND p-3 == 0 AND p-2 == 2 AND p-1 == 1 AND p1 == 1 AND p2 == 0 AND p3 == 3 AND p4 == 3 AND p5 == 1 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 78 THEN target == 1"
+  expl: "IF instance == 78 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 53 AND p-50 == 0 AND p-49 == 0 AND p-48 == 1 AND p-47 == 2 AND p-46 == 1 AND p-45 == 0 AND p-44 == 3 AND p-43 == 0 AND p-42 == 1 AND p-41 == 2 AND p-40 == 2 AND p-39 == 3 AND p-38 == 0 AND p-37 == 3 AND p-36 == 3 AND p-35 == 3 AND p-34 == 3 AND p-33 == 0 AND p-32 == 1 AND p-31 == 1 AND p-30 == 3 AND p-29 == 3 AND p-28 == 1 AND p-27 == 1 AND p-26 == 1 AND p-25 == 0 AND p-24 == 2 AND p-23 == 3 AND p-22 == 1 AND p-21 == 0 AND p-20 == 0 AND p-19 == 2 AND p-18 == 0 AND p-17 == 0 AND p-16 == 0 AND p-15 == 0 AND p-14 == 1 AND p-13 == 3 AND p-12 == 3 AND p-11 == 0 AND p-10 == 3 AND p-9 == 1 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 3 AND p-4 == 3 AND p-3 == 1 AND p-2 == 1 AND p-1 == 1 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 3 AND p5 == 3 AND p6 == 3 AND p7 == 1 THEN target == 0"
+  dexp: "IF instance == 53 THEN target == 0"
+  expl: "IF instance == 53 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 55 AND p-50 == 3 AND p-49 == 3 AND p-48 == 0 AND p-47 == 2 AND p-46 == 1 AND p-45 == 2 AND p-44 == 2 AND p-43 == 0 AND p-42 == 3 AND p-41 == 1 AND p-40 == 1 AND p-39 == 3 AND p-38 == 0 AND p-37 == 1 AND p-36 == 1 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 2 AND p-30 == 1 AND p-29 == 3 AND p-28 == 3 AND p-27 == 3 AND p-26 == 3 AND p-25 == 3 AND p-24 == 0 AND p-23 == 3 AND p-22 == 1 AND p-21 == 2 AND p-20 == 1 AND p-19 == 0 AND p-18 == 0 AND p-17 == 1 AND p-16 == 3 AND p-15 == 1 AND p-14 == 3 AND p-13 == 1 AND p-12 == 3 AND p-11 == 0 AND p-10 == 1 AND p-9 == 3 AND p-8 == 2 AND p-7 == 3 AND p-6 == 3 AND p-5 == 3 AND p-4 == 1 AND p-3 == 3 AND p-2 == 1 AND p-1 == 1 AND p1 == 0 AND p2 == 3 AND p3 == 0 AND p4 == 1 AND p5 == 1 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 55 THEN target == 1"
+  expl: "IF instance == 55 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 58 AND p-50 == 2 AND p-49 == 1 AND p-48 == 1 AND p-47 == 3 AND p-46 == 3 AND p-45 == 1 AND p-44 == 3 AND p-43 == 1 AND p-42 == 1 AND p-41 == 0 AND p-40 == 0 AND p-39 == 0 AND p-38 == 0 AND p-37 == 1 AND p-36 == 2 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 3 AND p-31 == 3 AND p-30 == 3 AND p-29 == 3 AND p-28 == 3 AND p-27 == 2 AND p-26 == 3 AND p-25 == 3 AND p-24 == 2 AND p-23 == 3 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 3 AND p-18 == 3 AND p-17 == 1 AND p-16 == 2 AND p-15 == 2 AND p-14 == 3 AND p-13 == 2 AND p-12 == 3 AND p-11 == 0 AND p-10 == 2 AND p-9 == 0 AND p-8 == 1 AND p-7 == 3 AND p-6 == 3 AND p-5 == 2 AND p-4 == 3 AND p-3 == 0 AND p-2 == 0 AND p-1 == 0 AND p1 == 1 AND p2 == 1 AND p3 == 3 AND p4 == 0 AND p5 == 0 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 58 THEN target == 0"
+  expl: "IF instance == 58 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 60 AND p-50 == 1 AND p-49 == 0 AND p-48 == 2 AND p-47 == 0 AND p-46 == 0 AND p-45 == 0 AND p-44 == 1 AND p-43 == 2 AND p-42 == 3 AND p-41 == 3 AND p-40 == 3 AND p-39 == 3 AND p-38 == 0 AND p-37 == 3 AND p-36 == 3 AND p-35 == 1 AND p-34 == 2 AND p-33 == 0 AND p-32 == 0 AND p-31 == 1 AND p-30 == 0 AND p-29 == 3 AND p-28 == 1 AND p-27 == 2 AND p-26 == 0 AND p-25 == 3 AND p-24 == 1 AND p-23 == 3 AND p-22 == 1 AND p-21 == 2 AND p-20 == 3 AND p-19 == 1 AND p-18 == 3 AND p-17 == 3 AND p-16 == 2 AND p-15 == 3 AND p-14 == 2 AND p-13 == 3 AND p-12 == 3 AND p-11 == 0 AND p-10 == 2 AND p-9 == 0 AND p-8 == 0 AND p-7 == 3 AND p-6 == 3 AND p-5 == 1 AND p-4 == 3 AND p-3 == 0 AND p-2 == 0 AND p-1 == 1 AND p1 == 0 AND p2 == 3 AND p3 == 0 AND p4 == 1 AND p5 == 2 AND p6 == 2 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 60 THEN target == 0"
+  expl: "IF instance == 60 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 63 AND p-50 == 1 AND p-49 == 0 AND p-48 == 1 AND p-47 == 3 AND p-46 == 0 AND p-45 == 0 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 0 AND p-40 == 3 AND p-39 == 3 AND p-38 == 1 AND p-37 == 1 AND p-36 == 0 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 1 AND p-31 == 0 AND p-30 == 1 AND p-29 == 0 AND p-28 == 1 AND p-27 == 3 AND p-26 == 3 AND p-25 == 3 AND p-24 == 3 AND p-23 == 1 AND p-22 == 2 AND p-21 == 1 AND p-20 == 0 AND p-19 == 3 AND p-18 == 1 AND p-17 == 3 AND p-16 == 3 AND p-15 == 3 AND p-14 == 2 AND p-13 == 3 AND p-12 == 3 AND p-11 == 0 AND p-10 == 3 AND p-9 == 2 AND p-8 == 1 AND p-7 == 3 AND p-6 == 0 AND p-5 == 3 AND p-4 == 2 AND p-3 == 2 AND p-2 == 3 AND p-1 == 3 AND p1 == 0 AND p2 == 3 AND p3 == 3 AND p4 == 3 AND p5 == 1 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 63 THEN target == 0"
+  expl: "IF instance == 63 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 65 AND p-50 == 0 AND p-49 == 3 AND p-48 == 0 AND p-47 == 3 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 2 AND p-39 == 3 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 3 AND p-31 == 3 AND p-30 == 3 AND p-29 == 1 AND p-28 == 3 AND p-27 == 0 AND p-26 == 0 AND p-25 == 1 AND p-24 == 2 AND p-23 == 3 AND p-22 == 2 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 2 AND p-17 == 3 AND p-16 == 2 AND p-15 == 2 AND p-14 == 3 AND p-13 == 3 AND p-12 == 3 AND p-11 == 0 AND p-10 == 2 AND p-9 == 2 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 0 AND p-4 == 0 AND p-3 == 0 AND p-2 == 2 AND p-1 == 0 AND p1 == 1 AND p2 == 0 AND p3 == 3 AND p4 == 1 AND p5 == 0 AND p6 == 2 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 65 THEN target == 1"
+  expl: "IF instance == 65 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 66 AND p-50 == 1 AND p-49 == 0 AND p-48 == 0 AND p-47 == 2 AND p-46 == 2 AND p-45 == 3 AND p-44 == 0 AND p-43 == 2 AND p-42 == 0 AND p-41 == 0 AND p-40 == 3 AND p-39 == 2 AND p-38 == 1 AND p-37 == 3 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 1 AND p-32 == 1 AND p-31 == 3 AND p-30 == 3 AND p-29 == 2 AND p-28 == 3 AND p-27 == 1 AND p-26 == 2 AND p-25 == 2 AND p-24 == 1 AND p-23 == 1 AND p-22 == 3 AND p-21 == 2 AND p-20 == 0 AND p-19 == 3 AND p-18 == 3 AND p-17 == 0 AND p-16 == 0 AND p-15 == 3 AND p-14 == 2 AND p-13 == 2 AND p-12 == 1 AND p-11 == 0 AND p-10 == 1 AND p-9 == 2 AND p-8 == 0 AND p-7 == 3 AND p-6 == 0 AND p-5 == 2 AND p-4 == 3 AND p-3 == 1 AND p-2 == 2 AND p-1 == 1 AND p1 == 0 AND p2 == 3 AND p3 == 1 AND p4 == 2 AND p5 == 2 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 66 THEN target == 0"
+  expl: "IF instance == 66 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 67 AND p-50 == 2 AND p-49 == 2 AND p-48 == 1 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 3 AND p-39 == 0 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 3 AND p-32 == 0 AND p-31 == 1 AND p-30 == 3 AND p-29 == 0 AND p-28 == 3 AND p-27 == 3 AND p-26 == 3 AND p-25 == 0 AND p-24 == 1 AND p-23 == 0 AND p-22 == 0 AND p-21 == 0 AND p-20 == 0 AND p-19 == 1 AND p-18 == 1 AND p-17 == 3 AND p-16 == 0 AND p-15 == 3 AND p-14 == 2 AND p-13 == 2 AND p-12 == 3 AND p-11 == 0 AND p-10 == 0 AND p-9 == 1 AND p-8 == 3 AND p-7 == 1 AND p-6 == 3 AND p-5 == 3 AND p-4 == 3 AND p-3 == 0 AND p-2 == 2 AND p-1 == 2 AND p1 == 1 AND p2 == 0 AND p3 == 3 AND p4 == 3 AND p5 == 1 AND p6 == 1 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 67 THEN target == 0"
+  expl: "IF instance == 67 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 69 AND p-50 == 3 AND p-49 == 0 AND p-48 == 2 AND p-47 == 2 AND p-46 == 1 AND p-45 == 0 AND p-44 == 1 AND p-43 == 1 AND p-42 == 1 AND p-41 == 1 AND p-40 == 0 AND p-39 == 2 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 3 AND p-33 == 0 AND p-32 == 1 AND p-31 == 0 AND p-30 == 1 AND p-29 == 3 AND p-28 == 3 AND p-27 == 3 AND p-26 == 0 AND p-25 == 3 AND p-24 == 2 AND p-23 == 1 AND p-22 == 3 AND p-21 == 3 AND p-20 == 1 AND p-19 == 1 AND p-18 == 2 AND p-17 == 2 AND p-16 == 1 AND p-15 == 3 AND p-14 == 1 AND p-13 == 2 AND p-12 == 3 AND p-11 == 0 AND p-10 == 3 AND p-9 == 2 AND p-8 == 3 AND p-7 == 3 AND p-6 == 2 AND p-5 == 3 AND p-4 == 2 AND p-3 == 3 AND p-2 == 2 AND p-1 == 2 AND p1 == 0 AND p2 == 0 AND p3 == 3 AND p4 == 3 AND p5 == 2 AND p6 == 3 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 69 THEN target == 0"
+  expl: "IF instance == 69 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 72 AND p-50 == 1 AND p-49 == 1 AND p-48 == 0 AND p-47 == 3 AND p-46 == 1 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 0 AND p-38 == 3 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 1 AND p-33 == 3 AND p-32 == 1 AND p-31 == 0 AND p-30 == 0 AND p-29 == 1 AND p-28 == 0 AND p-27 == 3 AND p-26 == 0 AND p-25 == 0 AND p-24 == 0 AND p-23 == 0 AND p-22 == 0 AND p-21 == 0 AND p-20 == 1 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 2 AND p-15 == 3 AND p-14 == 2 AND p-13 == 3 AND p-12 == 0 AND p-11 == 0 AND p-10 == 3 AND p-9 == 0 AND p-8 == 1 AND p-7 == 3 AND p-6 == 3 AND p-5 == 2 AND p-4 == 3 AND p-3 == 0 AND p-2 == 0 AND p-1 == 1 AND p1 == 2 AND p2 == 1 AND p3 == 3 AND p4 == 0 AND p5 == 1 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 72 THEN target == 0"
+  expl: "IF instance == 72 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 100 AND p-50 == 3 AND p-49 == 2 AND p-48 == 2 AND p-47 == 2 AND p-46 == 2 AND p-45 == 0 AND p-44 == 1 AND p-43 == 2 AND p-42 == 3 AND p-41 == 1 AND p-40 == 2 AND p-39 == 3 AND p-38 == 3 AND p-37 == 0 AND p-36 == 1 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 3 AND p-31 == 1 AND p-30 == 1 AND p-29 == 2 AND p-28 == 1 AND p-27 == 0 AND p-26 == 1 AND p-25 == 2 AND p-24 == 3 AND p-23 == 3 AND p-22 == 3 AND p-21 == 0 AND p-20 == 3 AND p-19 == 2 AND p-18 == 0 AND p-17 == 3 AND p-16 == 0 AND p-15 == 3 AND p-14 == 2 AND p-13 == 1 AND p-12 == 3 AND p-11 == 0 AND p-10 == 3 AND p-9 == 1 AND p-8 == 2 AND p-7 == 3 AND p-6 == 0 AND p-5 == 1 AND p-4 == 3 AND p-3 == 1 AND p-2 == 3 AND p-1 == 3 AND p1 == 3 AND p2 == 0 AND p3 == 2 AND p4 == 1 AND p5 == 2 AND p6 == 0 AND p7 == 2 THEN target == 0"
+  dexp: "IF instance == 100 THEN target == 0"
+  expl: "IF instance == 100 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 105 AND p-50 == 3 AND p-49 == 1 AND p-48 == 0 AND p-47 == 2 AND p-46 == 0 AND p-45 == 0 AND p-44 == 0 AND p-43 == 3 AND p-42 == 0 AND p-41 == 3 AND p-40 == 3 AND p-39 == 0 AND p-38 == 3 AND p-37 == 2 AND p-36 == 2 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 3 AND p-31 == 2 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 3 AND p-26 == 2 AND p-25 == 3 AND p-24 == 3 AND p-23 == 3 AND p-22 == 3 AND p-21 == 3 AND p-20 == 3 AND p-19 == 3 AND p-18 == 0 AND p-17 == 3 AND p-16 == 1 AND p-15 == 1 AND p-14 == 0 AND p-13 == 2 AND p-12 == 3 AND p-11 == 0 AND p-10 == 3 AND p-9 == 0 AND p-8 == 0 AND p-7 == 3 AND p-6 == 3 AND p-5 == 3 AND p-4 == 2 AND p-3 == 3 AND p-2 == 3 AND p-1 == 2 AND p1 == 2 AND p2 == 1 AND p3 == 0 AND p4 == 3 AND p5 == 0 AND p6 == 0 AND p7 == 3 THEN target == 0"
+  dexp: "IF instance == 105 THEN target == 0"
+  expl: "IF instance == 105 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 44 AND p-50 == 0 AND p-49 == 3 AND p-48 == 0 AND p-47 == 3 AND p-46 == 2 AND p-45 == 0 AND p-44 == 0 AND p-43 == 1 AND p-42 == 2 AND p-41 == 3 AND p-40 == 3 AND p-39 == 2 AND p-38 == 0 AND p-37 == 2 AND p-36 == 0 AND p-35 == 1 AND p-34 == 3 AND p-33 == 2 AND p-32 == 1 AND p-31 == 1 AND p-30 == 2 AND p-29 == 1 AND p-28 == 3 AND p-27 == 2 AND p-26 == 0 AND p-25 == 2 AND p-24 == 3 AND p-23 == 3 AND p-22 == 0 AND p-21 == 3 AND p-20 == 1 AND p-19 == 0 AND p-18 == 2 AND p-17 == 1 AND p-16 == 3 AND p-15 == 2 AND p-14 == 3 AND p-13 == 2 AND p-12 == 0 AND p-11 == 0 AND p-10 == 1 AND p-9 == 2 AND p-8 == 0 AND p-7 == 1 AND p-6 == 0 AND p-5 == 3 AND p-4 == 3 AND p-3 == 1 AND p-2 == 3 AND p-1 == 2 AND p1 == 2 AND p2 == 1 AND p3 == 2 AND p4 == 3 AND p5 == 1 AND p6 == 3 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 44 THEN target == 1"
+  expl: "IF instance == 44 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 5 AND p-50 == 1 AND p-49 == 2 AND p-48 == 0 AND p-47 == 0 AND p-46 == 1 AND p-45 == 2 AND p-44 == 0 AND p-43 == 2 AND p-42 == 3 AND p-41 == 1 AND p-40 == 0 AND p-39 == 0 AND p-38 == 3 AND p-37 == 1 AND p-36 == 0 AND p-35 == 2 AND p-34 == 0 AND p-33 == 1 AND p-32 == 1 AND p-31 == 2 AND p-30 == 1 AND p-29 == 3 AND p-28 == 3 AND p-27 == 3 AND p-26 == 2 AND p-25 == 0 AND p-24 == 1 AND p-23 == 3 AND p-22 == 1 AND p-21 == 3 AND p-20 == 2 AND p-19 == 2 AND p-18 == 3 AND p-17 == 0 AND p-16 == 3 AND p-15 == 3 AND p-14 == 0 AND p-13 == 1 AND p-12 == 3 AND p-11 == 2 AND p-10 == 3 AND p-9 == 2 AND p-8 == 0 AND p-7 == 0 AND p-6 == 1 AND p-5 == 0 AND p-4 == 3 AND p-3 == 3 AND p-2 == 0 AND p-1 == 3 AND p1 == 3 AND p2 == 1 AND p3 == 2 AND p4 == 3 AND p5 == 1 AND p6 == 3 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 5 THEN target == 1"
+  expl: "IF instance == 5 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 41 AND p-50 == 1 AND p-49 == 0 AND p-48 == 0 AND p-47 == 3 AND p-46 == 2 AND p-45 == 2 AND p-44 == 1 AND p-43 == 1 AND p-42 == 3 AND p-41 == 1 AND p-40 == 3 AND p-39 == 0 AND p-38 == 0 AND p-37 == 0 AND p-36 == 1 AND p-35 == 2 AND p-34 == 2 AND p-33 == 2 AND p-32 == 3 AND p-31 == 1 AND p-30 == 3 AND p-29 == 3 AND p-28 == 2 AND p-27 == 0 AND p-26 == 2 AND p-25 == 2 AND p-24 == 2 AND p-23 == 2 AND p-22 == 3 AND p-21 == 3 AND p-20 == 3 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 2 AND p-15 == 1 AND p-14 == 3 AND p-13 == 2 AND p-12 == 0 AND p-11 == 0 AND p-10 == 0 AND p-9 == 2 AND p-8 == 2 AND p-7 == 0 AND p-6 == 2 AND p-5 == 2 AND p-4 == 0 AND p-3 == 0 AND p-2 == 1 AND p-1 == 3 AND p1 == 0 AND p2 == 3 AND p3 == 0 AND p4 == 3 AND p5 == 2 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 41 THEN target == 1"
+  expl: "IF instance == 41 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 29 AND p-50 == 3 AND p-49 == 3 AND p-48 == 2 AND p-47 == 0 AND p-46 == 1 AND p-45 == 1 AND p-44 == 3 AND p-43 == 0 AND p-42 == 1 AND p-41 == 3 AND p-40 == 0 AND p-39 == 1 AND p-38 == 2 AND p-37 == 1 AND p-36 == 1 AND p-35 == 0 AND p-34 == 2 AND p-33 == 1 AND p-32 == 0 AND p-31 == 3 AND p-30 == 3 AND p-29 == 3 AND p-28 == 3 AND p-27 == 2 AND p-26 == 2 AND p-25 == 1 AND p-24 == 2 AND p-23 == 2 AND p-22 == 3 AND p-21 == 2 AND p-20 == 3 AND p-19 == 0 AND p-18 == 0 AND p-17 == 2 AND p-16 == 1 AND p-15 == 3 AND p-14 == 0 AND p-13 == 0 AND p-12 == 1 AND p-11 == 1 AND p-10 == 0 AND p-9 == 3 AND p-8 == 3 AND p-7 == 1 AND p-6 == 1 AND p-5 == 2 AND p-4 == 2 AND p-3 == 3 AND p-2 == 3 AND p-1 == 2 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 1 AND p5 == 0 AND p6 == 0 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 29 THEN target == 1"
+  expl: "IF instance == 29 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 47 AND p-50 == 1 AND p-49 == 2 AND p-48 == 3 AND p-47 == 1 AND p-46 == 3 AND p-45 == 0 AND p-44 == 3 AND p-43 == 1 AND p-42 == 2 AND p-41 == 2 AND p-40 == 3 AND p-39 == 2 AND p-38 == 0 AND p-37 == 0 AND p-36 == 1 AND p-35 == 1 AND p-34 == 3 AND p-33 == 1 AND p-32 == 1 AND p-31 == 2 AND p-30 == 2 AND p-29 == 3 AND p-28 == 0 AND p-27 == 3 AND p-26 == 1 AND p-25 == 0 AND p-24 == 0 AND p-23 == 1 AND p-22 == 2 AND p-21 == 1 AND p-20 == 3 AND p-19 == 2 AND p-18 == 2 AND p-17 == 0 AND p-16 == 0 AND p-15 == 2 AND p-14 == 2 AND p-13 == 3 AND p-12 == 2 AND p-11 == 0 AND p-10 == 1 AND p-9 == 2 AND p-8 == 1 AND p-7 == 3 AND p-6 == 0 AND p-5 == 0 AND p-4 == 1 AND p-3 == 2 AND p-2 == 1 AND p-1 == 0 AND p1 == 2 AND p2 == 0 AND p3 == 3 AND p4 == 2 AND p5 == 1 AND p6 == 0 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 47 THEN target == 1"
+  expl: "IF instance == 47 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 16 AND p-50 == 2 AND p-49 == 1 AND p-48 == 1 AND p-47 == 0 AND p-46 == 0 AND p-45 == 3 AND p-44 == 1 AND p-43 == 0 AND p-42 == 0 AND p-41 == 3 AND p-40 == 1 AND p-39 == 0 AND p-38 == 0 AND p-37 == 2 AND p-36 == 0 AND p-35 == 0 AND p-34 == 1 AND p-33 == 3 AND p-32 == 3 AND p-31 == 2 AND p-30 == 0 AND p-29 == 0 AND p-28 == 2 AND p-27 == 2 AND p-26 == 2 AND p-25 == 3 AND p-24 == 2 AND p-23 == 2 AND p-22 == 3 AND p-21 == 0 AND p-20 == 3 AND p-19 == 1 AND p-18 == 0 AND p-17 == 2 AND p-16 == 1 AND p-15 == 1 AND p-14 == 0 AND p-13 == 0 AND p-12 == 1 AND p-11 == 0 AND p-10 == 2 AND p-9 == 1 AND p-8 == 1 AND p-7 == 3 AND p-6 == 2 AND p-5 == 0 AND p-4 == 1 AND p-3 == 0 AND p-2 == 3 AND p-1 == 1 AND p1 == 1 AND p2 == 3 AND p3 == 3 AND p4 == 1 AND p5 == 2 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 16 THEN target == 1"
+  expl: "IF instance == 16 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 1 AND p-50 == 3 AND p-49 == 2 AND p-48 == 2 AND p-47 == 0 AND p-46 == 3 AND p-45 == 2 AND p-44 == 2 AND p-43 == 0 AND p-42 == 1 AND p-41 == 2 AND p-40 == 3 AND p-39 == 3 AND p-38 == 1 AND p-37 == 0 AND p-36 == 0 AND p-35 == 1 AND p-34 == 0 AND p-33 == 3 AND p-32 == 3 AND p-31 == 2 AND p-30 == 0 AND p-29 == 2 AND p-28 == 2 AND p-27 == 0 AND p-26 == 0 AND p-25 == 2 AND p-24 == 2 AND p-23 == 1 AND p-22 == 0 AND p-21 == 3 AND p-20 == 0 AND p-19 == 0 AND p-18 == 1 AND p-17 == 2 AND p-16 == 1 AND p-15 == 3 AND p-14 == 0 AND p-13 == 1 AND p-12 == 3 AND p-11 == 0 AND p-10 == 1 AND p-9 == 1 AND p-8 == 3 AND p-7 == 2 AND p-6 == 0 AND p-5 == 3 AND p-4 == 2 AND p-3 == 3 AND p-2 == 3 AND p-1 == 3 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 1 AND p5 == 1 AND p6 == 0 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 1 THEN target == 1"
+  expl: "IF instance == 1 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 3 AND p-50 == 2 AND p-49 == 0 AND p-48 == 2 AND p-47 == 2 AND p-46 == 3 AND p-45 == 2 AND p-44 == 2 AND p-43 == 1 AND p-42 == 3 AND p-41 == 0 AND p-40 == 3 AND p-39 == 2 AND p-38 == 3 AND p-37 == 2 AND p-36 == 3 AND p-35 == 0 AND p-34 == 3 AND p-33 == 2 AND p-32 == 0 AND p-31 == 1 AND p-30 == 1 AND p-29 == 2 AND p-28 == 0 AND p-27 == 0 AND p-26 == 1 AND p-25 == 2 AND p-24 == 0 AND p-23 == 2 AND p-22 == 3 AND p-21 == 1 AND p-20 == 0 AND p-19 == 0 AND p-18 == 3 AND p-17 == 1 AND p-16 == 0 AND p-15 == 2 AND p-14 == 0 AND p-13 == 1 AND p-12 == 1 AND p-11 == 2 AND p-10 == 1 AND p-9 == 3 AND p-8 == 3 AND p-7 == 3 AND p-6 == 2 AND p-5 == 0 AND p-4 == 1 AND p-3 == 3 AND p-2 == 1 AND p-1 == 3 AND p1 == 2 AND p2 == 2 AND p3 == 3 AND p4 == 0 AND p5 == 3 AND p6 == 3 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 3 THEN target == 1"
+  expl: "IF instance == 3 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 23 AND p-50 == 1 AND p-49 == 2 AND p-48 == 3 AND p-47 == 0 AND p-46 == 2 AND p-45 == 1 AND p-44 == 2 AND p-43 == 1 AND p-42 == 0 AND p-41 == 3 AND p-40 == 1 AND p-39 == 0 AND p-38 == 2 AND p-37 == 3 AND p-36 == 2 AND p-35 == 1 AND p-34 == 3 AND p-33 == 3 AND p-32 == 3 AND p-31 == 1 AND p-30 == 3 AND p-29 == 3 AND p-28 == 0 AND p-27 == 1 AND p-26 == 3 AND p-25 == 2 AND p-24 == 3 AND p-23 == 2 AND p-22 == 0 AND p-21 == 2 AND p-20 == 3 AND p-19 == 0 AND p-18 == 1 AND p-17 == 2 AND p-16 == 1 AND p-15 == 0 AND p-14 == 1 AND p-13 == 1 AND p-12 == 0 AND p-11 == 2 AND p-10 == 1 AND p-9 == 2 AND p-8 == 1 AND p-7 == 1 AND p-6 == 0 AND p-5 == 2 AND p-4 == 0 AND p-3 == 2 AND p-2 == 2 AND p-1 == 0 AND p1 == 1 AND p2 == 2 AND p3 == 0 AND p4 == 1 AND p5 == 2 AND p6 == 0 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 23 THEN target == 1"
+  expl: "IF instance == 23 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 38 AND p-50 == 1 AND p-49 == 2 AND p-48 == 0 AND p-47 == 1 AND p-46 == 1 AND p-45 == 2 AND p-44 == 0 AND p-43 == 0 AND p-42 == 2 AND p-41 == 1 AND p-40 == 2 AND p-39 == 0 AND p-38 == 2 AND p-37 == 1 AND p-36 == 1 AND p-35 == 3 AND p-34 == 1 AND p-33 == 2 AND p-32 == 3 AND p-31 == 1 AND p-30 == 1 AND p-29 == 3 AND p-28 == 1 AND p-27 == 0 AND p-26 == 0 AND p-25 == 3 AND p-24 == 2 AND p-23 == 2 AND p-22 == 1 AND p-21 == 1 AND p-20 == 3 AND p-19 == 1 AND p-18 == 3 AND p-17 == 0 AND p-16 == 0 AND p-15 == 0 AND p-14 == 1 AND p-13 == 2 AND p-12 == 2 AND p-11 == 2 AND p-10 == 3 AND p-9 == 1 AND p-8 == 3 AND p-7 == 3 AND p-6 == 2 AND p-5 == 0 AND p-4 == 2 AND p-3 == 2 AND p-2 == 2 AND p-1 == 2 AND p1 == 3 AND p2 == 3 AND p3 == 3 AND p4 == 3 AND p5 == 3 AND p6 == 3 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 38 THEN target == 1"
+  expl: "IF instance == 38 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 14 AND p-50 == 1 AND p-49 == 3 AND p-48 == 0 AND p-47 == 1 AND p-46 == 2 AND p-45 == 2 AND p-44 == 3 AND p-43 == 2 AND p-42 == 2 AND p-41 == 2 AND p-40 == 3 AND p-39 == 0 AND p-38 == 1 AND p-37 == 0 AND p-36 == 0 AND p-35 == 3 AND p-34 == 0 AND p-33 == 3 AND p-32 == 2 AND p-31 == 1 AND p-30 == 3 AND p-29 == 2 AND p-28 == 2 AND p-27 == 0 AND p-26 == 3 AND p-25 == 2 AND p-24 == 2 AND p-23 == 0 AND p-22 == 2 AND p-21 == 0 AND p-20 == 3 AND p-19 == 2 AND p-18 == 1 AND p-17 == 2 AND p-16 == 3 AND p-15 == 3 AND p-14 == 1 AND p-13 == 0 AND p-12 == 1 AND p-11 == 3 AND p-10 == 3 AND p-9 == 1 AND p-8 == 3 AND p-7 == 2 AND p-6 == 2 AND p-5 == 3 AND p-4 == 1 AND p-3 == 3 AND p-2 == 0 AND p-1 == 1 AND p1 == 3 AND p2 == 2 AND p3 == 0 AND p4 == 1 AND p5 == 3 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 14 THEN target == 1"
+  expl: "IF instance == 14 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 28 AND p-50 == 0 AND p-49 == 3 AND p-48 == 0 AND p-47 == 2 AND p-46 == 3 AND p-45 == 1 AND p-44 == 3 AND p-43 == 1 AND p-42 == 0 AND p-41 == 2 AND p-40 == 0 AND p-39 == 2 AND p-38 == 3 AND p-37 == 1 AND p-36 == 3 AND p-35 == 3 AND p-34 == 2 AND p-33 == 0 AND p-32 == 1 AND p-31 == 1 AND p-30 == 3 AND p-29 == 0 AND p-28 == 1 AND p-27 == 3 AND p-26 == 0 AND p-25 == 1 AND p-24 == 2 AND p-23 == 1 AND p-22 == 1 AND p-21 == 0 AND p-20 == 2 AND p-19 == 1 AND p-18 == 0 AND p-17 == 3 AND p-16 == 3 AND p-15 == 3 AND p-14 == 3 AND p-13 == 2 AND p-12 == 2 AND p-11 == 1 AND p-10 == 2 AND p-9 == 2 AND p-8 == 3 AND p-7 == 2 AND p-6 == 3 AND p-5 == 0 AND p-4 == 0 AND p-3 == 2 AND p-2 == 1 AND p-1 == 3 AND p1 == 0 AND p2 == 0 AND p3 == 1 AND p4 == 1 AND p5 == 0 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 28 THEN target == 1"
+  expl: "IF instance == 28 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 25 AND p-50 == 0 AND p-49 == 0 AND p-48 == 1 AND p-47 == 3 AND p-46 == 1 AND p-45 == 0 AND p-44 == 0 AND p-43 == 2 AND p-42 == 2 AND p-41 == 1 AND p-40 == 3 AND p-39 == 2 AND p-38 == 0 AND p-37 == 3 AND p-36 == 0 AND p-35 == 1 AND p-34 == 2 AND p-33 == 2 AND p-32 == 1 AND p-31 == 2 AND p-30 == 0 AND p-29 == 2 AND p-28 == 0 AND p-27 == 1 AND p-26 == 3 AND p-25 == 3 AND p-24 == 2 AND p-23 == 1 AND p-22 == 2 AND p-21 == 0 AND p-20 == 2 AND p-19 == 1 AND p-18 == 1 AND p-17 == 3 AND p-16 == 3 AND p-15 == 2 AND p-14 == 3 AND p-13 == 1 AND p-12 == 1 AND p-11 == 3 AND p-10 == 3 AND p-9 == 2 AND p-8 == 1 AND p-7 == 2 AND p-6 == 2 AND p-5 == 3 AND p-4 == 0 AND p-3 == 1 AND p-2 == 0 AND p-1 == 1 AND p1 == 0 AND p2 == 2 AND p3 == 1 AND p4 == 0 AND p5 == 2 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 25 THEN target == 1"
+  expl: "IF instance == 25 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 7 AND p-50 == 3 AND p-49 == 3 AND p-48 == 0 AND p-47 == 1 AND p-46 == 3 AND p-45 == 2 AND p-44 == 3 AND p-43 == 2 AND p-42 == 0 AND p-41 == 0 AND p-40 == 1 AND p-39 == 0 AND p-38 == 3 AND p-37 == 3 AND p-36 == 0 AND p-35 == 3 AND p-34 == 3 AND p-33 == 1 AND p-32 == 2 AND p-31 == 3 AND p-30 == 1 AND p-29 == 3 AND p-28 == 1 AND p-27 == 1 AND p-26 == 2 AND p-25 == 1 AND p-24 == 2 AND p-23 == 0 AND p-22 == 1 AND p-21 == 3 AND p-20 == 0 AND p-19 == 1 AND p-18 == 2 AND p-17 == 0 AND p-16 == 3 AND p-15 == 2 AND p-14 == 0 AND p-13 == 2 AND p-12 == 0 AND p-11 == 3 AND p-10 == 2 AND p-9 == 1 AND p-8 == 1 AND p-7 == 3 AND p-6 == 2 AND p-5 == 0 AND p-4 == 2 AND p-3 == 3 AND p-2 == 2 AND p-1 == 1 AND p1 == 3 AND p2 == 3 AND p3 == 1 AND p4 == 1 AND p5 == 2 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 7 THEN target == 1"
+  expl: "IF instance == 7 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 51 AND p-50 == 3 AND p-49 == 0 AND p-48 == 3 AND p-47 == 3 AND p-46 == 1 AND p-45 == 3 AND p-44 == 1 AND p-43 == 0 AND p-42 == 0 AND p-41 == 1 AND p-40 == 0 AND p-39 == 0 AND p-38 == 2 AND p-37 == 0 AND p-36 == 3 AND p-35 == 3 AND p-34 == 0 AND p-33 == 0 AND p-32 == 1 AND p-31 == 1 AND p-30 == 2 AND p-29 == 0 AND p-28 == 1 AND p-27 == 0 AND p-26 == 2 AND p-25 == 0 AND p-24 == 3 AND p-23 == 3 AND p-22 == 1 AND p-21 == 0 AND p-20 == 0 AND p-19 == 3 AND p-18 == 1 AND p-17 == 3 AND p-16 == 1 AND p-15 == 2 AND p-14 == 3 AND p-13 == 2 AND p-12 == 2 AND p-11 == 0 AND p-10 == 3 AND p-9 == 2 AND p-8 == 2 AND p-7 == 0 AND p-6 == 1 AND p-5 == 2 AND p-4 == 3 AND p-3 == 3 AND p-2 == 1 AND p-1 == 0 AND p1 == 0 AND p2 == 1 AND p3 == 0 AND p4 == 3 AND p5 == 3 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 51 THEN target == 1"
+  expl: "IF instance == 51 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 6 AND p-50 == 0 AND p-49 == 0 AND p-48 == 1 AND p-47 == 2 AND p-46 == 0 AND p-45 == 2 AND p-44 == 3 AND p-43 == 1 AND p-42 == 0 AND p-41 == 0 AND p-40 == 3 AND p-39 == 1 AND p-38 == 0 AND p-37 == 2 AND p-36 == 0 AND p-35 == 1 AND p-34 == 1 AND p-33 == 2 AND p-32 == 1 AND p-31 == 3 AND p-30 == 3 AND p-29 == 3 AND p-28 == 2 AND p-27 == 0 AND p-26 == 1 AND p-25 == 3 AND p-24 == 1 AND p-23 == 3 AND p-22 == 2 AND p-21 == 2 AND p-20 == 3 AND p-19 == 0 AND p-18 == 3 AND p-17 == 3 AND p-16 == 0 AND p-15 == 1 AND p-14 == 3 AND p-13 == 2 AND p-12 == 3 AND p-11 == 2 AND p-10 == 0 AND p-9 == 0 AND p-8 == 1 AND p-7 == 0 AND p-6 == 3 AND p-5 == 3 AND p-4 == 0 AND p-3 == 3 AND p-2 == 3 AND p-1 == 1 AND p1 == 2 AND p2 == 3 AND p3 == 1 AND p4 == 3 AND p5 == 1 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 6 THEN target == 1"
+  expl: "IF instance == 6 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 37 AND p-50 == 0 AND p-49 == 0 AND p-48 == 2 AND p-47 == 3 AND p-46 == 2 AND p-45 == 1 AND p-44 == 3 AND p-43 == 3 AND p-42 == 0 AND p-41 == 2 AND p-40 == 1 AND p-39 == 3 AND p-38 == 3 AND p-37 == 1 AND p-36 == 0 AND p-35 == 0 AND p-34 == 2 AND p-33 == 2 AND p-32 == 3 AND p-31 == 1 AND p-30 == 0 AND p-29 == 1 AND p-28 == 2 AND p-27 == 2 AND p-26 == 0 AND p-25 == 3 AND p-24 == 0 AND p-23 == 1 AND p-22 == 2 AND p-21 == 0 AND p-20 == 1 AND p-19 == 1 AND p-18 == 2 AND p-17 == 0 AND p-16 == 0 AND p-15 == 2 AND p-14 == 1 AND p-13 == 2 AND p-12 == 0 AND p-11 == 2 AND p-10 == 1 AND p-9 == 1 AND p-8 == 3 AND p-7 == 1 AND p-6 == 2 AND p-5 == 3 AND p-4 == 1 AND p-3 == 1 AND p-2 == 3 AND p-1 == 1 AND p1 == 0 AND p2 == 0 AND p3 == 3 AND p4 == 2 AND p5 == 2 AND p6 == 1 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 37 THEN target == 1"
+  expl: "IF instance == 37 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 31 AND p-50 == 2 AND p-49 == 0 AND p-48 == 0 AND p-47 == 2 AND p-46 == 0 AND p-45 == 1 AND p-44 == 1 AND p-43 == 0 AND p-42 == 1 AND p-41 == 2 AND p-40 == 1 AND p-39 == 1 AND p-38 == 3 AND p-37 == 1 AND p-36 == 2 AND p-35 == 1 AND p-34 == 1 AND p-33 == 0 AND p-32 == 1 AND p-31 == 1 AND p-30 == 2 AND p-29 == 0 AND p-28 == 2 AND p-27 == 3 AND p-26 == 0 AND p-25 == 2 AND p-24 == 0 AND p-23 == 1 AND p-22 == 1 AND p-21 == 1 AND p-20 == 3 AND p-19 == 3 AND p-18 == 0 AND p-17 == 2 AND p-16 == 0 AND p-15 == 2 AND p-14 == 0 AND p-13 == 2 AND p-12 == 1 AND p-11 == 0 AND p-10 == 3 AND p-9 == 2 AND p-8 == 3 AND p-7 == 1 AND p-6 == 0 AND p-5 == 2 AND p-4 == 1 AND p-3 == 1 AND p-2 == 3 AND p-1 == 1 AND p1 == 2 AND p2 == 0 AND p3 == 1 AND p4 == 0 AND p5 == 0 AND p6 == 1 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 31 THEN target == 1"
+  expl: "IF instance == 31 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 33 AND p-50 == 3 AND p-49 == 3 AND p-48 == 0 AND p-47 == 2 AND p-46 == 0 AND p-45 == 2 AND p-44 == 0 AND p-43 == 2 AND p-42 == 1 AND p-41 == 0 AND p-40 == 3 AND p-39 == 2 AND p-38 == 3 AND p-37 == 1 AND p-36 == 0 AND p-35 == 2 AND p-34 == 1 AND p-33 == 1 AND p-32 == 3 AND p-31 == 1 AND p-30 == 2 AND p-29 == 0 AND p-28 == 1 AND p-27 == 0 AND p-26 == 0 AND p-25 == 1 AND p-24 == 3 AND p-23 == 3 AND p-22 == 2 AND p-21 == 1 AND p-20 == 0 AND p-19 == 3 AND p-18 == 0 AND p-17 == 0 AND p-16 == 0 AND p-15 == 3 AND p-14 == 2 AND p-13 == 1 AND p-12 == 3 AND p-11 == 3 AND p-10 == 3 AND p-9 == 1 AND p-8 == 3 AND p-7 == 3 AND p-6 == 2 AND p-5 == 3 AND p-4 == 0 AND p-3 == 2 AND p-2 == 0 AND p-1 == 1 AND p1 == 2 AND p2 == 3 AND p3 == 2 AND p4 == 1 AND p5 == 1 AND p6 == 1 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 33 THEN target == 1"
+  expl: "IF instance == 33 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 8 AND p-50 == 3 AND p-49 == 0 AND p-48 == 3 AND p-47 == 3 AND p-46 == 1 AND p-45 == 2 AND p-44 == 3 AND p-43 == 1 AND p-42 == 3 AND p-41 == 1 AND p-40 == 1 AND p-39 == 2 AND p-38 == 1 AND p-37 == 2 AND p-36 == 0 AND p-35 == 1 AND p-34 == 3 AND p-33 == 0 AND p-32 == 1 AND p-31 == 2 AND p-30 == 0 AND p-29 == 3 AND p-28 == 2 AND p-27 == 0 AND p-26 == 2 AND p-25 == 0 AND p-24 == 3 AND p-23 == 2 AND p-22 == 1 AND p-21 == 1 AND p-20 == 3 AND p-19 == 2 AND p-18 == 0 AND p-17 == 2 AND p-16 == 3 AND p-15 == 2 AND p-14 == 1 AND p-13 == 3 AND p-12 == 3 AND p-11 == 1 AND p-10 == 1 AND p-9 == 2 AND p-8 == 3 AND p-7 == 3 AND p-6 == 0 AND p-5 == 1 AND p-4 == 3 AND p-3 == 2 AND p-2 == 2 AND p-1 == 0 AND p1 == 3 AND p2 == 3 AND p3 == 2 AND p4 == 3 AND p5 == 1 AND p6 == 0 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 8 THEN target == 1"
+  expl: "IF instance == 8 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 42 AND p-50 == 3 AND p-49 == 2 AND p-48 == 1 AND p-47 == 3 AND p-46 == 2 AND p-45 == 0 AND p-44 == 0 AND p-43 == 0 AND p-42 == 2 AND p-41 == 2 AND p-40 == 0 AND p-39 == 2 AND p-38 == 2 AND p-37 == 0 AND p-36 == 0 AND p-35 == 1 AND p-34 == 3 AND p-33 == 0 AND p-32 == 3 AND p-31 == 0 AND p-30 == 3 AND p-29 == 2 AND p-28 == 1 AND p-27 == 2 AND p-26 == 1 AND p-25 == 3 AND p-24 == 1 AND p-23 == 0 AND p-22 == 3 AND p-21 == 0 AND p-20 == 1 AND p-19 == 2 AND p-18 == 0 AND p-17 == 3 AND p-16 == 0 AND p-15 == 3 AND p-14 == 2 AND p-13 == 0 AND p-12 == 0 AND p-11 == 1 AND p-10 == 2 AND p-9 == 3 AND p-8 == 3 AND p-7 == 2 AND p-6 == 0 AND p-5 == 2 AND p-4 == 0 AND p-3 == 1 AND p-2 == 3 AND p-1 == 2 AND p1 == 1 AND p2 == 1 AND p3 == 2 AND p4 == 1 AND p5 == 3 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 42 THEN target == 1"
+  expl: "IF instance == 42 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 24 AND p-50 == 1 AND p-49 == 0 AND p-48 == 3 AND p-47 == 2 AND p-46 == 0 AND p-45 == 0 AND p-44 == 1 AND p-43 == 3 AND p-42 == 1 AND p-41 == 0 AND p-40 == 0 AND p-39 == 2 AND p-38 == 2 AND p-37 == 1 AND p-36 == 3 AND p-35 == 2 AND p-34 == 0 AND p-33 == 3 AND p-32 == 0 AND p-31 == 1 AND p-30 == 2 AND p-29 == 2 AND p-28 == 1 AND p-27 == 2 AND p-26 == 0 AND p-25 == 2 AND p-24 == 0 AND p-23 == 1 AND p-22 == 3 AND p-21 == 3 AND p-20 == 2 AND p-19 == 1 AND p-18 == 2 AND p-17 == 0 AND p-16 == 2 AND p-15 == 1 AND p-14 == 1 AND p-13 == 3 AND p-12 == 3 AND p-11 == 2 AND p-10 == 3 AND p-9 == 1 AND p-8 == 1 AND p-7 == 3 AND p-6 == 3 AND p-5 == 2 AND p-4 == 1 AND p-3 == 2 AND p-2 == 2 AND p-1 == 3 AND p1 == 0 AND p2 == 1 AND p3 == 0 AND p4 == 1 AND p5 == 0 AND p6 == 2 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 24 THEN target == 1"
+  expl: "IF instance == 24 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 9 AND p-50 == 3 AND p-49 == 3 AND p-48 == 1 AND p-47 == 2 AND p-46 == 3 AND p-45 == 1 AND p-44 == 3 AND p-43 == 1 AND p-42 == 1 AND p-41 == 2 AND p-40 == 1 AND p-39 == 2 AND p-38 == 0 AND p-37 == 1 AND p-36 == 3 AND p-35 == 0 AND p-34 == 1 AND p-33 == 2 AND p-32 == 0 AND p-31 == 3 AND p-30 == 2 AND p-29 == 0 AND p-28 == 2 AND p-27 == 0 AND p-26 == 3 AND p-25 == 2 AND p-24 == 1 AND p-23 == 1 AND p-22 == 3 AND p-21 == 2 AND p-20 == 0 AND p-19 == 2 AND p-18 == 3 AND p-17 == 2 AND p-16 == 1 AND p-15 == 3 AND p-14 == 3 AND p-13 == 1 AND p-12 == 1 AND p-11 == 2 AND p-10 == 3 AND p-9 == 3 AND p-8 == 0 AND p-7 == 1 AND p-6 == 3 AND p-5 == 2 AND p-4 == 2 AND p-3 == 0 AND p-2 == 3 AND p-1 == 3 AND p1 == 2 AND p2 == 3 AND p3 == 1 AND p4 == 0 AND p5 == 1 AND p6 == 1 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 9 THEN target == 1"
+  expl: "IF instance == 9 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 35 AND p-50 == 1 AND p-49 == 0 AND p-48 == 3 AND p-47 == 2 AND p-46 == 3 AND p-45 == 1 AND p-44 == 0 AND p-43 == 2 AND p-42 == 1 AND p-41 == 1 AND p-40 == 3 AND p-39 == 1 AND p-38 == 2 AND p-37 == 0 AND p-36 == 1 AND p-35 == 0 AND p-34 == 0 AND p-33 == 1 AND p-32 == 3 AND p-31 == 3 AND p-30 == 2 AND p-29 == 1 AND p-28 == 0 AND p-27 == 3 AND p-26 == 0 AND p-25 == 0 AND p-24 == 0 AND p-23 == 3 AND p-22 == 2 AND p-21 == 1 AND p-20 == 3 AND p-19 == 3 AND p-18 == 3 AND p-17 == 1 AND p-16 == 3 AND p-15 == 3 AND p-14 == 2 AND p-13 == 3 AND p-12 == 0 AND p-11 == 2 AND p-10 == 0 AND p-9 == 1 AND p-8 == 2 AND p-7 == 3 AND p-6 == 2 AND p-5 == 1 AND p-4 == 1 AND p-3 == 1 AND p-2 == 3 AND p-1 == 0 AND p1 == 1 AND p2 == 2 AND p3 == 1 AND p4 == 2 AND p5 == 1 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 35 THEN target == 1"
+  expl: "IF instance == 35 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 26 AND p-50 == 0 AND p-49 == 2 AND p-48 == 2 AND p-47 == 0 AND p-46 == 2 AND p-45 == 2 AND p-44 == 0 AND p-43 == 0 AND p-42 == 1 AND p-41 == 3 AND p-40 == 0 AND p-39 == 1 AND p-38 == 2 AND p-37 == 1 AND p-36 == 0 AND p-35 == 0 AND p-34 == 2 AND p-33 == 2 AND p-32 == 3 AND p-31 == 3 AND p-30 == 2 AND p-29 == 2 AND p-28 == 0 AND p-27 == 0 AND p-26 == 1 AND p-25 == 0 AND p-24 == 3 AND p-23 == 1 AND p-22 == 2 AND p-21 == 2 AND p-20 == 0 AND p-19 == 2 AND p-18 == 0 AND p-17 == 2 AND p-16 == 0 AND p-15 == 3 AND p-14 == 2 AND p-13 == 1 AND p-12 == 1 AND p-11 == 0 AND p-10 == 2 AND p-9 == 1 AND p-8 == 1 AND p-7 == 0 AND p-6 == 2 AND p-5 == 1 AND p-4 == 2 AND p-3 == 1 AND p-2 == 0 AND p-1 == 1 AND p1 == 1 AND p2 == 3 AND p3 == 2 AND p4 == 1 AND p5 == 0 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 26 THEN target == 1"
+  expl: "IF instance == 26 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 52 AND p-50 == 3 AND p-49 == 1 AND p-48 == 3 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 1 AND p-43 == 0 AND p-42 == 0 AND p-41 == 2 AND p-40 == 0 AND p-39 == 3 AND p-38 == 3 AND p-37 == 0 AND p-36 == 0 AND p-35 == 1 AND p-34 == 1 AND p-33 == 2 AND p-32 == 0 AND p-31 == 1 AND p-30 == 0 AND p-29 == 2 AND p-28 == 0 AND p-27 == 3 AND p-26 == 3 AND p-25 == 1 AND p-24 == 0 AND p-23 == 0 AND p-22 == 3 AND p-21 == 1 AND p-20 == 3 AND p-19 == 1 AND p-18 == 2 AND p-17 == 3 AND p-16 == 2 AND p-15 == 2 AND p-14 == 0 AND p-13 == 3 AND p-12 == 2 AND p-11 == 2 AND p-10 == 0 AND p-9 == 1 AND p-8 == 2 AND p-7 == 3 AND p-6 == 3 AND p-5 == 1 AND p-4 == 0 AND p-3 == 0 AND p-2 == 1 AND p-1 == 0 AND p1 == 3 AND p2 == 3 AND p3 == 2 AND p4 == 0 AND p5 == 2 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 52 THEN target == 1"
+  expl: "IF instance == 52 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 36 AND p-50 == 3 AND p-49 == 2 AND p-48 == 0 AND p-47 == 0 AND p-46 == 2 AND p-45 == 3 AND p-44 == 2 AND p-43 == 1 AND p-42 == 3 AND p-41 == 3 AND p-40 == 0 AND p-39 == 2 AND p-38 == 1 AND p-37 == 3 AND p-36 == 3 AND p-35 == 1 AND p-34 == 0 AND p-33 == 0 AND p-32 == 2 AND p-31 == 2 AND p-30 == 3 AND p-29 == 1 AND p-28 == 0 AND p-27 == 1 AND p-26 == 2 AND p-25 == 2 AND p-24 == 0 AND p-23 == 3 AND p-22 == 0 AND p-21 == 1 AND p-20 == 2 AND p-19 == 0 AND p-18 == 1 AND p-17 == 1 AND p-16 == 2 AND p-15 == 0 AND p-14 == 0 AND p-13 == 2 AND p-12 == 1 AND p-11 == 2 AND p-10 == 0 AND p-9 == 2 AND p-8 == 1 AND p-7 == 1 AND p-6 == 3 AND p-5 == 1 AND p-4 == 2 AND p-3 == 3 AND p-2 == 1 AND p-1 == 1 AND p1 == 3 AND p2 == 1 AND p3 == 0 AND p4 == 0 AND p5 == 3 AND p6 == 2 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 36 THEN target == 1"
+  expl: "IF instance == 36 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 43 AND p-50 == 1 AND p-49 == 3 AND p-48 == 0 AND p-47 == 3 AND p-46 == 0 AND p-45 == 3 AND p-44 == 2 AND p-43 == 1 AND p-42 == 2 AND p-41 == 1 AND p-40 == 3 AND p-39 == 1 AND p-38 == 0 AND p-37 == 3 AND p-36 == 0 AND p-35 == 1 AND p-34 == 2 AND p-33 == 0 AND p-32 == 3 AND p-31 == 0 AND p-30 == 3 AND p-29 == 2 AND p-28 == 0 AND p-27 == 0 AND p-26 == 1 AND p-25 == 2 AND p-24 == 3 AND p-23 == 3 AND p-22 == 2 AND p-21 == 0 AND p-20 == 2 AND p-19 == 0 AND p-18 == 1 AND p-17 == 3 AND p-16 == 2 AND p-15 == 1 AND p-14 == 1 AND p-13 == 2 AND p-12 == 1 AND p-11 == 3 AND p-10 == 2 AND p-9 == 0 AND p-8 == 2 AND p-7 == 3 AND p-6 == 3 AND p-5 == 0 AND p-4 == 3 AND p-3 == 1 AND p-2 == 0 AND p-1 == 2 AND p1 == 1 AND p2 == 3 AND p3 == 2 AND p4 == 3 AND p5 == 2 AND p6 == 0 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 43 THEN target == 1"
+  expl: "IF instance == 43 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 48 AND p-50 == 2 AND p-49 == 1 AND p-48 == 2 AND p-47 == 2 AND p-46 == 1 AND p-45 == 0 AND p-44 == 2 AND p-43 == 1 AND p-42 == 0 AND p-41 == 1 AND p-40 == 2 AND p-39 == 3 AND p-38 == 3 AND p-37 == 3 AND p-36 == 1 AND p-35 == 1 AND p-34 == 0 AND p-33 == 1 AND p-32 == 2 AND p-31 == 1 AND p-30 == 2 AND p-29 == 2 AND p-28 == 3 AND p-27 == 2 AND p-26 == 0 AND p-25 == 2 AND p-24 == 0 AND p-23 == 2 AND p-22 == 1 AND p-21 == 1 AND p-20 == 3 AND p-19 == 1 AND p-18 == 0 AND p-17 == 2 AND p-16 == 2 AND p-15 == 0 AND p-14 == 3 AND p-13 == 3 AND p-12 == 1 AND p-11 == 0 AND p-10 == 3 AND p-9 == 2 AND p-8 == 3 AND p-7 == 1 AND p-6 == 2 AND p-5 == 0 AND p-4 == 3 AND p-3 == 2 AND p-2 == 3 AND p-1 == 1 AND p1 == 3 AND p2 == 3 AND p3 == 1 AND p4 == 1 AND p5 == 2 AND p6 == 2 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 48 THEN target == 1"
+  expl: "IF instance == 48 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 2 AND p-50 == 0 AND p-49 == 3 AND p-48 == 1 AND p-47 == 1 AND p-46 == 1 AND p-45 == 3 AND p-44 == 0 AND p-43 == 0 AND p-42 == 3 AND p-41 == 2 AND p-40 == 3 AND p-39 == 1 AND p-38 == 3 AND p-37 == 0 AND p-36 == 1 AND p-35 == 3 AND p-34 == 3 AND p-33 == 1 AND p-32 == 1 AND p-31 == 2 AND p-30 == 2 AND p-29 == 3 AND p-28 == 1 AND p-27 == 0 AND p-26 == 0 AND p-25 == 3 AND p-24 == 1 AND p-23 == 1 AND p-22 == 0 AND p-21 == 3 AND p-20 == 1 AND p-19 == 3 AND p-18 == 0 AND p-17 == 1 AND p-16 == 2 AND p-15 == 3 AND p-14 == 3 AND p-13 == 0 AND p-12 == 0 AND p-11 == 1 AND p-10 == 1 AND p-9 == 2 AND p-8 == 0 AND p-7 == 2 AND p-6 == 2 AND p-5 == 3 AND p-4 == 2 AND p-3 == 2 AND p-2 == 1 AND p-1 == 3 AND p1 == 0 AND p2 == 3 AND p3 == 2 AND p4 == 3 AND p5 == 2 AND p6 == 3 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 2 THEN target == 1"
+  expl: "IF instance == 2 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 46 AND p-50 == 3 AND p-49 == 2 AND p-48 == 2 AND p-47 == 1 AND p-46 == 2 AND p-45 == 3 AND p-44 == 1 AND p-43 == 3 AND p-42 == 0 AND p-41 == 3 AND p-40 == 1 AND p-39 == 2 AND p-38 == 2 AND p-37 == 3 AND p-36 == 2 AND p-35 == 0 AND p-34 == 0 AND p-33 == 1 AND p-32 == 1 AND p-31 == 3 AND p-30 == 1 AND p-29 == 1 AND p-28 == 2 AND p-27 == 2 AND p-26 == 3 AND p-25 == 0 AND p-24 == 3 AND p-23 == 1 AND p-22 == 0 AND p-21 == 0 AND p-20 == 1 AND p-19 == 2 AND p-18 == 1 AND p-17 == 3 AND p-16 == 2 AND p-15 == 2 AND p-14 == 0 AND p-13 == 0 AND p-12 == 2 AND p-11 == 2 AND p-10 == 3 AND p-9 == 2 AND p-8 == 0 AND p-7 == 1 AND p-6 == 2 AND p-5 == 1 AND p-4 == 3 AND p-3 == 0 AND p-2 == 0 AND p-1 == 1 AND p1 == 2 AND p2 == 1 AND p3 == 0 AND p4 == 2 AND p5 == 0 AND p6 == 3 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 46 THEN target == 1"
+  expl: "IF instance == 46 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 0 AND p-50 == 3 AND p-49 == 1 AND p-48 == 3 AND p-47 == 1 AND p-46 == 2 AND p-45 == 3 AND p-44 == 2 AND p-43 == 2 AND p-42 == 0 AND p-41 == 3 AND p-40 == 2 AND p-39 == 2 AND p-38 == 0 AND p-37 == 1 AND p-36 == 2 AND p-35 == 3 AND p-34 == 3 AND p-33 == 1 AND p-32 == 0 AND p-31 == 0 AND p-30 == 1 AND p-29 == 0 AND p-28 == 3 AND p-27 == 3 AND p-26 == 2 AND p-25 == 0 AND p-24 == 2 AND p-23 == 2 AND p-22 == 0 AND p-21 == 0 AND p-20 == 2 AND p-19 == 2 AND p-18 == 1 AND p-17 == 0 AND p-16 == 3 AND p-15 == 0 AND p-14 == 0 AND p-13 == 1 AND p-12 == 2 AND p-11 == 1 AND p-10 == 3 AND p-9 == 0 AND p-8 == 1 AND p-7 == 3 AND p-6 == 0 AND p-5 == 1 AND p-4 == 1 AND p-3 == 3 AND p-2 == 2 AND p-1 == 0 AND p1 == 3 AND p2 == 2 AND p3 == 3 AND p4 == 3 AND p5 == 3 AND p6 == 0 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 0 THEN target == 1"
+  expl: "IF instance == 0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 17 AND p-50 == 3 AND p-49 == 0 AND p-48 == 3 AND p-47 == 3 AND p-46 == 2 AND p-45 == 2 AND p-44 == 1 AND p-43 == 3 AND p-42 == 3 AND p-41 == 2 AND p-40 == 1 AND p-39 == 3 AND p-38 == 1 AND p-37 == 0 AND p-36 == 0 AND p-35 == 2 AND p-34 == 1 AND p-33 == 0 AND p-32 == 3 AND p-31 == 2 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 3 AND p-26 == 1 AND p-25 == 0 AND p-24 == 0 AND p-23 == 2 AND p-22 == 2 AND p-21 == 1 AND p-20 == 3 AND p-19 == 2 AND p-18 == 0 AND p-17 == 3 AND p-16 == 0 AND p-15 == 1 AND p-14 == 2 AND p-13 == 2 AND p-12 == 1 AND p-11 == 2 AND p-10 == 0 AND p-9 == 2 AND p-8 == 0 AND p-7 == 1 AND p-6 == 3 AND p-5 == 3 AND p-4 == 2 AND p-3 == 1 AND p-2 == 2 AND p-1 == 0 AND p1 == 2 AND p2 == 1 AND p3 == 1 AND p4 == 3 AND p5 == 3 AND p6 == 2 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 17 THEN target == 1"
+  expl: "IF instance == 17 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 11 AND p-50 == 3 AND p-49 == 0 AND p-48 == 2 AND p-47 == 0 AND p-46 == 2 AND p-45 == 2 AND p-44 == 2 AND p-43 == 3 AND p-42 == 2 AND p-41 == 3 AND p-40 == 0 AND p-39 == 1 AND p-38 == 3 AND p-37 == 1 AND p-36 == 1 AND p-35 == 0 AND p-34 == 0 AND p-33 == 2 AND p-32 == 0 AND p-31 == 0 AND p-30 == 2 AND p-29 == 0 AND p-28 == 2 AND p-27 == 2 AND p-26 == 0 AND p-25 == 0 AND p-24 == 2 AND p-23 == 0 AND p-22 == 3 AND p-21 == 2 AND p-20 == 0 AND p-19 == 2 AND p-18 == 2 AND p-17 == 1 AND p-16 == 3 AND p-15 == 0 AND p-14 == 2 AND p-13 == 0 AND p-12 == 1 AND p-11 == 2 AND p-10 == 3 AND p-9 == 1 AND p-8 == 3 AND p-7 == 1 AND p-6 == 3 AND p-5 == 2 AND p-4 == 1 AND p-3 == 0 AND p-2 == 3 AND p-1 == 2 AND p1 == 2 AND p2 == 0 AND p3 == 2 AND p4 == 3 AND p5 == 0 AND p6 == 3 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 11 THEN target == 1"
+  expl: "IF instance == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 45 AND p-50 == 1 AND p-49 == 0 AND p-48 == 2 AND p-47 == 1 AND p-46 == 2 AND p-45 == 2 AND p-44 == 1 AND p-43 == 0 AND p-42 == 2 AND p-41 == 1 AND p-40 == 0 AND p-39 == 1 AND p-38 == 2 AND p-37 == 3 AND p-36 == 3 AND p-35 == 3 AND p-34 == 1 AND p-33 == 1 AND p-32 == 0 AND p-31 == 1 AND p-30 == 2 AND p-29 == 1 AND p-28 == 2 AND p-27 == 2 AND p-26 == 3 AND p-25 == 2 AND p-24 == 0 AND p-23 == 2 AND p-22 == 0 AND p-21 == 2 AND p-20 == 1 AND p-19 == 1 AND p-18 == 3 AND p-17 == 1 AND p-16 == 0 AND p-15 == 2 AND p-14 == 2 AND p-13 == 0 AND p-12 == 3 AND p-11 == 3 AND p-10 == 1 AND p-9 == 0 AND p-8 == 3 AND p-7 == 2 AND p-6 == 3 AND p-5 == 1 AND p-4 == 2 AND p-3 == 0 AND p-2 == 3 AND p-1 == 2 AND p1 == 3 AND p2 == 1 AND p3 == 3 AND p4 == 3 AND p5 == 1 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 45 THEN target == 1"
+  expl: "IF instance == 45 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 18 AND p-50 == 3 AND p-49 == 3 AND p-48 == 0 AND p-47 == 1 AND p-46 == 2 AND p-45 == 3 AND p-44 == 3 AND p-43 == 2 AND p-42 == 2 AND p-41 == 1 AND p-40 == 2 AND p-39 == 0 AND p-38 == 1 AND p-37 == 1 AND p-36 == 2 AND p-35 == 1 AND p-34 == 3 AND p-33 == 0 AND p-32 == 2 AND p-31 == 2 AND p-30 == 0 AND p-29 == 1 AND p-28 == 3 AND p-27 == 3 AND p-26 == 3 AND p-25 == 1 AND p-24 == 3 AND p-23 == 3 AND p-22 == 2 AND p-21 == 3 AND p-20 == 3 AND p-19 == 2 AND p-18 == 0 AND p-17 == 3 AND p-16 == 3 AND p-15 == 3 AND p-14 == 3 AND p-13 == 1 AND p-12 == 1 AND p-11 == 0 AND p-10 == 3 AND p-9 == 2 AND p-8 == 1 AND p-7 == 2 AND p-6 == 2 AND p-5 == 3 AND p-4 == 2 AND p-3 == 3 AND p-2 == 3 AND p-1 == 3 AND p1 == 3 AND p2 == 2 AND p3 == 1 AND p4 == 2 AND p5 == 1 AND p6 == 0 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 18 THEN target == 1"
+  expl: "IF instance == 18 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 49 AND p-50 == 0 AND p-49 == 1 AND p-48 == 2 AND p-47 == 1 AND p-46 == 3 AND p-45 == 0 AND p-44 == 0 AND p-43 == 1 AND p-42 == 2 AND p-41 == 1 AND p-40 == 0 AND p-39 == 2 AND p-38 == 0 AND p-37 == 3 AND p-36 == 2 AND p-35 == 1 AND p-34 == 0 AND p-33 == 2 AND p-32 == 1 AND p-31 == 2 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 2 AND p-26 == 1 AND p-25 == 3 AND p-24 == 1 AND p-23 == 2 AND p-22 == 2 AND p-21 == 1 AND p-20 == 2 AND p-19 == 3 AND p-18 == 0 AND p-17 == 3 AND p-16 == 3 AND p-15 == 1 AND p-14 == 3 AND p-13 == 1 AND p-12 == 0 AND p-11 == 0 AND p-10 == 1 AND p-9 == 0 AND p-8 == 0 AND p-7 == 2 AND p-6 == 0 AND p-5 == 3 AND p-4 == 3 AND p-3 == 0 AND p-2 == 0 AND p-1 == 1 AND p1 == 1 AND p2 == 2 AND p3 == 0 AND p4 == 1 AND p5 == 0 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 49 THEN target == 1"
+  expl: "IF instance == 49 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 21 AND p-50 == 2 AND p-49 == 2 AND p-48 == 3 AND p-47 == 2 AND p-46 == 3 AND p-45 == 3 AND p-44 == 3 AND p-43 == 3 AND p-42 == 2 AND p-41 == 1 AND p-40 == 2 AND p-39 == 1 AND p-38 == 0 AND p-37 == 0 AND p-36 == 3 AND p-35 == 2 AND p-34 == 3 AND p-33 == 3 AND p-32 == 0 AND p-31 == 0 AND p-30 == 3 AND p-29 == 1 AND p-28 == 2 AND p-27 == 1 AND p-26 == 3 AND p-25 == 3 AND p-24 == 3 AND p-23 == 2 AND p-22 == 3 AND p-21 == 0 AND p-20 == 1 AND p-19 == 0 AND p-18 == 1 AND p-17 == 1 AND p-16 == 3 AND p-15 == 1 AND p-14 == 0 AND p-13 == 2 AND p-12 == 2 AND p-11 == 1 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 3 AND p-6 == 0 AND p-5 == 0 AND p-4 == 0 AND p-3 == 1 AND p-2 == 2 AND p-1 == 3 AND p1 == 1 AND p2 == 3 AND p3 == 3 AND p4 == 1 AND p5 == 2 AND p6 == 3 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 21 THEN target == 1"
+  expl: "IF instance == 21 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 30 AND p-50 == 0 AND p-49 == 0 AND p-48 == 1 AND p-47 == 1 AND p-46 == 0 AND p-45 == 3 AND p-44 == 3 AND p-43 == 1 AND p-42 == 1 AND p-41 == 2 AND p-40 == 2 AND p-39 == 3 AND p-38 == 3 AND p-37 == 2 AND p-36 == 0 AND p-35 == 1 AND p-34 == 3 AND p-33 == 1 AND p-32 == 0 AND p-31 == 0 AND p-30 == 3 AND p-29 == 2 AND p-28 == 0 AND p-27 == 2 AND p-26 == 1 AND p-25 == 0 AND p-24 == 3 AND p-23 == 1 AND p-22 == 3 AND p-21 == 1 AND p-20 == 2 AND p-19 == 0 AND p-18 == 3 AND p-17 == 2 AND p-16 == 1 AND p-15 == 0 AND p-14 == 2 AND p-13 == 1 AND p-12 == 2 AND p-11 == 3 AND p-10 == 0 AND p-9 == 1 AND p-8 == 3 AND p-7 == 1 AND p-6 == 1 AND p-5 == 3 AND p-4 == 0 AND p-3 == 1 AND p-2 == 0 AND p-1 == 3 AND p1 == 2 AND p2 == 0 AND p3 == 0 AND p4 == 3 AND p5 == 0 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 30 THEN target == 1"
+  expl: "IF instance == 30 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 13 AND p-50 == 0 AND p-49 == 2 AND p-48 == 0 AND p-47 == 1 AND p-46 == 2 AND p-45 == 3 AND p-44 == 1 AND p-43 == 3 AND p-42 == 1 AND p-41 == 3 AND p-40 == 2 AND p-39 == 1 AND p-38 == 0 AND p-37 == 3 AND p-36 == 2 AND p-35 == 2 AND p-34 == 0 AND p-33 == 2 AND p-32 == 3 AND p-31 == 0 AND p-30 == 3 AND p-29 == 2 AND p-28 == 0 AND p-27 == 2 AND p-26 == 0 AND p-25 == 3 AND p-24 == 2 AND p-23 == 2 AND p-22 == 0 AND p-21 == 1 AND p-20 == 3 AND p-19 == 0 AND p-18 == 1 AND p-17 == 2 AND p-16 == 2 AND p-15 == 3 AND p-14 == 2 AND p-13 == 2 AND p-12 == 2 AND p-11 == 3 AND p-10 == 0 AND p-9 == 1 AND p-8 == 0 AND p-7 == 0 AND p-6 == 3 AND p-5 == 0 AND p-4 == 3 AND p-3 == 2 AND p-2 == 1 AND p-1 == 3 AND p1 == 2 AND p2 == 2 AND p3 == 0 AND p4 == 3 AND p5 == 2 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 13 THEN target == 1"
+  expl: "IF instance == 13 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 20 AND p-50 == 3 AND p-49 == 2 AND p-48 == 3 AND p-47 == 3 AND p-46 == 2 AND p-45 == 0 AND p-44 == 3 AND p-43 == 3 AND p-42 == 3 AND p-41 == 3 AND p-40 == 1 AND p-39 == 1 AND p-38 == 0 AND p-37 == 3 AND p-36 == 2 AND p-35 == 1 AND p-34 == 2 AND p-33 == 2 AND p-32 == 3 AND p-31 == 2 AND p-30 == 3 AND p-29 == 3 AND p-28 == 3 AND p-27 == 3 AND p-26 == 2 AND p-25 == 1 AND p-24 == 2 AND p-23 == 1 AND p-22 == 0 AND p-21 == 0 AND p-20 == 3 AND p-19 == 2 AND p-18 == 3 AND p-17 == 3 AND p-16 == 0 AND p-15 == 0 AND p-14 == 3 AND p-13 == 1 AND p-12 == 2 AND p-11 == 1 AND p-10 == 3 AND p-9 == 3 AND p-8 == 3 AND p-7 == 2 AND p-6 == 3 AND p-5 == 0 AND p-4 == 1 AND p-3 == 0 AND p-2 == 1 AND p-1 == 1 AND p1 == 3 AND p2 == 1 AND p3 == 0 AND p4 == 2 AND p5 == 2 AND p6 == 1 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 20 THEN target == 1"
+  expl: "IF instance == 20 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 27 AND p-50 == 3 AND p-49 == 2 AND p-48 == 1 AND p-47 == 0 AND p-46 == 1 AND p-45 == 2 AND p-44 == 2 AND p-43 == 2 AND p-42 == 3 AND p-41 == 3 AND p-40 == 2 AND p-39 == 1 AND p-38 == 2 AND p-37 == 0 AND p-36 == 3 AND p-35 == 0 AND p-34 == 2 AND p-33 == 1 AND p-32 == 1 AND p-31 == 3 AND p-30 == 1 AND p-29 == 0 AND p-28 == 2 AND p-27 == 1 AND p-26 == 2 AND p-25 == 3 AND p-24 == 0 AND p-23 == 3 AND p-22 == 3 AND p-21 == 1 AND p-20 == 0 AND p-19 == 2 AND p-18 == 2 AND p-17 == 3 AND p-16 == 2 AND p-15 == 1 AND p-14 == 2 AND p-13 == 0 AND p-12 == 2 AND p-11 == 3 AND p-10 == 3 AND p-9 == 1 AND p-8 == 2 AND p-7 == 0 AND p-6 == 3 AND p-5 == 0 AND p-4 == 2 AND p-3 == 3 AND p-2 == 1 AND p-1 == 3 AND p1 == 1 AND p2 == 0 AND p3 == 2 AND p4 == 0 AND p5 == 2 AND p6 == 3 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 27 THEN target == 1"
+  expl: "IF instance == 27 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 22 AND p-50 == 0 AND p-49 == 2 AND p-48 == 2 AND p-47 == 1 AND p-46 == 0 AND p-45 == 3 AND p-44 == 2 AND p-43 == 3 AND p-42 == 0 AND p-41 == 0 AND p-40 == 0 AND p-39 == 1 AND p-38 == 2 AND p-37 == 3 AND p-36 == 1 AND p-35 == 3 AND p-34 == 3 AND p-33 == 1 AND p-32 == 2 AND p-31 == 3 AND p-30 == 0 AND p-29 == 2 AND p-28 == 1 AND p-27 == 2 AND p-26 == 1 AND p-25 == 0 AND p-24 == 3 AND p-23 == 1 AND p-22 == 0 AND p-21 == 2 AND p-20 == 3 AND p-19 == 2 AND p-18 == 1 AND p-17 == 3 AND p-16 == 3 AND p-15 == 3 AND p-14 == 1 AND p-13 == 3 AND p-12 == 3 AND p-11 == 0 AND p-10 == 1 AND p-9 == 3 AND p-8 == 2 AND p-7 == 3 AND p-6 == 2 AND p-5 == 0 AND p-4 == 2 AND p-3 == 3 AND p-2 == 0 AND p-1 == 1 AND p1 == 2 AND p2 == 1 AND p3 == 0 AND p4 == 1 AND p5 == 1 AND p6 == 0 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 22 THEN target == 1"
+  expl: "IF instance == 22 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 32 AND p-50 == 1 AND p-49 == 1 AND p-48 == 2 AND p-47 == 0 AND p-46 == 2 AND p-45 == 3 AND p-44 == 0 AND p-43 == 2 AND p-42 == 0 AND p-41 == 1 AND p-40 == 1 AND p-39 == 1 AND p-38 == 3 AND p-37 == 3 AND p-36 == 0 AND p-35 == 2 AND p-34 == 0 AND p-33 == 2 AND p-32 == 0 AND p-31 == 2 AND p-30 == 1 AND p-29 == 0 AND p-28 == 3 AND p-27 == 2 AND p-26 == 3 AND p-25 == 1 AND p-24 == 0 AND p-23 == 2 AND p-22 == 1 AND p-21 == 1 AND p-20 == 3 AND p-19 == 1 AND p-18 == 2 AND p-17 == 0 AND p-16 == 1 AND p-15 == 0 AND p-14 == 0 AND p-13 == 1 AND p-12 == 3 AND p-11 == 3 AND p-10 == 2 AND p-9 == 1 AND p-8 == 0 AND p-7 == 3 AND p-6 == 0 AND p-5 == 0 AND p-4 == 0 AND p-3 == 3 AND p-2 == 2 AND p-1 == 1 AND p1 == 3 AND p2 == 3 AND p3 == 3 AND p4 == 1 AND p5 == 3 AND p6 == 3 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 32 THEN target == 1"
+  expl: "IF instance == 32 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 19 AND p-50 == 1 AND p-49 == 2 AND p-48 == 1 AND p-47 == 3 AND p-46 == 0 AND p-45 == 2 AND p-44 == 2 AND p-43 == 0 AND p-42 == 1 AND p-41 == 3 AND p-40 == 3 AND p-39 == 3 AND p-38 == 1 AND p-37 == 3 AND p-36 == 3 AND p-35 == 2 AND p-34 == 3 AND p-33 == 3 AND p-32 == 2 AND p-31 == 0 AND p-30 == 3 AND p-29 == 3 AND p-28 == 3 AND p-27 == 3 AND p-26 == 1 AND p-25 == 1 AND p-24 == 0 AND p-23 == 3 AND p-22 == 2 AND p-21 == 1 AND p-20 == 2 AND p-19 == 2 AND p-18 == 3 AND p-17 == 2 AND p-16 == 3 AND p-15 == 3 AND p-14 == 3 AND p-13 == 3 AND p-12 == 2 AND p-11 == 1 AND p-10 == 2 AND p-9 == 1 AND p-8 == 0 AND p-7 == 0 AND p-6 == 3 AND p-5 == 2 AND p-4 == 3 AND p-3 == 3 AND p-2 == 0 AND p-1 == 0 AND p1 == 3 AND p2 == 1 AND p3 == 2 AND p4 == 1 AND p5 == 3 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 19 THEN target == 1"
+  expl: "IF instance == 19 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 4 AND p-50 == 3 AND p-49 == 0 AND p-48 == 3 AND p-47 == 2 AND p-46 == 0 AND p-45 == 1 AND p-44 == 1 AND p-43 == 2 AND p-42 == 0 AND p-41 == 0 AND p-40 == 1 AND p-39 == 2 AND p-38 == 0 AND p-37 == 2 AND p-36 == 3 AND p-35 == 1 AND p-34 == 0 AND p-33 == 0 AND p-32 == 3 AND p-31 == 1 AND p-30 == 0 AND p-29 == 2 AND p-28 == 0 AND p-27 == 1 AND p-26 == 1 AND p-25 == 2 AND p-24 == 1 AND p-23 == 3 AND p-22 == 3 AND p-21 == 3 AND p-20 == 2 AND p-19 == 0 AND p-18 == 1 AND p-17 == 3 AND p-16 == 1 AND p-15 == 3 AND p-14 == 2 AND p-13 == 2 AND p-12 == 3 AND p-11 == 0 AND p-10 == 3 AND p-9 == 3 AND p-8 == 0 AND p-7 == 1 AND p-6 == 3 AND p-5 == 2 AND p-4 == 3 AND p-3 == 2 AND p-2 == 0 AND p-1 == 0 AND p1 == 1 AND p2 == 0 AND p3 == 3 AND p4 == 3 AND p5 == 0 AND p6 == 3 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 4 THEN target == 1"
+  expl: "IF instance == 4 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 12 AND p-50 == 0 AND p-49 == 2 AND p-48 == 0 AND p-47 == 2 AND p-46 == 2 AND p-45 == 2 AND p-44 == 3 AND p-43 == 2 AND p-42 == 3 AND p-41 == 0 AND p-40 == 1 AND p-39 == 3 AND p-38 == 1 AND p-37 == 1 AND p-36 == 0 AND p-35 == 0 AND p-34 == 2 AND p-33 == 0 AND p-32 == 0 AND p-31 == 2 AND p-30 == 0 AND p-29 == 2 AND p-28 == 2 AND p-27 == 0 AND p-26 == 0 AND p-25 == 2 AND p-24 == 0 AND p-23 == 3 AND p-22 == 2 AND p-21 == 0 AND p-20 == 2 AND p-19 == 2 AND p-18 == 1 AND p-17 == 3 AND p-16 == 0 AND p-15 == 2 AND p-14 == 0 AND p-13 == 1 AND p-12 == 2 AND p-11 == 3 AND p-10 == 1 AND p-9 == 3 AND p-8 == 1 AND p-7 == 3 AND p-6 == 2 AND p-5 == 1 AND p-4 == 0 AND p-3 == 3 AND p-2 == 2 AND p-1 == 2 AND p1 == 0 AND p2 == 2 AND p3 == 3 AND p4 == 0 AND p5 == 3 AND p6 == 2 AND p7 == 0 THEN target == 1"
+  dexp: "IF instance == 12 THEN target == 1"
+  expl: "IF instance == 12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 34 AND p-50 == 2 AND p-49 == 0 AND p-48 == 2 AND p-47 == 0 AND p-46 == 2 AND p-45 == 1 AND p-44 == 0 AND p-43 == 3 AND p-42 == 2 AND p-41 == 3 AND p-40 == 1 AND p-39 == 0 AND p-38 == 2 AND p-37 == 1 AND p-36 == 1 AND p-35 == 3 AND p-34 == 1 AND p-33 == 2 AND p-32 == 0 AND p-31 == 1 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 3 AND p-26 == 3 AND p-25 == 2 AND p-24 == 1 AND p-23 == 0 AND p-22 == 3 AND p-21 == 0 AND p-20 == 0 AND p-19 == 0 AND p-18 == 3 AND p-17 == 2 AND p-16 == 1 AND p-15 == 3 AND p-14 == 3 AND p-13 == 3 AND p-12 == 1 AND p-11 == 3 AND p-10 == 3 AND p-9 == 2 AND p-8 == 3 AND p-7 == 0 AND p-6 == 2 AND p-5 == 0 AND p-4 == 1 AND p-3 == 2 AND p-2 == 3 AND p-1 == 2 AND p1 == 1 AND p2 == 1 AND p3 == 1 AND p4 == 3 AND p5 == 0 AND p6 == 1 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 34 THEN target == 1"
+  expl: "IF instance == 34 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 40 AND p-50 == 1 AND p-49 == 1 AND p-48 == 3 AND p-47 == 1 AND p-46 == 0 AND p-45 == 0 AND p-44 == 3 AND p-43 == 2 AND p-42 == 2 AND p-41 == 1 AND p-40 == 1 AND p-39 == 3 AND p-38 == 1 AND p-37 == 3 AND p-36 == 0 AND p-35 == 0 AND p-34 == 0 AND p-33 == 1 AND p-32 == 2 AND p-31 == 2 AND p-30 == 2 AND p-29 == 3 AND p-28 == 1 AND p-27 == 3 AND p-26 == 3 AND p-25 == 2 AND p-24 == 0 AND p-23 == 2 AND p-22 == 2 AND p-21 == 2 AND p-20 == 2 AND p-19 == 3 AND p-18 == 3 AND p-17 == 3 AND p-16 == 3 AND p-15 == 3 AND p-14 == 3 AND p-13 == 2 AND p-12 == 1 AND p-11 == 3 AND p-10 == 2 AND p-9 == 0 AND p-8 == 0 AND p-7 == 0 AND p-6 == 2 AND p-5 == 2 AND p-4 == 0 AND p-3 == 2 AND p-2 == 2 AND p-1 == 0 AND p1 == 0 AND p2 == 1 AND p3 == 3 AND p4 == 0 AND p5 == 3 AND p6 == 0 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 40 THEN target == 1"
+  expl: "IF instance == 40 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 50 AND p-50 == 2 AND p-49 == 3 AND p-48 == 0 AND p-47 == 3 AND p-46 == 3 AND p-45 == 1 AND p-44 == 3 AND p-43 == 1 AND p-42 == 0 AND p-41 == 0 AND p-40 == 1 AND p-39 == 0 AND p-38 == 0 AND p-37 == 2 AND p-36 == 0 AND p-35 == 3 AND p-34 == 3 AND p-33 == 0 AND p-32 == 0 AND p-31 == 1 AND p-30 == 1 AND p-29 == 2 AND p-28 == 0 AND p-27 == 1 AND p-26 == 0 AND p-25 == 2 AND p-24 == 0 AND p-23 == 3 AND p-22 == 3 AND p-21 == 1 AND p-20 == 0 AND p-19 == 0 AND p-18 == 3 AND p-17 == 1 AND p-16 == 3 AND p-15 == 1 AND p-14 == 2 AND p-13 == 3 AND p-12 == 2 AND p-11 == 2 AND p-10 == 0 AND p-9 == 3 AND p-8 == 2 AND p-7 == 2 AND p-6 == 0 AND p-5 == 1 AND p-4 == 2 AND p-3 == 3 AND p-2 == 3 AND p-1 == 1 AND p1 == 0 AND p2 == 0 AND p3 == 1 AND p4 == 0 AND p5 == 3 AND p6 == 3 AND p7 == 2 THEN target == 1"
+  dexp: "IF instance == 50 THEN target == 1"
+  expl: "IF instance == 50 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 10 AND p-50 == 1 AND p-49 == 2 AND p-48 == 1 AND p-47 == 2 AND p-46 == 0 AND p-45 == 1 AND p-44 == 3 AND p-43 == 0 AND p-42 == 1 AND p-41 == 2 AND p-40 == 0 AND p-39 == 3 AND p-38 == 2 AND p-37 == 0 AND p-36 == 2 AND p-35 == 0 AND p-34 == 3 AND p-33 == 2 AND p-32 == 1 AND p-31 == 1 AND p-30 == 3 AND p-29 == 2 AND p-28 == 0 AND p-27 == 2 AND p-26 == 3 AND p-25 == 2 AND p-24 == 1 AND p-23 == 3 AND p-22 == 3 AND p-21 == 1 AND p-20 == 1 AND p-19 == 2 AND p-18 == 3 AND p-17 == 3 AND p-16 == 0 AND p-15 == 1 AND p-14 == 3 AND p-13 == 2 AND p-12 == 2 AND p-11 == 0 AND p-10 == 3 AND p-9 == 3 AND p-8 == 2 AND p-7 == 3 AND p-6 == 1 AND p-5 == 0 AND p-4 == 1 AND p-3 == 1 AND p-2 == 0 AND p-1 == 0 AND p1 == 2 AND p2 == 2 AND p3 == 1 AND p4 == 3 AND p5 == 3 AND p6 == 1 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 10 THEN target == 1"
+  expl: "IF instance == 10 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 39 AND p-50 == 1 AND p-49 == 3 AND p-48 == 1 AND p-47 == 2 AND p-46 == 3 AND p-45 == 1 AND p-44 == 1 AND p-43 == 3 AND p-42 == 1 AND p-41 == 0 AND p-40 == 0 AND p-39 == 3 AND p-38 == 2 AND p-37 == 2 AND p-36 == 1 AND p-35 == 1 AND p-34 == 3 AND p-33 == 1 AND p-32 == 3 AND p-31 == 0 AND p-30 == 0 AND p-29 == 0 AND p-28 == 1 AND p-27 == 2 AND p-26 == 2 AND p-25 == 2 AND p-24 == 3 AND p-23 == 1 AND p-22 == 3 AND p-21 == 3 AND p-20 == 2 AND p-19 == 0 AND p-18 == 2 AND p-17 == 2 AND p-16 == 2 AND p-15 == 2 AND p-14 == 3 AND p-13 == 3 AND p-12 == 3 AND p-11 == 3 AND p-10 == 3 AND p-9 == 3 AND p-8 == 2 AND p-7 == 1 AND p-6 == 3 AND p-5 == 2 AND p-4 == 0 AND p-3 == 0 AND p-2 == 0 AND p-1 == 2 AND p1 == 2 AND p2 == 0 AND p3 == 2 AND p4 == 2 AND p5 == 0 AND p6 == 0 AND p7 == 1 THEN target == 1"
+  dexp: "IF instance == 39 THEN target == 1"
+  expl: "IF instance == 39 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF instance == 15 AND p-50 == 3 AND p-49 == 0 AND p-48 == 0 AND p-47 == 1 AND p-46 == 0 AND p-45 == 3 AND p-44 == 3 AND p-43 == 0 AND p-42 == 0 AND p-41 == 3 AND p-40 == 0 AND p-39 == 0 AND p-38 == 0 AND p-37 == 3 AND p-36 == 0 AND p-35 == 0 AND p-34 == 2 AND p-33 == 2 AND p-32 == 0 AND p-31 == 2 AND p-30 == 2 AND p-29 == 1 AND p-28 == 3 AND p-27 == 1 AND p-26 == 3 AND p-25 == 0 AND p-24 == 0 AND p-23 == 3 AND p-22 == 2 AND p-21 == 2 AND p-20 == 1 AND p-19 == 0 AND p-18 == 1 AND p-17 == 3 AND p-16 == 1 AND p-15 == 0 AND p-14 == 3 AND p-13 == 3 AND p-12 == 0 AND p-11 == 2 AND p-10 == 1 AND p-9 == 1 AND p-8 == 0 AND p-7 == 0 AND p-6 == 3 AND p-5 == 1 AND p-4 == 0 AND p-3 == 0 AND p-2 == 3 AND p-1 == 1 AND p1 == 0 AND p2 == 0 AND p3 == 2 AND p4 == 0 AND p5 == 0 AND p6 == 1 AND p7 == 3 THEN target == 1"
+  dexp: "IF instance == 15 THEN target == 1"
+  expl: "IF instance == 15 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 106
+tot # of expls: 106
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.00
+avg expl sz: 1.00
+max expl sz: 1.00
+Max expl sz: 1
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

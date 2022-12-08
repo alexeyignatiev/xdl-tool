@@ -1,0 +1,603 @@
+MODEL:
+IF Age_lt_30 != 0, RoundShape != 0 THEN Malignant == 0
+IF Age_lt_30 != 0, OvalShape != 0 THEN Malignant == 0
+IF CircumscribedMargin != 0, Age_lt_30 != 0 THEN Malignant == 0
+IF Age_lt_30 != 0 THEN Malignant == 1
+IF OvalShape != 0, ObscuredMargin != 0 THEN Malignant == 0
+IF SpiculatedMargin != 0, RoundShape != 0 THEN Malignant == 1
+IF RoundShape != 0, MicrolobulatedMargin != 0 THEN Malignant == 1
+IF RoundShape != 0, ObscuredMargin != 0 THEN Malignant == 0
+IF OvalShape != 0, Density_geq_2 == 0 THEN Malignant == 0
+IF SpiculatedMargin != 0, Density_geq_2 == 0 THEN Malignant == 1
+IF CircumscribedMargin != 0, Age_geq_45 == 0, LobularShape != 0 THEN Malignant == 0
+IF RoundShape != 0, Age_geq_60 == 0, Age_geq_45 != 0, Density_geq_2 != 1 THEN Malignant == 0
+IF RoundShape != 0, Age_geq_60 == 0, Age_geq_45 != 0 THEN Malignant == 0
+IF CircumscribedMargin != 0, Age_geq_45 == 0, RoundShape != 1 THEN Malignant == 0
+IF CircumscribedMargin != 0, Age_geq_45 == 0, Density_geq_2 != 0 THEN Malignant == 0
+IF SpiculatedMargin != 0, Age_geq_60 != 0, OvalShape != 0 THEN Malignant == 1
+IF SpiculatedMargin != 0, OvalShape != 0 THEN Malignant == 0
+IF SpiculatedMargin != 0, Age_geq_60 != 0, LobularShape != 1 THEN Malignant == 1
+IF OvalShape != 0, IllDefinedMargin == 0, Age_geq_45 == 0 THEN Malignant == 0
+IF MicrolobulatedMargin != 0, LobularShape != 0 THEN Malignant == 1
+IF CircumscribedMargin != 0, OvalShape != 0, Age_geq_60 != 1 THEN Malignant == 0
+IF CircumscribedMargin != 0, Density_geq_2 == 0, RoundShape != 1 THEN Malignant == 0
+IF IrregularShape != 0, Age_geq_60 != 0, IllDefinedMargin != 0, Density_geq_2 != 1 THEN Malignant == 1
+IF IrregularShape != 0, Age_geq_60 != 0, MicrolobulatedMargin != 0, Density_geq_2 != 1 THEN Malignant == 1
+IF IrregularShape != 0, Age_geq_60 != 0, Density_geq_2 == 0 THEN Malignant == 0
+IF IrregularShape != 0, Age_geq_60 != 0, IllDefinedMargin != 0 THEN Malignant == 1
+IF IrregularShape != 0, Age_geq_60 != 0, ObscuredMargin != 0 THEN Malignant == 1
+IF CircumscribedMargin != 0, OvalShape != 0 THEN Malignant == 0
+IF SpiculatedMargin != 0, Age_geq_45 != 0, LobularShape != 1 THEN Malignant == 1
+IF ObscuredMargin != 0, Age_geq_45 == 0, Density_geq_2 != 1 THEN Malignant == 1
+IF CircumscribedMargin != 0, Age_geq_60 != 0, LobularShape != 0 THEN Malignant == 0
+IF CircumscribedMargin != 0, Density_geq_2 == 0, Age_geq_45 != 0 THEN Malignant == 0
+IF CircumscribedMargin != 0, RoundShape != 0 THEN Malignant == 0
+IF Age_geq_60 != 0, Density_geq_2 == 0 THEN Malignant == 1
+IF Age_geq_45 == 0, MicrolobulatedMargin != 0 THEN Malignant == 0
+IF Age_geq_60 != 0, MicrolobulatedMargin != 0 THEN Malignant == 1
+IF Age_geq_60 != 0, SpiculatedMargin != 0 THEN Malignant == 1
+IF Age_geq_60 != 0, LobularShape != 0, ObscuredMargin != 1 THEN Malignant == 1
+IF Age_geq_45 == 0, ObscuredMargin != 0 THEN Malignant == 1
+IF OvalShape != 0, Age_geq_60 == 0, Age_geq_45 != 0, MicrolobulatedMargin != 1 THEN Malignant == 0
+IF Age_geq_60 != 0, OvalShape != 0 THEN Malignant == 1
+IF SpiculatedMargin != 0, LobularShape != 0 THEN Malignant == 1
+IF Age_geq_45 == 0, Density_geq_2 == 0, LobularShape != 0 THEN Malignant == 0
+IF Age_geq_45 == 0, Density_geq_2 == 0 THEN Malignant == 1
+IF Age_geq_45 == 0, OvalShape != 0 THEN Malignant == 1
+IF OvalShape != 0 THEN Malignant == 0
+IF MicrolobulatedMargin != 0 THEN Malignant == 1
+IF Age_geq_45 == 0, LobularShape != 0 THEN Malignant == 1
+IF Age_geq_60 != 0, LobularShape != 0 THEN Malignant == 1
+IF LobularShape != 0, Density_geq_2 == 0 THEN Malignant == 0
+IF LobularShape != 0, IllDefinedMargin != 0 THEN Malignant == 0
+IF SpiculatedMargin != 0 THEN Malignant == 1
+IF Density_geq_2 == 0, ObscuredMargin != 1 THEN Malignant == 1
+IF ObscuredMargin == 0, LobularShape != 0 THEN Malignant == 1
+IF IrregularShape != 0, Age_geq_45 == 0 THEN Malignant == 1
+IF IllDefinedMargin != 0, RoundShape != 1 THEN Malignant == 1
+IF Age_geq_60 != 0, RoundShape != 0 THEN Malignant == 1
+IF IrregularShape != 0, CircumscribedMargin == 0, Density_geq_2 != 0 THEN Malignant == 1
+IF RoundShape == 0 THEN Malignant == 1
+IF RoundShape == 1 THEN Malignant == 0
+IF TRUE THEN Malignant == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 67
+avg # of vars: 67.00
+max # of vars: 67
+min # of clauses: 217
+avg # of clauses: 219.50
+max # of clauses: 222
+
+EXPLANATIONS:
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND Density_geq_2 == 1 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND SpiculatedMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF SpiculatedMargin == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 0 AND RoundShape == 1 AND CircumscribedMargin == 1 AND Density_geq_2 == 1 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 1 AND CircumscribedMargin == 1 AND Age_geq_45 == 0 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND Density_geq_2 == 1 AND LobularShape == 0 AND Age_geq_60 == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND SpiculatedMargin == 1 AND Age_geq_45 == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND LobularShape == 0 AND Density_geq_2 == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 1 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 1 AND Age_lt_30 == 1 THEN Malignant == 0"
+  expl: "IF Age_lt_30 == 1 AND RoundShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND RoundShape == 1 AND SpiculatedMargin == 1 THEN Malignant == 1"
+  expl: "IF SpiculatedMargin == 1 AND RoundShape == 1 AND OvalShape == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 1 AND RoundShape == 1 AND Age_geq_45 == 1 AND IrregularShape == 0 AND Density_geq_2 == 1 AND CircumscribedMargin == 1 THEN Malignant == 0"
+  expl: "IF CircumscribedMargin == 1 AND IrregularShape == 0 AND RoundShape == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Density_geq_2 == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 1 AND IllDefinedMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND Density_geq_2 == 1 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 0 AND RoundShape == 1 AND IrregularShape == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 1 AND Age_geq_60 == 0 AND IrregularShape == 0 AND RoundShape == 1 AND LobularShape == 0 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 AND OvalShape == 0 THEN Malignant == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND RoundShape == 1 AND SpiculatedMargin == 1 THEN Malignant == 1"
+  expl: "IF SpiculatedMargin == 1 AND RoundShape == 1 AND OvalShape == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 0 AND SpiculatedMargin == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 1 AND RoundShape == 1 AND IrregularShape == 0 AND Density_geq_2 == 1 AND Age_geq_45 == 1 THEN Malignant == 1"
+  expl: "IF IrregularShape == 0 AND Age_geq_60 == 1 AND ObscuredMargin == 0 AND MicrolobulatedMargin == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND CircumscribedMargin == 1 AND Density_geq_2 == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND CircumscribedMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND CircumscribedMargin == 1 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND ObscuredMargin == 0 AND OvalShape == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND OvalShape == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Density_geq_2 == 1 AND RoundShape == 1 AND Age_geq_45 == 1 AND Age_geq_60 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_60 == 0 AND Age_geq_45 == 1 AND RoundShape == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 1 AND IllDefinedMargin == 1 THEN Malignant == 0"
+  expl: "IF IllDefinedMargin == 1 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 THEN Malignant == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 1 AND OvalShape == 1 AND CircumscribedMargin == 1 AND Age_geq_60 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_60 == 0 AND CircumscribedMargin == 1 AND OvalShape == 1 AND LobularShape == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IrregularShape == 1 AND IllDefinedMargin == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND IllDefinedMargin == 1 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND Age_geq_45 == 1 AND ObscuredMargin == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND IrregularShape == 1 AND Age_geq_45 == 0 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 1 AND IrregularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND OvalShape == 1 AND Age_geq_45 == 1 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 1 AND OvalShape == 1 AND Age_geq_60 == 0 AND LobularShape == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND Density_geq_2 == 1 AND LobularShape == 0 AND SpiculatedMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND SpiculatedMargin == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 1 AND RoundShape == 1 AND Age_geq_45 == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF CircumscribedMargin == 1 AND IrregularShape == 0 AND RoundShape == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND IrregularShape == 0 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 1 AND IllDefinedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND RoundShape == 1 AND SpiculatedMargin == 1 THEN Malignant == 1"
+  expl: "IF SpiculatedMargin == 1 AND RoundShape == 1 AND OvalShape == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 0 AND RoundShape == 1 AND Density_geq_2 == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 THEN Malignant == 0"
+  expl: "IF CircumscribedMargin == 1 AND IrregularShape == 0 AND Age_geq_45 == 0 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND Age_geq_45 == 1 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND Density_geq_2 == 1 AND IrregularShape == 0 AND ObscuredMargin == 0 AND CircumscribedMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 0"
+  expl: "IF Age_geq_60 == 1 AND CircumscribedMargin == 1 AND IrregularShape == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 1 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND IrregularShape == 0 AND OvalShape == 1 AND CircumscribedMargin == 1 THEN Malignant == 0"
+  expl: "IF CircumscribedMargin == 1 AND OvalShape == 1 AND IrregularShape == 0 AND LobularShape == 0 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND IrregularShape == 0 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND Age_geq_60 == 0 AND ObscuredMargin == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 THEN Malignant == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 0 AND SpiculatedMargin == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 1 AND IrregularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND Age_geq_45 == 0 AND OvalShape == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_45 == 0 AND MicrolobulatedMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Density_geq_2 == 1 AND ObscuredMargin == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND CircumscribedMargin == 1 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND Age_geq_45 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND Age_geq_60 == 0 AND ObscuredMargin == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 THEN Malignant == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND ObscuredMargin == 0 AND OvalShape == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND OvalShape == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND Age_geq_45 == 1 AND ObscuredMargin == 1 AND IrregularShape == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND Density_geq_2 == 1 AND IrregularShape == 1 AND ObscuredMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 1 AND MicrolobulatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND LobularShape == 0 AND Age_geq_60 == 0 AND OvalShape == 1 AND SpiculatedMargin == 1 THEN Malignant == 0"
+  expl: "IF SpiculatedMargin == 1 AND OvalShape == 1 AND Age_geq_60 == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 1 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 1 AND Age_lt_30 == 1 THEN Malignant == 0"
+  expl: "IF Age_lt_30 == 1 AND OvalShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND IrregularShape == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND Age_geq_60 == 1 AND IrregularShape == 1 AND MicrolobulatedMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 THEN Malignant == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND OvalShape == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND OvalShape == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND Age_geq_45 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 1 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND ObscuredMargin == 0 AND CircumscribedMargin == 1 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 1 AND Age_geq_45 == 1 AND LobularShape == 0 AND Age_lt_30 == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 AND Age_geq_45 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_45 == 0 AND Density_geq_2 == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 1 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 1 AND Age_lt_30 == 1 THEN Malignant == 0"
+  expl: "IF Age_lt_30 == 1 AND OvalShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND OvalShape == 1 AND ObscuredMargin == 1 THEN Malignant == 0"
+  expl: "IF ObscuredMargin == 1 AND OvalShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND Density_geq_2 == 1 AND LobularShape == 0 AND Age_geq_60 == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND Age_geq_45 == 0 AND SpiculatedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 0 AND LobularShape == 0 AND Density_geq_2 == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND LobularShape == 0 AND RoundShape == 1 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_60 == 0 AND Age_geq_45 == 1 AND RoundShape == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND OvalShape == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND OvalShape == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 1 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 1 AND Age_lt_30 == 1 THEN Malignant == 0"
+  expl: "IF Age_lt_30 == 1 AND CircumscribedMargin == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND Density_geq_2 == 1 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND SpiculatedMargin == 1 THEN Malignant == 1"
+  expl: "IF SpiculatedMargin == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 1 AND ObscuredMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND IrregularShape == 0 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND Age_geq_45 == 1 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND CircumscribedMargin == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND OvalShape == 1 AND ObscuredMargin == 1 THEN Malignant == 0"
+  expl: "IF ObscuredMargin == 1 AND OvalShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 AND ObscuredMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND OvalShape == 1 AND ObscuredMargin == 1 THEN Malignant == 0"
+  expl: "IF ObscuredMargin == 1 AND OvalShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND Age_geq_60 == 0 AND ObscuredMargin == 0 AND Age_geq_45 == 1 AND MicrolobulatedMargin == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_45 == 1 AND Age_geq_60 == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND Density_geq_2 == 1 AND ObscuredMargin == 0 AND Age_geq_45 == 1 AND MicrolobulatedMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_45 == 1 AND Density_geq_2 == 1 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND Age_geq_60 == 0 AND ObscuredMargin == 0 AND MicrolobulatedMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND LobularShape == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 1 AND IrregularShape == 0 AND MicrolobulatedMargin == 0 AND Age_geq_60 == 1 AND OvalShape == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND MicrolobulatedMargin == 0 AND IllDefinedMargin == 1 AND Density_geq_2 == 1 AND ObscuredMargin == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND Age_geq_45 == 1 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND Density_geq_2 == 1 AND IrregularShape == 0 AND ObscuredMargin == 0 AND Age_geq_60 == 0 AND IllDefinedMargin == 0 THEN Malignant == 1"
+  expl: "IF IllDefinedMargin == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 AND Age_geq_45 == 1 AND Age_lt_30 == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 1 AND Density_geq_2 == 1 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND CircumscribedMargin == 1 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 1 AND Age_geq_45 == 1 AND LobularShape == 0 AND Age_lt_30 == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 0 AND SpiculatedMargin == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND ObscuredMargin == 0 AND OvalShape == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND OvalShape == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND SpiculatedMargin == 0 AND RoundShape == 1 AND MicrolobulatedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 1 AND RoundShape == 1 AND OvalShape == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND RoundShape == 1 AND ObscuredMargin == 1 THEN Malignant == 0"
+  expl: "IF ObscuredMargin == 1 AND RoundShape == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND SpiculatedMargin == 0 AND MicrolobulatedMargin == 0 AND RoundShape == 1 AND ObscuredMargin == 1 THEN Malignant == 0"
+  expl: "IF ObscuredMargin == 1 AND RoundShape == 1 AND MicrolobulatedMargin == 0 AND SpiculatedMargin == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND ObscuredMargin == 1 AND Density_geq_2 == 1 AND IllDefinedMargin == 0 THEN Malignant == 1"
+  expl: "IF IllDefinedMargin == 0 AND Density_geq_2 == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND Age_geq_45 == 1 AND IrregularShape == 0 AND Age_geq_60 == 0 AND MicrolobulatedMargin == 1 AND OvalShape == 1 THEN Malignant == 0"
+  expl: "IF OvalShape == 1 AND Age_geq_60 == 0 AND Age_geq_45 == 1 AND LobularShape == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND CircumscribedMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND CircumscribedMargin == 1 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND SpiculatedMargin == 0 AND LobularShape == 0 AND OvalShape == 1 AND IllDefinedMargin == 0 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND IllDefinedMargin == 0 AND OvalShape == 1 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 1 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 1 THEN Malignant == 1"
+  expl: "IF Age_lt_30 == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 1 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 1 AND Age_geq_45 == 0 THEN Malignant == 0"
+  expl: "IF Age_geq_45 == 0 AND CircumscribedMargin == 1 AND SpiculatedMargin == 0 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 1 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF Age_lt_30 == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND SpiculatedMargin == 0 AND RoundShape == 1 AND MicrolobulatedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 1 AND RoundShape == 1 AND OvalShape == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND OvalShape == 1 AND ObscuredMargin == 1 THEN Malignant == 0"
+  expl: "IF ObscuredMargin == 1 AND OvalShape == 1 THEN Malignant == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 1 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 0"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND OvalShape == 1 AND Density_geq_2 == 0 THEN Malignant == 0"
+  expl: "IF Density_geq_2 == 0 AND OvalShape == 1 AND RoundShape == 0 THEN Malignant == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND MicrolobulatedMargin == 0 AND Age_geq_60 == 0 AND ObscuredMargin == 1 AND Age_geq_45 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 0 AND MicrolobulatedMargin == 0 AND LobularShape == 0 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 1 AND LobularShape == 0 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 1 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND Age_lt_30 == 0 AND CircumscribedMargin == 0 AND ObscuredMargin == 0 AND Density_geq_2 == 1 AND LobularShape == 0 AND OvalShape == 1 AND SpiculatedMargin == 1 AND Age_geq_60 == 1 THEN Malignant == 1"
+  expl: "IF Age_geq_60 == 1 AND SpiculatedMargin == 1 AND Density_geq_2 == 1 AND ObscuredMargin == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 0 AND IrregularShape == 1 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 0 AND IllDefinedMargin == 0 AND IrregularShape == 1 AND MicrolobulatedMargin == 1 AND Age_geq_60 == 1 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Density_geq_2 == 0 AND Age_geq_60 == 1 AND MicrolobulatedMargin == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 1 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 0 AND ObscuredMargin == 1 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 0 AND IrregularShape == 0 AND ObscuredMargin == 1 AND Age_geq_45 == 0 AND Density_geq_2 == 0 THEN Malignant == 1"
+  expl: "IF Age_geq_45 == 0 AND ObscuredMargin == 1 AND IrregularShape == 0 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF RoundShape == 0 AND OvalShape == 0 AND LobularShape == 1 AND IrregularShape == 0 AND CircumscribedMargin == 0 AND MicrolobulatedMargin == 1 AND ObscuredMargin == 0 AND IllDefinedMargin == 0 AND SpiculatedMargin == 0 AND Age_lt_30 == 0 AND Age_geq_45 == 0 AND Age_geq_60 == 0 AND Density_geq_2 == 1 THEN Malignant == 1"
+  dexp: "IF RoundShape == 0 AND OvalShape == 0 AND CircumscribedMargin == 0 AND Age_lt_30 == 0 AND SpiculatedMargin == 0 AND LobularShape == 1 AND MicrolobulatedMargin == 1 THEN Malignant == 1"
+  expl: "IF MicrolobulatedMargin == 1 AND LobularShape == 1 AND CircumscribedMargin == 0 AND OvalShape == 0 AND RoundShape == 0 THEN Malignant == 1"
+  # hypos left: 5
+  time: 0.00
+
+# of insts: 85
+tot # of expls: 85
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 2
+min expl sz: 5.02
+avg expl sz: 5.02
+max expl sz: 5.02
+Max expl sz: 9
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  42.85%
+max dxrd:  61.54%

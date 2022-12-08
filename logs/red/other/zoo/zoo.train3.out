@@ -1,0 +1,400 @@
+MODEL:
+IF feathers != 0 THEN class_type == bird
+IF milk != 0 THEN class_type == mammal
+IF hair != 0 THEN class_type == bug
+IF airborne != 0 THEN class_type == bug
+IF fins != 0 THEN class_type == fish
+IF legs == 5 THEN class_type == invertebrate
+IF legs == 8 THEN class_type == invertebrate
+IF eggs == 0 THEN class_type == reptile
+IF breathes == 0 THEN class_type == invertebrate
+IF aquatic != 0 THEN class_type == amphibian
+IF predator != 0 THEN class_type == reptile
+IF legs == 0 THEN class_type == invertebrate
+IF hair == 0 THEN class_type == bug
+IF TRUE THEN class_type == mammal
+
+ENCODINDS:
+# of classes: 7
+min # of vars: 18
+avg # of vars: 18.00
+max # of vars: 18
+min # of clauses: 17
+avg # of clauses: 18.00
+max # of clauses: 20
+
+EXPLANATIONS:
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 0 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 0 AND venomous == 0 AND fins == 1 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == fish"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 1 THEN class_type == fish"
+  expl: "IF fins == 1 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == fish"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 1 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 0 AND venomous == 0 AND fins == 1 AND legs == 0 AND tail == 1 AND domestic == 1 AND catsize == 0 THEN class_type == fish"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 1 THEN class_type == fish"
+  expl: "IF fins == 1 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == fish"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 0 AND domestic == 1 AND catsize == 0 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 1 AND catsize == 0 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 0 AND venomous == 0 AND fins == 0 AND legs == 0 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 0 AND eggs == 1 AND breathes == 0 THEN class_type == invertebrate"
+  expl: "IF breathes == 0 AND eggs == 1 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 0 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 0 THEN class_type == invertebrate"
+  expl: "IF breathes == 0 AND eggs == 1 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 0 AND venomous == 0 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 6 AND eggs == 1 AND breathes == 0 THEN class_type == invertebrate"
+  expl: "IF breathes == 0 AND eggs == 1 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 0 AND venomous == 0 AND fins == 1 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == fish"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 1 THEN class_type == fish"
+  expl: "IF fins == 1 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == fish"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 1 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 1 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 6 AND eggs == 1 AND breathes == 1 AND aquatic == 0 AND predator == 0 THEN class_type == bug"
+  expl: "IF predator == 0 AND aquatic == 0 AND breathes == 1 AND eggs == 1 AND legs == 6 AND fins == 0 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == amphibian"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 1 AND aquatic == 1 THEN class_type == amphibian"
+  expl: "IF aquatic == 1 AND breathes == 1 AND eggs == 1 AND legs == 4 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == amphibian"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 1 AND fins == 0 AND legs == 4 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == amphibian"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 1 AND aquatic == 1 THEN class_type == amphibian"
+  expl: "IF aquatic == 1 AND breathes == 1 AND eggs == 1 AND legs == 4 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == amphibian"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 0 AND domestic == 1 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 1 THEN class_type == bug"
+  expl: "IF airborne == 1 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 0 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 0 AND venomous == 0 AND fins == 1 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == fish"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 1 THEN class_type == fish"
+  expl: "IF fins == 1 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == fish"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 1 AND catsize == 0 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 1 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 1 AND catsize == 0 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 1 THEN class_type == bug"
+  expl: "IF hair == 1 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 1 THEN class_type == bug"
+  expl: "IF hair == 1 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 1 THEN class_type == bug"
+  expl: "IF airborne == 1 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == amphibian"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 1 AND aquatic == 1 THEN class_type == amphibian"
+  expl: "IF aquatic == 1 AND breathes == 1 AND eggs == 1 AND legs == 4 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == amphibian"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 0 AND venomous == 0 AND fins == 0 AND legs == 8 AND tail == 0 AND domestic == 0 AND catsize == 1 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 8 THEN class_type == invertebrate"
+  expl: "IF legs == 8 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 1 AND fins == 0 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == reptile"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 0 AND eggs == 1 AND breathes == 1 AND aquatic == 0 AND predator == 1 THEN class_type == reptile"
+  expl: "IF predator == 1 AND aquatic == 0 AND breathes == 1 AND legs == 0 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == reptile"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 1 AND milk == 1 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 1 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 0 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 1 AND fins == 0 AND legs == 8 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 8 THEN class_type == invertebrate"
+  expl: "IF legs == 8 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 1 AND legs == 0 AND tail == 0 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 1 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 0 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 0 AND venomous == 1 AND fins == 0 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == reptile"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 0 AND eggs == 0 THEN class_type == reptile"
+  expl: "IF eggs == 0 AND legs == 0 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == reptile"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 0 AND venomous == 1 AND fins == 0 AND legs == 0 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 0 AND eggs == 1 AND breathes == 0 THEN class_type == invertebrate"
+  expl: "IF breathes == 0 AND eggs == 1 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == reptile"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 0 AND eggs == 1 AND breathes == 1 AND aquatic == 0 AND predator == 1 THEN class_type == reptile"
+  expl: "IF predator == 1 AND aquatic == 0 AND breathes == 1 AND legs == 0 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == reptile"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 0 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 0 AND eggs == 1 AND breathes == 1 AND aquatic == 0 AND predator == 0 THEN class_type == invertebrate"
+  expl: "IF predator == 0 AND aquatic == 0 AND eggs == 1 AND legs == 0 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 0 AND backbone == 0 AND breathes == 0 AND venomous == 0 AND fins == 0 AND legs == 5 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == invertebrate"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 5 THEN class_type == invertebrate"
+  expl: "IF legs == 5 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == invertebrate"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 0 AND venomous == 1 AND fins == 1 AND legs == 0 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == fish"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 1 THEN class_type == fish"
+  expl: "IF fins == 1 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == fish"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 1 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 1 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == amphibian"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 1 AND aquatic == 1 THEN class_type == amphibian"
+  expl: "IF aquatic == 1 AND breathes == 1 AND eggs == 1 AND legs == 4 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == amphibian"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 1 AND aquatic == 0 AND predator == 0 THEN class_type == bug"
+  expl: "IF predator == 0 AND aquatic == 0 AND breathes == 1 AND eggs == 1 AND legs == 4 AND fins == 0 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 0 AND aquatic == 0 AND predator == 1 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 4 AND tail == 1 AND domestic == 0 AND catsize == 0 THEN class_type == reptile"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 0 AND airborne == 0 AND fins == 0 AND legs == 4 AND eggs == 1 AND breathes == 1 AND aquatic == 0 AND predator == 1 THEN class_type == reptile"
+  expl: "IF predator == 1 AND aquatic == 0 AND breathes == 1 AND legs == 4 AND fins == 0 AND airborne == 0 AND hair == 0 AND milk == 0 AND feathers == 0 THEN class_type == reptile"
+  # hypos left: 9
+  time: 0.00
+
+  inst: "IF hair == 0 AND feathers == 1 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 1 AND toothed == 0 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == bird"
+  dexp: "IF feathers == 1 THEN class_type == bird"
+  expl: "IF feathers == 1 THEN class_type == bird"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 0 AND milk == 1 AND airborne == 0 AND aquatic == 0 AND predator == 0 AND toothed == 1 AND backbone == 1 AND breathes == 1 AND venomous == 0 AND fins == 0 AND legs == 2 AND tail == 1 AND domestic == 0 AND catsize == 1 THEN class_type == mammal"
+  dexp: "IF feathers == 0 AND milk == 1 THEN class_type == mammal"
+  expl: "IF milk == 1 AND feathers == 0 THEN class_type == mammal"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF hair == 1 AND feathers == 0 AND eggs == 1 AND milk == 0 AND airborne == 1 AND aquatic == 0 AND predator == 0 AND toothed == 0 AND backbone == 0 AND breathes == 1 AND venomous == 1 AND fins == 0 AND legs == 6 AND tail == 0 AND domestic == 0 AND catsize == 0 THEN class_type == bug"
+  dexp: "IF feathers == 0 AND milk == 0 AND hair == 1 THEN class_type == bug"
+  expl: "IF hair == 1 AND milk == 0 AND feathers == 0 THEN class_type == bug"
+  # hypos left: 3
+  time: 0.00
+
+# of insts: 59
+tot # of expls: 59
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 3.92
+avg expl sz: 3.92
+max expl sz: 3.92
+Max expl sz: 9
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   3.05%
+max dxrd:  25.00%

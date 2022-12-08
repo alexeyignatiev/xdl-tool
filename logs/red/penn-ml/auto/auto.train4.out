@@ -1,0 +1,1320 @@
+MODEL:
+IF normalized-losses == 0 THEN target == 1
+IF normalized-losses == 1 THEN target == 0
+IF normalized-losses == 2 THEN target == 1
+IF normalized-losses == 4 THEN target == 0
+IF normalized-losses == 5 THEN target == 1
+IF normalized-losses == 6 THEN target == 0
+IF normalized-losses == 8 THEN target == 1
+IF normalized-losses == 9 THEN target == 0
+IF normalized-losses == 11 THEN target == 1
+IF normalized-losses == 12 THEN target == 2
+IF normalized-losses == 14 THEN target == 1
+IF normalized-losses == 16 THEN target == 1
+IF normalized-losses == 17 THEN target == 2
+IF normalized-losses == 20 THEN target == 3
+IF normalized-losses == 21 THEN target == 1
+IF normalized-losses == 22 THEN target == 3
+IF normalized-losses == 23 THEN target == 3
+IF normalized-losses == 24 THEN target == 1
+IF normalized-losses == 25 THEN target == 1
+IF normalized-losses == 27 THEN target == 2
+IF normalized-losses == 29 THEN target == 3
+IF normalized-losses == 30 THEN target == 0
+IF normalized-losses == 31 THEN target == 2
+IF normalized-losses == 32 THEN target == 3
+IF normalized-losses == 33 THEN target == 3
+IF normalized-losses == 34 THEN target == 1
+IF normalized-losses == 35 THEN target == 3
+IF normalized-losses == 36 THEN target == -1
+IF normalized-losses == 37 THEN target == -1
+IF normalized-losses == 38 THEN target == 0
+IF normalized-losses == 40 THEN target == 0
+IF normalized-losses == 41 THEN target == 2
+IF normalized-losses == 42 THEN target == 0
+IF normalized-losses == 43 THEN target == 1
+IF normalized-losses == 44 THEN target == 0
+IF normalized-losses == 45 THEN target == -1
+IF normalized-losses == 46 THEN target == 0
+IF normalized-losses == 48 THEN target == 2
+IF normalized-losses == 49 THEN target == -1
+IF normalized-losses == 50 THEN target == 1
+IF make == 0 THEN target == 3
+IF make == 2 THEN target == 0
+IF make == 7 THEN target == 0
+IF make == 13 THEN target == 0
+IF make == 14 THEN target == 3
+IF make == 17 THEN target == 2
+IF normalized-losses == 3 THEN target == 1
+IF make == 8 THEN target == 0
+IF normalized-losses == 10 THEN target == 1
+IF make == 4 THEN target == -1
+IF normalized-losses == 7 THEN target == 0
+IF make == 5 THEN target == 2
+IF normalized-losses == 18 THEN target == -1
+IF body-style == 0 THEN target == 3
+IF drive-wheels == 0 THEN target == 0
+IF make == 1 THEN target == 2
+IF engine-location != 0 THEN target == 3
+IF make == 15 THEN target == 1
+IF wheel-base == 93.0 THEN target == 1
+IF normalized-losses == 26 THEN target == 2
+IF make == 11 THEN target == 3
+IF wheel-base == 94.3 THEN target == 0
+IF make == 6 THEN target == 2
+IF wheel-base == 94.5 THEN target == 1
+IF normalized-losses == 13 THEN target == 2
+IF normalized-losses == 15 THEN target == 0
+IF normalized-losses == 28 THEN target == 2
+IF make == 19 THEN target == -1
+IF make == 20 THEN target == 0
+IF body-style == 2 THEN target == 2
+IF make != 9 THEN target == 0
+IF wheel-base == 106.7 THEN target == 0
+IF normalized-losses == 47 THEN target == -1
+IF num-of-doors == 1 THEN target == 0
+IF normalized-losses == 51 THEN target == 1
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 5
+min # of vars: 977
+avg # of vars: 977.00
+max # of vars: 977
+min # of clauses: 44500
+avg # of clauses: 44507.20
+max # of clauses: 44515
+
+EXPLANATIONS:
+  inst: "IF normalized-losses == 26 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 64.4 AND height == 50.8 AND curb-weight == 2004.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 119 THEN target == 2"
+  dexp: "IF normalized-losses == 26 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 THEN target == 2"
+  expl: "IF wheel-base == 93.7 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 2 AND make == 11 AND normalized-losses == 26 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 3 AND make == 17 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.1 AND length == 186.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 2847.0 AND engine-type == 0 AND num-of-cylinders == 2 AND engine-size == 121.0 AND fuel-system == 5 AND bore == 25 AND stroke == 10 AND compression-ratio == 9.0 AND horsepower == 23 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 26.0 AND price == 70 THEN target == 2"
+  dexp: "IF normalized-losses == 3 AND make == 17 THEN target == 2"
+  expl: "IF make == 17 AND normalized-losses == 3 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 17 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 0 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 176.2 AND width == 65.6 AND height == 53.0 AND curb-weight == 2975.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 146.0 AND fuel-system == 5 AND bore == 30 AND stroke == 28 AND compression-ratio == 9.3 AND horsepower == 9 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 62 THEN target == 2"
+  dexp: "IF normalized-losses == 17 THEN target == 2"
+  expl: "IF normalized-losses == 17 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 19 AND make == 9 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 0 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 96.6 AND length == 180.3 AND width == 70.5 AND height == 50.8 AND curb-weight == 3685.0 AND engine-type == 5 AND num-of-cylinders == 0 AND engine-size == 234.0 AND fuel-system == 5 AND bore == 22 AND stroke == 12 AND compression-ratio == 8.3 AND horsepower == 21 AND peak-rpm == 7 AND city-mpg == 16.0 AND highway-mpg == 18.0 AND price == 92 THEN target == 3"
+  dexp: "IF normalized-losses == 19 AND make == 9 AND body-style == 0 THEN target == 3"
+  expl: "IF body-style == 0 AND make == 9 AND normalized-losses == 19 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 0 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 159.3 AND width == 64.2 AND height == 55.6 AND curb-weight == 2254.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.5 AND horsepower == 54 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 29.0 AND price == 15 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 20 AND body-style == 0 THEN target == 3"
+  expl: "IF body-style == 0 AND make == 20 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 15 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 1 AND wheel-base == 89.5 AND length == 168.9 AND width == 65.0 AND height == 51.6 AND curb-weight == 2756.0 AND engine-type == 4 AND num-of-cylinders == 3 AND engine-size == 194.0 AND fuel-system == 5 AND bore == 33 AND stroke == 8 AND compression-ratio == 9.5 AND horsepower == 31 AND peak-rpm == 20 AND city-mpg == 17.0 AND highway-mpg == 25.0 AND price == 89 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 15 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 1 THEN target == 3"
+  expl: "IF engine-location == 1 AND drive-wheels == 2 AND make == 15 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 2 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 170.2 AND width == 63.8 AND height == 53.5 AND curb-weight == 2024.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 136 THEN target == 1"
+  dexp: "IF normalized-losses == 2 THEN target == 1"
+  expl: "IF normalized-losses == 2 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 13 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.3 AND width == 63.8 AND height == 54.5 AND curb-weight == 1938.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 124 THEN target == 1"
+  dexp: "IF normalized-losses == 13 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 12 AND normalized-losses == 13 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 9 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 112.0 AND length == 199.2 AND width == 72.0 AND height == 55.4 AND curb-weight == 3715.0 AND engine-type == 5 AND num-of-cylinders == 0 AND engine-size == 304.0 AND fuel-system == 5 AND bore == 36 AND stroke == 22 AND compression-ratio == 8.0 AND horsepower == 29 AND peak-rpm == 5 AND city-mpg == 14.0 AND highway-mpg == 16.0 AND price == 99 THEN target == 1"
+  dexp: "IF normalized-losses == 51 AND make == 9 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 112.0 AND num-of-doors == 2 THEN target == 1"
+  expl: "IF num-of-doors == 2 AND wheel-base == 112.0 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 1 AND make == 9 AND normalized-losses == 51 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 11 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.0 AND length == 157.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 2145.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 6 AND bore == 7 AND stroke == 23 AND compression-ratio == 7.6 AND horsepower == 2 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 142 THEN target == 1"
+  dexp: "IF normalized-losses == 26 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.0 THEN target == 1"
+  expl: "IF wheel-base == 93.0 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 2 AND make == 11 AND normalized-losses == 26 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 3 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.1 AND length == 159.1 AND width == 64.2 AND height == 54.1 AND curb-weight == 1905.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 91.0 AND fuel-system == 1 AND bore == 7 AND stroke == 15 AND compression-ratio == 9.0 AND horsepower == 42 AND peak-rpm == 10 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 123 THEN target == 1"
+  dexp: "IF normalized-losses == 3 AND make == 8 THEN target == 1"
+  expl: "IF make == 8 AND normalized-losses == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 107.9 AND length == 186.7 AND width == 68.4 AND height == 56.7 AND curb-weight == 3197.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 152.0 AND fuel-system == 3 AND bore == 32 AND stroke == 29 AND compression-ratio == 21.0 AND horsepower == 57 AND peak-rpm == 0 AND city-mpg == 28.0 AND highway-mpg == 33.0 AND price == 28 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 39 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 157.1 AND width == 63.9 AND height == 58.3 AND curb-weight == 2024.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 0 AND bore == 3 AND stroke == 25 AND compression-ratio == 9.2 AND horsepower == 47 AND peak-rpm == 21 AND city-mpg == 30.0 AND highway-mpg == 34.0 AND price == 134 THEN target == 2"
+  dexp: "IF normalized-losses == 39 AND make == 5 THEN target == 2"
+  expl: "IF make == 5 AND normalized-losses == 39 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 15 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 AND length == 181.7 AND width == 66.5 AND height == 55.1 AND curb-weight == 3095.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 181.0 AND fuel-system == 5 AND bore == 21 AND stroke == 20 AND compression-ratio == 9.0 AND horsepower == 19 AND peak-rpm == 12 AND city-mpg == 17.0 AND highway-mpg == 22.0 AND price == 32 THEN target == 0"
+  dexp: "IF normalized-losses == 15 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 THEN target == 0"
+  expl: "IF wheel-base == 100.4 AND engine-location == 0 AND body-style == 3 AND make == 12 AND normalized-losses == 15 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 42 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 175.4 AND width == 62.5 AND height == 54.1 AND curb-weight == 2372.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 0 AND bore == 11 AND stroke == 31 AND compression-ratio == 9.0 AND horsepower == 52 AND peak-rpm == 19 AND city-mpg == 27.0 AND highway-mpg == 33.0 AND price == 2 THEN target == 0"
+  dexp: "IF normalized-losses == 42 THEN target == 0"
+  expl: "IF normalized-losses == 42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 52.8 AND curb-weight == 2140.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 28.0 AND highway-mpg == 34.0 AND price == 171 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 107.9 AND length == 186.7 AND width == 68.4 AND height == 56.7 AND curb-weight == 3075.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 5 AND bore == 22 AND stroke == 1 AND compression-ratio == 8.4 AND horsepower == 57 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 43 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 8 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.9 AND length == 175.0 AND width == 66.1 AND height == 54.4 AND curb-weight == 2700.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 134.0 AND fuel-system == 3 AND bore == 21 AND stroke == 32 AND compression-ratio == 22.0 AND horsepower == 45 AND peak-rpm == 1 AND city-mpg == 31.0 AND highway-mpg == 39.0 AND price == 67 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 8 THEN target == 0"
+  expl: "IF make == 8 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 37 AND make == 21 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.3 AND length == 188.8 AND width == 67.2 AND height == 57.5 AND curb-weight == 3157.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 130.0 AND fuel-system == 5 AND bore == 30 AND stroke == 15 AND compression-ratio == 7.5 AND horsepower == 25 AND peak-rpm == 11 AND city-mpg == 17.0 AND highway-mpg == 22.0 AND price == 72 THEN target == -1"
+  dexp: "IF normalized-losses == 37 THEN target == -1"
+  expl: "IF normalized-losses == 37 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 37 AND make == 14 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 103.3 AND length == 174.6 AND width == 64.6 AND height == 59.8 AND curb-weight == 2535.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 19 AND stroke == 26 AND compression-ratio == 8.5 AND horsepower == 53 AND peak-rpm == 10 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 166 THEN target == -1"
+  dexp: "IF normalized-losses == 37 THEN target == -1"
+  expl: "IF normalized-losses == 37 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 48 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2212.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 9.0 AND horsepower == 51 AND peak-rpm == 13 AND city-mpg == 27.0 AND highway-mpg == 34.0 AND price == 156 THEN target == 2"
+  dexp: "IF normalized-losses == 48 THEN target == 2"
+  expl: "IF normalized-losses == 48 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 27 AND make == 1 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 99.4 AND length == 176.6 AND width == 66.4 AND height == 54.3 AND curb-weight == 2824.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 136.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.0 AND horsepower == 8 AND peak-rpm == 16 AND city-mpg == 18.0 AND highway-mpg == 22.0 AND price == 61 THEN target == 2"
+  dexp: "IF normalized-losses == 27 THEN target == 2"
+  expl: "IF normalized-losses == 27 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 13 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2209.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 9.0 AND horsepower == 51 AND peak-rpm == 13 AND city-mpg == 27.0 AND highway-mpg == 34.0 AND price == 150 THEN target == 2"
+  dexp: "IF normalized-losses == 13 AND make == 20 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 THEN target == 2"
+  expl: "IF wheel-base == 97.3 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 20 AND normalized-losses == 13 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 29 AND make == 15 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 AND length == 168.9 AND width == 68.3 AND height == 50.2 AND curb-weight == 2778.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 151.0 AND fuel-system == 5 AND bore == 37 AND stroke == 13 AND compression-ratio == 9.5 AND horsepower == 17 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 27.0 AND price == 78 THEN target == 3"
+  dexp: "IF normalized-losses == 29 THEN target == 3"
+  expl: "IF normalized-losses == 29 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 15 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 1 AND wheel-base == 89.5 AND length == 168.9 AND width == 65.0 AND height == 51.6 AND curb-weight == 2756.0 AND engine-type == 4 AND num-of-cylinders == 3 AND engine-size == 194.0 AND fuel-system == 5 AND bore == 33 AND stroke == 8 AND compression-ratio == 9.5 AND horsepower == 31 AND peak-rpm == 20 AND city-mpg == 17.0 AND highway-mpg == 25.0 AND price == 90 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 15 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 1 THEN target == 3"
+  expl: "IF engine-location == 1 AND drive-wheels == 2 AND make == 15 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 33 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 102.9 AND length == 183.5 AND width == 67.7 AND height == 52.0 AND curb-weight == 3016.0 AND engine-type == 0 AND num-of-cylinders == 3 AND engine-size == 171.0 AND fuel-system == 5 AND bore == 15 AND stroke == 22 AND compression-ratio == 9.3 AND horsepower == 24 AND peak-rpm == 12 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 48 THEN target == 3"
+  dexp: "IF normalized-losses == 33 THEN target == 3"
+  expl: "IF normalized-losses == 33 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 6 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 155.9 AND width == 63.6 AND height == 52.0 AND curb-weight == 1874.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 7 AND stroke == 13 AND compression-ratio == 9.6 AND horsepower == 44 AND peak-rpm == 15 AND city-mpg == 38.0 AND highway-mpg == 43.0 AND price == 186 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 6 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 2"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 6 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 15 AND make == 12 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.3 AND width == 63.8 AND height == 54.5 AND curb-weight == 2017.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 103.0 AND fuel-system == 3 AND bore == 5 AND stroke == 27 AND compression-ratio == 21.9 AND horsepower == 36 AND peak-rpm == 8 AND city-mpg == 45.0 AND highway-mpg == 50.0 AND price == 130 THEN target == 1"
+  dexp: "IF normalized-losses == 15 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 12 AND normalized-losses == 15 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 21 AND make == 4 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.6 AND curb-weight == 1989.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 120 THEN target == 1"
+  dexp: "IF normalized-losses == 21 THEN target == 1"
+  expl: "IF normalized-losses == 21 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 1 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 105.8 AND length == 192.7 AND width == 71.4 AND height == 55.7 AND curb-weight == 2954.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 136.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.5 AND horsepower == 4 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 71 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 1 AND body-style == 4 AND drive-wheels == 1 THEN target == 2"
+  expl: "IF drive-wheels == 1 AND body-style == 4 AND make == 1 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 24 AND make == 14 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 167.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 1989.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 120 THEN target == 1"
+  dexp: "IF normalized-losses == 24 THEN target == 1"
+  expl: "IF normalized-losses == 24 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 52.8 AND curb-weight == 2109.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 30.0 AND highway-mpg == 37.0 AND price == 133 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 107.9 AND length == 186.7 AND width == 68.4 AND height == 56.7 AND curb-weight == 3075.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 5 AND bore == 22 AND stroke == 17 AND compression-ratio == 8.4 AND horsepower == 58 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 54 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 13 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 114.2 AND length == 198.9 AND width == 68.4 AND height == 58.7 AND curb-weight == 3485.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 152.0 AND fuel-system == 3 AND bore == 32 AND stroke == 29 AND compression-ratio == 21.0 AND horsepower == 57 AND peak-rpm == 0 AND city-mpg == 25.0 AND highway-mpg == 25.0 AND price == 59 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 107.9 AND length == 186.7 AND width == 68.4 AND height == 56.7 AND curb-weight == 3252.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 152.0 AND fuel-system == 3 AND bore == 32 AND stroke == 29 AND compression-ratio == 21.0 AND horsepower == 57 AND peak-rpm == 0 AND city-mpg == 28.0 AND highway-mpg == 33.0 AND price == 64 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 6 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 AND length == 184.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 3296.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 181.0 AND fuel-system == 5 AND bore == 21 AND stroke == 20 AND compression-ratio == 9.0 AND horsepower == 19 AND peak-rpm == 12 AND city-mpg == 17.0 AND highway-mpg == 22.0 AND price == 37 THEN target == 0"
+  dexp: "IF normalized-losses == 6 THEN target == 0"
+  expl: "IF normalized-losses == 6 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 AND length == 183.1 AND width == 66.9 AND height == 55.1 AND curb-weight == 2563.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 9.0 AND horsepower == 53 AND peak-rpm == 16 AND city-mpg == 25.0 AND highway-mpg == 31.0 AND price == 21 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 20 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 THEN target == 0"
+  expl: "IF wheel-base == 100.4 AND engine-location == 0 AND body-style == 4 AND make == 20 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 40 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 95.7 AND length == 169.7 AND width == 63.6 AND height == 59.1 AND curb-weight == 2290.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 8 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 40 AND peak-rpm == 8 AND city-mpg == 27.0 AND highway-mpg == 32.0 AND price == 148 THEN target == 0"
+  dexp: "IF normalized-losses == 40 THEN target == 0"
+  expl: "IF normalized-losses == 40 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 45 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.5 AND length == 187.8 AND width == 66.5 AND height == 54.1 AND curb-weight == 3131.0 AND engine-type == 0 AND num-of-cylinders == 3 AND engine-size == 171.0 AND fuel-system == 5 AND bore == 15 AND stroke == 22 AND compression-ratio == 9.2 AND horsepower == 22 AND peak-rpm == 12 AND city-mpg == 20.0 AND highway-mpg == 24.0 AND price == 45 THEN target == -1"
+  dexp: "IF normalized-losses == 45 THEN target == -1"
+  expl: "IF normalized-losses == 45 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.5 AND length == 187.8 AND width == 66.5 AND height == 54.1 AND curb-weight == 3151.0 AND engine-type == 0 AND num-of-cylinders == 3 AND engine-size == 161.0 AND fuel-system == 5 AND bore == 15 AND stroke == 22 AND compression-ratio == 9.2 AND horsepower == 22 AND peak-rpm == 12 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 46 THEN target == -1"
+  dexp: "IF normalized-losses == 51 AND make == 19 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.5 THEN target == -1"
+  expl: "IF wheel-base == 104.5 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 4 AND make == 19 AND normalized-losses == 51 THEN target == -1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 13 AND make == 20 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2261.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 3 AND bore == 6 AND stroke == 24 AND compression-ratio == 23.0 AND horsepower == 35 AND peak-rpm == 8 AND city-mpg == 37.0 AND highway-mpg == 46.0 AND price == 144 THEN target == 2"
+  dexp: "IF normalized-losses == 13 AND make == 20 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 THEN target == 2"
+  expl: "IF wheel-base == 97.3 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 20 AND normalized-losses == 13 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 17 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 176.2 AND width == 65.6 AND height == 52.0 AND curb-weight == 2679.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 146.0 AND fuel-system == 5 AND bore == 30 AND stroke == 28 AND compression-ratio == 9.3 AND horsepower == 9 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 10 THEN target == 2"
+  dexp: "IF normalized-losses == 17 THEN target == 2"
+  expl: "IF normalized-losses == 17 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 17 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 176.2 AND width == 65.6 AND height == 52.0 AND curb-weight == 2714.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 146.0 AND fuel-system == 5 AND bore == 30 AND stroke == 28 AND compression-ratio == 9.3 AND horsepower == 9 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 14 THEN target == 2"
+  dexp: "IF normalized-losses == 17 THEN target == 2"
+  expl: "IF normalized-losses == 17 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 15 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 0 AND drive-wheels == 2 AND engine-location == 1 AND wheel-base == 89.5 AND length == 168.9 AND width == 65.0 AND height == 51.6 AND curb-weight == 2800.0 AND engine-type == 4 AND num-of-cylinders == 3 AND engine-size == 194.0 AND fuel-system == 5 AND bore == 33 AND stroke == 8 AND compression-ratio == 9.5 AND horsepower == 31 AND peak-rpm == 20 AND city-mpg == 17.0 AND highway-mpg == 25.0 AND price == 96 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 15 AND body-style == 0 THEN target == 3"
+  expl: "IF body-style == 0 AND make == 15 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 95.3 AND length == 169.0 AND width == 65.7 AND height == 49.6 AND curb-weight == 2380.0 AND engine-type == 6 AND num-of-cylinders == 6 AND engine-size == 70.0 AND fuel-system == 2 AND bore == 38 AND stroke == 36 AND compression-ratio == 9.4 AND horsepower == 1 AND peak-rpm == 21 AND city-mpg == 17.0 AND highway-mpg == 23.0 AND price == 17 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 3 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.1 AND length == 159.1 AND width == 64.2 AND height == 54.1 AND curb-weight == 1890.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 91.0 AND fuel-system == 1 AND bore == 7 AND stroke == 15 AND compression-ratio == 9.0 AND horsepower == 42 AND peak-rpm == 10 AND city-mpg == 30.0 AND highway-mpg == 31.0 AND price == 102 THEN target == 1"
+  dexp: "IF normalized-losses == 3 AND make == 8 THEN target == 1"
+  expl: "IF make == 8 AND normalized-losses == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 0 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 AND length == 171.2 AND width == 65.5 AND height == 52.4 AND curb-weight == 2823.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 152.0 AND fuel-system == 5 AND bore == 1 AND stroke == 27 AND compression-ratio == 9.0 AND horsepower == 20 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 26.0 AND price == 50 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 0 THEN target == 3"
+  expl: "IF make == 0 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 37 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 158.7 AND width == 63.6 AND height == 54.5 AND curb-weight == 2015.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 8 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 40 AND peak-rpm == 8 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 115 THEN target == -1"
+  dexp: "IF normalized-losses == 37 THEN target == -1"
+  expl: "IF normalized-losses == 37 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 0 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 150.0 AND width == 64.0 AND height == 52.6 AND curb-weight == 1837.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 79.0 AND fuel-system == 0 AND bore == 2 AND stroke == 10 AND compression-ratio == 10.1 AND horsepower == 39 AND peak-rpm == 16 AND city-mpg == 38.0 AND highway-mpg == 42.0 AND price == 105 THEN target == 1"
+  dexp: "IF normalized-losses == 0 THEN target == 1"
+  expl: "IF normalized-losses == 0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 25 AND make == 1 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 105.8 AND length == 192.7 AND width == 71.4 AND height == 55.7 AND curb-weight == 2844.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 136.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.5 AND horsepower == 4 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 63 THEN target == 1"
+  dexp: "IF normalized-losses == 25 THEN target == 1"
+  expl: "IF normalized-losses == 25 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 15 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.3 AND width == 63.8 AND height == 54.5 AND curb-weight == 1918.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 118 THEN target == 1"
+  dexp: "IF normalized-losses == 15 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 12 AND normalized-losses == 15 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 44 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.0 AND length == 173.5 AND width == 65.4 AND height == 53.0 AND curb-weight == 2290.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.0 AND horsepower == 49 AND peak-rpm == 8 AND city-mpg == 28.0 AND highway-mpg == 32.0 AND price == 138 THEN target == 0"
+  dexp: "IF normalized-losses == 44 THEN target == 0"
+  expl: "IF normalized-losses == 44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 13 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 114.2 AND length == 198.9 AND width == 68.4 AND height == 58.7 AND curb-weight == 3430.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 152.0 AND fuel-system == 3 AND bore == 32 AND stroke == 29 AND compression-ratio == 21.0 AND horsepower == 57 AND peak-rpm == 0 AND city-mpg == 25.0 AND highway-mpg == 25.0 AND price == 35 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 42 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 175.4 AND width == 65.2 AND height == 54.1 AND curb-weight == 2465.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 5 AND bore == 11 AND stroke == 31 AND compression-ratio == 9.0 AND horsepower == 1 AND peak-rpm == 19 AND city-mpg == 24.0 AND highway-mpg == 28.0 AND price == 26 THEN target == 0"
+  dexp: "IF normalized-losses == 42 THEN target == 0"
+  expl: "IF normalized-losses == 42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 AND length == 180.2 AND width == 66.9 AND height == 55.1 AND curb-weight == 2661.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 136.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.5 AND horsepower == 4 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 29 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 20 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 THEN target == 0"
+  expl: "IF wheel-base == 100.4 AND engine-location == 0 AND body-style == 3 AND make == 20 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 9 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 98.8 AND length == 177.8 AND width == 66.5 AND height == 55.5 AND curb-weight == 2425.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 20 AND stroke == 23 AND compression-ratio == 8.6 AND horsepower == 50 AND peak-rpm == 8 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 11 THEN target == 0"
+  dexp: "IF normalized-losses == 9 THEN target == 0"
+  expl: "IF normalized-losses == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 53.0 AND curb-weight == 2081.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 30.0 AND highway-mpg == 37.0 AND price == 127 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 9 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 98.8 AND length == 177.8 AND width == 66.5 AND height == 55.5 AND curb-weight == 2410.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 20 AND stroke == 23 AND compression-ratio == 8.6 AND horsepower == 50 AND peak-rpm == 8 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 161 THEN target == 0"
+  dexp: "IF normalized-losses == 9 THEN target == 0"
+  expl: "IF normalized-losses == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 49 AND make == 21 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 109.1 AND length == 188.8 AND width == 68.9 AND height == 55.5 AND curb-weight == 2952.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 141.0 AND fuel-system == 5 AND bore == 35 AND stroke == 15 AND compression-ratio == 9.5 AND horsepower == 7 AND peak-rpm == 15 AND city-mpg == 23.0 AND highway-mpg == 28.0 AND price == 56 THEN target == -1"
+  dexp: "IF normalized-losses == 49 THEN target == -1"
+  expl: "IF normalized-losses == 49 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 47 AND make == 9 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 110.0 AND length == 190.9 AND width == 70.3 AND height == 58.7 AND curb-weight == 3750.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 183.0 AND fuel-system == 3 AND bore == 26 AND stroke == 32 AND compression-ratio == 21.5 AND horsepower == 12 AND peak-rpm == 3 AND city-mpg == 22.0 AND highway-mpg == 25.0 AND price == 85 THEN target == -1"
+  dexp: "IF normalized-losses == 47 AND make == 9 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 110.0 THEN target == -1"
+  expl: "IF wheel-base == 110.0 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 4 AND make == 9 AND normalized-losses == 47 THEN target == -1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 48 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2275.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 9.0 AND horsepower == 51 AND peak-rpm == 13 AND city-mpg == 27.0 AND highway-mpg == 34.0 AND price == 161 THEN target == 2"
+  dexp: "IF normalized-losses == 48 THEN target == 2"
+  expl: "IF normalized-losses == 48 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 48 AND make == 20 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2319.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 3 AND bore == 6 AND stroke == 24 AND compression-ratio == 23.0 AND horsepower == 42 AND peak-rpm == 5 AND city-mpg == 37.0 AND highway-mpg == 42.0 AND price == 175 THEN target == 2"
+  dexp: "IF normalized-losses == 48 THEN target == 2"
+  expl: "IF normalized-losses == 48 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 31 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 101.2 AND length == 176.8 AND width == 64.8 AND height == 54.3 AND curb-weight == 2395.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 5 AND bore == 24 AND stroke == 6 AND compression-ratio == 8.8 AND horsepower == 1 AND peak-rpm == 19 AND city-mpg == 23.0 AND highway-mpg == 29.0 AND price == 49 THEN target == 2"
+  dexp: "IF normalized-losses == 31 THEN target == 2"
+  expl: "IF normalized-losses == 31 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 17 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 176.2 AND width == 65.6 AND height == 52.0 AND curb-weight == 2551.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 146.0 AND fuel-system == 5 AND bore == 30 AND stroke == 28 AND compression-ratio == 9.3 AND horsepower == 9 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 184 THEN target == 2"
+  dexp: "IF normalized-losses == 17 THEN target == 2"
+  expl: "IF normalized-losses == 17 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 11 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 AND length == 173.2 AND width == 66.3 AND height == 50.2 AND curb-weight == 2833.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 156.0 AND fuel-system == 6 AND bore == 26 AND stroke == 33 AND compression-ratio == 7.0 AND horsepower == 18 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 23 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 THEN target == 3"
+  expl: "IF wheel-base == 95.9 AND drive-wheels == 1 AND make == 11 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 14 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 95.9 AND length == 173.2 AND width == 66.3 AND height == 50.2 AND curb-weight == 2818.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 156.0 AND fuel-system == 6 AND bore == 27 AND stroke == 33 AND compression-ratio == 7.0 AND horsepower == 18 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 24 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 14 THEN target == 3"
+  expl: "IF make == 14 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 10 AND make == 4 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 2128.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 5 AND bore == 7 AND stroke == 23 AND compression-ratio == 7.6 AND horsepower == 2 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 149 THEN target == 1"
+  dexp: "IF normalized-losses == 10 AND make == 4 THEN target == 1"
+  expl: "IF make == 4 AND normalized-losses == 10 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 15 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.3 AND width == 63.8 AND height == 54.5 AND curb-weight == 1951.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 135 THEN target == 1"
+  dexp: "IF normalized-losses == 15 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 12 AND normalized-losses == 15 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 21 AND make == 4 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.6 AND curb-weight == 1989.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 141 THEN target == 1"
+  dexp: "IF normalized-losses == 21 THEN target == 1"
+  expl: "IF normalized-losses == 21 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 8 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.1 AND length == 166.8 AND width == 64.2 AND height == 54.1 AND curb-weight == 1945.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 91.0 AND fuel-system == 1 AND bore == 7 AND stroke == 15 AND compression-ratio == 9.0 AND horsepower == 42 AND peak-rpm == 10 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 121 THEN target == 1"
+  dexp: "IF normalized-losses == 8 THEN target == 1"
+  expl: "IF normalized-losses == 8 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 50 AND make == 3 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 155.9 AND width == 63.6 AND height == 52.0 AND curb-weight == 1874.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 7 AND stroke == 13 AND compression-ratio == 9.6 AND horsepower == 44 AND peak-rpm == 15 AND city-mpg == 38.0 AND highway-mpg == 43.0 AND price == 111 THEN target == 1"
+  dexp: "IF normalized-losses == 50 THEN target == 1"
+  expl: "IF normalized-losses == 50 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 28 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 AND length == 168.7 AND width == 64.0 AND height == 52.6 AND curb-weight == 2204.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 29.0 AND highway-mpg == 34.0 AND price == 157 THEN target == 1"
+  dexp: "IF normalized-losses == 28 AND make == 19 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 2 AND make == 19 AND normalized-losses == 28 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 1 AND make == 18 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 97.0 AND length == 172.0 AND width == 65.4 AND height == 54.3 AND curb-weight == 2510.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 5 AND bore == 30 AND stroke == 3 AND compression-ratio == 7.7 AND horsepower == 5 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 29.0 AND price == 13 THEN target == 0"
+  dexp: "IF normalized-losses == 1 THEN target == 0"
+  expl: "IF normalized-losses == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 8 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 0 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 98.8 AND length == 177.8 AND width == 66.5 AND height == 55.5 AND curb-weight == 2443.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 3 AND bore == 20 AND stroke == 23 AND compression-ratio == 22.7 AND horsepower == 41 AND peak-rpm == 6 AND city-mpg == 36.0 AND highway-mpg == 42.0 AND price == 6 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 8 THEN target == 0"
+  expl: "IF make == 8 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 13 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 114.2 AND length == 198.9 AND width == 68.4 AND height == 58.7 AND curb-weight == 3230.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 5 AND bore == 22 AND stroke == 17 AND compression-ratio == 8.4 AND horsepower == 58 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 22 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 1 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 99.5 AND length == 178.2 AND width == 67.9 AND height == 52.0 AND curb-weight == 3053.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 131.0 AND fuel-system == 5 AND bore == 10 AND stroke == 24 AND compression-ratio == 7.0 AND horsepower == 23 AND peak-rpm == 16 AND city-mpg == 16.0 AND highway-mpg == 22.0 AND price == 186 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 1 AND body-style == 2 AND drive-wheels == 0 THEN target == 0"
+  expl: "IF drive-wheels == 0 AND body-style == 2 AND make == 1 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 42 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 96.9 AND length == 173.6 AND width == 65.4 AND height == 54.9 AND curb-weight == 2420.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.0 AND horsepower == 49 AND peak-rpm == 8 AND city-mpg == 23.0 AND highway-mpg == 29.0 AND price == 153 THEN target == 0"
+  dexp: "IF normalized-losses == 42 THEN target == 0"
+  expl: "IF normalized-losses == 42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 1 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 97.0 AND length == 172.0 AND width == 65.4 AND height == 54.3 AND curb-weight == 2385.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.0 AND horsepower == 49 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 25.0 AND price == 170 THEN target == 0"
+  dexp: "IF normalized-losses == 1 THEN target == 0"
+  expl: "IF normalized-losses == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 36 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 102.4 AND length == 175.6 AND width == 66.5 AND height == 53.9 AND curb-weight == 2414.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 5 AND bore == 16 AND stroke == 30 AND compression-ratio == 8.7 AND horsepower == 55 AND peak-rpm == 1 AND city-mpg == 27.0 AND highway-mpg == 32.0 AND price == 183 THEN target == -1"
+  dexp: "IF normalized-losses == 36 THEN target == -1"
+  expl: "IF normalized-losses == 36 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 49 AND make == 21 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 109.1 AND length == 188.8 AND width == 68.9 AND height == 55.5 AND curb-weight == 3062.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 141.0 AND fuel-system == 5 AND bore == 35 AND stroke == 15 AND compression-ratio == 9.5 AND horsepower == 7 AND peak-rpm == 15 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 80 THEN target == -1"
+  dexp: "IF normalized-losses == 49 THEN target == -1"
+  expl: "IF normalized-losses == 49 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 36 AND make == 19 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 102.4 AND length == 175.6 AND width == 66.5 AND height == 54.9 AND curb-weight == 2480.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 3 AND bore == 15 AND stroke == 22 AND compression-ratio == 22.5 AND horsepower == 46 AND peak-rpm == 5 AND city-mpg == 30.0 AND highway-mpg == 33.0 AND price == 5 THEN target == -1"
+  dexp: "IF normalized-losses == 36 THEN target == -1"
+  expl: "IF normalized-losses == 36 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 17 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 176.2 AND width == 65.6 AND height == 52.0 AND curb-weight == 2536.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 146.0 AND fuel-system == 5 AND bore == 30 AND stroke == 28 AND compression-ratio == 9.3 AND horsepower == 9 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 178 THEN target == 2"
+  dexp: "IF normalized-losses == 17 THEN target == 2"
+  expl: "IF normalized-losses == 17 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 18 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 86.6 AND length == 144.6 AND width == 63.9 AND height == 50.8 AND curb-weight == 1819.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 0 AND bore == 2 AND stroke == 25 AND compression-ratio == 9.2 AND horsepower == 47 AND peak-rpm == 21 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 125 THEN target == 2"
+  dexp: "IF normalized-losses == 18 AND make == 5 THEN target == 2"
+  expl: "IF make == 5 AND normalized-losses == 18 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 6 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 96.0 AND length == 172.6 AND width == 65.2 AND height == 51.4 AND curb-weight == 2734.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 119.0 AND fuel-system == 7 AND bore == 21 AND stroke == 19 AND compression-ratio == 9.2 AND horsepower == 54 AND peak-rpm == 10 AND city-mpg == 24.0 AND highway-mpg == 29.0 AND price == 9 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 6 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 96.0 THEN target == 2"
+  expl: "IF wheel-base == 96.0 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 2 AND make == 6 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 48 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2300.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 10.0 AND horsepower == 0 AND peak-rpm == 16 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 185 THEN target == 2"
+  dexp: "IF normalized-losses == 48 THEN target == 2"
+  expl: "IF normalized-losses == 48 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 23 AND make == 11 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.3 AND length == 173.0 AND width == 65.4 AND height == 49.4 AND curb-weight == 2370.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 6 AND bore == 12 AND stroke == 26 AND compression-ratio == 7.5 AND horsepower == 9 AND peak-rpm == 16 AND city-mpg == 23.0 AND highway-mpg == 30.0 AND price == 180 THEN target == 3"
+  dexp: "IF normalized-losses == 23 THEN target == 3"
+  expl: "IF normalized-losses == 23 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 0 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 0 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 88.6 AND length == 168.8 AND width == 64.1 AND height == 48.8 AND curb-weight == 2548.0 AND engine-type == 0 AND num-of-cylinders == 2 AND engine-size == 130.0 AND fuel-system == 5 AND bore == 23 AND stroke == 4 AND compression-ratio == 9.0 AND horsepower == 5 AND peak-rpm == 10 AND city-mpg == 21.0 AND highway-mpg == 27.0 AND price == 31 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 0 THEN target == 3"
+  expl: "IF make == 0 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 16 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 98.8 AND length == 177.8 AND width == 66.5 AND height == 53.7 AND curb-weight == 2385.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 20 AND stroke == 23 AND compression-ratio == 8.6 AND horsepower == 50 AND peak-rpm == 8 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 165 THEN target == 1"
+  dexp: "IF normalized-losses == 16 THEN target == 1"
+  expl: "IF normalized-losses == 16 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 8 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.1 AND length == 166.8 AND width == 64.2 AND height == 54.1 AND curb-weight == 1950.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 91.0 AND fuel-system == 1 AND bore == 9 AND stroke == 15 AND compression-ratio == 9.0 AND horsepower == 42 AND peak-rpm == 10 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 137 THEN target == 1"
+  dexp: "IF normalized-losses == 8 THEN target == 1"
+  expl: "IF normalized-losses == 8 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 28 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 AND length == 168.7 AND width == 64.0 AND height == 52.6 AND curb-weight == 2169.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 29.0 AND highway-mpg == 34.0 AND price == 154 THEN target == 1"
+  dexp: "IF normalized-losses == 28 AND make == 19 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 3 AND make == 19 AND normalized-losses == 28 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 10 AND make == 4 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 1876.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.41 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 37.0 AND highway-mpg == 41.0 AND price == 107 THEN target == 1"
+  dexp: "IF normalized-losses == 10 AND make == 4 THEN target == 1"
+  expl: "IF make == 4 AND normalized-losses == 10 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 16 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 98.8 AND length == 177.8 AND width == 66.5 AND height == 53.7 AND curb-weight == 2385.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 20 AND stroke == 23 AND compression-ratio == 8.6 AND horsepower == 50 AND peak-rpm == 8 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 4 THEN target == 1"
+  dexp: "IF normalized-losses == 16 THEN target == 1"
+  expl: "IF normalized-losses == 16 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 25 AND make == 1 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 105.8 AND length == 192.7 AND width == 71.4 AND height == 55.9 AND curb-weight == 3086.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 131.0 AND fuel-system == 5 AND bore == 10 AND stroke == 24 AND compression-ratio == 8.3 AND horsepower == 15 AND peak-rpm == 16 AND city-mpg == 17.0 AND highway-mpg == 20.0 AND price == 81 THEN target == 1"
+  dexp: "IF normalized-losses == 25 THEN target == 1"
+  expl: "IF normalized-losses == 25 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 52.8 AND curb-weight == 2275.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 3 AND bore == 15 AND stroke == 22 AND compression-ratio == 22.5 AND horsepower == 37 AND peak-rpm == 5 AND city-mpg == 38.0 AND highway-mpg == 47.0 AND price == 145 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 6 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 155.9 AND width == 63.6 AND height == 52.0 AND curb-weight == 1909.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 7 AND stroke == 13 AND compression-ratio == 9.6 AND horsepower == 44 AND peak-rpm == 15 AND city-mpg == 38.0 AND highway-mpg == 43.0 AND price == 186 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 6 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 2"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 6 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 4 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.2 AND length == 173.4 AND width == 65.2 AND height == 54.7 AND curb-weight == 2302.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 1 AND bore == 17 AND stroke == 27 AND compression-ratio == 8.5 AND horsepower == 58 AND peak-rpm == 12 AND city-mpg == 27.0 AND highway-mpg == 34.0 AND price == 177 THEN target == 0"
+  dexp: "IF normalized-losses == 4 THEN target == 0"
+  expl: "IF normalized-losses == 4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 4 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 167.5 AND width == 65.2 AND height == 53.3 AND curb-weight == 2289.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 0 AND bore == 11 AND stroke == 31 AND compression-ratio == 9.0 AND horsepower == 52 AND peak-rpm == 19 AND city-mpg == 27.0 AND highway-mpg == 33.0 AND price == 169 THEN target == 0"
+  dexp: "IF normalized-losses == 4 THEN target == 0"
+  expl: "IF normalized-losses == 4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 95.7 AND length == 169.7 AND width == 63.6 AND height == 59.1 AND curb-weight == 3110.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 8 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 40 AND peak-rpm == 8 AND city-mpg == 27.0 AND highway-mpg == 32.0 AND price == 164 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 1 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.2 AND length == 172.0 AND width == 65.4 AND height == 52.5 AND curb-weight == 2145.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.5 AND horsepower == 49 AND peak-rpm == 8 AND city-mpg == 32.0 AND highway-mpg == 37.0 AND price == 131 THEN target == 0"
+  dexp: "IF normalized-losses == 1 THEN target == 0"
+  expl: "IF normalized-losses == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 36 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 102.4 AND length == 175.6 AND width == 66.5 AND height == 54.9 AND curb-weight == 2414.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 5 AND bore == 16 AND stroke == 30 AND compression-ratio == 8.7 AND horsepower == 55 AND peak-rpm == 1 AND city-mpg == 27.0 AND highway-mpg == 32.0 AND price == 7 THEN target == -1"
+  dexp: "IF normalized-losses == 36 THEN target == -1"
+  expl: "IF normalized-losses == 36 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 36 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 102.4 AND length == 175.6 AND width == 66.5 AND height == 54.9 AND curb-weight == 2326.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 5 AND bore == 16 AND stroke == 30 AND compression-ratio == 8.7 AND horsepower == 55 AND peak-rpm == 1 AND city-mpg == 29.0 AND highway-mpg == 34.0 AND price == 167 THEN target == -1"
+  dexp: "IF normalized-losses == 36 THEN target == -1"
+  expl: "IF normalized-losses == 36 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 47 AND make == 9 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 115.6 AND length == 202.6 AND width == 71.7 AND height == 56.3 AND curb-weight == 3770.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 183.0 AND fuel-system == 3 AND bore == 26 AND stroke == 32 AND compression-ratio == 21.5 AND horsepower == 12 AND peak-rpm == 3 AND city-mpg == 22.0 AND highway-mpg == 25.0 AND price == 87 THEN target == -1"
+  dexp: "IF normalized-losses == 47 AND make == 9 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 115.6 THEN target == -1"
+  expl: "IF wheel-base == 115.6 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 3 AND make == 9 AND normalized-losses == 47 THEN target == -1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 41 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 156.9 AND width == 63.4 AND height == 53.7 AND curb-weight == 2050.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 30 AND stroke == 2 AND compression-ratio == 9.0 AND horsepower == 43 AND peak-rpm == 9 AND city-mpg == 31.0 AND highway-mpg == 36.0 AND price == 100 THEN target == 2"
+  dexp: "IF normalized-losses == 41 THEN target == 2"
+  expl: "IF normalized-losses == 41 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 41 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 93.3 AND length == 157.3 AND width == 63.8 AND height == 55.7 AND curb-weight == 2240.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 8.7 AND horsepower == 46 AND peak-rpm == 4 AND city-mpg == 26.0 AND highway-mpg == 31.0 AND price == 140 THEN target == 2"
+  dexp: "IF normalized-losses == 41 THEN target == 2"
+  expl: "IF normalized-losses == 41 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 18 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 86.6 AND length == 144.6 AND width == 63.9 AND height == 50.8 AND curb-weight == 1713.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 0 AND bore == 2 AND stroke == 25 AND compression-ratio == 9.6 AND horsepower == 38 AND peak-rpm == 8 AND city-mpg == 49.0 AND highway-mpg == 54.0 AND price == 114 THEN target == 2"
+  dexp: "IF normalized-losses == 18 AND make == 5 THEN target == 2"
+  expl: "IF make == 5 AND normalized-losses == 18 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 35 AND make == 20 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.7 AND width == 64.0 AND height == 51.4 AND curb-weight == 2221.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.5 AND horsepower == 54 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 29.0 AND price == 182 THEN target == 3"
+  dexp: "IF normalized-losses == 35 THEN target == 3"
+  expl: "IF normalized-losses == 35 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 20 AND make == 4 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 AND length == 173.2 AND width == 66.3 AND height == 50.2 AND curb-weight == 2811.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 156.0 AND fuel-system == 4 AND bore == 28 AND stroke == 34 AND compression-ratio == 7.0 AND horsepower == 18 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 27 THEN target == 3"
+  dexp: "IF normalized-losses == 20 THEN target == 3"
+  expl: "IF normalized-losses == 20 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 32 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 91.3 AND length == 170.7 AND width == 67.9 AND height == 49.7 AND curb-weight == 3071.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 181.0 AND fuel-system == 5 AND bore == 21 AND stroke == 20 AND compression-ratio == 9.0 AND horsepower == 23 AND peak-rpm == 12 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 60 THEN target == 3"
+  dexp: "IF normalized-losses == 32 THEN target == 3"
+  expl: "IF normalized-losses == 32 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 43 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 158.7 AND width == 63.6 AND height == 54.5 AND curb-weight == 1985.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 8 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 40 AND peak-rpm == 8 AND city-mpg == 35.0 AND highway-mpg == 39.0 AND price == 103 THEN target == 1"
+  dexp: "IF normalized-losses == 43 THEN target == 1"
+  expl: "IF normalized-losses == 43 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 43 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 158.7 AND width == 63.6 AND height == 54.5 AND curb-weight == 2040.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 8 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 40 AND peak-rpm == 8 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 112 THEN target == 1"
+  dexp: "IF normalized-losses == 43 THEN target == 1"
+  expl: "IF normalized-losses == 43 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 28 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 AND length == 168.7 AND width == 64.0 AND height == 52.6 AND curb-weight == 2300.0 AND engine-type == 0 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 5 AND bore == 14 AND stroke == 11 AND compression-ratio == 9.4 AND horsepower == 6 AND peak-rpm == 22 AND city-mpg == 26.0 AND highway-mpg == 29.0 AND price == 176 THEN target == 1"
+  dexp: "IF normalized-losses == 28 AND make == 19 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 2 AND make == 19 AND normalized-losses == 28 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 15 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.6 AND width == 63.8 AND height == 53.3 AND curb-weight == 2028.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 146 THEN target == 1"
+  dexp: "IF normalized-losses == 15 AND make == 12 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 2 AND make == 12 AND normalized-losses == 15 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 15 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 175.7 AND width == 72.3 AND height == 50.5 AND curb-weight == 3366.0 AND engine-type == 1 AND num-of-cylinders == 0 AND engine-size == 203.0 AND fuel-system == 5 AND bore == 37 AND stroke == 13 AND compression-ratio == 10.0 AND horsepower == 33 AND peak-rpm == 18 AND city-mpg == 17.0 AND highway-mpg == 28.0 AND price == 186 THEN target == 1"
+  dexp: "IF normalized-losses == 51 AND make == 15 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 THEN target == 1"
+  expl: "IF engine-location == 0 AND drive-wheels == 2 AND body-style == 2 AND make == 15 AND normalized-losses == 51 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 103.5 AND length == 189.0 AND width == 66.9 AND height == 55.7 AND curb-weight == 3055.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 164.0 AND fuel-system == 5 AND bore == 16 AND stroke == 17 AND compression-ratio == 9.0 AND horsepower == 11 AND peak-rpm == 2 AND city-mpg == 20.0 AND highway-mpg == 25.0 AND price == 82 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 2 THEN target == 0"
+  expl: "IF make == 2 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 110.0 AND length == 197.0 AND width == 70.9 AND height == 56.3 AND curb-weight == 3505.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 209.0 AND fuel-system == 5 AND bore == 30 AND stroke == 23 AND compression-ratio == 8.0 AND horsepower == 28 AND peak-rpm == 15 AND city-mpg == 15.0 AND highway-mpg == 20.0 AND price == 95 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 2 THEN target == 0"
+  expl: "IF make == 2 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 1 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.2 AND length == 172.0 AND width == 65.4 AND height == 52.5 AND curb-weight == 2340.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 5 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.0 AND horsepower == 56 AND peak-rpm == 12 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 181 THEN target == 0"
+  dexp: "IF normalized-losses == 1 THEN target == 0"
+  expl: "IF normalized-losses == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 9 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 120.9 AND length == 208.1 AND width == 71.7 AND height == 56.7 AND curb-weight == 3900.0 AND engine-type == 5 AND num-of-cylinders == 0 AND engine-size == 308.0 AND fuel-system == 5 AND bore == 36 AND stroke == 22 AND compression-ratio == 8.0 AND horsepower == 29 AND peak-rpm == 5 AND city-mpg == 14.0 AND highway-mpg == 16.0 AND price == 97 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 9 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 120.9 AND num-of-doors == 1 THEN target == 0"
+  expl: "IF num-of-doors == 1 AND wheel-base == 120.9 AND engine-location == 0 AND body-style == 3 AND make == 9 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 7 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 113.0 AND length == 199.6 AND width == 69.6 AND height == 52.8 AND curb-weight == 4066.0 AND engine-type == 0 AND num-of-cylinders == 3 AND engine-size == 258.0 AND fuel-system == 5 AND bore == 31 AND stroke == 35 AND compression-ratio == 8.1 AND horsepower == 27 AND peak-rpm == 7 AND city-mpg == 15.0 AND highway-mpg == 19.0 AND price == 93 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 7 THEN target == 0"
+  expl: "IF make == 7 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 42 AND make == 18 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 0 AND engine-location == 0 AND wheel-base == 96.9 AND length == 173.6 AND width == 65.4 AND height == 54.9 AND curb-weight == 2650.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 5 AND bore == 30 AND stroke == 3 AND compression-ratio == 7.7 AND horsepower == 5 AND peak-rpm == 8 AND city-mpg == 23.0 AND highway-mpg == 23.0 AND price == 16 THEN target == 0"
+  dexp: "IF normalized-losses == 42 THEN target == 0"
+  expl: "IF normalized-losses == 42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 53.0 AND curb-weight == 2275.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 3 AND bore == 15 AND stroke == 22 AND compression-ratio == 22.5 AND horsepower == 37 AND peak-rpm == 5 AND city-mpg == 34.0 AND highway-mpg == 36.0 AND price == 148 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 49 AND make == 21 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 109.1 AND length == 188.8 AND width == 68.9 AND height == 55.5 AND curb-weight == 3217.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 145.0 AND fuel-system == 3 AND bore == 6 AND stroke == 24 AND compression-ratio == 23.0 AND horsepower == 3 AND peak-rpm == 8 AND city-mpg == 26.0 AND highway-mpg == 27.0 AND price == 79 THEN target == -1"
+  dexp: "IF normalized-losses == 49 THEN target == -1"
+  expl: "IF normalized-losses == 49 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 49 AND make == 21 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 109.1 AND length == 188.8 AND width == 68.8 AND height == 55.5 AND curb-weight == 3049.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 141.0 AND fuel-system == 5 AND bore == 35 AND stroke == 15 AND compression-ratio == 8.7 AND horsepower == 23 AND peak-rpm == 14 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 73 THEN target == -1"
+  dexp: "IF normalized-losses == 49 THEN target == -1"
+  expl: "IF normalized-losses == 49 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 48 AND make == 20 AND fuel-type == 0 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.3 AND length == 171.7 AND width == 65.5 AND height == 55.7 AND curb-weight == 2264.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 3 AND bore == 6 AND stroke == 24 AND compression-ratio == 23.0 AND horsepower == 35 AND peak-rpm == 8 AND city-mpg == 37.0 AND highway-mpg == 46.0 AND price == 151 THEN target == 2"
+  dexp: "IF normalized-losses == 48 THEN target == 2"
+  expl: "IF normalized-losses == 48 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 1 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.8 AND length == 177.3 AND width == 66.3 AND height == 53.1 AND curb-weight == 2507.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 136.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 8.5 AND horsepower == 4 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 41 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 1 AND body-style == 3 AND drive-wheels == 1 THEN target == 2"
+  expl: "IF drive-wheels == 1 AND body-style == 3 AND make == 1 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 3 AND make == 17 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.1 AND length == 186.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 2695.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 121.0 AND fuel-system == 5 AND bore == 25 AND stroke == 10 AND compression-ratio == 9.3 AND horsepower == 4 AND peak-rpm == 13 AND city-mpg == 21.0 AND highway-mpg == 28.0 AND price == 20 THEN target == 2"
+  dexp: "IF normalized-losses == 3 AND make == 17 THEN target == 2"
+  expl: "IF make == 17 AND normalized-losses == 3 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 17 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.1 AND length == 186.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 2808.0 AND engine-type == 0 AND num-of-cylinders == 2 AND engine-size == 121.0 AND fuel-system == 5 AND bore == 25 AND stroke == 10 AND compression-ratio == 9.0 AND horsepower == 23 AND peak-rpm == 16 AND city-mpg == 19.0 AND highway-mpg == 26.0 AND price == 65 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 11 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 AND length == 173.2 AND width == 66.3 AND height == 50.2 AND curb-weight == 2921.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 156.0 AND fuel-system == 6 AND bore == 27 AND stroke == 33 AND compression-ratio == 7.0 AND horsepower == 18 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 39 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 THEN target == 3"
+  expl: "IF wheel-base == 95.9 AND drive-wheels == 1 AND make == 11 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 32 AND make == 12 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 91.3 AND length == 170.7 AND width == 67.9 AND height == 49.7 AND curb-weight == 3139.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 181.0 AND fuel-system == 5 AND bore == 21 AND stroke == 20 AND compression-ratio == 7.8 AND horsepower == 30 AND peak-rpm == 12 AND city-mpg == 17.0 AND highway-mpg == 23.0 AND price == 74 THEN target == 3"
+  dexp: "IF normalized-losses == 32 THEN target == 3"
+  expl: "IF normalized-losses == 32 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 14 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.3 AND length == 172.4 AND width == 65.4 AND height == 51.6 AND curb-weight == 2365.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 19 AND stroke == 26 AND compression-ratio == 8.5 AND horsepower == 53 AND peak-rpm == 10 AND city-mpg == 25.0 AND highway-mpg == 32.0 AND price == 128 THEN target == 1"
+  dexp: "IF normalized-losses == 14 THEN target == 1"
+  expl: "IF normalized-losses == 14 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 21 AND make == 4 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.6 AND curb-weight == 1967.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 110 THEN target == 1"
+  dexp: "IF normalized-losses == 21 THEN target == 1"
+  expl: "IF normalized-losses == 21 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 10 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 102.7 AND length == 178.4 AND width == 68.0 AND height == 54.8 AND curb-weight == 2910.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 140.0 AND fuel-system == 5 AND bore == 35 AND stroke == 14 AND compression-ratio == 8.0 AND horsepower == 26 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 51 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 10 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 102.7 THEN target == 2"
+  expl: "IF wheel-base == 102.7 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 2 AND make == 10 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 0 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 150.0 AND width == 64.0 AND height == 52.6 AND curb-weight == 1956.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 0 AND bore == 2 AND stroke == 25 AND compression-ratio == 9.2 AND horsepower == 47 AND peak-rpm == 21 AND city-mpg == 30.0 AND highway-mpg == 34.0 AND price == 132 THEN target == 1"
+  dexp: "IF normalized-losses == 0 THEN target == 1"
+  expl: "IF normalized-losses == 0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 24 AND make == 14 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 167.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 2191.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 141 THEN target == 1"
+  dexp: "IF normalized-losses == 24 THEN target == 1"
+  expl: "IF normalized-losses == 24 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 53.0 AND curb-weight == 2094.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 38.0 AND highway-mpg == 47.0 AND price == 143 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 6 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.3 AND length == 170.7 AND width == 61.8 AND height == 53.5 AND curb-weight == 2337.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 111.0 AND fuel-system == 1 AND bore == 16 AND stroke == 19 AND compression-ratio == 8.5 AND horsepower == 48 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 29.0 AND price == 122 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 6 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.3 THEN target == 0"
+  expl: "IF wheel-base == 94.3 AND engine-location == 0 AND body-style == 3 AND make == 6 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 10 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.9 AND length == 175.0 AND width == 66.1 AND height == 54.4 AND curb-weight == 2670.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 140.0 AND fuel-system == 5 AND bore == 34 AND stroke == 16 AND compression-ratio == 8.0 AND horsepower == 10 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 27.0 AND price == 66 THEN target == 0"
+  dexp: "IF normalized-losses == 10 AND make == 8 THEN target == 0"
+  expl: "IF make == 8 AND normalized-losses == 10 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 7 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 163.4 AND width == 64.0 AND height == 54.5 AND curb-weight == 2010.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 0 AND bore == 2 AND stroke == 25 AND compression-ratio == 9.2 AND horsepower == 47 AND peak-rpm == 21 AND city-mpg == 30.0 AND highway-mpg == 34.0 AND price == 134 THEN target == 0"
+  dexp: "IF normalized-losses == 7 AND make == 5 THEN target == 0"
+  expl: "IF make == 5 AND normalized-losses == 7 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 42 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 175.4 AND width == 65.2 AND height == 54.1 AND curb-weight == 2304.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 0 AND bore == 11 AND stroke == 31 AND compression-ratio == 9.0 AND horsepower == 52 AND peak-rpm == 19 AND city-mpg == 27.0 AND highway-mpg == 33.0 AND price == 165 THEN target == 0"
+  dexp: "IF normalized-losses == 42 THEN target == 0"
+  expl: "IF normalized-losses == 42 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 30 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 101.2 AND length == 176.8 AND width == 64.8 AND height == 54.3 AND curb-weight == 2710.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 164.0 AND fuel-system == 5 AND bore == 16 AND stroke == 17 AND compression-ratio == 9.0 AND horsepower == 11 AND peak-rpm == 2 AND city-mpg == 21.0 AND highway-mpg == 28.0 AND price == 75 THEN target == 0"
+  dexp: "IF normalized-losses == 30 THEN target == 0"
+  expl: "IF normalized-losses == 30 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 4 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.2 AND length == 173.4 AND width == 65.2 AND height == 54.7 AND curb-weight == 2324.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 1 AND bore == 17 AND stroke == 27 AND compression-ratio == 8.5 AND horsepower == 58 AND peak-rpm == 12 AND city-mpg == 27.0 AND highway-mpg == 34.0 AND price == 168 THEN target == 0"
+  dexp: "IF normalized-losses == 4 THEN target == 0"
+  expl: "IF normalized-losses == 4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 18 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.3 AND length == 172.4 AND width == 65.4 AND height == 51.6 AND curb-weight == 2403.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 6 AND bore == 12 AND stroke == 26 AND compression-ratio == 7.5 AND horsepower == 9 AND peak-rpm == 16 AND city-mpg == 23.0 AND highway-mpg == 30.0 AND price == 172 THEN target == -1"
+  dexp: "IF normalized-losses == 18 AND make == 11 THEN target == -1"
+  expl: "IF make == 11 AND normalized-losses == 18 THEN target == -1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 9 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 115.6 AND length == 202.6 AND width == 71.7 AND height == 56.5 AND curb-weight == 3740.0 AND engine-type == 5 AND num-of-cylinders == 0 AND engine-size == 234.0 AND fuel-system == 5 AND bore == 22 AND stroke == 12 AND compression-ratio == 8.3 AND horsepower == 21 AND peak-rpm == 7 AND city-mpg == 16.0 AND highway-mpg == 18.0 AND price == 91 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 9 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 115.6 AND num-of-doors == 1 THEN target == 0"
+  expl: "IF num-of-doors == 1 AND wheel-base == 115.6 AND engine-location == 0 AND body-style == 3 AND make == 9 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 28 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.1 AND length == 162.4 AND width == 63.8 AND height == 53.3 AND curb-weight == 2008.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 158 THEN target == 2"
+  dexp: "IF normalized-losses == 28 AND make == 12 AND body-style == 1 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.1 THEN target == 2"
+  expl: "IF wheel-base == 95.1 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 1 AND make == 12 AND normalized-losses == 28 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 27 AND make == 1 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.8 AND length == 176.6 AND width == 66.2 AND height == 54.3 AND curb-weight == 2337.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 109.0 AND fuel-system == 5 AND bore == 13 AND stroke == 24 AND compression-ratio == 10.0 AND horsepower == 2 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 36 THEN target == 2"
+  dexp: "IF normalized-losses == 27 THEN target == 2"
+  expl: "IF normalized-losses == 27 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 64.4 AND height == 50.8 AND curb-weight == 1918.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 37.0 AND highway-mpg == 41.0 AND price == 104 THEN target == 2"
+  dexp: "IF normalized-losses == 26 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 THEN target == 2"
+  expl: "IF wheel-base == 93.7 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 2 AND make == 11 AND normalized-losses == 26 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 17 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.1 AND length == 186.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 2707.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 121.0 AND fuel-system == 5 AND bore == 0 AND stroke == 0 AND compression-ratio == 9.3 AND horsepower == 4 AND peak-rpm == 13 AND city-mpg == 21.0 AND highway-mpg == 28.0 AND price == 40 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 23 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.3 AND length == 173.0 AND width == 65.4 AND height == 49.4 AND curb-weight == 2328.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 19 AND stroke == 26 AND compression-ratio == 8.5 AND horsepower == 53 AND peak-rpm == 10 AND city-mpg == 25.0 AND highway-mpg == 32.0 AND price == 162 THEN target == 3"
+  dexp: "IF normalized-losses == 23 THEN target == 3"
+  expl: "IF normalized-losses == 23 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 17 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.1 AND length == 186.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 2658.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 121.0 AND fuel-system == 5 AND bore == 25 AND stroke == 10 AND compression-ratio == 9.31 AND horsepower == 4 AND peak-rpm == 13 AND city-mpg == 21.0 AND highway-mpg == 28.0 AND price == 18 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 13 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.3 AND width == 63.8 AND height == 54.5 AND curb-weight == 1971.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 139 THEN target == 1"
+  dexp: "IF normalized-losses == 13 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 12 AND normalized-losses == 13 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 10 AND make == 4 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 1876.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 113 THEN target == 1"
+  dexp: "IF normalized-losses == 10 AND make == 4 THEN target == 1"
+  expl: "IF make == 4 AND normalized-losses == 10 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 3 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.1 AND length == 159.1 AND width == 64.2 AND height == 54.1 AND curb-weight == 1900.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 91.0 AND fuel-system == 1 AND bore == 7 AND stroke == 15 AND compression-ratio == 9.0 AND horsepower == 42 AND peak-rpm == 10 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 108 THEN target == 1"
+  dexp: "IF normalized-losses == 3 AND make == 8 THEN target == 1"
+  expl: "IF make == 8 AND normalized-losses == 3 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 34 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 99.2 AND length == 178.5 AND width == 67.9 AND height == 49.7 AND curb-weight == 3139.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 181.0 AND fuel-system == 5 AND bore == 21 AND stroke == 20 AND compression-ratio == 9.0 AND horsepower == 23 AND peak-rpm == 12 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 68 THEN target == 1"
+  dexp: "IF normalized-losses == 34 THEN target == 1"
+  expl: "IF normalized-losses == 34 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 14 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.3 AND length == 172.4 AND width == 65.4 AND height == 51.6 AND curb-weight == 2405.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 19 AND stroke == 26 AND compression-ratio == 8.5 AND horsepower == 53 AND peak-rpm == 10 AND city-mpg == 25.0 AND highway-mpg == 32.0 AND price == 155 THEN target == 1"
+  dexp: "IF normalized-losses == 14 THEN target == 1"
+  expl: "IF normalized-losses == 14 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 47 AND make == 9 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 106.7 AND length == 187.5 AND width == 70.3 AND height == 54.9 AND curb-weight == 3495.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 183.0 AND fuel-system == 3 AND bore == 26 AND stroke == 32 AND compression-ratio == 21.5 AND horsepower == 12 AND peak-rpm == 3 AND city-mpg == 22.0 AND highway-mpg == 25.0 AND price == 84 THEN target == 0"
+  dexp: "IF normalized-losses == 47 AND make == 9 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 106.7 THEN target == 0"
+  expl: "IF wheel-base == 106.7 AND engine-location == 0 AND body-style == 1 AND make == 9 AND normalized-losses == 47 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 44 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.0 AND length == 173.5 AND width == 65.4 AND height == 53.0 AND curb-weight == 2455.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 5 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.0 AND horsepower == 56 AND peak-rpm == 12 AND city-mpg == 25.0 AND highway-mpg == 31.0 AND price == 0 THEN target == 0"
+  dexp: "IF normalized-losses == 44 THEN target == 0"
+  expl: "IF normalized-losses == 44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 46 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 166.3 AND width == 64.4 AND height == 52.8 AND curb-weight == 2122.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 1 AND bore == 13 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 44 AND peak-rpm == 8 AND city-mpg == 28.0 AND highway-mpg == 34.0 AND price == 159 THEN target == 0"
+  dexp: "IF normalized-losses == 46 THEN target == 0"
+  expl: "IF normalized-losses == 46 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 13 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 114.2 AND length == 198.9 AND width == 68.4 AND height == 56.7 AND curb-weight == 3285.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 5 AND bore == 22 AND stroke == 1 AND compression-ratio == 8.4 AND horsepower == 57 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 55 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 31 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 101.2 AND length == 176.8 AND width == 64.8 AND height == 54.3 AND curb-weight == 2395.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 5 AND bore == 24 AND stroke == 6 AND compression-ratio == 8.8 AND horsepower == 1 AND peak-rpm == 19 AND city-mpg == 23.0 AND highway-mpg == 29.0 AND price == 58 THEN target == 2"
+  dexp: "IF normalized-losses == 31 THEN target == 2"
+  expl: "IF normalized-losses == 31 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 30 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 101.2 AND length == 176.8 AND width == 64.8 AND height == 54.3 AND curb-weight == 2765.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 164.0 AND fuel-system == 5 AND bore == 16 AND stroke == 17 AND compression-ratio == 9.0 AND horsepower == 11 AND peak-rpm == 2 AND city-mpg == 21.0 AND highway-mpg == 28.0 AND price == 76 THEN target == 0"
+  dexp: "IF normalized-losses == 30 THEN target == 0"
+  expl: "IF normalized-losses == 30 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 9 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 98.8 AND length == 177.8 AND width == 66.5 AND height == 55.5 AND curb-weight == 2410.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 20 AND stroke == 23 AND compression-ratio == 8.6 AND horsepower == 50 AND peak-rpm == 8 AND city-mpg == 26.0 AND highway-mpg == 32.0 AND price == 1 THEN target == 0"
+  dexp: "IF normalized-losses == 9 THEN target == 0"
+  expl: "IF normalized-losses == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 49 AND make == 21 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 109.1 AND length == 188.8 AND width == 68.9 AND height == 55.5 AND curb-weight == 3012.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 173.0 AND fuel-system == 5 AND bore == 26 AND stroke == 7 AND compression-ratio == 8.8 AND horsepower == 13 AND peak-rpm == 16 AND city-mpg == 18.0 AND highway-mpg == 23.0 AND price == 77 THEN target == -1"
+  dexp: "IF normalized-losses == 49 THEN target == -1"
+  expl: "IF normalized-losses == 49 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 7 AND make == 4 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 103.3 AND length == 174.6 AND width == 64.6 AND height == 59.8 AND curb-weight == 2535.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 1 AND bore == 18 AND stroke == 26 AND compression-ratio == 8.5 AND horsepower == 53 AND peak-rpm == 10 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 166 THEN target == -1"
+  dexp: "IF normalized-losses == 7 AND make == 4 THEN target == -1"
+  expl: "IF make == 4 AND normalized-losses == 7 THEN target == -1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 17 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 1 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 98.4 AND length == 176.2 AND width == 65.6 AND height == 52.0 AND curb-weight == 2540.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 146.0 AND fuel-system == 5 AND bore == 30 AND stroke == 28 AND compression-ratio == 9.3 AND horsepower == 9 AND peak-rpm == 8 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 160 THEN target == 2"
+  dexp: "IF normalized-losses == 17 THEN target == 2"
+  expl: "IF normalized-losses == 17 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 41 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.9 AND width == 63.6 AND height == 53.7 AND curb-weight == 2120.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 8.7 AND horsepower == 46 AND peak-rpm == 4 AND city-mpg == 26.0 AND highway-mpg == 31.0 AND price == 129 THEN target == 2"
+  dexp: "IF normalized-losses == 41 THEN target == 2"
+  expl: "IF normalized-losses == 41 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 16 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.1 AND length == 176.8 AND width == 66.6 AND height == 50.5 AND curb-weight == 2460.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 132.0 AND fuel-system == 5 AND bore == 22 AND stroke == 34 AND compression-ratio == 8.7 AND horsepower == 59 AND peak-rpm == 23 AND city-mpg == 23.0 AND highway-mpg == 31.0 AND price == 179 THEN target == 2"
+  dexp: "IF normalized-losses == 51 AND make == 16 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.1 THEN target == 2"
+  expl: "IF wheel-base == 96.1 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 2 AND make == 16 AND normalized-losses == 51 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 33 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 102.9 AND length == 183.5 AND width == 67.7 AND height == 52.0 AND curb-weight == 2976.0 AND engine-type == 0 AND num-of-cylinders == 3 AND engine-size == 171.0 AND fuel-system == 5 AND bore == 15 AND stroke == 22 AND compression-ratio == 9.3 AND horsepower == 24 AND peak-rpm == 12 AND city-mpg == 20.0 AND highway-mpg == 24.0 AND price == 53 THEN target == 3"
+  dexp: "IF normalized-losses == 33 THEN target == 3"
+  expl: "IF normalized-losses == 33 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 95.3 AND length == 169.0 AND width == 65.7 AND height == 49.6 AND curb-weight == 2380.0 AND engine-type == 6 AND num-of-cylinders == 6 AND engine-size == 70.0 AND fuel-system == 2 AND bore == 38 AND stroke == 36 AND compression-ratio == 9.4 AND horsepower == 1 AND peak-rpm == 21 AND city-mpg == 17.0 AND highway-mpg == 23.0 AND price == 8 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 95.3 AND length == 169.0 AND width == 65.7 AND height == 49.6 AND curb-weight == 2385.0 AND engine-type == 6 AND num-of-cylinders == 6 AND engine-size == 70.0 AND fuel-system == 2 AND bore == 38 AND stroke == 36 AND compression-ratio == 9.4 AND horsepower == 1 AND peak-rpm == 21 AND city-mpg == 17.0 AND highway-mpg == 23.0 AND price == 33 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 14 AND make == 11 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.3 AND length == 172.4 AND width == 65.4 AND height == 51.6 AND curb-weight == 2403.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 6 AND bore == 12 AND stroke == 26 AND compression-ratio == 7.5 AND horsepower == 9 AND peak-rpm == 16 AND city-mpg == 23.0 AND highway-mpg == 30.0 AND price == 172 THEN target == 1"
+  dexp: "IF normalized-losses == 14 THEN target == 1"
+  expl: "IF normalized-losses == 14 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 0 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 150.0 AND width == 64.0 AND height == 52.6 AND curb-weight == 1940.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 0 AND bore == 2 AND stroke == 25 AND compression-ratio == 9.2 AND horsepower == 47 AND peak-rpm == 21 AND city-mpg == 30.0 AND highway-mpg == 34.0 AND price == 116 THEN target == 1"
+  dexp: "IF normalized-losses == 0 THEN target == 1"
+  expl: "IF normalized-losses == 0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 2 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 170.2 AND width == 63.8 AND height == 53.5 AND curb-weight == 2037.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 152 THEN target == 1"
+  dexp: "IF normalized-losses == 2 THEN target == 1"
+  expl: "IF normalized-losses == 2 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 5 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 169.1 AND width == 66.0 AND height == 51.0 AND curb-weight == 2293.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 1 AND bore == 11 AND stroke == 31 AND compression-ratio == 9.1 AND horsepower == 0 AND peak-rpm == 16 AND city-mpg == 25.0 AND highway-mpg == 31.0 AND price == 3 THEN target == 1"
+  dexp: "IF normalized-losses == 5 THEN target == 1"
+  expl: "IF normalized-losses == 5 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 21 AND make == 4 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 0 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.6 AND curb-weight == 2191.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 5 AND bore == 7 AND stroke == 23 AND compression-ratio == 7.6 AND horsepower == 2 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 163 THEN target == 1"
+  dexp: "IF normalized-losses == 21 THEN target == 1"
+  expl: "IF normalized-losses == 21 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 1 AND make == 18 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 97.2 AND length == 172.0 AND width == 65.4 AND height == 52.5 AND curb-weight == 2190.0 AND engine-type == 4 AND num-of-cylinders == 2 AND engine-size == 108.0 AND fuel-system == 1 AND bore == 30 AND stroke == 3 AND compression-ratio == 9.5 AND horsepower == 49 AND peak-rpm == 4 AND city-mpg == 28.0 AND highway-mpg == 33.0 AND price == 144 THEN target == 0"
+  dexp: "IF normalized-losses == 1 THEN target == 0"
+  expl: "IF normalized-losses == 1 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 40 AND make == 3 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 158.8 AND width == 63.6 AND height == 52.0 AND curb-weight == 1909.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 7 AND stroke == 13 AND compression-ratio == 9.6 AND horsepower == 44 AND peak-rpm == 15 AND city-mpg == 38.0 AND highway-mpg == 43.0 AND price == 117 THEN target == 0"
+  dexp: "IF normalized-losses == 40 THEN target == 0"
+  expl: "IF normalized-losses == 40 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 16 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.1 AND length == 181.5 AND width == 66.5 AND height == 55.2 AND curb-weight == 2579.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 132.0 AND fuel-system == 5 AND bore == 22 AND stroke == 34 AND compression-ratio == 8.7 AND horsepower == 59 AND peak-rpm == 23 AND city-mpg == 23.0 AND highway-mpg == 31.0 AND price == 173 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 16 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.1 THEN target == 0"
+  expl: "IF wheel-base == 96.1 AND engine-location == 0 AND body-style == 4 AND make == 16 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 6 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 AND length == 184.6 AND width == 66.5 AND height == 55.1 AND curb-weight == 3060.0 AND engine-type == 5 AND num-of-cylinders == 3 AND engine-size == 181.0 AND fuel-system == 5 AND bore == 21 AND stroke == 20 AND compression-ratio == 9.0 AND horsepower == 19 AND peak-rpm == 12 AND city-mpg == 19.0 AND highway-mpg == 25.0 AND price == 32 THEN target == 0"
+  dexp: "IF normalized-losses == 6 THEN target == 0"
+  expl: "IF normalized-losses == 6 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 108.0 AND length == 186.7 AND width == 68.3 AND height == 56.0 AND curb-weight == 3130.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 134.0 AND fuel-system == 5 AND bore == 29 AND stroke == 18 AND compression-ratio == 7.0 AND horsepower == 16 AND peak-rpm == 17 AND city-mpg == 18.0 AND highway-mpg == 24.0 AND price == 65 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 38 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.7 AND length == 169.7 AND width == 63.6 AND height == 59.1 AND curb-weight == 2280.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 8 AND stroke == 9 AND compression-ratio == 9.0 AND horsepower == 40 AND peak-rpm == 8 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 126 THEN target == 0"
+  dexp: "IF normalized-losses == 38 THEN target == 0"
+  expl: "IF normalized-losses == 38 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 107.9 AND length == 186.7 AND width == 68.4 AND height == 56.7 AND curb-weight == 3252.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 152.0 AND fuel-system == 3 AND bore == 32 AND stroke == 29 AND compression-ratio == 21.0 AND horsepower == 57 AND peak-rpm == 0 AND city-mpg == 28.0 AND highway-mpg == 33.0 AND price == 57 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 37 AND make == 21 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.3 AND length == 188.8 AND width == 67.2 AND height == 57.5 AND curb-weight == 3034.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 141.0 AND fuel-system == 5 AND bore == 35 AND stroke == 15 AND compression-ratio == 9.5 AND horsepower == 7 AND peak-rpm == 15 AND city-mpg == 23.0 AND highway-mpg == 28.0 AND price == 30 THEN target == -1"
+  dexp: "IF normalized-losses == 37 THEN target == -1"
+  expl: "IF normalized-losses == 37 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 36 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 102.4 AND length == 175.6 AND width == 66.5 AND height == 53.9 AND curb-weight == 2458.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 122.0 AND fuel-system == 5 AND bore == 16 AND stroke == 30 AND compression-ratio == 8.7 AND horsepower == 55 AND peak-rpm == 1 AND city-mpg == 27.0 AND highway-mpg == 32.0 AND price == 12 THEN target == -1"
+  dexp: "IF normalized-losses == 36 THEN target == -1"
+  expl: "IF normalized-losses == 36 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 12 AND make == 3 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 88.4 AND length == 141.1 AND width == 60.3 AND height == 53.2 AND curb-weight == 1488.0 AND engine-type == 2 AND num-of-cylinders == 4 AND engine-size == 61.0 AND fuel-system == 1 AND bore == 2 AND stroke == 9 AND compression-ratio == 9.5 AND horsepower == 34 AND peak-rpm == 11 AND city-mpg == 47.0 AND highway-mpg == 53.0 AND price == 101 THEN target == 2"
+  dexp: "IF normalized-losses == 12 THEN target == 2"
+  expl: "IF normalized-losses == 12 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 3 AND make == 17 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 99.1 AND length == 186.6 AND width == 66.5 AND height == 56.1 AND curb-weight == 2758.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 121.0 AND fuel-system == 5 AND bore == 25 AND stroke == 10 AND compression-ratio == 9.3 AND horsepower == 4 AND peak-rpm == 13 AND city-mpg == 21.0 AND highway-mpg == 28.0 AND price == 42 THEN target == 2"
+  dexp: "IF normalized-losses == 3 AND make == 17 THEN target == 2"
+  expl: "IF make == 17 AND normalized-losses == 3 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 11 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 64.4 AND height == 50.8 AND curb-weight == 1944.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 92.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 109 THEN target == 2"
+  dexp: "IF normalized-losses == 26 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 THEN target == 2"
+  expl: "IF wheel-base == 93.7 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 2 AND make == 11 AND normalized-losses == 26 THEN target == 2"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 22 AND make == 8 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 95.3 AND length == 169.0 AND width == 65.7 AND height == 49.6 AND curb-weight == 2500.0 AND engine-type == 6 AND num-of-cylinders == 6 AND engine-size == 80.0 AND fuel-system == 5 AND bore == 38 AND stroke == 36 AND compression-ratio == 9.4 AND horsepower == 14 AND peak-rpm == 21 AND city-mpg == 16.0 AND highway-mpg == 23.0 AND price == 44 THEN target == 3"
+  dexp: "IF normalized-losses == 22 THEN target == 3"
+  expl: "IF normalized-losses == 22 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 11 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 AND length == 173.2 AND width == 66.3 AND height == 50.2 AND curb-weight == 2926.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 156.0 AND fuel-system == 6 AND bore == 27 AND stroke == 33 AND compression-ratio == 7.0 AND horsepower == 18 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 38 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 11 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 95.9 THEN target == 3"
+  expl: "IF wheel-base == 95.9 AND drive-wheels == 1 AND make == 11 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 0 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 0 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 88.6 AND length == 168.8 AND width == 64.1 AND height == 48.8 AND curb-weight == 2548.0 AND engine-type == 0 AND num-of-cylinders == 2 AND engine-size == 130.0 AND fuel-system == 5 AND bore == 23 AND stroke == 4 AND compression-ratio == 9.0 AND horsepower == 5 AND peak-rpm == 10 AND city-mpg == 21.0 AND highway-mpg == 27.0 AND price == 50 THEN target == 3"
+  dexp: "IF normalized-losses == 51 AND make == 0 THEN target == 3"
+  expl: "IF make == 0 AND normalized-losses == 51 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 28 AND make == 19 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 AND length == 168.7 AND width == 64.0 AND height == 52.6 AND curb-weight == 2265.0 AND engine-type == 0 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 5 AND bore == 14 AND stroke == 11 AND compression-ratio == 9.4 AND horsepower == 6 AND peak-rpm == 22 AND city-mpg == 26.0 AND highway-mpg == 29.0 AND price == 174 THEN target == 1"
+  dexp: "IF normalized-losses == 28 AND make == 19 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 3 AND make == 19 AND normalized-losses == 28 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 11 AND make == 14 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 1918.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 37.0 AND highway-mpg == 41.0 AND price == 107 THEN target == 1"
+  dexp: "IF normalized-losses == 11 THEN target == 1"
+  expl: "IF normalized-losses == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 11 AND make == 14 AND fuel-type == 1 AND aspiration == 1 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.8 AND curb-weight == 2128.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 98.0 AND fuel-system == 6 AND bore == 7 AND stroke == 23 AND compression-ratio == 7.6 AND horsepower == 2 AND peak-rpm == 16 AND city-mpg == 24.0 AND highway-mpg == 30.0 AND price == 149 THEN target == 1"
+  dexp: "IF normalized-losses == 11 THEN target == 1"
+  expl: "IF normalized-losses == 11 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 24 AND make == 14 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 93.7 AND length == 157.3 AND width == 63.8 AND height == 50.6 AND curb-weight == 1967.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 90.0 AND fuel-system == 1 AND bore == 4 AND stroke == 19 AND compression-ratio == 9.4 AND horsepower == 42 AND peak-rpm == 16 AND city-mpg == 31.0 AND highway-mpg == 38.0 AND price == 110 THEN target == 1"
+  dexp: "IF normalized-losses == 24 THEN target == 1"
+  expl: "IF normalized-losses == 24 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 15 AND make == 12 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 AND length == 165.3 AND width == 63.8 AND height == 54.5 AND curb-weight == 1889.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 1 AND bore == 11 AND stroke == 21 AND compression-ratio == 9.4 AND horsepower == 43 AND peak-rpm == 12 AND city-mpg == 31.0 AND highway-mpg == 37.0 AND price == 106 THEN target == 1"
+  dexp: "IF normalized-losses == 15 AND make == 12 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 94.5 THEN target == 1"
+  expl: "IF wheel-base == 94.5 AND engine-location == 0 AND drive-wheels == 1 AND body-style == 3 AND make == 12 AND normalized-losses == 15 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 20 AND make == 7 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 113.0 AND length == 199.6 AND width == 69.6 AND height == 52.8 AND curb-weight == 4066.0 AND engine-type == 0 AND num-of-cylinders == 3 AND engine-size == 258.0 AND fuel-system == 5 AND bore == 31 AND stroke == 35 AND compression-ratio == 8.1 AND horsepower == 27 AND peak-rpm == 7 AND city-mpg == 15.0 AND highway-mpg == 19.0 AND price == 88 THEN target == 3"
+  dexp: "IF normalized-losses == 20 THEN target == 3"
+  expl: "IF normalized-losses == 20 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 4 AND make == 5 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 2 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 96.5 AND length == 167.5 AND width == 65.2 AND height == 53.3 AND curb-weight == 2236.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 110.0 AND fuel-system == 0 AND bore == 11 AND stroke == 31 AND compression-ratio == 9.0 AND horsepower == 52 AND peak-rpm == 19 AND city-mpg == 27.0 AND highway-mpg == 33.0 AND price == 147 THEN target == 0"
+  dexp: "IF normalized-losses == 4 THEN target == 0"
+  expl: "IF normalized-losses == 4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 103.5 AND length == 193.8 AND width == 67.9 AND height == 53.7 AND curb-weight == 3380.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 209.0 AND fuel-system == 5 AND bore == 30 AND stroke == 23 AND compression-ratio == 8.0 AND horsepower == 28 AND peak-rpm == 15 AND city-mpg == 16.0 AND highway-mpg == 22.0 AND price == 98 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 2 THEN target == 0"
+  expl: "IF make == 2 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 26 AND make == 13 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 107.9 AND length == 186.7 AND width == 68.4 AND height == 56.7 AND curb-weight == 3020.0 AND engine-type == 2 AND num-of-cylinders == 2 AND engine-size == 120.0 AND fuel-system == 5 AND bore == 22 AND stroke == 17 AND compression-ratio == 8.4 AND horsepower == 58 AND peak-rpm == 10 AND city-mpg == 19.0 AND highway-mpg == 24.0 AND price == 19 THEN target == 0"
+  dexp: "IF normalized-losses == 26 AND make == 13 THEN target == 0"
+  expl: "IF make == 13 AND normalized-losses == 26 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 20 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 AND length == 180.2 AND width == 66.9 AND height == 55.1 AND curb-weight == 2579.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 97.0 AND fuel-system == 3 AND bore == 6 AND stroke == 24 AND compression-ratio == 23.0 AND horsepower == 42 AND peak-rpm == 5 AND city-mpg == 33.0 AND highway-mpg == 38.0 AND price == 34 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 20 AND body-style == 3 AND drive-wheels == 1 AND engine-location == 0 AND wheel-base == 100.4 THEN target == 0"
+  expl: "IF wheel-base == 100.4 AND engine-location == 0 AND body-style == 3 AND make == 20 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 7 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 2 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 102.0 AND length == 191.7 AND width == 70.6 AND height == 47.8 AND curb-weight == 3950.0 AND engine-type == 5 AND num-of-cylinders == 5 AND engine-size == 326.0 AND fuel-system == 5 AND bore == 25 AND stroke == 5 AND compression-ratio == 11.5 AND horsepower == 32 AND peak-rpm == 10 AND city-mpg == 13.0 AND highway-mpg == 17.0 AND price == 94 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 7 THEN target == 0"
+  expl: "IF make == 7 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 51 AND make == 2 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 103.5 AND length == 189.0 AND width == 66.9 AND height == 55.7 AND curb-weight == 3230.0 AND engine-type == 3 AND num-of-cylinders == 3 AND engine-size == 209.0 AND fuel-system == 5 AND bore == 30 AND stroke == 23 AND compression-ratio == 8.0 AND horsepower == 28 AND peak-rpm == 15 AND city-mpg == 16.0 AND highway-mpg == 22.0 AND price == 86 THEN target == 0"
+  dexp: "IF normalized-losses == 51 AND make == 2 THEN target == 0"
+  expl: "IF make == 2 AND normalized-losses == 51 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF normalized-losses == 47 AND make == 9 AND fuel-type == 0 AND aspiration == 1 AND num-of-doors == 1 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 110.0 AND length == 190.9 AND width == 70.3 AND height == 56.5 AND curb-weight == 3515.0 AND engine-type == 3 AND num-of-cylinders == 1 AND engine-size == 183.0 AND fuel-system == 3 AND bore == 26 AND stroke == 32 AND compression-ratio == 21.5 AND horsepower == 12 AND peak-rpm == 3 AND city-mpg == 22.0 AND highway-mpg == 25.0 AND price == 83 THEN target == -1"
+  dexp: "IF normalized-losses == 47 AND make == 9 AND body-style == 3 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 110.0 THEN target == -1"
+  expl: "IF wheel-base == 110.0 AND engine-location == 0 AND drive-wheels == 2 AND body-style == 3 AND make == 9 AND normalized-losses == 47 THEN target == -1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF normalized-losses == 37 AND make == 21 AND fuel-type == 1 AND aspiration == 0 AND num-of-doors == 1 AND body-style == 4 AND drive-wheels == 2 AND engine-location == 0 AND wheel-base == 104.3 AND length == 188.8 AND width == 67.2 AND height == 57.5 AND curb-weight == 3042.0 AND engine-type == 3 AND num-of-cylinders == 2 AND engine-size == 141.0 AND fuel-system == 5 AND bore == 35 AND stroke == 15 AND compression-ratio == 9.5 AND horsepower == 7 AND peak-rpm == 15 AND city-mpg == 24.0 AND highway-mpg == 28.0 AND price == 52 THEN target == -1"
+  dexp: "IF normalized-losses == 37 THEN target == -1"
+  expl: "IF normalized-losses == 37 THEN target == -1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 202
+tot # of expls: 202
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.25
+avg expl sz: 2.25
+max expl sz: 2.25
+Max expl sz: 7
+
+tot time: 0.04
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   1.41%
+max dxrd:  33.33%

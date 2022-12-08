@@ -1,0 +1,1868 @@
+MODEL:
+IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 31.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 33.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 35.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 36.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 68.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 71.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 73.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 74.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 76.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 78.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 83.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 10.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 50.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 66.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 15.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 16.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 17.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 60.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 18.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 20.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 21.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 38.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 22.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 24.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 28.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 30.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 46.0 THEN target == 1
+IF Patients_year_of_operation == 60, Age_of_patient_at_time_of_operation == 43.0 THEN target == 1
+IF Patients_year_of_operation == 61, Age_of_patient_at_time_of_operation == 47.0 THEN target == 1
+IF Patients_year_of_operation == 60, Age_of_patient_at_time_of_operation == 45.0 THEN target == 1
+IF Patients_year_of_operation == 61, Age_of_patient_at_time_of_operation == 48.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 49.0, Patients_year_of_operation == 61 THEN target == 1
+IF Patients_year_of_operation == 60, Age_of_patient_at_time_of_operation == 47.0 THEN target == 1
+IF Patients_year_of_operation == 60, Age_of_patient_at_time_of_operation == 49.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 61.0, Patients_year_of_operation == 64 THEN target == 1
+IF Patients_year_of_operation == 60, Age_of_patient_at_time_of_operation == 52.0 THEN target == 1
+IF Patients_year_of_operation == 61, Age_of_patient_at_time_of_operation == 52.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 49.0, Patients_year_of_operation != 63 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 55.0, Patients_year_of_operation == 63 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 55.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 61.0, Patients_year_of_operation == 65 THEN target == 1
+IF Patients_year_of_operation == 60, Age_of_patient_at_time_of_operation == 53.0 THEN target == 1
+IF Patients_year_of_operation == 61, Age_of_patient_at_time_of_operation == 57.0 THEN target == 1
+IF Patients_year_of_operation == 63, Age_of_patient_at_time_of_operation == 42.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 44.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 39.0, Patients_year_of_operation == 63 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 51.0, Patients_year_of_operation != 59 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 54.0, Patients_year_of_operation == 62 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 61.0, Patients_year_of_operation != 68 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 62.0, Patients_year_of_operation != 58 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 48.0 THEN target == 1
+IF Patients_year_of_operation == 63, Age_of_patient_at_time_of_operation == 44.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 44.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 49.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 49.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 52.0 THEN target == 1
+IF Patients_year_of_operation == 63, Age_of_patient_at_time_of_operation == 52.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 53.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 54.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 0.0, Age_of_patient_at_time_of_operation == 56.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 41.0, Patients_year_of_operation == 59 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 43.0, Patients_year_of_operation == 63 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 45.0, Patients_year_of_operation == 66 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 45.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 52.0, Patients_year_of_operation != 62 THEN target == 2
+IF Patients_year_of_operation == 66, Age_of_patient_at_time_of_operation == 39.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 39.0 THEN target == 1
+IF Patients_year_of_operation == 66, Age_of_patient_at_time_of_operation != 34.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 56.0 THEN target == 2
+IF Patients_year_of_operation == 66 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 12.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 14.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 57.0, Patients_year_of_operation == 63 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 57.0, Patients_year_of_operation != 64 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 63.0, Patients_year_of_operation != 60 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 63.0 THEN target == 2
+IF Patients_year_of_operation == 60 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 34.0 THEN target == 2
+IF Patients_year_of_operation == 63 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 72.0 THEN target == 1
+IF Patients_year_of_operation == 65, Age_of_patient_at_time_of_operation == 42.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 41.0, Patients_year_of_operation == 65 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 65.0, Patients_year_of_operation == 59 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 53.0, Patients_year_of_operation != 58 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 53.0 THEN target == 1
+IF Patients_year_of_operation == 65, Age_of_patient_at_time_of_operation == 47.0 THEN target == 2
+IF Patients_year_of_operation == 65 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 69.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 47.0, Patients_year_of_operation == 62 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 47.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 57.0, Number_of_positive_axillary_nodes_detected != 0.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 57.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 65.0, Patients_year_of_operation == 61 THEN target == 2
+IF Patients_year_of_operation == 61 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 67.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 1
+IF Patients_year_of_operation == 69 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 65.0, Patients_year_of_operation != 58 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 42.0, Patients_year_of_operation != 59 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 70.0, Patients_year_of_operation != 58 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 70.0 THEN target == 2
+IF Patients_year_of_operation == 67 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 48.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 41.0, Patients_year_of_operation != 64 THEN target == 1
+IF Patients_year_of_operation == 68, Age_of_patient_at_time_of_operation != 61.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 54.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected == 1.0, Age_of_patient_at_time_of_operation == 52.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 52.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 3.0, Age_of_patient_at_time_of_operation == 46.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 46.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 2.0, Age_of_patient_at_time_of_operation != 43.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 42.0 THEN target == 2
+IF Patients_year_of_operation == 59, Age_of_patient_at_time_of_operation != 51.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 43.0, Number_of_positive_axillary_nodes_detected != 0.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 43.0 THEN target == 2
+IF Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 51.0 THEN target == 1
+IF Number_of_positive_axillary_nodes_detected != 0.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 61.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 41.0 THEN target == 1
+IF Age_of_patient_at_time_of_operation == 62.0 THEN target == 2
+IF Age_of_patient_at_time_of_operation == 65.0 THEN target == 2
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 149
+avg # of vars: 149.00
+max # of vars: 149
+min # of clauses: 1929
+avg # of clauses: 1950.00
+max # of clauses: 1971
+
+EXPLANATIONS:
+  inst: "IF Age_of_patient_at_time_of_operation == 30.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 30.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 30.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 30.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 31.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 31.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 31.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 31.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 31.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 31.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 33.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 10.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 33.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 33.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 33.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 33.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 33.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 59 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Patients_year_of_operation == 66 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 30.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 30.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 30.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 10.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 10.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 10.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Patients_year_of_operation == 67 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 34.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 34.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 34.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 35.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 35.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 35.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 35.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 35.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 35.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 36.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 36.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 36.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 36.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 36.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 36.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 37.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 37.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 37.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 37.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 37.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 15.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 37.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 21.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 21.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 21.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 11.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 38.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 38.0 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 5.0 AND Age_of_patient_at_time_of_operation == 38.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 39.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 39.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 39.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 39.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 39.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 39.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 39.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 39.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 39.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 39.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 39.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 39.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 39.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 40.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 40.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 40.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 40.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 23.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 69 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 41.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 41.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 69 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 59 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 61 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 20.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 20.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 20.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 42.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 42.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 52.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 52.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 52.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 59 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 14.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 43.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 43.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 44.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 44.0 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Patients_year_of_operation == 64 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Age_of_patient_at_time_of_operation == 44.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 44.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 44.0 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Patients_year_of_operation == 58 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Age_of_patient_at_time_of_operation == 44.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 44.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 44.0 AND Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 19.0 AND Age_of_patient_at_time_of_operation == 44.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 44.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 44.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 44.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 44.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 44.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 44.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 16.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 44.0 AND Number_of_positive_axillary_nodes_detected == 16.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 16.0 AND Age_of_patient_at_time_of_operation == 44.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 6.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 14.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 45.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 45.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 68 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 58 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 69 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 5.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 20.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 20.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 20.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 46.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 46.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 46.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 23.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 6.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 68 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 47.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 12.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 47.0 AND Number_of_positive_axillary_nodes_detected == 12.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 12.0 AND Age_of_patient_at_time_of_operation == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 48.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 48.0 AND Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 11.0 AND Age_of_patient_at_time_of_operation == 48.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 48.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 48.0 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Patients_year_of_operation == 67 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Age_of_patient_at_time_of_operation == 48.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 48.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 48.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 48.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 48.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 48.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 48.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 48.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 48.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 48.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 48.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 10.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 10.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 10.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 49.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 49.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 49.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 13.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 6.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 50.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 50.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 51.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 51.0 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 13.0 AND Age_of_patient_at_time_of_operation == 51.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 51.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 51.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 59 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 51.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 51.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 51.0 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 7.0 AND Age_of_patient_at_time_of_operation == 51.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 51.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 51.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 51.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 51.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 51.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 51.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 51.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 51.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 51.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 69 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 59 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 62 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 66 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 69 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 5.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 52.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 52.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 68 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 52.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 65 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 59 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 9.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 24.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 24.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 24.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 12.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 12.0 AND Patients_year_of_operation == 65 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 12.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 61 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 53.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 53.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 11.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 11.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 23.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 23.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 5.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Patients_year_of_operation == 68 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 46.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 46.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 46.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Patients_year_of_operation == 69 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 7.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 19.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 54.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 54.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Patients_year_of_operation == 63 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 15.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 15.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 15.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 18.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 18.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 18.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 69 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 22.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 22.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 22.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 55.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 55.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 56.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 56.0 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Patients_year_of_operation == 65 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Age_of_patient_at_time_of_operation == 56.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 56.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 56.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 56.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 56.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 56.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 56.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 56.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 56.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 56.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 56.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 56.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 56.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 5.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 14.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Patients_year_of_operation == 62 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 64 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 9.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 69 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 69 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 57.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 57.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 57.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 58.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 58.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 35.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 7.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 59.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 59.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 60.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 17.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 60.0 AND Number_of_positive_axillary_nodes_detected == 17.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 17.0 AND Age_of_patient_at_time_of_operation == 60.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 60.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 60.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 60.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 60.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 60.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 60.0 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 60.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 25.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 60.0 AND Number_of_positive_axillary_nodes_detected == 25.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 25.0 AND Age_of_patient_at_time_of_operation == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 60.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 60.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 5.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 5.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 68 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 61.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 61.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 68 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 61.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 62.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 62.0 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 13.0 AND Age_of_patient_at_time_of_operation == 62.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 62.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 62.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 62.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 62.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 62.0 AND Number_of_positive_axillary_nodes_detected == 19.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 19.0 AND Age_of_patient_at_time_of_operation == 62.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 62.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 6.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 62.0 AND Number_of_positive_axillary_nodes_detected == 6.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 6.0 AND Age_of_patient_at_time_of_operation == 62.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 62.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 62.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 60 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 62 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 9.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 9.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 9.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 63.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 28.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 63.0 AND Number_of_positive_axillary_nodes_detected == 28.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 28.0 AND Age_of_patient_at_time_of_operation == 63.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 64.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 64.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 22.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 64.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 64.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 64.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 64.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 61 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 22.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 22.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 22.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 15.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 15.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 15.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 2.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 65.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 65.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 66.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 66.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 66.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 66.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 66.0 AND Number_of_positive_axillary_nodes_detected == 13.0 THEN target == 2"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 13.0 AND Age_of_patient_at_time_of_operation == 66.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 66.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 66.0 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 66.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 66.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 66.0 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  expl: "IF Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 66.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 67.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 67.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 64 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 67.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 67.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 67.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 63 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 67.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 67.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 67.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 67.0 AND Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 67.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 61 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 61 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 67.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 67.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 68.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 68.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 68.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 68.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 68.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 68.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 69.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 69.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 67 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 69.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 69.0 AND Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 69.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 60 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 60 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 69.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 69.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 69.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 69.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 69.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 69.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 69.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 4.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Patients_year_of_operation == 58 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 4.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 14.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Patients_year_of_operation == 66 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 66 AND Number_of_positive_axillary_nodes_detected == 14.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 68 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 8.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Patients_year_of_operation == 59 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 59 AND Number_of_positive_axillary_nodes_detected == 8.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 70.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 70.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 70.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 71.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 71.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 71.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 72.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 72.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 63 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 72.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 72.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 72.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 58 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 72.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 72.0 AND Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 72.0 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Patients_year_of_operation == 64 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 64 AND Number_of_positive_axillary_nodes_detected == 0.0 AND Age_of_patient_at_time_of_operation == 72.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 72.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 72.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 67 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 72.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 73.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 73.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 73.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 73.0 AND Patients_year_of_operation == 68 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 73.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 73.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 74.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 74.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 74.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 74.0 AND Patients_year_of_operation == 63 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 74.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 74.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 75.0 AND Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 75.0 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Patients_year_of_operation == 62 THEN target == 2"
+  expl: "IF Patients_year_of_operation == 62 AND Number_of_positive_axillary_nodes_detected == 1.0 AND Age_of_patient_at_time_of_operation == 75.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 76.0 AND Patients_year_of_operation == 67 AND Number_of_positive_axillary_nodes_detected == 0.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 76.0 THEN target == 1"
+  expl: "IF Age_of_patient_at_time_of_operation == 76.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 77.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 3.0 THEN target == 1"
+  dexp: "IF Age_of_patient_at_time_of_operation == 77.0 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Patients_year_of_operation == 65 THEN target == 1"
+  expl: "IF Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 3.0 AND Age_of_patient_at_time_of_operation == 77.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 78.0 AND Patients_year_of_operation == 65 AND Number_of_positive_axillary_nodes_detected == 1.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 78.0 THEN target == 2"
+  expl: "IF Age_of_patient_at_time_of_operation == 78.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Age_of_patient_at_time_of_operation == 83.0 AND Patients_year_of_operation == 58 AND Number_of_positive_axillary_nodes_detected == 2.0 THEN target == 2"
+  dexp: "IF Age_of_patient_at_time_of_operation == 83.0 THEN target == 2"
+  expl: "IF Age_of_patient_at_time_of_operation == 83.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 283
+tot # of expls: 283
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.31
+avg expl sz: 2.31
+max expl sz: 2.31
+Max expl sz: 3
+
+tot time: 0.04
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   4.36%
+max dxrd:  33.33%

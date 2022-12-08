@@ -1,0 +1,1086 @@
+MODEL:
+IF target == 0 THEN botright_brown == 0
+IF target == 1 THEN botright_brown == 0
+IF target == 6 THEN botright_brown == 0
+IF bars == 1 THEN botright_brown == 0
+IF bars == 2 THEN botright_brown == 0
+IF stripes != 0 THEN botright_brown == 0
+IF colors == 1 THEN botright_brown == 0
+IF colors == 3 THEN botright_brown == 0
+IF blue != 0 THEN botright_brown == 0
+IF gold != 0 THEN botright_brown == 0
+IF bars != 0 THEN botright_brown == 1
+IF target != 2 THEN botright_brown == 0
+IF red != 0 THEN botright_brown == 0
+IF green == 0 THEN botright_brown == 1
+IF target == 2 THEN botright_brown == 0
+IF TRUE THEN botright_brown == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 59
+avg # of vars: 59.00
+max # of vars: 59
+min # of clauses: 200
+avg # of clauses: 206.00
+max # of clauses: 212
+
+EXPLANATIONS:
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 5 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 2 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 2 THEN botright_brown == 0"
+  expl: "IF bars == 2 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 5 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 2 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 2 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 1 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 1 AND colors == 5 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 6 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 1 THEN botright_brown == 0"
+  expl: "IF red == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 0 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 1 THEN botright_brown == 0"
+  expl: "IF red == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 2 AND colors == 8 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 1 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 1 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 5 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 5 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 0 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 22 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 1 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 4 AND blue == 0 AND gold == 1 THEN botright_brown == 0"
+  expl: "IF gold == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 3 AND colors == 5 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 2 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 2 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 1 AND quarters == 0 AND sunstars == 3 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 2 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 1 AND stripes == 2 AND colors == 5 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 1 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 4 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 1 AND stripes == 0 AND colors == 5 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 1 THEN botright_brown == 0"
+  expl: "IF bars == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF colors == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 2 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 1 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 5 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 1 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 4 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 0 AND green == 1 THEN botright_brown == 0"
+  expl: "IF green == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 15 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 5 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 5 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 0 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 4 AND blue == 1 THEN botright_brown == 0"
+  expl: "IF blue == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 10 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 1 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 7 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 2 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 5 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 0 AND green == 1 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 5 AND colors == 4 AND red == 1 AND green == 1 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 5 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 1 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 1 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 9 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 7 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 7 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF colors == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 1 AND stripes == 2 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 1 THEN botright_brown == 0"
+  expl: "IF bars == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 2 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 1 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 5 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 2 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 2 THEN botright_brown == 0"
+  expl: "IF stripes == 2 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 3 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 1 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF colors == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 0 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 1 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 1 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 1 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 5 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 5 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 2 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 2 THEN botright_brown == 0"
+  expl: "IF stripes == 2 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 2 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 2 THEN botright_brown == 0"
+  expl: "IF bars == 2 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 11 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 1 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 11 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 1 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 1 THEN botright_brown == 0"
+  expl: "IF colors == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 2 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 1 AND stripes == 2 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 14 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 1 AND sunstars == 1 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 14 THEN botright_brown == 0"
+  expl: "IF stripes == 14 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF colors == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF colors == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 2 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 1 THEN botright_brown == 0"
+  expl: "IF gold == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 4 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 2 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 2 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 1 AND triangle == 1 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 7 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 2 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 1 THEN botright_brown == 0"
+  expl: "IF red == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 5 AND colors == 5 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 5 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 1 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 6 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 4 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 1 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 1 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 1"
+  dexp: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 THEN botright_brown == 1"
+  expl: "IF gold == 0 AND blue == 0 AND colors == 2 AND stripes == 0 AND bars == 3 AND target == 2 THEN botright_brown == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 5 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 1 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 5 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 2 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 2 THEN botright_brown == 0"
+  expl: "IF stripes == 2 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 1 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 1 THEN botright_brown == 0"
+  expl: "IF bars == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 4 AND sunstars == 2 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 5 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 1 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 4 AND blue == 0 AND gold == 1 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 3 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 4 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 2 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 0 AND colors == 5 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 5 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 1 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 1"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 0 AND green == 0 THEN botright_brown == 1"
+  expl: "IF green == 0 AND red == 0 AND gold == 0 AND blue == 0 AND colors == 2 AND stripes == 0 AND bars == 0 AND target == 2 THEN botright_brown == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 3 AND stripes == 0 AND colors == 7 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 2 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 4 AND blue == 0 AND gold == 1 THEN botright_brown == 0"
+  expl: "IF gold == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 2 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 2 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 1 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 0 AND green == 1 THEN botright_brown == 0"
+  expl: "IF green == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 3 AND stripes == 0 AND colors == 3 THEN botright_brown == 0"
+  expl: "IF colors == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 3 AND colors == 3 AND red == 0 AND green == 1 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 0 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 5 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 1 THEN botright_brown == 0"
+  expl: "IF blue == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 3 AND colors == 5 AND red == 1 AND green == 1 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 1 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 1 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 7 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 5 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 2 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 5 AND stripes == 0 AND colors == 4 AND red == 0 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 5 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 5 AND colors == 7 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 2 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 3 THEN botright_brown == 0"
+  expl: "IF stripes == 3 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 0 AND green == 1 AND blue == 1 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 4 AND blue == 1 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 0 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 1 THEN botright_brown == 0"
+  expl: "IF red == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 1 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 0 AND stripes == 0 AND colors == 2 AND blue == 0 AND gold == 0 AND red == 1 THEN botright_brown == 0"
+  expl: "IF red == 1 AND bars == 0 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 1 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 5 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 1 AND sunstars == 9 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 1 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 1 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 2 AND bars == 1 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 1 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 2 AND bars == 1 THEN botright_brown == 0"
+  expl: "IF bars == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 6 AND colors == 5 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 6 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 1 AND saltires == 1 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 9 AND colors == 3 AND red == 0 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 1 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 6 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 1 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 1 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 13 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 1 AND sunstars == 50 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 1 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 1 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 1 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 2 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 1 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 1 AND botright_green == 0 AND botright_red == 0 AND botright_white == 1 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 0 AND bars == 0 AND stripes == 3 AND colors == 7 AND red == 1 AND green == 1 AND blue == 1 AND gold == 1 AND white == 1 AND black == 1 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 7 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 1 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 0 THEN botright_brown == 0"
+  expl: "IF target == 0 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 0 AND colors == 2 AND red == 1 AND green == 0 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 1 AND topleft_green == 0 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 1 AND bars == 0 AND stripes == 0 AND colors == 3 AND red == 1 AND green == 0 AND blue == 1 AND gold == 0 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 1 AND sunstars == 5 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 1 THEN botright_brown == 0"
+  expl: "IF target == 1 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 6 AND bars == 0 AND stripes == 3 AND colors == 4 AND red == 1 AND green == 0 AND blue == 1 AND gold == 1 AND white == 1 AND black == 0 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 0 AND text == 0 AND mainhue_green == 0 AND mainhue_red == 1 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 0 AND topleft_blue == 1 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 1 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 6 THEN botright_brown == 0"
+  expl: "IF target == 6 THEN botright_brown == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 0 AND black == 0 AND orange == 1 AND circles == 1 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 0 AND colors == 4 AND blue == 0 AND gold == 1 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 4 AND red == 1 AND green == 1 AND blue == 0 AND gold == 0 AND white == 0 AND black == 1 AND orange == 1 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 0 AND crescent == 0 AND triangle == 0 AND icon == 0 AND animate == 1 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 0 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 1"
+  dexp: "IF target == 5 AND bars == 3 AND stripes == 0 AND colors == 4 AND blue == 0 AND gold == 0 THEN botright_brown == 1"
+  expl: "IF gold == 0 AND blue == 0 AND colors == 4 AND stripes == 0 AND bars == 3 AND target == 5 THEN botright_brown == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF target == 5 AND bars == 0 AND stripes == 7 AND colors == 5 AND red == 1 AND green == 1 AND blue == 0 AND gold == 1 AND white == 1 AND black == 1 AND orange == 0 AND circles == 0 AND crosses == 0 AND saltires == 0 AND quarters == 0 AND sunstars == 1 AND crescent == 0 AND triangle == 1 AND icon == 1 AND animate == 1 AND text == 0 AND mainhue_green == 1 AND mainhue_red == 0 AND mainhue_blue == 0 AND mainhue_gold == 0 AND mainhue_white == 0 AND mainhue_orange == 0 AND mainhue_black == 0 AND mainhue_brown == 0 AND topleft_black == 0 AND topleft_red == 0 AND topleft_green == 1 AND topleft_blue == 0 AND topleft_white == 0 AND topleft_orange == 0 AND topleft_gold == 0 AND botright_green == 1 AND botright_red == 0 AND botright_white == 0 AND botright_black == 0 AND botright_blue == 0 AND botright_gold == 0 AND botright_orange == 0 THEN botright_brown == 0"
+  dexp: "IF target == 5 AND bars == 0 AND stripes == 7 THEN botright_brown == 0"
+  expl: "IF bars == 0 AND target == 5 THEN botright_brown == 0"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 173
+tot # of expls: 173
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.25
+avg expl sz: 1.25
+max expl sz: 1.25
+Max expl sz: 8
+
+tot time: 0.02
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  20.63%
+max dxrd:  83.33%

@@ -1,0 +1,1405 @@
+MODEL:
+IF RI == 1.518 THEN target == 2
+IF RI == 1.5159 THEN target == 2
+IF RI == 1.5161 THEN target == 3
+IF RI == 1.5166 THEN target == 2
+IF RI == 1.5167 THEN target == 3
+IF RI == 1.5169 THEN target == 2
+IF RI == 1.5173 THEN target == 2
+IF RI == 1.5175 THEN target == 1
+IF RI == 1.5182 THEN target == 2
+IF RI == 1.5186 THEN target == 2
+IF RI == 1.5221 THEN target == 1
+IF RI == 1.5232 THEN target == 1
+IF RI == 1.51131 THEN target == 7
+IF RI == 1.51215 THEN target == 1
+IF RI == 1.51316 THEN target == 5
+IF RI == 1.51321 THEN target == 5
+IF RI == 1.51409 THEN target == 2
+IF RI == 1.51531 THEN target == 7
+IF RI == 1.51545 THEN target == 7
+IF RI == 1.51556 THEN target == 7
+IF RI == 1.51567 THEN target == 1
+IF RI == 1.51569 THEN target == 2
+IF RI == 1.51571 THEN target == 1
+IF RI == 1.51588 THEN target == 2
+IF RI == 1.51589 THEN target == 1
+IF RI == 1.51593 THEN target == 2
+IF RI == 1.51594 THEN target == 2
+IF RI == 1.51605 THEN target == 2
+IF RI == 1.51625 THEN target == 2
+IF RI == 1.51631 THEN target == 2
+IF RI == 1.51643 THEN target == 3
+IF RI == 1.51651 THEN target == 7
+IF RI == 1.51653 THEN target == 7
+IF RI == 1.51655 THEN target == 3
+IF RI == 1.51662 THEN target == 2
+IF RI == 1.51663 THEN target == 2
+IF RI == 1.51665 THEN target == 3
+IF RI == 1.51666 THEN target == 5
+IF RI == 1.51673 THEN target == 2
+IF RI == 1.51685 THEN target == 7
+IF RI == 1.51689 THEN target == 2
+IF RI == 1.51694 THEN target == 3
+IF RI == 1.51707 THEN target == 2
+IF RI == 1.51708 THEN target == 2
+IF RI == 1.51709 THEN target == 2
+IF RI == 1.51719 THEN target == 7
+IF RI == 1.51721 THEN target == 1
+IF RI == 1.51727 THEN target == 7
+IF RI == 1.51732 THEN target == 7
+IF RI == 1.51735 THEN target == 1
+IF RI == 1.51736 THEN target == 1
+IF RI == 1.51742 THEN target == 1
+IF RI == 1.51747 THEN target == 1
+IF RI == 1.51748 THEN target == 1
+IF RI == 1.51751 THEN target == 1
+IF RI == 1.51754 THEN target == 1
+IF RI == 1.51755 THEN target == 1
+IF RI == 1.51761 THEN target == 1
+IF RI == 1.51763 THEN target == 1
+IF RI == 1.51764 THEN target == 1
+IF RI == 1.51768 THEN target == 1
+IF RI == 1.51776 THEN target == 3
+IF RI == 1.51778 THEN target == 1
+IF RI == 1.51783 THEN target == 1
+IF RI == 1.51784 THEN target == 1
+IF RI == 1.51789 THEN target == 2
+IF RI == 1.51793 THEN target == 1
+IF RI == 1.51796 THEN target == 3
+IF RI == 1.51797 THEN target == 1
+IF RI == 1.51806 THEN target == 2
+IF RI == 1.51808 THEN target == 1
+IF RI == 1.51811 THEN target == 2
+IF RI == 1.51813 THEN target == 2
+IF RI == 1.51818 THEN target == 2
+IF RI == 1.51824 THEN target == 1
+IF RI == 1.51829 THEN target == 2
+IF RI == 1.51831 THEN target == 7
+IF RI == 1.51832 THEN target == 3
+IF RI == 1.51837 THEN target == 1
+IF RI == 1.51839 THEN target == 2
+IF RI == 1.51841 THEN target == 2
+IF RI == 1.51846 THEN target == 2
+IF RI == 1.51847 THEN target == 2
+IF RI == 1.51851 THEN target == 2
+IF RI == 1.51869 THEN target == 1
+IF RI == 1.51892 THEN target == 2
+IF RI == 1.51905 THEN target == 1
+IF RI == 1.51915 THEN target == 5
+IF RI == 1.51918 THEN target == 1
+IF RI == 1.51926 THEN target == 1
+IF RI == 1.51934 THEN target == 3
+IF RI == 1.51969 THEN target == 5
+IF RI == 1.51977 THEN target == 1
+IF RI == 1.51994 THEN target == 5
+IF RI == 1.52043 THEN target == 5
+IF RI == 1.52065 THEN target == 7
+IF RI == 1.52068 THEN target == 2
+IF RI == 1.52081 THEN target == 2
+IF RI == 1.52101 THEN target == 1
+IF RI == 1.52119 THEN target == 5
+IF RI == 1.52121 THEN target == 3
+IF RI == 1.52127 THEN target == 3
+IF RI == 1.52152 THEN target == 1
+IF RI == 1.52171 THEN target == 5
+IF RI == 1.52177 THEN target == 2
+IF RI == 1.52196 THEN target == 1
+IF RI == 1.52213 THEN target == 1
+IF RI == 1.52222 THEN target == 2
+IF RI == 1.52223 THEN target == 1
+IF RI == 1.52365 THEN target == 7
+IF RI == 1.52369 THEN target == 5
+IF RI == 1.52475 THEN target == 2
+IF RI == 1.52614 THEN target == 2
+IF RI == 1.52664 THEN target == 2
+IF RI == 1.52667 THEN target == 1
+IF RI == 1.52725 THEN target == 2
+IF RI == 1.52739 THEN target == 2
+IF RI == 1.52777 THEN target == 2
+IF RI == 1.53125 THEN target == 2
+IF RI == 1.53393 THEN target == 2
+IF RI == 1.5165799999999998 THEN target == 7
+IF RI == 1.5183799999999998 THEN target == 7
+IF RI == 1.5184799999999998 THEN target == 2
+IF RI == 1.5190000000000001 THEN target == 1
+IF RI == 1.5205799999999998 THEN target == 5
+IF RI == 1.5217200000000002 THEN target == 1
+IF RI == 1.5230000000000001 THEN target == 1
+IF Na == 12.2 THEN target == 2
+IF RI == 1.5174299999999998 THEN target == 1
+IF Na == 12.45 THEN target == 1
+IF RI == 1.51769 THEN target == 3
+IF Na == 12.79 THEN target == 1
+IF RI == 1.51596 THEN target == 2
+IF Na == 12.89 THEN target == 2
+IF RI == 1.51711 THEN target == 7
+IF Na == 13.01 THEN target == 2
+IF RI == 1.51618 THEN target == 1
+IF Na == 13.04 THEN target == 3
+IF RI == 1.51646 THEN target == 2
+IF Na == 13.4 THEN target == 2
+IF Na == 13.21 THEN target == 1
+IF RI == 1.51779 THEN target == 3
+IF Na == 13.44 THEN target == 2
+IF RI == 1.51645 THEN target == 7
+IF Na == 13.88 THEN target == 7
+IF RI != 1.51514 THEN target == 2
+IF Na == 14.01 THEN target == 5
+IF RI == 1.51514 THEN target == 7
+IF TRUE THEN target == 2
+
+ENCODINDS:
+# of classes: 5
+min # of vars: 903
+avg # of vars: 903.00
+max # of vars: 903
+min # of clauses: 54331
+avg # of clauses: 54348.80
+max # of clauses: 54375
+
+EXPLANATIONS:
+  inst: "IF RI == 1.52101 AND Na == 13.64 AND Mg == 4.49 AND Al == 1.1 AND Si == 71.78 AND K == 0.06 AND Ca == 8.75 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.52101 THEN target == 1"
+  expl: "IF RI == 1.52101 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51761 AND Na == 13.89 AND Mg == 3.6 AND Al == 1.36 AND Si == 72.73 AND K == 0.48 AND Ca == 7.83 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51761 THEN target == 1"
+  expl: "IF RI == 1.51761 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51618 AND Na == 13.53 AND Mg == 3.55 AND Al == 1.54 AND Si == 72.99 AND K == 0.39 AND Ca == 7.78 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51618 AND Na == 13.53 THEN target == 1"
+  expl: "IF Na == 13.53 AND RI == 1.51618 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51766 AND Na == 13.21 AND Mg == 3.69 AND Al == 1.29 AND Si == 72.61 AND K == 0.57 AND Ca == 8.22 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51766 AND Na == 13.21 THEN target == 1"
+  expl: "IF Na == 13.21 AND RI == 1.51766 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51742 AND Na == 13.27 AND Mg == 3.62 AND Al == 1.24 AND Si == 73.08 AND K == 0.55 AND Ca == 8.07 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51742 THEN target == 1"
+  expl: "IF RI == 1.51742 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51596 AND Na == 12.79 AND Mg == 3.61 AND Al == 1.62 AND Si == 72.97 AND K == 0.64 AND Ca == 8.07 AND Ba == 0.0 AND Fe == 0.26 THEN target == 1"
+  dexp: "IF RI == 1.51596 AND Na == 12.79 THEN target == 1"
+  expl: "IF Na == 12.79 AND RI == 1.51596 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5174299999999998 AND Na == 13.3 AND Mg == 3.6 AND Al == 1.14 AND Si == 73.09 AND K == 0.58 AND Ca == 8.17 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.5174299999999998 AND Na == 13.3 THEN target == 1"
+  expl: "IF Na == 13.3 AND RI == 1.5174299999999998 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51756 AND Na == 13.15 AND Mg == 3.61 AND Al == 1.05 AND Si == 73.24 AND K == 0.57 AND Ca == 8.24 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51756 AND Na == 13.15 THEN target == 2"
+  expl: "IF Na == 13.15 AND RI == 1.51756 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51918 AND Na == 14.04 AND Mg == 3.58 AND Al == 1.37 AND Si == 72.08 AND K == 0.56 AND Ca == 8.3 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51918 THEN target == 1"
+  expl: "IF RI == 1.51918 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51755 AND Na == 13.0 AND Mg == 3.6 AND Al == 1.36 AND Si == 72.99 AND K == 0.57 AND Ca == 8.4 AND Ba == 0.0 AND Fe == 0.11 THEN target == 1"
+  dexp: "IF RI == 1.51755 THEN target == 1"
+  expl: "IF RI == 1.51755 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51571 AND Na == 12.72 AND Mg == 3.46 AND Al == 1.56 AND Si == 73.2 AND K == 0.67 AND Ca == 8.09 AND Ba == 0.0 AND Fe == 0.24 THEN target == 1"
+  dexp: "IF RI == 1.51571 THEN target == 1"
+  expl: "IF RI == 1.51571 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51763 AND Na == 12.8 AND Mg == 3.66 AND Al == 1.27 AND Si == 73.01 AND K == 0.6 AND Ca == 8.56 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51763 THEN target == 1"
+  expl: "IF RI == 1.51763 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51589 AND Na == 12.88 AND Mg == 3.43 AND Al == 1.4 AND Si == 73.28 AND K == 0.69 AND Ca == 8.05 AND Ba == 0.0 AND Fe == 0.24 THEN target == 1"
+  dexp: "IF RI == 1.51589 THEN target == 1"
+  expl: "IF RI == 1.51589 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51748 AND Na == 12.86 AND Mg == 3.56 AND Al == 1.27 AND Si == 73.21 AND K == 0.54 AND Ca == 8.38 AND Ba == 0.0 AND Fe == 0.17 THEN target == 1"
+  dexp: "IF RI == 1.51748 THEN target == 1"
+  expl: "IF RI == 1.51748 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51763 AND Na == 12.61 AND Mg == 3.59 AND Al == 1.31 AND Si == 73.29 AND K == 0.58 AND Ca == 8.5 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51763 THEN target == 1"
+  expl: "IF RI == 1.51763 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51761 AND Na == 12.81 AND Mg == 3.54 AND Al == 1.23 AND Si == 73.24 AND K == 0.58 AND Ca == 8.39 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51761 THEN target == 1"
+  expl: "IF RI == 1.51761 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51784 AND Na == 12.68 AND Mg == 3.67 AND Al == 1.16 AND Si == 73.11 AND K == 0.61 AND Ca == 8.7 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51784 THEN target == 1"
+  expl: "IF RI == 1.51784 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52196 AND Na == 14.36 AND Mg == 3.85 AND Al == 0.89 AND Si == 71.36 AND K == 0.15 AND Ca == 9.15 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.52196 THEN target == 1"
+  expl: "IF RI == 1.52196 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51911 AND Na == 13.9 AND Mg == 3.73 AND Al == 1.18 AND Si == 72.12 AND K == 0.06 AND Ca == 8.89 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51911 AND Na == 13.9 THEN target == 2"
+  expl: "IF Na == 13.9 AND RI == 1.51911 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51735 AND Na == 13.02 AND Mg == 3.54 AND Al == 1.69 AND Si == 72.73 AND K == 0.54 AND Ca == 8.44 AND Ba == 0.0 AND Fe == 0.07 THEN target == 1"
+  dexp: "IF RI == 1.51735 THEN target == 1"
+  expl: "IF RI == 1.51735 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5175 AND Na == 12.82 AND Mg == 3.55 AND Al == 1.49 AND Si == 72.75 AND K == 0.54 AND Ca == 8.52 AND Ba == 0.0 AND Fe == 0.19 THEN target == 1"
+  dexp: "IF RI == 1.5175 THEN target == 1"
+  expl: "IF RI == 1.5175 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51966 AND Na == 14.77 AND Mg == 3.75 AND Al == 0.29 AND Si == 72.02 AND K == 0.03 AND Ca == 9.0 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51966 AND Na == 14.77 THEN target == 2"
+  expl: "IF Na == 14.77 AND RI == 1.51966 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51736 AND Na == 12.78 AND Mg == 3.62 AND Al == 1.29 AND Si == 72.79 AND K == 0.59 AND Ca == 8.7 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51736 THEN target == 1"
+  expl: "IF RI == 1.51736 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51751 AND Na == 12.81 AND Mg == 3.57 AND Al == 1.35 AND Si == 73.02 AND K == 0.62 AND Ca == 8.59 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51751 THEN target == 1"
+  expl: "IF RI == 1.51751 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5172 AND Na == 13.38 AND Mg == 3.5 AND Al == 1.15 AND Si == 72.85 AND K == 0.5 AND Ca == 8.43 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5172 AND Na == 13.38 THEN target == 2"
+  expl: "IF Na == 13.38 AND RI == 1.5172 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51764 AND Na == 12.98 AND Mg == 3.54 AND Al == 1.21 AND Si == 73.0 AND K == 0.65 AND Ca == 8.53 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51764 THEN target == 1"
+  expl: "IF RI == 1.51764 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51793 AND Na == 13.21 AND Mg == 3.48 AND Al == 1.41 AND Si == 72.64 AND K == 0.59 AND Ca == 8.43 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51793 THEN target == 1"
+  expl: "IF RI == 1.51793 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51721 AND Na == 12.87 AND Mg == 3.48 AND Al == 1.33 AND Si == 73.04 AND K == 0.56 AND Ca == 8.43 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51721 THEN target == 1"
+  expl: "IF RI == 1.51721 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51768 AND Na == 12.56 AND Mg == 3.52 AND Al == 1.43 AND Si == 73.15 AND K == 0.57 AND Ca == 8.54 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51768 THEN target == 1"
+  expl: "IF RI == 1.51768 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51784 AND Na == 13.08 AND Mg == 3.49 AND Al == 1.28 AND Si == 72.86 AND K == 0.6 AND Ca == 8.49 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51784 THEN target == 1"
+  expl: "IF RI == 1.51784 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51768 AND Na == 12.65 AND Mg == 3.56 AND Al == 1.3 AND Si == 73.08 AND K == 0.61 AND Ca == 8.69 AND Ba == 0.0 AND Fe == 0.14 THEN target == 1"
+  dexp: "IF RI == 1.51768 THEN target == 1"
+  expl: "IF RI == 1.51768 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51747 AND Na == 12.84 AND Mg == 3.5 AND Al == 1.14 AND Si == 73.27 AND K == 0.56 AND Ca == 8.55 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51747 THEN target == 1"
+  expl: "IF RI == 1.51747 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51775 AND Na == 12.85 AND Mg == 3.48 AND Al == 1.23 AND Si == 72.97 AND K == 0.61 AND Ca == 8.56 AND Ba == 0.09 AND Fe == 0.22 THEN target == 2"
+  dexp: "IF RI == 1.51775 AND Na == 12.85 THEN target == 2"
+  expl: "IF Na == 12.85 AND RI == 1.51775 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5175299999999998 AND Na == 12.57 AND Mg == 3.47 AND Al == 1.38 AND Si == 73.39 AND K == 0.6 AND Ca == 8.55 AND Ba == 0.0 AND Fe == 0.06 THEN target == 2"
+  dexp: "IF RI == 1.5175299999999998 AND Na == 12.57 THEN target == 2"
+  expl: "IF Na == 12.57 AND RI == 1.5175299999999998 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51783 AND Na == 12.69 AND Mg == 3.54 AND Al == 1.34 AND Si == 72.95 AND K == 0.57 AND Ca == 8.75 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51783 THEN target == 1"
+  expl: "IF RI == 1.51783 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51567 AND Na == 13.29 AND Mg == 3.45 AND Al == 1.21 AND Si == 72.74 AND K == 0.56 AND Ca == 8.57 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51567 THEN target == 1"
+  expl: "IF RI == 1.51567 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51909 AND Na == 13.89 AND Mg == 3.53 AND Al == 1.32 AND Si == 71.81 AND K == 0.51 AND Ca == 8.78 AND Ba == 0.11 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51909 AND Na == 13.89 THEN target == 2"
+  expl: "IF Na == 13.89 AND RI == 1.51909 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51797 AND Na == 12.74 AND Mg == 3.48 AND Al == 1.35 AND Si == 72.96 AND K == 0.64 AND Ca == 8.68 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51797 THEN target == 1"
+  expl: "IF RI == 1.51797 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52213 AND Na == 14.21 AND Mg == 3.82 AND Al == 0.47 AND Si == 71.77 AND K == 0.11 AND Ca == 9.57 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.52213 THEN target == 1"
+  expl: "IF RI == 1.52213 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51793 AND Na == 12.79 AND Mg == 3.5 AND Al == 1.12 AND Si == 73.03 AND K == 0.64 AND Ca == 8.77 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51793 THEN target == 1"
+  expl: "IF RI == 1.51793 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51755 AND Na == 12.71 AND Mg == 3.42 AND Al == 1.2 AND Si == 73.2 AND K == 0.59 AND Ca == 8.64 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51755 THEN target == 1"
+  expl: "IF RI == 1.51755 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51779 AND Na == 13.21 AND Mg == 3.39 AND Al == 1.33 AND Si == 72.76 AND K == 0.59 AND Ca == 8.59 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51779 AND Na == 13.21 THEN target == 1"
+  expl: "IF Na == 13.21 AND RI == 1.51779 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5221 AND Na == 13.73 AND Mg == 3.84 AND Al == 0.72 AND Si == 71.76 AND K == 0.17 AND Ca == 9.74 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.5221 THEN target == 1"
+  expl: "IF RI == 1.5221 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51786 AND Na == 12.73 AND Mg == 3.43 AND Al == 1.19 AND Si == 72.95 AND K == 0.62 AND Ca == 8.76 AND Ba == 0.0 AND Fe == 0.3 THEN target == 2"
+  dexp: "IF RI == 1.51786 AND Na == 12.73 THEN target == 2"
+  expl: "IF Na == 12.73 AND RI == 1.51786 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5190000000000001 AND Na == 13.49 AND Mg == 3.48 AND Al == 1.35 AND Si == 71.95 AND K == 0.55 AND Ca == 9.0 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.5190000000000001 THEN target == 1"
+  expl: "IF RI == 1.5190000000000001 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51869 AND Na == 13.19 AND Mg == 3.37 AND Al == 1.18 AND Si == 72.72 AND K == 0.57 AND Ca == 8.83 AND Ba == 0.0 AND Fe == 0.16 THEN target == 1"
+  dexp: "IF RI == 1.51869 THEN target == 1"
+  expl: "IF RI == 1.51869 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52667 AND Na == 13.99 AND Mg == 3.7 AND Al == 0.71 AND Si == 71.57 AND K == 0.02 AND Ca == 9.82 AND Ba == 0.0 AND Fe == 0.1 THEN target == 1"
+  dexp: "IF RI == 1.52667 THEN target == 1"
+  expl: "IF RI == 1.52667 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52223 AND Na == 13.21 AND Mg == 3.77 AND Al == 0.79 AND Si == 71.99 AND K == 0.13 AND Ca == 10.02 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.52223 THEN target == 1"
+  expl: "IF RI == 1.52223 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51898 AND Na == 13.58 AND Mg == 3.35 AND Al == 1.23 AND Si == 72.08 AND K == 0.59 AND Ca == 8.91 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51898 AND Na == 13.58 THEN target == 2"
+  expl: "IF Na == 13.58 AND RI == 1.51898 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5232 AND Na == 13.72 AND Mg == 3.72 AND Al == 0.51 AND Si == 71.75 AND K == 0.09 AND Ca == 10.06 AND Ba == 0.0 AND Fe == 0.16 THEN target == 1"
+  dexp: "IF RI == 1.5232 THEN target == 1"
+  expl: "IF RI == 1.5232 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51926 AND Na == 13.2 AND Mg == 3.33 AND Al == 1.28 AND Si == 72.36 AND K == 0.6 AND Ca == 9.14 AND Ba == 0.0 AND Fe == 0.11 THEN target == 1"
+  dexp: "IF RI == 1.51926 THEN target == 1"
+  expl: "IF RI == 1.51926 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51808 AND Na == 13.43 AND Mg == 2.87 AND Al == 1.19 AND Si == 72.84 AND K == 0.55 AND Ca == 9.03 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51808 THEN target == 1"
+  expl: "IF RI == 1.51808 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51837 AND Na == 13.14 AND Mg == 2.84 AND Al == 1.28 AND Si == 72.85 AND K == 0.55 AND Ca == 9.07 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51837 THEN target == 1"
+  expl: "IF RI == 1.51837 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51778 AND Na == 13.21 AND Mg == 2.81 AND Al == 1.29 AND Si == 72.98 AND K == 0.51 AND Ca == 9.02 AND Ba == 0.0 AND Fe == 0.09 THEN target == 1"
+  dexp: "IF RI == 1.51778 THEN target == 1"
+  expl: "IF RI == 1.51778 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51769 AND Na == 12.45 AND Mg == 2.71 AND Al == 1.29 AND Si == 73.7 AND K == 0.56 AND Ca == 9.06 AND Ba == 0.0 AND Fe == 0.24 THEN target == 1"
+  dexp: "IF RI == 1.51769 AND Na == 12.45 THEN target == 1"
+  expl: "IF Na == 12.45 AND RI == 1.51769 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51215 AND Na == 12.99 AND Mg == 3.47 AND Al == 1.12 AND Si == 72.98 AND K == 0.62 AND Ca == 8.35 AND Ba == 0.0 AND Fe == 0.31 THEN target == 1"
+  dexp: "IF RI == 1.51215 THEN target == 1"
+  expl: "IF RI == 1.51215 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51824 AND Na == 12.87 AND Mg == 3.48 AND Al == 1.29 AND Si == 72.95 AND K == 0.6 AND Ca == 8.43 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51824 THEN target == 1"
+  expl: "IF RI == 1.51824 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51754 AND Na == 13.48 AND Mg == 3.74 AND Al == 1.17 AND Si == 72.99 AND K == 0.59 AND Ca == 8.03 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51754 THEN target == 1"
+  expl: "IF RI == 1.51754 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51754 AND Na == 13.39 AND Mg == 3.66 AND Al == 1.19 AND Si == 72.79 AND K == 0.57 AND Ca == 8.27 AND Ba == 0.0 AND Fe == 0.11 THEN target == 1"
+  dexp: "IF RI == 1.51754 THEN target == 1"
+  expl: "IF RI == 1.51754 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51905 AND Na == 13.6 AND Mg == 3.62 AND Al == 1.11 AND Si == 72.64 AND K == 0.14 AND Ca == 8.76 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51905 THEN target == 1"
+  expl: "IF RI == 1.51905 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51977 AND Na == 13.81 AND Mg == 3.58 AND Al == 1.32 AND Si == 71.72 AND K == 0.12 AND Ca == 8.67 AND Ba == 0.69 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51977 THEN target == 1"
+  expl: "IF RI == 1.51977 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5217200000000002 AND Na == 13.51 AND Mg == 3.86 AND Al == 0.88 AND Si == 71.79 AND K == 0.23 AND Ca == 9.54 AND Ba == 0.0 AND Fe == 0.11 THEN target == 1"
+  dexp: "IF RI == 1.5217200000000002 THEN target == 1"
+  expl: "IF RI == 1.5217200000000002 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52227 AND Na == 14.17 AND Mg == 3.81 AND Al == 0.78 AND Si == 71.35 AND K == 0.0 AND Ca == 9.69 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52227 AND Na == 14.17 THEN target == 2"
+  expl: "IF Na == 14.17 AND RI == 1.52227 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5217200000000002 AND Na == 13.48 AND Mg == 3.74 AND Al == 0.9 AND Si == 72.01 AND K == 0.18 AND Ca == 9.61 AND Ba == 0.0 AND Fe == 0.07 THEN target == 1"
+  dexp: "IF RI == 1.5217200000000002 THEN target == 1"
+  expl: "IF RI == 1.5217200000000002 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52099 AND Na == 13.69 AND Mg == 3.59 AND Al == 1.12 AND Si == 71.96 AND K == 0.09 AND Ca == 9.4 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52099 AND Na == 13.69 THEN target == 2"
+  expl: "IF Na == 13.69 AND RI == 1.52099 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.52152 AND Na == 13.05 AND Mg == 3.65 AND Al == 0.87 AND Si == 72.22 AND K == 0.19 AND Ca == 9.85 AND Ba == 0.0 AND Fe == 0.17 THEN target == 1"
+  dexp: "IF RI == 1.52152 THEN target == 1"
+  expl: "IF RI == 1.52152 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52152 AND Na == 13.05 AND Mg == 3.65 AND Al == 0.87 AND Si == 72.32 AND K == 0.19 AND Ca == 9.85 AND Ba == 0.0 AND Fe == 0.17 THEN target == 1"
+  dexp: "IF RI == 1.52152 THEN target == 1"
+  expl: "IF RI == 1.52152 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52152 AND Na == 13.12 AND Mg == 3.58 AND Al == 0.9 AND Si == 72.2 AND K == 0.23 AND Ca == 9.82 AND Ba == 0.0 AND Fe == 0.16 THEN target == 1"
+  dexp: "IF RI == 1.52152 THEN target == 1"
+  expl: "IF RI == 1.52152 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5230000000000001 AND Na == 13.31 AND Mg == 3.58 AND Al == 0.82 AND Si == 71.99 AND K == 0.12 AND Ca == 10.17 AND Ba == 0.0 AND Fe == 0.03 THEN target == 1"
+  dexp: "IF RI == 1.5230000000000001 THEN target == 1"
+  expl: "IF RI == 1.5230000000000001 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51574 AND Na == 14.86 AND Mg == 3.67 AND Al == 1.74 AND Si == 71.87 AND K == 0.16 AND Ca == 7.36 AND Ba == 0.0 AND Fe == 0.12 THEN target == 2"
+  dexp: "IF RI == 1.51574 AND Na == 14.86 THEN target == 2"
+  expl: "IF Na == 14.86 AND RI == 1.51574 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5184799999999998 AND Na == 13.64 AND Mg == 3.87 AND Al == 1.27 AND Si == 71.96 AND K == 0.54 AND Ca == 8.32 AND Ba == 0.0 AND Fe == 0.32 THEN target == 2"
+  dexp: "IF RI == 1.5184799999999998 THEN target == 2"
+  expl: "IF RI == 1.5184799999999998 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51593 AND Na == 13.09 AND Mg == 3.59 AND Al == 1.52 AND Si == 73.1 AND K == 0.67 AND Ca == 7.83 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51593 THEN target == 2"
+  expl: "IF RI == 1.51593 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51631 AND Na == 13.34 AND Mg == 3.57 AND Al == 1.57 AND Si == 72.87 AND K == 0.61 AND Ca == 7.89 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51631 THEN target == 2"
+  expl: "IF RI == 1.51631 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51596 AND Na == 13.02 AND Mg == 3.56 AND Al == 1.54 AND Si == 73.11 AND K == 0.72 AND Ca == 7.9 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51596 AND Na == 13.02 THEN target == 2"
+  expl: "IF Na == 13.02 AND RI == 1.51596 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5159 AND Na == 13.02 AND Mg == 3.58 AND Al == 1.51 AND Si == 73.12 AND K == 0.69 AND Ca == 7.96 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5159 THEN target == 2"
+  expl: "IF RI == 1.5159 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51645 AND Na == 13.44 AND Mg == 3.61 AND Al == 1.54 AND Si == 72.39 AND K == 0.66 AND Ca == 8.03 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51645 AND Na == 13.44 THEN target == 2"
+  expl: "IF Na == 13.44 AND RI == 1.51645 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51627 AND Na == 13.0 AND Mg == 3.58 AND Al == 1.54 AND Si == 72.83 AND K == 0.61 AND Ca == 8.04 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51627 AND Na == 13.0 THEN target == 2"
+  expl: "IF Na == 13.0 AND RI == 1.51627 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51613 AND Na == 13.92 AND Mg == 3.52 AND Al == 1.25 AND Si == 72.88 AND K == 0.37 AND Ca == 7.94 AND Ba == 0.0 AND Fe == 0.14 THEN target == 2"
+  dexp: "IF RI == 1.51613 AND Na == 13.92 THEN target == 2"
+  expl: "IF Na == 13.92 AND RI == 1.51613 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5159 AND Na == 12.82 AND Mg == 3.52 AND Al == 1.9 AND Si == 72.86 AND K == 0.69 AND Ca == 7.97 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5159 THEN target == 2"
+  expl: "IF RI == 1.5159 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5159200000000002 AND Na == 12.86 AND Mg == 3.52 AND Al == 2.12 AND Si == 72.66 AND K == 0.69 AND Ca == 7.97 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5159200000000002 AND Na == 12.86 THEN target == 2"
+  expl: "IF Na == 12.86 AND RI == 1.5159200000000002 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51593 AND Na == 13.25 AND Mg == 3.45 AND Al == 1.43 AND Si == 73.17 AND K == 0.61 AND Ca == 7.86 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51593 THEN target == 2"
+  expl: "IF RI == 1.51593 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51646 AND Na == 13.41 AND Mg == 3.55 AND Al == 1.25 AND Si == 72.81 AND K == 0.68 AND Ca == 8.1 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51646 AND Na == 13.41 THEN target == 2"
+  expl: "IF Na == 13.41 AND RI == 1.51646 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51594 AND Na == 13.09 AND Mg == 3.52 AND Al == 1.55 AND Si == 72.87 AND K == 0.68 AND Ca == 8.05 AND Ba == 0.0 AND Fe == 0.09 THEN target == 2"
+  dexp: "IF RI == 1.51594 THEN target == 2"
+  expl: "IF RI == 1.51594 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51409 AND Na == 14.25 AND Mg == 3.09 AND Al == 2.08 AND Si == 72.28 AND K == 1.1 AND Ca == 7.08 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51409 THEN target == 2"
+  expl: "IF RI == 1.51409 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51625 AND Na == 13.36 AND Mg == 3.58 AND Al == 1.49 AND Si == 72.72 AND K == 0.45 AND Ca == 8.21 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51625 THEN target == 2"
+  expl: "IF RI == 1.51625 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51569 AND Na == 13.24 AND Mg == 3.49 AND Al == 1.47 AND Si == 73.25 AND K == 0.38 AND Ca == 8.03 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51569 THEN target == 2"
+  expl: "IF RI == 1.51569 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51645 AND Na == 13.4 AND Mg == 3.49 AND Al == 1.52 AND Si == 72.65 AND K == 0.67 AND Ca == 8.08 AND Ba == 0.0 AND Fe == 0.1 THEN target == 2"
+  dexp: "IF RI == 1.51645 AND Na == 13.4 THEN target == 2"
+  expl: "IF Na == 13.4 AND RI == 1.51645 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51618 AND Na == 13.01 AND Mg == 3.5 AND Al == 1.48 AND Si == 72.89 AND K == 0.6 AND Ca == 8.12 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51618 AND Na == 13.01 THEN target == 2"
+  expl: "IF Na == 13.01 AND RI == 1.51618 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5164 AND Na == 12.55 AND Mg == 3.48 AND Al == 1.87 AND Si == 73.23 AND K == 0.63 AND Ca == 8.08 AND Ba == 0.0 AND Fe == 0.09 THEN target == 2"
+  dexp: "IF RI == 1.5164 AND Na == 12.55 THEN target == 2"
+  expl: "IF Na == 12.55 AND RI == 1.5164 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51841 AND Na == 12.93 AND Mg == 3.74 AND Al == 1.11 AND Si == 72.28 AND K == 0.64 AND Ca == 8.96 AND Ba == 0.0 AND Fe == 0.22 THEN target == 2"
+  dexp: "IF RI == 1.51841 THEN target == 2"
+  expl: "IF RI == 1.51841 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51605 AND Na == 12.9 AND Mg == 3.44 AND Al == 1.45 AND Si == 73.06 AND K == 0.44 AND Ca == 8.27 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51605 THEN target == 2"
+  expl: "IF RI == 1.51605 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51588 AND Na == 13.12 AND Mg == 3.41 AND Al == 1.58 AND Si == 73.26 AND K == 0.07 AND Ca == 8.39 AND Ba == 0.0 AND Fe == 0.19 THEN target == 2"
+  dexp: "IF RI == 1.51588 THEN target == 2"
+  expl: "IF RI == 1.51588 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5159 AND Na == 13.24 AND Mg == 3.34 AND Al == 1.47 AND Si == 73.1 AND K == 0.39 AND Ca == 8.22 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5159 THEN target == 2"
+  expl: "IF RI == 1.5159 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51629 AND Na == 12.71 AND Mg == 3.33 AND Al == 1.49 AND Si == 73.28 AND K == 0.67 AND Ca == 8.24 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51629 AND Na == 12.71 THEN target == 2"
+  expl: "IF Na == 12.71 AND RI == 1.51629 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5186 AND Na == 13.36 AND Mg == 3.43 AND Al == 1.43 AND Si == 72.26 AND K == 0.51 AND Ca == 8.6 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5186 THEN target == 2"
+  expl: "IF RI == 1.5186 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51841 AND Na == 13.02 AND Mg == 3.62 AND Al == 1.06 AND Si == 72.34 AND K == 0.64 AND Ca == 9.13 AND Ba == 0.0 AND Fe == 0.15 THEN target == 2"
+  dexp: "IF RI == 1.51841 THEN target == 2"
+  expl: "IF RI == 1.51841 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5174299999999998 AND Na == 12.2 AND Mg == 3.25 AND Al == 1.16 AND Si == 73.55 AND K == 0.62 AND Ca == 8.9 AND Ba == 0.0 AND Fe == 0.24 THEN target == 2"
+  dexp: "IF RI == 1.5174299999999998 AND Na == 12.2 THEN target == 2"
+  expl: "IF Na == 12.2 AND RI == 1.5174299999999998 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51689 AND Na == 12.67 AND Mg == 2.88 AND Al == 1.71 AND Si == 73.21 AND K == 0.73 AND Ca == 8.54 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51689 THEN target == 2"
+  expl: "IF RI == 1.51689 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51811 AND Na == 12.96 AND Mg == 2.96 AND Al == 1.43 AND Si == 72.92 AND K == 0.6 AND Ca == 8.79 AND Ba == 0.14 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51811 THEN target == 2"
+  expl: "IF RI == 1.51811 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51655 AND Na == 12.75 AND Mg == 2.85 AND Al == 1.44 AND Si == 73.27 AND K == 0.57 AND Ca == 8.79 AND Ba == 0.11 AND Fe == 0.22 THEN target == 3"
+  dexp: "IF RI == 1.51655 THEN target == 3"
+  expl: "IF RI == 1.51655 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5173 AND Na == 12.35 AND Mg == 2.72 AND Al == 1.63 AND Si == 72.87 AND K == 0.7 AND Ca == 9.23 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5173 THEN target == 2"
+  expl: "IF RI == 1.5173 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5182 AND Na == 12.62 AND Mg == 2.76 AND Al == 0.83 AND Si == 73.81 AND K == 0.35 AND Ca == 9.42 AND Ba == 0.0 AND Fe == 0.2 THEN target == 2"
+  dexp: "IF RI == 1.5182 THEN target == 2"
+  expl: "IF RI == 1.5182 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52725 AND Na == 13.8 AND Mg == 3.15 AND Al == 0.66 AND Si == 70.57 AND K == 0.08 AND Ca == 11.64 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52725 THEN target == 2"
+  expl: "IF RI == 1.52725 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5241 AND Na == 13.83 AND Mg == 2.9 AND Al == 1.17 AND Si == 71.15 AND K == 0.08 AND Ca == 10.79 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5241 AND Na == 13.83 THEN target == 2"
+  expl: "IF Na == 13.83 AND RI == 1.5241 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.52475 AND Na == 11.45 AND Mg == 0.0 AND Al == 1.88 AND Si == 72.19 AND K == 0.81 AND Ca == 13.24 AND Ba == 0.0 AND Fe == 0.34 THEN target == 2"
+  dexp: "IF RI == 1.52475 THEN target == 2"
+  expl: "IF RI == 1.52475 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.53125 AND Na == 10.73 AND Mg == 0.0 AND Al == 2.1 AND Si == 69.81 AND K == 0.58 AND Ca == 13.3 AND Ba == 3.15 AND Fe == 0.28 THEN target == 2"
+  dexp: "IF RI == 1.53125 THEN target == 2"
+  expl: "IF RI == 1.53125 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.53393 AND Na == 12.3 AND Mg == 0.0 AND Al == 1.0 AND Si == 70.16 AND K == 0.12 AND Ca == 16.19 AND Ba == 0.0 AND Fe == 0.24 THEN target == 2"
+  dexp: "IF RI == 1.53393 THEN target == 2"
+  expl: "IF RI == 1.53393 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52222 AND Na == 14.43 AND Mg == 0.0 AND Al == 1.0 AND Si == 72.67 AND K == 0.1 AND Ca == 11.52 AND Ba == 0.0 AND Fe == 0.08 THEN target == 2"
+  dexp: "IF RI == 1.52222 THEN target == 2"
+  expl: "IF RI == 1.52222 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51818 AND Na == 13.72 AND Mg == 0.0 AND Al == 0.56 AND Si == 74.45 AND K == 0.0 AND Ca == 10.99 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51818 THEN target == 2"
+  expl: "IF RI == 1.51818 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52664 AND Na == 11.23 AND Mg == 0.0 AND Al == 0.77 AND Si == 73.21 AND K == 0.0 AND Ca == 14.68 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52664 THEN target == 2"
+  expl: "IF RI == 1.52664 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52739 AND Na == 11.02 AND Mg == 0.0 AND Al == 0.75 AND Si == 73.08 AND K == 0.0 AND Ca == 14.96 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52739 THEN target == 2"
+  expl: "IF RI == 1.52739 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52777 AND Na == 12.64 AND Mg == 0.0 AND Al == 0.67 AND Si == 72.02 AND K == 0.06 AND Ca == 14.4 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52777 THEN target == 2"
+  expl: "IF RI == 1.52777 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51892 AND Na == 13.46 AND Mg == 3.83 AND Al == 1.26 AND Si == 72.55 AND K == 0.57 AND Ca == 8.21 AND Ba == 0.0 AND Fe == 0.14 THEN target == 2"
+  dexp: "IF RI == 1.51892 THEN target == 2"
+  expl: "IF RI == 1.51892 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51847 AND Na == 13.1 AND Mg == 3.97 AND Al == 1.19 AND Si == 72.44 AND K == 0.6 AND Ca == 8.43 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51847 THEN target == 2"
+  expl: "IF RI == 1.51847 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51846 AND Na == 13.41 AND Mg == 3.89 AND Al == 1.33 AND Si == 72.38 AND K == 0.51 AND Ca == 8.28 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51846 THEN target == 2"
+  expl: "IF RI == 1.51846 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51829 AND Na == 13.24 AND Mg == 3.9 AND Al == 1.41 AND Si == 72.33 AND K == 0.55 AND Ca == 8.31 AND Ba == 0.0 AND Fe == 0.1 THEN target == 2"
+  dexp: "IF RI == 1.51829 THEN target == 2"
+  expl: "IF RI == 1.51829 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51708 AND Na == 13.72 AND Mg == 3.68 AND Al == 1.81 AND Si == 72.06 AND K == 0.64 AND Ca == 7.88 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51708 THEN target == 2"
+  expl: "IF RI == 1.51708 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51673 AND Na == 13.3 AND Mg == 3.64 AND Al == 1.53 AND Si == 72.53 AND K == 0.65 AND Ca == 8.03 AND Ba == 0.0 AND Fe == 0.29 THEN target == 2"
+  dexp: "IF RI == 1.51673 THEN target == 2"
+  expl: "IF RI == 1.51673 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51652 AND Na == 13.56 AND Mg == 3.57 AND Al == 1.47 AND Si == 72.45 AND K == 0.64 AND Ca == 7.96 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51652 AND Na == 13.56 THEN target == 2"
+  expl: "IF Na == 13.56 AND RI == 1.51652 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51844 AND Na == 13.25 AND Mg == 3.76 AND Al == 1.32 AND Si == 72.4 AND K == 0.58 AND Ca == 8.42 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51844 AND Na == 13.25 THEN target == 2"
+  expl: "IF Na == 13.25 AND RI == 1.51844 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51663 AND Na == 12.93 AND Mg == 3.54 AND Al == 1.62 AND Si == 72.96 AND K == 0.64 AND Ca == 8.03 AND Ba == 0.0 AND Fe == 0.21 THEN target == 2"
+  dexp: "IF RI == 1.51663 THEN target == 2"
+  expl: "IF RI == 1.51663 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5168700000000002 AND Na == 13.23 AND Mg == 3.54 AND Al == 1.48 AND Si == 72.84 AND K == 0.56 AND Ca == 8.1 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5168700000000002 AND Na == 13.23 THEN target == 2"
+  expl: "IF Na == 13.23 AND RI == 1.5168700000000002 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51707 AND Na == 13.48 AND Mg == 3.48 AND Al == 1.71 AND Si == 72.52 AND K == 0.62 AND Ca == 7.99 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51707 THEN target == 2"
+  expl: "IF RI == 1.51707 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52177 AND Na == 13.2 AND Mg == 3.68 AND Al == 1.15 AND Si == 72.75 AND K == 0.54 AND Ca == 8.52 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52177 THEN target == 2"
+  expl: "IF RI == 1.52177 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51872 AND Na == 12.93 AND Mg == 3.66 AND Al == 1.56 AND Si == 72.51 AND K == 0.58 AND Ca == 8.55 AND Ba == 0.0 AND Fe == 0.12 THEN target == 2"
+  dexp: "IF RI == 1.51872 AND Na == 12.93 THEN target == 2"
+  expl: "IF Na == 12.93 AND RI == 1.51872 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51667 AND Na == 12.94 AND Mg == 3.61 AND Al == 1.26 AND Si == 72.75 AND K == 0.56 AND Ca == 8.6 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51667 AND Na == 12.94 THEN target == 2"
+  expl: "IF Na == 12.94 AND RI == 1.51667 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.52081 AND Na == 13.78 AND Mg == 2.28 AND Al == 1.43 AND Si == 71.99 AND K == 0.49 AND Ca == 9.85 AND Ba == 0.0 AND Fe == 0.17 THEN target == 2"
+  dexp: "IF RI == 1.52081 THEN target == 2"
+  expl: "IF RI == 1.52081 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52068 AND Na == 13.55 AND Mg == 2.09 AND Al == 1.67 AND Si == 72.18 AND K == 0.53 AND Ca == 9.57 AND Ba == 0.27 AND Fe == 0.17 THEN target == 2"
+  dexp: "IF RI == 1.52068 THEN target == 2"
+  expl: "IF RI == 1.52068 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5202 AND Na == 13.98 AND Mg == 1.35 AND Al == 1.63 AND Si == 71.76 AND K == 0.39 AND Ca == 10.56 AND Ba == 0.0 AND Fe == 0.18 THEN target == 2"
+  dexp: "IF RI == 1.5202 AND Na == 13.98 THEN target == 2"
+  expl: "IF Na == 13.98 AND RI == 1.5202 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.52177 AND Na == 13.75 AND Mg == 1.01 AND Al == 1.36 AND Si == 72.19 AND K == 0.33 AND Ca == 11.14 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52177 THEN target == 2"
+  expl: "IF RI == 1.52177 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52614 AND Na == 13.7 AND Mg == 0.0 AND Al == 1.36 AND Si == 71.24 AND K == 0.19 AND Ca == 13.44 AND Ba == 0.0 AND Fe == 0.1 THEN target == 2"
+  dexp: "IF RI == 1.52614 THEN target == 2"
+  expl: "IF RI == 1.52614 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51813 AND Na == 13.43 AND Mg == 3.98 AND Al == 1.18 AND Si == 72.49 AND K == 0.58 AND Ca == 8.15 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51813 THEN target == 2"
+  expl: "IF RI == 1.51813 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.518 AND Na == 13.71 AND Mg == 3.93 AND Al == 1.54 AND Si == 71.81 AND K == 0.54 AND Ca == 8.21 AND Ba == 0.0 AND Fe == 0.15 THEN target == 2"
+  dexp: "IF RI == 1.518 THEN target == 2"
+  expl: "IF RI == 1.518 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51811 AND Na == 13.33 AND Mg == 3.85 AND Al == 1.25 AND Si == 72.78 AND K == 0.52 AND Ca == 8.12 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51811 THEN target == 2"
+  expl: "IF RI == 1.51811 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51789 AND Na == 13.19 AND Mg == 3.9 AND Al == 1.3 AND Si == 72.33 AND K == 0.55 AND Ca == 8.44 AND Ba == 0.0 AND Fe == 0.28 THEN target == 2"
+  dexp: "IF RI == 1.51789 THEN target == 2"
+  expl: "IF RI == 1.51789 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51806 AND Na == 13.0 AND Mg == 3.8 AND Al == 1.08 AND Si == 73.07 AND K == 0.56 AND Ca == 8.38 AND Ba == 0.0 AND Fe == 0.12 THEN target == 2"
+  dexp: "IF RI == 1.51806 THEN target == 2"
+  expl: "IF RI == 1.51806 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51711 AND Na == 12.89 AND Mg == 3.62 AND Al == 1.57 AND Si == 72.96 AND K == 0.61 AND Ca == 8.11 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51711 AND Na == 12.89 THEN target == 2"
+  expl: "IF Na == 12.89 AND RI == 1.51711 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51674 AND Na == 12.79 AND Mg == 3.52 AND Al == 1.54 AND Si == 73.36 AND K == 0.66 AND Ca == 7.9 AND Ba == 0.0 AND Fe == 0.0 THEN target == 1"
+  dexp: "IF RI == 1.51674 AND Na == 12.79 THEN target == 1"
+  expl: "IF Na == 12.79 AND RI == 1.51674 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51674 AND Na == 12.87 AND Mg == 3.56 AND Al == 1.64 AND Si == 73.14 AND K == 0.65 AND Ca == 7.99 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51674 AND Na == 12.87 THEN target == 2"
+  expl: "IF Na == 12.87 AND RI == 1.51674 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5169 AND Na == 13.33 AND Mg == 3.54 AND Al == 1.61 AND Si == 72.54 AND K == 0.68 AND Ca == 8.11 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5169 THEN target == 2"
+  expl: "IF RI == 1.5169 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51851 AND Na == 13.2 AND Mg == 3.63 AND Al == 1.07 AND Si == 72.83 AND K == 0.57 AND Ca == 8.41 AND Ba == 0.09 AND Fe == 0.17 THEN target == 2"
+  dexp: "IF RI == 1.51851 THEN target == 2"
+  expl: "IF RI == 1.51851 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51662 AND Na == 12.85 AND Mg == 3.51 AND Al == 1.44 AND Si == 73.01 AND K == 0.68 AND Ca == 8.23 AND Ba == 0.06 AND Fe == 0.25 THEN target == 2"
+  dexp: "IF RI == 1.51662 THEN target == 2"
+  expl: "IF RI == 1.51662 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51709 AND Na == 13.0 AND Mg == 3.47 AND Al == 1.79 AND Si == 72.72 AND K == 0.66 AND Ca == 8.18 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51709 THEN target == 2"
+  expl: "IF RI == 1.51709 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5166 AND Na == 12.99 AND Mg == 3.18 AND Al == 1.23 AND Si == 72.97 AND K == 0.58 AND Ca == 8.81 AND Ba == 0.0 AND Fe == 0.24 THEN target == 2"
+  dexp: "IF RI == 1.5166 THEN target == 2"
+  expl: "IF RI == 1.5166 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51839 AND Na == 12.85 AND Mg == 3.67 AND Al == 1.24 AND Si == 72.57 AND K == 0.62 AND Ca == 8.68 AND Ba == 0.0 AND Fe == 0.35 THEN target == 2"
+  dexp: "IF RI == 1.51839 THEN target == 2"
+  expl: "IF RI == 1.51839 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51769 AND Na == 13.65 AND Mg == 3.66 AND Al == 1.11 AND Si == 72.77 AND K == 0.11 AND Ca == 8.6 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51769 AND Na == 13.65 THEN target == 3"
+  expl: "IF Na == 13.65 AND RI == 1.51769 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5161 AND Na == 13.33 AND Mg == 3.53 AND Al == 1.34 AND Si == 72.67 AND K == 0.56 AND Ca == 8.33 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.5161 THEN target == 3"
+  expl: "IF RI == 1.5161 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5167 AND Na == 13.24 AND Mg == 3.57 AND Al == 1.38 AND Si == 72.7 AND K == 0.56 AND Ca == 8.44 AND Ba == 0.0 AND Fe == 0.1 THEN target == 3"
+  dexp: "IF RI == 1.5167 THEN target == 3"
+  expl: "IF RI == 1.5167 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51643 AND Na == 12.16 AND Mg == 3.52 AND Al == 1.35 AND Si == 72.89 AND K == 0.57 AND Ca == 8.53 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51643 THEN target == 3"
+  expl: "IF RI == 1.51643 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51665 AND Na == 13.14 AND Mg == 3.45 AND Al == 1.76 AND Si == 72.48 AND K == 0.6 AND Ca == 8.38 AND Ba == 0.0 AND Fe == 0.17 THEN target == 3"
+  dexp: "IF RI == 1.51665 THEN target == 3"
+  expl: "IF RI == 1.51665 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52127 AND Na == 14.32 AND Mg == 3.9 AND Al == 0.83 AND Si == 71.5 AND K == 0.0 AND Ca == 9.49 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.52127 THEN target == 3"
+  expl: "IF RI == 1.52127 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51779 AND Na == 13.64 AND Mg == 3.65 AND Al == 0.65 AND Si == 73.0 AND K == 0.06 AND Ca == 8.93 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51779 AND Na == 13.64 THEN target == 3"
+  expl: "IF Na == 13.64 AND RI == 1.51779 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5161 AND Na == 13.42 AND Mg == 3.4 AND Al == 1.22 AND Si == 72.69 AND K == 0.59 AND Ca == 8.32 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.5161 THEN target == 3"
+  expl: "IF RI == 1.5161 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51694 AND Na == 12.86 AND Mg == 3.58 AND Al == 1.31 AND Si == 72.61 AND K == 0.61 AND Ca == 8.79 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51694 THEN target == 3"
+  expl: "IF RI == 1.51694 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51646 AND Na == 13.04 AND Mg == 3.4 AND Al == 1.26 AND Si == 73.01 AND K == 0.52 AND Ca == 8.58 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51646 AND Na == 13.04 THEN target == 3"
+  expl: "IF Na == 13.04 AND RI == 1.51646 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51655 AND Na == 13.41 AND Mg == 3.39 AND Al == 1.28 AND Si == 72.64 AND K == 0.52 AND Ca == 8.65 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51655 THEN target == 3"
+  expl: "IF RI == 1.51655 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52121 AND Na == 14.03 AND Mg == 3.76 AND Al == 0.58 AND Si == 71.79 AND K == 0.11 AND Ca == 9.65 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.52121 THEN target == 3"
+  expl: "IF RI == 1.52121 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51776 AND Na == 13.53 AND Mg == 3.41 AND Al == 1.52 AND Si == 72.04 AND K == 0.58 AND Ca == 8.79 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51776 THEN target == 3"
+  expl: "IF RI == 1.51776 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51796 AND Na == 13.5 AND Mg == 3.36 AND Al == 1.63 AND Si == 71.94 AND K == 0.57 AND Ca == 8.81 AND Ba == 0.0 AND Fe == 0.09 THEN target == 3"
+  dexp: "IF RI == 1.51796 THEN target == 3"
+  expl: "IF RI == 1.51796 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51832 AND Na == 13.33 AND Mg == 3.34 AND Al == 1.54 AND Si == 72.14 AND K == 0.56 AND Ca == 8.99 AND Ba == 0.0 AND Fe == 0.0 THEN target == 3"
+  dexp: "IF RI == 1.51832 THEN target == 3"
+  expl: "IF RI == 1.51832 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51934 AND Na == 13.64 AND Mg == 3.54 AND Al == 0.75 AND Si == 72.65 AND K == 0.16 AND Ca == 8.89 AND Ba == 0.15 AND Fe == 0.24 THEN target == 3"
+  dexp: "IF RI == 1.51934 THEN target == 3"
+  expl: "IF RI == 1.51934 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52211 AND Na == 14.19 AND Mg == 3.78 AND Al == 0.91 AND Si == 71.36 AND K == 0.23 AND Ca == 9.14 AND Ba == 0.0 AND Fe == 0.37 THEN target == 2"
+  dexp: "IF RI == 1.52211 AND Na == 14.19 THEN target == 2"
+  expl: "IF Na == 14.19 AND RI == 1.52211 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51514 AND Na == 14.01 AND Mg == 2.68 AND Al == 3.5 AND Si == 69.89 AND K == 1.68 AND Ca == 5.87 AND Ba == 2.2 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51514 AND Na == 14.01 THEN target == 5"
+  expl: "IF Na == 14.01 AND RI == 1.51514 THEN target == 5"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51915 AND Na == 12.73 AND Mg == 1.85 AND Al == 1.86 AND Si == 72.69 AND K == 0.6 AND Ca == 10.09 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51915 THEN target == 5"
+  expl: "IF RI == 1.51915 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52171 AND Na == 11.56 AND Mg == 1.88 AND Al == 1.56 AND Si == 72.86 AND K == 0.47 AND Ca == 11.41 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.52171 THEN target == 5"
+  expl: "IF RI == 1.52171 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52151 AND Na == 11.03 AND Mg == 1.71 AND Al == 1.56 AND Si == 73.44 AND K == 0.58 AND Ca == 11.62 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52151 AND Na == 11.03 THEN target == 2"
+  expl: "IF Na == 11.03 AND RI == 1.52151 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51969 AND Na == 12.64 AND Mg == 0.0 AND Al == 1.65 AND Si == 73.75 AND K == 0.38 AND Ca == 11.53 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51969 THEN target == 5"
+  expl: "IF RI == 1.51969 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51666 AND Na == 12.86 AND Mg == 0.0 AND Al == 1.83 AND Si == 73.88 AND K == 0.97 AND Ca == 10.17 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51666 THEN target == 5"
+  expl: "IF RI == 1.51666 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51994 AND Na == 13.27 AND Mg == 0.0 AND Al == 1.76 AND Si == 73.03 AND K == 0.47 AND Ca == 11.32 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51994 THEN target == 5"
+  expl: "IF RI == 1.51994 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52369 AND Na == 13.44 AND Mg == 0.0 AND Al == 1.58 AND Si == 72.22 AND K == 0.32 AND Ca == 12.24 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.52369 THEN target == 5"
+  expl: "IF RI == 1.52369 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51316 AND Na == 13.02 AND Mg == 0.0 AND Al == 3.04 AND Si == 70.48 AND K == 6.21 AND Ca == 6.96 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51316 THEN target == 5"
+  expl: "IF RI == 1.51316 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51321 AND Na == 13.0 AND Mg == 0.0 AND Al == 3.02 AND Si == 70.7 AND K == 6.21 AND Ca == 6.93 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.51321 THEN target == 5"
+  expl: "IF RI == 1.51321 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52043 AND Na == 13.38 AND Mg == 0.0 AND Al == 1.4 AND Si == 72.25 AND K == 0.33 AND Ca == 12.5 AND Ba == 0.0 AND Fe == 0.0 THEN target == 5"
+  dexp: "IF RI == 1.52043 THEN target == 5"
+  expl: "IF RI == 1.52043 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5205799999999998 AND Na == 12.85 AND Mg == 1.61 AND Al == 2.17 AND Si == 72.18 AND K == 0.76 AND Ca == 9.7 AND Ba == 0.24 AND Fe == 0.51 THEN target == 5"
+  dexp: "IF RI == 1.5205799999999998 THEN target == 5"
+  expl: "IF RI == 1.5205799999999998 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52119 AND Na == 12.97 AND Mg == 0.33 AND Al == 1.51 AND Si == 73.39 AND K == 0.13 AND Ca == 11.27 AND Ba == 0.0 AND Fe == 0.28 THEN target == 5"
+  dexp: "IF RI == 1.52119 THEN target == 5"
+  expl: "IF RI == 1.52119 THEN target == 5"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51131 AND Na == 13.69 AND Mg == 3.2 AND Al == 1.81 AND Si == 72.81 AND K == 1.76 AND Ca == 5.43 AND Ba == 1.19 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51131 THEN target == 7"
+  expl: "IF RI == 1.51131 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5183799999999998 AND Na == 14.32 AND Mg == 3.26 AND Al == 2.22 AND Si == 71.25 AND K == 1.46 AND Ca == 5.79 AND Ba == 1.63 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.5183799999999998 THEN target == 7"
+  expl: "IF RI == 1.5183799999999998 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52315 AND Na == 13.44 AND Mg == 3.34 AND Al == 1.23 AND Si == 72.38 AND K == 0.6 AND Ca == 8.83 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52315 AND Na == 13.44 THEN target == 2"
+  expl: "IF Na == 13.44 AND RI == 1.52315 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.52247 AND Na == 14.86 AND Mg == 2.2 AND Al == 2.06 AND Si == 70.26 AND K == 0.76 AND Ca == 9.76 AND Ba == 0.0 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.52247 AND Na == 14.86 THEN target == 2"
+  expl: "IF Na == 14.86 AND RI == 1.52247 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.52365 AND Na == 15.79 AND Mg == 1.83 AND Al == 1.31 AND Si == 70.43 AND K == 0.31 AND Ca == 8.61 AND Ba == 1.68 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.52365 THEN target == 7"
+  expl: "IF RI == 1.52365 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51613 AND Na == 13.88 AND Mg == 1.78 AND Al == 1.79 AND Si == 73.1 AND K == 0.0 AND Ca == 8.67 AND Ba == 0.76 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51613 AND Na == 13.88 THEN target == 7"
+  expl: "IF Na == 13.88 AND RI == 1.51613 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51602 AND Na == 14.85 AND Mg == 0.0 AND Al == 2.38 AND Si == 73.28 AND K == 0.0 AND Ca == 8.76 AND Ba == 0.64 AND Fe == 0.09 THEN target == 2"
+  dexp: "IF RI == 1.51602 AND Na == 14.85 THEN target == 2"
+  expl: "IF Na == 14.85 AND RI == 1.51602 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51623 AND Na == 14.2 AND Mg == 0.0 AND Al == 2.79 AND Si == 73.46 AND K == 0.04 AND Ca == 9.04 AND Ba == 0.4 AND Fe == 0.09 THEN target == 2"
+  dexp: "IF RI == 1.51623 AND Na == 14.2 THEN target == 2"
+  expl: "IF Na == 14.2 AND RI == 1.51623 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51719 AND Na == 14.75 AND Mg == 0.0 AND Al == 2.0 AND Si == 73.02 AND K == 0.0 AND Ca == 8.53 AND Ba == 1.59 AND Fe == 0.08 THEN target == 7"
+  dexp: "IF RI == 1.51719 THEN target == 7"
+  expl: "IF RI == 1.51719 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51683 AND Na == 14.56 AND Mg == 0.0 AND Al == 1.98 AND Si == 73.29 AND K == 0.0 AND Ca == 8.52 AND Ba == 1.57 AND Fe == 0.07 THEN target == 2"
+  dexp: "IF RI == 1.51683 AND Na == 14.56 THEN target == 2"
+  expl: "IF Na == 14.56 AND RI == 1.51683 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51545 AND Na == 14.14 AND Mg == 0.0 AND Al == 2.68 AND Si == 73.39 AND K == 0.08 AND Ca == 9.07 AND Ba == 0.61 AND Fe == 0.05 THEN target == 7"
+  dexp: "IF RI == 1.51545 THEN target == 7"
+  expl: "IF RI == 1.51545 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51556 AND Na == 13.87 AND Mg == 0.0 AND Al == 2.54 AND Si == 73.23 AND K == 0.14 AND Ca == 9.41 AND Ba == 0.81 AND Fe == 0.01 THEN target == 7"
+  dexp: "IF RI == 1.51556 THEN target == 7"
+  expl: "IF RI == 1.51556 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51727 AND Na == 14.7 AND Mg == 0.0 AND Al == 2.34 AND Si == 73.28 AND K == 0.0 AND Ca == 8.95 AND Ba == 0.66 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51727 THEN target == 7"
+  expl: "IF RI == 1.51727 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51531 AND Na == 14.38 AND Mg == 0.0 AND Al == 2.66 AND Si == 73.1 AND K == 0.04 AND Ca == 9.08 AND Ba == 0.64 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51531 THEN target == 7"
+  expl: "IF RI == 1.51531 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51609 AND Na == 15.01 AND Mg == 0.0 AND Al == 2.51 AND Si == 73.05 AND K == 0.05 AND Ca == 8.83 AND Ba == 0.53 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51609 AND Na == 15.01 THEN target == 2"
+  expl: "IF Na == 15.01 AND RI == 1.51609 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51508 AND Na == 15.15 AND Mg == 0.0 AND Al == 2.25 AND Si == 73.5 AND K == 0.0 AND Ca == 8.34 AND Ba == 0.63 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51508 AND Na == 15.15 THEN target == 2"
+  expl: "IF Na == 15.15 AND RI == 1.51508 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51653 AND Na == 11.95 AND Mg == 0.0 AND Al == 1.19 AND Si == 75.18 AND K == 2.7 AND Ca == 8.93 AND Ba == 0.0 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51653 THEN target == 7"
+  expl: "IF RI == 1.51653 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51514 AND Na == 14.85 AND Mg == 0.0 AND Al == 2.42 AND Si == 73.72 AND K == 0.0 AND Ca == 8.39 AND Ba == 0.56 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51514 AND Na == 14.85 THEN target == 7"
+  expl: "IF Na == 14.85 AND RI == 1.51514 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.5165799999999998 AND Na == 14.8 AND Mg == 0.0 AND Al == 1.99 AND Si == 73.11 AND K == 0.0 AND Ca == 8.28 AND Ba == 1.71 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.5165799999999998 THEN target == 7"
+  expl: "IF RI == 1.5165799999999998 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51617 AND Na == 14.95 AND Mg == 0.0 AND Al == 2.27 AND Si == 73.3 AND K == 0.0 AND Ca == 8.71 AND Ba == 0.67 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51617 AND Na == 14.95 THEN target == 2"
+  expl: "IF Na == 14.95 AND RI == 1.51617 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51732 AND Na == 14.95 AND Mg == 0.0 AND Al == 1.8 AND Si == 72.99 AND K == 0.0 AND Ca == 8.61 AND Ba == 1.55 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51732 THEN target == 7"
+  expl: "IF RI == 1.51732 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51645 AND Na == 14.94 AND Mg == 0.0 AND Al == 1.87 AND Si == 73.11 AND K == 0.0 AND Ca == 8.67 AND Ba == 1.38 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51645 AND Na == 14.94 THEN target == 7"
+  expl: "IF Na == 14.94 AND RI == 1.51645 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51831 AND Na == 14.39 AND Mg == 0.0 AND Al == 1.82 AND Si == 72.86 AND K == 1.41 AND Ca == 6.47 AND Ba == 2.88 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51831 THEN target == 7"
+  expl: "IF RI == 1.51831 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.5164 AND Na == 14.37 AND Mg == 0.0 AND Al == 2.74 AND Si == 72.85 AND K == 0.0 AND Ca == 9.45 AND Ba == 0.54 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.5164 AND Na == 14.37 THEN target == 2"
+  expl: "IF Na == 14.37 AND RI == 1.5164 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51623 AND Na == 14.14 AND Mg == 0.0 AND Al == 2.88 AND Si == 72.61 AND K == 0.08 AND Ca == 9.18 AND Ba == 1.06 AND Fe == 0.0 THEN target == 2"
+  dexp: "IF RI == 1.51623 AND Na == 14.14 THEN target == 2"
+  expl: "IF Na == 14.14 AND RI == 1.51623 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF RI == 1.51685 AND Na == 14.92 AND Mg == 0.0 AND Al == 1.99 AND Si == 73.06 AND K == 0.0 AND Ca == 8.4 AND Ba == 1.59 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51685 THEN target == 7"
+  expl: "IF RI == 1.51685 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.52065 AND Na == 14.36 AND Mg == 0.0 AND Al == 2.02 AND Si == 73.42 AND K == 0.0 AND Ca == 8.44 AND Ba == 1.64 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.52065 THEN target == 7"
+  expl: "IF RI == 1.52065 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51651 AND Na == 14.38 AND Mg == 0.0 AND Al == 1.94 AND Si == 73.61 AND K == 0.0 AND Ca == 8.48 AND Ba == 1.57 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51651 THEN target == 7"
+  expl: "IF RI == 1.51651 THEN target == 7"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF RI == 1.51711 AND Na == 14.23 AND Mg == 0.0 AND Al == 2.08 AND Si == 73.36 AND K == 0.0 AND Ca == 8.62 AND Ba == 1.67 AND Fe == 0.0 THEN target == 7"
+  dexp: "IF RI == 1.51711 AND Na == 14.23 THEN target == 7"
+  expl: "IF Na == 14.23 AND RI == 1.51711 THEN target == 7"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 204
+tot # of expls: 204
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.29
+avg expl sz: 1.29
+max expl sz: 1.29
+Max expl sz: 2
+
+tot time: 0.03
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

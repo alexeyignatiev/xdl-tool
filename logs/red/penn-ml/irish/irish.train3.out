@@ -1,0 +1,2926 @@
+MODEL:
+IF DVRT == 65.0 THEN target == 0
+IF DVRT == 71.0 THEN target == 0
+IF DVRT == 74.0 THEN target == 0
+IF DVRT == 75.0 THEN target == 0
+IF DVRT == 76.0 THEN target == 0
+IF DVRT == 79.0 THEN target == 0
+IF DVRT == 80.0 THEN target == 0
+IF DVRT == 82.0 THEN target == 0
+IF DVRT == 83.0 THEN target == 0
+IF DVRT == 87.0 THEN target == 1
+IF DVRT == 89.0 THEN target == 0
+IF DVRT == 98.0 THEN target == 0
+IF DVRT == 119.0 THEN target == 1
+IF DVRT == 124.0 THEN target == 1
+IF DVRT == 130.0 THEN target == 0
+IF DVRT == 131.0 THEN target == 1
+IF DVRT == 132.0 THEN target == 1
+IF DVRT == 134.0 THEN target == 1
+IF DVRT == 135.0 THEN target == 1
+IF DVRT == 136.0 THEN target == 1
+IF DVRT == 137.0 THEN target == 1
+IF DVRT == 140.0 THEN target == 1
+IF Educational_level == 0 THEN target == 1
+IF DVRT == 99.0 THEN target == 0
+IF DVRT == 120.0 THEN target == 0
+IF DVRT == 126.0 THEN target == 0
+IF Educational_level == 1 THEN target == 1
+IF DVRT == 129.0 THEN target == 0
+IF Educational_level == 2 THEN target == 0
+IF Educational_level == 3 THEN target == 0
+IF DVRT == 95.0 THEN target == 1
+IF DVRT == 107.0 THEN target == 1
+IF DVRT == 112.0 THEN target == 1
+IF Educational_level == 4 THEN target == 0
+IF DVRT == 127.0 THEN target == 1
+IF Educational_level == 5 THEN target == 0
+IF DVRT == 73.0 THEN target == 1
+IF DVRT == 115.0 THEN target == 1
+IF DVRT == 116.0 THEN target == 1
+IF DVRT == 121.0 THEN target == 1
+IF Educational_level == 6 THEN target == 0
+IF DVRT == 78.0 THEN target == 1
+IF DVRT == 88.0 THEN target == 1
+IF DVRT == 92.0 THEN target == 1
+IF DVRT == 93.0 THEN target == 1
+IF DVRT == 96.0 THEN target == 1
+IF DVRT == 97.0 THEN target == 1
+IF DVRT == 106.0 THEN target == 1
+IF DVRT == 108.0 THEN target == 1
+IF DVRT == 113.0 THEN target == 1
+IF DVRT == 114.0 THEN target == 1
+IF DVRT == 118.0 THEN target == 1
+IF DVRT == 122.0 THEN target == 1
+IF DVRT == 125.0 THEN target == 1
+IF Educational_level == 7 THEN target == 0
+IF DVRT == 72.0 THEN target == 1
+IF DVRT == 81.0 THEN target == 1
+IF DVRT == 84.0 THEN target == 1
+IF DVRT == 85.0 THEN target == 1
+IF DVRT == 86.0 THEN target == 1
+IF DVRT == 91.0 THEN target == 1
+IF DVRT == 94.0 THEN target == 1
+IF DVRT == 100.0 THEN target == 1
+IF DVRT == 101.0 THEN target == 1
+IF DVRT == 102.0 THEN target == 1
+IF DVRT == 103.0 THEN target == 1
+IF Educational_level == 8 THEN target == 0
+IF DVRT == 105.0 THEN target == 1
+IF DVRT == 109.0 THEN target == 1
+IF DVRT == 111.0 THEN target == 1
+IF Educational_level == 9 THEN target == 0
+IF Sex == 0 THEN target == 1
+IF Sex == 1 THEN target == 1
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 112
+avg # of vars: 112.00
+max # of vars: 112
+min # of clauses: 2771
+avg # of clauses: 2783.00
+max # of clauses: 2795
+
+EXPLANATIONS:
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 3 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 113.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 7 AND Prestige_score == 2 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 101.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 110.0 AND Educational_level == 10 AND Prestige_score == 25 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 121.0 AND Educational_level == 5 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 121.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 121.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 82.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 82.0 THEN target == 0"
+  expl: "IF DVRT == 82.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 85.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 85.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 84.0 AND Educational_level == 7 AND Prestige_score == 28 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 98.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 92.0 AND Educational_level == 6 AND Prestige_score == 5 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 88.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 88.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 84.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 0 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 6 AND Prestige_score == 18 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 83.0 AND Educational_level == 6 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 83.0 THEN target == 0"
+  expl: "IF DVRT == 83.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 6 AND Prestige_score == 25 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 108.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 95.0 AND Educational_level == 3 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 95.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 95.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 107.0 AND Educational_level == 10 AND Prestige_score == 2 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 86.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 117.0 AND Educational_level == 10 AND Prestige_score == 11 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 117.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 112.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 88.0 AND Educational_level == 0 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 88.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 106.0 AND Educational_level == 0 AND Prestige_score == 11 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 125.0 AND Educational_level == 0 AND Prestige_score == 2 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 125.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 125.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 94.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 94.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 5 AND Prestige_score == 28 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 123.0 AND Educational_level == 10 AND Prestige_score == 13 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 123.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 100.0 AND Educational_level == 6 AND Prestige_score == 6 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 3 AND Prestige_score == 1 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 6 AND Prestige_score == 16 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 3 AND Prestige_score == 13 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 3 AND Prestige_score == 28 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 123.0 AND Educational_level == 3 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 123.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 127.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 127.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 127.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 124.0 AND Educational_level == 10 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 124.0 THEN target == 1"
+  expl: "IF DVRT == 124.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 110.0 AND Educational_level == 9 AND Prestige_score == 1 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 110.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 94.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 94.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 112.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 123.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 123.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 102.0 AND Educational_level == 6 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 126.0 AND Educational_level == 0 AND Prestige_score == 1 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 126.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 126.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 121.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 121.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 121.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 100.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 85.0 AND Educational_level == 4 AND Prestige_score == 4 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 85.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 86.0 AND Educational_level == 6 AND Prestige_score == 4 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 4 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 101.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 91.0 AND Educational_level == 5 AND Prestige_score == 10 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 6 AND Prestige_score == 5 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 117.0 AND Educational_level == 8 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 8 THEN target == 0"
+  expl: "IF Educational_level == 8 AND DVRT == 117.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 72.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 72.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 72.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 112.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 112.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 65.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 65.0 THEN target == 0"
+  expl: "IF DVRT == 65.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 97.0 AND Educational_level == 5 AND Prestige_score == 6 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 100.0 AND Educational_level == 6 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 91.0 AND Educational_level == 4 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 107.0 AND Educational_level == 2 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 2 THEN target == 0"
+  expl: "IF Educational_level == 2 AND DVRT == 107.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 94.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 5 AND Prestige_score == 7 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 117.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 117.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 5 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 115.0 AND Educational_level == 2 AND Prestige_score == 24 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 2 THEN target == 0"
+  expl: "IF Educational_level == 2 AND DVRT == 115.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 123.0 AND Educational_level == 8 AND Prestige_score == 6 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 8 THEN target == 0"
+  expl: "IF Educational_level == 8 AND DVRT == 123.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 5 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 6 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 5 AND Prestige_score == 20 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 0 AND Prestige_score == 14 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 100.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 5 AND Prestige_score == 21 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 107.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 5 AND Prestige_score == 3 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 117.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 117.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 115.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 5 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 93.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 10 AND Prestige_score == 3 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 5 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 115.0 AND Educational_level == 3 AND Prestige_score == 7 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 115.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 10 AND Prestige_score == 9 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 116.0 AND Educational_level == 5 AND Prestige_score == 14 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 116.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 116.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 3 AND Prestige_score == 16 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 0 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 113.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 113.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 106.0 AND Educational_level == 4 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 106.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 119.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 119.0 THEN target == 1"
+  expl: "IF DVRT == 119.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 15 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 108.0 AND Educational_level == 10 AND Prestige_score == 1 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 3 AND Prestige_score == 13 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 83.0 AND Educational_level == 7 AND Prestige_score == 2 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 83.0 THEN target == 0"
+  expl: "IF DVRT == 83.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 5 AND Prestige_score == 22 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 5 AND Prestige_score == 25 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 5 AND Prestige_score == 5 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 114.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 5 AND Prestige_score == 9 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 94.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 86.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 8 AND Prestige_score == 10 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 8 THEN target == 0"
+  expl: "IF Educational_level == 8 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 106.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 106.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 5 AND Prestige_score == 16 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 111.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 5 AND Prestige_score == 28 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 111.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 106.0 AND Educational_level == 6 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 106.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 86.0 AND Educational_level == 6 AND Prestige_score == 10 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 107.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 107.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 7 AND Prestige_score == 2 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 101.0 AND Educational_level == 5 AND Prestige_score == 9 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 101.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 4 AND Prestige_score == 7 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 105.0 AND Educational_level == 6 AND Prestige_score == 13 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 105.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 98.0 AND Educational_level == 4 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 111.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 88.0 AND Educational_level == 3 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 88.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 123.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 123.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 98.0 AND Educational_level == 5 AND Prestige_score == 5 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 6 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 75.0 AND Educational_level == 4 AND Prestige_score == 5 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 75.0 THEN target == 0"
+  expl: "IF DVRT == 75.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 72.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 72.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 72.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 85.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 108.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 108.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 75.0 AND Educational_level == 4 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 75.0 THEN target == 0"
+  expl: "IF DVRT == 75.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 5 AND Prestige_score == 9 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 122.0 AND Educational_level == 0 AND Prestige_score == 9 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 122.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 122.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 110.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 107.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 0 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 5 AND Prestige_score == 19 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 116.0 AND Educational_level == 2 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 116.0 AND Educational_level == 2 THEN target == 0"
+  expl: "IF Educational_level == 2 AND DVRT == 116.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 7 AND Prestige_score == 12 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 95.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 95.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 95.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 6 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 113.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 126.0 AND Educational_level == 4 AND Prestige_score == 20 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 126.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 126.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 118.0 AND Educational_level == 10 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 118.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 115.0 AND Educational_level == 10 AND Prestige_score == 1 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 89.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 89.0 THEN target == 0"
+  expl: "IF DVRT == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 0 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 85.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 85.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 0 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 111.0 AND Educational_level == 10 AND Prestige_score == 25 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 116.0 AND Educational_level == 10 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 116.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 116.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 9 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 4 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 82.0 AND Educational_level == 7 AND Prestige_score == 4 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 82.0 THEN target == 0"
+  expl: "IF DVRT == 82.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 84.0 AND Educational_level == 2 AND Prestige_score == 5 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 2 THEN target == 0"
+  expl: "IF Educational_level == 2 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 117.0 AND Educational_level == 9 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 117.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 71.0 AND Educational_level == 9 AND Prestige_score == 10 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 71.0 THEN target == 0"
+  expl: "IF DVRT == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 1 AND Prestige_score == 25 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 1 THEN target == 1"
+  expl: "IF Educational_level == 1 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 86.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 79.0 AND Educational_level == 6 AND Prestige_score == 13 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 79.0 THEN target == 0"
+  expl: "IF DVRT == 79.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 80.0 AND Educational_level == 6 AND Prestige_score == 23 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 80.0 THEN target == 0"
+  expl: "IF DVRT == 80.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 10 THEN target == 0"
+  expl: "IF Educational_level == 10 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 86.0 AND Educational_level == 4 AND Prestige_score == 20 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 116.0 AND Educational_level == 0 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 116.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 116.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 124.0 AND Educational_level == 10 AND Prestige_score == 23 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 124.0 THEN target == 1"
+  expl: "IF DVRT == 124.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 98.0 AND Educational_level == 7 AND Prestige_score == 2 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 5 AND Prestige_score == 6 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 101.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 87.0 AND Educational_level == 7 AND Prestige_score == 12 AND Type_school == 0 THEN target == 1"
+  dexp: "IF DVRT == 87.0 THEN target == 1"
+  expl: "IF DVRT == 87.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 97.0 AND Educational_level == 0 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 97.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 120.0 AND Educational_level == 0 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 120.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 105.0 AND Educational_level == 8 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 8 THEN target == 0"
+  expl: "IF Educational_level == 8 AND DVRT == 105.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 10 THEN target == 0"
+  expl: "IF Educational_level == 10 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 10 AND Prestige_score == 2 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 3 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 101.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 105.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 101.0 AND Educational_level == 0 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 101.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 10 AND Prestige_score == 11 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 90.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 85.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 87.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 87.0 THEN target == 1"
+  expl: "IF DVRT == 87.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 85.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 6 AND Prestige_score == 11 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 99.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 10 AND Prestige_score == 9 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 89.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 89.0 THEN target == 0"
+  expl: "IF DVRT == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 77.0 AND Educational_level == 7 AND Prestige_score == 28 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 77.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 77.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 92.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 105.0 AND Educational_level == 3 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 105.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 105.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 105.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 5 AND Prestige_score == 25 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 0 AND Prestige_score == 25 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 99.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 110.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 88.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 88.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 101.0 AND Educational_level == 10 AND Prestige_score == 24 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 101.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 78.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 78.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 78.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 118.0 AND Educational_level == 0 AND Prestige_score == 23 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 118.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 7 AND Prestige_score == 2 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 85.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 106.0 AND Educational_level == 0 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 4 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 86.0 AND Educational_level == 7 AND Prestige_score == 28 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 92.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 7 AND Prestige_score == 9 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 86.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 78.0 AND Educational_level == 10 AND Prestige_score == 13 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 78.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 78.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 10 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 5 AND Prestige_score == 4 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 107.0 AND Educational_level == 10 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 4 AND Prestige_score == 4 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 103.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 115.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 115.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 106.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 90.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 92.0 AND Educational_level == 3 AND Prestige_score == 19 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 92.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 96.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 96.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 112.0 AND Educational_level == 10 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 106.0 AND Educational_level == 10 AND Prestige_score == 2 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 91.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 91.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 96.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 96.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 74.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 74.0 THEN target == 0"
+  expl: "IF DVRT == 74.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 3 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 107.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 78.0 AND Educational_level == 6 AND Prestige_score == 4 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 78.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 78.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 7 AND Prestige_score == 8 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 88.0 AND Educational_level == 4 AND Prestige_score == 19 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 88.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 93.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 93.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 88.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 88.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 0 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 101.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 98.0 AND Educational_level == 4 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 103.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 73.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 73.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 73.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 2 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 2 THEN target == 0"
+  expl: "IF Educational_level == 2 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 102.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 93.0 AND Educational_level == 4 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 93.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 93.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 93.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 10 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 101.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 100.0 AND Educational_level == 9 AND Prestige_score == 8 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 9 THEN target == 1"
+  expl: "IF Educational_level == 9 AND DVRT == 100.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 7 AND Prestige_score == 4 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 102.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 6 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 113.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 91.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 80.0 AND Educational_level == 7 AND Prestige_score == 19 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 80.0 THEN target == 0"
+  expl: "IF DVRT == 80.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 118.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 118.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 7 AND Prestige_score == 19 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 88.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 88.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 72.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 72.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 72.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 81.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 81.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 81.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 4 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 97.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 87.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 87.0 THEN target == 1"
+  expl: "IF DVRT == 87.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 81.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 81.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 81.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 90.0 AND Educational_level == 4 AND Prestige_score == 19 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 95.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 95.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 95.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 84.0 AND Educational_level == 4 AND Prestige_score == 20 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 9 AND Prestige_score == 10 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 105.0 AND Educational_level == 4 AND Prestige_score == 4 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 105.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 107.0 AND Educational_level == 3 AND Prestige_score == 19 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 107.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 84.0 AND Educational_level == 4 AND Prestige_score == 10 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 6 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 108.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 9 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 99.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 87.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 87.0 THEN target == 1"
+  expl: "IF DVRT == 87.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 101.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 101.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 6 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 78.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 78.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 78.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 70.0 AND Educational_level == 6 AND Prestige_score == 19 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 104.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 104.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 99.0 AND Educational_level == 6 AND Prestige_score == 6 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 98.0 AND Educational_level == 6 AND Prestige_score == 19 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 118.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 118.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 118.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 76.0 AND Educational_level == 4 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 76.0 THEN target == 0"
+  expl: "IF DVRT == 76.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 102.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 106.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 106.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 6 AND Prestige_score == 6 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 108.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 110.0 AND Educational_level == 9 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 110.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 110.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 110.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 89.0 AND Educational_level == 9 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 89.0 THEN target == 0"
+  expl: "IF DVRT == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 83.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 83.0 THEN target == 0"
+  expl: "IF DVRT == 83.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 96.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 96.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 113.0 AND Educational_level == 0 AND Prestige_score == 23 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 6 AND Prestige_score == 9 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 108.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 96.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 96.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 79.0 AND Educational_level == 8 AND Prestige_score == 20 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 79.0 THEN target == 0"
+  expl: "IF DVRT == 79.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 107.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 4 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 88.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 88.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 88.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 82.0 AND Educational_level == 5 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 82.0 THEN target == 0"
+  expl: "IF DVRT == 82.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 100.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 102.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 7 AND Prestige_score == 19 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 94.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 93.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 90.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 84.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 6 AND Prestige_score == 1 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 106.0 AND Educational_level == 10 AND Prestige_score == 16 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 1 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 1 THEN target == 1"
+  expl: "IF Educational_level == 1 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 101.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 101.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 115.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 108.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 117.0 AND Educational_level == 0 AND Prestige_score == 16 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 117.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 110.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 110.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 0 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 72.0 AND Educational_level == 7 AND Prestige_score == 28 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 72.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 72.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 116.0 AND Educational_level == 10 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 116.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 116.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 117.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 117.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 84.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 84.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 3 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 81.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 81.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 81.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 101.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 101.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 101.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 91.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 9 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 116.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 116.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 116.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 90.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 115.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 115.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 115.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 89.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 89.0 THEN target == 0"
+  expl: "IF DVRT == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 108.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 100.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 86.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 86.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 84.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 0 AND Prestige_score == 2 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 10 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 102.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 82.0 AND Educational_level == 5 AND Prestige_score == 6 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 82.0 THEN target == 0"
+  expl: "IF DVRT == 82.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 83.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 83.0 THEN target == 0"
+  expl: "IF DVRT == 83.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 113.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 113.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 113.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 117.0 AND Educational_level == 0 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 117.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 117.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 111.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 100.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 0 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 91.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 97.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 1 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 1 THEN target == 1"
+  expl: "IF Educational_level == 1 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 3 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 100.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 98.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 98.0 THEN target == 0"
+  expl: "IF DVRT == 98.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 8 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 8 THEN target == 1"
+  expl: "IF Educational_level == 8 AND DVRT == 85.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 7 AND Prestige_score == 0 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 5 AND Prestige_score == 4 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 85.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 87.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 87.0 THEN target == 1"
+  expl: "IF DVRT == 87.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 95.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 95.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 95.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 3 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 7 AND Prestige_score == 9 AND Type_school == 0 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 7 THEN target == 0"
+  expl: "IF Educational_level == 7 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 89.0 AND Educational_level == 8 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 89.0 THEN target == 0"
+  expl: "IF DVRT == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 112.0 AND Educational_level == 4 AND Prestige_score == 8 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 4 THEN target == 1"
+  expl: "IF Educational_level == 4 AND DVRT == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 118.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 118.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 118.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 8 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 8 THEN target == 0"
+  expl: "IF Educational_level == 8 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 103.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 103.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 103.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 90.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 97.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 9 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 91.0 AND Educational_level == 4 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 91.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 91.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 94.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 94.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 94.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 107.0 AND Educational_level == 3 AND Prestige_score == 18 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 107.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 3 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 97.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 97.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 97.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 96.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 96.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 81.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 81.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 81.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 2 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 106.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 106.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 92.0 AND Educational_level == 4 AND Prestige_score == 2 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 96.0 AND Educational_level == 10 AND Prestige_score == 9 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 96.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 84.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 84.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 84.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 89.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 89.0 THEN target == 0"
+  expl: "IF DVRT == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 102.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 99.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 99.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 99.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 3 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 6 AND Prestige_score == 4 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 70.0 AND Educational_level == 6 AND Prestige_score == 6 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 70.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 90.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 90.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 90.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 102.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 102.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 102.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 86.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 86.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 86.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 73.0 AND Educational_level == 10 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 73.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 73.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 81.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 81.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 81.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 18 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 111.0 AND Educational_level == 8 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 111.0 AND Educational_level == 8 THEN target == 0"
+  expl: "IF Educational_level == 8 AND DVRT == 111.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 105.0 AND Educational_level == 5 AND Prestige_score == 2 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 105.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 105.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 73.0 AND Educational_level == 5 AND Prestige_score == 8 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 73.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 73.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 85.0 AND Educational_level == 10 AND Prestige_score == 2 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 85.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 85.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 107.0 AND Educational_level == 0 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 107.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 107.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 112.0 AND Educational_level == 0 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 127.0 AND Educational_level == 0 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 127.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 127.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 5 AND Prestige_score == 24 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 114.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 109.0 AND Educational_level == 4 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 109.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 16 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 100.0 AND Educational_level == 10 AND Prestige_score == 4 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 100.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 100.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 92.0 AND Educational_level == 3 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 3 THEN target == 0"
+  expl: "IF Educational_level == 3 AND DVRT == 92.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 110.0 AND Educational_level == 10 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 6 AND Prestige_score == 8 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 93.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 96.0 AND Educational_level == 4 AND Prestige_score == 12 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 96.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 96.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 120.0 AND Educational_level == 2 AND Prestige_score == 27 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 120.0 AND Educational_level == 2 THEN target == 0"
+  expl: "IF Educational_level == 2 AND DVRT == 120.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 114.0 AND Educational_level == 0 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 106.0 AND Educational_level == 10 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 106.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 106.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 110.0 AND Educational_level == 10 AND Prestige_score == 17 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 110.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 110.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 92.0 AND Educational_level == 9 AND Prestige_score == 9 AND Type_school == 2 THEN target == 1"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 9 THEN target == 1"
+  expl: "IF Educational_level == 9 AND DVRT == 92.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 125.0 AND Educational_level == 0 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 125.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 125.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 108.0 AND Educational_level == 10 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 108.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 108.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 112.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 112.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 112.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 93.0 AND Educational_level == 10 AND Prestige_score == 25 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 93.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 93.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 114.0 AND Educational_level == 10 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 114.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 114.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 92.0 AND Educational_level == 10 AND Prestige_score == 27 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 92.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 92.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 104.0 AND Educational_level == 5 AND Prestige_score == 12 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 104.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 104.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 10 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 109.0 AND Educational_level == 0 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 109.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 109.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 123.0 AND Educational_level == 9 AND Prestige_score == 7 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 9 THEN target == 0"
+  expl: "IF Educational_level == 9 AND DVRT == 123.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 125.0 AND Educational_level == 0 AND Prestige_score == 4 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 125.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 125.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 127.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 127.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 127.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 129.0 AND Educational_level == 0 AND Prestige_score == 12 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 129.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 129.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 119.0 AND Educational_level == 1 AND Prestige_score == 25 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 119.0 THEN target == 1"
+  expl: "IF DVRT == 119.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 125.0 AND Educational_level == 6 AND Prestige_score == 26 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 125.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 125.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 121.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 121.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 121.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 124.0 AND Educational_level == 10 AND Prestige_score == 7 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 124.0 THEN target == 1"
+  expl: "IF DVRT == 124.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 125.0 AND Educational_level == 10 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 125.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 125.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 129.0 AND Educational_level == 5 AND Prestige_score == 0 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 129.0 AND Educational_level == 5 THEN target == 0"
+  expl: "IF Educational_level == 5 AND DVRT == 129.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 122.0 AND Educational_level == 10 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 122.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 122.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 121.0 AND Educational_level == 1 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 121.0 AND Educational_level == 1 THEN target == 1"
+  expl: "IF Educational_level == 1 AND DVRT == 121.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 129.0 AND Educational_level == 1 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 129.0 AND Educational_level == 1 THEN target == 1"
+  expl: "IF Educational_level == 1 AND DVRT == 129.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 122.0 AND Educational_level == 10 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 122.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 122.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 126.0 AND Educational_level == 6 AND Prestige_score == 16 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 126.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 126.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 122.0 AND Educational_level == 0 AND Prestige_score == 6 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 122.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 122.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 123.0 AND Educational_level == 10 AND Prestige_score == 23 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 10 AND Sex == 1 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 123.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 119.0 AND Educational_level == 0 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 119.0 THEN target == 1"
+  expl: "IF DVRT == 119.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 120.0 AND Educational_level == 0 AND Prestige_score == 10 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 120.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 127.0 AND Educational_level == 4 AND Prestige_score == 6 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 127.0 AND Educational_level == 4 THEN target == 0"
+  expl: "IF Educational_level == 4 AND DVRT == 127.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 127.0 AND Educational_level == 10 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 127.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 127.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 120.0 AND Educational_level == 10 AND Prestige_score == 20 AND Type_school == 1 THEN target == 0"
+  dexp: "IF DVRT == 120.0 AND Educational_level == 10 THEN target == 0"
+  expl: "IF Educational_level == 10 AND DVRT == 120.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 127.0 AND Educational_level == 10 AND Prestige_score == 19 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 127.0 AND Educational_level == 10 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 127.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 123.0 AND Educational_level == 10 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 123.0 AND Educational_level == 10 AND Sex == 0 THEN target == 1"
+  expl: "IF Educational_level == 10 AND DVRT == 123.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 120.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 120.0 AND Educational_level == 0 THEN target == 1"
+  expl: "IF Educational_level == 0 AND DVRT == 120.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 122.0 AND Educational_level == 6 AND Prestige_score == 0 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 122.0 AND Educational_level == 6 THEN target == 0"
+  expl: "IF Educational_level == 6 AND DVRT == 122.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 119.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 119.0 THEN target == 1"
+  expl: "IF DVRT == 119.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 130.0 AND Educational_level == 9 AND Prestige_score == 28 AND Type_school == 2 THEN target == 0"
+  dexp: "IF DVRT == 130.0 THEN target == 0"
+  expl: "IF DVRT == 130.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 134.0 AND Educational_level == 1 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 134.0 THEN target == 1"
+  expl: "IF DVRT == 134.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 136.0 AND Educational_level == 0 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 136.0 THEN target == 1"
+  expl: "IF DVRT == 136.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 135.0 AND Educational_level == 0 AND Prestige_score == 20 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 135.0 THEN target == 1"
+  expl: "IF DVRT == 135.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 140.0 AND Educational_level == 0 AND Prestige_score == 26 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 140.0 THEN target == 1"
+  expl: "IF DVRT == 140.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 131.0 AND Educational_level == 10 AND Prestige_score == 3 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 131.0 THEN target == 1"
+  expl: "IF DVRT == 131.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 137.0 AND Educational_level == 0 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 137.0 THEN target == 1"
+  expl: "IF DVRT == 137.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 136.0 AND Educational_level == 0 AND Prestige_score == 0 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 136.0 THEN target == 1"
+  expl: "IF DVRT == 136.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 1 AND DVRT == 132.0 AND Educational_level == 0 AND Prestige_score == 8 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 132.0 THEN target == 1"
+  expl: "IF DVRT == 132.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 135.0 AND Educational_level == 0 AND Prestige_score == 21 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 135.0 THEN target == 1"
+  expl: "IF DVRT == 135.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Sex == 0 AND DVRT == 134.0 AND Educational_level == 0 AND Prestige_score == 28 AND Type_school == 1 THEN target == 1"
+  dexp: "IF DVRT == 134.0 THEN target == 1"
+  expl: "IF DVRT == 134.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 470
+tot # of expls: 470
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.89
+avg expl sz: 1.89
+max expl sz: 1.89
+Max expl sz: 2
+
+tot time: 0.05
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   1.63%
+max dxrd:  33.33%

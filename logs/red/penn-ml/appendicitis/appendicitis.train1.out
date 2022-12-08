@@ -1,0 +1,735 @@
+MODEL:
+IF At1 == 0.2 THEN target == 0
+IF At1 == 0.4 THEN target == 0
+IF At1 == 0.12 THEN target == 1
+IF At1 == 0.027 THEN target == 0
+IF At1 == 0.32 THEN target == 0
+IF At1 == 0.36 THEN target == 0
+IF At1 == 0.44 THEN target == 0
+IF At1 == 0.48 THEN target == 0
+IF At1 == 0.52 THEN target == 0
+IF At1 == 0.058 THEN target == 1
+IF At1 == 0.68 THEN target == 0
+IF At1 == 0.071 THEN target == 1
+IF At1 == 0.089 THEN target == 1
+IF At1 == 0.098 THEN target == 1
+IF At1 == 0.102 THEN target == 1
+IF At1 == 0.116 THEN target == 1
+IF At1 == 0.142 THEN target == 0
+IF At1 == 0.187 THEN target == 1
+IF At1 == 0.191 THEN target == 1
+IF At1 == 0.204 THEN target == 1
+IF At1 == 0.213 THEN target == 1
+IF At1 == 0.218 THEN target == 0
+IF At1 == 0.222 THEN target == 0
+IF At1 == 0.231 THEN target == 0
+IF At1 == 0.284 THEN target == 0
+IF At1 == 0.302 THEN target == 0
+IF At1 == 0.329 THEN target == 0
+IF At1 == 0.351 THEN target == 0
+IF At1 == 0.364 THEN target == 1
+IF At1 == 0.369 THEN target == 0
+IF At1 == 0.373 THEN target == 0
+IF At1 == 0.378 THEN target == 0
+IF At1 == 0.396 THEN target == 0
+IF At1 == 0.409 THEN target == 0
+IF At1 == 0.413 THEN target == 0
+IF At1 == 0.418 THEN target == 0
+IF At1 == 0.422 THEN target == 0
+IF At1 == 0.427 THEN target == 0
+IF At1 == 0.431 THEN target == 0
+IF At1 == 0.449 THEN target == 0
+IF At1 == 0.453 THEN target == 0
+IF At1 == 0.458 THEN target == 1
+IF At1 == 0.462 THEN target == 0
+IF At1 == 0.467 THEN target == 0
+IF At1 == 0.471 THEN target == 0
+IF At1 == 0.489 THEN target == 0
+IF At1 == 0.493 THEN target == 0
+IF At1 == 0.502 THEN target == 0
+IF At1 == 0.507 THEN target == 0
+IF At1 == 0.511 THEN target == 0
+IF At1 == 0.516 THEN target == 0
+IF At1 == 0.538 THEN target == 0
+IF At1 == 0.556 THEN target == 0
+IF At1 == 0.573 THEN target == 0
+IF At1 == 0.587 THEN target == 0
+IF At1 == 0.613 THEN target == 0
+IF At1 == 0.627 THEN target == 0
+IF At1 == 0.751 THEN target == 0
+IF At1 == 0.764 THEN target == 0
+IF At1 == 0.778 THEN target == 0
+IF At1 == 0.796 THEN target == 0
+IF At1 == 0.884 THEN target == 0
+IF At2 == 0.75 THEN target == 0
+IF At1 == 0.236 THEN target == 1
+IF At2 == 0.375 THEN target == 1
+IF At1 == 0.298 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 530
+avg # of vars: 530.00
+max # of vars: 530
+min # of clauses: 21794
+avg # of clauses: 21812.50
+max # of clauses: 21831
+
+EXPLANATIONS:
+  inst: "IF At1 == 0.213 AND At2 == 0.554 AND At3 == 0.207 AND At4 == 0 AND At5 == 0 AND At6 == 0.749 AND At7 == 0.22 THEN target == 1"
+  dexp: "IF At1 == 0.213 THEN target == 1"
+  expl: "IF At1 == 0.213 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.458 AND At2 == 0.714 AND At3 == 0.468 AND At4 == 0.111 AND At5 == 0.102 AND At6 == 0.741 AND At7 == 0.436 THEN target == 1"
+  dexp: "IF At1 == 0.458 THEN target == 1"
+  expl: "IF At1 == 0.458 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.102 AND At2 == 0.518 AND At3 == 0.111 AND At4 == 0.056 AND At5 == 0.022 AND At6 == 0.506 AND At7 == 0.086 THEN target == 1"
+  dexp: "IF At1 == 0.102 THEN target == 1"
+  expl: "IF At1 == 0.102 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.187 AND At2 == 0.196 AND At3 == 0.105 AND At4 == 0.056 AND At5 == 0.029 AND At6 == 0.133 AND At7 == 0.085 THEN target == 1"
+  dexp: "IF At1 == 0.187 THEN target == 1"
+  expl: "IF At1 == 0.187 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.236 AND At2 == 0.804 AND At3 == 0.289 AND At4 == 0.111 AND At5 == 0.066 AND At6 == 0.756 AND At7 == 0.241 THEN target == 1"
+  dexp: "IF At1 == 0.236 AND At2 == 0.804 THEN target == 1"
+  expl: "IF At2 == 0.804 AND At1 == 0.236 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.116 AND At2 == 0.161 AND At3 == 0.057 AND At4 == 0.333 AND At5 == 0.14 AND At6 == 0.177 AND At7 == 0.049 THEN target == 1"
+  dexp: "IF At1 == 0.116 THEN target == 1"
+  expl: "IF At1 == 0.116 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.089 AND At2 == 0.179 AND At3 == 0.045 AND At4 == 0.028 AND At5 == 0.011 AND At6 == 0.168 AND At7 == 0.032 THEN target == 1"
+  dexp: "IF At1 == 0.089 THEN target == 1"
+  expl: "IF At1 == 0.089 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.364 AND At2 == 0.661 AND At3 == 0.365 AND At4 == 0.319 AND At5 == 0.25 AND At6 == 0.743 AND At7 == 0.353 THEN target == 1"
+  dexp: "IF At1 == 0.364 THEN target == 1"
+  expl: "IF At1 == 0.364 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.191 AND At2 == 0.661 AND At3 == 0.214 AND At4 == 0.042 AND At5 == 0.022 AND At6 == 0.448 AND At7 == 0.145 THEN target == 1"
+  dexp: "IF At1 == 0.191 THEN target == 1"
+  expl: "IF At1 == 0.191 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.12 AND At2 == 0.25 AND At3 == 0.076 AND At4 == 0.125 AND At5 == 0.053 AND At6 == 0.224 AND At7 == 0.059 THEN target == 1"
+  dexp: "IF At1 == 0.12 THEN target == 1"
+  expl: "IF At1 == 0.12 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.058 AND At2 == 0.589 AND At3 == 0.087 AND At4 == 0.583 AND At5 == 0.196 AND At6 == 0.576 AND At7 == 0.06 THEN target == 1"
+  dexp: "IF At1 == 0.058 THEN target == 1"
+  expl: "IF At1 == 0.058 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.071 AND At2 == 0.321 AND At3 == 0.057 AND At4 == 0.069 AND At5 == 0.025 AND At6 == 0.129 AND At7 == 0.016 THEN target == 1"
+  dexp: "IF At1 == 0.071 THEN target == 1"
+  expl: "IF At1 == 0.071 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 1 AND At2 == 0.768 AND At3 == 1 AND At4 == 0.028 AND At5 == 0.047 AND At6 == 0.878 AND At7 == 1 THEN target == 0"
+  dexp: "IF At1 == 1 AND At2 == 0.768 THEN target == 0"
+  expl: "IF At2 == 0.768 AND At1 == 1 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.204 AND At2 == 0.268 AND At3 == 0.132 AND At4 == 0 AND At5 == 0 AND At6 == 0.149 AND At7 == 0.098 THEN target == 1"
+  dexp: "IF At1 == 0.204 THEN target == 1"
+  expl: "IF At1 == 0.204 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0 AND At2 == 0.232 AND At3 == 0 AND At4 == 0 AND At5 == 0 AND At6 == 0.421 AND At7 == 0 THEN target == 0"
+  dexp: "IF At1 == 0 AND At2 == 0.232 THEN target == 0"
+  expl: "IF At2 == 0.232 AND At1 == 0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.364 AND At2 == 0.786 AND At3 == 0.408 AND At4 == 0.042 AND At5 == 0.033 AND At6 == 0.71 AND At7 == 0.344 THEN target == 1"
+  dexp: "IF At1 == 0.364 THEN target == 1"
+  expl: "IF At1 == 0.364 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.187 AND At2 == 0.411 AND At3 == 0.153 AND At4 == 0.056 AND At5 == 0.029 AND At6 == 0.322 AND At7 == 0.119 THEN target == 1"
+  dexp: "IF At1 == 0.187 THEN target == 1"
+  expl: "IF At1 == 0.187 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.378 AND At2 == 0.732 AND At3 == 0.402 AND At4 == 0.278 AND At5 == 0.223 AND At6 == 0.687 AND At7 == 0.35 THEN target == 0"
+  dexp: "IF At1 == 0.378 THEN target == 0"
+  expl: "IF At1 == 0.378 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.187 AND At2 == 0.214 AND At3 == 0.109 AND At4 == 0 AND At5 == 0 AND At6 == 0.273 AND At7 == 0.11 THEN target == 1"
+  dexp: "IF At1 == 0.187 THEN target == 1"
+  expl: "IF At1 == 0.187 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.298 AND At2 == 0.375 AND At3 == 0.222 AND At4 == 0.153 AND At5 == 0.105 AND At6 == 0.412 AND At7 == 0.216 THEN target == 1"
+  dexp: "IF At1 == 0.298 AND At2 == 0.375 THEN target == 1"
+  expl: "IF At2 == 0.375 AND At1 == 0.298 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.098 AND At2 == 0.607 AND At3 == 0.123 AND At4 == 0.042 AND At5 == 0.016 AND At6 == 0.67 AND At7 == 0.105 THEN target == 1"
+  dexp: "IF At1 == 0.098 THEN target == 1"
+  expl: "IF At1 == 0.098 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.391 AND At2 == 0.893 AND At3 == 0.471 AND At4 == 0.306 AND At5 == 0.251 AND At6 == 0.922 AND At7 == 0.428 THEN target == 0"
+  dexp: "IF At1 == 0.391 AND At2 == 0.893 THEN target == 0"
+  expl: "IF At2 == 0.893 AND At1 == 0.391 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.52 AND At2 == 0.768 AND At3 == 0.548 AND At4 == 0.597 AND At5 == 0.603 AND At6 == 0.752 AND At7 == 0.495 THEN target == 0"
+  dexp: "IF At1 == 0.52 THEN target == 0"
+  expl: "IF At1 == 0.52 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.369 AND At2 == 0.768 AND At3 == 0.406 AND At4 == 0.153 AND At5 == 0.121 AND At6 == 0.685 AND At7 == 0.342 THEN target == 0"
+  dexp: "IF At1 == 0.369 THEN target == 0"
+  expl: "IF At1 == 0.369 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.449 AND At2 == 0.571 AND At3 == 0.404 AND At4 == 0.139 AND At5 == 0.126 AND At6 == 0.639 AND At7 == 0.396 THEN target == 0"
+  dexp: "IF At1 == 0.449 THEN target == 0"
+  expl: "IF At1 == 0.449 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.2 AND At2 == 0.911 AND At3 == 0.28 AND At4 == 0.208 AND At5 == 0.113 AND At6 == 0.745 AND At7 == 0.207 THEN target == 0"
+  dexp: "IF At1 == 0.2 THEN target == 0"
+  expl: "IF At1 == 0.2 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.44 AND At2 == 0.786 AND At3 == 0.48 AND At4 == 0.097 AND At5 == 0.087 AND At6 == 0.805 AND At7 == 0.44 THEN target == 0"
+  dexp: "IF At1 == 0.44 THEN target == 0"
+  expl: "IF At1 == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.413 AND At2 == 0.714 AND At3 == 0.428 AND At4 == 0.028 AND At5 == 0.024 AND At6 == 0.73 AND At7 == 0.393 THEN target == 0"
+  dexp: "IF At1 == 0.413 THEN target == 0"
+  expl: "IF At1 == 0.413 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.422 AND At2 == 0.911 AND At3 == 0.509 AND At4 == 0.347 AND At5 == 0.301 AND At6 == 0.854 AND At7 == 0.438 THEN target == 0"
+  dexp: "IF At1 == 0.422 THEN target == 0"
+  expl: "IF At1 == 0.422 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.302 AND At2 == 0.482 AND At3 == 0.258 AND At4 == 0.069 AND At5 == 0.048 AND At6 == 0.599 AND At7 == 0.263 THEN target == 0"
+  dexp: "IF At1 == 0.302 THEN target == 0"
+  expl: "IF At1 == 0.302 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.373 AND At2 == 1 AND At3 == 0.49 AND At4 == 0.264 AND At5 == 0.21 AND At6 == 0.827 AND At7 == 0.384 THEN target == 0"
+  dexp: "IF At1 == 0.373 THEN target == 0"
+  expl: "IF At1 == 0.373 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.627 AND At2 == 0.75 AND At3 == 0.64 AND At4 == 0.083 AND At5 == 0.097 AND At6 == 0.727 AND At7 == 0.581 THEN target == 0"
+  dexp: "IF At1 == 0.627 THEN target == 0"
+  expl: "IF At1 == 0.627 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.298 AND At2 == 0.839 AND At3 == 0.36 AND At4 == 0.208 AND At5 == 0.143 AND At6 == 0.856 AND At7 == 0.32 THEN target == 0"
+  dexp: "IF At1 == 0.298 AND At2 == 0.839 THEN target == 0"
+  expl: "IF At2 == 0.839 AND At1 == 0.298 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.44 AND At2 == 0.643 AND At3 == 0.424 AND At4 == 0.139 AND At5 == 0.124 AND At6 == 0.767 AND At7 == 0.428 THEN target == 0"
+  dexp: "IF At1 == 0.44 THEN target == 0"
+  expl: "IF At1 == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.396 AND At2 == 0.464 AND At3 == 0.322 AND At4 == 0.611 AND At5 == 0.506 AND At6 == 0.366 AND At7 == 0.274 THEN target == 0"
+  dexp: "IF At1 == 0.396 THEN target == 0"
+  expl: "IF At1 == 0.396 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.271 AND At2 == 0.857 AND At3 == 0.338 AND At4 == 0.292 AND At5 == 0.189 AND At6 == 0.778 AND At7 == 0.278 THEN target == 0"
+  dexp: "IF At1 == 0.271 AND At2 == 0.857 THEN target == 0"
+  expl: "IF At2 == 0.857 AND At1 == 0.271 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.284 AND At2 == 0.857 AND At3 == 0.352 AND At4 == 0.389 AND At5 == 0.259 AND At6 == 0.448 AND At7 == 0.214 THEN target == 0"
+  dexp: "IF At1 == 0.284 THEN target == 0"
+  expl: "IF At1 == 0.284 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.538 AND At2 == 0.732 AND At3 == 0.549 AND At4 == 0.056 AND At5 == 0.058 AND At6 == 0.882 AND At7 == 0.558 THEN target == 0"
+  dexp: "IF At1 == 0.538 THEN target == 0"
+  expl: "IF At1 == 0.538 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.32 AND At2 == 0.946 AND At3 == 0.415 AND At4 == 0.208 AND At5 == 0.15 AND At6 == 0.765 AND At7 == 0.319 THEN target == 0"
+  dexp: "IF At1 == 0.32 THEN target == 0"
+  expl: "IF At1 == 0.32 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.44 AND At2 == 0.804 AND At3 == 0.486 AND At4 == 0 AND At5 == 0 AND At6 == 0.829 AND At7 == 0.447 THEN target == 0"
+  dexp: "IF At1 == 0.44 THEN target == 0"
+  expl: "IF At1 == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.378 AND At2 == 0.589 AND At3 == 0.352 AND At4 == 0.181 AND At5 == 0.145 AND At6 == 0.574 AND At7 == 0.319 THEN target == 0"
+  dexp: "IF At1 == 0.378 THEN target == 0"
+  expl: "IF At1 == 0.378 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.142 AND At2 == 0.589 AND At3 == 0.157 AND At4 == 0.708 AND At5 == 0.325 AND At6 == 0.938 AND At7 == 0.186 THEN target == 0"
+  dexp: "IF At1 == 0.142 THEN target == 0"
+  expl: "IF At1 == 0.142 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.52 AND At2 == 0.804 AND At3 == 0.564 AND At4 == 0.361 AND At5 == 0.364 AND At6 == 0.816 AND At7 == 0.518 THEN target == 0"
+  dexp: "IF At1 == 0.52 THEN target == 0"
+  expl: "IF At1 == 0.52 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.556 AND At2 == 0.607 AND At3 == 0.508 AND At4 == 0.069 AND At5 == 0.074 AND At6 == 0.758 AND At7 == 0.53 THEN target == 0"
+  dexp: "IF At1 == 0.556 THEN target == 0"
+  expl: "IF At1 == 0.556 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.453 AND At2 == 0.946 AND At3 == 0.556 AND At4 == 0.167 AND At5 == 0.152 AND At6 == 0.834 AND At7 == 0.461 THEN target == 0"
+  dexp: "IF At1 == 0.453 THEN target == 0"
+  expl: "IF At1 == 0.453 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.329 AND At2 == 0.661 AND At3 == 0.334 AND At4 == 0.153 AND At5 == 0.112 AND At6 == 0.674 AND At7 == 0.304 THEN target == 0"
+  dexp: "IF At1 == 0.329 THEN target == 0"
+  expl: "IF At1 == 0.329 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.409 AND At2 == 0.75 AND At3 == 0.437 AND At4 == 0.097 AND At5 == 0.082 AND At6 == 0.765 AND At7 == 0.399 THEN target == 0"
+  dexp: "IF At1 == 0.409 THEN target == 0"
+  expl: "IF At1 == 0.409 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.453 AND At2 == 0.911 AND At3 == 0.541 AND At4 == 0.097 AND At5 == 0.089 AND At6 == 0.843 AND At7 == 0.464 THEN target == 0"
+  dexp: "IF At1 == 0.453 THEN target == 0"
+  expl: "IF At1 == 0.453 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.062 AND At2 == 0.75 AND At3 == 0.114 AND At4 == 0.625 AND At5 == 0.214 AND At6 == 0.82 AND At7 == 0.09 THEN target == 0"
+  dexp: "IF At1 == 0.062 AND At2 == 0.75 THEN target == 0"
+  expl: "IF At2 == 0.75 AND At1 == 0.062 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.351 AND At2 == 0.518 AND At3 == 0.307 AND At4 == 0.056 AND At5 == 0.042 AND At6 == 0.636 AND At7 == 0.313 THEN target == 0"
+  dexp: "IF At1 == 0.351 THEN target == 0"
+  expl: "IF At1 == 0.351 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.413 AND At2 == 0.732 AND At3 == 0.434 AND At4 == 0 AND At5 == 0 AND At6 == 0.896 AND At7 == 0.442 THEN target == 0"
+  dexp: "IF At1 == 0.413 THEN target == 0"
+  expl: "IF At1 == 0.413 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.48 AND At2 == 0.857 AND At3 == 0.547 AND At4 == 0.056 AND At5 == 0.053 AND At6 == 0.836 AND At7 == 0.487 THEN target == 0"
+  dexp: "IF At1 == 0.48 THEN target == 0"
+  expl: "IF At1 == 0.48 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.44 AND At2 == 0.768 AND At3 == 0.473 AND At4 == 0.347 AND At5 == 0.31 AND At6 == 0.696 AND At7 == 0.406 THEN target == 0"
+  dexp: "IF At1 == 0.44 THEN target == 0"
+  expl: "IF At1 == 0.44 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.413 AND At2 == 0.821 AND At3 == 0.467 AND At4 == 0.083 AND At5 == 0.071 AND At6 == 0.818 AND At7 == 0.419 THEN target == 0"
+  dexp: "IF At1 == 0.413 THEN target == 0"
+  expl: "IF At1 == 0.413 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.378 AND At2 == 0.518 AND At3 == 0.328 AND At4 == 0.292 AND At5 == 0.234 AND At6 == 0.512 AND At7 == 0.302 THEN target == 0"
+  dexp: "IF At1 == 0.378 THEN target == 0"
+  expl: "IF At1 == 0.378 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.231 AND At2 == 0.357 AND At3 == 0.172 AND At4 == 0.181 AND At5 == 0.106 AND At6 == 0.18 AND At7 == 0.12 THEN target == 0"
+  dexp: "IF At1 == 0.231 THEN target == 0"
+  expl: "IF At1 == 0.231 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.573 AND At2 == 0.75 AND At3 == 0.59 AND At4 == 0.361 AND At5 == 0.392 AND At6 == 0.956 AND At7 == 0.619 THEN target == 0"
+  dexp: "IF At1 == 0.573 THEN target == 0"
+  expl: "IF At1 == 0.573 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.764 AND At2 == 0.786 AND At3 == 0.789 AND At4 == 0.25 AND At5 == 0.341 AND At6 == 0.854 AND At7 == 0.762 THEN target == 0"
+  dexp: "IF At1 == 0.764 THEN target == 0"
+  expl: "IF At1 == 0.764 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.236 AND At2 == 0.75 AND At3 == 0.276 AND At4 == 0.333 AND At5 == 0.174 AND At6 == 0.78 AND At7 == 0.246 THEN target == 0"
+  dexp: "IF At1 == 0.236 AND At2 == 0.75 THEN target == 0"
+  expl: "IF At2 == 0.75 AND At1 == 0.236 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.751 AND At2 == 0.821 AND At3 == 0.797 AND At4 == 0.292 AND At5 == 0.392 AND At6 == 0.747 AND At7 == 0.7 THEN target == 0"
+  dexp: "IF At1 == 0.751 THEN target == 0"
+  expl: "IF At1 == 0.751 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.36 AND At2 == 0.821 AND At3 == 0.415 AND At4 == 0.194 AND At5 == 0.151 AND At6 == 0.698 AND At7 == 0.338 THEN target == 0"
+  dexp: "IF At1 == 0.36 THEN target == 0"
+  expl: "IF At1 == 0.36 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.516 AND At2 == 0.625 AND At3 == 0.482 AND At4 == 0.056 AND At5 == 0.056 AND At6 == 0.65 AND At7 == 0.456 THEN target == 0"
+  dexp: "IF At1 == 0.516 THEN target == 0"
+  expl: "IF At1 == 0.516 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.502 AND At2 == 0.857 AND At3 == 0.569 AND At4 == 0.528 AND At5 == 0.519 AND At6 == 0.832 AND At7 == 0.506 THEN target == 0"
+  dexp: "IF At1 == 0.502 THEN target == 0"
+  expl: "IF At1 == 0.502 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.68 AND At2 == 0.714 AND At3 == 0.67 AND At4 == 0.014 AND At5 == 0.017 AND At6 == 0.851 AND At7 == 0.681 THEN target == 0"
+  dexp: "IF At1 == 0.68 THEN target == 0"
+  expl: "IF At1 == 0.68 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.627 AND At2 == 0.893 AND At3 == 0.711 AND At4 == 0.097 AND At5 == 0.113 AND At6 == 1 AND At7 == 0.69 THEN target == 0"
+  dexp: "IF At1 == 0.627 THEN target == 0"
+  expl: "IF At1 == 0.627 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.511 AND At2 == 0.786 AND At3 == 0.547 AND At4 == 0.139 AND At5 == 0.138 AND At6 == 0.741 AND At7 == 0.483 THEN target == 0"
+  dexp: "IF At1 == 0.511 THEN target == 0"
+  expl: "IF At1 == 0.511 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.396 AND At2 == 0.911 AND At3 == 0.482 AND At4 == 0.111 AND At5 == 0.092 AND At6 == 0.754 AND At7 == 0.384 THEN target == 0"
+  dexp: "IF At1 == 0.396 THEN target == 0"
+  expl: "IF At1 == 0.396 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.662 AND At2 == 0.714 AND At3 == 0.654 AND At4 == 0.278 AND At5 == 0.338 AND At6 == 0.537 AND At7 == 0.533 THEN target == 0"
+  dexp: "IF At1 == 0.662 AND At2 == 0.714 THEN target == 0"
+  expl: "IF At2 == 0.714 AND At1 == 0.662 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.298 AND At2 == 0.857 AND At3 == 0.365 AND At4 == 0.083 AND At5 == 0.057 AND At6 == 0.845 AND At7 == 0.318 THEN target == 0"
+  dexp: "IF At1 == 0.298 AND At2 == 0.857 THEN target == 0"
+  expl: "IF At2 == 0.857 AND At1 == 0.298 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.493 AND At2 == 0.732 AND At3 == 0.508 AND At4 == 0.056 AND At5 == 0.054 AND At6 == 0.661 AND At7 == 0.441 THEN target == 0"
+  dexp: "IF At1 == 0.493 THEN target == 0"
+  expl: "IF At1 == 0.493 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.516 AND At2 == 0.768 AND At3 == 0.544 AND At4 == 0.139 AND At5 == 0.139 AND At6 == 0.667 AND At7 == 0.462 THEN target == 0"
+  dexp: "IF At1 == 0.516 THEN target == 0"
+  expl: "IF At1 == 0.516 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.427 AND At2 == 0.589 AND At3 == 0.393 AND At4 == 0.181 AND At5 == 0.158 AND At6 == 0.754 AND At7 == 0.412 THEN target == 0"
+  dexp: "IF At1 == 0.427 THEN target == 0"
+  expl: "IF At1 == 0.427 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.507 AND At2 == 0.964 AND At3 == 0.619 AND At4 == 0.194 AND At5 == 0.192 AND At6 == 0.82 AND At7 == 0.507 THEN target == 0"
+  dexp: "IF At1 == 0.507 THEN target == 0"
+  expl: "IF At1 == 0.507 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.467 AND At2 == 0.643 AND At3 == 0.448 AND At4 == 0.083 AND At5 == 0.078 AND At6 == 0.743 AND At7 == 0.444 THEN target == 0"
+  dexp: "IF At1 == 0.467 THEN target == 0"
+  expl: "IF At1 == 0.467 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.502 AND At2 == 0.589 AND At3 == 0.456 AND At4 == 0.181 AND At5 == 0.178 AND At6 == 0.623 AND At7 == 0.436 THEN target == 0"
+  dexp: "IF At1 == 0.502 THEN target == 0"
+  expl: "IF At1 == 0.502 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.796 AND At2 == 0.786 AND At3 == 0.818 AND At4 == 0.556 AND At5 == 0.784 AND At6 == 0.876 AND At7 == 0.803 THEN target == 0"
+  dexp: "IF At1 == 0.796 THEN target == 0"
+  expl: "IF At1 == 0.796 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.471 AND At2 == 0.839 AND At3 == 0.531 AND At4 == 0.111 AND At5 == 0.104 AND At6 == 0.845 AND At7 == 0.481 THEN target == 0"
+  dexp: "IF At1 == 0.471 THEN target == 0"
+  expl: "IF At1 == 0.471 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.622 AND At2 == 0.75 AND At3 == 0.635 AND At4 == 0.264 AND At5 == 0.306 AND At6 == 0.787 AND At7 == 0.601 THEN target == 0"
+  dexp: "IF At1 == 0.622 AND At2 == 0.75 THEN target == 0"
+  expl: "IF At2 == 0.75 AND At1 == 0.622 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.218 AND At2 == 0.875 AND At3 == 0.29 AND At4 == 0.556 AND At5 == 0.032 AND At6 == 0.818 AND At7 == 0.237 THEN target == 0"
+  dexp: "IF At1 == 0.218 THEN target == 0"
+  expl: "IF At1 == 0.218 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.684 AND At2 == 0.589 AND At3 == 0.607 AND At4 == 0 AND At5 == 0 AND At6 == 0.862 AND At7 == 0.69 THEN target == 0"
+  dexp: "IF At1 == 0.684 AND At2 == 0.589 THEN target == 0"
+  expl: "IF At2 == 0.589 AND At1 == 0.684 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.431 AND At2 == 0.839 AND At3 == 0.491 AND At4 == 0.333 AND At5 == 0.293 AND At6 == 0.874 AND At7 == 0.452 THEN target == 0"
+  dexp: "IF At1 == 0.431 THEN target == 0"
+  expl: "IF At1 == 0.431 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.587 AND At2 == 0.875 AND At3 == 0.662 AND At4 == 0.625 AND At5 == 0.692 AND At6 == 0.911 AND At7 == 0.616 THEN target == 0"
+  dexp: "IF At1 == 0.587 THEN target == 0"
+  expl: "IF At1 == 0.587 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.213 AND At2 == 0.768 AND At3 == 0.259 AND At4 == 1 AND At5 == 0.563 AND At6 == 0.528 AND At7 == 0.177 THEN target == 1"
+  dexp: "IF At1 == 0.213 THEN target == 1"
+  expl: "IF At1 == 0.213 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.222 AND At2 == 0.429 AND At3 == 0.183 AND At4 == 0.486 AND At5 == 0.24 AND At6 == 0.357 AND At7 == 0.15 THEN target == 0"
+  dexp: "IF At1 == 0.222 THEN target == 0"
+  expl: "IF At1 == 0.222 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.613 AND At2 == 0.929 AND At3 == 0.715 AND At4 == 0.069 AND At5 == 0.08 AND At6 == 0.849 AND At7 == 0.618 THEN target == 0"
+  dexp: "IF At1 == 0.613 THEN target == 0"
+  expl: "IF At1 == 0.613 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.489 AND At2 == 0.768 AND At3 == 0.519 AND At4 == 0.236 AND At5 == 0.228 AND At6 == 0.798 AND At7 == 0.483 THEN target == 0"
+  dexp: "IF At1 == 0.489 THEN target == 0"
+  expl: "IF At1 == 0.489 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.556 AND At2 == 0.875 AND At3 == 0.63 AND At4 == 0.458 AND At5 == 0.486 AND At6 == 0.927 AND At7 == 0.591 THEN target == 0"
+  dexp: "IF At1 == 0.556 THEN target == 0"
+  expl: "IF At1 == 0.556 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.884 AND At2 == 0.821 AND At3 == 0.927 AND At4 == 0.069 AND At5 == 0.107 AND At6 == 0.78 AND At7 == 0.837 THEN target == 0"
+  dexp: "IF At1 == 0.884 THEN target == 0"
+  expl: "IF At1 == 0.884 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.027 AND At2 == 0.5 AND At3 == 0.05 AND At4 == 0.625 AND At5 == 0.182 AND At6 == 0.654 AND At7 == 0.043 THEN target == 0"
+  dexp: "IF At1 == 0.027 THEN target == 0"
+  expl: "IF At1 == 0.027 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.418 AND At2 == 0.857 AND At3 == 0.485 AND At4 == 0.111 AND At5 == 0.096 AND At6 == 0.792 AND At7 == 0.415 THEN target == 0"
+  dexp: "IF At1 == 0.418 THEN target == 0"
+  expl: "IF At1 == 0.418 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.524 AND At2 == 0.75 AND At3 == 0.544 AND At4 == 0.153 AND At5 == 0.155 AND At6 == 0.714 AND At7 == 0.486 THEN target == 0"
+  dexp: "IF At1 == 0.524 AND At2 == 0.75 THEN target == 0"
+  expl: "IF At2 == 0.75 AND At1 == 0.524 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.271 AND At2 == 0.196 AND At3 == 0.154 AND At4 == 0.25 AND At5 == 0.162 AND At6 == 0.22 AND At7 == 0.154 THEN target == 0"
+  dexp: "IF At1 == 0.271 AND At2 == 0.196 THEN target == 0"
+  expl: "IF At2 == 0.196 AND At1 == 0.271 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.471 AND At2 == 0.679 AND At3 == 0.466 AND At4 == 0.208 AND At5 == 0.196 AND At6 == 0.556 AND At7 == 0.388 THEN target == 0"
+  dexp: "IF At1 == 0.471 THEN target == 0"
+  expl: "IF At1 == 0.471 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.222 AND At2 == 0.661 AND At3 == 0.241 AND At4 == 0 AND At5 == 0 AND At6 == 0.641 AND At7 == 0.206 THEN target == 0"
+  dexp: "IF At1 == 0.222 THEN target == 0"
+  expl: "IF At1 == 0.222 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.613 AND At2 == 0.643 AND At3 == 0.574 AND At4 == 0.319 AND At5 == 0.366 AND At6 == 0.738 AND At7 == 0.574 THEN target == 0"
+  dexp: "IF At1 == 0.613 THEN target == 0"
+  expl: "IF At1 == 0.613 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.236 AND At2 == 0.75 AND At3 == 0.276 AND At4 == 0.014 AND At5 == 0.008 AND At6 == 0.809 AND At7 == 0.252 THEN target == 0"
+  dexp: "IF At1 == 0.236 AND At2 == 0.75 THEN target == 0"
+  expl: "IF At2 == 0.75 AND At1 == 0.236 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.591 AND At2 == 0.625 AND At3 == 0.546 AND At4 == 0.028 AND At5 == 0.031 AND At6 == 0.576 AND At7 == 0.492 THEN target == 0"
+  dexp: "IF At1 == 0.591 AND At2 == 0.625 THEN target == 0"
+  expl: "IF At2 == 0.625 AND At1 == 0.591 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF At1 == 0.373 AND At2 == 0.589 AND At3 == 0.349 AND At4 == 0.056 AND At5 == 0.044 AND At6 == 0.43 AND At7 == 0.276 THEN target == 0"
+  dexp: "IF At1 == 0.373 THEN target == 0"
+  expl: "IF At1 == 0.373 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.4 AND At2 == 0.589 AND At3 == 0.371 AND At4 == 0.514 AND At5 == 0.429 AND At6 == 0.716 AND At7 == 0.377 THEN target == 0"
+  dexp: "IF At1 == 0.4 THEN target == 0"
+  expl: "IF At1 == 0.4 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.471 AND At2 == 0.679 AND At3 == 0.466 AND At4 == 0.083 AND At5 == 0.078 AND At6 == 0.574 AND At7 == 0.394 THEN target == 0"
+  dexp: "IF At1 == 0.471 THEN target == 0"
+  expl: "IF At1 == 0.471 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.778 AND At2 == 0.732 AND At3 == 0.769 AND At4 == 0.722 AND At5 == 1 AND At6 == 0.503 AND At7 == 0.608 THEN target == 0"
+  dexp: "IF At1 == 0.778 THEN target == 0"
+  expl: "IF At1 == 0.778 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.449 AND At2 == 0.875 AND At3 == 0.523 AND At4 == 0.083 AND At5 == 0.076 AND At6 == 0.92 AND At7 == 0.487 THEN target == 0"
+  dexp: "IF At1 == 0.449 THEN target == 0"
+  expl: "IF At1 == 0.449 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.102 AND At2 == 0 AND At3 == 0.022 AND At4 == 0 AND At5 == 0 AND At6 == 0 AND At7 == 0.017 THEN target == 1"
+  dexp: "IF At1 == 0.102 THEN target == 1"
+  expl: "IF At1 == 0.102 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.409 AND At2 == 0.875 AND At3 == 0.482 AND At4 == 0.306 AND At5 == 0.259 AND At6 == 0.914 AND At7 == 0.443 THEN target == 0"
+  dexp: "IF At1 == 0.409 THEN target == 0"
+  expl: "IF At1 == 0.409 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.427 AND At2 == 0.804 AND At3 == 0.474 AND At4 == 0.056 AND At5 == 0.048 AND At6 == 0.836 AND At7 == 0.437 THEN target == 0"
+  dexp: "IF At1 == 0.427 THEN target == 0"
+  expl: "IF At1 == 0.427 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF At1 == 0.462 AND At2 == 0.911 AND At3 == 0.551 AND At4 == 0.167 AND At5 == 0.154 AND At6 == 0.931 AND At7 == 0.5 THEN target == 0"
+  dexp: "IF At1 == 0.462 THEN target == 0"
+  expl: "IF At1 == 0.462 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 106
+tot # of expls: 106
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.16
+avg expl sz: 1.16
+max expl sz: 1.16
+Max expl sz: 2
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

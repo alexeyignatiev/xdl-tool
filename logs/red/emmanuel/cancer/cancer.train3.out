@@ -1,0 +1,2777 @@
+MODEL:
+IF f1 == 8 THEN res == 1
+IF f1 == 9 THEN res == 1
+IF f2 == 3 THEN res == 1
+IF f2 == 7 THEN res == 1
+IF f1 == 0 THEN res == 0
+IF f2 == 8 THEN res == 1
+IF f3 == 3 THEN res == 1
+IF f1 == 6 THEN res == 0
+IF f3 == 9 THEN res == 1
+IF f4 == 3 THEN res == 1
+IF f4 == 8 THEN res == 1
+IF f4 == 9 THEN res == 1
+IF f5 == 7 THEN res == 0
+IF f5 == 8 THEN res == 1
+IF f2 == 9 THEN res == 0
+IF f6 == 0 THEN res == 1
+IF f5 == 1 THEN res == 0
+IF f3 == 6 THEN res == 1
+IF f7 == 1 THEN res == 1
+IF f7 == 2 THEN res == 0
+IF f7 == 7 THEN res == 1
+IF f7 == 9 THEN res == 1
+IF f8 == 1 THEN res == 0
+IF f8 == 2 THEN res == 0
+IF f2 == 2 THEN res == 1
+IF f3 == 2 THEN res == 1
+IF f4 == 7 THEN res == 0
+IF f6 == 3 THEN res == 1
+IF f8 == 6 THEN res == 1
+IF f8 == 8 THEN res == 1
+IF f1 == 2 THEN res == 0
+IF f3 == 8 THEN res == 0
+IF f2 == 6 THEN res == 1
+IF f5 == 6 THEN res == 1
+IF f1 == 1 THEN res == 0
+IF f3 == 4 THEN res == 0
+IF f1 == 7 THEN res == 1
+IF f4 == 4 THEN res == 1
+IF f6 == 1 THEN res == 1
+IF f2 == 1 THEN res == 0
+IF f1 == 4 THEN res == 1
+IF f3 == 1 THEN res == 0
+IF f4 == 1 THEN res == 1
+IF f4 == 5 THEN res == 0
+IF f2 == 0 THEN res == 1
+IF f2 == 4 THEN res == 1
+IF f1 != 3 THEN res == 0
+IF f5 != 3 THEN res == 0
+IF f6 == 5 THEN res == 0
+IF f1 == 3 THEN res == 1
+IF TRUE THEN res == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 89
+avg # of vars: 89.00
+max # of vars: 89
+min # of clauses: 425
+avg # of clauses: 430.50
+max # of clauses: 436
+
+EXPLANATIONS:
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 1 AND f4 == 1 AND f5 == 1 AND f6 == 1 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 1 AND f4 == 1 AND f5 == 1 AND f6 == 1 THEN res == 0"
+  expl: "IF f6 == 1 AND f5 == 1 AND f4 == 1 AND f3 == 1 AND f2 == 1 AND f1 == 5 THEN res == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 2 AND f3 == 2 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 5 AND f8 == 2 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 2 AND f3 == 2 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 5 AND f8 == 2 THEN res == 0"
+  expl: "IF f8 == 2 AND f7 == 5 AND f6 == 3 AND f5 == 2 AND f4 == 5 AND f3 == 2 AND f2 == 2 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 1 AND f6 == 1 AND f7 == 1 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 1 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 4 THEN res == 0"
+  expl: "IF f3 == 4 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 1 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 2 AND f5 == 5 AND f6 == 4 AND f7 == 4 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 2 AND f5 == 5 AND f6 == 4 AND f7 == 4 AND f8 == 3 THEN res == 1"
+  expl: "IF f8 == 3 AND f7 == 4 AND f5 == 5 AND f4 == 2 AND f3 == 0 AND f2 == 0 AND f1 == 5 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 6 AND f4 == 4 AND f5 == 1 AND f6 == 0 AND f7 == 0 AND f8 == 4 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 6 AND f4 == 4 AND f5 == 1 AND f6 == 0 THEN res == 1"
+  expl: "IF f6 == 0 AND f5 == 1 AND f2 == 6 AND f1 == 4 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 1 AND f3 == 7 AND f4 == 0 AND f5 == 4 AND f6 == 5 AND f7 == 4 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 1 AND f3 == 7 AND f4 == 0 AND f5 == 4 AND f6 == 5 AND f7 == 4 AND f8 == 0 THEN res == 1"
+  expl: "IF f8 == 0 AND f7 == 4 AND f5 == 4 AND f4 == 0 AND f3 == 7 AND f2 == 1 AND f1 == 7 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 6 AND f3 == 8 AND f4 == 6 AND f5 == 0 AND f6 == 1 AND f7 == 4 AND f8 == 5 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 0 AND f3 == 4 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 0 AND f8 == 3 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 0 AND f3 == 4 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 0 AND f8 == 3 THEN res == 1"
+  expl: "IF f8 == 3 AND f7 == 0 AND f5 == 6 AND f4 == 4 AND f3 == 4 AND f2 == 0 AND f1 == 7 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 6 AND f4 == 2 AND f5 == 4 AND f6 == 6 AND f7 == 6 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 0 AND f4 == 0 AND f5 == 5 AND f6 == 6 AND f7 == 5 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 0 AND f4 == 0 AND f5 == 5 AND f6 == 6 AND f7 == 5 AND f8 == 7 THEN res == 1"
+  expl: "IF f8 == 7 AND f7 == 5 AND f5 == 5 AND f4 == 0 AND f3 == 0 AND f2 == 4 AND f1 == 5 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 6 AND f3 == 8 AND f4 == 2 AND f5 == 7 AND f6 == 8 AND f7 == 6 AND f8 == 3 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 4 AND f6 == 5 AND f7 == 7 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 6 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 6 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 1 AND f4 == 8 AND f5 == 5 AND f6 == 1 AND f7 == 0 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 1 AND f4 == 8 THEN res == 1"
+  expl: "IF f4 == 8 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 7 AND f3 == 0 AND f4 == 2 AND f5 == 4 AND f6 == 6 AND f7 == 6 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 6 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 0 AND f4 == 5 AND f5 == 2 AND f6 == 4 AND f7 == 8 AND f8 == 4 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 3 AND f4 == 7 AND f5 == 7 AND f6 == 1 AND f7 == 6 AND f8 == 0 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 8 AND f3 == 6 AND f4 == 6 AND f5 == 8 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 0 AND f5 == 7 AND f6 == 5 AND f7 == 7 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 6 AND f3 == 8 AND f4 == 0 AND f5 == 0 AND f6 == 0 AND f7 == 4 AND f8 == 9 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 6 AND f3 == 8 AND f4 == 0 AND f5 == 0 AND f6 == 0 THEN res == 1"
+  expl: "IF f6 == 0 AND f5 == 0 AND f2 == 6 AND f1 == 1 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 2 AND f3 == 8 AND f4 == 7 AND f5 == 0 AND f6 == 9 AND f7 == 5 AND f8 == 9 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 2 AND f3 == 8 AND f4 == 7 AND f5 == 0 AND f6 == 9 AND f7 == 5 AND f8 == 9 THEN res == 1"
+  expl: "IF f8 == 9 AND f7 == 5 AND f5 == 0 AND f2 == 2 AND f1 == 7 THEN res == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 7 AND f3 == 2 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 3 AND f8 == 5 AND f9 == 1 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 0 AND f5 == 5 AND f6 == 3 AND f7 == 5 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 0 AND f5 == 5 AND f6 == 3 AND f7 == 5 AND f8 == 3 THEN res == 1"
+  expl: "IF f8 == 3 AND f7 == 5 AND f5 == 5 AND f4 == 0 AND f3 == 0 AND f2 == 0 AND f1 == 5 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 0 AND f3 == 7 AND f4 == 7 AND f5 == 2 AND f6 == 8 AND f7 == 4 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 7 AND f3 == 6 AND f4 == 3 AND f5 == 8 AND f6 == 9 AND f7 == 6 AND f8 == 0 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 6 AND f4 == 6 AND f5 == 7 AND f6 == 9 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 8 AND f3 == 7 AND f4 == 2 AND f5 == 0 AND f6 == 8 AND f7 == 5 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 5 AND f5 == 2 AND f6 == 10 AND f7 == 5 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 6 AND f6 == 5 AND f7 == 0 AND f8 == 3 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 6 AND f6 == 5 AND f7 == 0 AND f8 == 3 THEN res == 1"
+  expl: "IF f8 == 3 AND f7 == 0 AND f5 == 6 AND f4 == 5 AND f3 == 1 AND f2 == 4 AND f1 == 4 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 4 AND f6 == 1 AND f7 == 0 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 4 AND f6 == 1 AND f7 == 0 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 0 AND f6 == 1 AND f5 == 4 AND f4 == 5 AND f3 == 0 AND f2 == 4 AND f1 == 5 THEN res == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 7 AND f3 == 6 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 0 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 6 AND f4 == 1 AND f5 == 2 AND f6 == 4 AND f7 == 4 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 6 AND f4 == 1 AND f5 == 2 AND f6 == 4 THEN res == 1"
+  expl: "IF f5 == 2 AND f3 == 6 AND f2 == 0 AND f1 == 5 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 3 AND f3 == 3 AND f4 == 5 AND f5 == 8 AND f6 == 9 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 0 AND f3 == 1 AND f4 == 5 AND f5 == 6 AND f6 == 2 AND f7 == 5 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 0 AND f3 == 1 AND f4 == 5 AND f5 == 6 AND f6 == 2 AND f7 == 5 AND f8 == 8 THEN res == 1"
+  expl: "IF f8 == 8 AND f7 == 5 AND f5 == 6 AND f4 == 5 AND f2 == 0 AND f1 == 2 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 2 AND f7 == 4 AND f8 == 0 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 1 AND f4 == 5 AND f5 == 7 AND f6 == 1 AND f7 == 4 AND f8 == 8 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 1 AND f4 == 5 AND f5 == 7 THEN res == 0"
+  expl: "IF f5 == 7 AND f4 == 5 AND f3 == 1 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 0 AND f3 == 2 AND f4 == 2 AND f5 == 0 AND f6 == 0 AND f7 == 7 AND f8 == 8 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 0 AND f3 == 2 AND f4 == 2 AND f5 == 0 AND f6 == 0 THEN res == 1"
+  expl: "IF f6 == 0 AND f5 == 0 AND f2 == 0 AND f1 == 4 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 4 AND f4 == 3 AND f5 == 8 AND f6 == 2 AND f7 == 6 AND f8 == 9 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 0 AND f3 == 0 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 6 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 0 THEN res == 0"
+  expl: "IF f2 == 0 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 1 AND f3 == 6 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 4 AND f8 == 9 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 8 AND f3 == 1 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 5 AND f8 == 1 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 4 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 4 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 4 AND f3 == 4 THEN res == 0"
+  expl: "IF f3 == 4 AND f2 == 4 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 6 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 6 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 7 AND f3 == 8 AND f4 == 3 AND f5 == 7 AND f6 == 0 AND f7 == 6 AND f8 == 6 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 7 AND f4 == 5 AND f5 == 8 AND f6 == 3 AND f7 == 4 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 7 AND f4 == 0 AND f5 == 6 AND f6 == 9 AND f7 == 4 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 7 AND f4 == 0 AND f5 == 6 AND f6 == 9 AND f7 == 4 AND f8 == 3 THEN res == 1"
+  expl: "IF f8 == 3 AND f7 == 4 AND f5 == 6 AND f4 == 0 AND f3 == 7 AND f2 == 0 AND f1 == 1 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 8 AND f3 == 7 AND f4 == 6 AND f5 == 6 AND f6 == 1 AND f7 == 8 AND f8 == 9 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 1 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 8 AND f3 == 9 AND f4 == 7 AND f5 == 8 AND f6 == 10 AND f7 == 3 AND f8 == 8 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 7 AND f3 == 7 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 8 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 0 AND f3 == 6 AND f4 == 5 AND f5 == 8 AND f6 == 8 AND f7 == 5 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 0 AND f3 == 1 AND f4 == 0 AND f5 == 5 AND f6 == 8 AND f7 == 3 AND f8 == 4 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 0 AND f3 == 1 THEN res == 0"
+  expl: "IF f3 == 1 AND f2 == 0 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 4 AND f6 == 4 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 4 AND f6 == 4 AND f7 == 6 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 6 AND f5 == 4 AND f4 == 5 AND f3 == 0 AND f2 == 4 AND f1 == 4 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 5 AND f7 == 7 AND f8 == 9 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 0 AND f3 == 1 AND f4 == 0 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 1 AND f9 == 5 THEN res == 0"
+  dexp: "IF f1 == 7 AND f2 == 0 AND f3 == 1 AND f4 == 0 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 4 AND f5 == 2 AND f4 == 0 AND f3 == 1 AND f2 == 0 AND f1 == 7 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 5 AND f6 == 1 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 8 AND f3 == 2 AND f4 == 4 AND f5 == 7 AND f6 == 1 AND f7 == 0 AND f8 == 2 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 8 THEN res == 0"
+  expl: "IF f2 == 8 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 7 AND f3 == 1 AND f4 == 0 AND f5 == 2 AND f6 == 0 AND f7 == 6 AND f8 == 9 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 0 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 0 AND f8 == 0 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 0 THEN res == 0"
+  expl: "IF f2 == 0 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 8 AND f3 == 1 AND f4 == 2 AND f5 == 6 AND f6 == 0 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 0 AND f3 == 0 AND f4 == 4 AND f5 == 5 AND f6 == 1 AND f7 == 6 AND f8 == 0 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 2 AND f5 == 8 AND f6 == 9 AND f7 == 7 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 4 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 0 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 4 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 0 AND f1 == 4 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 7 AND f3 == 6 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 4 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 0 AND f6 == 4 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 7 AND f5 == 8 AND f6 == 1 AND f7 == 0 AND f8 == 0 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 6 AND f4 == 5 AND f5 == 7 AND f6 == 1 AND f7 == 0 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 6 AND f4 == 5 AND f5 == 7 THEN res == 0"
+  expl: "IF f5 == 7 AND f4 == 5 AND f3 == 6 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 9 AND f5 == 9 AND f6 == 6 AND f7 == 7 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 9 THEN res == 1"
+  expl: "IF f4 == 9 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 7 AND f3 == 0 AND f4 == 9 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 4 AND f9 == 1 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 0 AND f3 == 6 AND f4 == 0 AND f5 == 6 AND f6 == 1 AND f7 == 2 AND f8 == 7 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 0 AND f3 == 6 AND f4 == 0 AND f5 == 6 AND f6 == 1 THEN res == 1"
+  expl: "IF f5 == 6 AND f3 == 6 AND f2 == 0 AND f1 == 4 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 8 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 2 AND f4 == 4 AND f5 == 7 AND f6 == 1 AND f7 == 5 AND f8 == 7 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 7 AND f3 == 6 AND f4 == 0 AND f5 == 0 AND f6 == 8 AND f7 == 4 AND f8 == 0 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 1 AND f3 == 6 AND f4 == 7 AND f5 == 4 AND f6 == 9 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 1 AND f3 == 6 AND f4 == 7 AND f5 == 4 AND f6 == 9 THEN res == 1"
+  expl: "IF f5 == 4 AND f3 == 6 AND f2 == 1 AND f1 == 1 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 2 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 7 AND f6 == 5 AND f7 == 0 AND f8 == 9 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 7 THEN res == 0"
+  expl: "IF f5 == 7 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 2 AND f3 == 8 AND f4 == 0 AND f5 == 8 AND f6 == 1 AND f7 == 6 AND f8 == 9 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 2 AND f3 == 8 AND f4 == 0 AND f5 == 8 THEN res == 1"
+  expl: "IF f5 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 4 AND f6 == 1 AND f7 == 0 AND f8 == 3 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 4 AND f6 == 1 AND f7 == 0 AND f8 == 3 THEN res == 1"
+  expl: "IF f8 == 3 AND f7 == 0 AND f5 == 4 AND f4 == 5 AND f3 == 1 AND f2 == 4 AND f1 == 7 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 2 AND f4 == 6 AND f5 == 0 AND f6 == 8 AND f7 == 7 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 4 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 7 AND f3 == 6 AND f4 == 6 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 9 AND f3 == 3 AND f4 == 2 AND f5 == 4 AND f6 == 1 AND f7 == 6 AND f8 == 6 AND f9 == 8 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 6 AND f3 == 8 AND f4 == 0 AND f5 == 6 AND f6 == 1 AND f7 == 0 AND f8 == 2 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 3 AND f6 == 4 AND f7 == 2 AND f8 == 5 AND f9 == 5 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 8 AND f3 == 8 AND f4 == 3 AND f5 == 7 AND f6 == 1 AND f7 == 5 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 3 AND f4 == 4 AND f5 == 4 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 7 AND f6 == 1 AND f7 == 9 AND f8 == 6 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 8 AND f3 == 6 AND f4 == 0 AND f5 == 2 AND f6 == 1 AND f7 == 8 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 2 AND f3 == 8 AND f4 == 9 AND f5 == 8 AND f6 == 1 AND f7 == 0 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 2 AND f3 == 8 AND f4 == 9 THEN res == 1"
+  expl: "IF f4 == 9 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 2 AND f5 == 7 AND f6 == 5 AND f7 == 0 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 2 AND f5 == 4 AND f6 == 1 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 2 AND f5 == 4 AND f6 == 1 AND f7 == 5 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 5 AND f5 == 4 AND f4 == 2 AND f3 == 0 AND f2 == 0 AND f1 == 5 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 2 AND f3 == 2 AND f4 == 3 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 9 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 2 AND f3 == 2 AND f4 == 3 THEN res == 1"
+  expl: "IF f4 == 3 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 7 AND f4 == 0 AND f5 == 0 AND f6 == 1 AND f7 == 0 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 7 AND f4 == 0 AND f5 == 0 AND f6 == 1 AND f7 == 0 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 0 AND f5 == 0 AND f4 == 0 AND f3 == 7 AND f2 == 6 AND f1 == 4 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 7 AND f3 == 2 AND f4 == 6 AND f5 == 6 AND f6 == 9 AND f7 == 6 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 0 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 7 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 6 AND f8 == 2 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 2 AND f3 == 1 AND f4 == 4 AND f5 == 6 AND f6 == 9 AND f7 == 1 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 2 AND f3 == 1 AND f4 == 4 AND f5 == 6 AND f6 == 9 AND f7 == 1 THEN res == 1"
+  expl: "IF f7 == 1 AND f5 == 6 AND f2 == 2 AND f1 == 5 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 4 AND f6 == 9 AND f7 == 6 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 7 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 1 AND f7 == 4 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 1 AND f3 == 1 AND f4 == 1 AND f5 == 0 AND f6 == 6 AND f7 == 6 AND f8 == 9 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 4 AND f2 == 1 AND f3 == 1 AND f4 == 1 AND f5 == 0 AND f6 == 6 AND f7 == 6 AND f8 == 9 THEN res == 0"
+  expl: "IF f8 == 9 AND f7 == 6 AND f6 == 6 AND f5 == 0 AND f4 == 1 AND f3 == 1 AND f2 == 1 AND f1 == 4 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 0 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 0 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 0 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 6 AND f3 == 8 AND f4 == 1 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 9 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 2 AND f4 == 0 AND f5 == 8 AND f6 == 1 AND f7 == 7 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 8 AND f5 == 4 AND f6 == 1 AND f7 == 6 AND f8 == 6 AND f9 == 1 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 9 AND f4 == 2 AND f5 == 1 AND f6 == 8 AND f7 == 5 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 7 AND f8 == 6 AND f9 == 8 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 2 AND f4 == 3 AND f5 == 0 AND f6 == 9 AND f7 == 6 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 1 AND f6 == 1 AND f7 == 6 AND f8 == 6 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 2 AND f6 == 1 AND f7 == 9 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 9 AND f5 == 6 AND f6 == 8 AND f7 == 0 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 9 THEN res == 1"
+  expl: "IF f4 == 9 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 8 AND f4 == 9 AND f5 == 4 AND f6 == 3 AND f7 == 7 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 5 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 8 AND f3 == 1 AND f4 == 2 AND f5 == 8 AND f6 == 1 AND f7 == 1 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 8 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 8 AND f7 == 3 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 8 AND f5 == 3 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 7 AND f3 == 7 AND f4 == 2 AND f5 == 2 AND f6 == 9 AND f7 == 6 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 6 AND f4 == 6 AND f5 == 2 AND f6 == 1 AND f7 == 6 AND f8 == 8 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 8 AND f4 == 0 AND f5 == 0 AND f6 == 1 AND f7 == 7 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 9 AND f3 == 9 AND f4 == 1 AND f5 == 2 AND f6 == 8 AND f7 == 6 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 9 AND f3 == 9 THEN res == 1"
+  expl: "IF f3 == 9 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 2 AND f5 == 8 AND f6 == 1 AND f7 == 1 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 1 AND f3 == 8 AND f4 == 0 AND f5 == 2 AND f6 == 6 AND f7 == 6 AND f8 == 7 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 7 AND f2 == 1 AND f3 == 8 AND f4 == 0 AND f5 == 2 AND f6 == 6 AND f7 == 6 AND f8 == 7 THEN res == 0"
+  expl: "IF f8 == 7 AND f7 == 6 AND f6 == 6 AND f5 == 2 AND f4 == 0 AND f3 == 8 AND f2 == 1 AND f1 == 7 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 2 AND f3 == 8 AND f4 == 1 AND f5 == 4 AND f6 == 9 AND f7 == 7 AND f8 == 8 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 2 AND f3 == 8 AND f4 == 1 AND f5 == 4 AND f6 == 9 AND f7 == 7 THEN res == 1"
+  expl: "IF f7 == 7 AND f5 == 4 AND f2 == 2 AND f1 == 2 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 1 AND f3 == 7 AND f4 == 2 AND f5 == 2 AND f6 == 5 AND f7 == 4 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 4 AND f2 == 1 AND f3 == 7 AND f4 == 2 AND f5 == 2 AND f6 == 5 AND f7 == 4 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 4 AND f6 == 5 AND f5 == 2 AND f4 == 2 AND f3 == 7 AND f2 == 1 AND f1 == 4 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 6 AND f4 == 1 AND f5 == 6 AND f6 == 1 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 5 AND f8 == 7 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 5 AND f8 == 7 THEN res == 0"
+  expl: "IF f8 == 7 AND f7 == 5 AND f6 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 4 AND f2 == 0 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 2 AND f4 == 7 AND f5 == 7 AND f6 == 1 AND f7 == 4 AND f8 == 9 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 2 AND f3 == 2 AND f4 == 1 AND f5 == 4 AND f6 == 2 AND f7 == 4 AND f8 == 6 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 4 AND f6 == 0 AND f7 == 5 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 0 AND f4 == 7 AND f5 == 2 AND f6 == 1 AND f7 == 0 AND f8 == 0 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 2 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 2 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 3 AND f6 == 2 AND f5 == 5 AND f4 == 2 AND f3 == 0 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 3 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 0 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 9 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 1 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 0 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 1 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 0 THEN res == 1"
+  expl: "IF f6 == 0 AND f5 == 5 AND f2 == 1 AND f1 == 4 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 7 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 7 THEN res == 0"
+  expl: "IF f8 == 7 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 1 AND f4 == 4 AND f5 == 5 AND f6 == 1 AND f7 == 0 AND f8 == 0 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 0 AND f3 == 0 AND f4 == 1 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 4 AND f9 == 0 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 0 AND f3 == 0 AND f4 == 1 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 4 THEN res == 0"
+  expl: "IF f8 == 4 AND f7 == 5 AND f6 == 1 AND f5 == 2 AND f4 == 1 AND f3 == 0 AND f2 == 0 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 8 AND f3 == 7 AND f4 == 7 AND f5 == 0 AND f6 == 1 AND f7 == 5 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 6 AND f3 == 8 AND f4 == 5 AND f5 == 6 AND f6 == 9 AND f7 == 5 AND f8 == 3 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 6 AND f3 == 8 AND f4 == 5 AND f5 == 6 AND f6 == 9 AND f7 == 5 AND f8 == 3 THEN res == 0"
+  expl: "IF f8 == 3 AND f7 == 5 AND f6 == 9 AND f5 == 6 AND f4 == 5 AND f3 == 8 AND f2 == 6 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 2 AND f4 == 4 AND f5 == 2 AND f6 == 1 AND f7 == 0 AND f8 == 5 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 6 AND f5 == 8 AND f6 == 1 AND f7 == 9 AND f8 == 7 AND f9 == 1 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 2 AND f3 == 9 AND f4 == 0 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 9 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 2 AND f3 == 9 THEN res == 1"
+  expl: "IF f3 == 9 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 1 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 0 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 9 AND f3 == 1 AND f4 == 4 AND f5 == 8 AND f6 == 4 AND f7 == 0 AND f8 == 0 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 9 AND f3 == 1 AND f4 == 4 AND f5 == 8 THEN res == 1"
+  expl: "IF f5 == 8 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 1 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 7 AND f4 == 2 AND f5 == 2 AND f6 == 1 AND f7 == 4 AND f8 == 0 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 6 AND f4 == 7 AND f5 == 2 AND f6 == 1 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 6 AND f4 == 7 AND f5 == 2 AND f6 == 1 THEN res == 1"
+  expl: "IF f5 == 2 AND f3 == 6 AND f2 == 0 AND f1 == 1 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 2 AND f4 == 7 AND f5 == 2 AND f6 == 3 AND f7 == 7 AND f8 == 2 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 1 AND f3 == 8 AND f4 == 5 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 8 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 1 AND f3 == 8 AND f4 == 5 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 8 THEN res == 1"
+  expl: "IF f8 == 8 AND f7 == 5 AND f5 == 2 AND f4 == 5 AND f2 == 1 AND f1 == 4 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 5 AND f8 == 0 THEN res == 1"
+  expl: "IF f8 == 0 AND f7 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 1 AND f2 == 4 AND f1 == 7 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 8 AND f4 == 2 AND f5 == 2 AND f6 == 6 AND f7 == 5 AND f8 == 0 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 1 AND f3 == 0 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 0 AND f8 == 7 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 1 THEN res == 0"
+  expl: "IF f2 == 1 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 7 AND f4 == 5 AND f5 == 5 AND f6 == 1 AND f7 == 0 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 1 AND f3 == 6 AND f4 == 4 AND f5 == 5 AND f6 == 1 AND f7 == 5 AND f8 == 9 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 1 AND f3 == 6 AND f4 == 4 AND f5 == 5 AND f6 == 1 THEN res == 1"
+  expl: "IF f5 == 5 AND f3 == 6 AND f2 == 1 AND f1 == 7 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 7 AND f6 == 1 AND f7 == 9 AND f8 == 2 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 1 AND f7 == 4 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 0 AND f6 == 8 AND f7 == 0 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 0 AND f6 == 8 AND f7 == 0 AND f8 == 6 THEN res == 1"
+  expl: "IF f8 == 6 AND f7 == 0 AND f5 == 0 AND f4 == 5 AND f2 == 5 AND f1 == 2 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 8 AND f3 == 7 AND f4 == 3 AND f5 == 4 AND f6 == 1 AND f7 == 4 AND f8 == 6 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 1 AND f4 == 6 AND f5 == 5 AND f6 == 1 AND f7 == 3 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 7 AND f3 == 8 AND f4 == 3 AND f5 == 4 AND f6 == 1 AND f7 == 6 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 1 AND f4 == 2 AND f5 == 0 AND f6 == 8 AND f7 == 4 AND f8 == 2 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 1 AND f4 == 2 AND f5 == 0 AND f6 == 8 AND f7 == 4 AND f8 == 2 THEN res == 0"
+  expl: "IF f8 == 2 AND f7 == 4 AND f6 == 8 AND f5 == 0 AND f4 == 2 AND f3 == 1 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 6 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 4 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 6 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 6 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 4 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 5 AND f3 == 4 AND f4 == 6 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 2 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 1 AND f3 == 3 AND f4 == 1 AND f5 == 0 AND f6 == 3 AND f7 == 6 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 1 AND f3 == 3 THEN res == 1"
+  expl: "IF f3 == 3 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 9 AND f5 == 9 AND f6 == 1 AND f7 == 6 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 0 AND f3 == 1 AND f4 == 8 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 0 AND f3 == 1 AND f4 == 8 THEN res == 1"
+  expl: "IF f4 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 1 AND f4 == 0 AND f5 == 0 AND f6 == 1 AND f7 == 5 AND f8 == 6 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 2 AND f3 == 8 AND f4 == 6 AND f5 == 0 AND f6 == 4 AND f7 == 7 AND f8 == 9 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 2 AND f3 == 8 AND f4 == 6 AND f5 == 0 AND f6 == 4 AND f7 == 7 THEN res == 1"
+  expl: "IF f7 == 7 AND f5 == 0 AND f2 == 2 AND f1 == 7 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 0 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 0 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 0 AND f6 == 8 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 8 AND f3 == 1 AND f4 == 4 AND f5 == 8 AND f6 == 5 AND f7 == 5 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 7 AND f3 == 6 AND f4 == 7 AND f5 == 6 AND f6 == 1 AND f7 == 4 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 2 AND f3 == 8 AND f4 == 3 AND f5 == 4 AND f6 == 9 AND f7 == 7 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 2 AND f3 == 8 AND f4 == 3 THEN res == 1"
+  expl: "IF f4 == 3 AND f1 == 2 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 6 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 1 AND f3 == 1 AND f4 == 0 AND f5 == 4 AND f6 == 8 AND f7 == 6 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 1 AND f3 == 1 AND f4 == 0 AND f5 == 4 AND f6 == 8 AND f7 == 6 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 6 AND f6 == 8 AND f5 == 4 AND f4 == 0 AND f3 == 1 AND f2 == 1 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 8 AND f3 == 0 AND f4 == 7 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 3 AND f9 == 8 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 4 AND f5 == 5 AND f6 == 1 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 4 AND f5 == 5 AND f6 == 1 AND f7 == 4 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 4 AND f5 == 5 AND f4 == 4 AND f3 == 7 AND f2 == 1 AND f1 == 5 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 1 AND f7 == 0 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 0 AND f4 == 7 AND f5 == 4 AND f6 == 3 AND f7 == 5 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 7 AND f4 == 0 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 8 AND f4 == 7 AND f5 == 5 AND f6 == 9 AND f7 == 8 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 6 AND f5 == 0 AND f6 == 1 AND f7 == 4 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 6 AND f5 == 0 AND f6 == 1 AND f7 == 4 AND f8 == 0 THEN res == 1"
+  expl: "IF f8 == 0 AND f7 == 4 AND f6 == 1 AND f5 == 0 AND f4 == 6 AND f3 == 7 AND f2 == 1 AND f1 == 5 THEN res == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 8 AND f3 == 8 AND f4 == 2 AND f5 == 2 AND f6 == 1 AND f7 == 5 AND f8 == 3 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 7 AND f3 == 6 AND f4 == 3 AND f5 == 0 AND f6 == 1 AND f7 == 5 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 7 AND f3 == 6 AND f4 == 1 AND f5 == 5 AND f6 == 1 AND f7 == 4 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 1 AND f7 == 6 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 8 AND f3 == 1 AND f4 == 3 AND f5 == 8 AND f6 == 1 AND f7 == 1 AND f8 == 4 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 2 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 1 AND f3 == 1 AND f4 == 4 AND f5 == 6 AND f6 == 5 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 1 AND f3 == 1 AND f4 == 4 AND f5 == 6 AND f6 == 5 AND f7 == 5 AND f8 == 0 THEN res == 1"
+  expl: "IF f8 == 0 AND f7 == 5 AND f5 == 6 AND f4 == 4 AND f3 == 1 AND f2 == 1 AND f1 == 1 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 4 AND f3 == 0 AND f4 == 1 AND f5 == 2 AND f6 == 9 AND f7 == 6 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 4 AND f3 == 0 AND f4 == 1 AND f5 == 2 AND f6 == 9 AND f7 == 6 AND f8 == 7 THEN res == 1"
+  expl: "IF f8 == 7 AND f7 == 6 AND f5 == 2 AND f4 == 1 AND f3 == 0 AND f2 == 4 AND f1 == 3 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 1 AND f3 == 6 AND f4 == 2 AND f5 == 1 AND f6 == 4 AND f7 == 4 AND f8 == 7 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 1 AND f3 == 6 AND f4 == 2 AND f5 == 1 AND f6 == 4 THEN res == 0"
+  expl: "IF f6 == 4 AND f5 == 1 AND f4 == 2 AND f3 == 6 AND f2 == 1 AND f1 == 1 THEN res == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 6 AND f3 == 3 AND f4 == 4 AND f5 == 1 AND f6 == 1 AND f7 == 4 AND f8 == 8 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 6 AND f2 == 6 AND f3 == 3 THEN res == 1"
+  expl: "IF f3 == 3 AND f1 == 6 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 3 AND f6 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 0 AND f9 == 0 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 5 AND f6 == 4 AND f5 == 2 AND f4 == 5 AND f3 == 0 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 9 AND f5 == 8 AND f6 == 1 AND f7 == 6 AND f8 == 0 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 6 AND f4 == 2 AND f5 == 7 AND f6 == 3 AND f7 == 4 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 0 AND f3 == 6 AND f4 == 0 AND f5 == 2 AND f6 == 6 AND f7 == 5 AND f8 == 4 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 1 AND f7 == 7 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 3 AND f3 == 0 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 0 AND f8 == 5 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 0 AND f6 == 4 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 0 AND f6 == 4 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 4 AND f5 == 0 AND f4 == 5 AND f3 == 4 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 1 AND f3 == 1 AND f4 == 7 AND f5 == 5 AND f6 == 4 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 1 AND f3 == 1 AND f4 == 7 AND f5 == 5 AND f6 == 4 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 4 AND f5 == 5 AND f4 == 7 AND f3 == 1 AND f2 == 1 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 7 AND f6 == 1 AND f7 == 6 AND f8 == 6 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 2 AND f3 == 2 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 7 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 2 AND f3 == 2 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 7 THEN res == 1"
+  expl: "IF f7 == 7 AND f5 == 6 AND f2 == 2 AND f1 == 5 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 4 AND f2 == 0 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 0 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 0 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 3 AND f6 == 5 AND f5 == 2 AND f4 == 0 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 1 AND f4 == 5 AND f5 == 0 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 1 AND f4 == 5 AND f5 == 0 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 0 AND f4 == 5 AND f3 == 1 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 8 AND f3 == 0 AND f4 == 6 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 9 AND f9 == 2 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 1 AND f9 == 0 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 2 AND f4 == 7 AND f3 == 4 AND f2 == 0 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 8 AND f3 == 7 AND f4 == 2 AND f5 == 5 AND f6 == 1 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 7 AND f5 == 2 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 5 AND f6 == 5 AND f5 == 2 AND f4 == 7 AND f3 == 0 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 2 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 2 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 3 AND f6 == 2 AND f5 == 2 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 8 AND f4 == 0 AND f5 == 2 AND f6 == 1 AND f7 == 6 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 3 AND f3 == 2 AND f4 == 9 AND f5 == 4 AND f6 == 0 AND f7 == 1 AND f8 == 0 AND f9 == 7 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 3 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 3 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 3 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 4 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 0 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 0 AND f3 == 4 THEN res == 0"
+  expl: "IF f3 == 4 AND f2 == 0 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 6 AND f5 == 7 AND f6 == 3 AND f7 == 7 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 7 AND f3 == 7 AND f4 == 7 AND f5 == 2 AND f6 == 1 AND f7 == 8 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 6 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 4 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 4 AND f4 == 6 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 4 THEN res == 0"
+  expl: "IF f8 == 4 AND f7 == 5 AND f6 == 4 AND f5 == 2 AND f4 == 6 AND f3 == 4 AND f2 == 0 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 1 AND f5 == 8 AND f6 == 1 AND f7 == 6 AND f8 == 1 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 1 AND f5 == 8 THEN res == 1"
+  expl: "IF f5 == 8 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 1 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 2 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f7 == 5 AND f6 == 2 AND f5 == 5 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 6 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 0 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 0 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 2 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 2 AND f5 == 5 AND f6 == 4 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 4 AND f5 == 5 AND f4 == 2 AND f3 == 4 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 9 AND f5 == 8 AND f6 == 1 AND f7 == 7 AND f8 == 1 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 0 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 0 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 1 AND f7 == 9 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 7 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 7 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 7 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 7 AND f5 == 0 AND f6 == 2 AND f7 == 0 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 7 AND f5 == 0 AND f6 == 2 AND f7 == 0 AND f8 == 6 THEN res == 1"
+  expl: "IF f8 == 6 AND f7 == 0 AND f5 == 0 AND f3 == 2 AND f2 == 6 AND f1 == 4 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 0 THEN res == 0"
+  expl: "IF f2 == 0 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 0 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 0 AND f6 == 5 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 5 AND f5 == 0 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 4 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 9 AND f3 == 8 AND f4 == 1 AND f5 == 6 AND f6 == 9 AND f7 == 4 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 9 AND f3 == 8 AND f4 == 1 AND f5 == 6 THEN res == 0"
+  expl: "IF f5 == 6 AND f4 == 1 AND f3 == 8 AND f2 == 9 AND f1 == 2 THEN res == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 2 AND f3 == 3 AND f4 == 5 AND f5 == 2 AND f6 == 1 AND f7 == 0 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 5 AND f5 == 4 AND f6 == 5 AND f7 == 3 AND f8 == 9 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 0 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 0 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 0 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 0 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 9 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 0 AND f5 == 5 AND f6 == 3 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 0 AND f5 == 5 AND f6 == 3 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 3 AND f5 == 5 AND f4 == 0 AND f3 == 4 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 4 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 6 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 6 AND f5 == 2 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 2 AND f4 == 6 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 6 AND f3 == 9 AND f4 == 3 AND f5 == 4 AND f6 == 1 AND f7 == 7 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 6 AND f3 == 9 THEN res == 1"
+  expl: "IF f3 == 9 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 3 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 7 AND f3 == 6 AND f4 == 3 AND f5 == 4 AND f6 == 1 AND f7 == 9 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 0 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 0 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 4 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 10 AND f7 == 2 AND f8 == 5 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 8 AND f3 == 6 AND f4 == 3 AND f5 == 6 AND f6 == 1 AND f7 == 7 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 2 AND f3 == 9 AND f4 == 6 AND f5 == 4 AND f6 == 4 AND f7 == 9 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 2 AND f3 == 9 THEN res == 1"
+  expl: "IF f3 == 9 AND f1 == 4 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 8 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 2 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 9 AND f3 == 2 AND f4 == 9 AND f5 == 4 AND f6 == 3 AND f7 == 6 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 8 AND f3 == 7 AND f4 == 7 AND f5 == 0 AND f6 == 1 AND f7 == 1 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 8 AND f3 == 7 AND f4 == 1 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 7 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 2 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 2 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 2 AND f3 == 8 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 2 AND f3 == 8 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 4 THEN res == 1"
+  expl: "IF f8 == 4 AND f7 == 6 AND f5 == 0 AND f2 == 2 AND f1 == 3 THEN res == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 4 AND f4 == 0 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 4 AND f4 == 0 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 0 AND f3 == 4 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 8 AND f7 == 9 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 1 AND f5 == 6 AND f6 == 1 AND f7 == 1 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 2 AND f4 == 1 AND f5 == 6 AND f6 == 1 AND f7 == 1 THEN res == 1"
+  expl: "IF f7 == 1 AND f5 == 6 AND f2 == 6 AND f1 == 4 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 3 AND f6 == 4 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 7 AND f8 == 5 AND f9 == 1 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 8 AND f3 == 1 AND f4 == 4 AND f5 == 2 AND f6 == 4 AND f7 == 5 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 1 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 4 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 4 AND f6 == 3 AND f5 == 2 AND f4 == 5 AND f2 == 0 AND f1 == 2 THEN res == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 2 AND f3 == 9 AND f4 == 0 AND f5 == 2 AND f6 == 1 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 2 AND f3 == 9 THEN res == 1"
+  expl: "IF f3 == 9 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 8 AND f8 == 4 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 4 AND f5 == 0 AND f6 == 8 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 4 AND f5 == 0 AND f6 == 8 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 8 AND f5 == 0 AND f4 == 4 AND f3 == 4 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 4 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 4 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 0 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 1 AND f6 == 8 AND f7 == 4 AND f8 == 9 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 3 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 8 AND f3 == 8 AND f4 == 4 AND f5 == 2 AND f6 == 1 AND f7 == 7 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 2 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 3 AND f3 == 1 AND f4 == 9 AND f5 == 2 AND f6 == 1 AND f7 == 1 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 4 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 6 AND f3 == 2 AND f4 == 2 AND f5 == 0 AND f6 == 1 AND f7 == 1 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 6 AND f3 == 2 AND f4 == 2 AND f5 == 0 AND f6 == 1 AND f7 == 1 THEN res == 1"
+  expl: "IF f7 == 1 AND f5 == 0 AND f2 == 6 AND f1 == 3 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 6 AND f4 == 0 AND f5 == 2 AND f6 == 8 AND f7 == 6 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 7 AND f3 == 7 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 0 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 0 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 0 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 0 AND f2 == 5 AND f1 == 2 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 1 AND f3 == 1 AND f4 == 2 AND f5 == 0 AND f6 == 1 AND f7 == 8 AND f8 == 8 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 1 AND f3 == 1 AND f4 == 2 AND f5 == 0 AND f6 == 1 AND f7 == 8 AND f8 == 8 THEN res == 1"
+  expl: "IF f8 == 8 AND f7 == 8 AND f5 == 0 AND f4 == 2 AND f2 == 1 AND f1 == 7 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 0 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 2 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 0 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 0 THEN res == 0"
+  expl: "IF f3 == 0 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 2 AND f3 == 0 AND f4 == 9 AND f5 == 0 AND f6 == 8 AND f7 == 6 AND f8 == 9 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 2 AND f3 == 0 AND f4 == 9 THEN res == 1"
+  expl: "IF f4 == 9 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 4 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 4 AND f8 == 1 THEN res == 0"
+  expl: "IF f7 == 4 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 1 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 3 AND f8 == 5 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 1 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 8 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 1 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 4 AND f8 == 9 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 4 AND f8 == 9 THEN res == 0"
+  expl: "IF f8 == 9 AND f7 == 4 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 0 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 5 AND f5 == 3 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 6 AND f3 == 3 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 9 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 6 AND f3 == 3 THEN res == 1"
+  expl: "IF f3 == 3 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 4 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 4 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 1 AND f3 == 1 AND f4 == 5 AND f5 == 4 AND f6 == 1 AND f7 == 3 AND f8 == 4 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 1 AND f3 == 1 AND f4 == 5 AND f5 == 4 AND f6 == 1 AND f7 == 3 AND f8 == 4 THEN res == 1"
+  expl: "IF f8 == 4 AND f7 == 3 AND f6 == 1 AND f5 == 4 AND f4 == 5 AND f3 == 1 AND f2 == 1 AND f1 == 4 THEN res == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 2 AND f4 == 4 AND f5 == 4 AND f6 == 8 AND f7 == 9 AND f8 == 0 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 1 AND f4 == 0 AND f5 == 7 AND f6 == 1 AND f7 == 7 AND f8 == 1 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 8 AND f3 == 3 AND f4 == 1 AND f5 == 2 AND f6 == 1 AND f7 == 1 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 9 AND f3 == 8 AND f4 == 2 AND f5 == 0 AND f6 == 2 AND f7 == 6 AND f8 == 2 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 4 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 4 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 6 AND f3 == 3 AND f4 == 6 AND f5 == 6 AND f6 == 1 AND f7 == 6 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 6 AND f3 == 3 THEN res == 1"
+  expl: "IF f3 == 3 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 3 AND f3 == 6 AND f4 == 1 AND f5 == 0 AND f6 == 1 AND f7 == 8 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 2 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 6 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 6 AND f5 == 2 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 2 AND f4 == 6 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 9 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 9 AND f2 == 2 AND f3 == 2 AND f4 == 8 AND f5 == 4 AND f6 == 4 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 9 THEN res == 1"
+  expl: "IF f1 == 9 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 3 AND f3 == 2 AND f4 == 1 AND f5 == 0 AND f6 == 5 AND f7 == 9 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 7 AND f3 == 8 AND f4 == 6 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 6 AND f2 == 7 THEN res == 1"
+  expl: "IF f2 == 7 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 0 AND f3 == 1 AND f4 == 1 AND f5 == 2 AND f6 == 1 AND f7 == 4 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 2 AND f3 == 7 AND f4 == 2 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 2 AND f3 == 7 AND f4 == 2 AND f5 == 0 AND f6 == 1 AND f7 == 6 AND f8 == 5 THEN res == 1"
+  expl: "IF f8 == 5 AND f7 == 6 AND f5 == 0 AND f2 == 2 AND f1 == 3 THEN res == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 1 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 3 AND f4 == 5 AND f3 == 1 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 3 AND f5 == 0 AND f6 == 5 AND f7 == 7 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 7 AND f4 == 3 THEN res == 1"
+  expl: "IF f4 == 3 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 4 AND f4 == 3 AND f5 == 6 AND f6 == 1 AND f7 == 7 AND f8 == 5 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 4 AND f4 == 3 THEN res == 1"
+  expl: "IF f4 == 3 AND f1 == 5 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 7 AND f3 == 3 AND f4 == 2 AND f5 == 6 AND f6 == 9 AND f7 == 6 AND f8 == 9 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 1 AND f7 == 9 AND f8 == 5 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 1 AND f3 == 0 AND f4 == 4 AND f5 == 2 AND f6 == 1 AND f7 == 6 AND f8 == 5 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 6 AND f6 == 2 AND f7 == 7 AND f8 == 4 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 4 AND f6 == 1 AND f7 == 9 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 0 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 0 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 0 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 0 AND f3 == 0 AND f4 == 2 AND f5 == 2 AND f6 == 2 AND f7 == 8 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 0 AND f3 == 0 AND f4 == 2 AND f5 == 2 AND f6 == 2 AND f7 == 8 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 8 AND f6 == 2 AND f5 == 2 AND f4 == 2 AND f3 == 0 AND f2 == 0 AND f1 == 2 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 5 AND f3 == 4 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 7 AND f2 == 5 AND f3 == 4 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 4 AND f2 == 5 AND f1 == 7 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 3 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 3 AND f6 == 5 AND f5 == 3 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 2 AND f6 == 3 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 3 AND f5 == 2 AND f4 == 5 AND f3 == 0 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 8 AND f3 == 7 AND f4 == 1 AND f5 == 1 AND f6 == 10 AND f7 == 6 AND f8 == 2 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 8 THEN res == 1"
+  expl: "IF f2 == 8 AND f1 == 3 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 6 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 8 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 6 AND f2 == 5 AND f3 == 5 THEN res == 0"
+  expl: "IF f3 == 5 AND f2 == 5 AND f1 == 6 THEN res == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF f1 == 2 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 2 AND f2 == 4 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 0 AND f2 == 4 AND f1 == 2 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 4 AND f2 == 6 AND f3 == 1 AND f4 == 0 AND f5 == 6 AND f6 == 4 AND f7 == 0 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 4 AND f2 == 6 AND f3 == 1 AND f4 == 0 AND f5 == 6 AND f6 == 4 AND f7 == 0 AND f8 == 6 THEN res == 1"
+  expl: "IF f8 == 6 AND f7 == 0 AND f5 == 6 AND f4 == 0 AND f2 == 6 AND f1 == 4 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 1 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 8 AND f4 == 3 AND f5 == 1 AND f6 == 5 AND f7 == 9 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 4 AND f3 == 1 AND f4 == 2 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 4 AND f3 == 1 AND f4 == 2 AND f5 == 5 AND f6 == 2 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 2 AND f5 == 5 AND f4 == 2 AND f3 == 1 AND f2 == 4 AND f1 == 3 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 8 AND f6 == 2 AND f7 == 9 AND f8 == 6 AND f9 == 6 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 2 AND f6 == 3 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 7 AND f5 == 2 AND f6 == 3 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 3 AND f5 == 2 AND f4 == 7 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 4 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 4 THEN res == 0"
+  expl: "IF f2 == 4 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 1 AND f3 == 6 AND f4 == 5 AND f5 == 7 AND f6 == 5 AND f7 == 5 AND f8 == 7 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 1 AND f3 == 6 AND f4 == 5 AND f5 == 7 THEN res == 0"
+  expl: "IF f5 == 7 AND f4 == 5 AND f3 == 6 AND f2 == 1 AND f1 == 5 THEN res == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF f1 == 7 AND f2 == 2 AND f3 == 2 AND f4 == 9 AND f5 == 2 AND f6 == 1 AND f7 == 6 AND f8 == 1 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 7 AND f2 == 2 AND f3 == 2 AND f4 == 9 THEN res == 1"
+  expl: "IF f4 == 9 AND f1 == 7 THEN res == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 0 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 2 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 2 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 4 AND f3 == 4 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 4 AND f2 == 4 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 6 AND f3 == 1 AND f4 == 5 AND f5 == 4 AND f6 == 5 AND f7 == 6 AND f8 == 6 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 6 AND f3 == 1 AND f4 == 5 AND f5 == 4 AND f6 == 5 AND f7 == 6 AND f8 == 6 THEN res == 1"
+  expl: "IF f8 == 6 AND f7 == 6 AND f5 == 4 AND f4 == 5 AND f2 == 6 AND f1 == 5 THEN res == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 3 AND f5 == 6 AND f6 == 8 AND f7 == 6 AND f8 == 6 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 3 AND f3 == 8 AND f4 == 3 AND f5 == 6 AND f6 == 9 AND f7 == 6 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 1 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 4 AND f3 == 5 AND f4 == 7 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 5 THEN res == 0"
+  expl: "IF f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 7 AND f3 == 5 AND f2 == 4 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 0 AND f3 == 4 AND f4 == 5 AND f5 == 2 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 2 AND f4 == 5 AND f3 == 4 AND f2 == 0 AND f1 == 5 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 3 AND f2 == 5 AND f3 == 1 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 1 AND f2 == 5 AND f1 == 3 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 8 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 6 AND f6 == 1 AND f7 == 9 AND f8 == 6 AND f9 == 5 THEN res == 1"
+  dexp: "IF f1 == 8 THEN res == 1"
+  expl: "IF f1 == 8 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 4 AND f5 == 0 AND f6 == 1 AND f7 == 0 AND f8 == 7 AND f9 == 0 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 5 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 5 AND f8 == 1 THEN res == 0"
+  expl: "IF f8 == 1 AND f7 == 5 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 5 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 0 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 0 THEN res == 0"
+  expl: "IF f8 == 0 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 0 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 2 AND f8 == 5 AND f9 == 7 THEN res == 0"
+  dexp: "IF f1 == 0 AND f2 == 5 THEN res == 0"
+  expl: "IF f2 == 5 AND f1 == 0 THEN res == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 1 AND f5 == 0 AND f6 == 8 AND f7 == 4 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 AND f9 == 3 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 5 AND f6 == 5 AND f7 == 3 AND f8 == 5 THEN res == 0"
+  expl: "IF f8 == 5 AND f7 == 3 AND f6 == 5 AND f5 == 5 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 2 AND f7 == 2 AND f8 == 5 AND f9 == 4 THEN res == 0"
+  dexp: "IF f1 == 1 AND f2 == 5 AND f3 == 5 AND f4 == 5 AND f5 == 2 AND f6 == 2 AND f7 == 2 THEN res == 0"
+  expl: "IF f7 == 2 AND f6 == 2 AND f5 == 2 AND f4 == 5 AND f3 == 5 AND f2 == 5 AND f1 == 1 THEN res == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF f1 == 5 AND f2 == 3 AND f3 == 3 AND f4 == 2 AND f5 == 1 AND f6 == 4 AND f7 == 7 AND f8 == 6 AND f9 == 3 THEN res == 1"
+  dexp: "IF f1 == 5 AND f2 == 3 THEN res == 1"
+  expl: "IF f2 == 3 THEN res == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 2 AND f3 == 7 AND f4 == 0 AND f5 == 2 AND f6 == 3 AND f7 == 9 AND f8 == 7 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 2 AND f3 == 7 AND f4 == 0 AND f5 == 2 AND f6 == 3 AND f7 == 9 THEN res == 1"
+  expl: "IF f7 == 9 AND f5 == 2 AND f2 == 2 AND f1 == 3 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF f1 == 3 AND f2 == 2 AND f3 == 2 AND f4 == 1 AND f5 == 0 AND f6 == 8 AND f7 == 9 AND f8 == 3 AND f9 == 4 THEN res == 1"
+  dexp: "IF f1 == 3 AND f2 == 2 AND f3 == 2 AND f4 == 1 AND f5 == 0 AND f6 == 8 AND f7 == 9 THEN res == 1"
+  expl: "IF f7 == 9 AND f5 == 0 AND f2 == 2 AND f1 == 3 THEN res == 1"
+  # hypos left: 4
+  time: 0.00
+
+# of insts: 449
+tot # of expls: 449
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 3.96
+avg expl sz: 3.96
+max expl sz: 3.96
+Max expl sz: 8
+
+tot time: 0.08
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  11.74%
+max dxrd:  60.00%

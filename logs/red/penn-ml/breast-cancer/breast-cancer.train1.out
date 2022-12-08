@@ -1,0 +1,1752 @@
+MODEL:
+IF age == 0 THEN target == 0
+IF tumor-size == 9 THEN target == 0
+IF inv-nodes == 3 THEN target == 1
+IF breast-quad == 0 THEN target == 1
+IF tumor-size == 1, age == 2 THEN target == 0
+IF tumor-size == 1, age == 3 THEN target == 0
+IF tumor-size == 1, age != 4 THEN target == 0
+IF tumor-size == 1, menopause != 0 THEN target == 0
+IF breast-quad == 1, age == 2 THEN target == 0
+IF tumor-size == 1, inv-nodes != 0 THEN target == 1
+IF tumor-size == 1 THEN target == 0
+IF breast-quad == 1, age == 4 THEN target == 0
+IF breast-quad == 1, tumor-size == 2 THEN target == 0
+IF tumor-size == 0, age != 1 THEN target == 0
+IF deg-malig == 2, tumor-size == 7 THEN target == 0
+IF breast-quad == 1, tumor-size == 4 THEN target == 0
+IF deg-malig == 2, tumor-size == 8 THEN target == 0
+IF tumor-size == 8 THEN target == 1
+IF age == 4, menopause != 0 THEN target == 0
+IF deg-malig == 2, inv-nodes == 6 THEN target == 0
+IF age == 4, tumor-size == 7 THEN target == 1
+IF age == 4, inv-nodes == 5 THEN target == 0
+IF inv-nodes == 5, age == 3 THEN target == 1
+IF tumor-size == 7, age == 3 THEN target == 0
+IF breast-quad == 4, age == 3 THEN target == 0
+IF age == 4, node-caps == 0 THEN target == 0
+IF age == 4, breast-quad == 5 THEN target == 1
+IF age == 4, node-caps != 1 THEN target == 0
+IF age == 4, inv-nodes != 0 THEN target == 1
+IF age == 4, deg-malig == 2 THEN target == 0
+IF breast-quad == 4, tumor-size == 2 THEN target == 0
+IF inv-nodes == 1 THEN target == 1
+IF breast-quad == 4, age == 2 THEN target == 0
+IF breast-quad == 1, tumor-size == 5 THEN target == 0
+IF menopause == 0, tumor-size == 7 THEN target == 0
+IF age == 5 THEN target == 1
+IF menopause == 0, tumor-size == 2 THEN target == 0
+IF tumor-size == 6, inv-nodes == 6 THEN target == 1
+IF inv-nodes == 6 THEN target == 0
+IF node-caps == 0 THEN target == 1
+IF menopause == 1 THEN target == 0
+IF tumor-size == 6, irradiat != 0 THEN target == 0
+IF tumor-size == 6, node-caps != 1 THEN target == 1
+IF tumor-size == 6, inv-nodes != 0 THEN target == 0
+IF tumor-size == 6, deg-malig == 3 THEN target == 0
+IF deg-malig == 1, tumor-size == 10 THEN target == 0
+IF tumor-size == 4, inv-nodes == 2 THEN target == 0
+IF inv-nodes == 2 THEN target == 1
+IF deg-malig == 2, inv-nodes == 5 THEN target == 0
+IF inv-nodes == 5 THEN target == 1
+IF tumor-size == 4, breast-quad == 4 THEN target == 1
+IF breast-quad == 4 THEN target == 0
+IF tumor-size == 4, age == 4 THEN target == 0
+IF tumor-size == 4, menopause == 0 THEN target == 0
+IF tumor-size == 6, breast-quad == 5 THEN target == 0
+IF deg-malig == 1, breast-quad == 5 THEN target == 0
+IF breast-quad == 5, age != 2 THEN target == 1
+IF tumor-size == 4, deg-malig == 3 THEN target == 1
+IF tumor-size == 4, inv-nodes != 0 THEN target == 0
+IF tumor-size == 4, node-caps != 1 THEN target == 0
+IF tumor-size == 4, breast == 0 THEN target == 0
+IF age == 3, tumor-size == 10 THEN target == 0
+IF age == 3, node-caps != 1 THEN target == 0
+IF tumor-size == 10, age != 2 THEN target == 1
+IF irradiat != 0, age == 3 THEN target == 1
+IF inv-nodes != 0, age == 3 THEN target == 1
+IF age == 3, tumor-size == 5 THEN target == 0
+IF age == 3, deg-malig == 3 THEN target == 0
+IF irradiat != 0, age == 4 THEN target == 1
+IF age == 4, tumor-size != 3 THEN target == 0
+IF age == 4, deg-malig != 1 THEN target == 1
+IF tumor-size == 3, breast-quad == 5 THEN target == 0
+IF breast-quad == 5, inv-nodes != 0 THEN target == 1
+IF breast-quad == 1, age != 1 THEN target == 1
+IF breast-quad == 1, tumor-size != 0 THEN target == 0
+IF age == 1, tumor-size == 4 THEN target == 0
+IF age == 1, tumor-size == 7 THEN target == 1
+IF tumor-size == 7, inv-nodes != 0 THEN target == 0
+IF inv-nodes != 0, menopause == 0 THEN target == 1
+IF node-caps != 1, tumor-size == 2 THEN target == 1
+IF menopause == 0, tumor-size == 5 THEN target == 0
+IF irradiat != 0, tumor-size == 10 THEN target == 1
+IF tumor-size == 10 THEN target == 0
+IF irradiat != 0, deg-malig == 1 THEN target == 1
+IF breast-quad == 2, age == 4 THEN target == 0
+IF age == 4 THEN target == 1
+IF tumor-size == 3, deg-malig == 1 THEN target == 0
+IF node-caps != 1, inv-nodes == 0 THEN target == 1
+IF breast-quad == 5 THEN target == 0
+IF irradiat != 0, age != 1 THEN target == 1
+IF age == 2, node-caps != 1 THEN target == 0
+IF deg-malig == 3, age != 1 THEN target == 0
+IF tumor-size == 5, inv-nodes != 0 THEN target == 1
+IF inv-nodes != 0, age != 1 THEN target == 0
+IF age == 2, menopause != 2 THEN target == 1
+IF age == 2, tumor-size == 5 THEN target == 0
+IF tumor-size == 5, deg-malig == 2 THEN target == 1
+IF breast != 0, menopause == 0 THEN target == 0
+IF menopause == 0, tumor-size != 6 THEN target == 1
+IF breast-quad == 3, menopause == 0 THEN target == 0
+IF menopause == 0 THEN target == 1
+IF tumor-size == 6, age != 2 THEN target == 0
+IF deg-malig == 2, irradiat != 0 THEN target == 0
+IF inv-nodes != 0 THEN target == 1
+IF irradiat != 0 THEN target == 1
+IF deg-malig == 3 THEN target == 0
+IF tumor-size == 5 THEN target == 1
+IF tumor-size == 3, breast != 0 THEN target == 0
+IF tumor-size == 3, breast-quad != 2 THEN target == 0
+IF breast != 0, tumor-size == 6 THEN target == 1
+IF tumor-size == 6 THEN target == 0
+IF breast != 0, tumor-size == 7 THEN target == 0
+IF tumor-size == 7 THEN target == 1
+IF tumor-size == 4, age == 2, breast-quad != 2 THEN target == 0
+IF breast-quad == 3, age != 3 THEN target == 1
+IF tumor-size == 2, age == 2 THEN target == 0
+IF age == 1, breast == 0 THEN target == 0
+IF age == 1, tumor-size != 0 THEN target == 1
+IF breast == 0, age != 2 THEN target == 1
+IF tumor-size == 2 THEN target == 0
+IF age == 1 THEN target == 1
+IF age == 2 THEN target == 1
+IF age == 3 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 136
+avg # of vars: 136.00
+max # of vars: 136
+min # of clauses: 456
+avg # of clauses: 470.00
+max # of clauses: 484
+
+EXPLANATIONS:
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF node-caps == 2 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 2 AND breast == 0 THEN target == 1"
+  expl: "IF breast == 0 AND deg-malig == 2 AND irradiat == 0 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 6 AND age == 3 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND irradiat == 1 THEN target == 0"
+  expl: "IF irradiat == 1 AND node-caps == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 6 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 5 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 1"
+  expl: "IF deg-malig == 2 AND menopause == 2 AND breast-quad == 5 AND inv-nodes == 4 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 7 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 0 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 2 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 7 AND inv-nodes == 2 AND breast-quad == 3 AND menopause == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF menopause == 0 AND breast-quad == 3 AND inv-nodes == 2 AND tumor-size == 7 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND deg-malig == 2 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND deg-malig == 2 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 3 AND age == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 4 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 1 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 3 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 7 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 3 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 1 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 0 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 1 AND node-caps == 0 THEN target == 1"
+  expl: "IF node-caps == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 7 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 7 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 THEN target == 0"
+  expl: "IF menopause == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 2 AND inv-nodes == 5 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 5 AND tumor-size == 2 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 0 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND node-caps == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 5 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 2 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 2 AND inv-nodes == 2 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 THEN target == 1"
+  expl: "IF menopause == 2 AND breast-quad == 2 AND inv-nodes == 2 AND tumor-size == 2 AND age == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 0 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND node-caps == 0 THEN target == 0"
+  expl: "IF node-caps == 0 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 3 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 1 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 1 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 8 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 8 AND inv-nodes == 5 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 5 AND tumor-size == 8 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 3 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 6 AND age == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 6 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 6 AND breast-quad == 5 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 5 AND inv-nodes == 6 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 5 AND menopause == 0 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 0 AND breast-quad == 5 AND inv-nodes == 4 AND tumor-size == 3 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND irradiat == 1 THEN target == 0"
+  expl: "IF irradiat == 1 AND node-caps == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 6 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 10 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 7 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 5 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 6 AND node-caps == 0 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 5 AND tumor-size == 2 AND inv-nodes == 6 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 1 THEN target == 1"
+  expl: "IF deg-malig == 1 AND breast-quad == 2 AND tumor-size == 2 AND age == 5 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 1 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 1 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 1 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND age == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 5 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 5 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF menopause == 0 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 7 AND age == 5 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 0 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 2 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 2 AND breast-quad == 3 AND menopause == 0 AND node-caps == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 3 AND inv-nodes == 2 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF deg-malig == 1 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 6 AND inv-nodes == 2 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 2 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 2 AND inv-nodes == 2 AND tumor-size == 6 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 THEN target == 0"
+  expl: "IF deg-malig == 1 AND node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 10 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 1 THEN target == 1"
+  expl: "IF breast == 1 AND irradiat == 0 AND deg-malig == 2 AND menopause == 2 AND breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 0 AND age == 1 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 5 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND inv-nodes == 5 AND tumor-size == 7 AND age == 3 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 3 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 2 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 2 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 THEN target == 1"
+  expl: "IF menopause == 2 AND breast-quad == 2 AND inv-nodes == 2 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 1"
+  expl: "IF deg-malig == 2 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 10 AND inv-nodes == 6 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 10 AND inv-nodes == 6 AND breast-quad == 3 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 6 AND tumor-size == 10 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 4 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 0 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 0 AND node-caps == 0 THEN target == 0"
+  expl: "IF node-caps == 0 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 4 AND menopause == 0 THEN target == 1"
+  expl: "IF inv-nodes == 5 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 4 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 4 AND inv-nodes == 5 AND breast-quad == 4 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 4 AND inv-nodes == 5 AND tumor-size == 4 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 AND breast == 0 THEN target == 1"
+  expl: "IF breast == 0 AND deg-malig == 1 AND node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 3 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 1 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND age == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 5 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 5 AND inv-nodes == 5 AND tumor-size == 5 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 1 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 1 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND irradiat == 0 THEN target == 1"
+  expl: "IF breast == 1 AND node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 6 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 3 AND deg-malig == 1 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND breast == 1 THEN target == 0"
+  expl: "IF breast == 1 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 7 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 4 AND inv-nodes == 5 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 2 AND breast-quad == 3 AND inv-nodes == 5 AND tumor-size == 4 AND age == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF deg-malig == 1 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 AND irradiat == 0 THEN target == 1"
+  expl: "IF deg-malig == 1 AND node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF menopause == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 5 AND age == 1 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 1 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 0 AND deg-malig == 1 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 1 AND node-caps == 0 THEN target == 1"
+  expl: "IF node-caps == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 1 THEN target == 0"
+  expl: "IF breast == 1 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 8 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 8 AND inv-nodes == 0 AND breast-quad == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 8 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 3 AND deg-malig == 1 AND menopause == 2 AND node-caps == 1 THEN target == 1"
+  expl: "IF menopause == 2 AND deg-malig == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 7 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND deg-malig == 3 AND node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 4 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 AND breast == 1 THEN target == 1"
+  expl: "IF breast == 1 AND deg-malig == 1 AND irradiat == 0 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 6 AND age == 2 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 3 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 0 THEN target == 1"
+  expl: "IF breast == 0 AND deg-malig == 2 AND node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 3 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 3 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 1 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 4 AND tumor-size == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 THEN target == 1"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 3 AND age == 4 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 1"
+  expl: "IF deg-malig == 2 AND menopause == 2 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 THEN target == 0"
+  expl: "IF deg-malig == 1 AND node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 1"
+  expl: "IF deg-malig == 2 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 5 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 7 AND inv-nodes == 4 AND breast-quad == 5 AND deg-malig == 3 AND menopause == 2 AND node-caps == 1 THEN target == 1"
+  expl: "IF menopause == 2 AND deg-malig == 3 AND breast-quad == 5 AND inv-nodes == 4 AND tumor-size == 7 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 9 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 9 THEN target == 0"
+  expl: "IF tumor-size == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 5 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 6 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 6 AND breast-quad == 3 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 3 AND inv-nodes == 6 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF deg-malig == 1 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND node-caps == 2 AND menopause == 2 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 6 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 6 AND inv-nodes == 6 AND breast-quad == 2 AND deg-malig == 3 AND menopause == 2 THEN target == 1"
+  expl: "IF deg-malig == 3 AND inv-nodes == 6 AND tumor-size == 6 AND age == 1 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 3 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 1"
+  expl: "IF deg-malig == 2 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 0 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 0 THEN target == 0"
+  expl: "IF age == 0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 3 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 1 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 AND breast == 1 THEN target == 1"
+  expl: "IF breast == 1 AND deg-malig == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 0 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 0 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 10 AND age == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 1 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 5 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 3 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 3 THEN target == 1"
+  expl: "IF inv-nodes == 3 AND tumor-size == 3 AND age == 4 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND deg-malig == 2 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 1"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 1 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 6 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 5 AND inv-nodes == 6 AND breast-quad == 3 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 6 AND tumor-size == 5 AND age == 1 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 7 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 6 AND node-caps == 0 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 6 AND breast-quad == 3 AND menopause == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 6 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND deg-malig == 2 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 10 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 THEN target == 0"
+  expl: "IF menopause == 0 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 2 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 7 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 4 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 1 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 1 THEN target == 0"
+  expl: "IF breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 AND irradiat == 0 THEN target == 1"
+  expl: "IF irradiat == 0 AND deg-malig == 2 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 3 AND age == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 0 AND node-caps == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 5 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF menopause == 0 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 3 AND age == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 4 AND menopause == 0 THEN target == 1"
+  expl: "IF inv-nodes == 5 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 5 AND menopause == 0 AND node-caps == 1 THEN target == 1"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 5 AND inv-nodes == 4 AND tumor-size == 4 AND age == 4 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 1 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND age == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 10 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 1"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND menopause == 0 AND breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 1"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 1 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 7 AND inv-nodes == 4 AND breast-quad == 3 AND deg-malig == 3 AND menopause == 2 AND node-caps == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 7 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 1 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 6 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 6 AND breast-quad == 3 AND deg-malig == 3 AND menopause == 2 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 6 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 5 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 7 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 1 AND inv-nodes == 5 AND breast-quad == 3 AND menopause == 0 THEN target == 1"
+  expl: "IF menopause == 0 AND inv-nodes == 5 AND tumor-size == 1 AND age == 4 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 6 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 1"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 9 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 9 THEN target == 0"
+  expl: "IF tumor-size == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 4 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 9 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 9 THEN target == 0"
+  expl: "IF tumor-size == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 6 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 6 AND inv-nodes == 5 AND breast-quad == 2 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 5 AND tumor-size == 6 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 10 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 10 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 3 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 2 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 1 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 1 AND inv-nodes == 4 AND tumor-size == 3 AND age == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 THEN target == 1"
+  expl: "IF deg-malig == 1 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 1 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 1 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 1 THEN target == 0"
+  expl: "IF menopause == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 1 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 4 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 2 AND inv-nodes == 1 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 1 AND tumor-size == 2 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 1"
+  expl: "IF deg-malig == 3 AND node-caps == 1 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 9 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 9 THEN target == 0"
+  expl: "IF tumor-size == 9 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 7 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 0 AND breast-quad == 2 AND tumor-size == 7 AND age == 4 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND node-caps == 1 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF menopause == 0 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND irradiat == 1 THEN target == 1"
+  expl: "IF breast == 1 AND node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 1 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 4 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 1 AND breast-quad == 4 AND menopause == 0 THEN target == 1"
+  expl: "IF breast-quad == 4 AND inv-nodes == 1 AND tumor-size == 4 AND age == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 2 AND deg-malig == 1 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND breast == 0 THEN target == 1"
+  expl: "IF breast == 0 AND menopause == 2 AND deg-malig == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 7 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 0 THEN target == 1"
+  expl: "IF breast == 0 AND deg-malig == 2 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 4 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 5 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 5 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 7 AND age == 5 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 8 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 5 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 8 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND deg-malig == 1 THEN target == 1"
+  expl: "IF deg-malig == 1 AND breast-quad == 5 AND tumor-size == 8 AND age == 4 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 2 AND breast == 0 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 6 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 1 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND deg-malig == 3 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 1 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 4 AND menopause == 2 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 3 AND age == 1 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 2 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 3 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 1 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 1 AND node-caps == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND menopause == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 1 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 1 AND breast-quad == 3 THEN target == 1"
+  expl: "IF breast-quad == 3 AND inv-nodes == 1 AND tumor-size == 5 AND age == 2 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND node-caps == 2 THEN target == 1"
+  expl: "IF node-caps == 2 AND menopause == 0 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 4 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 0 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 0 THEN target == 1"
+  expl: "IF breast-quad == 0 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 5 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 5 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 1 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 7 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 4 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 1 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND deg-malig == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 4 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND deg-malig == 1 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 6 AND node-caps == 2 AND deg-malig == 3 AND breast == 0 AND breast-quad == 4 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 6 AND breast-quad == 4 AND menopause == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 6 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 1 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 1 AND inv-nodes == 0 AND breast-quad == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 1 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 1 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 5 AND menopause == 0 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 4 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 5 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 4 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 0 AND age == 5 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 4 AND age == 3 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 7 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 4 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 4 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 4 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 1"
+  expl: "IF deg-malig == 3 AND node-caps == 1 AND menopause == 0 AND breast-quad == 4 AND inv-nodes == 0 AND tumor-size == 4 AND age == 4 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND node-caps == 2 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 5 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 0 THEN target == 1"
+  expl: "IF breast == 0 AND deg-malig == 2 AND node-caps == 1 AND menopause == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 3 AND age == 3 THEN target == 1"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 5 AND menopause == 0 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 5 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 THEN target == 1"
+  expl: "IF inv-nodes == 0 AND tumor-size == 3 AND age == 5 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 1 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 4 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND breast-quad == 2 AND inv-nodes == 0 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 5 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 5 AND inv-nodes == 4 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 6 AND node-caps == 0 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 6 AND breast-quad == 2 AND menopause == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 2 AND inv-nodes == 6 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 0 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 1 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 0 AND inv-nodes == 0 AND breast-quad == 1 AND menopause == 0 THEN target == 0"
+  expl: "IF breast-quad == 1 AND inv-nodes == 0 AND tumor-size == 0 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 3 AND irradiat == 1 THEN target == 1"
+  expl: "IF irradiat == 1 AND menopause == 2 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 1"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 1 AND breast == 0 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 5 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 1 AND irradiat == 0 THEN target == 0"
+  expl: "IF irradiat == 0 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 5 AND age == 4 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 4 AND inv-nodes == 5 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 5 AND breast-quad == 2 AND menopause == 0 THEN target == 1"
+  expl: "IF breast-quad == 2 AND inv-nodes == 5 AND tumor-size == 4 AND age == 3 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 2 AND node-caps == 2 AND deg-malig == 3 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 2 AND breast-quad == 5 AND menopause == 2 AND node-caps == 2 AND irradiat == 0 THEN target == 1"
+  expl: "IF irradiat == 0 AND node-caps == 2 AND menopause == 2 AND breast-quad == 5 AND inv-nodes == 2 AND tumor-size == 6 AND age == 3 THEN target == 1"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 3 AND inv-nodes == 4 AND breast-quad == 3 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 AND irradiat == 1 THEN target == 0"
+  expl: "IF irradiat == 1 AND deg-malig == 2 AND node-caps == 2 AND menopause == 2 AND breast-quad == 3 AND inv-nodes == 4 AND tumor-size == 3 AND age == 1 THEN target == 0"
+  # hypos left: 8
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 5 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 5 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 5 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 0 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF deg-malig == 3 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 6 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 3 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 6 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 4 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND breast == 0 THEN target == 0"
+  expl: "IF breast == 0 AND deg-malig == 2 AND node-caps == 1 AND breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 4 AND age == 2 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 6 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 6 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND irradiat == 0 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 6 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 5 AND age == 3 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 2 AND menopause == 2 AND tumor-size == 3 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 2 AND tumor-size == 3 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 THEN target == 0"
+  expl: "IF node-caps == 1 AND breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 3 AND age == 2 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 4 AND menopause == 0 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 1 AND breast-quad == 3 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 4 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 3 AND menopause == 0 AND node-caps == 1 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 3 AND inv-nodes == 0 AND tumor-size == 2 AND age == 4 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 0 THEN target == 1"
+  dexp: "IF age == 3 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 2 AND menopause == 0 THEN target == 1"
+  expl: "IF inv-nodes == 5 AND tumor-size == 5 AND age == 3 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 4 AND inv-nodes == 4 AND node-caps == 2 AND deg-malig == 2 AND breast == 0 AND breast-quad == 2 AND irradiat == 1 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 4 AND inv-nodes == 4 AND breast-quad == 2 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 2 AND breast-quad == 2 AND inv-nodes == 4 AND tumor-size == 4 AND age == 3 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 1 AND menopause == 2 AND tumor-size == 5 AND inv-nodes == 5 AND node-caps == 2 AND deg-malig == 2 AND breast == 1 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 1 AND tumor-size == 5 AND inv-nodes == 5 AND breast-quad == 5 AND menopause == 2 AND node-caps == 2 AND deg-malig == 2 THEN target == 0"
+  expl: "IF deg-malig == 2 AND node-caps == 2 AND breast-quad == 5 AND inv-nodes == 5 AND tumor-size == 5 AND age == 1 THEN target == 0"
+  # hypos left: 6
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 2 AND tumor-size == 2 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 2 AND breast == 1 AND breast-quad == 2 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 2 AND inv-nodes == 0 AND breast-quad == 2 AND menopause == 2 AND node-caps == 1 AND deg-malig == 2 AND irradiat == 0 AND breast == 1 THEN target == 0"
+  expl: "IF breast == 1 AND irradiat == 0 AND node-caps == 1 AND breast-quad == 2 AND inv-nodes == 0 AND tumor-size == 2 AND age == 3 THEN target == 0"
+  # hypos left: 7
+  time: 0.00
+
+  inst: "IF age == 3 AND menopause == 0 AND tumor-size == 7 AND inv-nodes == 0 AND node-caps == 1 AND deg-malig == 3 AND breast == 0 AND breast-quad == 5 AND irradiat == 0 THEN target == 0"
+  dexp: "IF age == 3 AND tumor-size == 7 AND inv-nodes == 0 AND breast-quad == 5 AND menopause == 0 AND deg-malig == 3 THEN target == 0"
+  expl: "IF breast-quad == 5 AND inv-nodes == 0 AND tumor-size == 7 AND age == 3 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+# of insts: 266
+tot # of expls: 266
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 5.00
+avg expl sz: 5.00
+max expl sz: 5.00
+Max expl sz: 8
+
+tot time: 0.06
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  21.82%
+max dxrd:  57.14%

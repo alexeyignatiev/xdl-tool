@@ -1,0 +1,1257 @@
+MODEL:
+IF id == 1.0 THEN target == 0
+IF id == 2.0 THEN target == 0
+IF id == 3.0 THEN target == 0
+IF id == 5.0 THEN target == 0
+IF id == 6.0 THEN target == 0
+IF id == 8.0 THEN target == 0
+IF id == 9.0 THEN target == 0
+IF id == 10.0 THEN target == 0
+IF id == 11.0 THEN target == 0
+IF id == 12.0 THEN target == 0
+IF id == 13.0 THEN target == 0
+IF id == 14.0 THEN target == 0
+IF id == 15.0 THEN target == 0
+IF id == 16.0 THEN target == 0
+IF id == 17.0 THEN target == 0
+IF id == 18.0 THEN target == 0
+IF id == 20.0 THEN target == 0
+IF id == 21.0 THEN target == 1
+IF id == 23.0 THEN target == 0
+IF id == 24.0 THEN target == 1
+IF id == 26.0 THEN target == 0
+IF id == 27.0 THEN target == 0
+IF id == 28.0 THEN target == 0
+IF id == 29.0 THEN target == 0
+IF id == 30.0 THEN target == 0
+IF id == 31.0 THEN target == 0
+IF id == 32.0 THEN target == 1
+IF id == 34.0 THEN target == 0
+IF id == 35.0 THEN target == 0
+IF id == 36.0 THEN target == 0
+IF id == 37.0 THEN target == 1
+IF id == 38.0 THEN target == 0
+IF id == 40.0 THEN target == 0
+IF id == 41.0 THEN target == 1
+IF id == 42.0 THEN target == 0
+IF id == 43.0 THEN target == 0
+IF id == 44.0 THEN target == 0
+IF id == 45.0 THEN target == 0
+IF id == 46.0 THEN target == 1
+IF id == 48.0 THEN target == 0
+IF id == 49.0 THEN target == 0
+IF id == 50.0 THEN target == 1
+IF id == 51.0 THEN target == 0
+IF id == 52.0 THEN target == 0
+IF id == 53.0 THEN target == 0
+IF id == 54.0 THEN target == 0
+IF id == 55.0 THEN target == 0
+IF id == 56.0 THEN target == 0
+IF id == 57.0 THEN target == 0
+IF id == 58.0 THEN target == 0
+IF id == 59.0 THEN target == 0
+IF id == 61.0 THEN target == 0
+IF id == 62.0 THEN target == 0
+IF id == 63.0 THEN target == 0
+IF id == 65.0 THEN target == 1
+IF id == 66.0 THEN target == 0
+IF id == 67.0 THEN target == 0
+IF id == 68.0 THEN target == 0
+IF id == 69.0 THEN target == 0
+IF id == 71.0 THEN target == 0
+IF id == 72.0 THEN target == 0
+IF id == 73.0 THEN target == 0
+IF id == 76.0 THEN target == 0
+IF id == 77.0 THEN target == 0
+IF id == 78.0 THEN target == 0
+IF id == 79.0 THEN target == 1
+IF id == 80.0 THEN target == 0
+IF id == 81.0 THEN target == 1
+IF id == 82.0 THEN target == 1
+IF id == 84.0 THEN target == 0
+IF id == 85.0 THEN target == 0
+IF id == 86.0 THEN target == 0
+IF id == 87.0 THEN target == 0
+IF id == 88.0 THEN target == 1
+IF id == 89.0 THEN target == 0
+IF id == 90.0 THEN target == 0
+IF id == 92.0 THEN target == 0
+IF id == 94.0 THEN target == 1
+IF id == 95.0 THEN target == 0
+IF id == 96.0 THEN target == 0
+IF id == 97.0 THEN target == 0
+IF id == 98.0 THEN target == 1
+IF id == 100.0 THEN target == 1
+IF id == 101.0 THEN target == 0
+IF id == 102.0 THEN target == 0
+IF id == 103.0 THEN target == 0
+IF id == 104.0 THEN target == 0
+IF id == 105.0 THEN target == 0
+IF id == 106.0 THEN target == 0
+IF id == 108.0 THEN target == 0
+IF id == 111.0 THEN target == 0
+IF id == 113.0 THEN target == 0
+IF id == 114.0 THEN target == 0
+IF id == 115.0 THEN target == 1
+IF id == 116.0 THEN target == 0
+IF id == 117.0 THEN target == 0
+IF id == 118.0 THEN target == 0
+IF id == 119.0 THEN target == 0
+IF id == 120.0 THEN target == 1
+IF id == 123.0 THEN target == 1
+IF id == 125.0 THEN target == 0
+IF id == 126.0 THEN target == 0
+IF id == 127.0 THEN target == 0
+IF id == 128.0 THEN target == 0
+IF id == 129.0 THEN target == 0
+IF id == 130.0 THEN target == 0
+IF id == 131.0 THEN target == 0
+IF id == 132.0 THEN target == 0
+IF id == 133.0 THEN target == 0
+IF id == 134.0 THEN target == 1
+IF id == 135.0 THEN target == 0
+IF id == 136.0 THEN target == 0
+IF id == 137.0 THEN target == 0
+IF id == 138.0 THEN target == 0
+IF id == 139.0 THEN target == 0
+IF id == 140.0 THEN target == 0
+IF id == 141.0 THEN target == 0
+IF id == 146.0 THEN target == 0
+IF id == 147.0 THEN target == 0
+IF id == 148.0 THEN target == 0
+IF id == 149.0 THEN target == 1
+IF id == 150.0 THEN target == 0
+IF id == 151.0 THEN target == 1
+IF id == 152.0 THEN target == 0
+IF id == 153.0 THEN target == 0
+IF id == 154.0 THEN target == 0
+IF id == 155.0 THEN target == 0
+IF id == 156.0 THEN target == 0
+IF id == 159.0 THEN target == 0
+IF id == 160.0 THEN target == 0
+IF id == 161.0 THEN target == 0
+IF id == 162.0 THEN target == 1
+IF id == 163.0 THEN target == 0
+IF id == 164.0 THEN target == 0
+IF id == 165.0 THEN target == 0
+IF id == 166.0 THEN target == 0
+IF id == 167.0 THEN target == 1
+IF id == 168.0 THEN target == 0
+IF id == 169.0 THEN target == 0
+IF id == 170.0 THEN target == 0
+IF id == 171.0 THEN target == 0
+IF id == 172.0 THEN target == 0
+IF id == 176.0 THEN target == 0
+IF id == 178.0 THEN target == 0
+IF TRUE THEN target == 0
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 453
+avg # of vars: 453.00
+max # of vars: 453
+min # of clauses: 23780
+avg # of clauses: 23829.50
+max # of clauses: 23879
+
+EXPLANATIONS:
+  inst: "IF id == 1.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.52 AND col_6 == 54.5 AND col_7 == 75.0 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 1.0 THEN target == 0"
+  expl: "IF id == 1.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 2.0 AND col_2 == 3 AND col_3 == 0 AND col_4 == 23.0 AND col_5 == 1.6 AND col_6 == 59.1 AND col_7 == 68.6 AND col_8 == 2.22 AND col_9 == 1 AND col_10 == 2 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 2.0 THEN target == 0"
+  expl: "IF id == 2.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 3.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 24.0 AND col_5 == 1.57 AND col_6 == 73.2 AND col_7 == 82.7 AND col_8 == 4.15 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 1 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 3.0 THEN target == 0"
+  expl: "IF id == 3.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 4.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 22.0 AND col_5 == 1.52 AND col_6 == 41.4 AND col_7 == 47.3 AND col_8 == 2.81 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 4.0 THEN target == 0"
+  expl: "IF id == 4.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 5.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 27.0 AND col_5 == 1.6 AND col_6 == 55.5 AND col_7 == 60.0 AND col_8 == 3.75 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 5.0 THEN target == 0"
+  expl: "IF id == 5.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 6.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 32.0 AND col_5 == 1.75 AND col_6 == 70.5 AND col_7 == 85.5 AND col_8 == 4.01 AND col_9 == 2 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 6.0 THEN target == 0"
+  expl: "IF id == 6.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 7.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.73 AND col_6 == 76.4 AND col_7 == 89.1 AND col_8 == 3.41 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 7.0 THEN target == 0"
+  expl: "IF id == 7.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 8.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 25.0 AND col_5 == 1.63 AND col_6 == 70.0 AND col_7 == 85.0 AND col_8 == 4.01 AND col_9 == 1 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 8.0 THEN target == 0"
+  expl: "IF id == 8.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 9.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 20.0 AND col_5 == 1.55 AND col_6 == 52.3 AND col_7 == 59.5 AND col_8 == 3.69 AND col_9 == 1 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 9.0 THEN target == 0"
+  expl: "IF id == 9.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 10.0 AND col_2 == 2 AND col_3 == 8 AND col_4 == 18.0 AND col_5 == 1.63 AND col_6 == 83.2 AND col_7 == 90.9 AND col_8 == 3.3 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 10.0 THEN target == 0"
+  expl: "IF id == 10.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 11.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 21.0 AND col_5 == 1.65 AND col_6 == 64.5 AND col_7 == 75.5 AND col_8 == 2.95 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 11.0 THEN target == 0"
+  expl: "IF id == 11.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 12.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.55 AND col_6 == 49.5 AND col_7 == 53.6 AND col_8 == 2.64 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 12.0 THEN target == 0"
+  expl: "IF id == 12.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 13.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 35.0 AND col_5 == 1.65 AND col_6 == 70.0 AND col_7 == 82.7 AND col_8 == 3.64 AND col_9 == 7 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 13.0 THEN target == 0"
+  expl: "IF id == 13.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 14.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 26.0 AND col_5 == 1.6 AND col_6 == 52.3 AND col_7 == 64.5 AND col_8 == 4.49 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 1 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 14.0 THEN target == 0"
+  expl: "IF id == 14.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 15.0 AND col_2 == 1 AND col_3 == 6 AND col_4 == 34.0 AND col_5 == 1.68 AND col_6 == 68.2 AND col_7 == 77.3 AND col_8 == 3.75 AND col_9 == 3 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 15.0 THEN target == 0"
+  expl: "IF id == 15.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 16.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 25.0 AND col_5 == 1.5 AND col_6 == 47.3 AND col_7 == 55.0 AND col_8 == 2.73 AND col_9 == 1 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 16.0 THEN target == 0"
+  expl: "IF id == 16.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 17.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 42.0 AND col_5 == 1.52 AND col_6 == 66.8 AND col_7 == 73.2 AND col_8 == 2.44 AND col_9 == 6 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 17.0 THEN target == 0"
+  expl: "IF id == 17.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 18.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 26.0 AND col_5 == 1.65 AND col_6 == 70.0 AND col_7 == 81.4 AND col_8 == 3.01 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 18.0 THEN target == 0"
+  expl: "IF id == 18.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 19.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 18.0 AND col_5 == 1.6 AND col_6 == 56.4 AND col_7 == 70.0 AND col_8 == 3.89 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 19.0 THEN target == 0"
+  expl: "IF id == 19.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 20.0 AND col_2 == 0 AND col_3 == 1 AND col_4 == 42.0 AND col_5 == 1.65 AND col_6 == 53.6 AND col_7 == 63.6 AND col_8 == 2.73 AND col_9 == 2 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 20.0 THEN target == 0"
+  expl: "IF id == 20.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 21.0 AND col_2 == 2 AND col_3 == 0 AND col_4 == 28.0 AND col_5 == 1.63 AND col_6 == 59.1 AND col_7 == 72.3 AND col_8 == 3.75 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 21.0 THEN target == 1"
+  expl: "IF id == 21.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 22.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.52 AND col_6 == 44.5 AND col_7 == 56.4 AND col_8 == 3.49 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 22.0 THEN target == 0"
+  expl: "IF id == 22.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 23.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 23.0 AND col_5 == 1.57 AND col_6 == 55.9 AND col_7 == 60.9 AND col_8 == 3.07 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 23.0 THEN target == 0"
+  expl: "IF id == 23.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 24.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 21.0 AND col_5 == 1.55 AND col_6 == 57.3 AND col_7 == 77.3 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 24.0 THEN target == 1"
+  expl: "IF id == 24.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 25.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 32.0 AND col_5 == 1.52 AND col_6 == 69.5 AND col_7 == 75.5 AND col_8 == 3.64 AND col_9 == 5 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 25.0 THEN target == 0"
+  expl: "IF id == 25.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 26.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 18.0 AND col_5 == 1.6 AND col_6 == 73.2 AND col_7 == 81.4 AND col_8 == 2.05 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 1 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 26.0 THEN target == 0"
+  expl: "IF id == 26.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 27.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 25.0 AND col_5 == 1.7 AND col_6 == 52.3 AND col_7 == 59.5 AND col_8 == 2.44 AND col_9 == 1 AND col_10 == 3 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 1 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 27.0 THEN target == 0"
+  expl: "IF id == 27.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 28.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 30.0 AND col_5 == 1.63 AND col_6 == 62.7 AND col_7 == 72.3 AND col_8 == 3.07 AND col_9 == 4 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 28.0 THEN target == 0"
+  expl: "IF id == 28.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 29.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 19.0 AND col_5 == 1.65 AND col_6 == 73.6 AND col_7 == 92.7 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 29.0 THEN target == 0"
+  expl: "IF id == 29.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 30.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 26.0 AND col_5 == 1.65 AND col_6 == 70.0 AND col_7 == 89.1 AND col_8 == 3.21 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 30.0 THEN target == 0"
+  expl: "IF id == 30.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 31.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 28.0 AND col_5 == 1.68 AND col_6 == 56.8 AND col_7 == 70.9 AND col_8 == 3.41 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 31.0 THEN target == 0"
+  expl: "IF id == 31.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 32.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 21.0 AND col_5 == 1.6 AND col_6 == 58.2 AND col_7 == 69.5 AND col_8 == 3.3 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 32.0 THEN target == 1"
+  expl: "IF id == 32.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 33.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 29.0 AND col_5 == 1.57 AND col_6 == 68.2 AND col_7 == 75.0 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 33.0 THEN target == 0"
+  expl: "IF id == 33.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 34.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 27.0 AND col_5 == 1.65 AND col_6 == 50.9 AND col_7 == 66.4 AND col_8 == 3.1 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 34.0 THEN target == 0"
+  expl: "IF id == 34.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 35.0 AND col_2 == 2 AND col_3 == 2 AND col_4 == 30.0 AND col_5 == 1.6 AND col_6 == 50.9 AND col_7 == 62.7 AND col_8 == 3.75 AND col_9 == 1 AND col_10 == 2 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 35.0 THEN target == 0"
+  expl: "IF id == 35.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 36.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 26.0 AND col_5 == 1.75 AND col_6 == 69.5 AND col_7 == 84.1 AND col_8 == 4.2 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 36.0 THEN target == 0"
+  expl: "IF id == 36.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 37.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 21.0 AND col_5 == 1.6 AND col_6 == 62.7 AND col_7 == 73.2 AND col_8 == 2.95 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 37.0 THEN target == 1"
+  expl: "IF id == 37.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 38.0 AND col_2 == 2 AND col_3 == 2 AND col_4 == 24.0 AND col_5 == 1.73 AND col_6 == 63.6 AND col_7 == 69.5 AND col_8 == 3.18 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 38.0 THEN target == 0"
+  expl: "IF id == 38.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 39.0 AND col_2 == 2 AND col_3 == 8 AND col_4 == 28.0 AND col_5 == 1.5 AND col_6 == 55.5 AND col_7 == 66.4 AND col_8 == 4.35 AND col_9 == 2 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 39.0 THEN target == 0"
+  expl: "IF id == 39.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 40.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 27.0 AND col_5 == 1.57 AND col_6 == 55.9 AND col_7 == 62.3 AND col_8 == 3.69 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 40.0 THEN target == 0"
+  expl: "IF id == 40.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 41.0 AND col_2 == 3 AND col_3 == 6 AND col_4 == 32.0 AND col_5 == 1.6 AND col_6 == 47.7 AND col_7 == 66.8 AND col_8 == 3.41 AND col_9 == 5 AND col_10 == 3 AND col_11 == 1 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 1 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 41.0 THEN target == 1"
+  expl: "IF id == 41.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 42.0 AND col_2 == 3 AND col_3 == 5 AND col_4 == 26.0 AND col_5 == 1.63 AND col_6 == 55.5 AND col_7 == 63.2 AND col_8 == 3.3 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 1 AND col_16 == 0 AND col_17 == 0 AND col_18 == 1 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 42.0 THEN target == 0"
+  expl: "IF id == 42.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 43.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 37.0 AND col_5 == 1.63 AND col_6 == 60.9 AND col_7 == 69.5 AND col_8 == 3.41 AND col_9 == 2 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 1 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 43.0 THEN target == 0"
+  expl: "IF id == 43.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 44.0 AND col_2 == 3 AND col_3 == 7 AND col_4 == 31.0 AND col_5 == 1.6 AND col_6 == 60.5 AND col_7 == 77.3 AND col_8 == 3.27 AND col_9 == 1 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 44.0 THEN target == 0"
+  expl: "IF id == 44.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 45.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.57 AND col_6 == 62.3 AND col_7 == 77.3 AND col_8 == 3.38 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 45.0 THEN target == 0"
+  expl: "IF id == 45.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 46.0 AND col_2 == 3 AND col_3 == 5 AND col_4 == 24.0 AND col_5 == 1.65 AND col_6 == 57.3 AND col_7 == 73.6 AND col_8 == 3.69 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 46.0 THEN target == 1"
+  expl: "IF id == 46.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 47.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 23.0 AND col_5 == 1.52 AND col_6 == 55.5 AND col_7 == 69.5 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 47.0 THEN target == 0"
+  expl: "IF id == 47.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 48.0 AND col_2 == 2 AND col_3 == 3 AND col_4 == 31.0 AND col_5 == 1.6 AND col_6 == 47.7 AND col_7 == 55.9 AND col_8 == 1.62 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 48.0 THEN target == 0"
+  expl: "IF id == 48.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 49.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 37.0 AND col_5 == 1.6 AND col_6 == 76.4 AND col_7 == 89.1 AND col_8 == 3.58 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 49.0 THEN target == 0"
+  expl: "IF id == 49.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 50.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 23.0 AND col_5 == 1.65 AND col_6 == 95.5 AND col_7 == 95.5 AND col_8 == 2.73 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 1 THEN target == 1"
+  dexp: "IF id == 50.0 THEN target == 1"
+  expl: "IF id == 50.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 51.0 AND col_2 == 1 AND col_3 == 4 AND col_4 == 39.0 AND col_5 == 1.7 AND col_6 == 72.3 AND col_7 == 89.1 AND col_8 == 3.44 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 51.0 THEN target == 0"
+  expl: "IF id == 51.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 52.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 32.0 AND col_5 == 1.7 AND col_6 == 65.9 AND col_7 == 75.0 AND col_8 == 3.66 AND col_9 == 1 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 52.0 THEN target == 0"
+  expl: "IF id == 52.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 53.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 30.0 AND col_5 == 1.52 AND col_6 == 50.9 AND col_7 == 57.3 AND col_8 == 2.56 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 1 AND col_13 == 1 AND col_14 == 0 AND col_15 == 1 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 1 AND col_22 == 1 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 53.0 THEN target == 0"
+  expl: "IF id == 53.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 54.0 AND col_2 == 2 AND col_3 == 3 AND col_4 == 24.0 AND col_5 == 1.57 AND col_6 == 57.3 AND col_7 == 58.6 AND col_8 == 1.08 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 54.0 THEN target == 0"
+  expl: "IF id == 54.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 55.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.75 AND col_6 == 69.1 AND col_7 == 77.3 AND col_8 == 3.38 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 55.0 THEN target == 0"
+  expl: "IF id == 55.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 56.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 29.0 AND col_5 == 1.55 AND col_6 == 47.7 AND col_7 == 54.5 AND col_8 == 3.81 AND col_9 == 2 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 56.0 THEN target == 0"
+  expl: "IF id == 56.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 57.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.75 AND col_6 == 59.1 AND col_7 == 68.6 AND col_8 == 2.98 AND col_9 == 3 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 57.0 THEN target == 0"
+  expl: "IF id == 57.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 58.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 27.0 AND col_5 == 1.7 AND col_6 == 60.0 AND col_7 == 71.4 AND col_8 == 2.95 AND col_9 == 1 AND col_10 == 2 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 1 AND col_28 == 1 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 58.0 THEN target == 0"
+  expl: "IF id == 58.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 59.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 30.0 AND col_5 == 1.57 AND col_6 == 60.0 AND col_7 == 75.9 AND col_8 == 2.84 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 59.0 THEN target == 0"
+  expl: "IF id == 59.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 60.0 AND col_2 == 2 AND col_3 == 3 AND col_4 == 32.0 AND col_5 == 1.63 AND col_6 == 66.4 AND col_7 == 82.7 AND col_8 == 2.64 AND col_9 == 2 AND col_10 == 3 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 1 AND col_16 == 1 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 60.0 THEN target == 0"
+  expl: "IF id == 60.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 61.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 23.0 AND col_5 == 1.55 AND col_6 == 44.5 AND col_7 == 48.2 AND col_8 == 2.27 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 61.0 THEN target == 0"
+  expl: "IF id == 61.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 62.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 18.0 AND col_5 == 1.6 AND col_6 == 63.6 AND col_7 == 75.0 AND col_8 == 3.47 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 62.0 THEN target == 0"
+  expl: "IF id == 62.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 63.0 AND col_2 == 2 AND col_3 == 9 AND col_4 == 28.0 AND col_5 == 1.55 AND col_6 == 47.7 AND col_7 == 58.2 AND col_8 == 2.56 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 63.0 THEN target == 0"
+  expl: "IF id == 63.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 64.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.5 AND col_6 == 45.9 AND col_7 == 55.0 AND col_8 == 3.1 AND col_9 == 1 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 1 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 64.0 THEN target == 0"
+  expl: "IF id == 64.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 65.0 AND col_2 == 1 AND col_3 == 5 AND col_4 == 22.0 AND col_5 == 1.68 AND col_6 == 53.2 AND col_7 == 64.5 AND col_8 == 3.07 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 65.0 THEN target == 1"
+  expl: "IF id == 65.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 66.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 29.0 AND col_5 == 1.57 AND col_6 == 60.5 AND col_7 == 74.1 AND col_8 == 3.27 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 66.0 THEN target == 0"
+  expl: "IF id == 66.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 67.0 AND col_2 == 3 AND col_3 == 2 AND col_4 == 30.0 AND col_5 == 1.65 AND col_6 == 89.5 AND col_7 == 97.7 AND col_8 == 3.81 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 67.0 THEN target == 0"
+  expl: "IF id == 67.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 68.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 22.0 AND col_5 == 1.7 AND col_6 == 61.8 AND col_7 == 75.5 AND col_8 == 3.21 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 68.0 THEN target == 0"
+  expl: "IF id == 68.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 69.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 31.0 AND col_5 == 1.63 AND col_6 == 66.4 AND col_7 == 82.3 AND col_8 == 2.27 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 69.0 THEN target == 0"
+  expl: "IF id == 69.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 70.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 29.0 AND col_5 == 1.57 AND col_6 == 60.5 AND col_7 == 64.1 AND col_8 == 3.3 AND col_9 == 3 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 70.0 THEN target == 0"
+  expl: "IF id == 70.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 71.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 28.0 AND col_5 == 1.65 AND col_6 == 60.5 AND col_7 == 73.2 AND col_8 == 3.75 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 71.0 THEN target == 0"
+  expl: "IF id == 71.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 72.0 AND col_2 == 3 AND col_3 == 6 AND col_4 == 32.0 AND col_5 == 1.6 AND col_6 == 47.7 AND col_7 == 50.5 AND col_8 == 1.9 AND col_9 == 3 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 72.0 THEN target == 0"
+  expl: "IF id == 72.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 73.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 21.0 AND col_5 == 1.55 AND col_6 == 67.3 AND col_7 == 80.0 AND col_8 == 3.27 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 73.0 THEN target == 0"
+  expl: "IF id == 73.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 74.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 24.0 AND col_5 == 1.5 AND col_6 == 50.0 AND col_7 == 63.6 AND col_8 == 2.76 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 74.0 THEN target == 0"
+  expl: "IF id == 74.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 75.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 26.0 AND col_5 == 1.65 AND col_6 == 55.5 AND col_7 == 67.3 AND col_8 == 4.15 AND col_9 == 2 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 75.0 THEN target == 0"
+  expl: "IF id == 75.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 76.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.73 AND col_6 == 57.3 AND col_7 == 65.5 AND col_8 == 3.07 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 76.0 THEN target == 0"
+  expl: "IF id == 76.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 77.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 26.0 AND col_5 == 1.6 AND col_6 == 65.0 AND col_7 == 80.5 AND col_8 == 3.95 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 77.0 THEN target == 0"
+  expl: "IF id == 77.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 78.0 AND col_2 == 3 AND col_3 == 0 AND col_4 == 28.0 AND col_5 == 1.65 AND col_6 == 57.3 AND col_7 == 82.7 AND col_8 == 3.89 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 78.0 THEN target == 0"
+  expl: "IF id == 78.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 79.0 AND col_2 == 2 AND col_3 == 0 AND col_4 == 36.0 AND col_5 == 1.73 AND col_6 == 75.9 AND col_7 == 87.3 AND col_8 == 3.64 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 79.0 THEN target == 1"
+  expl: "IF id == 79.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 80.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 29.0 AND col_5 == 1.55 AND col_6 == 75.5 AND col_7 == 78.6 AND col_8 == 2.61 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 80.0 THEN target == 0"
+  expl: "IF id == 80.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 81.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 23.0 AND col_5 == 1.65 AND col_6 == 47.7 AND col_7 == 51.8 AND col_8 == 2.84 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 81.0 THEN target == 1"
+  expl: "IF id == 81.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 82.0 AND col_2 == 3 AND col_3 == 8 AND col_4 == 19.0 AND col_5 == 1.7 AND col_6 == 57.3 AND col_7 == 74.5 AND col_8 == 3.69 AND col_9 == 2 AND col_10 == 2 AND col_11 == 0 AND col_12 == 1 AND col_13 == 1 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 82.0 THEN target == 1"
+  expl: "IF id == 82.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 83.0 AND col_2 == 3 AND col_3 == 7 AND col_4 == 30.0 AND col_5 == 1.73 AND col_6 == 63.6 AND col_7 == 80.5 AND col_8 == 3.61 AND col_9 == 0 AND col_10 == 4 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 83.0 THEN target == 0"
+  expl: "IF id == 83.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 84.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 24.0 AND col_5 == 1.6 AND col_6 == 50.0 AND col_7 == 59.1 AND col_8 == 3.52 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 84.0 THEN target == 0"
+  expl: "IF id == 84.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 85.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.7 AND col_6 == 60.0 AND col_7 == 65.0 AND col_8 == 3.18 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 85.0 THEN target == 0"
+  expl: "IF id == 85.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 86.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 30.0 AND col_5 == 1.55 AND col_6 == 47.7 AND col_7 == 59.1 AND col_8 == 3.15 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 86.0 THEN target == 0"
+  expl: "IF id == 86.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 87.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 25.0 AND col_5 == 1.65 AND col_6 == 50.5 AND col_7 == 60.9 AND col_8 == 3.35 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 87.0 THEN target == 0"
+  expl: "IF id == 87.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 88.0 AND col_2 == 3 AND col_3 == 7 AND col_4 == 23.0 AND col_5 == 1.55 AND col_6 == 62.7 AND col_7 == 85.5 AND col_8 == 4.18 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 88.0 THEN target == 1"
+  expl: "IF id == 88.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 89.0 AND col_2 == 3 AND col_3 == 3 AND col_4 == 33.0 AND col_5 == 1.63 AND col_6 == 63.6 AND col_7 == 70.9 AND col_8 == 2.93 AND col_9 == 1 AND col_10 == 3 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 89.0 THEN target == 0"
+  expl: "IF id == 89.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 90.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 31.0 AND col_5 == 1.52 AND col_6 == 52.3 AND col_7 == 53.2 AND col_8 == 2.39 AND col_9 == 2 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 90.0 THEN target == 0"
+  expl: "IF id == 90.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 91.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 21.0 AND col_5 == 1.5 AND col_6 == 63.6 AND col_7 == 63.6 AND col_8 == 2.98 AND col_9 == 2 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 91.0 THEN target == 0"
+  expl: "IF id == 91.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 92.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 27.0 AND col_5 == 1.75 AND col_6 == 68.2 AND col_7 == 82.7 AND col_8 == 5.97 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 92.0 THEN target == 0"
+  expl: "IF id == 92.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 93.0 AND col_2 == 1 AND col_3 == 5 AND col_4 == 25.0 AND col_5 == 1.6 AND col_6 == 68.2 AND col_7 == 76.4 AND col_8 == 3.18 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 93.0 THEN target == 0"
+  expl: "IF id == 93.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 94.0 AND col_2 == 3 AND col_3 == 2 AND col_4 == 34.0 AND col_5 == 1.63 AND col_6 == 66.8 AND col_7 == 80.5 AND col_8 == 4.15 AND col_9 == 3 AND col_10 == 2 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 94.0 THEN target == 1"
+  expl: "IF id == 94.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 95.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 26.0 AND col_5 == 1.7 AND col_6 == 65.9 AND col_7 == 68.2 AND col_8 == 3.35 AND col_9 == 1 AND col_10 == 4 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 95.0 THEN target == 0"
+  expl: "IF id == 95.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 96.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 20.0 AND col_5 == 1.57 AND col_6 == 60.5 AND col_7 == 69.5 AND col_8 == 3.24 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 96.0 THEN target == 0"
+  expl: "IF id == 96.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 97.0 AND col_2 == 2 AND col_3 == 0 AND col_4 == 28.0 AND col_5 == 1.68 AND col_6 == 89.1 AND col_7 == 94.5 AND col_8 == 2.59 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 97.0 THEN target == 0"
+  expl: "IF id == 97.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 98.0 AND col_2 == 2 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.7 AND col_6 == 80.5 AND col_7 == 89.1 AND col_8 == 1.42 AND col_9 == 0 AND col_10 == 0 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 1 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 98.0 THEN target == 1"
+  expl: "IF id == 98.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 99.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 22.0 AND col_5 == 1.6 AND col_6 == 63.6 AND col_7 == 82.7 AND col_8 == 3.89 AND col_9 == 2 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 99.0 THEN target == 0"
+  expl: "IF id == 99.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 100.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 26.0 AND col_5 == 1.5 AND col_6 == 43.6 AND col_7 == 53.6 AND col_8 == 3.81 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 100.0 THEN target == 1"
+  expl: "IF id == 100.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 101.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 21.0 AND col_5 == 1.55 AND col_6 == 54.5 AND col_7 == 67.3 AND col_8 == 3.72 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 101.0 THEN target == 0"
+  expl: "IF id == 101.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 102.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 18.0 AND col_5 == 1.6 AND col_6 == 62.7 AND col_7 == 71.4 AND col_8 == 2.44 AND col_9 == 1 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 102.0 THEN target == 0"
+  expl: "IF id == 102.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 103.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 22.0 AND col_5 == 1.52 AND col_6 == 54.1 AND col_7 == 65.0 AND col_8 == 2.78 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 103.0 THEN target == 0"
+  expl: "IF id == 103.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 104.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 20.0 AND col_5 == 1.63 AND col_6 == 53.6 AND col_7 == 73.2 AND col_8 == 2.78 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 104.0 THEN target == 0"
+  expl: "IF id == 104.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 105.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 25.0 AND col_5 == 1.65 AND col_6 == 61.8 AND col_7 == 66.8 AND col_8 == 3.18 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 105.0 THEN target == 0"
+  expl: "IF id == 105.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 106.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 23.0 AND col_5 == 1.57 AND col_6 == 76.4 AND col_7 == 87.3 AND col_8 == 2.78 AND col_9 == 1 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 106.0 THEN target == 0"
+  expl: "IF id == 106.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 107.0 AND col_2 == 1 AND col_3 == 5 AND col_4 == 22.0 AND col_5 == 1.6 AND col_6 == 74.5 AND col_7 == 82.7 AND col_8 == 2.9 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 107.0 THEN target == 0"
+  expl: "IF id == 107.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 108.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 22.0 AND col_5 == 1.68 AND col_6 == 47.7 AND col_7 == 53.6 AND col_8 == 3.01 AND col_9 == 3 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 108.0 THEN target == 0"
+  expl: "IF id == 108.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 109.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 32.0 AND col_5 == 1.63 AND col_6 == 52.3 AND col_7 == 56.8 AND col_8 == 2.5 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 109.0 THEN target == 0"
+  expl: "IF id == 109.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 110.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 26.0 AND col_5 == 1.57 AND col_6 == 53.6 AND col_7 == 65.0 AND col_8 == 2.87 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 1 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 110.0 THEN target == 0"
+  expl: "IF id == 110.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 111.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 25.0 AND col_5 == 1.63 AND col_6 == 58.6 AND col_7 == 62.3 AND col_8 == 2.44 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 111.0 THEN target == 0"
+  expl: "IF id == 111.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 112.0 AND col_2 == 0 AND col_3 == 1 AND col_4 == 19.0 AND col_5 == 1.57 AND col_6 == 51.8 AND col_7 == 71.8 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 112.0 THEN target == 0"
+  expl: "IF id == 112.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 113.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 21.0 AND col_5 == 1.6 AND col_6 == 76.4 AND col_7 == 78.2 AND col_8 == 3.07 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 113.0 THEN target == 0"
+  expl: "IF id == 113.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 114.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 23.0 AND col_5 == 1.6 AND col_6 == 56.4 AND col_7 == 71.4 AND col_8 == 2.5 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 114.0 THEN target == 0"
+  expl: "IF id == 114.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 115.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 20.0 AND col_5 == 1.6 AND col_6 == 54.1 AND col_7 == 68.2 AND col_8 == 3.58 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 1 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 115.0 THEN target == 1"
+  expl: "IF id == 115.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 116.0 AND col_2 == 1 AND col_3 == 4 AND col_4 == 19.0 AND col_5 == 1.65 AND col_6 == 57.3 AND col_7 == 70.0 AND col_8 == 2.61 AND col_9 == 1 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 116.0 THEN target == 0"
+  expl: "IF id == 116.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 117.0 AND col_2 == 2 AND col_3 == 8 AND col_4 == 30.0 AND col_5 == 1.5 AND col_6 == 53.2 AND col_7 == 66.4 AND col_8 == 3.98 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 117.0 THEN target == 0"
+  expl: "IF id == 117.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 118.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.6 AND col_6 == 57.3 AND col_7 == 65.9 AND col_8 == 3.89 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 118.0 THEN target == 0"
+  expl: "IF id == 118.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 119.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.57 AND col_6 == 60.5 AND col_7 == 74.5 AND col_8 == 3.24 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 119.0 THEN target == 0"
+  expl: "IF id == 119.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 120.0 AND col_2 == 1 AND col_3 == 6 AND col_4 == 28.0 AND col_5 == 1.6 AND col_6 == 46.8 AND col_7 == 60.5 AND col_8 == 2.98 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 120.0 THEN target == 1"
+  expl: "IF id == 120.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 121.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 16.0 AND col_5 == 1.63 AND col_6 == 60.5 AND col_7 == 65.9 AND col_8 == 3.18 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 121.0 THEN target == 0"
+  expl: "IF id == 121.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 122.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 29.0 AND col_5 == 1.63 AND col_6 == 54.5 AND col_7 == 67.3 AND col_8 == 3.58 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 122.0 THEN target == 0"
+  expl: "IF id == 122.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 123.0 AND col_2 == 3 AND col_3 == 6 AND col_4 == 25.0 AND col_5 == 1.57 AND col_6 == 59.1 AND col_7 == 69.5 AND col_8 == 3.89 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 123.0 THEN target == 1"
+  expl: "IF id == 123.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 124.0 AND col_2 == 2 AND col_3 == 3 AND col_4 == 17.0 AND col_5 == 1.52 AND col_6 == 48.2 AND col_7 == 61.8 AND col_8 == 2.78 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 1 AND col_27 == 1 AND col_28 == 1 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 124.0 THEN target == 0"
+  expl: "IF id == 124.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 125.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 23.0 AND col_5 == 1.65 AND col_6 == 77.3 AND col_7 == 83.2 AND col_8 == 3.58 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 125.0 THEN target == 0"
+  expl: "IF id == 125.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 126.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.63 AND col_6 == 72.7 AND col_7 == 80.0 AND col_8 == 2.95 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 126.0 THEN target == 0"
+  expl: "IF id == 126.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 127.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 20.0 AND col_5 == 1.63 AND col_6 == 58.6 AND col_7 == 70.0 AND col_8 == 2.84 AND col_9 == 1 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 127.0 THEN target == 0"
+  expl: "IF id == 127.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 128.0 AND col_2 == 2 AND col_3 == 2 AND col_4 == 25.0 AND col_5 == 1.68 AND col_6 == 54.5 AND col_7 == 71.8 AND col_8 == 3.72 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 128.0 THEN target == 0"
+  expl: "IF id == 128.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 129.0 AND col_2 == 1 AND col_3 == 3 AND col_4 == 24.0 AND col_5 == 1.63 AND col_6 == 61.8 AND col_7 == 73.6 AND col_8 == 2.84 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 129.0 THEN target == 0"
+  expl: "IF id == 129.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 130.0 AND col_2 == 3 AND col_3 == 3 AND col_4 == 35.0 AND col_5 == 1.63 AND col_6 == 69.5 AND col_7 == 72.3 AND col_8 == 3.52 AND col_9 == 2 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 1 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 130.0 THEN target == 0"
+  expl: "IF id == 130.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 131.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 28.0 AND col_5 == 1.7 AND col_6 == 78.2 AND col_7 == 98.6 AND col_8 == 2.84 AND col_9 == 1 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 131.0 THEN target == 0"
+  expl: "IF id == 131.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 132.0 AND col_2 == 3 AND col_3 == 4 AND col_4 == 25.0 AND col_5 == 1.63 AND col_6 == 79.5 AND col_7 == 90.5 AND col_8 == 3.15 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 132.0 THEN target == 0"
+  expl: "IF id == 132.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 133.0 AND col_2 == 1 AND col_3 == 6 AND col_4 == 22.0 AND col_5 == 1.63 AND col_6 == 60.5 AND col_7 == 77.7 AND col_8 == 2.39 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 133.0 THEN target == 0"
+  expl: "IF id == 133.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 134.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 42.0 AND col_5 == 1.5 AND col_6 == 44.5 AND col_7 == 48.6 AND col_8 == 2.27 AND col_9 == 5 AND col_10 == 2 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 134.0 THEN target == 1"
+  expl: "IF id == 134.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 135.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 21.0 AND col_5 == 1.6 AND col_6 == 60.5 AND col_7 == 73.2 AND col_8 == 3.27 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 135.0 THEN target == 0"
+  expl: "IF id == 135.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 136.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 20.0 AND col_5 == 1.52 AND col_6 == 60.5 AND col_7 == 75.0 AND col_8 == 3.64 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 1 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 136.0 THEN target == 0"
+  expl: "IF id == 136.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 137.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.63 AND col_6 == 56.4 AND col_7 == 70.0 AND col_8 == 3.07 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 137.0 THEN target == 0"
+  expl: "IF id == 137.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 138.0 AND col_2 == 1 AND col_3 == 5 AND col_4 == 33.0 AND col_5 == 1.65 AND col_6 == 40.0 AND col_7 == 55.0 AND col_8 == 3.47 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 1 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 138.0 THEN target == 0"
+  expl: "IF id == 138.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 139.0 AND col_2 == 1 AND col_3 == 6 AND col_4 == 33.0 AND col_5 == 1.65 AND col_6 == 63.6 AND col_7 == 82.7 AND col_8 == 3.86 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 139.0 THEN target == 0"
+  expl: "IF id == 139.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 140.0 AND col_2 == 3 AND col_3 == 3 AND col_4 == 29.0 AND col_5 == 1.63 AND col_6 == 58.2 AND col_7 == 65.5 AND col_8 == 2.84 AND col_9 == 1 AND col_10 == 3 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 140.0 THEN target == 0"
+  expl: "IF id == 140.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 141.0 AND col_2 == 2 AND col_3 == 8 AND col_4 == 27.0 AND col_5 == 1.65 AND col_6 == 57.3 AND col_7 == 69.5 AND col_8 == 3.64 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 141.0 THEN target == 0"
+  expl: "IF id == 141.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 142.0 AND col_2 == 3 AND col_3 == 3 AND col_4 == 20.0 AND col_5 == 1.52 AND col_6 == 44.5 AND col_7 == 51.4 AND col_8 == 1.93 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 1 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 1 AND col_31 == 1 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 142.0 THEN target == 0"
+  expl: "IF id == 142.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 143.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 18.0 AND col_5 == 1.63 AND col_6 == 49.1 AND col_7 == 56.8 AND col_8 == 3.24 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 143.0 THEN target == 0"
+  expl: "IF id == 143.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 144.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 26.0 AND col_5 == 1.57 AND col_6 == 52.7 AND col_7 == 65.9 AND col_8 == 3.49 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 144.0 THEN target == 0"
+  expl: "IF id == 144.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 145.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 21.0 AND col_5 == 1.55 AND col_6 == 52.3 AND col_7 == 65.0 AND col_8 == 3.47 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 145.0 THEN target == 0"
+  expl: "IF id == 145.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 146.0 AND col_2 == 2 AND col_3 == 4 AND col_4 == 21.0 AND col_5 == 1.52 AND col_6 == 50.9 AND col_7 == 68.2 AND col_8 == 3.64 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 146.0 THEN target == 0"
+  expl: "IF id == 146.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 147.0 AND col_2 == 1 AND col_3 == 5 AND col_4 == 21.0 AND col_5 == 1.68 AND col_6 == 66.8 AND col_7 == 87.3 AND col_8 == 2.9 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 147.0 THEN target == 0"
+  expl: "IF id == 147.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 148.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 26.0 AND col_5 == 1.65 AND col_6 == 50.9 AND col_7 == 70.0 AND col_8 == 3.52 AND col_9 == 0 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 148.0 THEN target == 0"
+  expl: "IF id == 148.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 149.0 AND col_2 == 1 AND col_3 == 8 AND col_4 == 21.0 AND col_5 == 1.55 AND col_6 == 53.2 AND col_7 == 56.4 AND col_8 == 2.44 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 149.0 THEN target == 1"
+  expl: "IF id == 149.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 150.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 22.0 AND col_5 == 1.47 AND col_6 == 44.5 AND col_7 == 58.2 AND col_8 == 2.87 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 150.0 THEN target == 0"
+  expl: "IF id == 150.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 151.0 AND col_2 == 3 AND col_3 == 7 AND col_4 == 39.0 AND col_5 == 1.5 AND col_6 == 50.9 AND col_7 == 72.7 AND col_8 == 3.04 AND col_9 == 4 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 151.0 THEN target == 1"
+  expl: "IF id == 151.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 152.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 27.0 AND col_5 == 1.63 AND col_6 == 60.5 AND col_7 == 71.4 AND col_8 == 3.21 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 1 AND col_28 == 0 AND col_29 == 1 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 152.0 THEN target == 0"
+  expl: "IF id == 152.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 153.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.57 AND col_6 == 60.0 AND col_7 == 72.7 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 153.0 THEN target == 0"
+  expl: "IF id == 153.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 154.0 AND col_2 == 1 AND col_3 == 4 AND col_4 == 24.0 AND col_5 == 1.63 AND col_6 == 64.5 AND col_7 == 75.0 AND col_8 == 2.87 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 154.0 THEN target == 0"
+  expl: "IF id == 154.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 155.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 19.0 AND col_5 == 1.55 AND col_6 == 52.7 AND col_7 == 57.7 AND col_8 == 2.61 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 155.0 THEN target == 0"
+  expl: "IF id == 155.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 156.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 22.0 AND col_5 == 1.6 AND col_6 == 67.3 AND col_7 == 73.6 AND col_8 == 2.05 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 156.0 THEN target == 0"
+  expl: "IF id == 156.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 157.0 AND col_2 == 3 AND col_3 == 8 AND col_4 == 27.0 AND col_5 == 1.55 AND col_6 == 60.5 AND col_7 == 73.2 AND col_8 == 3.98 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 1 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 157.0 THEN target == 0"
+  expl: "IF id == 157.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 158.0 AND col_2 == 3 AND col_3 == 2 AND col_4 == 35.0 AND col_5 == 1.73 AND col_6 == 72.3 AND col_7 == 89.1 AND col_8 == 6.28 AND col_9 == 3 AND col_10 == 3 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 158.0 THEN target == 0"
+  expl: "IF id == 158.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 159.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 24.0 AND col_5 == 1.65 AND col_6 == 83.6 AND col_7 == 86.8 AND col_8 == 3.64 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 159.0 THEN target == 0"
+  expl: "IF id == 159.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 160.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 35.0 AND col_5 == 1.55 AND col_6 == 52.3 AND col_7 == 59.1 AND col_8 == 3.64 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 160.0 THEN target == 0"
+  expl: "IF id == 160.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 161.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 21.0 AND col_5 == 1.52 AND col_6 == 59.1 AND col_7 == 67.3 AND col_8 == 2.95 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 161.0 THEN target == 0"
+  expl: "IF id == 161.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 162.0 AND col_2 == 3 AND col_3 == 7 AND col_4 == 21.0 AND col_5 == 1.68 AND col_6 == 54.1 AND col_7 == 74.5 AND col_8 == 3.72 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 1 AND col_21 == 1 AND col_22 == 1 AND col_23 == 0 AND col_24 == 1 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 162.0 THEN target == 1"
+  expl: "IF id == 162.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 163.0 AND col_2 == 3 AND col_3 == 9 AND col_4 == 38.0 AND col_5 == 1.52 AND col_6 == 43.6 AND col_7 == 60.9 AND col_8 == 3.24 AND col_9 == 1 AND col_10 == 4 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 163.0 THEN target == 0"
+  expl: "IF id == 163.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 164.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 32.0 AND col_5 == 1.73 AND col_6 == 54.5 AND col_7 == 62.7 AND col_8 == 3.41 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 1 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 164.0 THEN target == 0"
+  expl: "IF id == 164.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 165.0 AND col_2 == 3 AND col_3 == 8 AND col_4 == 15.0 AND col_5 == 1.55 AND col_6 == 48.2 AND col_7 == 56.4 AND col_8 == 2.7 AND col_9 == 0 AND col_10 == 1 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 165.0 THEN target == 0"
+  expl: "IF id == 165.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 166.0 AND col_2 == 2 AND col_3 == 6 AND col_4 == 23.0 AND col_5 == 1.57 AND col_6 == 60.5 AND col_7 == 100.0 AND col_8 == 3.58 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 166.0 THEN target == 0"
+  expl: "IF id == 166.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 167.0 AND col_2 == 2 AND col_3 == 7 AND col_4 == 19.0 AND col_5 == 1.5 AND col_6 == 49.5 AND col_7 == 63.6 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 0 THEN target == 1"
+  dexp: "IF id == 167.0 THEN target == 1"
+  expl: "IF id == 167.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 168.0 AND col_2 == 2 AND col_3 == 8 AND col_4 == 25.0 AND col_5 == 1.6 AND col_6 == 59.5 AND col_7 == 72.3 AND col_8 == 2.73 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 1 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 1 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 168.0 THEN target == 0"
+  expl: "IF id == 168.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 169.0 AND col_2 == 2 AND col_3 == 5 AND col_4 == 22.0 AND col_5 == 1.5 AND col_6 == 53.6 AND col_7 == 63.2 AND col_8 == 3.35 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 1 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 169.0 THEN target == 0"
+  expl: "IF id == 169.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 170.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 19.0 AND col_5 == 1.55 AND col_6 == 57.3 AND col_7 == 65.0 AND col_8 == 3.07 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 170.0 THEN target == 0"
+  expl: "IF id == 170.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 171.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 23.0 AND col_5 == 1.68 AND col_6 == 57.3 AND col_7 == 61.4 AND col_8 == 3.58 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 171.0 THEN target == 0"
+  expl: "IF id == 171.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 172.0 AND col_2 == 3 AND col_3 == 0 AND col_4 == 36.0 AND col_5 == 1.63 AND col_6 == 54.1 AND col_7 == 60.0 AND col_8 == 2.84 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 1 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 1 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 0 AND col_32 == 1 THEN target == 0"
+  dexp: "IF id == 172.0 THEN target == 0"
+  expl: "IF id == 172.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 173.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 21.0 AND col_5 == 1.55 AND col_6 == 50.9 AND col_7 == 63.6 AND col_8 == 3.01 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 173.0 THEN target == 0"
+  expl: "IF id == 173.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 174.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 30.0 AND col_5 == 1.52 AND col_6 == 38.2 AND col_7 == 48.2 AND col_8 == 2.56 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 174.0 THEN target == 0"
+  expl: "IF id == 174.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 175.0 AND col_2 == 0 AND col_3 == 0 AND col_4 == 42.0 AND col_5 == 1.7 AND col_6 == 55.0 AND col_7 == 65.5 AND col_8 == 3.27 AND col_9 == 4 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 175.0 THEN target == 0"
+  expl: "IF id == 175.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 176.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 34.0 AND col_5 == 1.63 AND col_6 == 50.9 AND col_7 == 60.5 AND col_8 == 2.93 AND col_9 == 0 AND col_10 == 1 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 1 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 176.0 THEN target == 0"
+  expl: "IF id == 176.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 177.0 AND col_2 == 3 AND col_3 == 3 AND col_4 == 26.0 AND col_5 == 1.63 AND col_6 == 66.8 AND col_7 == 84.1 AND col_8 == 3.1 AND col_9 == 1 AND col_10 == 3 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 1 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 1 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 1 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 177.0 THEN target == 0"
+  expl: "IF id == 177.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 178.0 AND col_2 == 1 AND col_3 == 7 AND col_4 == 18.0 AND col_5 == 1.5 AND col_6 == 54.1 AND col_7 == 60.5 AND col_8 == 3.52 AND col_9 == 0 AND col_10 == 0 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 1 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 1 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 178.0 THEN target == 0"
+  expl: "IF id == 178.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 179.0 AND col_2 == 3 AND col_3 == 6 AND col_4 == 39.0 AND col_5 == 1.52 AND col_6 == 82.7 AND col_7 == 84.1 AND col_8 == 3.35 AND col_9 == 1 AND col_10 == 2 AND col_11 == 1 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 0 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 0 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 179.0 THEN target == 0"
+  expl: "IF id == 179.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF id == 180.0 AND col_2 == 1 AND col_3 == 0 AND col_4 == 25.0 AND col_5 == 1.52 AND col_6 == 52.3 AND col_7 == 66.8 AND col_8 == 3.24 AND col_9 == 1 AND col_10 == 2 AND col_11 == 0 AND col_12 == 0 AND col_13 == 0 AND col_14 == 0 AND col_15 == 0 AND col_16 == 0 AND col_17 == 0 AND col_18 == 0 AND col_19 == 0 AND col_20 == 0 AND col_21 == 0 AND col_22 == 0 AND col_23 == 1 AND col_24 == 0 AND col_25 == 0 AND col_26 == 0 AND col_27 == 0 AND col_28 == 0 AND col_29 == 1 AND col_30 == 0 AND col_31 == 0 AND col_32 == 0 THEN target == 0"
+  dexp: "IF id == 180.0 THEN target == 0"
+  expl: "IF id == 180.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 180
+tot # of expls: 180
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 1.00
+avg expl sz: 1.00
+max expl sz: 1.00
+Max expl sz: 1
+
+tot time: 0.03
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   0.00%
+max dxrd:   0.00%

@@ -1,0 +1,746 @@
+MODEL:
+IF Course_instructor == 1.0 THEN target == 2
+IF Course_instructor == 3.0 THEN target == 1
+IF Course_instructor == 4.0 THEN target == 1
+IF Course_instructor == 21.0 THEN target == 1
+IF Course_instructor == 24.0 THEN target == 2
+IF Course_instructor == 25.0 THEN target == 2
+IF Course == 6.0 THEN target == 2
+IF Course == 7.0 THEN target == 1
+IF Course_instructor == 12.0 THEN target == 2
+IF Course == 8.0 THEN target == 1
+IF Course == 10.0 THEN target == 1
+IF Course == 12.0 THEN target == 2
+IF Course == 13.0 THEN target == 2
+IF Course == 16.0 THEN target == 2
+IF Course_instructor == 11.0 THEN target == 1
+IF Course == 19.0 THEN target == 3
+IF Course_instructor == 16.0 THEN target == 1
+IF Course == 21.0 THEN target == 3
+IF Course == 23.0 THEN target == 2
+IF Course == 24.0 THEN target == 2
+IF Course_instructor == 9.0 THEN target == 3
+IF Course == 5.0 THEN target == 1
+IF Course_instructor == 18.0 THEN target == 3
+IF Course == 25.0 THEN target == 2
+IF Class_size == 3.0 THEN target == 1
+IF Class_size == 10.0 THEN target == 2
+IF Class_size == 12.0 THEN target == 1
+IF Class_size == 14.0 THEN target == 1
+IF Class_size == 15.0 THEN target == 2
+IF Class_size == 17.0 THEN target == 3
+IF Class_size == 18.0 THEN target == 2
+IF Class_size == 21.0 THEN target == 3
+IF Class_size == 28.0 THEN target == 1
+IF Class_size == 32.0 THEN target == 1
+IF Class_size == 33.0 THEN target == 3
+IF Course_instructor == 5.0 THEN target == 1
+IF Class_size == 35.0 THEN target == 2
+IF Class_size == 36.0 THEN target == 3
+IF Class_size == 39.0 THEN target == 3
+IF Course_instructor == 6.0 THEN target == 2
+IF Course == 17.0 THEN target == 3
+IF Class_size == 44.0 THEN target == 2
+IF Course_instructor == 17.0 THEN target == 1
+IF Class_size == 45.0 THEN target == 3
+IF Course_instructor == 20.0 THEN target == 2
+IF Class_size == 25.0 THEN target == 3
+IF Class_size == 46.0 THEN target == 2
+IF Class_size == 49.0 THEN target == 3
+IF Class_size == 51.0 THEN target == 1
+IF Class_size == 54.0 THEN target == 3
+IF Class_size == 55.0 THEN target == 3
+IF Class_size == 58.0 THEN target == 3
+IF Course_instructor == 22.0 THEN target == 2
+IF Class_size == 66.0 THEN target == 1
+IF Course_instructor == 2.0, Class_size != 29.0 THEN target == 2
+IF Course_instructor == 2.0 THEN target == 1
+IF Class_size == 31.0 THEN target == 1
+IF Course_instructor == 7.0, Class_size != 13.0 THEN target == 1
+IF Course_instructor == 7.0 THEN target == 2
+IF Class_size == 13.0 THEN target == 1
+IF Class_size == 30.0 THEN target == 3
+IF Summer_or_regular_semester == 1, Course_instructor == 13.0 THEN target == 3
+IF Class_size == 11.0 THEN target == 1
+IF Whether_of_not_the_TA_is_a_native_English_speaker == 1, Course_instructor != 23.0 THEN target == 3
+IF Class_size == 29.0 THEN target == 1
+IF Course_instructor == 13.0 THEN target == 2
+IF Course == 1.0 THEN target == 1
+IF Course_instructor == 15.0 THEN target == 3
+IF Whether_of_not_the_TA_is_a_native_English_speaker == 1, Class_size != 20.0 THEN target == 3
+IF Class_size == 19.0 THEN target == 1
+IF Course_instructor == 10.0 THEN target == 3
+IF Class_size == 27.0 THEN target == 1
+IF Course_instructor == 8.0 THEN target == 2
+IF Class_size == 24.0 THEN target == 1
+IF Course_instructor != 14.0, Whether_of_not_the_TA_is_a_native_English_speaker != 1 THEN target == 3
+IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 THEN target == 3
+IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 2
+IF TRUE THEN target == 2
+
+ENCODINDS:
+# of classes: 3
+min # of vars: 105
+avg # of vars: 105.00
+max # of vars: 105
+min # of clauses: 1705
+avg # of clauses: 1707.00
+max # of clauses: 1709
+
+EXPLANATIONS:
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 19.0 THEN target == 3"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 19.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 1 THEN target == 3"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Class_size == 19.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 15.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 17.0 THEN target == 3"
+  dexp: "IF Course_instructor == 15.0 AND Course == 3.0 AND Class_size == 17.0 THEN target == 3"
+  expl: "IF Class_size == 17.0 AND Course == 3.0 AND Course_instructor == 15.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 49.0 THEN target == 3"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 49.0 THEN target == 3"
+  expl: "IF Class_size == 49.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 5.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 33.0 THEN target == 3"
+  dexp: "IF Course_instructor == 5.0 AND Course == 2.0 AND Class_size == 33.0 THEN target == 3"
+  expl: "IF Class_size == 33.0 AND Course == 2.0 AND Course_instructor == 5.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 7.0 AND Course == 11.0 AND Summer_or_regular_semester == 2 AND Class_size == 55.0 THEN target == 3"
+  dexp: "IF Course_instructor == 7.0 AND Course == 11.0 AND Class_size == 55.0 THEN target == 3"
+  expl: "IF Class_size == 55.0 AND Course == 11.0 AND Course_instructor == 7.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 20.0 THEN target == 3"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 20.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 3"
+  expl: "IF Class_size == 20.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 5.0 AND Summer_or_regular_semester == 2 AND Class_size == 19.0 THEN target == 3"
+  dexp: "IF Course_instructor == 9.0 AND Course == 5.0 THEN target == 3"
+  expl: "IF Course == 5.0 AND Course_instructor == 9.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 10.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 27.0 THEN target == 3"
+  dexp: "IF Course_instructor == 10.0 AND Course == 3.0 AND Class_size == 27.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 3"
+  expl: "IF Class_size == 27.0 AND Course == 3.0 AND Course_instructor == 10.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 22.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 58.0 THEN target == 3"
+  dexp: "IF Course_instructor == 22.0 AND Course == 3.0 AND Class_size == 58.0 THEN target == 3"
+  expl: "IF Class_size == 58.0 AND Course == 3.0 AND Course_instructor == 22.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 15.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 20.0 THEN target == 3"
+  dexp: "IF Course_instructor == 15.0 AND Course == 3.0 AND Class_size == 20.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 3"
+  expl: "IF Class_size == 20.0 AND Course == 3.0 AND Course_instructor == 15.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 10.0 AND Course == 22.0 AND Summer_or_regular_semester == 2 AND Class_size == 9.0 THEN target == 3"
+  dexp: "IF Course_instructor == 10.0 AND Course == 22.0 AND Class_size == 9.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 3"
+  expl: "IF Class_size == 9.0 AND Course == 22.0 AND Course_instructor == 10.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 30.0 THEN target == 3"
+  dexp: "IF Course_instructor == 13.0 AND Course == 1.0 AND Class_size == 30.0 THEN target == 3"
+  expl: "IF Class_size == 30.0 AND Course == 1.0 AND Course_instructor == 13.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 18.0 AND Course == 21.0 AND Summer_or_regular_semester == 2 AND Class_size == 29.0 THEN target == 3"
+  dexp: "IF Course_instructor == 18.0 AND Course == 21.0 THEN target == 3"
+  expl: "IF Course == 21.0 AND Course_instructor == 18.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 6.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 39.0 THEN target == 3"
+  dexp: "IF Course_instructor == 6.0 AND Course == 17.0 AND Class_size == 39.0 THEN target == 3"
+  expl: "IF Class_size == 39.0 AND Course == 17.0 AND Course_instructor == 6.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 6.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 42.0 THEN target == 2"
+  dexp: "IF Course_instructor == 6.0 AND Course == 17.0 AND Class_size == 42.0 THEN target == 2"
+  expl: "IF Class_size == 42.0 AND Course == 17.0 AND Course_instructor == 6.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 6.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 43.0 THEN target == 2"
+  dexp: "IF Course_instructor == 6.0 AND Course == 17.0 AND Class_size == 43.0 THEN target == 2"
+  expl: "IF Class_size == 43.0 AND Course == 17.0 AND Course_instructor == 6.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 7.0 AND Course == 11.0 AND Summer_or_regular_semester == 2 AND Class_size == 10.0 THEN target == 2"
+  dexp: "IF Course_instructor == 7.0 AND Course == 11.0 AND Class_size == 10.0 THEN target == 2"
+  expl: "IF Class_size == 10.0 AND Course == 11.0 AND Course_instructor == 7.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 22.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 46.0 THEN target == 2"
+  dexp: "IF Course_instructor == 22.0 AND Course == 3.0 AND Class_size == 46.0 THEN target == 2"
+  expl: "IF Class_size == 46.0 AND Course == 3.0 AND Course_instructor == 22.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 10.0 THEN target == 2"
+  dexp: "IF Course_instructor == 13.0 AND Course == 3.0 AND Class_size == 10.0 THEN target == 2"
+  expl: "IF Class_size == 10.0 AND Course == 3.0 AND Course_instructor == 13.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 7.0 AND Course == 25.0 AND Summer_or_regular_semester == 2 AND Class_size == 42.0 THEN target == 2"
+  dexp: "IF Course_instructor == 7.0 AND Course == 25.0 THEN target == 2"
+  expl: "IF Course == 25.0 AND Course_instructor == 7.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 25.0 AND Course == 7.0 AND Summer_or_regular_semester == 2 AND Class_size == 27.0 THEN target == 2"
+  dexp: "IF Course_instructor == 25.0 THEN target == 2"
+  expl: "IF Course_instructor == 25.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 25.0 AND Course == 7.0 AND Summer_or_regular_semester == 2 AND Class_size == 23.0 THEN target == 2"
+  dexp: "IF Course_instructor == 25.0 THEN target == 2"
+  expl: "IF Course_instructor == 25.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 2.0 AND Course == 9.0 AND Summer_or_regular_semester == 2 AND Class_size == 31.0 THEN target == 2"
+  dexp: "IF Course_instructor == 2.0 AND Course == 9.0 AND Class_size == 31.0 THEN target == 2"
+  expl: "IF Class_size == 31.0 AND Course == 9.0 AND Course_instructor == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 1.0 AND Course == 15.0 AND Summer_or_regular_semester == 1 AND Class_size == 22.0 THEN target == 2"
+  dexp: "IF Course_instructor == 1.0 THEN target == 2"
+  expl: "IF Course_instructor == 1.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 15.0 AND Course == 13.0 AND Summer_or_regular_semester == 2 AND Class_size == 37.0 THEN target == 2"
+  dexp: "IF Course_instructor == 15.0 AND Course == 13.0 THEN target == 2"
+  expl: "IF Course == 13.0 AND Course_instructor == 15.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 7.0 AND Course == 11.0 AND Summer_or_regular_semester == 2 AND Class_size == 13.0 THEN target == 2"
+  dexp: "IF Course_instructor == 7.0 AND Course == 11.0 AND Class_size == 13.0 THEN target == 2"
+  expl: "IF Class_size == 13.0 AND Course == 11.0 AND Course_instructor == 7.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 8.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 24.0 THEN target == 2"
+  dexp: "IF Course_instructor == 8.0 AND Course == 3.0 AND Class_size == 24.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 2"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Class_size == 24.0 AND Course == 3.0 AND Course_instructor == 8.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 14.0 AND Course == 15.0 AND Summer_or_regular_semester == 2 AND Class_size == 38.0 THEN target == 2"
+  dexp: "IF Course_instructor == 14.0 AND Course == 15.0 AND Class_size == 38.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 2"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Class_size == 38.0 AND Course == 15.0 AND Course_instructor == 14.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 21.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 42.0 THEN target == 1"
+  dexp: "IF Course_instructor == 21.0 THEN target == 1"
+  expl: "IF Course_instructor == 21.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 22.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 28.0 THEN target == 1"
+  dexp: "IF Course_instructor == 22.0 AND Course == 3.0 AND Class_size == 28.0 THEN target == 1"
+  expl: "IF Class_size == 28.0 AND Course == 3.0 AND Course_instructor == 22.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 11.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 51.0 THEN target == 1"
+  dexp: "IF Course_instructor == 11.0 AND Course == 1.0 THEN target == 1"
+  expl: "IF Course == 1.0 AND Course_instructor == 11.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 18.0 AND Course == 5.0 AND Summer_or_regular_semester == 2 AND Class_size == 19.0 THEN target == 1"
+  dexp: "IF Course_instructor == 18.0 AND Course == 5.0 THEN target == 1"
+  expl: "IF Course == 5.0 AND Course_instructor == 18.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 31.0 THEN target == 1"
+  dexp: "IF Course_instructor == 13.0 AND Course == 1.0 AND Class_size == 31.0 THEN target == 1"
+  expl: "IF Class_size == 31.0 AND Course == 1.0 AND Course_instructor == 13.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 13.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 13.0 THEN target == 1"
+  dexp: "IF Course_instructor == 13.0 AND Course == 3.0 AND Class_size == 13.0 THEN target == 1"
+  expl: "IF Class_size == 13.0 AND Course == 3.0 AND Course_instructor == 13.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 5.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 37.0 THEN target == 1"
+  dexp: "IF Course_instructor == 5.0 AND Course == 2.0 AND Class_size == 37.0 THEN target == 1"
+  expl: "IF Class_size == 37.0 AND Course == 2.0 AND Course_instructor == 5.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 16.0 AND Course == 8.0 AND Summer_or_regular_semester == 2 AND Class_size == 36.0 THEN target == 1"
+  dexp: "IF Course_instructor == 16.0 AND Course == 8.0 THEN target == 1"
+  expl: "IF Course == 8.0 AND Course_instructor == 16.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 4.0 AND Course == 16.0 AND Summer_or_regular_semester == 2 AND Class_size == 21.0 THEN target == 1"
+  dexp: "IF Course_instructor == 4.0 THEN target == 1"
+  expl: "IF Course_instructor == 4.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 5.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 48.0 THEN target == 1"
+  dexp: "IF Course_instructor == 5.0 AND Course == 2.0 AND Class_size == 48.0 THEN target == 1"
+  expl: "IF Class_size == 48.0 AND Course == 2.0 AND Course_instructor == 5.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 22.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 58.0 THEN target == 3"
+  dexp: "IF Course_instructor == 22.0 AND Course == 3.0 AND Class_size == 58.0 THEN target == 3"
+  expl: "IF Class_size == 58.0 AND Course == 3.0 AND Course_instructor == 22.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 25.0 THEN target == 3"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 25.0 THEN target == 3"
+  expl: "IF Class_size == 25.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 13.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 17.0 THEN target == 3"
+  dexp: "IF Course_instructor == 13.0 AND Course == 3.0 AND Class_size == 17.0 THEN target == 3"
+  expl: "IF Class_size == 17.0 AND Course == 3.0 AND Course_instructor == 13.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 16.0 AND Course == 19.0 AND Summer_or_regular_semester == 2 AND Class_size == 11.0 THEN target == 3"
+  dexp: "IF Course_instructor == 16.0 AND Course == 19.0 THEN target == 3"
+  expl: "IF Course == 19.0 AND Course_instructor == 16.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 39.0 THEN target == 3"
+  dexp: "IF Course_instructor == 9.0 AND Course == 2.0 THEN target == 3"
+  expl: "IF Course == 2.0 AND Course_instructor == 9.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 11.0 THEN target == 3"
+  dexp: "IF Course_instructor == 13.0 AND Course == 3.0 AND Class_size == 11.0 AND Summer_or_regular_semester == 1 THEN target == 3"
+  expl: "IF Summer_or_regular_semester == 1 AND Class_size == 11.0 AND Course == 3.0 AND Course_instructor == 13.0 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 18.0 AND Course == 21.0 AND Summer_or_regular_semester == 2 AND Class_size == 19.0 THEN target == 3"
+  dexp: "IF Course_instructor == 18.0 AND Course == 21.0 THEN target == 3"
+  expl: "IF Course == 21.0 AND Course_instructor == 18.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 22.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 45.0 THEN target == 3"
+  dexp: "IF Course_instructor == 22.0 AND Course == 3.0 AND Class_size == 45.0 THEN target == 3"
+  expl: "IF Class_size == 45.0 AND Course == 3.0 AND Course_instructor == 22.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 7.0 AND Course == 11.0 AND Summer_or_regular_semester == 1 AND Class_size == 20.0 THEN target == 1"
+  dexp: "IF Course_instructor == 7.0 AND Course == 11.0 AND Class_size == 20.0 THEN target == 1"
+  expl: "IF Class_size == 20.0 AND Course == 11.0 AND Course_instructor == 7.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 1 AND Class_size == 20.0 THEN target == 3"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 20.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 1 THEN target == 3"
+  expl: "IF Class_size == 20.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 38.0 THEN target == 3"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 38.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 1 THEN target == 3"
+  expl: "IF Class_size == 38.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 14.0 AND Course == 22.0 AND Summer_or_regular_semester == 2 AND Class_size == 17.0 THEN target == 3"
+  dexp: "IF Course_instructor == 14.0 AND Course == 22.0 AND Class_size == 17.0 THEN target == 3"
+  expl: "IF Class_size == 17.0 AND Course == 22.0 AND Course_instructor == 14.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 17.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 19.0 THEN target == 3"
+  dexp: "IF Course_instructor == 17.0 AND Course == 17.0 AND Class_size == 19.0 THEN target == 3"
+  expl: "IF Class_size == 19.0 AND Course == 17.0 AND Course_instructor == 17.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 5.0 AND Summer_or_regular_semester == 2 AND Class_size == 24.0 THEN target == 3"
+  dexp: "IF Course_instructor == 9.0 AND Course == 5.0 THEN target == 3"
+  expl: "IF Course == 5.0 AND Course_instructor == 9.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 18.0 AND Course == 25.0 AND Summer_or_regular_semester == 2 AND Class_size == 25.0 THEN target == 3"
+  dexp: "IF Course_instructor == 18.0 AND Course == 25.0 THEN target == 3"
+  expl: "IF Course == 25.0 AND Course_instructor == 18.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 17.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 31.0 THEN target == 3"
+  dexp: "IF Course_instructor == 17.0 AND Course == 17.0 AND Class_size == 31.0 THEN target == 3"
+  expl: "IF Class_size == 31.0 AND Course == 17.0 AND Course_instructor == 17.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 1.0 AND Course == 15.0 AND Summer_or_regular_semester == 2 AND Class_size == 31.0 THEN target == 2"
+  dexp: "IF Course_instructor == 1.0 THEN target == 2"
+  expl: "IF Course_instructor == 1.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 1.0 AND Course == 8.0 AND Summer_or_regular_semester == 2 AND Class_size == 18.0 THEN target == 2"
+  dexp: "IF Course_instructor == 1.0 THEN target == 2"
+  expl: "IF Course_instructor == 1.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 11.0 AND Course == 16.0 AND Summer_or_regular_semester == 2 AND Class_size == 22.0 THEN target == 2"
+  dexp: "IF Course_instructor == 11.0 AND Course == 16.0 THEN target == 2"
+  expl: "IF Course == 16.0 AND Course_instructor == 11.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 22.0 AND Course == 13.0 AND Summer_or_regular_semester == 2 AND Class_size == 27.0 THEN target == 2"
+  dexp: "IF Course_instructor == 22.0 AND Course == 13.0 THEN target == 2"
+  expl: "IF Course == 13.0 AND Course_instructor == 22.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 14.0 THEN target == 3"
+  dexp: "IF Course_instructor == 9.0 AND Course == 2.0 THEN target == 3"
+  expl: "IF Course == 2.0 AND Course_instructor == 9.0 THEN target == 3"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 20.0 THEN target == 2"
+  dexp: "IF Course_instructor == 13.0 AND Course == 1.0 AND Class_size == 20.0 AND Summer_or_regular_semester == 2 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 2"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Summer_or_regular_semester == 2 AND Class_size == 20.0 AND Course == 1.0 AND Course_instructor == 13.0 THEN target == 2"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 6.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 35.0 THEN target == 2"
+  dexp: "IF Course_instructor == 6.0 AND Course == 17.0 AND Class_size == 35.0 THEN target == 2"
+  expl: "IF Class_size == 35.0 AND Course == 17.0 AND Course_instructor == 6.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 6.0 AND Course == 17.0 AND Summer_or_regular_semester == 2 AND Class_size == 37.0 THEN target == 2"
+  dexp: "IF Course_instructor == 6.0 AND Course == 17.0 AND Class_size == 37.0 THEN target == 2"
+  expl: "IF Class_size == 37.0 AND Course == 17.0 AND Course_instructor == 6.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 22.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 15.0 THEN target == 2"
+  dexp: "IF Course_instructor == 22.0 AND Course == 3.0 AND Class_size == 15.0 THEN target == 2"
+  expl: "IF Class_size == 15.0 AND Course == 3.0 AND Course_instructor == 22.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 20.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 25.0 THEN target == 2"
+  dexp: "IF Course_instructor == 20.0 AND Course == 2.0 AND Class_size == 25.0 THEN target == 2"
+  expl: "IF Class_size == 25.0 AND Course == 2.0 AND Course_instructor == 20.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 10.0 THEN target == 2"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 10.0 THEN target == 2"
+  expl: "IF Class_size == 10.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 20.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 14.0 THEN target == 1"
+  dexp: "IF Course_instructor == 20.0 AND Course == 2.0 AND Class_size == 14.0 THEN target == 1"
+  expl: "IF Class_size == 14.0 AND Course == 2.0 AND Course_instructor == 20.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 29.0 THEN target == 1"
+  dexp: "IF Course_instructor == 13.0 AND Course == 1.0 AND Class_size == 29.0 AND Summer_or_regular_semester == 2 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 1"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Summer_or_regular_semester == 2 AND Class_size == 29.0 AND Course == 1.0 AND Course_instructor == 13.0 THEN target == 1"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 10.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 19.0 THEN target == 1"
+  dexp: "IF Course_instructor == 10.0 AND Course == 3.0 AND Class_size == 19.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 1"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Class_size == 19.0 AND Course == 3.0 AND Course_instructor == 10.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 7.0 AND Course == 11.0 AND Summer_or_regular_semester == 2 AND Class_size == 30.0 THEN target == 1"
+  dexp: "IF Course_instructor == 7.0 AND Course == 11.0 AND Class_size == 30.0 THEN target == 1"
+  expl: "IF Class_size == 30.0 AND Course == 11.0 AND Course_instructor == 7.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 14.0 AND Course == 15.0 AND Summer_or_regular_semester == 2 AND Class_size == 32.0 THEN target == 1"
+  dexp: "IF Course_instructor == 14.0 AND Course == 15.0 AND Class_size == 32.0 THEN target == 1"
+  expl: "IF Class_size == 32.0 AND Course == 15.0 AND Course_instructor == 14.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 8.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 27.0 THEN target == 1"
+  dexp: "IF Course_instructor == 8.0 AND Course == 3.0 AND Class_size == 27.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 1"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Class_size == 27.0 AND Course == 3.0 AND Course_instructor == 8.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 12.0 AND Course == 7.0 AND Summer_or_regular_semester == 2 AND Class_size == 34.0 THEN target == 1"
+  dexp: "IF Course_instructor == 12.0 AND Course == 7.0 THEN target == 1"
+  expl: "IF Course == 7.0 AND Course_instructor == 12.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 8.0 AND Course == 7.0 AND Summer_or_regular_semester == 2 AND Class_size == 23.0 THEN target == 1"
+  dexp: "IF Course_instructor == 8.0 AND Course == 7.0 THEN target == 1"
+  expl: "IF Course == 7.0 AND Course_instructor == 8.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 15.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 66.0 THEN target == 1"
+  dexp: "IF Course_instructor == 15.0 AND Course == 1.0 AND Class_size == 66.0 THEN target == 1"
+  expl: "IF Class_size == 66.0 AND Course == 1.0 AND Course_instructor == 15.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 12.0 THEN target == 1"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 12.0 THEN target == 1"
+  expl: "IF Class_size == 12.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 2.0 AND Course == 9.0 AND Summer_or_regular_semester == 2 AND Class_size == 29.0 THEN target == 1"
+  dexp: "IF Course_instructor == 2.0 AND Course == 9.0 AND Class_size == 29.0 THEN target == 1"
+  expl: "IF Class_size == 29.0 AND Course == 9.0 AND Course_instructor == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 15.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 19.0 THEN target == 1"
+  dexp: "IF Course_instructor == 15.0 AND Course == 1.0 AND Class_size == 19.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 1"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Class_size == 19.0 AND Course == 1.0 AND Course_instructor == 15.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 20.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 3.0 THEN target == 1"
+  dexp: "IF Course_instructor == 20.0 AND Course == 2.0 AND Class_size == 3.0 THEN target == 1"
+  expl: "IF Class_size == 3.0 AND Course == 2.0 AND Course_instructor == 20.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 13.0 AND Course == 14.0 AND Summer_or_regular_semester == 2 AND Class_size == 17.0 THEN target == 3"
+  dexp: "IF Course_instructor == 13.0 AND Course == 14.0 AND Class_size == 17.0 THEN target == 3"
+  expl: "IF Class_size == 17.0 AND Course == 14.0 AND Course_instructor == 13.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 6.0 AND Summer_or_regular_semester == 2 AND Class_size == 7.0 THEN target == 2"
+  dexp: "IF Course_instructor == 9.0 AND Course == 6.0 THEN target == 2"
+  expl: "IF Course == 6.0 AND Course_instructor == 9.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 10.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 21.0 THEN target == 3"
+  dexp: "IF Course_instructor == 10.0 AND Course == 3.0 AND Class_size == 21.0 THEN target == 3"
+  expl: "IF Class_size == 21.0 AND Course == 3.0 AND Course_instructor == 10.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 14.0 AND Course == 15.0 AND Summer_or_regular_semester == 2 AND Class_size == 36.0 THEN target == 3"
+  dexp: "IF Course_instructor == 14.0 AND Course == 15.0 AND Class_size == 36.0 THEN target == 3"
+  expl: "IF Class_size == 36.0 AND Course == 15.0 AND Course_instructor == 14.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 13.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 54.0 THEN target == 3"
+  dexp: "IF Course_instructor == 13.0 AND Course == 1.0 AND Class_size == 54.0 THEN target == 3"
+  expl: "IF Class_size == 54.0 AND Course == 1.0 AND Course_instructor == 13.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 8.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 29.0 THEN target == 3"
+  dexp: "IF Course_instructor == 8.0 AND Course == 3.0 AND Class_size == 29.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 1 THEN target == 3"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Class_size == 29.0 AND Course == 3.0 AND Course_instructor == 8.0 THEN target == 3"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 20.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 45.0 THEN target == 3"
+  dexp: "IF Course_instructor == 20.0 AND Course == 2.0 AND Class_size == 45.0 THEN target == 3"
+  expl: "IF Class_size == 45.0 AND Course == 2.0 AND Course_instructor == 20.0 THEN target == 3"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 22.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 11.0 THEN target == 2"
+  dexp: "IF Course_instructor == 22.0 AND Course == 1.0 AND Class_size == 11.0 THEN target == 2"
+  expl: "IF Class_size == 11.0 AND Course == 1.0 AND Course_instructor == 22.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 18.0 AND Course == 12.0 AND Summer_or_regular_semester == 2 AND Class_size == 16.0 THEN target == 2"
+  dexp: "IF Course_instructor == 18.0 AND Course == 12.0 THEN target == 2"
+  expl: "IF Course == 12.0 AND Course_instructor == 18.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 20.0 AND Course == 15.0 AND Summer_or_regular_semester == 2 AND Class_size == 18.0 THEN target == 2"
+  dexp: "IF Course_instructor == 20.0 AND Course == 15.0 AND Class_size == 18.0 THEN target == 2"
+  expl: "IF Class_size == 18.0 AND Course == 15.0 AND Course_instructor == 20.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 17.0 AND Course == 18.0 AND Summer_or_regular_semester == 2 AND Class_size == 44.0 THEN target == 2"
+  dexp: "IF Course_instructor == 17.0 AND Course == 18.0 AND Class_size == 44.0 THEN target == 2"
+  expl: "IF Class_size == 44.0 AND Course == 18.0 AND Course_instructor == 17.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 14.0 AND Course == 23.0 AND Summer_or_regular_semester == 2 AND Class_size == 17.0 THEN target == 2"
+  dexp: "IF Course_instructor == 14.0 AND Course == 23.0 THEN target == 2"
+  expl: "IF Course == 23.0 AND Course_instructor == 14.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 24.0 AND Course == 26.0 AND Summer_or_regular_semester == 2 AND Class_size == 21.0 THEN target == 2"
+  dexp: "IF Course_instructor == 24.0 THEN target == 2"
+  expl: "IF Course_instructor == 24.0 THEN target == 2"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 24.0 AND Summer_or_regular_semester == 2 AND Class_size == 20.0 THEN target == 2"
+  dexp: "IF Course_instructor == 9.0 AND Course == 24.0 THEN target == 2"
+  expl: "IF Course == 24.0 AND Course_instructor == 9.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 12.0 AND Course == 8.0 AND Summer_or_regular_semester == 2 AND Class_size == 24.0 THEN target == 2"
+  dexp: "IF Course_instructor == 12.0 AND Course == 8.0 THEN target == 2"
+  expl: "IF Course == 8.0 AND Course_instructor == 12.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 9.0 AND Course == 6.0 AND Summer_or_regular_semester == 2 AND Class_size == 5.0 THEN target == 2"
+  dexp: "IF Course_instructor == 9.0 AND Course == 6.0 THEN target == 2"
+  expl: "IF Course == 6.0 AND Course_instructor == 9.0 THEN target == 2"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 22.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 42.0 THEN target == 2"
+  dexp: "IF Course_instructor == 22.0 AND Course == 1.0 AND Class_size == 42.0 THEN target == 2"
+  expl: "IF Class_size == 42.0 AND Course == 1.0 AND Course_instructor == 22.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 11.0 THEN target == 1"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 11.0 THEN target == 1"
+  expl: "IF Class_size == 11.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 17.0 AND Course == 18.0 AND Summer_or_regular_semester == 2 AND Class_size == 29.0 THEN target == 1"
+  dexp: "IF Course_instructor == 17.0 AND Course == 18.0 AND Class_size == 29.0 THEN target == 1"
+  expl: "IF Class_size == 29.0 AND Course == 18.0 AND Course_instructor == 17.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 16.0 AND Course == 20.0 AND Summer_or_regular_semester == 2 AND Class_size == 15.0 THEN target == 1"
+  dexp: "IF Course_instructor == 16.0 AND Course == 20.0 THEN target == 1"
+  expl: "IF Course == 20.0 AND Course_instructor == 16.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 3.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 37.0 THEN target == 1"
+  dexp: "IF Course_instructor == 3.0 THEN target == 1"
+  expl: "IF Course_instructor == 3.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 19.0 AND Course == 4.0 AND Summer_or_regular_semester == 2 AND Class_size == 10.0 THEN target == 2"
+  dexp: "IF Course_instructor == 19.0 AND Course == 4.0 AND Class_size == 10.0 THEN target == 2"
+  expl: "IF Class_size == 10.0 AND Course == 4.0 AND Course_instructor == 19.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 23.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 24.0 THEN target == 1"
+  dexp: "IF Course_instructor == 23.0 AND Course == 3.0 AND Class_size == 24.0 AND Whether_of_not_the_TA_is_a_native_English_speaker == 2 THEN target == 1"
+  expl: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Class_size == 24.0 AND Course == 3.0 AND Course_instructor == 23.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 3.0 AND Course == 2.0 AND Summer_or_regular_semester == 2 AND Class_size == 26.0 THEN target == 1"
+  dexp: "IF Course_instructor == 3.0 THEN target == 1"
+  expl: "IF Course_instructor == 3.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 10.0 AND Course == 3.0 AND Summer_or_regular_semester == 2 AND Class_size == 12.0 THEN target == 1"
+  dexp: "IF Course_instructor == 10.0 AND Course == 3.0 AND Class_size == 12.0 THEN target == 1"
+  expl: "IF Class_size == 12.0 AND Course == 3.0 AND Course_instructor == 10.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 1 AND Course_instructor == 18.0 AND Course == 7.0 AND Summer_or_regular_semester == 2 AND Class_size == 48.0 THEN target == 1"
+  dexp: "IF Course_instructor == 18.0 AND Course == 7.0 THEN target == 1"
+  expl: "IF Course == 7.0 AND Course_instructor == 18.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 22.0 AND Course == 1.0 AND Summer_or_regular_semester == 2 AND Class_size == 51.0 THEN target == 1"
+  dexp: "IF Course_instructor == 22.0 AND Course == 1.0 AND Class_size == 51.0 THEN target == 1"
+  expl: "IF Class_size == 51.0 AND Course == 1.0 AND Course_instructor == 22.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Whether_of_not_the_TA_is_a_native_English_speaker == 2 AND Course_instructor == 2.0 AND Course == 10.0 AND Summer_or_regular_semester == 2 AND Class_size == 27.0 THEN target == 1"
+  dexp: "IF Course_instructor == 2.0 AND Course == 10.0 THEN target == 1"
+  expl: "IF Course == 10.0 AND Course_instructor == 2.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+# of insts: 106
+tot # of expls: 106
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.69
+avg expl sz: 2.69
+max expl sz: 2.69
+Max expl sz: 5
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   1.42%
+max dxrd:  25.00%

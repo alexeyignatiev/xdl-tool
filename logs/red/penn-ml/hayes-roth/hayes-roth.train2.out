@@ -1,0 +1,557 @@
+MODEL:
+IF Age == 4.0 THEN target == 3
+IF Education == 4.0 THEN target == 3
+IF Marital status == 4.0 THEN target == 3
+IF Education == 1.0, Age == 1.0 THEN target == 1
+IF Marital status == 2.0, Age != 1.0 THEN target == 2
+IF Education == 1.0, Hobby == 2.0 THEN target == 1
+IF Education == 1.0, Age != 2.0 THEN target == 1
+IF Education == 1.0, Marital status == 1.0 THEN target == 1
+IF Age == 2.0, Hobby == 2.0 THEN target == 2
+IF Age == 2.0, Education != 1.0 THEN target == 2
+IF Marital status == 1.0, Age == 1.0 THEN target == 1
+IF Education == 2.0, Age == 1.0 THEN target == 2
+IF Education == 3.0, Age != 1.0 THEN target == 1
+IF Age == 1.0, Marital status != 2.0 THEN target == 1
+IF Hobby == 1.0, Age != 2.0 THEN target == 2
+IF Age == 1.0, Hobby != 2.0 THEN target == 1
+IF Hobby == 3.0, Age != 2.0 THEN target == 2
+IF Hobby == 1.0 THEN target == 1
+IF Hobby == 2.0 THEN target == 1
+IF Hobby == 3.0 THEN target == 1
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 3
+min # of vars: 29
+avg # of vars: 29.00
+max # of vars: 29
+min # of clauses: 70
+avg # of clauses: 74.00
+max # of clauses: 79
+
+EXPLANATIONS:
+  inst: "IF Hobby == 2.0 AND Age == 1.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 1"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 2.0 AND Hobby == 2.0 THEN target == 1"
+  expl: "IF Hobby == 2.0 AND Marital status == 2.0 AND Education == 3.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 4.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 4.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 2.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Hobby == 1.0 AND Marital status == 2.0 AND Education == 3.0 AND Age == 1.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 2.0 AND Hobby == 3.0 THEN target == 1"
+  expl: "IF Hobby == 3.0 AND Marital status == 2.0 AND Education == 3.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 4.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 1.0 AND Hobby == 2.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 1.0 AND Age == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 1.0 AND Hobby == 3.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 1.0 AND Age == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 1.0 AND Age == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 3.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 3.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 2.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 2.0 AND Age == 1.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 4.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 3.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 3.0 THEN target == 2"
+  expl: "IF Hobby == 3.0 AND Marital status == 1.0 AND Education == 2.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Marital status == 1.0 AND Education == 2.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 3.0 AND Hobby == 3.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 1.0 AND Age == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 2.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 2.0 THEN target == 1"
+  expl: "IF Hobby == 2.0 AND Marital status == 1.0 AND Education == 2.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 2.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 3.0 THEN target == 2"
+  expl: "IF Marital status == 1.0 AND Education == 2.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 4.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 3.0 AND Hobby == 2.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 1.0 AND Age == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 1.0 AND Age == 2.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 1"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 4.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 2.0 AND Hobby == 3.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 2.0 AND Age == 1.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 2.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 2.0 AND Age == 1.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 4.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 2.0 THEN target == 2"
+  expl: "IF Marital status == 1.0 AND Education == 2.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 3.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 2.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 2.0 AND Marital status == 3.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 2.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Marital status == 3.0 AND Education == 2.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 1.0 AND Marital status == 1.0 AND Hobby == 3.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 1.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 3.0 AND Marital status == 1.0 AND Hobby == 3.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 3.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 4.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Hobby == 1.0 AND Marital status == 1.0 AND Education == 2.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 4.0 AND Education == 4.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 4.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 4.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 4.0 AND Education == 2.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 4.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 4.0 AND Marital status == 3.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 4.0 AND Education == 4.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 3.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 1.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 3.0 AND Hobby == 2.0 THEN target == 1"
+  expl: "IF Hobby == 2.0 AND Marital status == 3.0 AND Education == 2.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 4.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 3.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 1.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 1"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 4.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 4.0 AND Education == 2.0 AND Marital status == 3.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 2.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 3.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 3.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 3.0 AND Education == 4.0 AND Marital status == 1.0 THEN target == 3"
+  dexp: "IF Age == 3.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 3.0 AND Marital status == 3.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 3.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Marital status == 3.0 AND Education == 3.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 2.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 3.0 AND Education == 4.0 AND Marital status == 2.0 THEN target == 3"
+  dexp: "IF Age == 3.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 1.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 1.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 2.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 2.0 AND Education == 2.0 AND Marital status == 4.0 THEN target == 3"
+  expl: "IF Marital status == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 2.0 AND Age == 3.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 1.0 AND Marital status == 3.0 AND Hobby == 2.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 1.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 3.0 AND Age == 4.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 4.0 AND Marital status == 3.0 THEN target == 3"
+  dexp: "IF Age == 1.0 AND Education == 4.0 THEN target == 3"
+  expl: "IF Education == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 3.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 3.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 1.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 1.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 1.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 1.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 1.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 3.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 3.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 3.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 2.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 2.0 AND Marital status == 3.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 2.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Hobby == 1.0 AND Marital status == 3.0 AND Education == 2.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 3.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 3.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 3.0 AND Marital status == 1.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 3.0 AND Marital status == 1.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Marital status == 1.0 AND Education == 3.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 2.0 AND Marital status == 3.0 THEN target == 2"
+  dexp: "IF Age == 1.0 AND Education == 2.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 2"
+  expl: "IF Marital status == 3.0 AND Education == 2.0 AND Age == 1.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 3.0 AND Education == 1.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 1.0 AND Age == 3.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 1.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  dexp: "IF Age == 1.0 AND Education == 1.0 AND Marital status == 1.0 THEN target == 1"
+  expl: "IF Marital status == 1.0 AND Education == 1.0 AND Age == 1.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 2.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  dexp: "IF Age == 2.0 AND Education == 2.0 AND Marital status == 2.0 THEN target == 2"
+  expl: "IF Marital status == 2.0 AND Education == 2.0 AND Age == 2.0 THEN target == 2"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 3.0 AND Education == 3.0 AND Marital status == 3.0 THEN target == 1"
+  dexp: "IF Age == 3.0 AND Education == 3.0 AND Marital status == 3.0 AND Hobby == 1.0 THEN target == 1"
+  expl: "IF Marital status == 3.0 AND Education == 3.0 AND Age == 3.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF Hobby == 1.0 AND Age == 4.0 AND Education == 4.0 AND Marital status == 4.0 THEN target == 3"
+  dexp: "IF Age == 4.0 THEN target == 3"
+  expl: "IF Age == 4.0 THEN target == 3"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 84
+tot # of expls: 84
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.36
+avg expl sz: 2.36
+max expl sz: 2.36
+Max expl sz: 4
+
+tot time: 0.01
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:  20.04%
+max dxrd:  66.67%

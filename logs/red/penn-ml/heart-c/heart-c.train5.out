@@ -1,0 +1,2012 @@
+MODEL:
+IF age == 34.0 THEN target == 1
+IF age == 38.0 THEN target == 1
+IF age == 69.0 THEN target == 1
+IF age == 71.0 THEN target == 1
+IF age == 74.0 THEN target == 1
+IF age == 76.0 THEN target == 1
+IF age == 77.0 THEN target == 0
+IF trestbps == 94.0 THEN target == 1
+IF trestbps == 101.0 THEN target == 1
+IF trestbps == 102.0 THEN target == 1
+IF trestbps == 104.0 THEN target == 1
+IF trestbps == 105.0 THEN target == 1
+IF trestbps == 106.0 THEN target == 1
+IF trestbps == 114.0 THEN target == 0
+IF trestbps == 115.0 THEN target == 1
+IF trestbps == 123.0 THEN target == 0
+IF age == 53.0 THEN target == 1
+IF trestbps == 129.0 THEN target == 1
+IF trestbps == 144.0 THEN target == 0
+IF age == 68.0 THEN target == 1
+IF trestbps == 155.0 THEN target == 1
+IF trestbps == 156.0 THEN target == 1
+IF age == 70.0 THEN target == 0
+IF trestbps == 164.0 THEN target == 0
+IF trestbps == 165.0 THEN target == 0
+IF trestbps == 174.0 THEN target == 0
+IF trestbps == 200.0 THEN target == 0
+IF chol == 131.0 THEN target == 0
+IF chol == 141.0 THEN target == 1
+IF chol == 149.0 THEN target == 0
+IF chol == 157.0 THEN target == 1
+IF chol == 160.0 THEN target == 1
+IF chol == 164.0 THEN target == 0
+IF chol == 166.0 THEN target == 0
+IF chol == 168.0 THEN target == 1
+IF chol == 169.0 THEN target == 0
+IF chol == 172.0 THEN target == 0
+IF age == 41.0 THEN target == 1
+IF trestbps == 126.0 THEN target == 0
+IF chol == 175.0 THEN target == 1
+IF chol == 178.0 THEN target == 1
+IF chol == 183.0 THEN target == 1
+IF chol == 185.0 THEN target == 0
+IF chol == 187.0 THEN target == 0
+IF chol == 188.0 THEN target == 0
+IF age == 49.0 THEN target == 1
+IF chol == 192.0 THEN target == 1
+IF age == 35.0 THEN target == 0
+IF chol == 193.0 THEN target == 1
+IF chol == 195.0 THEN target == 1
+IF chol == 196.0 THEN target == 1
+IF trestbps == 136.0 THEN target == 0
+IF age == 42.0 THEN target == 1
+IF chol == 199.0 THEN target == 1
+IF age == 40.0 THEN target == 0
+IF chol == 201.0 THEN target == 1
+IF trestbps == 134.0 THEN target == 0
+IF chol == 204.0 THEN target == 1
+IF trestbps == 112.0 THEN target == 0
+IF chol == 206.0 THEN target == 0
+IF chol == 207.0 THEN target == 1
+IF chol == 208.0 THEN target == 1
+IF chol == 209.0 THEN target == 1
+IF chol == 211.0 THEN target == 1
+IF chol == 213.0 THEN target == 1
+IF chol == 214.0 THEN target == 1
+IF chol == 216.0 THEN target == 0
+IF chol == 217.0 THEN target == 0
+IF chol == 218.0 THEN target == 0
+IF trestbps == 146.0 THEN target == 1
+IF chol == 220.0 THEN target == 1
+IF chol == 221.0 THEN target == 1
+IF chol == 222.0 THEN target == 1
+IF trestbps == 122.0 THEN target == 0
+IF chol == 223.0 THEN target == 1
+IF chol == 224.0 THEN target == 0
+IF chol == 225.0 THEN target == 0
+IF chol == 226.0 THEN target == 1
+IF chol == 227.0 THEN target == 1
+IF trestbps == 170.0 THEN target == 0
+IF chol == 229.0 THEN target == 0
+IF chol == 234.0 THEN target == 1
+IF chol == 235.0 THEN target == 1
+IF chol == 237.0 THEN target == 0
+IF chol == 239.0 THEN target == 0
+IF chol == 240.0 THEN target == 1
+IF age == 60.0 THEN target == 0
+IF chol == 241.0 THEN target == 0
+IF chol == 242.0 THEN target == 1
+IF trestbps == 118.0 THEN target == 0
+IF age == 39.0 THEN target == 1
+IF chol == 219.0 THEN target == 1
+IF chol == 245.0 THEN target == 1
+IF chol == 246.0 THEN target == 0
+IF chol == 249.0 THEN target == 0
+IF chol == 252.0 THEN target == 1
+IF trestbps == 135.0 THEN target == 0
+IF chol == 253.0 THEN target == 1
+IF age == 47.0 THEN target == 0
+IF chol == 243.0 THEN target == 1
+IF age == 61.0 THEN target == 0
+IF chol == 258.0 THEN target == 1
+IF chol == 259.0 THEN target == 0
+IF chol == 262.0 THEN target == 1
+IF chol == 264.0 THEN target == 0
+IF chol == 266.0 THEN target == 0
+IF age == 54.0 THEN target == 1
+IF trestbps == 108.0 THEN target == 0
+IF trestbps == 125.0 THEN target == 0
+IF chol == 254.0 THEN target == 1
+IF trestbps == 110.0 THEN target == 0
+IF age == 44.0 THEN target == 1
+IF chol == 197.0 THEN target == 1
+IF chol == 248.0 THEN target == 1
+IF trestbps == 100.0 THEN target == 0
+IF chol == 267.0 THEN target == 0
+IF chol == 268.0 THEN target == 0
+IF chol == 271.0 THEN target == 1
+IF trestbps == 138.0 THEN target == 0
+IF age == 65.0 THEN target == 1
+IF cp == 3 THEN target == 1
+IF age == 63.0 THEN target == 0
+IF trestbps == 145.0 THEN target == 0
+IF trestbps == 178.0 THEN target == 0
+IF age == 66.0 THEN target == 1
+IF trestbps == 160.0 THEN target == 0
+IF chol == 233.0 THEN target == 0
+IF age == 50.0 THEN target == 1
+IF chol == 244.0 THEN target == 0
+IF chol == 270.0 THEN target == 0
+IF chol == 274.0 THEN target == 0
+IF chol == 275.0 THEN target == 1
+IF chol == 276.0 THEN target == 0
+IF chol == 277.0 THEN target == 1
+IF age == 67.0 THEN target == 0
+IF chol == 212.0 THEN target == 1
+IF age == 59.0 THEN target == 0
+IF chol == 281.0 THEN target == 0
+IF chol == 283.0 THEN target == 0
+IF chol == 284.0 THEN target == 0
+IF age == 58.0 THEN target == 1
+IF chol == 294.0 THEN target == 1
+IF chol == 295.0 THEN target == 1
+IF chol == 303.0 THEN target == 1
+IF chol == 305.0 THEN target == 0
+IF age == 51.0 THEN target == 1
+IF chol == 256.0 THEN target == 0
+IF age == 48.0 THEN target == 1
+IF age == 56.0 THEN target == 1
+IF trestbps == 124.0 THEN target == 0
+IF chol == 236.0 THEN target == 0
+IF age == 57.0 THEN target == 1
+IF cp == 1 THEN target == 1
+IF age == 45.0 THEN target == 0
+IF age == 52.0 THEN target == 0
+IF age == 55.0 THEN target == 0
+IF trestbps == 120.0 THEN target == 0
+IF trestbps == 128.0 THEN target == 1
+IF trestbps == 132.0 THEN target == 0
+IF age == 43.0 THEN target == 1
+IF cp == 0 THEN target == 1
+IF trestbps == 142.0 THEN target == 1
+IF age == 46.0 THEN target == 0
+IF chol == 231.0 THEN target == 1
+IF age == 62.0 THEN target == 0
+IF sex == 0 THEN target == 1
+IF age == 64.0 THEN target == 0
+IF TRUE THEN target == 1
+
+ENCODINDS:
+# of classes: 2
+min # of vars: 395
+avg # of vars: 395.00
+max # of vars: 395
+min # of clauses: 18464
+avg # of clauses: 18469.00
+max # of clauses: 18474
+
+EXPLANATIONS:
+  inst: "IF age == 63.0 AND sex == 1 AND cp == 3 AND trestbps == 145.0 AND chol == 233.0 AND fbs == 1 AND restecg == 0 AND thalach == 150.0 AND exang == 0 AND oldpeak == 2.3 AND slope == 0 AND ca == 0 AND thal == 1 THEN target == 1"
+  dexp: "IF age == 63.0 AND trestbps == 145.0 AND chol == 233.0 AND cp == 3 THEN target == 1"
+  expl: "IF cp == 3 AND chol == 233.0 AND trestbps == 145.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1 AND cp == 0 AND trestbps == 160.0 AND chol == 286.0 AND fbs == 0 AND restecg == 0 AND thalach == 108.0 AND exang == 1 AND oldpeak == 1.5 AND slope == 1 AND ca == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 67.0 AND trestbps == 160.0 AND chol == 286.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 286.0 AND trestbps == 160.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 229.0 AND fbs == 0 AND restecg == 0 AND thalach == 129.0 AND exang == 1 AND oldpeak == 2.6 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 67.0 AND trestbps == 120.0 AND chol == 229.0 THEN target == 0"
+  expl: "IF chol == 229.0 AND trestbps == 120.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 37.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 250.0 AND fbs == 0 AND restecg == 1 AND thalach == 187.0 AND exang == 0 AND oldpeak == 3.5 AND slope == 0 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 37.0 AND trestbps == 130.0 AND chol == 250.0 AND cp == 2 AND sex == 1 THEN target == 1"
+  expl: "IF chol == 250.0 AND trestbps == 130.0 AND age == 37.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0 AND cp == 1 AND trestbps == 130.0 AND chol == 204.0 AND fbs == 0 AND restecg == 0 AND thalach == 172.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 130.0 AND chol == 204.0 THEN target == 1"
+  expl: "IF chol == 204.0 AND trestbps == 130.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 236.0 AND fbs == 0 AND restecg == 1 AND thalach == 178.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 56.0 AND trestbps == 120.0 AND chol == 236.0 AND cp == 1 THEN target == 1"
+  expl: "IF chol == 236.0 AND trestbps == 120.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 0 AND trestbps == 140.0 AND chol == 268.0 AND fbs == 0 AND restecg == 0 AND thalach == 160.0 AND exang == 0 AND oldpeak == 3.6 AND slope == 0 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 140.0 AND chol == 268.0 THEN target == 0"
+  expl: "IF chol == 268.0 AND trestbps == 140.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 0 AND cp == 0 AND trestbps == 120.0 AND chol == 354.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 1 AND oldpeak == 0.6 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 120.0 AND chol == 354.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 354.0 AND trestbps == 120.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 254.0 AND fbs == 0 AND restecg == 0 AND thalach == 147.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 63.0 AND trestbps == 130.0 AND chol == 254.0 THEN target == 1"
+  expl: "IF chol == 254.0 AND trestbps == 130.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 203.0 AND fbs == 1 AND restecg == 0 AND thalach == 155.0 AND exang == 1 AND oldpeak == 3.1 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 140.0 THEN target == 1"
+  expl: "IF trestbps == 140.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 192.0 AND fbs == 0 AND restecg == 1 AND thalach == 148.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 1 AND ca == 0 AND thal == 1 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 140.0 AND chol == 192.0 THEN target == 1"
+  expl: "IF chol == 192.0 AND trestbps == 140.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 0 AND cp == 1 AND trestbps == 140.0 AND chol == 294.0 AND fbs == 0 AND restecg == 0 AND thalach == 153.0 AND exang == 0 AND oldpeak == 1.3 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 56.0 AND trestbps == 140.0 AND chol == 294.0 AND cp == 1 THEN target == 1"
+  expl: "IF chol == 294.0 AND trestbps == 140.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 256.0 AND fbs == 1 AND restecg == 0 AND thalach == 142.0 AND exang == 1 AND oldpeak == 0.6 AND slope == 1 AND ca == 1 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 56.0 AND trestbps == 130.0 AND chol == 256.0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND chol == 256.0 AND trestbps == 130.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 263.0 AND fbs == 0 AND restecg == 1 AND thalach == 173.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 120.0 AND chol == 263.0 THEN target == 1"
+  expl: "IF chol == 263.0 AND trestbps == 120.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 2 AND trestbps == 172.0 AND chol == 199.0 AND fbs == 1 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 0.5 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 172.0 AND chol == 199.0 THEN target == 1"
+  expl: "IF chol == 199.0 AND trestbps == 172.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 2 AND trestbps == 150.0 AND chol == 168.0 AND fbs == 0 AND restecg == 1 AND thalach == 174.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 150.0 AND chol == 168.0 THEN target == 1"
+  expl: "IF chol == 168.0 AND trestbps == 150.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1 AND cp == 1 AND trestbps == 110.0 AND chol == 229.0 AND fbs == 0 AND restecg == 1 AND thalach == 168.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 48.0 AND trestbps == 110.0 AND chol == 229.0 THEN target == 0"
+  expl: "IF chol == 229.0 AND trestbps == 110.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 239.0 AND fbs == 0 AND restecg == 1 AND thalach == 160.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 140.0 AND chol == 239.0 THEN target == 0"
+  expl: "IF chol == 239.0 AND trestbps == 140.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 0 AND cp == 2 AND trestbps == 130.0 AND chol == 275.0 AND fbs == 0 AND restecg == 1 AND thalach == 139.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 48.0 AND trestbps == 130.0 AND chol == 275.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 275.0 AND trestbps == 130.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 1 AND cp == 1 AND trestbps == 130.0 AND chol == 266.0 AND fbs == 0 AND restecg == 1 AND thalach == 171.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 49.0 AND trestbps == 130.0 AND chol == 266.0 THEN target == 1"
+  expl: "IF chol == 266.0 AND trestbps == 130.0 AND age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 3 AND trestbps == 110.0 AND chol == 211.0 AND fbs == 0 AND restecg == 0 AND thalach == 144.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 64.0 AND trestbps == 110.0 AND chol == 211.0 THEN target == 1"
+  expl: "IF chol == 211.0 AND trestbps == 110.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0 AND cp == 3 AND trestbps == 150.0 AND chol == 283.0 AND fbs == 1 AND restecg == 0 AND thalach == 162.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 150.0 AND chol == 283.0 AND cp == 3 THEN target == 1"
+  expl: "IF cp == 3 AND chol == 283.0 AND trestbps == 150.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 284.0 AND fbs == 0 AND restecg == 0 AND thalach == 160.0 AND exang == 0 AND oldpeak == 1.8 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 120.0 AND chol == 284.0 AND cp == 1 THEN target == 0"
+  expl: "IF cp == 1 AND chol == 284.0 AND trestbps == 120.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 2 AND trestbps == 132.0 AND chol == 224.0 AND fbs == 0 AND restecg == 0 AND thalach == 173.0 AND exang == 0 AND oldpeak == 3.2 AND slope == 2 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 132.0 AND chol == 224.0 THEN target == 0"
+  expl: "IF chol == 224.0 AND trestbps == 132.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 206.0 AND fbs == 0 AND restecg == 0 AND thalach == 132.0 AND exang == 1 AND oldpeak == 2.4 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 130.0 AND chol == 206.0 THEN target == 0"
+  expl: "IF chol == 206.0 AND trestbps == 130.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 219.0 AND fbs == 0 AND restecg == 1 AND thalach == 158.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 50.0 AND trestbps == 120.0 AND chol == 219.0 THEN target == 1"
+  expl: "IF chol == 219.0 AND trestbps == 120.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 340.0 AND fbs == 0 AND restecg == 1 AND thalach == 172.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 120.0 AND chol == 340.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 340.0 AND trestbps == 120.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 0 AND cp == 3 AND trestbps == 150.0 AND chol == 226.0 AND fbs == 0 AND restecg == 1 AND thalach == 114.0 AND exang == 0 AND oldpeak == 2.6 AND slope == 0 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 66.0 AND trestbps == 150.0 AND chol == 226.0 THEN target == 1"
+  expl: "IF chol == 226.0 AND trestbps == 150.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1 AND cp == 0 AND trestbps == 150.0 AND chol == 247.0 AND fbs == 0 AND restecg == 1 AND thalach == 171.0 AND exang == 0 AND oldpeak == 1.5 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 43.0 AND trestbps == 150.0 AND chol == 247.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 247.0 AND trestbps == 150.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 40.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 167.0 AND fbs == 0 AND restecg == 0 AND thalach == 114.0 AND exang == 1 AND oldpeak == 2.0 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 40.0 AND trestbps == 110.0 AND chol == 167.0 THEN target == 0"
+  expl: "IF chol == 167.0 AND trestbps == 110.0 AND age == 40.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 69.0 AND sex == 0 AND cp == 3 AND trestbps == 140.0 AND chol == 239.0 AND fbs == 0 AND restecg == 1 AND thalach == 151.0 AND exang == 0 AND oldpeak == 1.8 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 69.0 THEN target == 1"
+  expl: "IF age == 69.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 0 AND trestbps == 117.0 AND chol == 230.0 AND fbs == 1 AND restecg == 1 AND thalach == 160.0 AND exang == 1 AND oldpeak == 1.4 AND slope == 2 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 117.0 AND chol == 230.0 THEN target == 0"
+  expl: "IF chol == 230.0 AND trestbps == 117.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 335.0 AND fbs == 0 AND restecg == 1 AND thalach == 158.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 64.0 AND trestbps == 140.0 AND chol == 335.0 AND cp == 2 AND sex == 1 THEN target == 0"
+  expl: "IF sex == 1 AND cp == 2 AND chol == 335.0 AND trestbps == 140.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 5
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 0 AND trestbps == 135.0 AND chol == 234.0 AND fbs == 0 AND restecg == 1 AND thalach == 161.0 AND exang == 0 AND oldpeak == 0.5 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 59.0 AND trestbps == 135.0 AND chol == 234.0 THEN target == 1"
+  expl: "IF chol == 234.0 AND trestbps == 135.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 233.0 AND fbs == 0 AND restecg == 1 AND thalach == 179.0 AND exang == 1 AND oldpeak == 0.4 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 130.0 AND chol == 233.0 THEN target == 1"
+  expl: "IF chol == 233.0 AND trestbps == 130.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 226.0 AND fbs == 0 AND restecg == 1 AND thalach == 178.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 140.0 AND chol == 226.0 THEN target == 1"
+  expl: "IF chol == 226.0 AND trestbps == 140.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 177.0 AND fbs == 0 AND restecg == 0 AND thalach == 120.0 AND exang == 1 AND oldpeak == 2.5 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 43.0 AND trestbps == 120.0 AND chol == 177.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 177.0 AND trestbps == 120.0 AND age == 43.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 150.0 AND chol == 276.0 AND fbs == 0 AND restecg == 0 AND thalach == 112.0 AND exang == 1 AND oldpeak == 0.6 AND slope == 1 AND ca == 1 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 150.0 AND chol == 276.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 276.0 AND trestbps == 150.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1 AND cp == 0 AND trestbps == 132.0 AND chol == 353.0 AND fbs == 0 AND restecg == 1 AND thalach == 132.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 55.0 AND trestbps == 132.0 AND chol == 353.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 353.0 AND trestbps == 132.0 AND age == 55.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1 AND cp == 2 AND trestbps == 150.0 AND chol == 243.0 AND fbs == 1 AND restecg == 1 AND thalach == 137.0 AND exang == 1 AND oldpeak == 1.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 61.0 AND trestbps == 150.0 AND chol == 243.0 THEN target == 1"
+  expl: "IF chol == 243.0 AND trestbps == 150.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0 AND cp == 0 AND trestbps == 150.0 AND chol == 225.0 AND fbs == 0 AND restecg == 0 AND thalach == 114.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 65.0 AND trestbps == 150.0 AND chol == 225.0 THEN target == 0"
+  expl: "IF chol == 225.0 AND trestbps == 150.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 40.0 AND sex == 1 AND cp == 3 AND trestbps == 140.0 AND chol == 199.0 AND fbs == 0 AND restecg == 1 AND thalach == 178.0 AND exang == 1 AND oldpeak == 1.4 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 40.0 AND trestbps == 140.0 AND chol == 199.0 THEN target == 1"
+  expl: "IF chol == 199.0 AND trestbps == 140.0 AND age == 40.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 71.0 AND sex == 0 AND cp == 1 AND trestbps == 160.0 AND chol == 302.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 71.0 THEN target == 1"
+  expl: "IF age == 71.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 2 AND trestbps == 150.0 AND chol == 212.0 AND fbs == 1 AND restecg == 1 AND thalach == 157.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 59.0 AND trestbps == 150.0 AND chol == 212.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 212.0 AND trestbps == 150.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 0 AND cp == 0 AND trestbps == 130.0 AND chol == 330.0 AND fbs == 0 AND restecg == 0 AND thalach == 169.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 61.0 AND trestbps == 130.0 AND chol == 330.0 THEN target == 0"
+  expl: "IF chol == 330.0 AND trestbps == 130.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 2 AND trestbps == 112.0 AND chol == 230.0 AND fbs == 0 AND restecg == 0 AND thalach == 165.0 AND exang == 0 AND oldpeak == 2.5 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 112.0 AND chol == 230.0 THEN target == 0"
+  expl: "IF chol == 230.0 AND trestbps == 112.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 2 AND trestbps == 110.0 AND chol == 175.0 AND fbs == 0 AND restecg == 1 AND thalach == 123.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 110.0 AND chol == 175.0 THEN target == 1"
+  expl: "IF chol == 175.0 AND trestbps == 110.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1 AND cp == 0 AND trestbps == 150.0 AND chol == 243.0 AND fbs == 0 AND restecg == 0 AND thalach == 128.0 AND exang == 0 AND oldpeak == 2.6 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 50.0 AND trestbps == 150.0 AND chol == 243.0 THEN target == 1"
+  expl: "IF chol == 243.0 AND trestbps == 150.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0 AND cp == 2 AND trestbps == 140.0 AND chol == 417.0 AND fbs == 1 AND restecg == 0 AND thalach == 157.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 65.0 AND trestbps == 140.0 AND chol == 417.0 THEN target == 1"
+  expl: "IF chol == 417.0 AND trestbps == 140.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 197.0 AND fbs == 1 AND restecg == 0 AND thalach == 152.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 0 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 130.0 THEN target == 1"
+  expl: "IF trestbps == 130.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0 AND cp == 1 AND trestbps == 105.0 AND chol == 198.0 AND fbs == 0 AND restecg == 1 AND thalach == 168.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 105.0 THEN target == 1"
+  expl: "IF trestbps == 105.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 177.0 AND fbs == 0 AND restecg == 1 AND thalach == 140.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 65.0 AND trestbps == 120.0 AND chol == 177.0 THEN target == 1"
+  expl: "IF chol == 177.0 AND trestbps == 120.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 0 AND trestbps == 112.0 AND chol == 290.0 AND fbs == 0 AND restecg == 0 AND thalach == 153.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 44.0 AND trestbps == 112.0 AND chol == 290.0 THEN target == 0"
+  expl: "IF chol == 290.0 AND trestbps == 112.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 1 AND trestbps == 130.0 AND chol == 219.0 AND fbs == 0 AND restecg == 0 AND thalach == 188.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 130.0 AND chol == 219.0 THEN target == 1"
+  expl: "IF chol == 219.0 AND trestbps == 130.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 253.0 AND fbs == 0 AND restecg == 1 AND thalach == 144.0 AND exang == 1 AND oldpeak == 1.4 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 130.0 AND chol == 253.0 THEN target == 0"
+  expl: "IF chol == 253.0 AND trestbps == 130.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 0 AND trestbps == 124.0 AND chol == 266.0 AND fbs == 0 AND restecg == 0 AND thalach == 109.0 AND exang == 1 AND oldpeak == 2.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 124.0 AND chol == 266.0 THEN target == 0"
+  expl: "IF chol == 266.0 AND trestbps == 124.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 233.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 50.0 AND trestbps == 140.0 AND chol == 233.0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND chol == 233.0 AND trestbps == 140.0 AND age == 50.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 172.0 AND fbs == 0 AND restecg == 0 AND thalach == 158.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 41.0 AND trestbps == 110.0 AND chol == 172.0 THEN target == 0"
+  expl: "IF chol == 172.0 AND trestbps == 110.0 AND age == 41.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 2 AND trestbps == 125.0 AND chol == 273.0 AND fbs == 0 AND restecg == 0 AND thalach == 152.0 AND exang == 0 AND oldpeak == 0.5 AND slope == 0 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 125.0 AND chol == 273.0 THEN target == 1"
+  expl: "IF chol == 273.0 AND trestbps == 125.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 3 AND trestbps == 125.0 AND chol == 213.0 AND fbs == 0 AND restecg == 0 AND thalach == 125.0 AND exang == 1 AND oldpeak == 1.4 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 125.0 AND chol == 213.0 THEN target == 1"
+  expl: "IF chol == 213.0 AND trestbps == 125.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0 AND cp == 0 AND trestbps == 130.0 AND chol == 305.0 AND fbs == 0 AND restecg == 1 AND thalach == 142.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 51.0 AND trestbps == 130.0 AND chol == 305.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 305.0 AND trestbps == 130.0 AND age == 51.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 0 AND cp == 2 AND trestbps == 142.0 AND chol == 177.0 AND fbs == 0 AND restecg == 0 AND thalach == 160.0 AND exang == 1 AND oldpeak == 1.4 AND slope == 0 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 46.0 AND trestbps == 142.0 AND chol == 177.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 177.0 AND trestbps == 142.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 128.0 AND chol == 216.0 AND fbs == 0 AND restecg == 0 AND thalach == 131.0 AND exang == 1 AND oldpeak == 2.2 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 128.0 AND chol == 216.0 THEN target == 0"
+  expl: "IF chol == 216.0 AND trestbps == 128.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0 AND cp == 2 AND trestbps == 135.0 AND chol == 304.0 AND fbs == 1 AND restecg == 1 AND thalach == 170.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 135.0 AND chol == 304.0 THEN target == 0"
+  expl: "IF chol == 304.0 AND trestbps == 135.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 188.0 AND fbs == 0 AND restecg == 1 AND thalach == 113.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 120.0 AND chol == 188.0 THEN target == 0"
+  expl: "IF chol == 188.0 AND trestbps == 120.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 0 AND trestbps == 145.0 AND chol == 282.0 AND fbs == 0 AND restecg == 0 AND thalach == 142.0 AND exang == 1 AND oldpeak == 2.8 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 145.0 AND chol == 282.0 THEN target == 0"
+  expl: "IF chol == 282.0 AND trestbps == 145.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 185.0 AND fbs == 0 AND restecg == 0 AND thalach == 155.0 AND exang == 0 AND oldpeak == 3.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 140.0 AND chol == 185.0 THEN target == 0"
+  expl: "IF chol == 185.0 AND trestbps == 140.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 2 AND trestbps == 150.0 AND chol == 232.0 AND fbs == 0 AND restecg == 0 AND thalach == 165.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 150.0 AND chol == 232.0 THEN target == 1"
+  expl: "IF chol == 232.0 AND trestbps == 150.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 0 AND trestbps == 170.0 AND chol == 326.0 AND fbs == 0 AND restecg == 0 AND thalach == 140.0 AND exang == 1 AND oldpeak == 3.4 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 170.0 AND chol == 326.0 THEN target == 0"
+  expl: "IF chol == 326.0 AND trestbps == 170.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1 AND cp == 2 AND trestbps == 150.0 AND chol == 231.0 AND fbs == 0 AND restecg == 1 AND thalach == 147.0 AND exang == 0 AND oldpeak == 3.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 46.0 AND trestbps == 150.0 AND chol == 231.0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND chol == 231.0 AND trestbps == 150.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0 AND cp == 2 AND trestbps == 155.0 AND chol == 269.0 AND fbs == 0 AND restecg == 1 AND thalach == 148.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 65.0 AND trestbps == 155.0 THEN target == 1"
+  expl: "IF trestbps == 155.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1 AND cp == 0 AND trestbps == 125.0 AND chol == 254.0 AND fbs == 1 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 67.0 AND trestbps == 125.0 AND chol == 254.0 THEN target == 0"
+  expl: "IF chol == 254.0 AND trestbps == 125.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 267.0 AND fbs == 0 AND restecg == 1 AND thalach == 99.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 120.0 AND chol == 267.0 THEN target == 0"
+  expl: "IF chol == 267.0 AND trestbps == 120.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 248.0 AND fbs == 0 AND restecg == 0 AND thalach == 158.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 2 AND ca == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 65.0 AND trestbps == 110.0 AND chol == 248.0 THEN target == 0"
+  expl: "IF chol == 248.0 AND trestbps == 110.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 197.0 AND fbs == 0 AND restecg == 0 AND thalach == 177.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 44.0 AND trestbps == 110.0 AND chol == 197.0 THEN target == 0"
+  expl: "IF chol == 197.0 AND trestbps == 110.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 0 AND cp == 2 AND trestbps == 160.0 AND chol == 360.0 AND fbs == 0 AND restecg == 0 AND thalach == 151.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 65.0 AND trestbps == 160.0 AND chol == 360.0 THEN target == 1"
+  expl: "IF chol == 360.0 AND trestbps == 160.0 AND age == 65.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 0 AND trestbps == 125.0 AND chol == 258.0 AND fbs == 0 AND restecg == 0 AND thalach == 141.0 AND exang == 1 AND oldpeak == 2.8 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 125.0 AND chol == 258.0 THEN target == 0"
+  expl: "IF chol == 258.0 AND trestbps == 125.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0 AND cp == 2 AND trestbps == 140.0 AND chol == 308.0 AND fbs == 0 AND restecg == 0 AND thalach == 142.0 AND exang == 0 AND oldpeak == 1.5 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 140.0 AND chol == 308.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 308.0 AND trestbps == 140.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1 AND cp == 1 AND trestbps == 130.0 AND chol == 245.0 AND fbs == 0 AND restecg == 0 AND thalach == 180.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 48.0 AND trestbps == 130.0 AND chol == 245.0 THEN target == 1"
+  expl: "IF chol == 245.0 AND trestbps == 130.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 150.0 AND chol == 270.0 AND fbs == 0 AND restecg == 0 AND thalach == 111.0 AND exang == 1 AND oldpeak == 0.8 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 150.0 AND chol == 270.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 270.0 AND trestbps == 150.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1 AND cp == 0 AND trestbps == 104.0 AND chol == 208.0 AND fbs == 0 AND restecg == 0 AND thalach == 148.0 AND exang == 1 AND oldpeak == 3.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 45.0 AND trestbps == 104.0 THEN target == 1"
+  expl: "IF trestbps == 104.0 AND age == 45.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 0 AND cp == 0 AND trestbps == 130.0 AND chol == 264.0 AND fbs == 0 AND restecg == 0 AND thalach == 143.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 130.0 THEN target == 1"
+  expl: "IF trestbps == 130.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 321.0 AND fbs == 0 AND restecg == 0 AND thalach == 182.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 39.0 AND trestbps == 140.0 AND chol == 321.0 THEN target == 1"
+  expl: "IF chol == 321.0 AND trestbps == 140.0 AND age == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 1 AND cp == 2 AND trestbps == 180.0 AND chol == 274.0 AND fbs == 1 AND restecg == 0 AND thalach == 150.0 AND exang == 1 AND oldpeak == 1.6 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 68.0 AND trestbps == 180.0 THEN target == 1"
+  expl: "IF trestbps == 180.0 AND age == 68.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 325.0 AND fbs == 0 AND restecg == 1 AND thalach == 172.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 120.0 AND chol == 325.0 AND cp == 1 THEN target == 1"
+  expl: "IF cp == 1 AND chol == 325.0 AND trestbps == 120.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 235.0 AND fbs == 0 AND restecg == 0 AND thalach == 180.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 140.0 AND chol == 235.0 THEN target == 1"
+  expl: "IF chol == 235.0 AND trestbps == 140.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1 AND cp == 2 AND trestbps == 138.0 AND chol == 257.0 AND fbs == 0 AND restecg == 0 AND thalach == 156.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 47.0 AND trestbps == 138.0 AND chol == 257.0 THEN target == 0"
+  expl: "IF chol == 257.0 AND trestbps == 138.0 AND age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 0 AND cp == 2 AND trestbps == 128.0 AND chol == 216.0 AND fbs == 0 AND restecg == 0 AND thalach == 115.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 0 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 128.0 THEN target == 1"
+  expl: "IF trestbps == 128.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 0 AND cp == 0 AND trestbps == 138.0 AND chol == 234.0 AND fbs == 0 AND restecg == 0 AND thalach == 160.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 138.0 THEN target == 1"
+  expl: "IF trestbps == 138.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0 AND cp == 2 AND trestbps == 130.0 AND chol == 256.0 AND fbs == 0 AND restecg == 0 AND thalach == 149.0 AND exang == 0 AND oldpeak == 0.5 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 130.0 AND chol == 256.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 256.0 AND trestbps == 130.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 302.0 AND fbs == 0 AND restecg == 0 AND thalach == 151.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 66.0 AND trestbps == 120.0 AND chol == 302.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 302.0 AND trestbps == 120.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 0 AND trestbps == 160.0 AND chol == 164.0 AND fbs == 0 AND restecg == 0 AND thalach == 145.0 AND exang == 0 AND oldpeak == 6.2 AND slope == 0 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 160.0 AND chol == 164.0 THEN target == 0"
+  expl: "IF chol == 164.0 AND trestbps == 160.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 231.0 AND fbs == 0 AND restecg == 1 AND thalach == 146.0 AND exang == 0 AND oldpeak == 1.8 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 62.0 AND trestbps == 130.0 AND chol == 231.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 231.0 AND trestbps == 130.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 0 AND cp == 2 AND trestbps == 108.0 AND chol == 141.0 AND fbs == 0 AND restecg == 1 AND thalach == 175.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 108.0 AND chol == 141.0 THEN target == 1"
+  expl: "IF chol == 141.0 AND trestbps == 108.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0 AND cp == 2 AND trestbps == 135.0 AND chol == 252.0 AND fbs == 0 AND restecg == 0 AND thalach == 172.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 63.0 AND trestbps == 135.0 AND chol == 252.0 THEN target == 1"
+  expl: "IF chol == 252.0 AND trestbps == 135.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 0 AND trestbps == 128.0 AND chol == 255.0 AND fbs == 0 AND restecg == 1 AND thalach == 161.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 52.0 AND trestbps == 128.0 AND chol == 255.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 255.0 AND trestbps == 128.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 239.0 AND fbs == 0 AND restecg == 0 AND thalach == 142.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 110.0 AND chol == 239.0 THEN target == 0"
+  expl: "IF chol == 239.0 AND trestbps == 110.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0 AND cp == 0 AND trestbps == 150.0 AND chol == 258.0 AND fbs == 0 AND restecg == 0 AND thalach == 157.0 AND exang == 0 AND oldpeak == 2.6 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 150.0 AND chol == 258.0 THEN target == 0"
+  expl: "IF chol == 258.0 AND trestbps == 150.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 1 AND trestbps == 134.0 AND chol == 201.0 AND fbs == 0 AND restecg == 1 AND thalach == 158.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 134.0 AND chol == 201.0 THEN target == 1"
+  expl: "IF chol == 201.0 AND trestbps == 134.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1 AND cp == 0 AND trestbps == 122.0 AND chol == 222.0 AND fbs == 0 AND restecg == 0 AND thalach == 186.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 48.0 AND trestbps == 122.0 AND chol == 222.0 THEN target == 1"
+  expl: "IF chol == 222.0 AND trestbps == 122.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1 AND cp == 0 AND trestbps == 115.0 AND chol == 260.0 AND fbs == 0 AND restecg == 0 AND thalach == 185.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 45.0 AND trestbps == 115.0 THEN target == 1"
+  expl: "IF trestbps == 115.0 AND age == 45.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 34.0 AND sex == 1 AND cp == 3 AND trestbps == 118.0 AND chol == 182.0 AND fbs == 0 AND restecg == 0 AND thalach == 174.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 34.0 THEN target == 1"
+  expl: "IF age == 34.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 0 AND cp == 0 AND trestbps == 128.0 AND chol == 303.0 AND fbs == 0 AND restecg == 0 AND thalach == 159.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 128.0 AND chol == 303.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 303.0 AND trestbps == 128.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 71.0 AND sex == 0 AND cp == 2 AND trestbps == 110.0 AND chol == 265.0 AND fbs == 1 AND restecg == 0 AND thalach == 130.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 71.0 THEN target == 1"
+  expl: "IF age == 71.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 1 AND cp == 2 AND trestbps == 120.0 AND chol == 188.0 AND fbs == 0 AND restecg == 1 AND thalach == 139.0 AND exang == 0 AND oldpeak == 2.0 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 49.0 AND trestbps == 120.0 AND chol == 188.0 THEN target == 0"
+  expl: "IF chol == 188.0 AND trestbps == 120.0 AND age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 1 AND trestbps == 108.0 AND chol == 309.0 AND fbs == 0 AND restecg == 1 AND thalach == 156.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 108.0 AND chol == 309.0 THEN target == 1"
+  expl: "IF chol == 309.0 AND trestbps == 108.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 177.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 140.0 AND chol == 177.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 177.0 AND trestbps == 140.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 2 AND trestbps == 128.0 AND chol == 229.0 AND fbs == 0 AND restecg == 0 AND thalach == 150.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 128.0 AND chol == 229.0 THEN target == 0"
+  expl: "IF chol == 229.0 AND trestbps == 128.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 260.0 AND fbs == 0 AND restecg == 1 AND thalach == 140.0 AND exang == 1 AND oldpeak == 3.6 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 61.0 AND trestbps == 120.0 AND chol == 260.0 THEN target == 0"
+  expl: "IF chol == 260.0 AND trestbps == 120.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 1 AND cp == 0 AND trestbps == 118.0 AND chol == 219.0 AND fbs == 0 AND restecg == 1 AND thalach == 140.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 39.0 AND trestbps == 118.0 AND chol == 219.0 THEN target == 0"
+  expl: "IF chol == 219.0 AND trestbps == 118.0 AND age == 39.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 0 AND cp == 0 AND trestbps == 145.0 AND chol == 307.0 AND fbs == 0 AND restecg == 0 AND thalach == 146.0 AND exang == 1 AND oldpeak == 1.0 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 61.0 AND trestbps == 145.0 AND chol == 307.0 THEN target == 0"
+  expl: "IF chol == 307.0 AND trestbps == 145.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 0 AND trestbps == 125.0 AND chol == 249.0 AND fbs == 1 AND restecg == 0 AND thalach == 144.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 56.0 AND trestbps == 125.0 AND chol == 249.0 THEN target == 0"
+  expl: "IF chol == 249.0 AND trestbps == 125.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 3 AND trestbps == 118.0 AND chol == 186.0 AND fbs == 0 AND restecg == 0 AND thalach == 190.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 52.0 AND trestbps == 118.0 AND chol == 186.0 THEN target == 0"
+  expl: "IF chol == 186.0 AND trestbps == 118.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 0 AND cp == 0 AND trestbps == 132.0 AND chol == 341.0 AND fbs == 1 AND restecg == 0 AND thalach == 136.0 AND exang == 1 AND oldpeak == 3.0 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 43.0 AND trestbps == 132.0 AND chol == 341.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 341.0 AND trestbps == 132.0 AND age == 43.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 2 AND trestbps == 130.0 AND chol == 263.0 AND fbs == 0 AND restecg == 1 AND thalach == 97.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 130.0 AND chol == 263.0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND chol == 263.0 AND trestbps == 130.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1 AND cp == 1 AND trestbps == 135.0 AND chol == 203.0 AND fbs == 0 AND restecg == 1 AND thalach == 132.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 1 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 135.0 AND chol == 203.0 THEN target == 1"
+  expl: "IF chol == 203.0 AND trestbps == 135.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 211.0 AND fbs == 1 AND restecg == 0 AND thalach == 165.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 140.0 AND chol == 211.0 THEN target == 1"
+  expl: "IF chol == 211.0 AND trestbps == 140.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 0 AND cp == 0 AND trestbps == 138.0 AND chol == 183.0 AND fbs == 0 AND restecg == 1 AND thalach == 182.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 35.0 AND trestbps == 138.0 AND chol == 183.0 THEN target == 1"
+  expl: "IF chol == 183.0 AND trestbps == 138.0 AND age == 35.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 330.0 AND fbs == 1 AND restecg == 0 AND thalach == 132.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 2 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 63.0 AND trestbps == 130.0 AND chol == 330.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 330.0 AND trestbps == 130.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1 AND cp == 0 AND trestbps == 135.0 AND chol == 254.0 AND fbs == 0 AND restecg == 0 AND thalach == 127.0 AND exang == 0 AND oldpeak == 2.8 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 65.0 AND trestbps == 135.0 AND chol == 254.0 THEN target == 0"
+  expl: "IF chol == 254.0 AND trestbps == 135.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 256.0 AND fbs == 1 AND restecg == 0 AND thalach == 150.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 48.0 AND trestbps == 130.0 AND chol == 256.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 256.0 AND trestbps == 130.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0 AND cp == 0 AND trestbps == 150.0 AND chol == 407.0 AND fbs == 0 AND restecg == 0 AND thalach == 154.0 AND exang == 0 AND oldpeak == 4.0 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 63.0 AND trestbps == 150.0 AND chol == 407.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 407.0 AND trestbps == 150.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 2 AND trestbps == 100.0 AND chol == 222.0 AND fbs == 0 AND restecg == 1 AND thalach == 143.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 100.0 AND chol == 222.0 THEN target == 1"
+  expl: "IF chol == 222.0 AND trestbps == 100.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 217.0 AND fbs == 0 AND restecg == 1 AND thalach == 111.0 AND exang == 1 AND oldpeak == 5.6 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 55.0 AND trestbps == 140.0 AND chol == 217.0 THEN target == 0"
+  expl: "IF chol == 217.0 AND trestbps == 140.0 AND age == 55.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 65.0 AND sex == 1 AND cp == 3 AND trestbps == 138.0 AND chol == 282.0 AND fbs == 1 AND restecg == 0 AND thalach == 174.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 65.0 AND trestbps == 138.0 AND chol == 282.0 THEN target == 0"
+  expl: "IF chol == 282.0 AND trestbps == 138.0 AND age == 65.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 0 AND cp == 1 AND trestbps == 130.0 AND chol == 234.0 AND fbs == 0 AND restecg == 0 AND thalach == 175.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 45.0 AND trestbps == 130.0 AND chol == 234.0 THEN target == 1"
+  expl: "IF chol == 234.0 AND trestbps == 130.0 AND age == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 0 AND cp == 0 AND trestbps == 200.0 AND chol == 288.0 AND fbs == 1 AND restecg == 0 AND thalach == 133.0 AND exang == 1 AND oldpeak == 4.0 AND slope == 0 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 56.0 AND trestbps == 200.0 THEN target == 0"
+  expl: "IF trestbps == 200.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 239.0 AND fbs == 0 AND restecg == 1 AND thalach == 126.0 AND exang == 1 AND oldpeak == 2.8 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 110.0 AND chol == 239.0 THEN target == 0"
+  expl: "IF chol == 239.0 AND trestbps == 110.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 220.0 AND fbs == 0 AND restecg == 1 AND thalach == 170.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 120.0 AND chol == 220.0 THEN target == 1"
+  expl: "IF chol == 220.0 AND trestbps == 120.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 0 AND trestbps == 124.0 AND chol == 209.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 62.0 AND trestbps == 124.0 AND chol == 209.0 THEN target == 1"
+  expl: "IF chol == 209.0 AND trestbps == 124.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 2 AND trestbps == 120.0 AND chol == 258.0 AND fbs == 0 AND restecg == 0 AND thalach == 147.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 120.0 AND chol == 258.0 THEN target == 1"
+  expl: "IF chol == 258.0 AND trestbps == 120.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 2 AND trestbps == 94.0 AND chol == 227.0 AND fbs == 0 AND restecg == 1 AND thalach == 154.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 94.0 THEN target == 1"
+  expl: "IF trestbps == 94.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 29.0 AND sex == 1 AND cp == 1 AND trestbps == 130.0 AND chol == 204.0 AND fbs == 0 AND restecg == 0 AND thalach == 202.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 29.0 AND trestbps == 130.0 AND chol == 204.0 THEN target == 1"
+  expl: "IF chol == 204.0 AND trestbps == 130.0 AND age == 29.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 261.0 AND fbs == 0 AND restecg == 0 AND thalach == 186.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 140.0 AND chol == 261.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 261.0 AND trestbps == 140.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 0 AND cp == 2 AND trestbps == 122.0 AND chol == 213.0 AND fbs == 0 AND restecg == 1 AND thalach == 165.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 43.0 AND trestbps == 122.0 AND chol == 213.0 THEN target == 1"
+  expl: "IF chol == 213.0 AND trestbps == 122.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 0 AND cp == 1 AND trestbps == 135.0 AND chol == 250.0 AND fbs == 0 AND restecg == 0 AND thalach == 161.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 55.0 AND trestbps == 135.0 AND chol == 250.0 THEN target == 0"
+  expl: "IF chol == 250.0 AND trestbps == 135.0 AND age == 55.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1 AND cp == 0 AND trestbps == 145.0 AND chol == 174.0 AND fbs == 0 AND restecg == 1 AND thalach == 125.0 AND exang == 1 AND oldpeak == 2.6 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 70.0 AND trestbps == 145.0 THEN target == 0"
+  expl: "IF trestbps == 145.0 AND age == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 281.0 AND fbs == 0 AND restecg == 0 AND thalach == 103.0 AND exang == 0 AND oldpeak == 1.4 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 120.0 AND chol == 281.0 AND cp == 1 THEN target == 0"
+  expl: "IF cp == 1 AND chol == 281.0 AND trestbps == 120.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 198.0 AND fbs == 0 AND restecg == 1 AND thalach == 130.0 AND exang == 1 AND oldpeak == 1.6 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 35.0 AND trestbps == 120.0 AND chol == 198.0 THEN target == 0"
+  expl: "IF chol == 198.0 AND trestbps == 120.0 AND age == 35.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 2 AND trestbps == 125.0 AND chol == 245.0 AND fbs == 1 AND restecg == 0 AND thalach == 166.0 AND exang == 0 AND oldpeak == 2.4 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 125.0 AND chol == 245.0 THEN target == 1"
+  expl: "IF chol == 245.0 AND trestbps == 125.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 1 AND trestbps == 140.0 AND chol == 221.0 AND fbs == 0 AND restecg == 1 AND thalach == 164.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 59.0 AND trestbps == 140.0 AND chol == 221.0 THEN target == 1"
+  expl: "IF chol == 221.0 AND trestbps == 140.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 3 AND trestbps == 170.0 AND chol == 288.0 AND fbs == 0 AND restecg == 0 AND thalach == 159.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 170.0 AND chol == 288.0 THEN target == 0"
+  expl: "IF chol == 288.0 AND trestbps == 170.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 1 AND trestbps == 128.0 AND chol == 205.0 AND fbs == 1 AND restecg == 1 AND thalach == 184.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 128.0 AND chol == 205.0 AND cp == 1 THEN target == 1"
+  expl: "IF cp == 1 AND chol == 205.0 AND trestbps == 128.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 2 AND trestbps == 125.0 AND chol == 309.0 AND fbs == 0 AND restecg == 1 AND thalach == 131.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 64.0 AND trestbps == 125.0 AND chol == 309.0 THEN target == 0"
+  expl: "IF chol == 309.0 AND trestbps == 125.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 2 AND trestbps == 105.0 AND chol == 240.0 AND fbs == 0 AND restecg == 0 AND thalach == 154.0 AND exang == 1 AND oldpeak == 0.6 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 105.0 THEN target == 1"
+  expl: "IF trestbps == 105.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1 AND cp == 2 AND trestbps == 108.0 AND chol == 243.0 AND fbs == 0 AND restecg == 1 AND thalach == 152.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 47.0 AND trestbps == 108.0 AND chol == 243.0 THEN target == 0"
+  expl: "IF chol == 243.0 AND trestbps == 108.0 AND age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 165.0 AND chol == 289.0 AND fbs == 1 AND restecg == 0 AND thalach == 124.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 165.0 THEN target == 0"
+  expl: "IF trestbps == 165.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1 AND cp == 2 AND trestbps == 112.0 AND chol == 250.0 AND fbs == 0 AND restecg == 1 AND thalach == 179.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 112.0 AND chol == 250.0 THEN target == 1"
+  expl: "IF chol == 250.0 AND trestbps == 112.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1 AND cp == 1 AND trestbps == 128.0 AND chol == 308.0 AND fbs == 0 AND restecg == 0 AND thalach == 170.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 45.0 AND trestbps == 128.0 AND chol == 308.0 AND cp == 1 THEN target == 1"
+  expl: "IF cp == 1 AND chol == 308.0 AND trestbps == 128.0 AND age == 45.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0 AND cp == 2 AND trestbps == 102.0 AND chol == 318.0 AND fbs == 0 AND restecg == 1 AND thalach == 160.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 60.0 AND trestbps == 102.0 THEN target == 1"
+  expl: "IF trestbps == 102.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 3 AND trestbps == 152.0 AND chol == 298.0 AND fbs == 1 AND restecg == 1 AND thalach == 178.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 152.0 AND chol == 298.0 AND cp == 3 THEN target == 1"
+  expl: "IF cp == 3 AND chol == 298.0 AND trestbps == 152.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 0 AND cp == 0 AND trestbps == 102.0 AND chol == 265.0 AND fbs == 0 AND restecg == 0 AND thalach == 122.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 102.0 THEN target == 1"
+  expl: "IF trestbps == 102.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 0 AND cp == 2 AND trestbps == 115.0 AND chol == 564.0 AND fbs == 0 AND restecg == 0 AND thalach == 160.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 67.0 AND trestbps == 115.0 THEN target == 1"
+  expl: "IF trestbps == 115.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1 AND cp == 0 AND trestbps == 160.0 AND chol == 289.0 AND fbs == 0 AND restecg == 0 AND thalach == 145.0 AND exang == 1 AND oldpeak == 0.8 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 55.0 AND trestbps == 160.0 AND chol == 289.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 289.0 AND trestbps == 160.0 AND age == 55.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 246.0 AND fbs == 0 AND restecg == 0 AND thalach == 96.0 AND exang == 1 AND oldpeak == 2.2 AND slope == 0 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 64.0 AND trestbps == 120.0 AND chol == 246.0 THEN target == 0"
+  expl: "IF chol == 246.0 AND trestbps == 120.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 322.0 AND fbs == 0 AND restecg == 0 AND thalach == 109.0 AND exang == 0 AND oldpeak == 2.4 AND slope == 1 AND ca == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 70.0 AND trestbps == 130.0 THEN target == 0"
+  expl: "IF trestbps == 130.0 AND age == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 299.0 AND fbs == 0 AND restecg == 1 AND thalach == 173.0 AND exang == 1 AND oldpeak == 1.6 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 140.0 AND chol == 299.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 299.0 AND trestbps == 140.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 125.0 AND chol == 300.0 AND fbs == 0 AND restecg == 0 AND thalach == 171.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 125.0 AND chol == 300.0 THEN target == 0"
+  expl: "IF chol == 300.0 AND trestbps == 125.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 293.0 AND fbs == 0 AND restecg == 0 AND thalach == 170.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 60.0 AND trestbps == 140.0 AND chol == 293.0 THEN target == 0"
+  expl: "IF chol == 293.0 AND trestbps == 140.0 AND age == 60.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 1 AND cp == 2 AND trestbps == 118.0 AND chol == 277.0 AND fbs == 0 AND restecg == 1 AND thalach == 151.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 68.0 AND trestbps == 118.0 THEN target == 1"
+  expl: "IF trestbps == 118.0 AND age == 68.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1 AND cp == 1 AND trestbps == 101.0 AND chol == 197.0 AND fbs == 1 AND restecg == 1 AND thalach == 156.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 46.0 AND trestbps == 101.0 THEN target == 1"
+  expl: "IF trestbps == 101.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 77.0 AND sex == 1 AND cp == 0 AND trestbps == 125.0 AND chol == 304.0 AND fbs == 0 AND restecg == 0 AND thalach == 162.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 77.0 THEN target == 0"
+  expl: "IF age == 77.0 THEN target == 0"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0 AND cp == 2 AND trestbps == 110.0 AND chol == 214.0 AND fbs == 0 AND restecg == 1 AND thalach == 158.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 110.0 AND chol == 214.0 THEN target == 1"
+  expl: "IF chol == 214.0 AND trestbps == 110.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0 AND cp == 0 AND trestbps == 100.0 AND chol == 248.0 AND fbs == 0 AND restecg == 0 AND thalach == 122.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 100.0 AND chol == 248.0 THEN target == 1"
+  expl: "IF chol == 248.0 AND trestbps == 100.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1 AND cp == 2 AND trestbps == 124.0 AND chol == 255.0 AND fbs == 1 AND restecg == 1 AND thalach == 175.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 48.0 AND trestbps == 124.0 AND chol == 255.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 255.0 AND trestbps == 124.0 AND age == 48.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 132.0 AND chol == 207.0 AND fbs == 0 AND restecg == 1 AND thalach == 168.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 132.0 AND chol == 207.0 THEN target == 1"
+  expl: "IF chol == 207.0 AND trestbps == 132.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 2 AND trestbps == 138.0 AND chol == 223.0 AND fbs == 0 AND restecg == 1 AND thalach == 169.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 4 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 138.0 AND chol == 223.0 THEN target == 1"
+  expl: "IF chol == 223.0 AND trestbps == 138.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0 AND cp == 1 AND trestbps == 132.0 AND chol == 288.0 AND fbs == 1 AND restecg == 0 AND thalach == 159.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 132.0 AND chol == 288.0 THEN target == 1"
+  expl: "IF chol == 288.0 AND trestbps == 132.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 1 AND cp == 0 AND trestbps == 126.0 AND chol == 282.0 AND fbs == 0 AND restecg == 0 AND thalach == 156.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 35.0 AND trestbps == 126.0 AND chol == 282.0 THEN target == 0"
+  expl: "IF chol == 282.0 AND trestbps == 126.0 AND age == 35.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 0 AND cp == 1 AND trestbps == 112.0 AND chol == 160.0 AND fbs == 0 AND restecg == 1 AND thalach == 138.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 45.0 AND trestbps == 112.0 AND chol == 160.0 THEN target == 1"
+  expl: "IF chol == 160.0 AND trestbps == 112.0 AND age == 45.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1 AND cp == 2 AND trestbps == 160.0 AND chol == 269.0 AND fbs == 0 AND restecg == 1 AND thalach == 112.0 AND exang == 1 AND oldpeak == 2.9 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 70.0 AND trestbps == 160.0 THEN target == 0"
+  expl: "IF trestbps == 160.0 AND age == 70.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1 AND cp == 0 AND trestbps == 142.0 AND chol == 226.0 AND fbs == 0 AND restecg == 0 AND thalach == 111.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 142.0 THEN target == 1"
+  expl: "IF trestbps == 142.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 0 AND cp == 0 AND trestbps == 174.0 AND chol == 249.0 AND fbs == 0 AND restecg == 1 AND thalach == 143.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 174.0 THEN target == 0"
+  expl: "IF trestbps == 174.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 0 AND trestbps == 140.0 AND chol == 394.0 AND fbs == 0 AND restecg == 0 AND thalach == 157.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 62.0 AND trestbps == 140.0 AND chol == 394.0 AND cp == 0 THEN target == 1"
+  expl: "IF cp == 0 AND chol == 394.0 AND trestbps == 140.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 0 AND trestbps == 145.0 AND chol == 212.0 AND fbs == 0 AND restecg == 0 AND thalach == 132.0 AND exang == 0 AND oldpeak == 2.0 AND slope == 1 AND ca == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 64.0 AND trestbps == 145.0 AND chol == 212.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 212.0 AND trestbps == 145.0 AND age == 64.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 152.0 AND chol == 274.0 AND fbs == 0 AND restecg == 1 AND thalach == 88.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 152.0 AND chol == 274.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 274.0 AND trestbps == 152.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 0 AND trestbps == 108.0 AND chol == 233.0 AND fbs == 1 AND restecg == 1 AND thalach == 147.0 AND exang == 0 AND oldpeak == 0.1 AND slope == 2 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 52.0 AND trestbps == 108.0 AND chol == 233.0 THEN target == 0"
+  expl: "IF chol == 233.0 AND trestbps == 108.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 0 AND trestbps == 132.0 AND chol == 184.0 AND fbs == 0 AND restecg == 0 AND thalach == 105.0 AND exang == 1 AND oldpeak == 2.1 AND slope == 1 AND ca == 1 AND thal == 1 THEN target == 1"
+  dexp: "IF age == 56.0 AND trestbps == 132.0 AND chol == 184.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 184.0 AND trestbps == 132.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 315.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 1.9 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 43.0 AND trestbps == 130.0 AND chol == 315.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 315.0 AND trestbps == 130.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 246.0 AND fbs == 1 AND restecg == 0 AND thalach == 173.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 3 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 53.0 AND trestbps == 130.0 THEN target == 1"
+  expl: "IF trestbps == 130.0 AND age == 53.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 48.0 AND sex == 1 AND cp == 0 AND trestbps == 124.0 AND chol == 274.0 AND fbs == 0 AND restecg == 0 AND thalach == 166.0 AND exang == 0 AND oldpeak == 0.5 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 48.0 AND trestbps == 124.0 AND chol == 274.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 274.0 AND trestbps == 124.0 AND age == 48.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 0 AND cp == 0 AND trestbps == 134.0 AND chol == 409.0 AND fbs == 0 AND restecg == 0 AND thalach == 150.0 AND exang == 1 AND oldpeak == 1.9 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 56.0 AND trestbps == 134.0 AND chol == 409.0 THEN target == 0"
+  expl: "IF chol == 409.0 AND trestbps == 134.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1 AND cp == 3 AND trestbps == 148.0 AND chol == 244.0 AND fbs == 0 AND restecg == 0 AND thalach == 178.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 148.0 AND chol == 244.0 THEN target == 1"
+  expl: "IF chol == 244.0 AND trestbps == 148.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 3 AND trestbps == 178.0 AND chol == 270.0 AND fbs == 0 AND restecg == 0 AND thalach == 145.0 AND exang == 0 AND oldpeak == 4.2 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 59.0 AND trestbps == 178.0 AND chol == 270.0 AND cp == 3 THEN target == 1"
+  expl: "IF cp == 3 AND chol == 270.0 AND trestbps == 178.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0 AND cp == 1 AND trestbps == 140.0 AND chol == 195.0 AND fbs == 0 AND restecg == 1 AND thalach == 179.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 63.0 AND trestbps == 140.0 AND chol == 195.0 THEN target == 1"
+  expl: "IF chol == 195.0 AND trestbps == 140.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1 AND cp == 2 AND trestbps == 120.0 AND chol == 240.0 AND fbs == 1 AND restecg == 1 AND thalach == 194.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 120.0 AND chol == 240.0 THEN target == 1"
+  expl: "IF chol == 240.0 AND trestbps == 120.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1 AND cp == 1 AND trestbps == 160.0 AND chol == 246.0 AND fbs == 0 AND restecg == 1 AND thalach == 120.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 1 AND ca == 3 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 66.0 AND trestbps == 160.0 AND chol == 246.0 THEN target == 0"
+  expl: "IF chol == 246.0 AND trestbps == 160.0 AND age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 1 AND trestbps == 192.0 AND chol == 283.0 AND fbs == 0 AND restecg == 0 AND thalach == 195.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 192.0 AND chol == 283.0 THEN target == 1"
+  expl: "IF chol == 283.0 AND trestbps == 192.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 69.0 AND sex == 1 AND cp == 2 AND trestbps == 140.0 AND chol == 254.0 AND fbs == 0 AND restecg == 0 AND thalach == 146.0 AND exang == 0 AND oldpeak == 2.0 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 69.0 THEN target == 1"
+  expl: "IF age == 69.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1 AND cp == 2 AND trestbps == 129.0 AND chol == 196.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 50.0 AND trestbps == 129.0 THEN target == 1"
+  expl: "IF trestbps == 129.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 298.0 AND fbs == 0 AND restecg == 1 AND thalach == 122.0 AND exang == 1 AND oldpeak == 4.2 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 140.0 AND chol == 298.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 298.0 AND trestbps == 140.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1 AND cp == 0 AND trestbps == 132.0 AND chol == 247.0 AND fbs == 1 AND restecg == 0 AND thalach == 143.0 AND exang == 1 AND oldpeak == 0.1 AND slope == 1 AND ca == 4 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 43.0 AND trestbps == 132.0 AND chol == 247.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 247.0 AND trestbps == 132.0 AND age == 43.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 0 AND trestbps == 138.0 AND chol == 294.0 AND fbs == 1 AND restecg == 1 AND thalach == 106.0 AND exang == 0 AND oldpeak == 1.9 AND slope == 1 AND ca == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 138.0 AND chol == 294.0 THEN target == 0"
+  expl: "IF chol == 294.0 AND trestbps == 138.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 211.0 AND fbs == 0 AND restecg == 0 AND thalach == 115.0 AND exang == 0 AND oldpeak == 1.5 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 68.0 AND trestbps == 120.0 THEN target == 1"
+  expl: "IF trestbps == 120.0 AND age == 68.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1 AND cp == 0 AND trestbps == 100.0 AND chol == 299.0 AND fbs == 0 AND restecg == 0 AND thalach == 125.0 AND exang == 1 AND oldpeak == 0.9 AND slope == 1 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 67.0 AND trestbps == 100.0 AND chol == 299.0 THEN target == 0"
+  expl: "IF chol == 299.0 AND trestbps == 100.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 69.0 AND sex == 1 AND cp == 3 AND trestbps == 160.0 AND chol == 234.0 AND fbs == 1 AND restecg == 0 AND thalach == 131.0 AND exang == 0 AND oldpeak == 0.1 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 69.0 THEN target == 1"
+  expl: "IF age == 69.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 0 AND cp == 0 AND trestbps == 138.0 AND chol == 236.0 AND fbs == 0 AND restecg == 0 AND thalach == 152.0 AND exang == 1 AND oldpeak == 0.2 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 45.0 AND trestbps == 138.0 AND chol == 236.0 THEN target == 0"
+  expl: "IF chol == 236.0 AND trestbps == 138.0 AND age == 45.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 0 AND cp == 1 AND trestbps == 120.0 AND chol == 244.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 1.1 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 50.0 AND trestbps == 120.0 AND chol == 244.0 AND cp == 1 THEN target == 1"
+  expl: "IF chol == 244.0 AND trestbps == 120.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 3 AND trestbps == 160.0 AND chol == 273.0 AND fbs == 0 AND restecg == 0 AND thalach == 125.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 59.0 AND trestbps == 160.0 AND chol == 273.0 AND cp == 3 THEN target == 1"
+  expl: "IF cp == 3 AND chol == 273.0 AND trestbps == 160.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 0 AND cp == 0 AND trestbps == 110.0 AND chol == 254.0 AND fbs == 0 AND restecg == 0 AND thalach == 159.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 50.0 AND trestbps == 110.0 AND chol == 254.0 THEN target == 1"
+  expl: "IF chol == 254.0 AND trestbps == 110.0 AND age == 50.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 0 AND cp == 0 AND trestbps == 180.0 AND chol == 325.0 AND fbs == 0 AND restecg == 1 AND thalach == 154.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 64.0 AND trestbps == 180.0 AND chol == 325.0 AND cp == 0 THEN target == 1"
+  expl: "IF cp == 0 AND chol == 325.0 AND trestbps == 180.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 2 AND trestbps == 150.0 AND chol == 126.0 AND fbs == 1 AND restecg == 1 AND thalach == 173.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 150.0 AND chol == 126.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 126.0 AND trestbps == 150.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 0 AND cp == 2 AND trestbps == 140.0 AND chol == 313.0 AND fbs == 0 AND restecg == 1 AND thalach == 133.0 AND exang == 0 AND oldpeak == 0.2 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 64.0 AND trestbps == 140.0 AND chol == 313.0 AND cp == 2 AND sex == 0 THEN target == 1"
+  expl: "IF sex == 0 AND chol == 313.0 AND trestbps == 140.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 211.0 AND fbs == 0 AND restecg == 1 AND thalach == 161.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 43.0 AND trestbps == 110.0 AND chol == 211.0 THEN target == 1"
+  expl: "IF chol == 211.0 AND trestbps == 110.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1 AND cp == 0 AND trestbps == 142.0 AND chol == 309.0 AND fbs == 0 AND restecg == 0 AND thalach == 147.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 1 AND ca == 3 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 45.0 AND trestbps == 142.0 AND chol == 309.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 309.0 AND trestbps == 142.0 AND age == 45.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 128.0 AND chol == 259.0 AND fbs == 0 AND restecg == 0 AND thalach == 130.0 AND exang == 1 AND oldpeak == 3.0 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 128.0 AND chol == 259.0 THEN target == 0"
+  expl: "IF chol == 259.0 AND trestbps == 128.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 50.0 AND sex == 1 AND cp == 0 AND trestbps == 144.0 AND chol == 200.0 AND fbs == 0 AND restecg == 0 AND thalach == 126.0 AND exang == 1 AND oldpeak == 0.9 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 50.0 AND trestbps == 144.0 THEN target == 0"
+  expl: "IF trestbps == 144.0 AND age == 50.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 1 AND cp == 1 AND trestbps == 130.0 AND chol == 262.0 AND fbs == 0 AND restecg == 1 AND thalach == 155.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 55.0 AND trestbps == 130.0 AND chol == 262.0 THEN target == 1"
+  expl: "IF chol == 262.0 AND trestbps == 130.0 AND age == 55.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 0 AND cp == 0 AND trestbps == 150.0 AND chol == 244.0 AND fbs == 0 AND restecg == 1 AND thalach == 154.0 AND exang == 1 AND oldpeak == 1.4 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 62.0 AND trestbps == 150.0 AND chol == 244.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 244.0 AND trestbps == 150.0 AND age == 62.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 37.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 215.0 AND fbs == 0 AND restecg == 1 AND thalach == 170.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 37.0 AND trestbps == 120.0 AND chol == 215.0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND chol == 215.0 AND trestbps == 120.0 AND age == 37.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 38.0 AND sex == 1 AND cp == 3 AND trestbps == 120.0 AND chol == 231.0 AND fbs == 0 AND restecg == 1 AND thalach == 182.0 AND exang == 1 AND oldpeak == 3.8 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 38.0 THEN target == 1"
+  expl: "IF age == 38.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 214.0 AND fbs == 0 AND restecg == 0 AND thalach == 168.0 AND exang == 0 AND oldpeak == 2.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 130.0 AND chol == 214.0 THEN target == 1"
+  expl: "IF chol == 214.0 AND trestbps == 130.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 0 AND cp == 0 AND trestbps == 178.0 AND chol == 228.0 AND fbs == 1 AND restecg == 1 AND thalach == 165.0 AND exang == 1 AND oldpeak == 1.0 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 66.0 AND trestbps == 178.0 AND chol == 228.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 228.0 AND trestbps == 178.0 AND age == 66.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 0 AND trestbps == 112.0 AND chol == 230.0 AND fbs == 0 AND restecg == 1 AND thalach == 160.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 52.0 AND trestbps == 112.0 AND chol == 230.0 THEN target == 0"
+  expl: "IF chol == 230.0 AND trestbps == 112.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 3 AND trestbps == 120.0 AND chol == 193.0 AND fbs == 0 AND restecg == 0 AND thalach == 162.0 AND exang == 0 AND oldpeak == 1.9 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 56.0 AND trestbps == 120.0 AND chol == 193.0 THEN target == 1"
+  expl: "IF chol == 193.0 AND trestbps == 120.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 0 AND cp == 1 AND trestbps == 105.0 AND chol == 204.0 AND fbs == 0 AND restecg == 1 AND thalach == 172.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 46.0 AND trestbps == 105.0 THEN target == 1"
+  expl: "IF trestbps == 105.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 0 AND cp == 0 AND trestbps == 138.0 AND chol == 243.0 AND fbs == 0 AND restecg == 0 AND thalach == 152.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 46.0 AND trestbps == 138.0 AND chol == 243.0 THEN target == 1"
+  expl: "IF chol == 243.0 AND trestbps == 138.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 0 AND cp == 0 AND trestbps == 130.0 AND chol == 303.0 AND fbs == 0 AND restecg == 1 AND thalach == 122.0 AND exang == 0 AND oldpeak == 2.0 AND slope == 1 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 64.0 AND trestbps == 130.0 AND chol == 303.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 303.0 AND trestbps == 130.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 0 AND trestbps == 138.0 AND chol == 271.0 AND fbs == 0 AND restecg == 0 AND thalach == 182.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 59.0 AND trestbps == 138.0 AND chol == 271.0 THEN target == 1"
+  expl: "IF chol == 271.0 AND trestbps == 138.0 AND age == 59.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0 AND cp == 2 AND trestbps == 112.0 AND chol == 268.0 AND fbs == 0 AND restecg == 0 AND thalach == 172.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 112.0 AND chol == 268.0 THEN target == 1"
+  expl: "IF chol == 268.0 AND trestbps == 112.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0 AND cp == 2 AND trestbps == 108.0 AND chol == 267.0 AND fbs == 0 AND restecg == 0 AND thalach == 167.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 108.0 AND chol == 267.0 THEN target == 1"
+  expl: "IF chol == 267.0 AND trestbps == 108.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 0 AND cp == 2 AND trestbps == 94.0 AND chol == 199.0 AND fbs == 0 AND restecg == 1 AND thalach == 179.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 39.0 AND trestbps == 94.0 THEN target == 1"
+  expl: "IF trestbps == 94.0 AND age == 39.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 53.0 AND sex == 1 AND cp == 0 AND trestbps == 123.0 AND chol == 282.0 AND fbs == 0 AND restecg == 1 AND thalach == 95.0 AND exang == 1 AND oldpeak == 2.0 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 53.0 AND trestbps == 123.0 THEN target == 0"
+  expl: "IF trestbps == 123.0 AND age == 53.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0 AND cp == 0 AND trestbps == 108.0 AND chol == 269.0 AND fbs == 0 AND restecg == 1 AND thalach == 169.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 1 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 63.0 AND trestbps == 108.0 AND chol == 269.0 THEN target == 0"
+  expl: "IF chol == 269.0 AND trestbps == 108.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 34.0 AND sex == 0 AND cp == 1 AND trestbps == 118.0 AND chol == 210.0 AND fbs == 0 AND restecg == 1 AND thalach == 192.0 AND exang == 0 AND oldpeak == 0.7 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 34.0 THEN target == 1"
+  expl: "IF age == 34.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1 AND cp == 0 AND trestbps == 112.0 AND chol == 204.0 AND fbs == 0 AND restecg == 1 AND thalach == 143.0 AND exang == 0 AND oldpeak == 0.1 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 47.0 AND trestbps == 112.0 AND chol == 204.0 THEN target == 1"
+  expl: "IF chol == 204.0 AND trestbps == 112.0 AND age == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 0 AND cp == 2 AND trestbps == 152.0 AND chol == 277.0 AND fbs == 0 AND restecg == 1 AND thalach == 172.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 67.0 AND trestbps == 152.0 AND chol == 277.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 277.0 AND trestbps == 152.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 206.0 AND fbs == 0 AND restecg == 0 AND thalach == 108.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 110.0 AND chol == 206.0 THEN target == 0"
+  expl: "IF chol == 206.0 AND trestbps == 110.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1 AND cp == 0 AND trestbps == 112.0 AND chol == 212.0 AND fbs == 0 AND restecg == 0 AND thalach == 132.0 AND exang == 1 AND oldpeak == 0.1 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 66.0 AND trestbps == 112.0 AND chol == 212.0 THEN target == 0"
+  expl: "IF chol == 212.0 AND trestbps == 112.0 AND age == 66.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 0 AND cp == 2 AND trestbps == 136.0 AND chol == 196.0 AND fbs == 0 AND restecg == 0 AND thalach == 169.0 AND exang == 0 AND oldpeak == 0.1 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 136.0 AND chol == 196.0 THEN target == 1"
+  expl: "IF chol == 196.0 AND trestbps == 136.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 0 AND cp == 0 AND trestbps == 180.0 AND chol == 327.0 AND fbs == 0 AND restecg == 2 AND thalach == 117.0 AND exang == 1 AND oldpeak == 3.4 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 55.0 AND trestbps == 180.0 AND chol == 327.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 327.0 AND trestbps == 180.0 AND age == 55.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 1 AND cp == 2 AND trestbps == 118.0 AND chol == 149.0 AND fbs == 0 AND restecg == 0 AND thalach == 126.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 3 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 49.0 AND trestbps == 118.0 AND chol == 149.0 THEN target == 0"
+  expl: "IF chol == 149.0 AND trestbps == 118.0 AND age == 49.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 74.0 AND sex == 0 AND cp == 1 AND trestbps == 120.0 AND chol == 269.0 AND fbs == 0 AND restecg == 0 AND thalach == 121.0 AND exang == 1 AND oldpeak == 0.2 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 74.0 THEN target == 1"
+  expl: "IF age == 74.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 0 AND cp == 2 AND trestbps == 160.0 AND chol == 201.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 54.0 AND trestbps == 160.0 AND chol == 201.0 THEN target == 1"
+  expl: "IF chol == 201.0 AND trestbps == 160.0 AND age == 54.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 54.0 AND sex == 1 AND cp == 0 AND trestbps == 122.0 AND chol == 286.0 AND fbs == 0 AND restecg == 0 AND thalach == 116.0 AND exang == 1 AND oldpeak == 3.2 AND slope == 1 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 54.0 AND trestbps == 122.0 AND chol == 286.0 THEN target == 0"
+  expl: "IF chol == 286.0 AND trestbps == 122.0 AND age == 54.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 283.0 AND fbs == 1 AND restecg == 0 AND thalach == 103.0 AND exang == 1 AND oldpeak == 1.6 AND slope == 0 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 56.0 AND trestbps == 130.0 AND chol == 283.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 283.0 AND trestbps == 130.0 AND age == 56.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 249.0 AND fbs == 0 AND restecg == 0 AND thalach == 144.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 46.0 AND trestbps == 120.0 AND chol == 249.0 THEN target == 0"
+  expl: "IF chol == 249.0 AND trestbps == 120.0 AND age == 46.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 0 AND cp == 1 AND trestbps == 134.0 AND chol == 271.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 49.0 AND trestbps == 134.0 AND chol == 271.0 THEN target == 1"
+  expl: "IF chol == 271.0 AND trestbps == 134.0 AND age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 295.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 120.0 AND chol == 295.0 THEN target == 1"
+  expl: "IF chol == 295.0 AND trestbps == 120.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1 AND cp == 1 AND trestbps == 110.0 AND chol == 235.0 AND fbs == 0 AND restecg == 1 AND thalach == 153.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 110.0 AND chol == 235.0 THEN target == 1"
+  expl: "IF chol == 235.0 AND trestbps == 110.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 0 AND cp == 1 AND trestbps == 126.0 AND chol == 306.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 126.0 AND chol == 306.0 THEN target == 1"
+  expl: "IF chol == 306.0 AND trestbps == 126.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 49.0 AND sex == 0 AND cp == 0 AND trestbps == 130.0 AND chol == 269.0 AND fbs == 0 AND restecg == 1 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 49.0 AND trestbps == 130.0 AND chol == 269.0 THEN target == 1"
+  expl: "IF chol == 269.0 AND trestbps == 130.0 AND age == 49.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1 AND cp == 3 AND trestbps == 134.0 AND chol == 234.0 AND fbs == 0 AND restecg == 1 AND thalach == 145.0 AND exang == 0 AND oldpeak == 2.6 AND slope == 1 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 61.0 AND trestbps == 134.0 AND chol == 234.0 THEN target == 0"
+  expl: "IF chol == 234.0 AND trestbps == 134.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 178.0 AND fbs == 1 AND restecg == 1 AND thalach == 96.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 60.0 AND trestbps == 120.0 AND chol == 178.0 THEN target == 1"
+  expl: "IF chol == 178.0 AND trestbps == 120.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 237.0 AND fbs == 0 AND restecg == 1 AND thalach == 71.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 67.0 AND trestbps == 120.0 AND chol == 237.0 THEN target == 0"
+  expl: "IF chol == 237.0 AND trestbps == 120.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 100.0 AND chol == 234.0 AND fbs == 0 AND restecg == 1 AND thalach == 156.0 AND exang == 0 AND oldpeak == 0.1 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 100.0 AND chol == 234.0 THEN target == 1"
+  expl: "IF chol == 234.0 AND trestbps == 100.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 275.0 AND fbs == 0 AND restecg == 0 AND thalach == 118.0 AND exang == 1 AND oldpeak == 1.0 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 47.0 AND trestbps == 110.0 AND chol == 275.0 THEN target == 0"
+  expl: "IF chol == 275.0 AND trestbps == 110.0 AND age == 47.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 0 AND trestbps == 125.0 AND chol == 212.0 AND fbs == 0 AND restecg == 1 AND thalach == 168.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 2 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 52.0 AND trestbps == 125.0 AND chol == 212.0 THEN target == 0"
+  expl: "IF chol == 212.0 AND trestbps == 125.0 AND age == 52.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 62.0 AND sex == 1 AND cp == 1 AND trestbps == 128.0 AND chol == 208.0 AND fbs == 1 AND restecg == 0 AND thalach == 140.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 62.0 AND trestbps == 128.0 AND chol == 208.0 THEN target == 1"
+  expl: "IF chol == 208.0 AND trestbps == 128.0 AND age == 62.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 201.0 AND fbs == 0 AND restecg == 1 AND thalach == 126.0 AND exang == 1 AND oldpeak == 1.5 AND slope == 1 AND ca == 0 AND thal == 1 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 110.0 AND chol == 201.0 THEN target == 1"
+  expl: "IF chol == 201.0 AND trestbps == 110.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 146.0 AND chol == 218.0 AND fbs == 0 AND restecg == 1 AND thalach == 105.0 AND exang == 0 AND oldpeak == 2.0 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 146.0 AND chol == 218.0 THEN target == 0"
+  expl: "IF chol == 218.0 AND trestbps == 146.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 0 AND trestbps == 128.0 AND chol == 263.0 AND fbs == 0 AND restecg == 1 AND thalach == 105.0 AND exang == 1 AND oldpeak == 0.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 64.0 AND trestbps == 128.0 AND chol == 263.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 263.0 AND trestbps == 128.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 51.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 295.0 AND fbs == 0 AND restecg == 0 AND thalach == 157.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 51.0 AND trestbps == 120.0 AND chol == 295.0 AND cp == 2 THEN target == 1"
+  expl: "IF chol == 295.0 AND trestbps == 120.0 AND age == 51.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 43.0 AND sex == 1 AND cp == 0 AND trestbps == 115.0 AND chol == 303.0 AND fbs == 0 AND restecg == 1 AND thalach == 181.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 43.0 AND trestbps == 115.0 THEN target == 1"
+  expl: "IF trestbps == 115.0 AND age == 43.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 0 AND cp == 2 AND trestbps == 120.0 AND chol == 209.0 AND fbs == 0 AND restecg == 1 AND thalach == 173.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 120.0 AND chol == 209.0 THEN target == 1"
+  expl: "IF chol == 209.0 AND trestbps == 120.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 0 AND cp == 0 AND trestbps == 106.0 AND chol == 223.0 AND fbs == 0 AND restecg == 1 AND thalach == 142.0 AND exang == 0 AND oldpeak == 0.3 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 67.0 AND trestbps == 106.0 THEN target == 1"
+  expl: "IF trestbps == 106.0 AND age == 67.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 76.0 AND sex == 0 AND cp == 2 AND trestbps == 140.0 AND chol == 197.0 AND fbs == 0 AND restecg == 2 AND thalach == 116.0 AND exang == 0 AND oldpeak == 1.1 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 76.0 THEN target == 1"
+  expl: "IF age == 76.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 70.0 AND sex == 1 AND cp == 1 AND trestbps == 156.0 AND chol == 245.0 AND fbs == 0 AND restecg == 0 AND thalach == 143.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 70.0 AND trestbps == 156.0 THEN target == 1"
+  expl: "IF trestbps == 156.0 AND age == 70.0 THEN target == 1"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 1 AND trestbps == 124.0 AND chol == 261.0 AND fbs == 0 AND restecg == 1 AND thalach == 141.0 AND exang == 0 AND oldpeak == 0.3 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 124.0 AND chol == 261.0 AND cp == 1 THEN target == 0"
+  expl: "IF cp == 1 AND chol == 261.0 AND trestbps == 124.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 0 AND cp == 2 AND trestbps == 118.0 AND chol == 242.0 AND fbs == 0 AND restecg == 1 AND thalach == 149.0 AND exang == 0 AND oldpeak == 0.3 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 118.0 AND chol == 242.0 THEN target == 1"
+  expl: "IF chol == 242.0 AND trestbps == 118.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0 AND cp == 1 AND trestbps == 136.0 AND chol == 319.0 AND fbs == 1 AND restecg == 0 AND thalach == 152.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 136.0 AND chol == 319.0 THEN target == 0"
+  expl: "IF chol == 319.0 AND trestbps == 136.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 60.0 AND sex == 0 AND cp == 3 AND trestbps == 150.0 AND chol == 240.0 AND fbs == 0 AND restecg == 1 AND thalach == 171.0 AND exang == 0 AND oldpeak == 0.9 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 60.0 AND trestbps == 150.0 AND chol == 240.0 THEN target == 1"
+  expl: "IF chol == 240.0 AND trestbps == 150.0 AND age == 60.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 2 AND trestbps == 120.0 AND chol == 226.0 AND fbs == 0 AND restecg == 1 AND thalach == 169.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 44.0 AND trestbps == 120.0 AND chol == 226.0 THEN target == 1"
+  expl: "IF chol == 226.0 AND trestbps == 120.0 AND age == 44.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1 AND cp == 0 AND trestbps == 138.0 AND chol == 166.0 AND fbs == 0 AND restecg == 0 AND thalach == 125.0 AND exang == 1 AND oldpeak == 3.6 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 61.0 AND trestbps == 138.0 AND chol == 166.0 THEN target == 0"
+  expl: "IF chol == 166.0 AND trestbps == 138.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1 AND cp == 0 AND trestbps == 136.0 AND chol == 315.0 AND fbs == 0 AND restecg == 1 AND thalach == 125.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 1 AND ca == 0 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 42.0 AND trestbps == 136.0 AND chol == 315.0 THEN target == 0"
+  expl: "IF chol == 315.0 AND trestbps == 136.0 AND age == 42.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 52.0 AND sex == 1 AND cp == 0 AND trestbps == 128.0 AND chol == 204.0 AND fbs == 1 AND restecg == 1 AND thalach == 156.0 AND exang == 1 AND oldpeak == 1.0 AND slope == 1 AND ca == 0 AND thal == 0 THEN target == 1"
+  dexp: "IF age == 52.0 AND trestbps == 128.0 AND chol == 204.0 THEN target == 1"
+  expl: "IF chol == 204.0 AND trestbps == 128.0 AND age == 52.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 2 AND trestbps == 126.0 AND chol == 218.0 AND fbs == 1 AND restecg == 1 AND thalach == 134.0 AND exang == 0 AND oldpeak == 2.2 AND slope == 1 AND ca == 1 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 126.0 AND chol == 218.0 THEN target == 0"
+  expl: "IF chol == 218.0 AND trestbps == 126.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 40.0 AND sex == 1 AND cp == 0 AND trestbps == 152.0 AND chol == 223.0 AND fbs == 0 AND restecg == 1 AND thalach == 181.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 40.0 AND trestbps == 152.0 AND chol == 223.0 THEN target == 0"
+  expl: "IF chol == 223.0 AND trestbps == 152.0 AND age == 40.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 42.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 180.0 AND fbs == 0 AND restecg == 1 AND thalach == 150.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 42.0 AND trestbps == 130.0 AND chol == 180.0 THEN target == 1"
+  expl: "IF chol == 180.0 AND trestbps == 130.0 AND age == 42.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 207.0 AND fbs == 0 AND restecg == 0 AND thalach == 138.0 AND exang == 1 AND oldpeak == 1.9 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 61.0 AND trestbps == 140.0 AND chol == 207.0 THEN target == 1"
+  expl: "IF chol == 207.0 AND trestbps == 140.0 AND age == 61.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 1 AND cp == 0 AND trestbps == 160.0 AND chol == 228.0 AND fbs == 0 AND restecg == 0 AND thalach == 138.0 AND exang == 0 AND oldpeak == 2.3 AND slope == 2 AND ca == 0 AND thal == 1 THEN target == 1"
+  dexp: "IF age == 66.0 AND trestbps == 160.0 AND chol == 228.0 AND cp == 0 THEN target == 1"
+  expl: "IF chol == 228.0 AND trestbps == 160.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 46.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 311.0 AND fbs == 0 AND restecg == 1 AND thalach == 120.0 AND exang == 1 AND oldpeak == 1.8 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 46.0 AND trestbps == 140.0 AND chol == 311.0 AND cp == 0 THEN target == 1"
+  expl: "IF cp == 0 AND chol == 311.0 AND trestbps == 140.0 AND age == 46.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 71.0 AND sex == 0 AND cp == 0 AND trestbps == 112.0 AND chol == 149.0 AND fbs == 0 AND restecg == 1 AND thalach == 125.0 AND exang == 0 AND oldpeak == 1.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 71.0 THEN target == 1"
+  expl: "IF age == 71.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 3 AND trestbps == 134.0 AND chol == 204.0 AND fbs == 0 AND restecg == 1 AND thalach == 162.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 2 AND ca == 2 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 134.0 AND chol == 204.0 THEN target == 0"
+  expl: "IF chol == 204.0 AND trestbps == 134.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 64.0 AND sex == 1 AND cp == 3 AND trestbps == 170.0 AND chol == 227.0 AND fbs == 0 AND restecg == 0 AND thalach == 155.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 64.0 AND trestbps == 170.0 AND chol == 227.0 THEN target == 1"
+  expl: "IF chol == 227.0 AND trestbps == 170.0 AND age == 64.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 66.0 AND sex == 0 AND cp == 2 AND trestbps == 146.0 AND chol == 278.0 AND fbs == 0 AND restecg == 0 AND thalach == 152.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 66.0 AND trestbps == 146.0 AND chol == 278.0 THEN target == 1"
+  expl: "IF chol == 278.0 AND trestbps == 146.0 AND age == 66.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 39.0 AND sex == 0 AND cp == 2 AND trestbps == 138.0 AND chol == 220.0 AND fbs == 0 AND restecg == 1 AND thalach == 152.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 39.0 AND trestbps == 138.0 AND chol == 220.0 THEN target == 1"
+  expl: "IF chol == 220.0 AND trestbps == 138.0 AND age == 39.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 1 AND trestbps == 154.0 AND chol == 232.0 AND fbs == 0 AND restecg == 0 AND thalach == 164.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 57.0 AND trestbps == 154.0 AND chol == 232.0 AND cp == 1 THEN target == 1"
+  expl: "IF chol == 232.0 AND trestbps == 154.0 AND age == 57.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0 AND cp == 0 AND trestbps == 130.0 AND chol == 197.0 AND fbs == 0 AND restecg == 1 AND thalach == 131.0 AND exang == 0 AND oldpeak == 0.6 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 130.0 AND chol == 197.0 THEN target == 1"
+  expl: "IF chol == 197.0 AND trestbps == 130.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 110.0 AND chol == 335.0 AND fbs == 0 AND restecg == 1 AND thalach == 143.0 AND exang == 1 AND oldpeak == 3.0 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 110.0 AND chol == 335.0 THEN target == 0"
+  expl: "IF chol == 335.0 AND trestbps == 110.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 47.0 AND sex == 1 AND cp == 2 AND trestbps == 130.0 AND chol == 253.0 AND fbs == 0 AND restecg == 1 AND thalach == 179.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 47.0 AND trestbps == 130.0 AND chol == 253.0 THEN target == 1"
+  expl: "IF chol == 253.0 AND trestbps == 130.0 AND age == 47.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 0 AND cp == 0 AND trestbps == 128.0 AND chol == 205.0 AND fbs == 0 AND restecg == 2 AND thalach == 130.0 AND exang == 1 AND oldpeak == 2.0 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 55.0 AND trestbps == 128.0 AND chol == 205.0 AND cp == 0 THEN target == 0"
+  expl: "IF cp == 0 AND chol == 205.0 AND trestbps == 128.0 AND age == 55.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 35.0 AND sex == 1 AND cp == 1 AND trestbps == 122.0 AND chol == 192.0 AND fbs == 0 AND restecg == 1 AND thalach == 174.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 35.0 AND trestbps == 122.0 AND chol == 192.0 THEN target == 1"
+  expl: "IF chol == 192.0 AND trestbps == 122.0 AND age == 35.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 61.0 AND sex == 1 AND cp == 0 AND trestbps == 148.0 AND chol == 203.0 AND fbs == 0 AND restecg == 1 AND thalach == 161.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 61.0 AND trestbps == 148.0 AND chol == 203.0 THEN target == 0"
+  expl: "IF chol == 203.0 AND trestbps == 148.0 AND age == 61.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 0 AND trestbps == 114.0 AND chol == 318.0 AND fbs == 0 AND restecg == 2 AND thalach == 140.0 AND exang == 0 AND oldpeak == 4.4 AND slope == 0 AND ca == 3 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 114.0 THEN target == 0"
+  expl: "IF trestbps == 114.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 0 AND cp == 0 AND trestbps == 170.0 AND chol == 225.0 AND fbs == 1 AND restecg == 0 AND thalach == 146.0 AND exang == 1 AND oldpeak == 2.8 AND slope == 1 AND ca == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 58.0 AND trestbps == 170.0 AND chol == 225.0 THEN target == 0"
+  expl: "IF chol == 225.0 AND trestbps == 170.0 AND age == 58.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 58.0 AND sex == 1 AND cp == 1 AND trestbps == 125.0 AND chol == 220.0 AND fbs == 0 AND restecg == 1 AND thalach == 144.0 AND exang == 0 AND oldpeak == 0.4 AND slope == 1 AND ca == 4 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 58.0 AND trestbps == 125.0 AND chol == 220.0 THEN target == 1"
+  expl: "IF chol == 220.0 AND trestbps == 125.0 AND age == 58.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 1 AND trestbps == 130.0 AND chol == 221.0 AND fbs == 0 AND restecg == 0 AND thalach == 163.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 3 THEN target == 1"
+  dexp: "IF age == 56.0 AND trestbps == 130.0 AND chol == 221.0 THEN target == 1"
+  expl: "IF chol == 221.0 AND trestbps == 130.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 56.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 240.0 AND fbs == 0 AND restecg == 1 AND thalach == 169.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 0 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 56.0 AND trestbps == 120.0 AND chol == 240.0 THEN target == 1"
+  expl: "IF chol == 240.0 AND trestbps == 120.0 AND age == 56.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 67.0 AND sex == 1 AND cp == 2 AND trestbps == 152.0 AND chol == 212.0 AND fbs == 0 AND restecg == 0 AND thalach == 150.0 AND exang == 0 AND oldpeak == 0.8 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 67.0 AND trestbps == 152.0 AND chol == 212.0 AND cp == 2 THEN target == 0"
+  expl: "IF cp == 2 AND chol == 212.0 AND trestbps == 152.0 AND age == 67.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 55.0 AND sex == 0 AND cp == 1 AND trestbps == 132.0 AND chol == 342.0 AND fbs == 0 AND restecg == 1 AND thalach == 166.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 55.0 AND trestbps == 132.0 AND chol == 342.0 AND cp == 1 THEN target == 1"
+  expl: "IF cp == 1 AND chol == 342.0 AND trestbps == 132.0 AND age == 55.0 THEN target == 1"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 44.0 AND sex == 1 AND cp == 0 AND trestbps == 120.0 AND chol == 169.0 AND fbs == 0 AND restecg == 1 AND thalach == 144.0 AND exang == 1 AND oldpeak == 2.8 AND slope == 0 AND ca == 0 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 44.0 AND trestbps == 120.0 AND chol == 169.0 THEN target == 0"
+  expl: "IF chol == 169.0 AND trestbps == 120.0 AND age == 44.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 1 AND cp == 0 AND trestbps == 140.0 AND chol == 187.0 AND fbs == 0 AND restecg == 0 AND thalach == 144.0 AND exang == 1 AND oldpeak == 4.0 AND slope == 2 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 63.0 AND trestbps == 140.0 AND chol == 187.0 THEN target == 0"
+  expl: "IF chol == 187.0 AND trestbps == 140.0 AND age == 63.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 63.0 AND sex == 0 AND cp == 0 AND trestbps == 124.0 AND chol == 197.0 AND fbs == 0 AND restecg == 1 AND thalach == 136.0 AND exang == 1 AND oldpeak == 0.0 AND slope == 1 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 63.0 AND trestbps == 124.0 AND chol == 197.0 THEN target == 1"
+  expl: "IF chol == 197.0 AND trestbps == 124.0 AND age == 63.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 41.0 AND sex == 1 AND cp == 1 AND trestbps == 120.0 AND chol == 157.0 AND fbs == 0 AND restecg == 1 AND thalach == 182.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 0 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 41.0 AND trestbps == 120.0 AND chol == 157.0 THEN target == 1"
+  expl: "IF chol == 157.0 AND trestbps == 120.0 AND age == 41.0 THEN target == 1"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 59.0 AND sex == 1 AND cp == 0 AND trestbps == 164.0 AND chol == 176.0 AND fbs == 1 AND restecg == 0 AND thalach == 90.0 AND exang == 0 AND oldpeak == 1.0 AND slope == 1 AND ca == 2 AND thal == 1 THEN target == 0"
+  dexp: "IF age == 59.0 AND trestbps == 164.0 THEN target == 0"
+  expl: "IF trestbps == 164.0 AND age == 59.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 0 AND cp == 0 AND trestbps == 140.0 AND chol == 241.0 AND fbs == 0 AND restecg == 1 AND thalach == 123.0 AND exang == 1 AND oldpeak == 0.2 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 140.0 AND chol == 241.0 THEN target == 0"
+  expl: "IF chol == 241.0 AND trestbps == 140.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 45.0 AND sex == 1 AND cp == 3 AND trestbps == 110.0 AND chol == 264.0 AND fbs == 0 AND restecg == 1 AND thalach == 132.0 AND exang == 0 AND oldpeak == 1.2 AND slope == 1 AND ca == 0 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 45.0 AND trestbps == 110.0 AND chol == 264.0 THEN target == 0"
+  expl: "IF chol == 264.0 AND trestbps == 110.0 AND age == 45.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 68.0 AND sex == 1 AND cp == 0 AND trestbps == 144.0 AND chol == 193.0 AND fbs == 1 AND restecg == 1 AND thalach == 141.0 AND exang == 0 AND oldpeak == 3.4 AND slope == 1 AND ca == 2 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 68.0 AND trestbps == 144.0 THEN target == 0"
+  expl: "IF trestbps == 144.0 AND age == 68.0 THEN target == 0"
+  # hypos left: 2
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 1 AND cp == 0 AND trestbps == 130.0 AND chol == 131.0 AND fbs == 0 AND restecg == 1 AND thalach == 115.0 AND exang == 1 AND oldpeak == 1.2 AND slope == 1 AND ca == 1 AND thal == 3 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 130.0 AND chol == 131.0 THEN target == 0"
+  expl: "IF chol == 131.0 AND trestbps == 130.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 3
+  time: 0.00
+
+  inst: "IF age == 57.0 AND sex == 0 AND cp == 1 AND trestbps == 130.0 AND chol == 236.0 AND fbs == 0 AND restecg == 0 AND thalach == 174.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 1 AND ca == 1 AND thal == 2 THEN target == 0"
+  dexp: "IF age == 57.0 AND trestbps == 130.0 AND chol == 236.0 AND cp == 1 THEN target == 0"
+  expl: "IF cp == 1 AND chol == 236.0 AND trestbps == 130.0 AND age == 57.0 THEN target == 0"
+  # hypos left: 4
+  time: 0.00
+
+  inst: "IF age == 38.0 AND sex == 1 AND cp == 2 AND trestbps == 138.0 AND chol == 175.0 AND fbs == 0 AND restecg == 1 AND thalach == 173.0 AND exang == 0 AND oldpeak == 0.0 AND slope == 2 AND ca == 4 AND thal == 2 THEN target == 1"
+  dexp: "IF age == 38.0 THEN target == 1"
+  expl: "IF age == 38.0 THEN target == 1"
+  # hypos left: 1
+  time: 0.00
+
+# of insts: 302
+tot # of expls: 302
+min # of expls: 1
+avg # of expls: 1.00
+max # of expls: 1
+
+Min expl sz: 1
+min expl sz: 2.95
+avg expl sz: 2.95
+max expl sz: 2.95
+Max expl sz: 5
+
+tot time: 0.08
+min time: 0.00
+avg time: 0.00
+max time: 0.00
+
+min dxrd:   0.00%
+avg dxrd:   2.43%
+max dxrd:  40.00%
