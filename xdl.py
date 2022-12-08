@@ -80,7 +80,7 @@ if __name__ == '__main__':
                     use_mhs=options.use_mhs, reduce_=options.reduce)
 
             if options.redcheck:
-                dxprd.append((len(explainer.redcheck) - len(expls[0])) / len(explainer.redcheck))
+                dxprd.append(100. * (len(explainer.redcheck) - len(expls[0])) / len(explainer.redcheck))
 
             nofex.append(len(expls))
             minex.append(min([len(e) for e in expls]))
@@ -108,6 +108,6 @@ if __name__ == '__main__':
 
             if options.redcheck:
                 print('')
-                print('min dxrd: {0:.4f}%'.format(min(dxprd)))
-                print('avg dxrd: {0:.4f}%'.format(statistics.mean(dxprd)))
-                print('max dxrd: {0:.4f}%'.format(max(dxprd)))
+                print('min dxrd: {0:>{width}.2f}%'.format(min(dxprd), width=6))
+                print('avg dxrd: {0:>{width}.2f}%'.format(statistics.mean(dxprd), width=6))
+                print('max dxrd: {0:>{width}.2f}%'.format(max(dxprd), width=6))
